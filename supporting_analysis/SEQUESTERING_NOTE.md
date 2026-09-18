@@ -1,7 +1,7 @@
 # Radiative Sequestering of the Hidden Source J[Ψ] = κ_ES²E
 ## Record-side note — MQGT-SCF verification program, parallel 2 (2026-09-18)
 
-> **ERRATUM (2026-09-18, Grok review — both points verified and repaired):**
+> **ERRATUM (2026-09-18, ChatGPT review — both points verified and repaired):**
 > the original §3(e) claimed the κ vertex reaches the E propagator "only at
 > two loops" with δm_E² ~ κ_E²Λ²/(16π²)². Wrong twice: (i) two κ vertices
 > already make a **one-loop** E self-energy bubble (internal S₁, S₂ lines);
@@ -10,7 +10,8 @@
 > (log-divergent) and the Z₂_h-allowed E²X² portal tadpoles (quadratic;
 > the actual E-mass naturalness constraint). Lemma 1′ (all-orders absence
 > of E|H|²), vacuum alignment, and boundedness are untouched. Credit:
-> Grok's 2026-09-18 trace; repair verified by re-running the script.
+> ChatGPT's 2026-09-18 trace, relayed by Christopher (initially
+> mis-credited to Grok in commit 1f0dedc; attribution corrected here).
 
 **Scope.** Corpus Part 0 open problem 1 states: *"the working hidden source
 J[Ψ] = κ_ES² requires a symmetry-complete radiative-sequestering model."*

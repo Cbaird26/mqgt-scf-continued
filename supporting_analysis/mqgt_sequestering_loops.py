@@ -10,7 +10,7 @@ Contents
   (c) one-loop delta m_S^2 from the kappa vertex, exact finite B0 part
   (d) spurion-broken induced E|H|^2 portal, exact finite C0 triangle
   (e) E-mass naturalness, CORRECTED 2026-09-18: one-loop kappa bubble (log)
-      + one-loop E^2 X^2 portal tadpoles (quadratic); Grok-verified erratum
+      + one-loop E^2 X^2 portal tadpoles (quadratic); ChatGPT-review erratum
   (f) boundedness: 3-field condition and single-field reduction lambda_S > 2 kappa^2/m_E^2
   (g) vacuum alignment: E-S1 mixing from <S2> = v2, tachyon condition
 
@@ -93,12 +93,13 @@ print(f"            = {mp.nstr(dgH, 6)} eV   per lam2H=1, mu12^2=mS^2 (maximal s
 print(f"  scaling: delta g_H ~ {mp.nstr(kappa/(16*pi**2)*(-c0)*mpf('1'),4)} eV^-1 x lam2H x mu12^2[eV^2]")
 
 # ---------------------------------------------------------------- (e) delta m_E^2
-hdr("(e) E mass naturalness — CORRECTED 2026-09-18 (Grok review verified)")
+hdr("(e) E mass naturalness — CORRECTED 2026-09-18 (ChatGPT review verified)")
 print("  ERRATUM (previous version said): 'kappa vertex reaches the E propagator")
 print("  only at two loops, dm_E^2 ~ kappa^2 Lam^2/(16 pi^2)^2' -- wrong twice:")
 print("  (i) two kappa vertices make a ONE-loop bubble (S1,S2 internal lines);")
 print("  (ii) kappa^2 Lam^2 has mass dimension 4, not the dim-2 of a mass")
-print("       correction. Both points due to Grok's review; both verified here.")
+print("       correction. Both points due to ChatGPT's review (relayed by")
+print("       Christopher; initially mis-credited to Grok). Verified here.")
 print("  Correct content: (e1) one-loop kappa bubble (log-divergent, dim 2);")
 print("  (e2) one-loop tadpoles from the Z2-allowed E^2 X^2 portal quartics")
 print("       (quadratic divergence; THE actual E-mass naturalness constraint).")
