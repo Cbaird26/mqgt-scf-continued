@@ -1,0 +1,79 @@
+==================================================================================
+PLAY LAB v2 — TWISTED TOWERS: Hopf-charge-resolved spectra
+==================================================================================
+
+[0] engine validation: scalar charge resolution vs SU closed form
+  S^7 scalars (k=0..4, q=0..3): ALL MATCH
+  S^9 scalars (k=0..4, q=0..3): ALL MATCH
+
+[1] spectral certificate: sector zeta'(0), zeta(0), D1 vs independent Laurent extraction
+  S^7 scalar q=0: L=9.037478297 (cert 9.037478297, d=7.8e-11) z=-5.33648 (cert d=1.2e-11) D1=1.0252845 (fd d=5.6e-12) [OK]
+  S^7 scalar q=2: L=4.21154824 (cert 4.21154824, d=4.3e-11) z=-2.24655 (cert d=5.2e-12) D1=0.38624132 (fd d=2.2e-12) [OK]
+  S^9 scalar q=0: L=13.22582249 (cert 13.22582249, d=2.0e-10) z=-6.64824 (cert d=2.4e-11) D1=0.9908135 (fd d=3.7e-12) [OK]
+  S^9 scalar q=2: L=5.599823628 (cert 5.599823628, d=9.2e-11) z=-2.6139 (cert d=9.9e-12) D1=0.33619473 (fd d=6.2e-12) [OK]
+
+==================================================================================
+[2] S7 coexact p=3: charge resolution (levels k=0..16, x=k+4)
+    level k= 0 resolved: sum=70 (target 70)
+    level k= 1 resolved: sum=448 (target 448)
+    level k= 2 resolved: sum=1680 (target 1680)
+    level k= 3 resolved: sum=4800 (target 4800)
+    level k= 4 resolved: sum=11550 (target 11550)
+    level k= 5 resolved: sum=24640 (target 24640)
+    level k= 6 resolved: sum=48048 (target 48048)
+    level k= 7 resolved: sum=87360 (target 87360)
+    level k= 8 resolved: sum=150150 (target 150150)
+    level k= 9 resolved: sum=246400 (target 246400)
+    level k=10 resolved: sum=388960 (target 388960)
+    level k=11 resolved: sum=594048 (target 594048)
+    level k=12 resolved: sum=881790 (target 881790)
+    level k=13 resolved: sum=1276800 (target 1276800)
+    level k=14 resolved: sum=1808800 (target 1808800)
+    level k=15 resolved: sum=2513280 (target 2513280)
+    level k=16 resolved: sum=3432198 (target 3432198)
+  C1/C2/C3 pass at all 17 levels
+  charges present: q = 0..20; resolving sectors with >= 7 levels for stable polynomials
+  q= 0: onset k= 0  L_q= -0.540917949086  D1_q=  0.2437856176  z_q=  -3.067  stable
+  q= 1: onset k= 1  L_q=   83.2681581601  D1_q=   3.060174544  z_q=  -36.09  stable
+  q= 2: onset k= 0  L_q=   16.0491037498  D1_q=    5.64198841  z_q=  -23.77  stable
+  q= 3: onset k= 1  L_q=   106.163527947  D1_q=   18.88716847  z_q=  -87.91  stable
+  q= 4: onset k= 0  L_q=   149.446966905  D1_q=   44.77145016  z_q=  -242.5  HEAD(1 lvl)
+  q= 5: onset k= 1  L_q=   776.648223562  D1_q=   108.5458631  z_q=  -650.9  HEAD(1 lvl)
+  q= 6: onset k= 2  L_q=   2554.40632086  D1_q=   226.8158976  z_q= -1554.0  HEAD(1 lvl)
+  q= 7: onset k= 3  L_q=   10184.2312797  D1_q=   10069.80149  z_q=2.662e+4  stable
+  q= 8: onset k= 4  L_q=   11362.1881406  D1_q=   20902.48246  z_q=6.259e+4  stable
+
+==================================================================================
+[2] S9 coexact p=2: charge resolution (levels k=0..16, x=k+5)
+    level k= 0 resolved: sum=120 (target 120)
+    level k= 1 resolved: sum=945 (target 945)
+    level k= 2 resolved: sum=4312 (target 4312)
+    level k= 3 resolved: sum=14784 (target 14784)
+    level k= 4 resolved: sum=42120 (target 42120)
+    level k= 5 resolved: sum=105105 (target 105105)
+    level k= 6 resolved: sum=237160 (target 237160)
+    level k= 7 resolved: sum=494208 (target 494208)
+    level k= 8 resolved: sum=965328 (target 965328)
+    level k= 9 resolved: sum=1786785 (target 1786785)
+    level k=10 resolved: sum=3160080 (target 3160080)
+    level k=11 resolved: sum=5374720 (target 5374720)
+    level k=12 resolved: sum=8836464 (target 8836464)
+    level k=13 resolved: sum=14101857 (target 14101857)
+    level k=14 resolved: sum=21919920 (target 21919920)
+    level k=15 resolved: sum=33281920 (target 33281920)
+    level k=16 resolved: sum=49480200 (target 49480200)
+  C1/C2/C3 pass at all 17 levels
+  charges present: q = 0..19; resolving sectors with >= 9 levels for stable polynomials
+  q= 1: onset k= 0  L_q=  -1.58421491374  D1_q=  0.2202812508  z_q=-0.09558  stable
+  q= 3: onset k= 0  L_q=    10.905540999  D1_q= -0.3458115882  z_q=  0.1773  stable
+
+==================================================================================
+[3] pre-declared probes (charge-truncated: resolved sectors only, disclosed)
+  S7: M2_L(trunc) = 2682152.58927   M2_D1(trunc) = 3685940.25087
+  S9: M2_L(trunc) = 193.131308154   M2_D1(trunc) = -5.78404608615
+
+  sigma_M2(truncated) = 1.374145934
+    distance to sigma_need -6.21: 7.5841
+    distance to c3 = -1.56371823031276: 2.9379
+
+  Report only. Odd charge moments vanish by conjugation (C2).

@@ -296,3 +296,96 @@ basis. Record-side, E4 stands with the pinned target
 c₃ = −1.56371823031276 and a total exclusion record (fits, QED running,
 existing invariants, heat kernel, middle towers, ζ(0) families, and now
 the complete linear-response E×form basis).
+
+---
+
+## DOOR 1 — TWISTED TOWERS: Hopf-charge-resolved spectra (2026-09-18, PLAY)
+
+**Principle (Christopher, declared before computation):** twisted towers are
+the geometry's native missing content — Hopf-line-valued forms on the actual
+bundle, not plain free ringing. Compute the charged coexact spectra for the
+S⁷-3 and S⁹-2 sectors; any structural shift that produces c₃ closes the
+residual without dials. One shot, distances reported, never graded.
+
+Script `play_twisted_towers_lab.py`, output `play_twisted_towers_lab_out.txt`.
+
+### Machinery (new, built for this door)
+
+- **Charge engine:** SO(2n) Weyl character formula at the diagonal Hopf
+  specialization x_j = t, via the confluent-determinant limit,
+  ch_λ(t₀) = [s^N]det M^λ / [s^N]det M^ρ, N = n(n−1)/2, solved for integer
+  charge multiplicities d_q at t₀ = 2..A+2 (t₀ = 1 singular).
+- **D-type chirality subtlety (discovered in controls):** for λ_n ≠ 0 the
+  +det ratio returns the O(2n) average (ch₊ + ch₋)/2 at the diagonal
+  specialization — diagnosed from a raw q=±4 coefficient of exactly 0.5 on
+  [1,1,1,1], sums to half the full tower. The physical middle-form tower
+  carries both chiralities ⇒ scale by 2. Certified by C1 at every level.
+- **Pole regularization (derived in-file):** sector degeneracy polys contain
+  ALL powers of x (record towers are even-only), so the binomial expansion
+  of (x²−a2)^{−s} hits the Hurwitz pole at 2j−m = 1 for odd m. The finite
+  constant term: ζ(0) gains c·a2^j/(2j), ζ′(0) gains
+  (c·a2^j/j)·(H_{j−1}/2 − ψ(x0)). Certificate C5 below.
+
+### Controls — ALL PASS
+
+- **C1** Σ_q d(level,q) = deg_coexact/deg_scalar total, every level, both
+  towers, k = 0..16 (S⁷: 70…3432198; S⁹: 120…49480200, all exact).
+- **C2/C3** palindrome, nonneg integers, clean rounding margins.
+- **C4** scalar sectors vs independent SU(m+1) Weyl-product closed form,
+  S⁷/S⁹, k = 0..4, q = 0..3: all match.
+- **C5** spectral certificate: sector ζ′(0), ζ(0), D1 vs an INDEPENDENT
+  Laurent extraction from the exact binomial expansion at s = ±10⁻³
+  (never touches the pole; two-level Richardson) plus finite-difference D1.
+  Four scalar sectors (S⁷/S⁹ × q = 0,2): agreement to ~1e-10 on every
+  quantity. The pole algebra is certified, not assumed.
+- **Void control (recorded):** a truncated sector-SUM control is void —
+  sector zeta values carry pole terms cancelling only across ALL sectors
+  (verified numerically: partial sums ~392 vs full 4.17). No such control
+  used or claimed.
+
+### Resolved sector spectra (per-sector ζ′(0) = L_q, D1_q, ζ_q(0))
+
+**S⁷ coexact 3-forms** (a2 = 0, so no pole terms at all — these are pure
+tails): q = 0: L = −0.540917949086; q = 1: +83.27; q = 2: +16.05;
+q = 3: +106.16; q = 4: +149.45; q = 5: +776.65; q = 6: +2554.41;
+q = 7: +10184.23; q = 8: +11362.19. High-q sectors have large tails;
+only the full all-sector sum telescopes to the archived tower value.
+
+**S⁹ coexact 2-forms** (a2 = 4): q = 1: L = −1.58421491374,
+D1 = +0.2202812508, ζ(0) = −0.09558; q = 3: L = +10.905540999,
+D1 = −0.3458115882, ζ(0) = +0.1773. (Later-onset sectors lack the
+degp+1 levels needed for stable polys inside KMAX = 16; tables exact and
+archived in the output file.)
+
+### Probes and verdict
+
+Pre-declared truncated second-charge-moment probes:
+S⁷ M2_L = 2682152.6, M2_D1 = 3685940.3; S⁹ M2_L = 193.13, M2_D1 = −5.78;
+σ_M2(trunc) = +1.374 — distance 7.58 to σ_need = −6.21, 2.94 to c₃.
+**Dominated by the highest-q resolved tails (q = 7,8 carry ~91% of M2_L);
+truncation artifact dwarfs any signal — indicative only, by design never
+graded.**
+
+**Door-1 verdict: CLOSED, negative, with a structural reason.**
+The Hopf U(1) acts by isometry, so charge resolution splits ONLY
+degeneracies, never eigenvalues; every zeta invariant of the twisted tower
+sums back over sectors to the identical untwisted value (exact identity,
+certified). c₃ does not live in the charge split. The naive charge moments
+produce nothing near c₃ or σ_need, and the split introduces no new
+spectral scale at all.
+
+**Where a twist could still bite (hypothesis, not computed):** only an
+operator that couples charge to EIGENVALUE — e.g. a charged/ Landau-type
+Laplacian λ → (x² − a2) + κq² from a nontrivial Hopf-connection curvature
+background — changes the spectra themselves rather than their resolution.
+That is a different door (dynamical background field, not the round
+sphere), to be declared with its own principle before any computation.
+
+### Engineering notes (for future labs)
+
+- Record modules RESET mpmath dps on import (mqgt_t1 sets 80); set dps
+  AFTER imports. Symptom was precision-independent rounding margins.
+- int(mpf) TRUNCATES — int(round(...)) for control targets.
+- q = 0 scalar sector: skip the j = 0 constant zero mode (onset k = 1).
+- det denominator cached per rank; dps 140 suffices for KMAX = 16
+  (conditioning eats ~41 digits).
