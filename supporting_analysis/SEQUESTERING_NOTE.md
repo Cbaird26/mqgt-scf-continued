@@ -23,6 +23,22 @@
 > box induces λ_EH ~ κ_E²λ_1Hλ_2H/(16π²m_S²). Repaired in §3(e3): the
 > induced floor is calculable and sits 2–3 orders below the cap; the cap
 > applies to the bare + induced total.
+>
+> **ERRATUM 3 (2026-09-18, ChatGPT round 3 — verified and repaired):**
+> (v) the λ_EH topology is a **triangle** — two κ_EES₁S₂ vertices + ONE
+> Higgs-portal vertex (λ_1H or λ_2H) — with coupling κ_E²(λ_1H+λ_2H),
+> not the round-2 box with κ_E²λ_1Hλ_2H. Verified by background-field
+> expansion of the §1 potential, V₁ = ½∫Tr ln(k²+M²): the E²h² coefficient
+> is exactly the stated triangle integral, equal-mass value
+> κ_E²(λ_1H+λ_2H)/(32π²m_S²) = 2.76×10⁻¹¹·(λ_1H+λ_2H), confirmed by
+> numeric quadrature (script e3b). Decisive control λ_1H=0, λ_2H=1 →
+> nonzero; the box formula wrongly gave zero (the λ_1H=λ_2H=1 benchmark
+> coincided at 5.5×10⁻¹¹, masking the wrong dependence). (vi) the
+> tree-induced −κ_E²/m_S² terms are **alternative EFT matchings**
+> (integrate out S₂ → λ_E1, or S₁ → λ_E2), not additive quartics in the
+> full theory where both scalars propagate — the full κ-only answer is
+> §3(e1), and no quadratic EFT estimate is extrapolated above the
+> integrated-out mass.
 
 **Scope.** Corpus Part 0 open problem 1 states: *"the working hidden source
 J[Ψ] = κ_ES² requires a symmetry-complete radiative-sequestering model."*
@@ -129,21 +145,36 @@ These portals are Z₂_h-even, so sequestering cannot forbid them — but
 they are *not* the forbidden operator: E²|H|²-type terms correct the E
 mass, they do **not** regenerate a linear E|H|² source (Lemma 1′ stands).
 
-*e3 — radiative stability of the portal floor (erratum 2).* Setting the
+*e3 — radiative stability of the portal floor (errata 2–3).* Setting the
 portals to zero is **not** radiatively stable; they are induced at
 calculable values:
 
-- tree-level exchange (integrating out the partner hidden scalar, the
-  same induced structure as §5's boundedness term):
-  λ_E1 = λ_E2 = −κ_E²/m_S² = **−8.7×10⁻⁹** at benchmark (negative);
-- one-loop box (κ × λ_1H × κ × λ_2H around the loop, finite):
-  λ_EH ~ κ_E²λ_1Hλ_2H/(16π²m_S²) ~ 5×10⁻¹¹·λ_1Hλ_2H·O(1).
+- **e3a — tree-level exchange, as EFT matching (not full-theory
+  quartics).** Integrating out S₂ induces λ_E1 = −κ_E²/m₂²; integrating
+  out S₁ induces λ_E2 = −κ_E²/m₁². These are **alternative** low-energy
+  descriptions of the same theory — magnitude κ_E²/m_S² = **8.7×10⁻⁹**
+  at benchmark (negative) — not additive quartics in the full theory,
+  where both scalars propagate and the complete κ-only one-loop answer
+  is the e1 bubble. No quadratic EFT estimate is extrapolated above the
+  integrated-out mass.
+- **e3b — one-loop triangle for λ_EH (exact, erratum 3).** Two κ
+  vertices + ONE Higgs-portal vertex:
 
-Both sit 2–3 orders below the 1.58×10⁻⁶ cap, and their tadpole
-contributions saturate at ~κ_E²/(16π²) ≪ m_E² once Λ exceeds m_S (above
-m_S the partner scalar propagates and the κ bubble of e1 is the full
-answer — only logarithmic). The cap therefore applies to the
-bare + induced **total**; with N degenerate portal species it divides
+  λ_EH^ind = κ_E²∫d⁴k/(2π)⁴ [ λ_1H/((k²+m₁²)²(k²+m₂²))
+                              + λ_2H/((k²+m₁²)(k²+m₂²)²) ]
+
+  verified by background-field expansion of the §1 potential. Equal
+  masses: λ_EH^ind = κ_E²(λ_1H+λ_2H)/(32π²m_S²) =
+  **2.76×10⁻¹¹·(λ_1H+λ_2H)** — no O(1) Passarino–Veltman estimate
+  remains. Decisive control λ_1H=0, λ_2H=1 → nonzero 2.76×10⁻¹¹ (the
+  round-2 box formula wrongly gave zero; the λ=1,1 benchmark coincided
+  at 5.5×10⁻¹¹ and masked the wrong coupling dependence).
+
+All induced pieces sit orders of magnitude below the 1.58×10⁻⁶ cap, and
+their tadpole contributions saturate at ~κ_E²/(16π²) ≪ m_E² once Λ
+exceeds m_S (above m_S the partner scalar propagates and the κ bubble of
+e1 is the full answer — only logarithmic). The cap therefore applies to
+the bare + induced **total**; with N degenerate portal species it divides
 by N (h counts one real fluctuation as written; a full SU(2) doublet
 would count 4). This is the standard ultralight-scalar portal tuning —
 a condition on couplings, not a sequestering failure.
@@ -186,7 +217,8 @@ minimization of V/t⁴ over x = S₁/S₂ ∈ [10⁻², 10²] gives min = +0.025
 | δg_H (max spurion, λ_2H=1) | 3.0×10⁻¹⁰ eV | parametric (eq. 5.15) | coefficient now explicit |
 | δm_E²/m_E² (κ bubble, Λ=1 eV) | 7.6×10⁻⁸ | — | corrected 2026-09-18 |
 | λ_E1+λ_E2+λ_EH naturalness cap (Λ=1 eV) | 1.58×10⁻⁶ | — | corrected ×2 (ChatGPT r2) |
-| induced portal floor λ_E1 = λ_E2 = −κ_E²/m_S² | −8.7×10⁻⁹ | — | new (ChatGPT r2) |
+| induced tree exchange −κ_E²/m_S² (EFT matching, alternative) | −8.7×10⁻⁹ | — | ChatGPT r2; relabeled r3 |
+| induced λ_EH (one-loop triangle) | 2.76×10⁻¹¹·(λ_1H+λ_2H) | — | corrected (ChatGPT r3) |
 
 The corpus's eq. (5.13) pair (κ_E ≲ 10⁻⁶ eV, Ē_S ≲ 2 eV) does not saturate
 ½m_E²Ē² = ρ_loc; the recomputed saturation values are given above. Both
@@ -201,8 +233,9 @@ corpus numbers sit safely inside the window.
 3. Explicit one-loop coefficients for δm_S², the spurion-induced portal,
    and the corrected E-mass naturalness analysis (§3e: κ bubble
    log-only; E²X² portal tadpoles λΛ²/16π² as the quadratic constraint;
-   induced portal floor −κ_E²/m_S² and the λ_EH box, 2–3 orders below
-   the cap) — the "loop or spurion calculation" item.
+   induced tree-exchange floor −κ_E²/m_S² (EFT matching) and the exact
+   λ_EH triangle, all orders below the cap) — the "loop or spurion
+   calculation" item.
 4. Vacuum-alignment analysis with the v₂ critical value (§4) — the
    "vacuum alignment" item.
 5. MATH-03 recovered exactly and generalized to the three-field system (§5).
