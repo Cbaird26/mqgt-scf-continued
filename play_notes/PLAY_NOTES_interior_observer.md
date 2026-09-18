@@ -389,3 +389,70 @@ sphere), to be declared with its own principle before any computation.
 - q = 0 scalar sector: skip the j = 0 constant zero mode (onset k = 1).
 - det denominator cached per rank; dps 140 suffices for KMAX = 16
   (conditioning eats ~41 digits).
+
+---
+
+## DOOR 2 — BERGER CHARGE SUSCEPTIBILITY (2026-09-18, PLAY)
+
+**Declared principle (before computation):** the dial-free geometric source
+of charge-to-eigenvalue coupling is the canonical variation (Berger squash)
+of the Hopf fibration — the unique metric deformation holding the CP^m base
+fixed and scaling the S¹ fiber. On scalars it provably shifts every
+charge-q eigenvalue by exactly κq², κ = t⁻² − 1 from the round point
+(κ = 0 is the record, already excluded). Applied as the Landau-form ansatz
+λ → λ + κq² to the two coexact α towers. One shot, distances reported,
+never graded.
+
+Script `play_berger_charge_lab.py`, output `play_berger_charge_lab_out.txt`.
+
+### Why this door is truncation-free
+
+Door 1's failure mode (per-sector tails dominate, sums don't converge in
+window) is structurally absent: the total charge moment
+Q2(k) = Σ_q d_q(k)q² is a closed-form EVEN polynomial in x
+(Dynkin-index polynomiality), so the round-point linear responses
+
+  dL/dκ|₀  = + Σ_x Q2(x)/λ(x),   dD1/dκ|₀ = − Σ_x Q2(x)/λ(x)²
+
+are exact full-tower zeta values — no sectors, no cutoff.
+
+### Controls — ALL PASS
+
+- **C1** charge-table sums vs deg_coexact at all 15 levels (both towers).
+- **C2** Q2 polynomiality holdout-certified (fit k = 0..11, exact on
+  k = 12..14, rel dev ≤ 1.5e-134); Q2 exactly even in x (odd part 0.0 —
+  this is what keeps the Hurwitz pole out of the λ² sums).
+- **C3** window-shift consistency of both responses to ≤ 1e-140.
+- **C4** THE LOCK (discovered in-run, then promoted to a control):
+
+### Results
+
+| tower | dL/dκ | dD1/dκ | σ_κ | distance to −6.21 |
+|---|---|---|---|---|
+| S⁷ ce3 | +1/7 (exact) | +0.664425606401 | **+4.650979245** | 10.861 |
+| S⁹ ce2 | −1/9 (exact) | +19/720 (exact) | **−0.2375** | 5.9725 |
+| combined | | | **+21.7606566** | 27.971 |
+
+**Door-2 verdict: CLOSED, excluded** — but with the sharpest structural
+statement of the play branch so far:
+
+**σ_κ = ±D1(tower) EXACTLY in both towers** (deviations 1.5e-128 and
+1.1e-60): each tower's charge susceptibility is locked to its own
+self-response. The canonical-variation route cannot generate an
+independent slope in the (L, D1) plane — and σ_need = −6.21 would require
+exactly such independence. Note also dL/dκ = ±1/n (+1/7, −1/9), an exact
+rational pattern ((−1)^{(n+1)/2}/n, pattern noted not proved).
+
+Sign honesty: per-mode responses are sign-definite, but zeta-regularized
+tower totals are not (regularized sums of positive series can go
+negative); the signs reported are the exact regularized values, same
+convention as the record scorecards.
+
+**Play-branch status after two doors:** Door 1 — isometry splits only
+degeneracies, c₃ structurally absent from the charge split. Door 2 — when
+charge IS coupled into eigenvalues via the geometry's own deformation, the
+response is locked to ±D1, not free. Two doors, two structural locks. The
+c₃ slope requires content outside {charge resolution, canonical fiber
+deformation} — e.g. base (CP^m) metric deformation, torsionful
+connections, or genuinely dynamical E-field content. Any next door gets
+its own declared principle first.

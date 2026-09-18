@@ -1,0 +1,32 @@
+==================================================================================
+PLAY LAB — DOOR 2: BERGER CHARGE SUSCEPTIBILITY
+ansatz lambda -> lambda + kappa q^2 (canonical Hopf variation)
+==================================================================================
+
+[S7] coexact p=3: x0=4, a2=0.0, levels k=0..14
+  C1 pass at all 15 levels; Q2(k=0..3) = [160, 1600, 8640, 33600]
+  C2 holdout (k=12..14): max rel dev 1.47e-134; Q2 even in x (odd part 0.0)  [OK]
+  C3 window-shift: dL d=1.0e-140, dD1 d=0.0  [OK]
+  dL/dkappa  = 0.142857142857
+  dD1/dkappa = 0.664425606401
+  sigma_kappa = 4.650979245   distance to -6.21: 10.861
+  C4 LOCK: sigma_kappa = +D1(tower) (D1 = 4.650979245, dev 1.5e-128)
+
+[S9] coexact p=2: x0=5, a2=4.0, levels k=0..14
+  C1 pass at all 15 levels; Q2(k=0..3) = [280, 3360, 21560, 98560]
+  C2 holdout (k=12..14): max rel dev 6.12e-130; Q2 even in x (odd part 0.0)  [OK]
+  C3 window-shift: dL d=3.0e-62, dD1 d=1.6e-61  [OK]
+  dL/dkappa  = -0.111111111111
+  dD1/dkappa = 0.0263888888889
+  sigma_kappa = -0.2375   distance to -6.21: 5.9725
+  C4 LOCK: sigma_kappa = -D1(tower) (D1 = 0.2375, dev 1.1e-60)
+
+[combined towers]  sigma_kappa = 21.7606566   distance to -6.21: 27.971
+
+Honesty note: the per-MODE response to kappa q^2 is sign-definite,
+but the zeta-regularized tower totals are not (regularized sums of
+positive series can go negative) — the signs above are the exact
+regularized values, same convention as the record scorecards.
+Structural finding (C4): each tower's charge susceptibility is LOCKED
+to its own self-response D1 — the Berger/canonical-variation route
+cannot generate an independent slope. One shot, reported, not graded.
