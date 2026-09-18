@@ -213,3 +213,51 @@ All play scorecard numbers so far are convention-A. A full convention-B
 rebuild of labs 1–5 is an OPEN recheck item — not done, queued. σ_need =
 −6.21 is convention-independent (it is rel-gap/u₀), so the gate itself
 does not move; only the scorecard's bookkeeping convention is in question.
+
+---
+
+## 2026-09-18 ~15:00 — Convention-B rebuild DONE (open recheck item closed)
+
+Script `play_conventionB_rebuild.py`. Controls all pass: A-side reproduces
+every archived scorecard value; B-side p=0 rows match the ζ(0) certification
+to 1e-9; torsion is convention-invariant as predicted (p=0 weight is 0).
+GKSL note: Γ₀ weights are convention-independent (nonzero scalar spectrum
+= coexact-0 spectrum — proven by build(n,0) reproducing the det′ values;
+the standalone deg_coexact(·,0,·) helper is a p≥1 formula and does NOT
+degenerate to the scalar spectrum — measured, noted, not used).
+
+Scorecard (σ by weighting, A → B):
+
+| weighting | σ_A | σ_B |
+|---|---|---|
+| uniform | −8.467 | −12.677 |
+| de Rham | +37.42 | +0.713 |
+| full Hodge | −8.395 | +1.694 |
+| torsion | +0.980 | +0.980 (invariant) |
+| parity P1 | −7.729 | −0.099 |
+| parity P2 | −11.391 | −0.451 |
+| parity P3 | −8.475 | −9.832 |
+| dilaton ζ(0) | +0.797 | +0.713 |
+| GKSL plateau | +1.88 | +1.726 |
+
+Structural findings:
+1. **dilaton-B ≡ de Rham-B exactly** (0.71259342 both): under B the ζ(0)
+   weights are (−1)^{p+1} on every row including the scalar (−1), i.e.
+   −(−1)^p uniformly — the two labs cross-validate.
+2. **The t* = 0.0195 crossing was a convention-A artifact.** Under B the
+   uniform family runs σ(0) = −3.01 → σ(1) = −12.68 and crosses −6.21 at
+   t* = 2.29, OUTSIDE [0,1]. The one "reachable in principle" diagnostic
+   of the A scorecard evaporates under det′.
+3. **P3 lands at −9.832 under B** — inside the loose factor-2 window
+   (ratio 1.58). Same class as the A-side window hits (uniform −8.47,
+   Hodge −8.40, P1 −7.73): a lead, not an approach to the 1e-8 gate.
+   Nothing in either convention comes near the gate.
+4. **New metadata for the branch:** σ is CONVENTION-SENSITIVE for every
+   weighting that touches p=0. Any future candidate principle must arrive
+   with its zero-mode prescription attached, or it is not well-defined.
+
+Verdict: the combination-rule exclusion record now stands under BOTH
+zero-mode conventions. Convention-robust values: torsion +0.98, GKSL
++1.7–1.9 — both far from −6.21. The freeze on new weightings stands;
+Option 1 (E–form Lagrangian beyond the standard menu) remains the only
+open play route, deferred per directive.
