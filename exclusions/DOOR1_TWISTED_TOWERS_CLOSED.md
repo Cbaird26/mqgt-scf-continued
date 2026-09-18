@@ -43,3 +43,15 @@ Truncated moment probes were tail-dominated and indicative only by design
 
 Charge-resolved spectra exist as exact tables (archived in the output
 file) — kept as uniqueness raw material regardless of the verdict.
+
+## Reproduce (one command)
+
+```
+python3 play_notes/play_twisted_towers_lab.py
+```
+
+Expected: every charge-resolved level sum matches its untwisted target
+(archived reference output: `play_notes/play_twisted_towers_lab_out.txt`);
+final verdict line: charge-resolved zetas sum exactly to the untwisted
+value — c3 structurally absent. Play-side lab promoted to exclusion
+with this certificate; run time ~minutes, mpmath dps as set in-file.

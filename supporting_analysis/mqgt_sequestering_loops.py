@@ -108,6 +108,25 @@ print(f"  same spurion order, h=0: linear-E tadpole g_E = mu12^2 kappa/(16 pi^2)
 print(f"            ~ {mp.nstr(gE, 4)} eV^3 (Lam=1 eV) -> induced <E> ~ g_E/m_E^2 ~ {mp.nstr(gE/mE**2,4)} eV")
 print(f"  both effects power-counted in mu12^2 and vanish in the symmetry limit;")
 print(f"  S4 alignment (<E>=0) is the exact-symmetry statement.")
+print()
+print("  (d-resum) EXACT-mixing resummation (ChatGPT round 6, point 3):")
+print("   exact mass eigenvalues m_S^2 +/- mu12^2 = {0, 2 m_S^2} at maximal")
+print("   mixing => single-insertion estimate is UNCONTROLLED at its")
+print("   advertised endpoint. Background-field det is exact in mu12^2:")
+print("   g_Eh2 = kappa mu^2 ∫ d^4k/(2pi)^4 (lam1 D2 + lam2 D1)/(D1 D2 - mu^4)^2")
+print("   recovers the leading-insertion result at mu^2 << m_S^2.")
+mu_half = mpf('0.5') * mS**2
+integrand = lambda k: k**3 * 2 * (k**2 + mS**2) / ((k**2 + mS**2)**2 - mu_half**2)**2
+I_resum = quad(integrand, [0, mS, mpf('0.1'), mpf('1'), mp.inf]) / (8 * pi**2)
+g_resum = kappa * mu_half * I_resum
+g_lead_half = kappa * mu_half * (lam1H + lam2H) / (32 * pi**2 * mS**2)
+print(f"   resummed at mu^2 = 0.5 m_S^2, lam=1,1: g_Eh2 = {mp.nstr(g_resum,4)} eV")
+print(f"   leading-insertion at same point:       {mp.nstr(g_lead_half,4)} eV"
+      f"  (resummed/leading = {mp.nstr(g_resum/g_lead_half,4)})")
+print("   as mu^2 -> m_S^2 the lighter eigenvalue -> 0 and the exact")
+print("   integrand ~ 1/k^4: IR DIVERGENT. The maximal-mixing number is")
+print("   therefore a leading-insertion estimate, not an exact result;")
+print("   an IR prescription is required at the endpoint.")
 
 # ---------------------------------------------------------------- (e) delta m_E^2
 hdr("(e) E mass naturalness — CORRECTED 2026-09-18 (ChatGPT review verified)")
@@ -175,6 +194,22 @@ print("   (round-2 box formula wrongly gave 0 there; benchmark coincidence")
 print("    2.76e-11 x 2 = 5.5e-11 at lam=1,1 masked the wrong dependence)")
 print("   vs cap 1.58e-6 (eV/Lam)^2: induced floor sits orders below; cap")
 print("   applies to (bare + induced) total; N_X species divide it.")
+print()
+print("(e4) PHYSICAL-HIGGS SCALE CHECK (ChatGPT round 6, point 2):")
+print("  h is identified as the Higgs fluctuation; the benchmarks above are")
+print("  LOW-ENERGY EFT statements (cutoff eV-scale). Naive extrapolation of")
+print("  the induced lam_EH to m_h = 125 GeV (outside the EFT domain --")
+print("  shown for scale only, NOT a matched result):")
+mh = mpf('1.25e11')  # eV
+lam_EH_ind = 2 * kappa**2 / (32 * pi**2 * mS**2)   # lam_1H=lam_2H=1
+dm_naive = lam_EH_ind * mh**2 / (16 * pi**2)
+print(f"  lam_EH^ind(lam=1,1) = {mp.nstr(lam_EH_ind,4)};  dm_E^2 ~ lam_EH m_h^2/(16 pi^2)")
+print(f"       ~ {mp.nstr(dm_naive,3)} eV^2  vs m_E^2 = 1e-8 eV^2"
+      f"  ratio ~ {mp.nstr(dm_naive/mE**2,3)}")
+print("  => this minimal model does NOT establish a natural ultralight")
+print("  scalar coupled to the physical Higgs. Requires weak-scale")
+print("  matching, or h must be read as a light toy scalar and the SM")
+print("  claim narrowed accordingly.")
 
 # ---------------------------------------------------------------- (f) boundedness
 hdr("(f) potential boundedness (MATH-03 generalization)")

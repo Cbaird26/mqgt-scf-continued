@@ -16,6 +16,27 @@ It is deliberately separate from the frozen record:
 
 This repo is where the errata stop being annotations and become the text.
 
+**Census (2026-09-18).** Wyler–Nielsen geometric α⁻¹ = 137.03608245 is a
+six-correct-digit approximation to CODATA 2022 (residual 6.0765×10⁻⁷);
+the O(10⁻⁷) correction is not in the round-bundle spectrum (two
+certified exclusions, `exclusions/`); T-3 constants are identified as
+spectral determinants on S⁷ and S⁹, not derived.
+
+> **This record does NOT claim:**
+> - an eight-digit (or better) derivation of α from geometry
+> - first-principles derivation of the T-3 normalizations (identification only)
+> - experimental detection of any MQGT-SCF observable — all experimental
+>   work is software-validation / protocol-development stage
+> - tested confirmations of the corpus's Φ_c / E-sector observables
+> - a natural ultralight scalar coupled to the physical Higgs (the
+>   sequestering note's minimal model fails that scale check, erratum 7)
+> - the general symmetry-allowed hidden model (the note's §1 is minimal)
+> - institutional independence of the frozen verification repo — the
+>   independence is procedural (minted snapshot, preregistered scripts),
+>   same account
+> - Lean-4 compile checks as physics evidence (they are proof-assistant
+>   checks of stated theorems, where used)
+
 ## What's in here
 
 | Path | What it is |
@@ -24,7 +45,7 @@ This repo is where the errata stop being annotations and become the text.
 | `LEDGER.md` | **Cross-repository research ledger**: claim → assumptions → derivation → code → controls → status → provenance, with the full review trail (ChatGPT rounds 1–5, Zora self-review, Grok directives) and open gates/refusals |
 | `exclusions/` | Certified negative results: Door 1 (twisted Hopf-line towers — U(1) fiber isometry) and Door 2 (Berger/canonical deformation — D1 susceptibility lock), both CLOSED with lab certificates |
 | `artifacts/T1_E4_DEPOSIT_NOTE_2026-09-18.md` | The T-1/E4 census: gated six-digit conjecture, residual 6.0765×10⁻⁷, uncitable prefactors, exclusion record |
-| `neutrino_portal_v2.py` | E2 repair, applied: the neutrino portal with the 3-Yukawa texture (Variant A default, Variant B selectable), both oscillation splittings fit exactly |
+| `neutrino_portal_v2.py` | E2 repair, applied: the neutrino portal with the 3-Yukawa texture. **Record claim = Variant A**; Variant B retained in-file as a robustness cross-check, not a menu option (referee requirement, Grok disposition) — both oscillation splittings fit exactly |
 | `A_Theory_of_Everything_UPDATED_2026-09-18.pdf` | The 6,926-page unified edition: corpus + verification supplement + verification paper |
 | `E4_ALPHA_GATE_RESEARCH_NOTE.md`, `E4_DERIVATION_NOTE.md`, `E4_FINAL_STATUS.md` + `mqgt_t1_e4_*.py` | E4 (T-1 α⁻¹ gate) research record: pinned target c₃ = −1.56371823031276, exclusion record across fits, QED running, existing invariants, heat kernel |
 | `supporting_analysis/` | 2026-09-18 record-side theorems: middle-tower D₁ lemma and L closed forms (exact rational), mirror-check residual −1/16 closed, ζ(0) theorem (65/65 coexact towers, scalar conventions A/B), and the Part-0 open-problem-1 closure: one-loop radiative sequestering of J = κ_ES² with an explicit symmetry-complete model (Lemma 1′: E\|H\|² absent to all loop orders) |

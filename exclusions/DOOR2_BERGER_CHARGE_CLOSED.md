@@ -44,3 +44,14 @@ exactly such independence. Exact rational pattern: dL/dκ = ±1/n
 Sign honesty: per-mode responses are sign-definite; zeta-regularized
 tower totals are not. Reported signs are the exact regularized values,
 same convention as the record scorecards.
+
+## Reproduce (one command)
+
+```
+python3 play_notes/play_berger_charge_lab.py
+```
+
+Expected: susceptibility locked to ±D1 (certified at 1e-128 and 1e-60);
+archived reference output: `play_notes/play_berger_charge_lab_out.txt`.
+No independent slope in the (L, D1) plane. Play-side lab promoted to
+exclusion with this certificate; run time ~minutes.

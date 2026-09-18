@@ -51,3 +51,22 @@ c₃ = −1.56371823031276. Both outcomes are informative: success closes E4;
 failure excludes the last nominated object and the honest report becomes
 "the T-1 identity is a 7-digit approximation with no known structural
 completion."
+
+## References (added 2026-09-18, referee requirement — Grok disposition)
+
+- A. Wyler, *L'espace symétrique du groupe des équations de Maxwell*,
+  C. R. Acad. Sci. Paris **A269**, 743–745 (1969).
+- A. Wyler, *Les groupes des potentiels de Coulomb et de Yukawa*,
+  C. R. Acad. Sci. Paris **A272**, 186–188 (1971).
+- B. Robertson, *Wyler's Expression for the Fine-Structure Constant α*,
+  Phys. Rev. Lett. **27**, 1545–1547 (1971),
+  doi:10.1103/PhysRevLett.27.1545 — including the scaling critique
+  (radius set to one arbitrarily) that any geometric α program must
+  answer.
+- J. L. Nielsen, *Topological Unified Field Theory (TUFT)* on the complex
+  Hopf fibration S¹ → S⁹ → CP⁴, Center for Topological Physics,
+  github.com/startigerjln/CenterforTopologicalPhysics — the Wyler-lineage
+  geometry this gate evaluates. Upstream author notified-by-record;
+  inconsistencies are treated as trivial/fixable per program policy.
+- CODATA 2022 recommended value α⁻¹ = 137.035999177(21), the comparison
+  target for the residual 6.0765×10⁻⁷.

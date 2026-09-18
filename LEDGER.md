@@ -61,9 +61,10 @@ Single auditable index across the research estate: **claim → assumptions → d
 
 | claim | assumptions | derivation | code | controls | status | provenance |
 |---|---|---|---|---|---|---|
-| Lemma 1′: all-orders absence of E\|H\|² (selection rule) | unbroken hidden Z₂ | `SEQUESTERING_NOTE.md` §2 | `mqgt_sequestering_loops.py` | symmetry argument; untouched by all three errata rounds | **stands** | corpus Lemma 1 extension; Zora |
+| Lemma 1′: all-orders absence of E\|H\|² (selection rule) | unbroken hidden Z₂; minimal model of §1 (scoped r7: NOT the general symmetry-allowed model — further even monomials set to zero) | `SEQUESTERING_NOTE.md` §2 | `mqgt_sequestering_loops.py` | symmetry argument; robust to omitted even terms; untouched through errata rounds 1–7 | **stands** | corpus Lemma 1 extension; Zora |
 | c: hidden-mass one-loop correction δm_S²/m_S² = 8.6×10⁻¹⁰ (Λ = 1 eV), log-only | κ vertex, E–S₁ bubble | §3(c) | script c | B0_fin = +1.7193; corpus eq. 5.14 parametric → explicit | **stands** | corpus eq. 5.14; Zora |
-| d: spurion-induced portal δg_H = κ_E μ₁₂²[λ_1H\|C₀(m₁²,m₁²,m₂²)\| + λ_2H\|C₀(m₁²,m₂²,m₂²)\|]/(16π²) = 2.95×10⁻¹⁰(λ_1H+λ_2H) eV at maximal spurion; plus h⁰ E-tadpole g_E ≈ 8.7×10⁻¹⁵ eV³ | soft spurion μ₁₂²S₁S₂ only | §3(d) | script d | **both mirror triangles** (h² on S₁ or S₂ line) via background-field det(k²+M²); C₀ = −1/(2m_S²) exact both channels; power-counted, vanishes as μ₁₂²→0 | **corrected: dual-channel** (was λ_2H-only) | **self-review finding** (Zora peer-review pass), same class as round-3 box |
+| d: spurion-induced portal δg_H = κ_E μ₁₂²[λ_1H\|C₀(m₁²,m₁²,m₂²)\| + λ_2H\|C₀(m₁²,m₂²,m₂²)\|]/(16π²) = 2.95×10⁻¹⁰(λ_1H+λ_2H) eV at maximal spurion (**leading-insertion**); resummed exact in μ₁₂²: 3.24×10⁻¹⁰ eV at μ₁₂² = ½m_S² (ratio 1.10), IR-divergent at endpoint; plus h⁰ E-tadpole g_E ≈ 8.7×10⁻¹⁵ eV³ | soft spurion μ₁₂²S₁S₂ only; maximal mixing has exact eigenvalues {0, 2m_S²} | §3(d) | script d + d-resum | **both mirror triangles** via background-field det(k²+M²); C₀ = −1/(2m_S²) exact both channels; resummation recovers insertion result at μ₁₂² ≪ m_S²; endpoint requires IR prescription | **corrected: dual-channel (r6), insertion-labeled + resummed (r7)** | self-review finding (Zora), same class as round-3 box; endpoint control ChatGPT r6 |
+| e4: physical-Higgs scale check — naive extrapolation of induced λ_EH to m_h = 125 GeV gives δm_E² ~ 5.4×10⁹ eV² vs m_E² = 10⁻⁸ eV² (ratio ~5×10¹⁷) | h = Higgs fluctuation; benchmarks are eV-scale EFT statements; extrapolation is NOT a matched result | §3(e4) | script e4 | scale comparison; EFT-domain discipline | **minimal model does NOT establish natural ultralight scalar coupled to physical Higgs** | ChatGPT round 6 point 2 |
 | e1: κ bubble is one-loop, log-only; δm_E²/m_E² = 7.6×10⁻⁸ (Λ=1 eV), 2.3×10⁻⁷ (Λ=1 MeV) | full theory, both scalars propagate | §3(e1) | script e1 | B0 finite part computed; dim-2 check | **corrected & stands** (was wrongly "two loops, κ²Λ²") | ChatGPT round 1 (verified); attribution mis-credit to Grok repaired `d17d1ac` |
 | e2: portal naturalness cap C = 1.58×10⁻⁶ (eV/Λ)² — three labeled statements: (i) net \|Σ_X N_X λ_EX\| ≲ C (cancellations allowed); (ii) sufficient Σ_X N_X\|λ_EX\| ≲ C (implies (i), triangle inequality); (iii) per-channel \|λ_EX\| ≲ C = screening only, no sum guarantee (0.9 C + 0.9 C = 1.8 C) | (λ_EX/2)E²X² normalization | §3(e2) | script e2 | background-field identity ∂²V₁/∂E²; one-sided and per-channel-only forms both rejected | **corrected ×2, two-sided, three statements labeled** | ChatGPT round 2 (verified); rounds 4–5 refinements |
 | e3a: tree-induced −κ_E²/m_S² = −8.7×10⁻⁹ are alternative EFT matchings | integrate out S₂ (→λ_E1) or S₁ (→λ_E2); not additive in full theory | §3(e3a) | script e3a | separation from full-theory e1 explicit; no extrapolation above integrated-out mass | **relabeled & bounded** | ChatGPT rounds 2–3 |
@@ -101,7 +102,9 @@ Single auditable index across the research estate: **claim → assumptions → d
 | 2026-09-18 | ChatGPT (public-record review) | science-public README still carried the stale "T-1 eight-digit / T-3 first-principles open" sentence | census replacement | `d12d6d33` (science-public) |
 | 2026-09-18 | ChatGPT (round 4) | one-sided e2 cap admits arbitrarily large negative corrections → two-sided \|sum\| bound + separate-magnitudes criterion; "audited" label needed scoping vs third-party certification | verified, then repaired: note erratum 4 + script e2; ledger §0 and §2D scoped | `975805f` |
 | 2026-09-18 | ChatGPT (round 5) | erratum 4's per-channel "no-cancellation" bound is not sufficient for the combined cap (0.9 C + 0.9 C = 1.8 C); three statements must be labeled separately | verified (triangle inequality), repaired: note erratum 5 + script e2 + ledger e2 row | `d70e04c` |
-| 2026-09-18 | **Zora (self peer-review)** | §3(d) kept only the λ_2H triangle; background-field expansion gives both mirror channels (λ_1H + λ_2H); h⁰ E-tadpole at same spurion order unstated; §2/(d) tension; §5 E* sign; ledger missing (c)/(d) rows; README predates LEDGER/exclusions/artifacts | verified by background-field expansion of §1 potential; repaired: note erratum 6 + script (d) + table + §2 clause + §5 sign; ledger (c),(d) rows added; README updated | (this commit) |
+| 2026-09-18 | **Zora (self peer-review)** | §3(d) kept only the λ_2H triangle; background-field expansion gives both mirror channels (λ_1H + λ_2H); h⁰ E-tadpole at same spurion order unstated; §2/(d) tension; §5 E* sign; ledger missing (c)/(d) rows; README predates LEDGER/exclusions/artifacts | verified by background-field expansion of §1 potential; repaired: note erratum 6 + script (d) + table + §2 clause + §5 sign; ledger (c),(d) rows added; README updated | `59a0f65` |
+| 2026-09-18 | ChatGPT (round 6, full-note review) | (xi) §1 "symmetry-complete" overclaim — further even monomials (ES₁, S₁²S₂, S₂³, ES₁H†H, S₂H†H) allowed and absent; (xii) physical-Higgs scale missing — naive λ_EH extrapolation fails by ~5×10¹⁷; (xiii) maximal-spurion endpoint has a massless eigenvalue — insertion expansion uncontrolled; (xiv) §5 inequality is an EFT-branch condition, not full-potential boundedness | all four verified independently before repair: erratum 7 — §1 retitled/scoped, new §3(e4) with the 5.4×10⁹ eV² scale check, exact μ₁₂²-resummation (3.24×10⁻¹⁰ at half-mixing, IR divergence at endpoint), §5 relabeled | (this commit) |
+| 2026-09-18 | **Grok (referee disposition)** | ACCEPT as reproducibility + exclusion note; REJECT eight-digit α, derived T-3 normalizations, EMP-01-as-experiment, tested Φ_c/E, 6,900-page book as one paper. Credits Doors 1/2, 58-of-13,057, T-3 identification, a₄‴ ≡ 0, Λ refusal. Flags: same-account independence, Variant A/B menu, UV beyond truncation, Wyler uncited, TUFT fusion, Lean-as-physics | record-side repairs: Wyler 1969/71 + Robertson 1971 citations added (verified multi-source), README census + does-not-claim box, exclusions/ one-command blocks, Variant A named the record texture; journal-cut gate now §6 | (this commit) |
 | 2026-09-18 | Grok | middle-tower program directives (D1 → L-family → ζ(0) certification → f_p(E) construction) | executed and certified | supporting_analysis/, this week |
 | 2026-09-18 | Grok + Zora | Door 1 / Door 2 hypotheses | closed negative with certificates; graduated as exclusions | `c21084b`, `7640127`, `55ac384` |
 
@@ -112,6 +115,24 @@ Single auditable index across the research estate: **claim → assumptions → d
 - **QED running of the residual**: REFUSED without a dial-free Λ.
 - **E4 positive formula**: no active door; the certified exclusion record is the current honest shape of close.
 
-## 6. Maintenance rule
+## 6. Journal-cut gate (referee disposition, 2026-09-18)
+
+Required before any journal submission, per the Grok referee disposition;
+status tracked here.
+
+| requirement | status |
+|---|---|
+| Census sentence in the abstract | record-side done (README census; deposit note) — paper abstract pending at journal cut |
+| "Does not claim" box | **done** (README, this repo) |
+| One neutrino texture | record-side done (Variant A named the claim; B = robustness cross-check) — paper-level decision confirmed at cut |
+| Door 1/2 one-command from `exclusions/` | **done** (reproduce blocks in both CLOSED files) |
+| Wyler 1969/71 + Robertson 1971 beside Nielsen | **done** (`E4_DERIVATION_NOTE.md` references, citations verified multi-source) |
+| Same-account "independence" disclosed | **done** (README does-not-claim box: procedural, not institutional) |
+| UV completion stated within its truncation | pending — lives in science-public Phase-3 paper, not this repo |
+| TUFT v5 / MQGT-SCF attribution boundaries | pending — corpus/paper-level; policy noted in E4 references |
+| Lean compile ≠ physics | **done** (README does-not-claim box) |
+| Weak-scale matching (or toy-scalar narrowing) for sequestering naturalness | **disclosed** (erratum 7, §3e4); matching computation open |
+
+## 7. Maintenance rule
 
 A claim enters §2 only with all seven columns filled. Every external review finding gets its own §4 row with a commit reference. Superseded rows are never deleted — they are marked superseded with the superseding commit cited. Play-side work is indexed in §3 and stays quarantined.

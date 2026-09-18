@@ -74,6 +74,32 @@
 > there is also an h⁰ linear-E tadpole g_E = μ₁₂²κ_E/(16π²)[ln+B₀]
 > (~8.7×10⁻¹⁵ eV³, Λ = 1 eV; induced ⟨E⟩ ~ 8.7×10⁻⁷ eV), now stated
 > alongside δg_H; §4's ⟨E⟩ = 0 is the exact-symmetry statement.
+>
+> **ERRATUM 7 (2026-09-18, ChatGPT round 6 — full-note review, verified
+> and repaired):** (xi) §1's potential is A minimal Z₂_h-even closure,
+> not the general symmetry-allowed model: ES₁, S₁²S₂, S₂³, ES₁H†H,
+> S₂H†H (and higher allowed monomials) are renormalizable and even, are
+> set to zero here, and no symmetry excludes them. Lemma 1′ is unaffected
+> (all are even; the odd E|H|² still cannot be generated), but the §3
+> loop inventory is the minimal-model inventory, and "S₁ couples to the
+> SM only through S₁²h²" is a model assumption, not derived. §1 retitled
+> and scoped. (xii) The naturalness budget is a low-energy EFT statement;
+> naive extrapolation of the induced λ_EH to m_h = 125 GeV gives δm_E² ~
+> λ_EH m_h²/(16π²) ~ 5.4×10⁹ eV² vs m_E² = 10⁻⁸ eV² (ratio ~5×10¹⁷).
+> This minimal model does NOT establish a natural ultralight scalar
+> coupled to the physical Higgs; weak-scale matching, or reading h as a
+> light toy scalar, is required — new §3(e4). (xiii) the maximal-spurion
+> benchmark sits at exact eigenvalues m_S² ± μ₁₂² = {0, 2m_S²}: the
+> single-insertion expansion is uncontrolled at its endpoint. The exact
+> background-field resummation is now in the note and script: at
+> μ₁₂² = ½m_S² the resummed value is 3.24×10⁻¹⁰ eV (leading insertion
+> 2.95×10⁻¹⁰, ratio 1.10); at μ₁₂² → m_S² the exact integrand is
+> IR-divergent, so the maximal-mixing number is a leading-insertion
+> estimate requiring an IR prescription at the endpoint. (xiv) §5's
+> inequality is relabeled: with positive quartics the full potential is
+> bounded at large field regardless (t⁴ dominates the cubic); the
+> MATH-03 condition governs the E-integrated effective quartic — the
+> corpus's own branch — which is the sense in which it is recovered.
 
 **Scope.** Corpus Part 0 open problem 1 states: *"the working hidden source
 J[Ψ] = κ_ES² requires a symmetry-complete radiative-sequestering model."*
@@ -91,15 +117,27 @@ numbers below are reproduced by the script.
 
 ---
 
-## 1. Symmetry-complete model
+## 1. Minimal Z₂_h-even model (closing the corpus source)
 
 Fields: E, S₁ (Z₂_h-odd); S₂, H (Z₂_h-even). Hidden bilinear O_h = S₁S₂
-(odd); source E·O_h (even). Renormalizable Z₂_h-even potential:
+(odd); source E·O_h (even). The renormalizable Z₂_h-even potential used
+throughout this note:
 
 V = ½m_E²E² + λ_E/4 E⁴ + ½m₁²S₁² + λ₁/4 S₁⁴ + ½m₂²S₂² + λ₂/4 S₂⁴
   + κ_E E S₁S₂
   + ½λ_E1 E²S₁² + ½λ_E2 E²S₂² + ½λ_12 S₁²S₂²
   + (λ_1H/2) S₁²h² + (λ_2H/2) S₂²h² + (λ_EH/2) E²h²      (h = Higgs fluctuation)
+
+**Scope (erratum 7).** This is a *minimal* Z₂_h-even closure, not the
+general symmetry-allowed model. Further renormalizable even monomials —
+ES₁, S₁²S₂, S₂³, ES₁H†H, S₂H†H, and others from the script's allowed
+set — are permitted by the stated parity and are here set to zero; no
+symmetry or renormalization condition excludes them. Two consequences,
+stated plainly: (a) Lemma 1′ is unaffected — every omitted term is even,
+so the odd operator E|H|² still cannot be generated at any order;
+(b) the §3 loop and naturalness inventory is the inventory of *this*
+model, and the statement "S₁ couples to the SM only through S₁²h²" is a
+model assumption (the minimal portal), not a derived fact.
 
 Operator classification (script §a): of the 69 scalar monomials of
 dimension ≤ 4 over {E, S₁, S₂, h}, 37 are even (allowed) and 32 odd
@@ -152,7 +190,8 @@ triangles (erratum 6):
 
 verified by background-field expansion of the §1 potential
 (M²_S₁S₂ = μ₁₂² + κ_E E; coefficient of E h² in V₁ = ½∫ln det(k²+M²)).
-Equal-mass benchmark (maximal spurion μ₁₂² = m_S²):
+Equal-mass benchmark (maximal spurion μ₁₂² = m_S²; **leading-insertion
+estimate** — see the resummation below):
 **δg_H = 2.95×10⁻¹⁰·(λ_1H+λ_2H) eV** (5.9×10⁻¹⁰ eV at λ_1H=λ_2H=1),
 scaling as δg_H ≈ 2.95×10⁻⁴ · (λ_1H+λ_2H) · μ₁₂²[eV²] eV.
 At the same spurion order there is also an h⁰ linear-E tadpole
@@ -161,6 +200,22 @@ inducing ⟨E⟩ ~ g_E/m_E² ~ 8.7×10⁻⁷ eV (erratum 6).
 Both effects are bounded, power-counted in the spurion, and vanish in
 the symmetry limit μ₁₂² → 0 — the corpus's requirement "power-counted
 and bounded" (Ch. 4) is met with explicit coefficients.
+
+*Exact-mixing resummation (erratum 7).* At μ₁₂² = m_S² the exact
+S₁–S₂ mass-squared eigenvalues are m_S² ± μ₁₂² = {0, 2m_S²}: the
+single-insertion expansion is uncontrolled at its advertised endpoint.
+The background-field determinant is exact in μ₁₂² and gives the
+resummed coefficient
+
+  g_Eh² = κ_E μ₁₂² ∫ d⁴k/(2π)⁴ (λ_1H D₂ + λ_2H D₁)/(D₁D₂ − μ₁₂⁴)²,
+  Dᵢ = k² + mᵢ²,
+
+which recovers the leading-insertion result for μ₁₂² ≪ m_S². At
+μ₁₂² = ½m_S² (λ = 1,1): resummed 3.24×10⁻¹⁰ eV vs leading-insertion
+2.95×10⁻¹⁰ eV (ratio 1.10). As μ₁₂² → m_S² the lighter eigenvalue
+vanishes and the exact integrand behaves as 1/k⁴ — IR-divergent; the
+maximal-mixing number is therefore a leading-insertion estimate, and an
+IR prescription is required at the endpoint (script d-resum).
 
 **(e) E-mass naturalness (corrected — see erratum above).** Two distinct
 one-loop channels:
@@ -242,6 +297,26 @@ by N (h counts one real fluctuation as written; a full SU(2) doublet
 would count 4). This is the standard ultralight-scalar portal tuning —
 a condition on couplings, not a sequestering failure.
 
+*e4 — the physical-Higgs scale check (erratum 7).* The benchmarks above
+are **low-energy EFT statements** (cutoffs at the eV scale, where the
+model's parameters are defined). The note identifies h as the Higgs
+fluctuation, so the honest scale question is: what happens at
+m_h = 125 GeV? Naive extrapolation of the induced λ_EH to the weak
+scale — outside the EFT domain, shown for scale only, *not* a matched
+result — gives
+
+  δm_E² ~ λ_EH m_h²/(16π²) ~ 5.4×10⁹ eV²   vs  m_E² = 10⁻⁸ eV²
+  (ratio ~ 5×10¹⁷; script e4).
+
+Read correctly, this says: **this minimal model does not establish a
+natural ultralight scalar coupled to the physical Higgs.** Either the
+E-sector description must be matched at the weak scale (a genuine
+multiscale loop calculation, in which the low-energy induced couplings
+cannot simply be extrapolated upward without double-counting), or h
+must be read as a light toy scalar and the Standard-Model claim
+narrowed accordingly. The e1/e2/e3 naturalness conclusions stand — at
+their stated eV-scale cutoff.
+
 ## 4. Vacuum alignment (flagged missing in corpus Ch. 4)
 
 Unbroken Z₂_h forces ⟨E⟩ = ⟨S₁⟩ = 0 identically (no E tadpole exists at
@@ -256,11 +331,21 @@ For v₂ ≲ 1 eV the lightest eigenvalue stays positive and the mixing angle
 even portal λ_1H S₁²h², this mixing does **not** reintroduce a linear
 E–Higgs coupling.
 
-## 5. Boundedness — MATH-03 recovered and generalized
+## 5. Boundedness — MATH-03 recovered and generalized (as an EFT-branch condition)
+
+**Labeling (erratum 7).** With positive stabilizing quartics, the full
+potential of §1 is bounded at large field values regardless of the
+inequality below: quartics grow as t⁴ and the cubic κ_EES₁S₂ only as
+t³, so the quartics dominate every ray. The MATH-03 inequality is
+therefore **not** a full-potential boundedness condition. It is the
+condition on the **E-integrated effective quartic** — the branch where E
+sits at the minimum of its quadratic form — which is the corpus's own
+derivation setting, and in that sense it is recovered exactly.
 
 Minimizing E (E* = −κ_E S₁S₂/m_E²; the sign enters the induced quartic
 only squared) gives the induced negative quartic
-−κ_E² S₁²S₂²/(2m_E²). Boundedness along all ray directions requires
+−κ_E² S₁²S₂²/(2m_E²). Boundedness of that effective quartic along all
+ray directions requires
 
   κ_E²/m_E²  <  λ_12 + √(λ₁λ₂)
 
@@ -278,8 +363,10 @@ minimization of V/t⁴ over x = S₁/S₂ ∈ [10⁻², 10²] gives min = +0.025
 | κ_E cap (½m_E²Ē² = ρ_loc) | 9.3×10⁻⁸ eV | ≲10⁻⁶ eV (eq. 5.13) | corpus conservative ~10× |
 | Ē cap | 21.4 eV | ≲ 2 eV (eq. 5.13) | corpus conservative ~10× |
 | δm_S²/m_S² (1 loop) | 8.6×10⁻¹⁰ | parametric (eq. 5.14) | coefficient now explicit |
-| δg_H (max spurion, λ_1H=λ_2H=1) | 5.9×10⁻¹⁰ eV = 2.95×10⁻¹⁰(λ_1H+λ_2H) | parametric (eq. 5.15) | coefficient now explicit; dual-channel (self-review r6) |
+| δg_H (max spurion, λ_1H=λ_2H=1, **leading-insertion**) | 5.9×10⁻¹⁰ eV = 2.95×10⁻¹⁰(λ_1H+λ_2H) | parametric (eq. 5.15) | dual-channel (r6); endpoint uncontrolled, IR prescription needed (r7) |
+| δg_H resummed (μ₁₂² = ½m_S², λ=1,1) | 3.24×10⁻¹⁰ eV | — | exact in μ₁₂²; ratio 1.10 vs insertion (r7) |
 | g_E linear-E tadpole (max spurion, Λ=1 eV) | 8.7×10⁻¹⁵ eV³ | — | new (self-review r6) |
+| naive weak-scale extrapolation of λ_EH (NOT matched) | δm_E² ~ 5.4×10⁹ eV², ratio ~5×10¹⁷ | — | minimal model fails physical-Higgs naturalness (r7) |
 | δm_E²/m_E² (κ bubble, Λ=1 eV) | 7.6×10⁻⁸ | — | corrected 2026-09-18 |
 | \|λ_E1+λ_E2+λ_EH\| naturalness cap (Λ=1 eV) | 1.58×10⁻⁶ | — | corrected ×2 (r2); two-sided (r4) |
 | Σ_X N_X\|λ_EX\| no-cancellation sufficient bound | ≲ same C | — | new (ChatGPT r5) |
@@ -293,18 +380,24 @@ corpus numbers sit safely inside the window.
 ## 7. What this closes / what stays open
 
 **Closed here (record-side):**
-1. Explicit symmetry-complete renormalizable model (§1) — the "full
-   hidden-sector model" item of Ch. 4.
-2. All-orders selection rule against E|H|² (Lemma 1′, §2).
-3. Explicit one-loop coefficients for δm_S², the spurion-induced portal,
-   and the corrected E-mass naturalness analysis (§3e: κ bubble
-   log-only; E²X² portal tadpoles λΛ²/16π² as the quadratic constraint;
+1. Explicit minimal Z₂_h-even renormalizable closure (§1, scoped by
+   erratum 7 — not the general symmetry-allowed model) — the "full
+   hidden-sector model" item of Ch. 4, at minimal-model level.
+2. All-orders selection rule against E|H|² (Lemma 1′, §2; robust to the
+   omitted even terms).
+3. Explicit one-loop coefficients for δm_S², the spurion-induced portal
+   (dual-channel, leading-insertion at maximal mixing with exact
+   resummation away from the endpoint), and the corrected E-mass
+   naturalness analysis (§3e: κ bubble log-only; E²X² portal tadpoles
+   λΛ²/16π² as the quadratic constraint, three labeled statements;
    induced tree-exchange floor −κ_E²/m_S² (EFT matching) and the
-   closed-form one-loop λ_EH triangle, all orders below the cap) — the
-   "loop or spurion calculation" item.
+   closed-form one-loop λ_EH triangle, all orders below the cap; §3e4:
+   no naturalness claim at the physical Higgs scale) — the "loop or
+   spurion calculation" item.
 4. Vacuum-alignment analysis with the v₂ critical value (§4) — the
    "vacuum alignment" item.
-5. MATH-03 recovered exactly and generalized to the three-field system (§5).
+5. MATH-03 recovered exactly (as the E-integrated effective-quartic
+   condition, erratum 7) and generalized to the three-field system (§5).
 
 **Still open (unchanged, corpus-stated):**
 - The global nonlinear retarded source PDE (□ + m_E²)E + λ_EE³ =
