@@ -157,8 +157,8 @@ calculable values:
   where both scalars propagate and the complete κ-only one-loop answer
   is the e1 bubble. No quadratic EFT estimate is extrapolated above the
   integrated-out mass.
-- **e3b — one-loop triangle for λ_EH (exact, erratum 3).** Two κ
-  vertices + ONE Higgs-portal vertex:
+- **e3b — one-loop triangle for λ_EH (closed form at one loop, erratum 3).**
+  Two κ vertices + ONE Higgs-portal vertex:
 
   λ_EH^ind = κ_E²∫d⁴k/(2π)⁴ [ λ_1H/((k²+m₁²)²(k²+m₂²))
                               + λ_2H/((k²+m₁²)(k²+m₂²)²) ]
@@ -166,7 +166,11 @@ calculable values:
   verified by background-field expansion of the §1 potential. Equal
   masses: λ_EH^ind = κ_E²(λ_1H+λ_2H)/(32π²m_S²) =
   **2.76×10⁻¹¹·(λ_1H+λ_2H)** — no O(1) Passarino–Veltman estimate
-  remains. Decisive control λ_1H=0, λ_2H=1 → nonzero 2.76×10⁻¹¹ (the
+  remains. "Closed form" applies to this one-loop integral under the
+  stated equal-mass, zero-external-momentum assumptions; general
+  momenta, unequal masses, and higher loops are separate computations
+  (ChatGPT round-3 acceptance precision). Decisive control λ_1H=0,
+  λ_2H=1 → nonzero 2.76×10⁻¹¹ (the
   round-2 box formula wrongly gave zero; the λ=1,1 benchmark coincided
   at 5.5×10⁻¹¹ and masked the wrong coupling dependence).
 
@@ -233,9 +237,9 @@ corpus numbers sit safely inside the window.
 3. Explicit one-loop coefficients for δm_S², the spurion-induced portal,
    and the corrected E-mass naturalness analysis (§3e: κ bubble
    log-only; E²X² portal tadpoles λΛ²/16π² as the quadratic constraint;
-   induced tree-exchange floor −κ_E²/m_S² (EFT matching) and the exact
-   λ_EH triangle, all orders below the cap) — the "loop or spurion
-   calculation" item.
+   induced tree-exchange floor −κ_E²/m_S² (EFT matching) and the
+   closed-form one-loop λ_EH triangle, all orders below the cap) — the
+   "loop or spurion calculation" item.
 4. Vacuum-alignment analysis with the v₂ critical value (§4) — the
    "vacuum alignment" item.
 5. MATH-03 recovered exactly and generalized to the three-field system (§5).
