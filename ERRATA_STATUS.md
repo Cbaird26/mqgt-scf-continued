@@ -16,7 +16,7 @@ Source of record: `MQGT_SCF_ERRATA_2026-09-17.md` (v4) in
 
 | ID | Claim | Status |
 |---|---|---|
-| E4 | T-1 α⁻¹ gate (residual 6.08×10⁻⁷) | **Open by design.** Fitted corrections are uncertifiable (58 pre-declared gate-passing coincidences); a structural derivation is required. Research run 2026-09-18: target pinned to c₃ = −1.56371823031276 on the α³ basis, QED-running hypothesis excluded numerically, resolution standard set — see `E4_ALPHA_GATE_RESEARCH_NOTE.md` + `mqgt_t1_e4_structure.py`. |
+| E4 | T-1 α⁻¹ gate (residual 6.08×10⁻⁷) | **Open by design.** Fitted corrections are uncertifiable (58 pre-declared gate-passing coincidences); a structural derivation is required. Research run 2026-09-18: target pinned to c₃ = −1.56371823031276 on the α³ basis, QED-running hypothesis excluded numerically, resolution standard set — see `E4_ALPHA_GATE_RESEARCH_NOTE.md` + `mqgt_t1_e4_structure.py`. Derivation attempt round 1 (`mqgt_t1_e4_derivation.py`, `E4_DERIVATION_NOTE.md`): correction is NOT any existing spectral invariant (M1/M3 excluded numerically); the Beltrami a₄(E) heat coefficient is the last nominated object. |
 
 ## Notes for the TUFT upstream (Nielsen) — documented, not applied here
 
