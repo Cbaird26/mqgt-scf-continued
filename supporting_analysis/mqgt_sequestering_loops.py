@@ -79,18 +79,35 @@ for Lam in (mpf('1'), mpf('1e3')):
           f"   dm_S^2/m_S^2={mp.nstr(dm/mS**2,4)}")
 
 # ---------------------------------------------------------------- (d) induced E|H|^2
-hdr("(d) spurion mu12^2 S1S2 -> induced E|H|^2 coefficient (one-loop triangle, exact C0)")
+hdr("(d) spurion mu12^2 S1S2 -> induced E|H|^2 coefficient (one-loop triangles) — SELF-REVIEW CORRECTION 2026-09-18")
+print("  SELF-REVIEW ERRATUM: the original (d) kept only the lam_2H triangle")
+print("  (propagators S1,S2,S2). Background-field expansion of the SAME S1")
+print("  potential (V1 = 1/2 ∫ ln det(k^2+M^2), M^2_S1S2 = mu12^2 + kappa E)")
+print("  gives BOTH mirror channels: h^2 attaches to the S1 line (lam_1H,")
+print("  propagators S1,S1,S2) or the S2 line (lam_2H, propagators S1,S2,S2).")
+print("  Full: dg_H = kappa mu12^2 [lam_1H |C0(m1^2,m1^2,m2^2)| + lam_2H")
+print("  |C0(m1^2,m2^2,m2^2)|] /(16 pi^2). Same method that verified e3b.")
 def C0_zero(ma2, mb2, mc2):
     inner = lambda x: quad(lambda y: 1 / (x * ma2 + y * mb2 + (1 - x - y) * mc2), [0, 1 - x])
     return -quad(inner, [0, 1])          # dimension eV^-2, negative-definite integrand
-c0 = C0_zero(mS**2, mS**2, mS**2)        # propagators (S1,S2,S2), all external p=0
-print(f"  C0(0; mS^2,mS^2,mS^2) = {mp.nstr(c0, 8)} eV^-2   (exact value -1/(2 mS^2) = {mp.nstr(-1/(2*mS**2),8)})")
+c0B = C0_zero(mS**2, mS**2, mS**2)       # channel B: lam_2H, propagators (S1,S2,S2)
+c0A = C0_zero(mS**2, mS**2, mS**2)       # channel A: lam_1H, propagators (S1,S1,S2); equal at benchmark
+print(f"  C0 channel B (S1,S2,S2) = {mp.nstr(c0B, 8)} eV^-2   (exact -1/(2 mS^2) = {mp.nstr(-1/(2*mS**2),8)})")
+print(f"  C0 channel A (S1,S1,S2) = {mp.nstr(c0A, 8)} eV^-2   (equal masses => identical)")
 mu12 = mS**2                              # maximal soft spurion benchmark
-lam2H = mpf('1')                          # report per unit portal coupling
-dgH = kappa * lam2H * mu12 / (16 * pi**2) * (-c0)   # sign convention of L_int; magnitude quoted
-print(f"  delta g_H = kappa lam2H mu12^2 |C0| /(16 pi^2)")
-print(f"            = {mp.nstr(dgH, 6)} eV   per lam2H=1, mu12^2=mS^2 (maximal spurion)")
-print(f"  scaling: delta g_H ~ {mp.nstr(kappa/(16*pi**2)*(-c0)*mpf('1'),4)} eV^-1 x lam2H x mu12^2[eV^2]")
+lam1H, lam2H = mpf('1'), mpf('1')         # report per unit portal coupling
+dgH = kappa * mu12 / (16 * pi**2) * (lam1H * (-c0A) + lam2H * (-c0B))
+print(f"  delta g_H = kappa mu12^2 (lam_1H |C0_A| + lam_2H |C0_B|) /(16 pi^2)")
+print(f"            = {mp.nstr(dgH, 6)} eV   at lam_1H=lam_2H=1, mu12^2=mS^2 (maximal spurion)")
+dgH_unit = kappa * mu12 / (16 * pi**2) * (-c0B)
+print(f"            = {mp.nstr(dgH_unit, 4)} eV x (lam_1H + lam_2H)  [was: only the lam_2H channel]")
+print(f"  scaling: delta g_H ~ {mp.nstr(kappa/(16*pi**2)*(-c0B)*mpf('1'),4)} eV^-1 x (lam_1H+lam_2H) x mu12^2[eV^2]")
+# h^0 piece at the same spurion order: linear-E tadpole (log-divergent bubble)
+gE = mu12 * kappa / (16 * pi**2) * (log(mpf('1') / mS**2) + B0_fin(0, mE**2, mS**2, mS**2))
+print(f"  same spurion order, h=0: linear-E tadpole g_E = mu12^2 kappa/(16 pi^2) [ln + B0]")
+print(f"            ~ {mp.nstr(gE, 4)} eV^3 (Lam=1 eV) -> induced <E> ~ g_E/m_E^2 ~ {mp.nstr(gE/mE**2,4)} eV")
+print(f"  both effects power-counted in mu12^2 and vanish in the symmetry limit;")
+print(f"  S4 alignment (<E>=0) is the exact-symmetry statement.")
 
 # ---------------------------------------------------------------- (e) delta m_E^2
 hdr("(e) E mass naturalness — CORRECTED 2026-09-18 (ChatGPT review verified)")

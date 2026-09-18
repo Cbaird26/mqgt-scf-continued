@@ -21,6 +21,9 @@ This repo is where the errata stop being annotations and become the text.
 | Path | What it is |
 |---|---|
 | `ERRATA_STATUS.md` | E1–E13 disposition: which repairs are applied here, which remain open, which belong to the TUFT upstream |
+| `LEDGER.md` | **Cross-repository research ledger**: claim → assumptions → derivation → code → controls → status → provenance, with the full review trail (ChatGPT rounds 1–5, Zora self-review, Grok directives) and open gates/refusals |
+| `exclusions/` | Certified negative results: Door 1 (twisted Hopf-line towers — U(1) fiber isometry) and Door 2 (Berger/canonical deformation — D1 susceptibility lock), both CLOSED with lab certificates |
+| `artifacts/T1_E4_DEPOSIT_NOTE_2026-09-18.md` | The T-1/E4 census: gated six-digit conjecture, residual 6.0765×10⁻⁷, uncitable prefactors, exclusion record |
 | `neutrino_portal_v2.py` | E2 repair, applied: the neutrino portal with the 3-Yukawa texture (Variant A default, Variant B selectable), both oscillation splittings fit exactly |
 | `A_Theory_of_Everything_UPDATED_2026-09-18.pdf` | The 6,926-page unified edition: corpus + verification supplement + verification paper |
 | `E4_ALPHA_GATE_RESEARCH_NOTE.md`, `E4_DERIVATION_NOTE.md`, `E4_FINAL_STATUS.md` + `mqgt_t1_e4_*.py` | E4 (T-1 α⁻¹ gate) research record: pinned target c₃ = −1.56371823031276, exclusion record across fits, QED running, existing invariants, heat kernel |

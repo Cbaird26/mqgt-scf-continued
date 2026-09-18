@@ -60,6 +60,20 @@
 > (implies (i) by the triangle inequality); (iii) per-channel
 > |λ_EX| ≲ C as screening only. N_X = field multiplicity under the §1
 > normalization.
+>
+> **ERRATUM 6 (2026-09-18, SELF-REVIEW — peer-review pass, verified and
+> repaired):** (ix) §3(d) kept only the λ_2H triangle (propagators
+> S₁,S₂,S₂). Background-field expansion of the same §1 potential
+> (M²_S₁S₂ = μ₁₂² + κ_E E) gives BOTH mirror channels: h² attaches to
+> the S₁ line (λ_1H; propagators S₁,S₁,S₂) or the S₂ line (λ_2H;
+> propagators S₁,S₂,S₂). Full coefficient: δg_H = κ_E μ₁₂²
+> [λ_1H|C₀(m₁²,m₁²,m₂²)| + λ_2H|C₀(m₁²,m₂²,m₂²)|]/(16π²) =
+> 2.95×10⁻¹⁰·(λ_1H+λ_2H) eV at maximal spurion — same verification
+> method as e3b; the qualitative conclusion (bounded, power-counted,
+> vanishing as μ₁₂² → 0) is unchanged. (x) at the same spurion order
+> there is also an h⁰ linear-E tadpole g_E = μ₁₂²κ_E/(16π²)[ln+B₀]
+> (~8.7×10⁻¹⁵ eV³, Λ = 1 eV; induced ⟨E⟩ ~ 8.7×10⁻⁷ eV), now stated
+> alongside δg_H; §4's ⟨E⟩ = 0 is the exact-symmetry statement.
 
 **Scope.** Corpus Part 0 open problem 1 states: *"the working hidden source
 J[Ψ] = κ_ES² requires a symmetry-complete radiative-sequestering model."*
@@ -112,7 +126,9 @@ This discharges the corpus's radiative-stability caveat ("every
 interaction ... respects the same selection rule", §7) for the full
 renormalizable Lagrangian of §1, including the Higgs portals λ_1H, λ_2H,
 λ_EH: the regeneration channel of corpus eq. (5.15) exists only in the
-S₁≡S₂ simplified limit, not in the split model.
+S₁≡S₂ simplified limit, not in the split model (absent soft Z₂_h
+breaking; with a soft spurion it reappears bounded and power-counted —
+that is §3(d)).
 
 ## 3. One-loop coefficients (explicit)
 
@@ -128,16 +144,23 @@ by nine orders of magnitude.
 
 **(d) Spurion-broken induced portal** (corpus eq. 5.15 made exact in the
 split model). Let Z₂_h be broken only by the soft spurion μ₁₂²S₁S₂.
-Then at one loop (triangle with propagators S₁, S₂, S₂):
+Then at one loop the h² attaches to either hidden line — two mirror
+triangles (erratum 6):
 
-  δg_H = κ_E λ_2H μ₁₂² · |C₀(0; m₁², m₂², m₂²)| /(16π²),
-  C₀(0; m²,m²,m²) = −1/(2m²)   [script reproduces −500000.0 eV⁻² exactly]
+  δg_H = κ_E μ₁₂² [ λ_1H|C₀(0; m₁², m₁², m₂²)| + λ_2H|C₀(0; m₁², m₂², m₂²)| ]/(16π²),
+  C₀(0; m²,m²,m²) = −1/(2m²)   [script reproduces −500000.0 eV⁻² exactly, both channels]
 
-Benchmark (maximal spurion μ₁₂² = m_S², λ_2H = 1):
-**δg_H = 2.95×10⁻¹⁰ eV**, scaling as δg_H ≈ 2.95×10⁻⁴ · λ_2H · μ₁₂²[eV²] eV.
-The induced direct source is bounded, power-counted in the spurion, and
-vanishes in the symmetry limit μ₁₂² → 0 — the corpus's requirement
-"power-counted and bounded" (Ch. 4) is met with an explicit coefficient.
+verified by background-field expansion of the §1 potential
+(M²_S₁S₂ = μ₁₂² + κ_E E; coefficient of E h² in V₁ = ½∫ln det(k²+M²)).
+Equal-mass benchmark (maximal spurion μ₁₂² = m_S²):
+**δg_H = 2.95×10⁻¹⁰·(λ_1H+λ_2H) eV** (5.9×10⁻¹⁰ eV at λ_1H=λ_2H=1),
+scaling as δg_H ≈ 2.95×10⁻⁴ · (λ_1H+λ_2H) · μ₁₂²[eV²] eV.
+At the same spurion order there is also an h⁰ linear-E tadpole
+g_E = μ₁₂²κ_E/(16π²)[ln(Λ²/μ²) + B₀] ≈ 8.7×10⁻¹⁵ eV³ (Λ = 1 eV),
+inducing ⟨E⟩ ~ g_E/m_E² ~ 8.7×10⁻⁷ eV (erratum 6).
+Both effects are bounded, power-counted in the spurion, and vanish in
+the symmetry limit μ₁₂² → 0 — the corpus's requirement "power-counted
+and bounded" (Ch. 4) is met with explicit coefficients.
 
 **(e) E-mass naturalness (corrected — see erratum above).** Two distinct
 one-loop channels:
@@ -235,7 +258,8 @@ E–Higgs coupling.
 
 ## 5. Boundedness — MATH-03 recovered and generalized
 
-Minimizing E (E* = κ_E S₁S₂/m_E²) gives the induced negative quartic
+Minimizing E (E* = −κ_E S₁S₂/m_E²; the sign enters the induced quartic
+only squared) gives the induced negative quartic
 −κ_E² S₁²S₂²/(2m_E²). Boundedness along all ray directions requires
 
   κ_E²/m_E²  <  λ_12 + √(λ₁λ₂)
@@ -254,7 +278,8 @@ minimization of V/t⁴ over x = S₁/S₂ ∈ [10⁻², 10²] gives min = +0.025
 | κ_E cap (½m_E²Ē² = ρ_loc) | 9.3×10⁻⁸ eV | ≲10⁻⁶ eV (eq. 5.13) | corpus conservative ~10× |
 | Ē cap | 21.4 eV | ≲ 2 eV (eq. 5.13) | corpus conservative ~10× |
 | δm_S²/m_S² (1 loop) | 8.6×10⁻¹⁰ | parametric (eq. 5.14) | coefficient now explicit |
-| δg_H (max spurion, λ_2H=1) | 3.0×10⁻¹⁰ eV | parametric (eq. 5.15) | coefficient now explicit |
+| δg_H (max spurion, λ_1H=λ_2H=1) | 5.9×10⁻¹⁰ eV = 2.95×10⁻¹⁰(λ_1H+λ_2H) | parametric (eq. 5.15) | coefficient now explicit; dual-channel (self-review r6) |
+| g_E linear-E tadpole (max spurion, Λ=1 eV) | 8.7×10⁻¹⁵ eV³ | — | new (self-review r6) |
 | δm_E²/m_E² (κ bubble, Λ=1 eV) | 7.6×10⁻⁸ | — | corrected 2026-09-18 |
 | \|λ_E1+λ_E2+λ_EH\| naturalness cap (Λ=1 eV) | 1.58×10⁻⁶ | — | corrected ×2 (r2); two-sided (r4) |
 | Σ_X N_X\|λ_EX\| no-cancellation sufficient bound | ≲ same C | — | new (ChatGPT r5) |
