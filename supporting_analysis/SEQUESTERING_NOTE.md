@@ -12,6 +12,17 @@
 > of E|H|²), vacuum alignment, and boundedness are untouched. Credit:
 > ChatGPT's 2026-09-18 trace, relayed by Christopher (initially
 > mis-credited to Grok in commit 1f0dedc; attribution corrected here).
+>
+> **ERRATUM 2 (2026-09-18, ChatGPT round 2 — verified and repaired):**
+> (iii) with the §1 normalization (λ_EX/2)E²X², the tadpole coefficient is
+> λ_EXΛ²/(16π²), not /(32π²) — verified by the background-field identity
+> δm_E² = ∂²V₁/∂E²|₀ = λ_EX∫d⁴k/(k²+m_X²); the portal cap halves to
+> 1.58×10⁻⁶ (eV/Λ)². (iv) "portals multiplicatively renormalized" was
+> wrong: vanishing portals are **not** radiatively stable — tree-level
+> exchange induces λ_E1 = λ_E2 = −κ_E²/m_S² = −8.7×10⁻⁹ and a one-loop
+> box induces λ_EH ~ κ_E²λ_1Hλ_2H/(16π²m_S²). Repaired in §3(e3): the
+> induced floor is calculable and sits 2–3 orders below the cap; the cap
+> applies to the bare + induced total.
 
 **Scope.** Corpus Part 0 open problem 1 states: *"the working hidden source
 J[Ψ] = κ_ES² requires a symmetry-complete radiative-sequestering model."*
@@ -106,20 +117,36 @@ natural to cutoffs far above 1 MeV — only a logarithm, never a power.
 *e2 — portal tadpoles (quadratic; the actual constraint).* The Z₂_h-allowed
 E²X² quartics of §1 (λ_E1, λ_E2, λ_EH) give one-loop tadpoles
 
-  δm_E² = (λ_E1 + λ_E2 + λ_EH) · Λ²/(32π²),
+  δm_E² = (λ_E1 + λ_E2 + λ_EH) · Λ²/(16π²)
 
-so E-mass naturalness (δm_E² ≤ m_E²) requires
+[coefficient 16π², erratum 2 above], so E-mass naturalness
+(δm_E² ≤ m_E²) requires
 
-  λ_E1 + λ_E2 + λ_EH  ≲  3.16×10⁻⁶ · (eV/Λ)²
+  λ_E1 + λ_E2 + λ_EH  ≲  1.58×10⁻⁶ · (eV/Λ)²
 
-(3.16×10⁻⁶ at Λ = 1 eV; 3.16×10⁻¹² at 1 keV; 3.16×10⁻¹⁸ at 1 MeV).
+(1.58×10⁻⁶ at Λ = 1 eV; 1.58×10⁻¹² at 1 keV; 1.58×10⁻¹⁸ at 1 MeV).
 These portals are Z₂_h-even, so sequestering cannot forbid them — but
 they are *not* the forbidden operator: E²|H|²-type terms correct the E
 mass, they do **not** regenerate a linear E|H|² source (Lemma 1′ stands).
-Small portals are technically natural here (multiplicatively
-renormalized at leading order; vanishing portals restore independent
-sector symmetries). This is the standard ultralight-scalar portal
-tuning, not a sequestering failure.
+
+*e3 — radiative stability of the portal floor (erratum 2).* Setting the
+portals to zero is **not** radiatively stable; they are induced at
+calculable values:
+
+- tree-level exchange (integrating out the partner hidden scalar, the
+  same induced structure as §5's boundedness term):
+  λ_E1 = λ_E2 = −κ_E²/m_S² = **−8.7×10⁻⁹** at benchmark (negative);
+- one-loop box (κ × λ_1H × κ × λ_2H around the loop, finite):
+  λ_EH ~ κ_E²λ_1Hλ_2H/(16π²m_S²) ~ 5×10⁻¹¹·λ_1Hλ_2H·O(1).
+
+Both sit 2–3 orders below the 1.58×10⁻⁶ cap, and their tadpole
+contributions saturate at ~κ_E²/(16π²) ≪ m_E² once Λ exceeds m_S (above
+m_S the partner scalar propagates and the κ bubble of e1 is the full
+answer — only logarithmic). The cap therefore applies to the
+bare + induced **total**; with N degenerate portal species it divides
+by N (h counts one real fluctuation as written; a full SU(2) doublet
+would count 4). This is the standard ultralight-scalar portal tuning —
+a condition on couplings, not a sequestering failure.
 
 ## 4. Vacuum alignment (flagged missing in corpus Ch. 4)
 
@@ -158,7 +185,8 @@ minimization of V/t⁴ over x = S₁/S₂ ∈ [10⁻², 10²] gives min = +0.025
 | δm_S²/m_S² (1 loop) | 8.6×10⁻¹⁰ | parametric (eq. 5.14) | coefficient now explicit |
 | δg_H (max spurion, λ_2H=1) | 3.0×10⁻¹⁰ eV | parametric (eq. 5.15) | coefficient now explicit |
 | δm_E²/m_E² (κ bubble, Λ=1 eV) | 7.6×10⁻⁸ | — | corrected 2026-09-18 |
-| λ_E1+λ_E2+λ_EH naturalness cap (Λ=1 eV) | 3.2×10⁻⁶ | — | corrected 2026-09-18 |
+| λ_E1+λ_E2+λ_EH naturalness cap (Λ=1 eV) | 1.58×10⁻⁶ | — | corrected ×2 (ChatGPT r2) |
+| induced portal floor λ_E1 = λ_E2 = −κ_E²/m_S² | −8.7×10⁻⁹ | — | new (ChatGPT r2) |
 
 The corpus's eq. (5.13) pair (κ_E ≲ 10⁻⁶ eV, Ē_S ≲ 2 eV) does not saturate
 ½m_E²Ē² = ρ_loc; the recomputed saturation values are given above. Both
@@ -172,8 +200,9 @@ corpus numbers sit safely inside the window.
 2. All-orders selection rule against E|H|² (Lemma 1′, §2).
 3. Explicit one-loop coefficients for δm_S², the spurion-induced portal,
    and the corrected E-mass naturalness analysis (§3e: κ bubble
-   log-only; E²X² portal tadpoles as the quadratic constraint) — the
-   "loop or spurion calculation" item.
+   log-only; E²X² portal tadpoles λΛ²/16π² as the quadratic constraint;
+   induced portal floor −κ_E²/m_S² and the λ_EH box, 2–3 orders below
+   the cap) — the "loop or spurion calculation" item.
 4. Vacuum-alignment analysis with the v₂ critical value (§4) — the
    "vacuum alignment" item.
 5. MATH-03 recovered exactly and generalized to the three-field system (§5).

@@ -114,13 +114,26 @@ for Lam in (mpf('1'), mpf('1e3'), mpf('1e6')):
           f"   dm_E^2/m_E^2={mp.nstr(dm/mE**2,4)}")
 print("  -> kappa channel alone is natural to cutoffs far above 1 MeV (log only).")
 print()
-print("(e2) portal tadpoles: dm_E^2 = (lam_E1+lam_E2+lam_EH) Lam^2/(32 pi^2)")
+print("(e2) portal tadpoles: dm_E^2 = (lam_E1+lam_E2+lam_EH) Lam^2/(16 pi^2)")
+print("  [coefficient corrected 32->16 pi^2: ChatGPT round 2, verified via")
+print("   background-field V1: d^2V1/dE^2 = lam_EX Lam^2/(16 pi^2)]")
 print("  Z2-even, so NOT sequestered (and do not regenerate E|H|^2 either):")
 for Lam in (mpf('1'), mpf('1e3'), mpf('1e6')):
-    lamcrit = 32 * pi**2 * mE**2 / Lam**2
+    lamcrit = 16 * pi**2 * mE**2 / Lam**2
     print(f"  Lam={mp.nstr(Lam,3)} eV: naturalness needs"
-          f"  lam_E1+lam_E2+lam_EH < {mp.nstr(lamcrit,4)}"
-          f"   (equiv Lam_max = sqrt(32 pi^2/lam) m_E)")
+          f"  lam_E1+lam_E2+lam_EH < {mp.nstr(lamcrit,4)}")
+print()
+print("(e3) radiative stability of zero portals (ChatGPT round 2): NOT stable,")
+print("  portals are INDUCED at calculable values:")
+lam_E1_ind = -kappa**2 / mS**2   # integrate out S2 at tree level
+lam_EH_box = kappa**2 / (16 * pi**2 * mS**2)  # O(1) PaVe factor suppressed
+print(f"  tree exchange: lam_E1 = lam_E2 = -kappa^2/m_S^2 = {mp.nstr(lam_E1_ind,4)}")
+print(f"     (same induced structure as section (f) boundedness; negative sign)")
+print(f"  one-loop box: lam_EH ~ kappa^2 lam_1H lam_2H/(16 pi^2 m_S^2)")
+print(f"     ~ {mp.nstr(lam_EH_box,4)} x lam_1H lam_2H x O(1) (finite, estimate)")
+print(f"  vs the bare-portal cap 1.58e-6 (eV/Lam)^2: induced floor is 2-3 orders")
+print(f"  below; their tadpoles saturate at ~kappa^2/(16 pi^2) << m_E^2 above m_S.")
+print(f"  Net: cap applies to (bare + induced) total; multiplicity N_X divides it.")
 
 # ---------------------------------------------------------------- (f) boundedness
 hdr("(f) potential boundedness (MATH-03 generalization)")
