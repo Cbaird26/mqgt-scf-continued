@@ -1,6 +1,17 @@
 # Radiative Sequestering of the Hidden Source J[Ψ] = κ_ES²E
 ## Record-side note — MQGT-SCF verification program, parallel 2 (2026-09-18)
 
+> **ERRATUM (2026-09-18, Grok review — both points verified and repaired):**
+> the original §3(e) claimed the κ vertex reaches the E propagator "only at
+> two loops" with δm_E² ~ κ_E²Λ²/(16π²)². Wrong twice: (i) two κ vertices
+> already make a **one-loop** E self-energy bubble (internal S₁, S₂ lines);
+> (ii) κ_E²Λ² has mass dimension 4, not the dim-2 of a mass correction.
+> §3(e) is rewritten with the correct one-loop content: the κ bubble
+> (log-divergent) and the Z₂_h-allowed E²X² portal tadpoles (quadratic;
+> the actual E-mass naturalness constraint). Lemma 1′ (all-orders absence
+> of E|H|²), vacuum alignment, and boundedness are untouched. Credit:
+> Grok's 2026-09-18 trace; repair verified by re-running the script.
+
 **Scope.** Corpus Part 0 open problem 1 states: *"the working hidden source
 J[Ψ] = κ_ES² requires a symmetry-complete radiative-sequestering model."*
 The corpus supplies: Lemma 1 (tree-level sequestering by hidden parity, §7),
@@ -79,11 +90,35 @@ The induced direct source is bounded, power-counted in the spurion, and
 vanishes in the symmetry limit μ₁₂² → 0 — the corpus's requirement
 "power-counted and bounded" (Ch. 4) is met with an explicit coefficient.
 
-**(e) E-mass naturalness.** The κ vertex reaches the E propagator only at
-two loops: δm_E² ~ κ_E²Λ²/(16π²)². Ratios to m_E² = 10⁻⁸ eV²:
-3.5×10⁻¹¹ (Λ = 1 eV), 3.5×10⁻⁵ (Λ = 1 keV), 34.9 (Λ = 1 MeV).
-Natural for a hidden-sector cutoff up to ~100 keV; beyond that the generic
-ultralight-scalar tuning problem returns — not a sequestering failure.
+**(e) E-mass naturalness (corrected — see erratum above).** Two distinct
+one-loop channels:
+
+*e1 — κ bubble (log-divergent only).* Two κ_EES₁S₂ vertices close into a
+one-loop E self-energy bubble (internal S₁, S₂):
+
+  δm_E² = κ_E²/(16π²) · [ ln(Λ²/μ²) + B0_fin(m_E²; m₁², m₂²; μ²) ]
+
+At benchmark (B0_fin = +0.00167): δm_E²/m_E² = 7.6×10⁻⁸ (Λ = 1 eV),
+1.5×10⁻⁷ (Λ = 1 keV), 2.3×10⁻⁷ (Λ = 1 MeV). The κ channel alone is
+natural to cutoffs far above 1 MeV — only a logarithm, never a power.
+
+*e2 — portal tadpoles (quadratic; the actual constraint).* The Z₂_h-allowed
+E²X² quartics of §1 (λ_E1, λ_E2, λ_EH) give one-loop tadpoles
+
+  δm_E² = (λ_E1 + λ_E2 + λ_EH) · Λ²/(32π²),
+
+so E-mass naturalness (δm_E² ≤ m_E²) requires
+
+  λ_E1 + λ_E2 + λ_EH  ≲  3.16×10⁻⁶ · (eV/Λ)²
+
+(3.16×10⁻⁶ at Λ = 1 eV; 3.16×10⁻¹² at 1 keV; 3.16×10⁻¹⁸ at 1 MeV).
+These portals are Z₂_h-even, so sequestering cannot forbid them — but
+they are *not* the forbidden operator: E²|H|²-type terms correct the E
+mass, they do **not** regenerate a linear E|H|² source (Lemma 1′ stands).
+Small portals are technically natural here (multiplicatively
+renormalized at leading order; vanishing portals restore independent
+sector symmetries). This is the standard ultralight-scalar portal
+tuning, not a sequestering failure.
 
 ## 4. Vacuum alignment (flagged missing in corpus Ch. 4)
 
@@ -121,7 +156,8 @@ minimization of V/t⁴ over x = S₁/S₂ ∈ [10⁻², 10²] gives min = +0.025
 | Ē cap | 21.4 eV | ≲ 2 eV (eq. 5.13) | corpus conservative ~10× |
 | δm_S²/m_S² (1 loop) | 8.6×10⁻¹⁰ | parametric (eq. 5.14) | coefficient now explicit |
 | δg_H (max spurion, λ_2H=1) | 3.0×10⁻¹⁰ eV | parametric (eq. 5.15) | coefficient now explicit |
-| δm_E²/m_E² (2 loops, Λ=1 eV) | 3.5×10⁻¹¹ | — | new |
+| δm_E²/m_E² (κ bubble, Λ=1 eV) | 7.6×10⁻⁸ | — | corrected 2026-09-18 |
+| λ_E1+λ_E2+λ_EH naturalness cap (Λ=1 eV) | 3.2×10⁻⁶ | — | corrected 2026-09-18 |
 
 The corpus's eq. (5.13) pair (κ_E ≲ 10⁻⁶ eV, Ē_S ≲ 2 eV) does not saturate
 ½m_E²Ē² = ρ_loc; the recomputed saturation values are given above. Both
@@ -133,9 +169,10 @@ corpus numbers sit safely inside the window.
 1. Explicit symmetry-complete renormalizable model (§1) — the "full
    hidden-sector model" item of Ch. 4.
 2. All-orders selection rule against E|H|² (Lemma 1′, §2).
-3. Explicit one-loop coefficients for δm_S² and the spurion-induced
-   portal, and the two-loop δm_E² estimate (§3) — the "loop or spurion
-   calculation" item.
+3. Explicit one-loop coefficients for δm_S², the spurion-induced portal,
+   and the corrected E-mass naturalness analysis (§3e: κ bubble
+   log-only; E²X² portal tadpoles as the quadratic constraint) — the
+   "loop or spurion calculation" item.
 4. Vacuum-alignment analysis with the v₂ critical value (§4) — the
    "vacuum alignment" item.
 5. MATH-03 recovered exactly and generalized to the three-field system (§5).

@@ -9,7 +9,8 @@ Contents
   (b) corpus benchmark recompute: <S^2>, backreaction cap on kappa_E and E_bar
   (c) one-loop delta m_S^2 from the kappa vertex, exact finite B0 part
   (d) spurion-broken induced E|H|^2 portal, exact finite C0 triangle
-  (e) two-loop delta m_E^2 estimate vs m_E^2 (hidden-cutoff dependence)
+  (e) E-mass naturalness, CORRECTED 2026-09-18: one-loop kappa bubble (log)
+      + one-loop E^2 X^2 portal tadpoles (quadratic); Grok-verified erratum
   (f) boundedness: 3-field condition and single-field reduction lambda_S > 2 kappa^2/m_E^2
   (g) vacuum alignment: E-S1 mixing from <S2> = v2, tachyon condition
 
@@ -91,12 +92,34 @@ print(f"  delta g_H = kappa lam2H mu12^2 |C0| /(16 pi^2)")
 print(f"            = {mp.nstr(dgH, 6)} eV   per lam2H=1, mu12^2=mS^2 (maximal spurion)")
 print(f"  scaling: delta g_H ~ {mp.nstr(kappa/(16*pi**2)*(-c0)*mpf('1'),4)} eV^-1 x lam2H x mu12^2[eV^2]")
 
-# ---------------------------------------------------------------- (e) delta m_E^2, two-loop
-hdr("(e) E mass naturalness: kappa vertex enters E self-energy only at two loops")
+# ---------------------------------------------------------------- (e) delta m_E^2
+hdr("(e) E mass naturalness — CORRECTED 2026-09-18 (Grok review verified)")
+print("  ERRATUM (previous version said): 'kappa vertex reaches the E propagator")
+print("  only at two loops, dm_E^2 ~ kappa^2 Lam^2/(16 pi^2)^2' -- wrong twice:")
+print("  (i) two kappa vertices make a ONE-loop bubble (S1,S2 internal lines);")
+print("  (ii) kappa^2 Lam^2 has mass dimension 4, not the dim-2 of a mass")
+print("       correction. Both points due to Grok's review; both verified here.")
+print("  Correct content: (e1) one-loop kappa bubble (log-divergent, dim 2);")
+print("  (e2) one-loop tadpoles from the Z2-allowed E^2 X^2 portal quartics")
+print("       (quadratic divergence; THE actual E-mass naturalness constraint).")
+print()
+print("(e1) one-loop kappa bubble: dm_E^2 = kappa^2/(16 pi^2) [ln(Lam^2/mu^2) + B0_fin]")
+mu = mS
+b0fE = B0_fin(mE**2, mS**2, mS**2, mu**2)
+print(f"  B0_fin(m_E^2; m_S^2, m_S^2; mu^2) = {mp.nstr(b0fE, 8)}")
 for Lam in (mpf('1'), mpf('1e3'), mpf('1e6')):
-    dmE2 = kappa**2 * Lam**2 / (16 * pi**2)**2
-    print(f"  Lam={mp.nstr(Lam,3)} eV:  dm_E^2 ~ kappa^2 Lam^2/(16 pi^2)^2 = {mp.nstr(dmE2,4)} eV^2"
-          f"   dm_E^2/m_E^2 = {mp.nstr(dmE2/mE**2,3)}")
+    dm = kappa**2 / (16 * pi**2) * (log(Lam**2 / mu**2) + b0fE)
+    print(f"  Lam={mp.nstr(Lam,3)} eV: dm_E^2={mp.nstr(dm,4)} eV^2"
+          f"   dm_E^2/m_E^2={mp.nstr(dm/mE**2,4)}")
+print("  -> kappa channel alone is natural to cutoffs far above 1 MeV (log only).")
+print()
+print("(e2) portal tadpoles: dm_E^2 = (lam_E1+lam_E2+lam_EH) Lam^2/(32 pi^2)")
+print("  Z2-even, so NOT sequestered (and do not regenerate E|H|^2 either):")
+for Lam in (mpf('1'), mpf('1e3'), mpf('1e6')):
+    lamcrit = 32 * pi**2 * mE**2 / Lam**2
+    print(f"  Lam={mp.nstr(Lam,3)} eV: naturalness needs"
+          f"  lam_E1+lam_E2+lam_EH < {mp.nstr(lamcrit,4)}"
+          f"   (equiv Lam_max = sqrt(32 pi^2/lam) m_E)")
 
 # ---------------------------------------------------------------- (f) boundedness
 hdr("(f) potential boundedness (MATH-03 generalization)")
