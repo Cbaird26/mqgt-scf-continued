@@ -1,0 +1,151 @@
+# Radiative Sequestering of the Hidden Source J[Ψ] = κ_ES²E
+## Record-side note — MQGT-SCF verification program, parallel 2 (2026-09-18)
+
+**Scope.** Corpus Part 0 open problem 1 states: *"the working hidden source
+J[Ψ] = κ_ES² requires a symmetry-complete radiative-sequestering model."*
+The corpus supplies: Lemma 1 (tree-level sequestering by hidden parity, §7),
+the parametric one-loop estimates eqs. (5.14)–(5.15), the coupled potential
+V(S,E) (§8, eq. 18), and the MATH-03 weak-branch stability bound
+λ_S > 2κ_E²/m_E². It explicitly flags as missing: *a full hidden-sector
+model, vacuum alignment, and loop or spurion calculation* (Ch. 4).
+This note delivers those three items at one-loop accuracy, with exact
+coefficients where the corpus quoted parametric scalings.
+
+Verification script: `mqgt_sequestering_loops.py` (mpmath, dps = 50).
+Nothing here is play-side; all formulas are standard scalar EFT and all
+numbers below are reproduced by the script.
+
+---
+
+## 1. Symmetry-complete model
+
+Fields: E, S₁ (Z₂_h-odd); S₂, H (Z₂_h-even). Hidden bilinear O_h = S₁S₂
+(odd); source E·O_h (even). Renormalizable Z₂_h-even potential:
+
+V = ½m_E²E² + λ_E/4 E⁴ + ½m₁²S₁² + λ₁/4 S₁⁴ + ½m₂²S₂² + λ₂/4 S₂⁴
+  + κ_E E S₁S₂
+  + ½λ_E1 E²S₁² + ½λ_E2 E²S₂² + ½λ_12 S₁²S₂²
+  + (λ_1H/2) S₁²h² + (λ_2H/2) S₂²h² + (λ_EH/2) E²h²      (h = Higgs fluctuation)
+
+Operator classification (script §a): of the 69 scalar monomials of
+dimension ≤ 4 over {E, S₁, S₂, h}, 37 are even (allowed) and 32 odd
+(forbidden). **E|H|² is in the forbidden set; E S₁S₂ is allowed.** The
+corpus's single-field source κ_ES²E is recovered as the S₁→S₂-aligned
+(spurion-maximal) simplification: a literal S²E term is itself Z₂_h-odd,
+which is exactly the corpus's own observation that "a literal S2E source
+does not by itself explain why |H|²E is absent" (§7). The S₁/S₂ field
+split — listed in corpus §5.4 as one of the three sequestering options —
+is here realized explicitly.
+
+## 2. Lemma 1′ — all-orders selection rule (upgrade of corpus Lemma 1)
+
+**Statement.** With the Lagrangian of §1 (every vertex Z₂_h-even) and a
+parity-preserving regulator/counterterm scheme, the operator E|H|² is not
+generated at any order of perturbation theory.
+
+**Proof sketch.** Every propagator connects fields of equal parity and
+every vertex is even, so every 1PI amplitude carries even total parity.
+E|H|² is odd. Hence its 1PI Green function vanishes to all orders; no
+counterterm for it is ever required. ∎
+
+This discharges the corpus's radiative-stability caveat ("every
+interaction ... respects the same selection rule", §7) for the full
+renormalizable Lagrangian of §1, including the Higgs portals λ_1H, λ_2H,
+λ_EH: the regeneration channel of corpus eq. (5.15) exists only in the
+S₁≡S₂ simplified limit, not in the split model.
+
+## 3. One-loop coefficients (explicit)
+
+**(c) Hidden-mass correction** (corpus eq. 5.14 made exact). The κ vertex
+enters the S₂ self-energy at one loop (E–S₁ bubble), logarithmically
+divergent only:
+
+  δm_S² = κ_E²/(16π²) · [ ln(Λ²/μ²) + B0_fin(m_S²; m_E², m_S²; μ²) ]
+
+At benchmark (κ_E = κ_cap = 9.33×10⁻⁸ eV; B0_fin = +1.7193):
+δm_S²/m_S² = 8.6×10⁻¹⁰ (Λ = 1 eV) — hidden-mass naturalness is satisfied
+by nine orders of magnitude.
+
+**(d) Spurion-broken induced portal** (corpus eq. 5.15 made exact in the
+split model). Let Z₂_h be broken only by the soft spurion μ₁₂²S₁S₂.
+Then at one loop (triangle with propagators S₁, S₂, S₂):
+
+  δg_H = κ_E λ_2H μ₁₂² · |C₀(0; m₁², m₂², m₂²)| /(16π²),
+  C₀(0; m²,m²,m²) = −1/(2m²)   [script reproduces −500000.0 eV⁻² exactly]
+
+Benchmark (maximal spurion μ₁₂² = m_S², λ_2H = 1):
+**δg_H = 2.95×10⁻¹⁰ eV**, scaling as δg_H ≈ 2.95×10⁻⁴ · λ_2H · μ₁₂²[eV²] eV.
+The induced direct source is bounded, power-counted in the spurion, and
+vanishes in the symmetry limit μ₁₂² → 0 — the corpus's requirement
+"power-counted and bounded" (Ch. 4) is met with an explicit coefficient.
+
+**(e) E-mass naturalness.** The κ vertex reaches the E propagator only at
+two loops: δm_E² ~ κ_E²Λ²/(16π²)². Ratios to m_E² = 10⁻⁸ eV²:
+3.5×10⁻¹¹ (Λ = 1 eV), 3.5×10⁻⁵ (Λ = 1 keV), 34.9 (Λ = 1 MeV).
+Natural for a hidden-sector cutoff up to ~100 keV; beyond that the generic
+ultralight-scalar tuning problem returns — not a sequestering failure.
+
+## 4. Vacuum alignment (flagged missing in corpus Ch. 4)
+
+Unbroken Z₂_h forces ⟨E⟩ = ⟨S₁⟩ = 0 identically (no E tadpole exists at
+any loop order — the operator E itself is odd). A nonzero ⟨S₂⟩ = v₂ is
+allowed and induces E–S₁ mixing κ_E v₂ E S₁. The 2×2 mass matrix is
+tachyon-free iff κ_E²v₂² < m_E²m₁², i.e.
+
+  v₂ < v₂_crit = m_E m₁/κ_E = 1.07 eV   (at κ_E = κ_cap)
+
+For v₂ ≲ 1 eV the lightest eigenvalue stays positive and the mixing angle
+θ ≤ 0.09 (script §g). Because S₁ itself couples to the SM only through the
+even portal λ_1H S₁²h², this mixing does **not** reintroduce a linear
+E–Higgs coupling.
+
+## 5. Boundedness — MATH-03 recovered and generalized
+
+Minimizing E (E* = κ_E S₁S₂/m_E²) gives the induced negative quartic
+−κ_E² S₁²S₂²/(2m_E²). Boundedness along all ray directions requires
+
+  κ_E²/m_E²  <  λ_12 + √(λ₁λ₂)
+
+In the single-field reduction (S₁ = S₂ = S, λ_S = λ₁ + λ₂ + 2λ_12) this is
+**exactly the corpus MATH-03 bound λ_S > 2κ_E²/m_E²** (corpus's V = λ_S/4
+S⁴ convention). Numerically at benchmark with λ₁ = λ₂ = λ_12 = 0.1:
+κ_E²/m_E² = 8.7×10⁻⁷ vs allowed 0.2 — margin factor 2.3×10⁵; direct grid
+minimization of V/t⁴ over x = S₁/S₂ ∈ [10⁻², 10²] gives min = +0.025 > 0.
+
+## 6. Benchmark window (recomputed)
+
+| quantity | value | corpus quote | status |
+|---|---|---|---|
+| ⟨S²⟩ | 2.3 eV² | 2.3 eV² (eq. 5.11) | matches |
+| κ_E cap (½m_E²Ē² = ρ_loc) | 9.3×10⁻⁸ eV | ≲10⁻⁶ eV (eq. 5.13) | corpus conservative ~10× |
+| Ē cap | 21.4 eV | ≲ 2 eV (eq. 5.13) | corpus conservative ~10× |
+| δm_S²/m_S² (1 loop) | 8.6×10⁻¹⁰ | parametric (eq. 5.14) | coefficient now explicit |
+| δg_H (max spurion, λ_2H=1) | 3.0×10⁻¹⁰ eV | parametric (eq. 5.15) | coefficient now explicit |
+| δm_E²/m_E² (2 loops, Λ=1 eV) | 3.5×10⁻¹¹ | — | new |
+
+The corpus's eq. (5.13) pair (κ_E ≲ 10⁻⁶ eV, Ē_S ≲ 2 eV) does not saturate
+½m_E²Ē² = ρ_loc; the recomputed saturation values are given above. Both
+corpus numbers sit safely inside the window.
+
+## 7. What this closes / what stays open
+
+**Closed here (record-side):**
+1. Explicit symmetry-complete renormalizable model (§1) — the "full
+   hidden-sector model" item of Ch. 4.
+2. All-orders selection rule against E|H|² (Lemma 1′, §2).
+3. Explicit one-loop coefficients for δm_S² and the spurion-induced
+   portal, and the two-loop δm_E² estimate (§3) — the "loop or spurion
+   calculation" item.
+4. Vacuum-alignment analysis with the v₂ critical value (§4) — the
+   "vacuum alignment" item.
+5. MATH-03 recovered exactly and generalized to the three-field system (§5).
+
+**Still open (unchanged, corpus-stated):**
+- The global nonlinear retarded source PDE (□ + m_E²)E + λ_EE³ =
+  κ_EO_h[S_a] with realistic profiles and S-sector feedback (Ch. 4): local
+  control only.
+- Nonperturbative vacuum structure of the full three-field potential.
+- GKSL-side bare-rate naturalness prior (corpus eq. 5.7) — out of scope here.
+
+*Prepared as part of the MQGT-SCF verification program. Record-side;
+no play-side content. All numbers reproduce via `mqgt_sequestering_loops.py`.*

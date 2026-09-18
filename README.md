@@ -23,6 +23,9 @@ This repo is where the errata stop being annotations and become the text.
 | `ERRATA_STATUS.md` | E1–E13 disposition: which repairs are applied here, which remain open, which belong to the TUFT upstream |
 | `neutrino_portal_v2.py` | E2 repair, applied: the neutrino portal with the 3-Yukawa texture (Variant A default, Variant B selectable), both oscillation splittings fit exactly |
 | `A_Theory_of_Everything_UPDATED_2026-09-18.pdf` | The 6,926-page unified edition: corpus + verification supplement + verification paper |
+| `E4_ALPHA_GATE_RESEARCH_NOTE.md`, `E4_DERIVATION_NOTE.md`, `E4_FINAL_STATUS.md` + `mqgt_t1_e4_*.py` | E4 (T-1 α⁻¹ gate) research record: pinned target c₃ = −1.56371823031276, exclusion record across fits, QED running, existing invariants, heat kernel |
+| `supporting_analysis/` | 2026-09-18 record-side theorems: middle-tower D₁ lemma and L closed forms (exact rational), mirror-check residual −1/16 closed, ζ(0) theorem (65/65 coexact towers, scalar conventions A/B), and the Part-0 open-problem-1 closure: one-loop radiative sequestering of J = κ_ES² with an explicit symmetry-complete model (Lemma 1′: E\|H\|² absent to all loop orders) |
+| `play_notes/` | Clearly labeled exploration branch (interior-observer / refractive α idea): pre-declared combination-rule exclusion record across eight principled weightings; kept separate from the record side per program discipline |
 
 ## Conventions
 
