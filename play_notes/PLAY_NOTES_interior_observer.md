@@ -261,3 +261,38 @@ zero-mode conventions. Convention-robust values: torsion +0.98, GKSL
 +1.7–1.9 — both far from −6.21. The freeze on new weightings stands;
 Option 1 (E–form Lagrangian beyond the standard menu) remains the only
 open play route, deferred per directive.
+
+---
+
+## 2026-09-18 ~15:20 — OPTION 1 EXECUTED AND CLOSED (operator-basis pass)
+
+Done as a corpus-grade (MATH-01) operator-basis enumeration, not as
+another weighting: the COMPLETE basis of linear-in-E, gauge-consistent,
+parity-even couplings of E to a free p-form sector on round Sⁿ, each
+class given exactly one disposition. Script `play_option1_operator_basis.py`.
+
+| class | coupling | disposition |
+|---|---|---|
+| B1 uniform dilaton | e^{γE} on whole operator | computed (lab 5): σ = +0.797 — excluded |
+| B2 non-minimal endomorphism | E·A∧⋆(E₀A), w_p = p(n−p) | computed here: **σ_nm = +1.84155187751** — excluded (wrong sign) |
+| B3 Chern–Simons | E·A∧dA (middle forms only) | structurally zero: round Sⁿ has an orientation-reversing isometry conjugating ⋆d → −⋆d, so the ⋆d spectrum is ±-symmetric mode by mode and the linear response cancels identically; first effect O(E²) |
+| B4 BF mixing | E·A_p∧⋆dA_{p−1} | structurally zero within the coexact set (d maps coexact → exact, outside the operator content) |
+| B5 higher-derivative | E·A∧⋆(Δ^q A) | q = 1 collapses to B1; q ≥ 2 power-divergent, EFT-unnatural (MATH-01 kill condition) |
+| B6 portal / axionic | E²\|A\|², E·top. density | quadratic / zero on round Sⁿ (prior) |
+
+Properties of B2 worth recording: it is the first CONVENTION-INDEPENDENT
+principle (scalar endomorphism is exactly zero on any space, so the
+zero-mode question never arises), and its value +1.84 lands inside the
+positive-side cluster {torsion +0.98, GKSL +1.73–1.89, dilaton/de Rham-B
++0.71} — structure noted, not a hit.
+
+**Option 1 verdict: CLOSED.** Every linear-response class is structurally
+zero, EFT-unnatural, or numerically excluded. The interior-observer branch
+has no remaining play route to σ = −6.21 expressible with the declared
+operator content. Per the branch's own rules, this is the stopping point:
+the refractive/interior-observer idea remains play, its scorecard now
+complete under both zero-mode conventions and under the full operator
+basis. Record-side, E4 stands with the pinned target
+c₃ = −1.56371823031276 and a total exclusion record (fits, QED running,
+existing invariants, heat kernel, middle towers, ζ(0) families, and now
+the complete linear-response E×form basis).
