@@ -114,20 +114,21 @@ for Lam in (mpf('1'), mpf('1e3'), mpf('1e6')):
           f"   dm_E^2/m_E^2={mp.nstr(dm/mE**2,4)}")
 print("  -> kappa channel alone is natural to cutoffs far above 1 MeV (log only).")
 print()
-print("(e2) portal tadpoles: dm_E^2 = (lam_E1+lam_E2+lam_EH) Lam^2/(16 pi^2)")
+print("(e2) portal tadpoles: dm_E^2 = (sum_X N_X lam_EX) Lam^2/(16 pi^2)")
 print("  [coefficient corrected 32->16 pi^2: ChatGPT round 2, verified via")
 print("   background-field V1: d^2V1/dE^2 = lam_EX Lam^2/(16 pi^2)]")
 print("  Z2-even, so NOT sequestered (and do not regenerate E|H|^2 either).")
-print("  Naturalness bounds |dm_E^2|, so the condition is on the ABSOLUTE")
-print("  VALUE of the net sum (ChatGPT round-4 refinement): a one-sided")
-print("  < would admit arbitrarily large NEGATIVE corrections (e3a induces")
-print("  negative quartics). |net sum| allows cancellation; the stricter")
-print("  no-cancellation criterion bounds each magnitude separately.")
+print("  Naturalness bounds |dm_E^2| (round 4). THREE distinct statements")
+print("  (round 5 -- do not conflate):")
+print("   (i)  NET:  |sum_X N_X lam_EX| <~ C   (cancellations allowed)")
+print("   (ii) SUFFICIENT no-cancellation:  sum_X N_X |lam_EX| <~ C")
+print("        (implies (i) by the triangle inequality)")
+print("   (iii) per-channel |lam_EX| <~ C: SCREENING ONLY -- does NOT")
+print("        bound the sum (two portals at 0.9 C each sum to 1.8 C)")
 for Lam in (mpf('1'), mpf('1e3'), mpf('1e6')):
     lamcrit = 16 * pi**2 * mE**2 / Lam**2
-    print(f"  Lam={mp.nstr(Lam,3)} eV: naturalness needs"
-          f"  |lam_E1+lam_E2+lam_EH| <~ {mp.nstr(lamcrit,4)}"
-          f"  (or each |lam_EX| separately)")
+    print(f"  Lam={mp.nstr(Lam,3)} eV: C = {mp.nstr(lamcrit,4)}"
+          f"  (net (i); sufficient (ii); N_X multiplicities included)")
 print()
 print("(e3) radiative stability of zero portals (ChatGPT rounds 2-3):")
 print("  NOT stable; portals INDUCED at calculable values.")

@@ -49,6 +49,17 @@
 > The net-sum bound tolerates cancellation among unrelated portals; the
 > stricter no-cancellation criterion bounds each |λ_EX| separately.
 > These are different claims and are no longer conflated.
+>
+> **ERRATUM 5 (2026-09-18, ChatGPT round 5 — verified and repaired):**
+> (viii) erratum 4 mis-stated the no-cancellation criterion as a
+> per-channel bound |λ_EX| ≲ C. That is a screening criterion only and
+> does NOT bound the combined correction: two portals each at 0.9 C sum
+> to 1.8 C. §3(e2) now labels the three distinct statements separately:
+> (i) the net bound |Σ_X N_X λ_EX| ≲ C (cancellations allowed);
+> (ii) the no-cancellation sufficient condition Σ_X N_X |λ_EX| ≲ C
+> (implies (i) by the triangle inequality); (iii) per-channel
+> |λ_EX| ≲ C as screening only. N_X = field multiplicity under the §1
+> normalization.
 
 **Scope.** Corpus Part 0 open problem 1 states: *"the working hidden source
 J[Ψ] = κ_ES² requires a symmetry-complete radiative-sequestering model."*
@@ -149,12 +160,23 @@ E²X² quartics of §1 (λ_E1, λ_E2, λ_EH) give one-loop tadpoles
 (|δm_E²| ≲ m_E² — a large negative correction is equally unnatural,
 erratum 4) requires the two-sided condition
 
-  |λ_E1 + λ_E2 + λ_EH|  ≲  1.58×10⁻⁶ · (eV/Λ)²
+  |λ_E1 + λ_E2 + λ_EH|  ≲  1.58×10⁻⁶ · (eV/Λ)²   (= C, net, N_X = 1 as written)
 
 (1.58×10⁻⁶ at Λ = 1 eV; 1.58×10⁻¹² at 1 keV; 1.58×10⁻¹⁸ at 1 MeV).
-This net-sum bound tolerates cancellation among unrelated portals; the
-stricter no-cancellation criterion bounds each magnitude separately,
-|λ_EX| ≲ the same cap. The two claims are not conflated here (erratum 4).
+Three distinct statements live here (erratum 5); they are not
+conflated:
+
+  (i)  net correction — cancellations allowed:
+       |Σ_X N_X λ_EX| ≲ C
+  (ii) no-cancellation sufficient condition — implies (i) by the
+       triangle inequality:
+       Σ_X N_X |λ_EX| ≲ C
+  (iii) per-channel screening only — does NOT bound the sum:
+       |λ_EX| ≲ C
+       (two portals each at 0.9 C already sum to 1.8 C)
+
+N_X is the field multiplicity under the §1 normalization (h = 1 real
+fluctuation as written; a full SU(2) doublet would count 4).
 These portals are Z₂_h-even, so sequestering cannot forbid them — but
 they are *not* the forbidden operator: E²|H|²-type terms correct the E
 mass, they do **not** regenerate a linear E|H|² source (Lemma 1′ stands).
@@ -235,6 +257,7 @@ minimization of V/t⁴ over x = S₁/S₂ ∈ [10⁻², 10²] gives min = +0.025
 | δg_H (max spurion, λ_2H=1) | 3.0×10⁻¹⁰ eV | parametric (eq. 5.15) | coefficient now explicit |
 | δm_E²/m_E² (κ bubble, Λ=1 eV) | 7.6×10⁻⁸ | — | corrected 2026-09-18 |
 | \|λ_E1+λ_E2+λ_EH\| naturalness cap (Λ=1 eV) | 1.58×10⁻⁶ | — | corrected ×2 (r2); two-sided (r4) |
+| Σ_X N_X\|λ_EX\| no-cancellation sufficient bound | ≲ same C | — | new (ChatGPT r5) |
 | induced tree exchange −κ_E²/m_S² (EFT matching, alternative) | −8.7×10⁻⁹ | — | ChatGPT r2; relabeled r3 |
 | induced λ_EH (one-loop triangle) | 2.76×10⁻¹¹·(λ_1H+λ_2H) | — | corrected (ChatGPT r3) |
 
