@@ -39,6 +39,16 @@
 > full theory where both scalars propagate — the full κ-only answer is
 > §3(e1), and no quadratic EFT estimate is extrapolated above the
 > integrated-out mass.
+>
+> **ERRATUM 4 (2026-09-18, ChatGPT round 4 — verified and repaired):**
+> (vii) the e2 naturalness condition was stated one-sided
+> (λ_E1+λ_E2+λ_EH < cap). Because e3a records NEGATIVE induced quartics,
+> a one-sided bound silently admits an arbitrarily large negative mass
+> correction. Naturalness bounds |δm_E²|, so the condition is two-sided:
+> |λ_E1+λ_E2+λ_EH| ≲ 1.58×10⁻⁶ (eV/Λ)², with field-multiplicity factors.
+> The net-sum bound tolerates cancellation among unrelated portals; the
+> stricter no-cancellation criterion bounds each |λ_EX| separately.
+> These are different claims and are no longer conflated.
 
 **Scope.** Corpus Part 0 open problem 1 states: *"the working hidden source
 J[Ψ] = κ_ES² requires a symmetry-complete radiative-sequestering model."*
@@ -136,11 +146,15 @@ E²X² quartics of §1 (λ_E1, λ_E2, λ_EH) give one-loop tadpoles
   δm_E² = (λ_E1 + λ_E2 + λ_EH) · Λ²/(16π²)
 
 [coefficient 16π², erratum 2 above], so E-mass naturalness
-(δm_E² ≤ m_E²) requires
+(|δm_E²| ≲ m_E² — a large negative correction is equally unnatural,
+erratum 4) requires the two-sided condition
 
-  λ_E1 + λ_E2 + λ_EH  ≲  1.58×10⁻⁶ · (eV/Λ)²
+  |λ_E1 + λ_E2 + λ_EH|  ≲  1.58×10⁻⁶ · (eV/Λ)²
 
 (1.58×10⁻⁶ at Λ = 1 eV; 1.58×10⁻¹² at 1 keV; 1.58×10⁻¹⁸ at 1 MeV).
+This net-sum bound tolerates cancellation among unrelated portals; the
+stricter no-cancellation criterion bounds each magnitude separately,
+|λ_EX| ≲ the same cap. The two claims are not conflated here (erratum 4).
 These portals are Z₂_h-even, so sequestering cannot forbid them — but
 they are *not* the forbidden operator: E²|H|²-type terms correct the E
 mass, they do **not** regenerate a linear E|H|² source (Lemma 1′ stands).
@@ -220,7 +234,7 @@ minimization of V/t⁴ over x = S₁/S₂ ∈ [10⁻², 10²] gives min = +0.025
 | δm_S²/m_S² (1 loop) | 8.6×10⁻¹⁰ | parametric (eq. 5.14) | coefficient now explicit |
 | δg_H (max spurion, λ_2H=1) | 3.0×10⁻¹⁰ eV | parametric (eq. 5.15) | coefficient now explicit |
 | δm_E²/m_E² (κ bubble, Λ=1 eV) | 7.6×10⁻⁸ | — | corrected 2026-09-18 |
-| λ_E1+λ_E2+λ_EH naturalness cap (Λ=1 eV) | 1.58×10⁻⁶ | — | corrected ×2 (ChatGPT r2) |
+| \|λ_E1+λ_E2+λ_EH\| naturalness cap (Λ=1 eV) | 1.58×10⁻⁶ | — | corrected ×2 (r2); two-sided (r4) |
 | induced tree exchange −κ_E²/m_S² (EFT matching, alternative) | −8.7×10⁻⁹ | — | ChatGPT r2; relabeled r3 |
 | induced λ_EH (one-loop triangle) | 2.76×10⁻¹¹·(λ_1H+λ_2H) | — | corrected (ChatGPT r3) |
 

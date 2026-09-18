@@ -117,11 +117,17 @@ print()
 print("(e2) portal tadpoles: dm_E^2 = (lam_E1+lam_E2+lam_EH) Lam^2/(16 pi^2)")
 print("  [coefficient corrected 32->16 pi^2: ChatGPT round 2, verified via")
 print("   background-field V1: d^2V1/dE^2 = lam_EX Lam^2/(16 pi^2)]")
-print("  Z2-even, so NOT sequestered (and do not regenerate E|H|^2 either):")
+print("  Z2-even, so NOT sequestered (and do not regenerate E|H|^2 either).")
+print("  Naturalness bounds |dm_E^2|, so the condition is on the ABSOLUTE")
+print("  VALUE of the net sum (ChatGPT round-4 refinement): a one-sided")
+print("  < would admit arbitrarily large NEGATIVE corrections (e3a induces")
+print("  negative quartics). |net sum| allows cancellation; the stricter")
+print("  no-cancellation criterion bounds each magnitude separately.")
 for Lam in (mpf('1'), mpf('1e3'), mpf('1e6')):
     lamcrit = 16 * pi**2 * mE**2 / Lam**2
     print(f"  Lam={mp.nstr(Lam,3)} eV: naturalness needs"
-          f"  lam_E1+lam_E2+lam_EH < {mp.nstr(lamcrit,4)}")
+          f"  |lam_E1+lam_E2+lam_EH| <~ {mp.nstr(lamcrit,4)}"
+          f"  (or each |lam_EX| separately)")
 print()
 print("(e3) radiative stability of zero portals (ChatGPT rounds 2-3):")
 print("  NOT stable; portals INDUCED at calculable values.")

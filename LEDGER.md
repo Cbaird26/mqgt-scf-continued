@@ -6,7 +6,7 @@ Single auditable index across the research estate: **claim → assumptions → d
 
 ## 0. Reading rules
 
-- **Audited** = derivation, code, and controls inspected and rerun inside `mqgt-scf-continued` this week; commit hashes cited.
+- **Audited** = derivation, code, and controls inspected and rerun inside `mqgt-scf-continued` this week, within this research workflow (Zora); commit hashes cited. "Audited" is **not** independent reproduction by an unaffiliated third party — no row in this ledger claims third-party certification (scope made explicit per ChatGPT round 4).
 - **Description-level** = repository README/description only; internals not audited in this ledger. No claim beyond the label is made or implied.
 - **Record discipline**: dated commits, no history rewrites. Errors are corrected by superseding errata that preserve the trail; nothing is deleted.
 - **Credit protocol**: every finding is credited to the reviewer who actually made it. Provenance corrections are themselves ledger entries (see §4).
@@ -63,7 +63,7 @@ Single auditable index across the research estate: **claim → assumptions → d
 |---|---|---|---|---|---|---|
 | Lemma 1′: all-orders absence of E\|H\|² (selection rule) | unbroken hidden Z₂ | `SEQUESTERING_NOTE.md` §2 | `mqgt_sequestering_loops.py` | symmetry argument; untouched by all three errata rounds | **stands** | corpus Lemma 1 extension; Zora |
 | e1: κ bubble is one-loop, log-only; δm_E²/m_E² = 7.6×10⁻⁸ (Λ=1 eV), 2.3×10⁻⁷ (Λ=1 MeV) | full theory, both scalars propagate | §3(e1) | script e1 | B0 finite part computed; dim-2 check | **corrected & stands** (was wrongly "two loops, κ²Λ²") | ChatGPT round 1 (verified); attribution mis-credit to Grok repaired `d17d1ac` |
-| e2: portal naturalness cap λ_E1+λ_E2+λ_EH < 1.58×10⁻⁶ (eV/Λ)² | (λ_EX/2)E²X² normalization | §3(e2) | script e2 | background-field identity ∂²V₁/∂E² | **corrected ×2** (was /32π²) | ChatGPT round 2 (verified) |
+| e2: portal naturalness cap \|λ_E1+λ_E2+λ_EH\| ≲ 1.58×10⁻⁶ (eV/Λ)² — two-sided (net sum; stricter no-cancellation criterion: each \|λ_EX\| separately) | (λ_EX/2)E²X² normalization | §3(e2) | script e2 | background-field identity ∂²V₁/∂E²; one-sided form rejected (admits large negative corrections) | **corrected ×2, then two-sided** (was /32π², then one-sided) | ChatGPT round 2 (verified); round-4 two-sided refinement |
 | e3a: tree-induced −κ_E²/m_S² = −8.7×10⁻⁹ are alternative EFT matchings | integrate out S₂ (→λ_E1) or S₁ (→λ_E2); not additive in full theory | §3(e3a) | script e3a | separation from full-theory e1 explicit; no extrapolation above integrated-out mass | **relabeled & bounded** | ChatGPT rounds 2–3 |
 | e3b: λ_EH^ind = κ_E²(λ_1H+λ_2H)/(32π²m_S²) = 2.76×10⁻¹¹(λ_1H+λ_2H) | one loop, equal masses, zero external momentum — "closed form" bounded to these | §3(e3b) | script e3b (quadrature = analytic 3166.287 eV⁻²) | **decisive control λ_1H=0, λ_2H=1 → nonzero** (round-2 box wrongly gave 0; λ=1,1 coincidence at 5.5×10⁻¹¹ had masked it) | **corrected: triangle, not box** | ChatGPT round 3 (verified by background-field expansion of the committed potential) |
 | Vacuum alignment: tachyon-free for v₂ < v₂_crit = m_E m₁/κ_E = 1.07 eV | ⟨S₂⟩ = v₂ induces E–S₁ mixing only | §4 | script g | 2×2 eigenvalue scan, θ ≤ 0.09 | **stands** | Zora |
@@ -97,6 +97,7 @@ Single auditable index across the research estate: **claim → assumptions → d
 | 2026-09-18 | ChatGPT (round 3) | λ_EH is a triangle in κ²(λ_1H+λ_2H), not a box in κ²λ_1Hλ_2H; EFT matchings are alternatives, not additive | verified by background-field expansion, then repaired; erratum 3 | `9b132b3` |
 | 2026-09-18 | ChatGPT (round-3 acceptance) | bound "closed form/exact" to stated one-loop, equal-mass, zero-momentum assumptions | wording precision applied | `36d6431` |
 | 2026-09-18 | ChatGPT (public-record review) | science-public README still carried the stale "T-1 eight-digit / T-3 first-principles open" sentence | census replacement | `d12d6d33` (science-public) |
+| 2026-09-18 | ChatGPT (round 4) | one-sided e2 cap admits arbitrarily large negative corrections → two-sided \|sum\| bound + separate-magnitudes criterion; "audited" label needed scoping vs third-party certification | verified, then repaired: note erratum 4 + script e2; ledger §0 and §2D scoped | (this commit) |
 | 2026-09-18 | Grok | middle-tower program directives (D1 → L-family → ζ(0) certification → f_p(E) construction) | executed and certified | supporting_analysis/, this week |
 | 2026-09-18 | Grok + Zora | Door 1 / Door 2 hypotheses | closed negative with certificates; graduated as exclusions | `c21084b`, `7640127`, `55ac384` |
 
