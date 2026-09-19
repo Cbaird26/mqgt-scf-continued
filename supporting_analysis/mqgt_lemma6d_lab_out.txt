@@ -1,0 +1,95 @@
+==============================================================================
+ROUND 15 — LEMMA 6(d) COMPUTATION
+==============================================================================
+
+[0] Theorem 48 formula reading (OCR resolution by arithmetic)
+  ratio reading  alpha^-1 = 2Vol(S^2)(Vol(S^9)/160)^{1/4} / (Vol(S^4)^2 Vol(RP^1))
+    = 137.0360824481643374401762
+  record exact form (8/9) 1920^{1/4} pi^{11/4}
+    = 137.0360824481643374401762
+  difference: 0.0  -> reading CONFIRMED
+
+[1] TUFT sector machinery — independent reproduction
+  zeta'_1(0) via Hurwitz diff : 0.8884900761462794710000782
+  zeta'_1(0) TUFT closed form : 0.8884900761462794710000782  (p62: 0.888490076)
+  match: True
+  zeta'_2(0): Hurwitz 2.9679316178261153993   TUFT sum-rule 2.9679316178261153993   match: True
+  zeta'_3(0): Hurwitz 11.75682992717099293   TUFT sum-rule 11.75682992717099293   match: True
+
+[2] The n = 0 sector in the written ladder assembly (sect. 4.16)
+  helicity coefficient a = 6 sqrt(2) exp(zeta(3)/(24 pi^2))
+    = 8.528451441011  (TUFT p60: 8.5284)
+  ladder factors m_n = (n+1) exp(a n) exp(-D(n)) phi_n, phi_n = exp(n alpha/6):
+    n=0: multiplicity 1, helicity e^{a n} = 1.0, phi_n = 1.0
+    n=1: multiplicity 2, helicity e^{a n} = 5056.60931092, phi_n = 1.00121696459
+    n=2: multiplicity 3, helicity e^{a n} = 25569297.7233, phi_n = 1.00243541018
+    n=3: multiplicity 4, helicity e^{a n} = 129293948942.0, phi_n = 1.00365533858
+  -> at n = 0 every factor is identically 1. The massless sector
+     is the ladder's NORMALIZATION ORIGIN; alpha enters sectors
+     n >= 1 as an INPUT (phi_n = e^{n alpha/6}, p61 eq. 75-76),
+     never as an output of the n = 0 sector.
+  -> the lens-space sector map l_min(n) = n (p62) degenerates at
+     n = 0 (same full spectrum as n = 1): 'n = 0' is ladder
+     language, not a distinct spectral sector of the written
+     quadratic action.
+
+[3] Gaussian U(1) partition function on unit S^9
+    S = (1/2g^2) int F ^ *F,  Z ~ [det'(D1_ce/g^2)]^{-1/2} [det'(D0/g^2)]^{+1}
+    scaling identity: det'(cA) = c^{zeta_A(0)} det'A
+  live tower values (dps=80):
+    S^9 ce1:  L = 0.0787867986313013,  zeta(0) = 1.0  (theorem: +1)
+    S^9 scal A (formal const.): L = 3.84957869152396,  zeta(0) = 3.9935632e-73  (theorem: 0)
+    S^9 scal B (det' = ce0):  L = 0.0547377225887751,  zeta(0) = -1.0  (theorem: -1)
+  g-exponent: gauge factor g^{+zeta_ce1(0)} = g^{+1};
+              ghost factor g^{-2 zeta_0(0)} = g^0 (A) / g^{+2} (B)
+  =>  Z_0 ~ g^{+1} (conv A)   or   g^{+3} (conv B)
+     a FREE POWER of g in either convention.
+  determinant content at g = 1:
+    ln Z_0 = -(1/2) L_ce1 + L_scal  = 3.81018529220831 (conv A)
+                                         = 0.0153443232731244 (conv B)
+     pure geometry; no dimensionless-coupling slot anywhere.
+  FIELD-REDEFINITION POINT: A' = A/g makes the Gaussian kinetic
+  term canonical; g then lives only in the covariant derivative
+  (charge normalization) and the measure. A free Gaussian partition
+  function cannot fix g. b1(S^9) = b2(S^9) = 0: no harmonic zero
+  modes, no flux lattice, no theta sector. The c1 = 1 flux lives on
+  the CP^4 base and fixes the INTEGER (charge quantization, Thm 47),
+  not the coupling (Door 1 / round-12b echo).
+
+[4] Metric/KK route (Hopf connection as the photon) — symbolic
+  ds^2 = pi*g^ + rho^2 eta x eta over CP^4, d eta = 2 omega:
+  R_{S^9} contains -(rho^2/4) |F|^2; reduction over CP^4 gives
+      1/g_4^2 = 2 pi rho^3 / kappa_9^2
+  (unit-normalized Hopf connection; prefactor convention-dependent).
+  Needs rho (fiber size) AND kappa_9 (9D gravitational coupling):
+  geometry supplies the rho-dependence, not its value; kappa_9 is
+  gravitational data. Same structural hole as the round-12b
+  illustration (alpha_4 = 3 g_13^2/(pi^6 R^9) needed g_13).
+
+[5] VERDICT
+    Lemma 6(d) is NOT derivable from the written U(1) action by any path
+    examined:
+      (i)   the quadratic Beltrami action on S^3 carries unit coefficient
+            -- no coupling constant exists in it;
+      (ii)  the S^5 shell action carries an explicit, free 1/g_s^2 (p65);
+      (iii) the S^9 Gaussian Z_0 carries g as a free power (exact exponents
+            above) with pure-geometry determinants, and g is removable from
+            the Gaussian by field redefinition;
+      (iv)  the metric/KK route needs rho and kappa_9, both unfixed;
+      (v)   in the written ladder assembly the n = 0 sector is the
+            normalization origin (all factors 1); alpha enters other sectors
+            as an INPUT via phi_n = e^{n alpha/6}.
+    Theorem 48's ratio is nowhere an OUTPUT of the written partition
+    functions. The uniqueness lemma's condition (d) therefore has no
+    computed object to attach to: the identification is certified as
+    ASSERTED, not derived -- consistent with the source's own header
+    ("Derived, with one physical identification marked below").
+
+    BOUNDARY OF THIS RESULT: this certifies that the written actions
+    contain no coupling-fixing computation. It does not prove that no
+    derivation of Lemma 6(d) exists; one would require a written action
+    whose U(1) kinetic coefficient is a computed geometric number, or a
+    measure/zero-mode argument on a manifold with the relevant harmonic
+    structure. Neither is in the corpus or TUFT v5 as scanned (pointers in
+    artifacts/EM_NORMALIZATION_EVIDENCE_MAP_2026-09-19.md).
+    
