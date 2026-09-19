@@ -1,0 +1,75 @@
+{
+  "manifest_schema": "toe-edition-sources-v1",
+  "edition_target_date": "2026-09-19",
+  "status": "DRAFT_NOT_RELEASED",
+  "owner": "Christopher Michael Baird",
+  "destination_branch": "zora/toe-edition-2026-09-19-draft",
+  "base_commit_at_staging": "58d054cac096832269864d5c43204cd420ea9405",
+  "sources": [
+    {
+      "id": "CORE_2026_09_18",
+      "role": "intended_current_main_corpus",
+      "repo": "Cbaird26/mqgt-scf-continued",
+      "path": "A_Theory_of_Everything_UPDATED_2026-09-18.pdf",
+      "git_blob_sha1": "b34851819648f6d1a0b5fab6e8a5269bf2e1682b",
+      "github_size_bytes_from_contents_api": 38772609,
+      "page_count_claimed_by_repo": 6926,
+      "local_file_sha256": null,
+      "actual_pdf_pages_checked_locally": null,
+      "bytes_downloaded_to_chat_workspace": false,
+      "status": "REQUIRED_BEFORE_FINAL_MASTER"
+    },
+    {
+      "id": "ZENODO_2026_09_13",
+      "role": "historical_deposit_not_to_overwrite",
+      "zenodo_record": 22738328,
+      "record_url": "https://zenodo.org/records/22738328",
+      "filename_reported_by_grok": "A_Theory_of_Everything_UPDATED_2026-09-13.pdf",
+      "page_count_reported_by_grok": 6916,
+      "record_file_list_verified_here": false,
+      "local_file_sha256": null,
+      "status": "FETCH_AND_VERIFY_ACTUAL_RECORD_METADATA"
+    },
+    {
+      "id": "LOCAL_OLDER_CORPUS",
+      "role": "working_review_fallback_not_newest",
+      "filename": "A Completed Theory of Everything --C.M. Baird., et al (2026).pdf",
+      "page_count_checked_in_chat_workspace": 4888,
+      "pdf_metadata_creation_date": "2026-01-23",
+      "sha256": null,
+      "status": "DO_NOT_MISLABEL_AS_SEPTEMBER_CORE"
+    },
+    {
+      "id": "GROK_COMPANION_SET",
+      "role": "dated_companion_source_packet",
+      "filename": "TOE_Latest_Combined_Addendum_plus_Companions_2026-09-19.pdf",
+      "pages_checked_locally": 146,
+      "sha256_reported_in_chat_handoff": "0e514ec9d1da39953ac7c9d8312bf8d6230ca0d2aa2aa79aba4ce5e0cfd34295",
+      "structure": "pages 1-3 personal interface addendum; pages 4-5 outdated cover; pages 6-146 thirty-four distinct companion documents, some version overlap",
+      "status": "REORDER_BY_PRINTED_DATE_AND_REVIEW_PRIVACY"
+    },
+    {
+      "id": "POST_CORE_GITHUB_NOTES",
+      "role": "September_18_19_errata_and_new_work",
+      "repo": "Cbaird26/mqgt-scf-continued",
+      "min_commit": "58d054cac096832269864d5c43204cd420ea9405",
+      "paths": ["ERRATA_STATUS.md", "E4_FINAL_STATUS.md", "LEDGER.md", "artifacts/T1_E4_DEPOSIT_NOTE_2026-09-18.md", "artifacts/EM_NORMALIZATION_EVIDENCE_MAP_2026-09-19.md", "artifacts/LEMMA6D_COMPUTATION_2026-09-19.md", "manuscript/spectral_exclusions/SPECTRAL_EXCLUSIONS_MANUSCRIPT_DRAFT_v1.md", "supporting_analysis/SEQUESTERING_NOTE.md"],
+      "status": "CHECK_HEAD_AND_CONVERT_SOURCE_DOCUMENTS_TO_DATED_PDF_ADDENDA"
+    },
+    {
+      "id": "GATE1_PROTOCOL",
+      "role": "separate_software_validation_and_preregistration_record",
+      "repo": "Cbaird26/mqgt-scf-science-public",
+      "paths": ["GATE1_RECONCILIATION.md", "EMP01_PREREGISTRATION_DRAFT.json"],
+      "status": "NOT_A_PHYSICAL_DETECTION"
+    },
+    {
+      "id": "RESEARCH_LIBRARY_ALL_PARTS",
+      "role": "private_reference_not_for_public_distribution",
+      "filename_pattern": "All + ToE_Part.*.pdf",
+      "reason": "contains third-party textbooks and a Wiley EULA; distribution rights not verified",
+      "status": "EXCLUDED_FROM_PUBLIC_EDITION"
+    }
+  ],
+  "publish_gate": ["actual_corpus_bytes_and_sha256", "verified_zenodo_version_comparison", "reviewed_chronological_order", "no_uncleared_third_party_or_personal_material", "explicit_author_approval", "release_pdf_sha256", "matching_github_commit_and_zenodo_metadata"]
+}
