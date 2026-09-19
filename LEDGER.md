@@ -124,7 +124,7 @@ status tracked here.
 
 | requirement | status |
 |---|---|
-| Census sentence in the abstract | record-side done (README census; deposit note) — paper abstract pending at journal cut |
+| Census sentence in the abstract | **drafted** — manuscript skeleton `manuscript/spectral_exclusions/SPECTRAL_EXCLUSIONS_MANUSCRIPT_DRAFT_v0.md` (2026-09-18); paper abstract pending at journal cut |
 | "Does not claim" box | **done** (README, this repo) |
 | One neutrino texture | record-side done (Variant A named the claim; B = robustness cross-check) — paper-level decision confirmed at cut |
 | Door 1/2 one-command from `exclusions/` | **done** (reproduce blocks in both CLOSED files) |
