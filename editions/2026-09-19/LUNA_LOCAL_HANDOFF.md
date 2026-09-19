@@ -1,0 +1,33 @@
+# Luna — source acquisition and edition build handoff (read-only first)
+
+Christopher's intended output is one *chronological* ToE PDF based on the **actual latest authored full corpus** plus dated, nonduplicate companion work, a matching source/claim manifest, reviewed GitHub files and a deliberate Zenodo version. Zora is editor/reviewer; you have the local filesystem access that this ChatGPT chat does not. This branch is draft only, not the publication destination.
+
+## A. Pull originals without changing any existing workspace
+
+Confirm the exact Mac research folder with Christopher. Create a **new** staging folder, e.g. `~/ToE_Edition_2026-09-19/_sources`, and clone `https://github.com/Cbaird26/mqgt-scf-continued.git` there (not over his existing working tree). Record `git rev-parse HEAD`, branch, remote URL, `git status --porcelain`, and `shasum -a 256` of every source PDF. Verify `A_Theory_of_Everything_UPDATED_2026-09-18.pdf` with an actual PDF parser; expected from repository description: **6,926 pages** and GitHub file-size metadata **38,772,609 bytes** (check both, do not force them to match if head moves). Do not replace it with the January 4,888-page local upload or the September 13 Zenodo 6,916-page deposit.
+
+Obtain Zenodo [record 22738328](https://zenodo.org/api/records/22738328) JSON directly using the API from the Mac, save raw metadata, and list each actual returned file key/URL/checksum/version date. Download a historical PDF only from its returned `links.self` and verify its given checksum and PDF page count. Record whether September 18 GitHub is an addition, replacement, or recompiled volume by page/text/section comparison; page counts alone cannot establish that.
+
+Obtain Christopher's 146-page uploaded `TOE_Latest_Combined_Addendum_plus_Companions_2026-09-19.pdf` **as the exact original bytes** from his local folder or an explicit chat download. Its first three pages are a personal Grok interface note; pages 4–5 are an obsolete packaging cover; pages 6–146 comprise thirty-four companion documents. Compute a new SHA-256 locally (the prior ChatGPT handoff reported `0e514ec9d1da39953ac7c9d8312bf8d6230ca0d2aa2aa79aba4ce5e0cfd34295`). Never substitute a similarly named variant without documenting the new hash.
+
+## B. Source inventory to return to Christopher and Zora
+
+Produce `sources.csv` with `origin,original_filename,absolute_local_path,created_in_document,filesystem_mtime_utc,bytes,sha256,pages,git_commit_or_doi,privacy,rights_status,evidence_type`. Do not confuse filesystem mtime with publication date. Produce `duplicates.csv` identifying exact SHA matches and near-duplicates with actual page/text comparisons, `versions.md` describing differences from Zenodo to September 18, and `missing_sources.md` with inaccessible sources. Exclude `.env`, credentials, personal correspondence, `node_modules`, generated caches and unrelated Mac files from inventory and sharing. Keep originals untouched.
+
+## C. One final PDF, one chronological spine
+
+Order: verified newest full authored corpus as the base (without prepending older duplicate megatomes); then distinct companion papers by their **printed** January/February/March/September dates, retaining original page designs, equations, tables and figures; then original September 18/19 GitHub findings and a short dated editorial bridge; finally the Grok L2/L3 interface addendum only if Christopher opts into a **private** master. Month-only dates get an explicit `day unknown` label; do not invent precise dates. The September 18-19 `c3` values both remain visible with supersession annotation. Exclude the nine `All + ToE` volumes from any distributable edition until rights clearance: they contain third-party textbooks/Wiley EULA pages. Keep privately for searching, with a citation-only library index.
+
+**Do not use the 146-page compilation's misleading cover as the new master cover.** Its claim that no older files were local belongs to Grok's session, not to this archive. The original companion set includes two Phase-II variants, two teleology papers and two March 27 addendum variants; compare their text before deduplicating. Leave variant documents intact unless Christopher approves an exact replacement and page mapping.
+
+Use a PDF library such as PyMuPDF to stitch existing source pages without rasterizing, preserving searchable text and equations. Generate a new dated title/contents/manifest page and PDF bookmarks. Output a separate checksum file and a page map `merged_start,merged_end,source_id,source_pages,source_sha256`. Open and visually inspect the front page, the first/last page of each component, equations and charts; run `pdfinfo` or PyMuPDF to check final count and text extraction. Label a build `PRIVATE_WORKING`, not `ZENODO_FINAL`, until the September 18 actual corpus and rights review are complete.
+
+## D. Scientific and release checklist
+
+Source-backed open points: T-1 residual ~6.0765e-7; T-3 spectral identification ≠ first-principles coupling derivation; E4 full-form-to-coexact heat coefficients; one-loop sequestering errata, eV toy scalar ≠ proven Higgs-natural model; September 18 vs September 19 `c3` anchor; Lemma 6(d) identification not derived from examined written actions; Gate-1 production `BLOCKED: preregistration_incomplete`. Synthetic passes are software only. Preserve frozen verification `v1.0-paper`; never rewrite it.
+
+Send exact final source hashes, PDF page map, `git diff`, tests and sample rendered pages to Christopher and Zora for review. Grok may separately critique scientific content; no agent substitutes for Christopher's release decision. Only after approval: prepare a PR, check CI and updated PDF checksum, reconcile `README`, `CITATION.cff`, license and `zenodo.json`, merge by normal process, then create a **new Zenodo version**, not an overwrite. Preserve original records, contributors and AI-assistance disclosures. Do not upload unpublished personal/third-party materials, force-push, or delete sources.
+
+## E. Minimum status report format
+
+`CORE: filename / pages / SHA256 / repo commit`; `ZENODO: record / returned file keys / checksums`; `COMPANIONS: filename / pages / SHA256`; `MERGE: exact ordered section list and page map`; `OPEN: missing PDFs, rights, conflicts`; `TESTS: commands and actual results`; `WRITE: no remote commits until Christopher approves the draft branch`. Do not report success based on a plan or on documentation alone.
