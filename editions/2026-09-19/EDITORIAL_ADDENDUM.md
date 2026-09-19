@@ -1,0 +1,31 @@
+# MQGT-SCF / Theory of Everything — September 18–19 Research Edition Addendum
+
+**Christopher Michael Baird — Editorial assembly, 19 September 2026**
+
+**Status:** Supplement to a canonical thesis, not a standalone complete thesis or verified empirical discovery. This document is designed to be appended *after* the September 18 working edition and does not reproduce that 6,926-page source. It summarizes versioned research notes, not an independent rerun of calculations. Its text is an editorial source for Luna to typeset, review, and compare with the temporary Acrobat proof; it does not supersede the original linked notes.
+
+## Chronology and edition integrity
+
+The supplied Grok addendum identifies Zenodo [record 22738328](https://zenodo.org/records/22738328) with a September 13 full thesis of 6,916 pages. The [continued-development repository](https://github.com/Cbaird26/mqgt-scf-continued) identifies a separate **September 18, 6,926-page** updated PDF. Their actual bytes and content differences must be checked before the new master is released. The older Zenodo file and newer GitHub file must not be equated on the basis of their titles. This addendum was prepared from source notes, not a local download of the 6,926-page PDF. Nothing has been pushed to Zenodo.
+
+## September 18: T-1, T-3, and corrected heat coefficients
+
+The [September 18 deposit note](https://github.com/Cbaird26/mqgt-scf-continued/blob/main/artifacts/T1_E4_DEPOSIT_NOTE_2026-09-18.md) describes a geometric candidate for the inverse fine-structure constant, approximately 137.03608244816433744, with a relative gap of approximately 6.0765 x 10^-7 against its CODATA 2022 reference. This is not a derived physical electromagnetic coupling or an eight-digit derivation. The report's scan found 58 gate-passing coincidences among 13,057 candidate expressions; numerical agreement of fitted prefactors is not a structural derivation.
+
+The two recorded spectral exclusions are bounded: charge-resolved towers under the examined U(1) fiber isometry, and Berger/canonical fiber deformation under the tested response ansatz. They do not exclude every conceivable operator or geometry. The [E4 heat-kernel status](https://github.com/Cbaird26/mqgt-scf-continued/blob/main/E4_FINAL_STATUS.md) notes that the studied constant-shift a4 heat coefficient is quadratic, so its third and fourth derivatives vanish. Full-form coefficients previously mislabeled coexact were corrected, without changing that limited conclusion. The [E3 correction](https://github.com/Cbaird26/mqgt-scf-continued/blob/main/ERRATA_STATUS.md) identifies two T-3 numerical constants with coexact spectral determinants, **not** a first-principles derivation of their physical normalization.
+
+The [sequestering correction series](https://github.com/Cbaird26/mqgt-scf-continued/blob/main/supporting_analysis/SEQUESTERING_NOTE.md) revises loop counting, portal topology, full-theory versus EFT matching, and the distinction among net, no-cancellation, and per-channel screening bounds in a stated minimal Z2-even model. It does **not** establish a natural ultralight scalar coupled to the Standard Model's physical 125 GeV Higgs; weak-scale matching remains unresolved.
+
+## September 19: manuscript corrections and EM-normalization bridge
+
+The [spectral exclusions manuscript](https://github.com/Cbaird26/mqgt-scf-continued/blob/main/manuscript/spectral_exclusions/SPECTRAL_EXCLUSIONS_MANUSCRIPT_DRAFT_v1.md) has a filename ending in v1 but a heading identifying draft v1.5. It records a high-precision *computational observation* for the response lock rather than an algebraic proof. The September 18 deposit pins c3 = -1.56371823031276; the September 19 manuscript uses NIST's reference 137.035999177(21) and reports re-anchored c3 = -1.56373700913218 and c4 = -214.288263496482. Preserve both as historical, date-specific results and reconcile active tables transparently; never silently rewrite the frozen record.
+
+The [electromagnetic-normalization audit](https://github.com/Cbaird26/mqgt-scf-continued/blob/main/artifacts/EM_NORMALIZATION_EVIDENCE_MAP_2026-09-19.md) finds that the MQGT-SCF corpus imports the Standard Model action without deriving its photon kinetic normalization. Its source theory supplies a geometric ratio but **identifies** it with a massless-sector electromagnetic coupling at Lemma 6(d). The [follow-up calculation](https://github.com/Cbaird26/mqgt-scf-continued/blob/main/artifacts/LEMMA6D_COMPUTATION_2026-09-19.md) reports that the identification is not obtained from the *examined written U(1) actions and partition functions*. This is a bounded negative result about those written actions, not a theorem that no future derivation is possible.
+
+The public-science [Gate-1 reconciliation](https://github.com/Cbaird26/mqgt-scf-science-public/blob/main/GATE1_RECONCILIATION.md) fixes an N0 reference/sign issue and adds synthetic controls. Its production analyzer is blocked pending laboratory preregistration; a synthetic software test is not physical detection of consciousness, ethics, or a new field.
+
+## Editorial separation, permissions and release gate
+
+The three-page Grok interface addendum suggests L0 dynamics, L1 information, L2 embodied readout and L3 symbolic compression. Its personal birth-chart/relationship content is **not empirical evidence** for Phi_c, E, an electromagnetic coupling, or a change to Born probabilities; keep it as a private appendix unless Christopher explicitly approves a privacy-reviewed release. Do not redistribute the nine `All + ToE` compendium volumes in a public edition by default: they contain third-party textbooks and a Wiley end-user license page.
+
+A complete one-PDF public edition requires the actual September 18 corpus bytes, verified Zenodo version relationship and actual file manifest, source SHA-256 checksums, ordered original page mappings, rights/privacy clearance, author-approved version/citation details, and a reviewed release commit. A green synthetic test or a larger page count is not scientific verification.
