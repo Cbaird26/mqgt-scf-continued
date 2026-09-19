@@ -1,4 +1,4 @@
-# Manuscript — SPECTRAL EXCLUSIONS (DRAFT v1.2, skeleton + §2/Appendix A prose)
+# Manuscript — SPECTRAL EXCLUSIONS (DRAFT v1.3, skeleton + §2/Appendix A prose)
 
 **Working title:** *Where the eighth digit is not: certified exclusions
 around the Wyler–Nielsen α⁻¹ candidate on the round Hopf bundle*
@@ -33,6 +33,19 @@ identifications (X6 sense), not derived outputs; (v) X2 evidence now
 names the exact frozen scan `mqgt_t1_topological_scan.py`
 (verification packet v1.0-paper) and states that the continued-line
 script does not rerun it.
+**v1.3 changes (round 11, ChatGPT T-1 math pass + Grok confirmation):**
+(i) §1 carries the exact simplified form α⁻¹_T1 = (8/9)·1920^{1/4}·π^{11/4}
+(verified: difference 0.0 at 80 digits) and the Robertson–Gilmore
+paragraph stub (radius objection + r = 1 reply, both cited); (ii) §1
+anchor footnote adds the experimental framing — ±3.9×10⁻⁴ propagated
+uncertainty on c₃, ≈3,965σ gap, no fifteen-digit experimental target;
+(iii) Appendix B gains the scaling constraint: S7′ − 2S7 is invariant
+under common radius rescaling (theorem on the stated towers, verified
+against the ζ(0) theorem); (iv) X7's certificate carries the ChatGPT
+round-11 correction — the heat script computed the full Λ^p bundle,
+labeled coexact; corrected coexact coefficients verified exactly and
+applied to `mqgt_t1_e4_a4_heat.py` + `E4_FINAL_STATUS.md`; the vacuity
+verdict is unchanged; Gilmore 1972 added to references.
 **Supersedes:** v0 (`SPECTRAL_EXCLUSIONS_MANUSCRIPT_DRAFT_v0.md`,
 commit `3daffd9`) — v0 retained, not rewritten.
 **Structural passes applied:** Grok D1–D3 + stubs; ChatGPT four changes.
@@ -82,12 +95,19 @@ proof-assistant compile checks as physics evidence.
 
 ## §1 — The candidate and its status
 
-- The Wyler–Nielsen value and its provenance. **Robertson 1971
-  paragraph (stub, one paragraph, not a bare citation):** what
-  Robertson's PRL actually did with Wyler's expression — the first
-  precision check and its skeptical conclusion — and why the expression
-  nonetheless persists in the literature; Nielsen's TUFT revival cited
-  beside it.
+- The Wyler–Nielsen value and its provenance. Exact simplified form
+  (ChatGPT, round 11; verified here at 80 digits, difference 0.0):
+  α⁻¹_T1 = (9/(8π⁴))·(π⁵/1920)^{1/4} = **(8/9)·1920^{1/4}·π^{11/4}**
+  = 137.03608244816433744….
+  **Robertson–Gilmore paragraph (stub, one paragraph):** Robertson's
+  PRL 27:1545–1547 (1971) made the radius objection — Wyler's
+  expression "agrees with experiment only if the radius of these
+  spaces is arbitrarily chosen to equal 1… no known reason for setting
+  the radius equal to one"; Gilmore's PRL 28:462–464 (1972) supplied
+  the group-theoretic reason for r = 1. The paragraph must state both,
+  and connect them to this paper's spectral form of the same question
+  (Appendix B, scaling constraint): for determinant-built corrections
+  the radius objection reappears as the ζ′(0) scaling law.
 - **Precision convention (fixed here, per ChatGPT):** with
   r = |α⁻¹_cand − α⁻¹_CODATA| / α⁻¹_CODATA = 6.0765×10⁻⁷, we call the
   candidate an **n-digit approximation** when −log₁₀ r ∈ [n, n+1);
@@ -104,7 +124,11 @@ proof-assistant compile checks as physics evidence.
   −214.288263496482 (…177) vs the record's c₃ = −1.56371823031276,
   c₄ = −214.285690123763 (…178). A record-side re-anchor is queued in
   `LEDGER.md` §5 as an erratum candidate; the frozen scan's conclusion
-  is anchor-insensitive at its gate width.
+  is anchor-insensitive at its gate width. Experimental framing
+  (ChatGPT round 11): CODATA's (21) propagates to ±3.9×10⁻⁴ on c₃ —
+  so neither anchor's c₃ is a fifteen-digit experimentally fixed
+  target; the pin is a theory target relative to the central value,
+  and the candidate's gap is ≈3,965 CODATA standard uncertainties.
 - Status taxonomy used throughout: **conjecture / identification /
   certified exclusion / documented status / open gate** — one sentence
   each, never blended within a claim.
@@ -278,13 +302,27 @@ statement (§5), not a claim.
 | X4 | charge-resolved towers cannot generate c₃ (Prop. 1; scope boundary in §3) | analytic proof + computational certification | `exclusions/DOOR1_TWISTED_TOWERS_CLOSED.md` · `python3 play_notes/play_twisted_towers_lab.py` |
 | X5 | Berger κq² ansatz generates no independent slope (Prop. 2; scope boundary in §4) | responses derivation-exact (dL/dκ = +1/7, −1/9; dD1/dκ exact); the lock — σ_κ = ∓D1 in this paper's convention (±D1_t in the lab's, translation printed in Prop. 2) — is a **high-precision computational observation** (1.5e-128 / 1.1e-60), algebraic proof pending | `exclusions/DOOR2_BERGER_CHARGE_CLOSED.md` · `python3 play_notes/play_berger_charge_lab.py` |
 | X6 | T-3 constants are spectral determinants on S⁷, S⁹ (S7 = 1.74845220445; S7′ = 0.41364465819) | identification, not derivation; numerically confirmed to 14 digits (E3) | deposit note; verification packet E3 · — |
-| X7 | a₄‴(0) = a₄⁗(0) ≡ 0 on the corpus path | analytic proof (exact-integer arithmetic) | `E4_FINAL_STATUS.md` · `python3 mqgt_t1_e4_a4_heat.py` |
+| X7 | a₄‴(0) = a₄⁗(0) ≡ 0 on the corpus path | analytic proof (exact-integer arithmetic); certificate corrected round 11 — script had computed the full Λ^p bundle labeled coexact; corrected coexact coefficients (S⁷ ce3: A = 94080, B = −40320, C = 3600, mult 20; S⁹ ce2: A = −24192, B = −34560, C = 5040, mult 28) verified exactly; vacuity unchanged | `E4_FINAL_STATUS.md` (correction block) · `python3 mqgt_t1_e4_a4_heat.py` |
 | X8 | middle-tower D1 / L / ζ(0) closed forms (exact rational; 65/65 towers) | analytic proof + high-precision certification | `supporting_analysis/MIDDLE_TOWER_*.md`, `ZETA0_THEOREM.md` · three scripts in `supporting_analysis/` |
 
 ## Appendix B — Related spectral results (short; companion-note candidates if they grow)
 
 - T-3 identification details (X6) — Dowker–Kirsten coexact towers;
   a name in spectral geometry, not a fitted constant.
+- **Scaling constraint (ChatGPT round 11; confirmed by Grok; verified
+  here against the record's ζ(0) theorem).** Eigenvalues of the
+  Laplace-type towers scale as R⁻², so ζ′_{tR}(0) = ζ′_R(0) +
+  2ζ_R(0) ln t. With convention-B values ζ(0) = +1 (S⁷ ce3) and
+  ζ(0) = −1 (S⁹ ce2): S7(tR) = S7 + ln t, S7′(tR) = S7′ + 2 ln t.
+  Hence **I := S7′ − 2S7 = −3.08325975071 is invariant under common
+  rescaling**; the individual determinants are not. Consequence for any
+  future repair: a correction built from S7 or S7′ requires a justified
+  radius and a dial-free normalization, or a demonstrably
+  scale-invariant combination; fitting t to the residual is a dial and
+  is refused (same rule as QED running without Λ_Hopf). This is the
+  spectral form of Robertson's 1971 radius objection; Gilmore's r = 1
+  reply is cited with it in §1. I is uniqueness raw material, not the
+  eighth digit.
 - Middle-tower closed forms (X8) — D1 lemma (S³–S¹³, dps=80), L-family
   (r=1–8), ζ(0) theorem, mirror residual exactly −1/16 from H₂.
 - The excluded *specific* QED-running route (X3a) with its assumptions.
@@ -309,6 +347,7 @@ as procedural (front-matter stub).
 
 - Wyler, C. R. Acad. Sci. Paris A269:743 (1969); A272:186 (1971).
 - Robertson, Phys. Rev. Lett. 27:1545–1547 (1971) — see §1 paragraph.
+- Gilmore, Phys. Rev. Lett. 28:462–464 (1972) — the r = 1 reply; see §1.
 - Nielsen, TUFT v5, Center for Topological Physics
   (github.com/startigerjln/CenterforTopologicalPhysics).
 - CODATA 2022 recommended value, α⁻¹ = 137.035999177(21) (NIST).

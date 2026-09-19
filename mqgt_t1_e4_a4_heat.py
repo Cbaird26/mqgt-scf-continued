@@ -29,6 +29,15 @@ The only non-polynomial E-dependence in the sector is the determinant's,
 whose derivatives round 1 already computed (no match to S7*56, S7'*16, c3).
 
 Controls: integer arithmetic for all traces; mpmath only for the final print.
+
+ERRATUM (2026-09-18, ChatGPT round 11, verified): the a4_polynomial call below
+builds the FULL Lambda^p bundle (dim C(n,p)), not the coexact tower. The
+coexact tower's heat trace follows by the alternating sum of full-form
+traces (exact p-forms are isospectral to coexact (p-1)-forms; the constant
+accounts for the scalar zero mode and does not touch a4). The correction
+block at the end of main() computes the coexact (A,B,C) with the same exact
+integer arithmetic. The round-2 verdict is UNAFFECTED: a4 stays quadratic
+in the shift under either labeling, so a4'''(0) = a4''''(0) = 0 regardless.
 """
 
 from itertools import combinations
@@ -153,6 +162,55 @@ def main():
     E4 stays on the books as the open problem, now with a complete
     exclusion record: fits (frozen scan), running (structure run), existing
     invariants (round 1), and the heat-coefficient path (round 2).
+    """)
+
+    # ------------------------------------------------------------------
+    # CORRECTION BLOCK (2026-09-18, ChatGPT round 11; verified exact here)
+    # The towers above were labeled "coexact" but are the FULL Lambda^p
+    # bundle. The coexact tower trace follows by the alternating sum
+    #     K_ce_p(t) = sum_{j=0}^p (-1)^j K_full_{p-j}(t) + (-1)^{p+1}
+    # (exact p-forms isospectral to coexact (p-1)-forms; the constant is
+    # the scalar zero mode and does not touch the local a4 coefficients).
+    print("=" * 78)
+    print("CORRECTION (ChatGPT round 11): full-form vs coexact labeling")
+    print("=" * 78)
+    for n, p in [(7, 3), (9, 2)]:
+        ce = [F(0), F(0), F(0)]
+        for j in range(p + 1):
+            _, _, _, Af, Bf, Cf = a4_polynomial(n, p - j)
+            for i, v in enumerate((Af, Bf, Cf)):
+                ce[i] += (-1) ** j * v
+        d_ce = sum((-1) ** j * len(list(combinations(range(n), p - j)))
+                   for j in range(p + 1))
+        print(f"\n[S^{n} coexact {p}-forms]  leading multiplicity {d_ce} "
+              f"(full Lambda^{p} bundle: {len(list(combinations(range(n), p)))})")
+        print(f"    coexact a4(u) = K * (A + B u + C u^2) with")
+        print(f"      A = {ce[0]},  B = {ce[1]},  C = {ce[2]}")
+        print(f"    (full-bundle values above were A, B, C of Lambda^{p};")
+        print(f"     ChatGPT's reported coexact triple reproduced exactly)")
+    print("""
+    VERDICT UNCHANGED: coexact a4(u) is still a polynomial of degree 2 in
+    the shift (alternating sum of quadratics), so a4'''(0) = a4''''(0) = 0
+    on the coexact towers as well. The correction changes the claimed
+    coexact numerical certificate, not the no-go result.
+
+    SHIFT-CONVENTION HARMONIZATION (ChatGPT round 11): this script shifts
+    the Gilkey ENDOMORPHISM by +u (E -> E0 + u), i.e. operator eigenvalues
+    shift by -u (D = -(nabla^2 + E)). The determinant script
+    (mqgt_t1_e4_derivation.py, dkdu) shifts eigenvalues by +u. Translation:
+    u_heat = -u_det; all odd u-derivatives pick up a sign between the two
+    conventions. Stated here so future certificates quote one convention.
+
+    HIGHER HEAT COEFFICIENTS (limited negative result, ChatGPT round 11):
+    for an eigenvalue shift D_u = D0 + u, K_u(t) = e^{-ut} K_0(t), so
+        A_{2k}(u) = sum_{j=0}^k (-u)^j/j! A_{2(k-j)}(0),
+    giving d^3 A_6 / du^3 |_0 = -A_0 and d^4 A_8 / du^4 |_0 = +A_0
+    (in the +u eigenvalue convention; signs flip in this file's
+    endomorphism convention). These derivatives are NONZERO, unlike the
+    a4 attempt -- but A_0 = (4pi)^(-n/2) Vol(S^n) * (principal-symbol
+    multiplicity) is fixed by volume and rank alone. They therefore reduce
+    to the leading coefficient and do not, by themselves, derive c3 or the
+    T-3 determinant normalizations.
     """)
 
 

@@ -37,6 +37,37 @@ match neither the published 1/56, 1/16 normalizations nor c₃.
 | Existing invariants | Phase coefficients, determinants, 8 exact u-derivatives (M1–M3) | Nothing within 96% of c₃ |
 | Heat kernel | a₄(E), corpus's own nominated object | a₄'''(0) ≡ a₄''''(0) ≡ 0 — vacuous |
 
+## Correction (2026-09-18, ChatGPT round 11 — verified, applied)
+
+The round-2 table above labeled its bundles "coexact" but computed the
+**full Λ^p bundle** (dim C(n,p)). The coexact tower's heat trace follows
+by the alternating sum of full-form traces (exact p-forms are isospectral
+to coexact (p−1)-forms; the scalar-zero-mode constant does not touch a₄).
+Corrected coexact certificates (exact integer arithmetic, reproduced by
+the correction block in `mqgt_t1_e4_a4_heat.py`):
+
+| Tower | leading multiplicity | coexact a₄(u) = K(A + Bu + Cu²) |
+|---|---|---|
+| S⁷, coexact 3-forms | 20 (full Λ³: 35) | A = 94080, B = −40320, C = 3600 |
+| S⁹, coexact 2-forms | 28 (full Λ²: 36) | A = −24192, B = −34560, C = 5040 |
+
+**The no-go result is unchanged:** coexact a₄(u) remains degree-2 in the
+shift (an alternating sum of quadratics), so a₄'''(0) ≡ a₄''''(0) ≡ 0 on
+the coexact towers too. What changed is the numerical certificate, not
+the exclusion.
+
+Also on record from the same review: (i) shift-convention harmonization —
+this script shifts the endomorphism by +u (eigenvalues −u); the
+determinant script shifts eigenvalues by +u; u_heat = −u_det; (ii)
+higher heat coefficients as a *limited* negative result — for
+D_u = D₀ + u, A_{2k}(u) = Σ_j (−u)^j/j! A_{2(k−j)}(0), so
+∂_u³A₆|₀ = −A₀ and ∂_u⁴A₈|₀ = +A₀ are nonzero but reduce to the leading
+coefficient (volume × principal-symbol multiplicity); they do not derive
+c₃ or the T-3 normalizations; (iii) CODATA anchor — this file's
+137.035999178 is an internal rounding of NIST 137.035999177(21);
+re-anchor queued in `LEDGER.md` §5 (manuscript v1.2+ pins …177 with both
+pin sets footnoted).
+
 ## Bottom line
 
 **The T-1 identity α⁻¹ = 137.03608245 is a 7-digit approximation** (relative
