@@ -44,6 +44,15 @@ Truncated moment probes were tail-dominated and indicative only by design
 Charge-resolved spectra exist as exact tables (archived in the output
 file) — kept as uniqueness raw material regardless of the verdict.
 
+## Scope of this exclusion
+
+Door 1 excludes charge resolution of the *unchanged* operator under the
+Hopf U(1) isometry — an isometry splits degeneracies and cannot move
+eigenvalues. It does **not** exclude a genuinely twisted or
+charge-coupled operator with different eigenvalues; such an operator
+is a new dynamical principle, and would have to be declared and computed
+on its own terms.
+
 ## Reproduce (one command)
 
 ```

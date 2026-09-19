@@ -126,7 +126,13 @@ throughout this note:
 V = ½m_E²E² + λ_E/4 E⁴ + ½m₁²S₁² + λ₁/4 S₁⁴ + ½m₂²S₂² + λ₂/4 S₂⁴
   + κ_E E S₁S₂
   + ½λ_E1 E²S₁² + ½λ_E2 E²S₂² + ½λ_12 S₁²S₂²
-  + (λ_1H/2) S₁²h² + (λ_2H/2) S₂²h² + (λ_EH/2) E²h²      (h = Higgs fluctuation)
+  + (λ_1H/2) S₁²h² + (λ_2H/2) S₂²h² + (λ_EH/2) E²h²
+
+Here and throughout, h denotes a Higgs-like fluctuation that — for every
+quantitative statement in this note — is the eV-scale scalar of this
+minimal model (m_h ≪ Λ = 1 eV), *not* the physical 125 GeV Higgs. The
+SM-Higgs reading is the open weak-scale matching problem, stated and
+bounded in §3(e4); nothing quantitative here claims that matching.
 
 **Scope (erratum 7).** This is a *minimal* Z₂_h-even closure, not the
 general symmetry-allowed model. Further renormalizable even monomials —
@@ -222,6 +228,19 @@ which recovers the leading-insertion result for μ₁₂² ≪ m_S². At
 vanishes and the exact integrand behaves as 1/k⁴ — IR-divergent; the
 maximal-mixing number is therefore a leading-insertion estimate, and an
 IR prescription is required at the endpoint (script d-resum).
+
+*Closed form (ChatGPT, round 8 — verified here by hand integration and
+against the script's quadrature).* For equal hidden masses, writing
+u = μ₁₂², the integral evaluates exactly:
+
+  g_Eh² = κ_E(λ_1H+λ_2H)/(64π²) · ln((m_S²+u)/(m_S²−u)),   0 ≤ u < m_S²,
+
+which displays all three regimes at once: small-u, ln((1+x)/(1−x)) ≈ 2x
+recovers the insertion 2.95×10⁻¹⁰·(λ_1H+λ_2H) eV; at u = m_S²/2 the
+ratio to the insertion is exactly ln 3 = 1.0986 (the reported 1.10);
+and the u → m_S² divergence is logarithmic in the vanishing eigenvalue.
+Script d-resum prints the closed form beside the numerical quadrature
+(agreement at mpmath precision).
 
 **(e) E-mass naturalness (corrected — see erratum above).** Two distinct
 one-loop channels:

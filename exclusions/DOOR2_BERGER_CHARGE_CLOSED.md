@@ -45,6 +45,16 @@ Sign honesty: per-mode responses are sign-definite; zeta-regularized
 tower totals are not. Reported signs are the exact regularized values,
 same convention as the record scorecards.
 
+## Scope of this exclusion
+
+Door 2 excludes the specified canonical-variation ansatz
+λ ↦ λ + κq² as a source of the required independent slope in the
+(L, D1) plane. Its high-precision D1-lock checks (1.5e-128, 1.1e-60)
+are certificates of that lock — they do **not** establish a theorem
+about every geometric deformation. A deformation that moves eigenvalues
+outside the κq² ansatz is a new principle, to be declared and computed
+on its own terms.
+
 ## Reproduce (one command)
 
 ```

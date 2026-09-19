@@ -133,6 +133,24 @@ print("   as mu^2 -> m_S^2 the lighter eigenvalue -> 0 and the exact")
 print("   integrand ~ 1/k^4: IR DIVERGENT. The maximal-mixing number is")
 print("   therefore a leading-insertion estimate, not an exact result;")
 print("   an IR prescription is required at the endpoint.")
+print("   CLOSED FORM (ChatGPT round 8; verified here by hand integration")
+print("   of the same integrand: substitution w = k^2 + m_S^2, partial")
+print("   fractions, boundary at infinity vanishes):")
+print("   g_Eh2 = kappa (lam1H+lam2H) /(64 pi^2) ln((m_S^2+u)/(m_S^2-u)),")
+print("   0 <= u = mu12^2 < m_S^2.")
+g_closed_half = (kappa * (lam1H + lam2H) / (64 * pi**2)
+                 * log((mS**2 + mu_half) / (mS**2 - mu_half)))
+print(f"   closed form at u = 0.5 m_S^2:  {mp.nstr(g_closed_half,10)} eV")
+print(f"   quadrature  at u = 0.5 m_S^2:  {mp.nstr(g_resum,10)} eV"
+      f"  (diff {mp.nstr(abs(g_closed_half-g_resum),2)})")
+print(f"   closed-form ratio to insertion = ln 3 = {mp.nstr(log(mpf('3')),10)}")
+u_small = mpf('1e-6') * mS**2
+g_closed_small = (kappa * (lam1H + lam2H) / (64 * pi**2)
+                  * log((mS**2 + u_small) / (mS**2 - u_small)))
+g_insert_small = kappa * u_small * (lam1H + lam2H) / (32 * pi**2 * mS**2)
+print(f"   small-u check (u = 1e-6 m_S^2): closed {mp.nstr(g_closed_small,6)}"
+      f" vs insertion {mp.nstr(g_insert_small,6)}"
+      f"  (rel diff {mp.nstr(abs(g_closed_small-g_insert_small)/g_insert_small,2)})")
 
 # ---------------------------------------------------------------- (e) delta m_E^2
 hdr("(e) E mass naturalness — CORRECTED 2026-09-18 (ChatGPT review verified)")
