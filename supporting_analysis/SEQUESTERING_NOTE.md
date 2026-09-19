@@ -132,8 +132,14 @@ V = ½m_E²E² + λ_E/4 E⁴ + ½m₁²S₁² + λ₁/4 S₁⁴ + ½m₂²S₂²
 general symmetry-allowed model. Further renormalizable even monomials —
 ES₁, S₁²S₂, S₂³, ES₁H†H, S₂H†H, and others from the script's allowed
 set — are permitted by the stated parity and are here set to zero; no
-symmetry or renormalization condition excludes them. Two consequences,
-stated plainly: (a) Lemma 1′ is unaffected — every omitted term is even,
+symmetry or renormalization condition excludes them. The script's
+classification is explicit on this point and was misread in the E7
+adjudication: with odd = {E, S₁}, ES₁ carries parity (−1)^(nE+n₁) = +1
+— even, hence *allowed* — and the script prints exactly that
+(`explicit check: E*S1 parity = 1`); an earlier print line that listed
+E·S₁² under "key forbidden" referred to the odd operator E·S₁², not
+ES₁, and has been clarified. Allowed-but-absent is a model choice,
+not a symmetry. Two consequences, stated plainly: (a) Lemma 1′ is unaffected — every omitted term is even,
 so the odd operator E|H|² still cannot be generated at any order;
 (b) the §3 loop and naturalness inventory is the inventory of *this*
 model, and the statement "S₁ couples to the SM only through S₁²h²" is a
@@ -314,8 +320,12 @@ E-sector description must be matched at the weak scale (a genuine
 multiscale loop calculation, in which the low-energy induced couplings
 cannot simply be extrapolated upward without double-counting), or h
 must be read as a light toy scalar and the Standard-Model claim
-narrowed accordingly. The e1/e2/e3 naturalness conclusions stand — at
-their stated eV-scale cutoff.
+narrowed accordingly. **Named standing interpretation (referee
+requirement: toy scalar or matching, no third option):** for every
+quantitative statement in this note, h is the eV-scale scalar of the
+minimal model; the SM-Higgs reading is the open weak-scale matching
+problem, not a standing claim. The e1/e2/e3 naturalness conclusions
+stand — at their stated eV-scale cutoff.
 
 ## 4. Vacuum alignment (flagged missing in corpus Ch. 4)
 

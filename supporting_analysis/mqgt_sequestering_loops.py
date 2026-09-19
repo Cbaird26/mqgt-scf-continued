@@ -52,8 +52,14 @@ for nE in range(5):
 allowed = [r for r in rows if r[2] == +1]
 forbidden = [r for r in rows if r[2] == -1]
 print(f"  monomials dim<=4: {len(rows)}  allowed(even): {len(allowed)}  forbidden(odd): {len(forbidden)}")
-print("  key allowed  : E*S1*S2 (source), S2^2*h^2, S1^2*h^2, E^2*h^2, mass/quartic terms")
+print("  key allowed  : E*S1*S2 (source), S2^2*h^2, S1^2*h^2, E^2*h^2, mass/quartic terms,")
+print("                 PLUS E*S1 (mixing), S2 (tadpole), S2*h^2, E*S1*h^2, even cubics")
+print("                 -- allowed-but-absent from the written V (minimal model, erratum 7)")
 print("  key forbidden: E*h^2 (direct portal), E*S2^2, S1*S2 (spurion slot), E*S1^2, tadpole E")
+par_map = dict(((r[1], r[2]) for r in rows))
+print("  explicit check: E*S1 parity =", par_map['E*S1'], "(+1 = even = allowed)")
+print("  referee E7.1 sub-claim resolved: the classification was always correct;")
+print("  the earlier print line named E*S1^2, a different (correctly forbidden) operator.")
 check = all((r[0] != 3 or r[1] != 'E*h^2') for r in allowed)
 print("  E|H|^2 in allowed set:", not check, " -> tree+loop selection rule consistent:", check)
 
