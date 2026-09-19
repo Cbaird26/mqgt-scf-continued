@@ -1,11 +1,11 @@
-# Manuscript — SPECTRAL EXCLUSIONS (DRAFT v1.4, skeleton + §2/Appendix A prose)
+# Manuscript — SPECTRAL EXCLUSIONS (DRAFT v1.5, skeleton + §2/Appendix A prose)
 
 **Working title:** *Where the eighth digit is not: certified exclusions
 around the Wyler–Nielsen α⁻¹ candidate on the round Hopf bundle*
 (alternative for journal cut, per ChatGPT: *Spectral exclusions for a
 proposed correction to a geometric fine-structure-constant candidate* —
 decision deferred; both referees accept the current working title.)
-**Date:** 2026-09-18 · **Status:** DRAFT v1.4 (per-version log below) — Grok's accept edit
+**Date:** 2026-09-18 · **Status:** DRAFT v1.5 (per-version log below) — Grok's accept edit
 applied to Prop. 2; ChatGPT round-9 reconciliation applied (unified
 L/D1 definitions; lock relabeled; σ_need removed from the proposition);
 §2 and Appendix A prose written per Grok's accept ("those two units,
@@ -57,6 +57,18 @@ coexact heat coefficients (ChatGPT round 12a; verified exact:
 A₄ᶜᵉ³(S⁷_R) = (49√π/72)R³ and A₄ᶜᵉ²(S⁹_R) = −(7√π/640)R⁵ — both
 dimensionful, R^{n−4}, the same radius gate); (iii) record discipline
 unchanged: no Φ_c/consciousness content in this manuscript.
+**v1.5 changes (round 13, ChatGPT refinements; verified here):** (i)
+Appendix B's heat cross-ref gains the ratio caveat — individual heat
+coefficients are dimensionful, but scale-independent *ratios* exist
+(A_{2k} ~ R^{n−2k}; e.g. A₄⁵/A₂³ on S⁷, A₄⁷/A₂⁵ on S⁹), which would
+still need an independently justified connection to the electromagnetic
+action, so the normalization concern stands; (ii) heat-script
+presentation cleanup recorded — round-2 full-form labels withdrawn at
+the source and the correction block retitled as the primary coexact
+certificate (rerun clean); (iii) play-side only: Z(Φ_c)F² is *a*
+coupling, not the only gauge-invariant one (φF F̃ is the parity-odd
+alternative) — noted for the quarantined branch, no manuscript content
+changed on that front.
 **Supersedes:** v0 (`SPECTRAL_EXCLUSIONS_MANUSCRIPT_DRAFT_v0.md`,
 commit `3daffd9`) — v0 retained, not rewritten.
 **Structural passes applied:** Grok D1–D3 + stubs; ChatGPT four changes.
@@ -346,7 +358,12 @@ statement (§5), not a claim.
   integrated coexact coefficients A₄ᶜᵉ³(S⁷_R) = (49√π/72)R³ and
   A₄ᶜᵉ²(S⁹_R) = −(7√π/640)R⁵ (ChatGPT round 12a; verified exact; X7
   script) are dimensionful — R^{n−4} — so no heat coefficient yields a
-  number without the same justified radius prescription.
+  number without the same justified radius prescription. (Refinement,
+  ChatGPT round 13: dimensionful is not automatically unusable —
+  scale-independent *ratios* exist, since A_{2k} ~ R^{n−2k}; e.g.
+  A₄⁵/A₂³ on S⁷ and A₄⁷/A₂⁵ on S⁹ are radius-free. Such a ratio would
+  still need an independently justified connection to the
+  electromagnetic action, so the central normalization concern stands.)
 - Middle-tower closed forms (X8) — D1 lemma (S³–S¹³, dps=80), L-family
   (r=1–8), ζ(0) theorem, mirror residual exactly −1/16 from H₂.
 - The excluded *specific* QED-running route (X3a) with its assumptions.

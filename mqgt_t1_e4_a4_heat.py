@@ -112,6 +112,11 @@ def main():
     print("=" * 78)
     print("E4 ROUND 2 — a4(E) heat coefficient, exact evaluation")
     print("=" * 78)
+    print("NOTE (round-13 cleanup): the per-tower (A,B,C) values below are")
+    print("the FULL Lambda^p bundle -- the round-2 'coexact' labels on them")
+    print("were withdrawn (ChatGPT round 11 erratum). The certified COEXACT")
+    print("computation is the final block of this output, which is the")
+    print("primary certificate; treat the values below as intermediate.")
 
     # control: p=1 must give tr Omega^2 = -2 n (n-1)
     for n in (7, 9):
@@ -121,8 +126,8 @@ def main():
               f"(formula -2n(n-1) = {need}) [{'OK' if trO2 == need else 'FAIL'}]")
 
     for n, p, label, target, norm in [
-            (7, 3, "S^7 ce3 (S7 channel)", "S7 = 1.74845220445", "1/56"),
-            (9, 2, "S^9 ce2 (S7' channel)", "S7' = 0.41364465819", "1/16")]:
+            (7, 3, "S^7 FULL Lambda^3 (S7 channel)", "S7 = 1.74845220445", "1/56"),
+            (9, 2, "S^9 FULL Lambda^2 (S7' channel)", "S7' = 0.41364465819", "1/16")]:
         d, trO2, E0, A, B, C = a4_polynomial(n, p)
         print(f"\n[{label}]  dim Lambda^{p} = {d}, E0 = {E0}, "
               f"tr Omega^2 = {trO2}")
@@ -173,7 +178,8 @@ def main():
     # (exact p-forms isospectral to coexact (p-1)-forms; the constant is
     # the scalar zero mode and does not touch the local a4 coefficients).
     print("=" * 78)
-    print("CORRECTION (ChatGPT round 11): full-form vs coexact labeling")
+    print("COEXACT CERTIFICATE (PRIMARY) — corrects the full-form output above")
+    print("(ChatGPT round 11 erratum; round-13 retitle)")
     print("=" * 78)
     for n, p in [(7, 3), (9, 2)]:
         ce = [F(0), F(0), F(0)]
