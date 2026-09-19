@@ -42,6 +42,7 @@ in the shift under either labeling, so a4'''(0) = a4''''(0) = 0 regardless.
 
 from itertools import combinations
 from fractions import Fraction as F
+from math import factorial
 import numpy as np
 
 
@@ -188,6 +189,14 @@ def main():
         print(f"      A = {ce[0]},  B = {ce[1]},  C = {ce[2]}")
         print(f"    (full-bundle values above were A, B, C of Lambda^{p};")
         print(f"     ChatGPT's reported coexact triple reproduced exactly)")
+        # INTEGRATED VALUE, RADIUS RESTORED (ChatGPT round 12a; verified
+        # exact here): the a4 density scales as R^-4 and dV as R^n, so the
+        # integrated coefficient scales as R^(n-4). For odd n,
+        # K_n = sqrt(pi) / (180 * Gamma((n+1)/2) * 2^n) at unit radius.
+        k_rat = F(1, 180 * factorial((n - 1) // 2) * 2 ** n)
+        a4_int = ce[0] * k_rat
+        print(f"    integrated: A4(S^{n}_R) = ({a4_int}) sqrt(pi) "
+              f"R^{n - 4}   [dimensionful -- NOT a number]")
     print("""
     VERDICT UNCHANGED: coexact a4(u) is still a polynomial of degree 2 in
     the shift (alternating sum of quadratics), so a4'''(0) = a4''''(0) = 0
@@ -211,6 +220,14 @@ def main():
     multiplicity) is fixed by volume and rank alone. They therefore reduce
     to the leading coefficient and do not, by themselves, derive c3 or the
     T-3 determinant normalizations.
+
+    INTEGRATED VALUES (ChatGPT round 12a, verified exact in this file):
+        A4_ce3(S^7_R) = (49 sqrt(pi) / 72) R^3,
+        A4_ce2(S^9_R) = -(7 sqrt(pi) / 640) R^5.
+    Neither is dimensionless. Any heat-coefficient correction to alpha
+    therefore requires a justified radius/normalization prescription --
+    the same open gate as the determinant scaling constraint (round 11a,
+    manuscript Appendix B): the geometry supplies the R-dependence, not R.
     """)
 
 

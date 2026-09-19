@@ -1,11 +1,11 @@
-# Manuscript — SPECTRAL EXCLUSIONS (DRAFT v1.3, skeleton + §2/Appendix A prose)
+# Manuscript — SPECTRAL EXCLUSIONS (DRAFT v1.4, skeleton + §2/Appendix A prose)
 
 **Working title:** *Where the eighth digit is not: certified exclusions
 around the Wyler–Nielsen α⁻¹ candidate on the round Hopf bundle*
 (alternative for journal cut, per ChatGPT: *Spectral exclusions for a
 proposed correction to a geometric fine-structure-constant candidate* —
 decision deferred; both referees accept the current working title.)
-**Date:** 2026-09-18 · **Status:** DRAFT v1.2 — Grok's accept edit
+**Date:** 2026-09-18 · **Status:** DRAFT v1.4 (per-version log below) — Grok's accept edit
 applied to Prop. 2; ChatGPT round-9 reconciliation applied (unified
 L/D1 definitions; lock relabeled; σ_need removed from the proposition);
 §2 and Appendix A prose written per Grok's accept ("those two units,
@@ -46,6 +46,17 @@ round-11 correction — the heat script computed the full Λ^p bundle,
 labeled coexact; corrected coexact coefficients verified exactly and
 applied to `mqgt_t1_e4_a4_heat.py` + `E4_FINAL_STATUS.md`; the vacuity
 verdict is unchanged; Gilmore 1972 added to references.
+**v1.4 changes (round 12, ChatGPT two notes; Christopher's
+consciousness/Φ_c question routed to play, not this paper):** (i) §5
+open gates gain the **EM-normalization bridge** (ChatGPT round 12b;
+algebra verified here): the Hopf c₁ fixes the flux integer, not the
+1/g² coefficient — Kaluza–Klein illustration on S⁹_R,
+1/g₄² = Vol(S⁹_R)/g₁₃² with Vol = π⁵R⁹/12, so α₄ = 3g₁₃²/(π⁶R⁹);
+(ii) Appendix B's scaling bullet cross-references the integrated
+coexact heat coefficients (ChatGPT round 12a; verified exact:
+A₄ᶜᵉ³(S⁷_R) = (49√π/72)R³ and A₄ᶜᵉ²(S⁹_R) = −(7√π/640)R⁵ — both
+dimensionful, R^{n−4}, the same radius gate); (iii) record discipline
+unchanged: no Φ_c/consciousness content in this manuscript.
 **Supersedes:** v0 (`SPECTRAL_EXCLUSIONS_MANUSCRIPT_DRAFT_v0.md`,
 commit `3daffd9`) — v0 retained, not rewritten.
 **Structural passes applied:** Grok D1–D3 + stubs; ChatGPT four changes.
@@ -267,6 +278,15 @@ scan, regardless of how far inside the gate it falls.
   running — closure not advanced without a specified dial-free scale
   (methodological refusal; the older *specific* running route is
   separately excluded, Appendix B); Λ_Hopf scale question — refused.
+- **EM-normalization bridge (ChatGPT round 12b; algebra verified
+  here):** the Hopf c₁ fixes the flux integer (Dirac quantization),
+  not the 1/g² coefficient of F². Kaluza–Klein illustration on S⁹_R:
+  1/g₄² = Vol(S⁹_R)/g₁₃² with Vol = π⁵R⁹/12, hence
+  α₄ = 3g₁₃²/(π⁶R⁹) — the gauge-kinetic coefficient is independent
+  data the bundle geometry does not supply. Any T-1 closure must trace
+  the F² coefficient, charge normalization, compactification scale, and
+  renormalization prescription end-to-end without importing the
+  measured α. Recorded as an open gate, not an exclusion.
 - **Out of scope (statement, not a claim):** the interior-observer /
   refractive-α chain (R*, σ-weightings) is quarantined play-branch
   material (`play_notes/`) and is not part of this paper.
@@ -322,7 +342,11 @@ statement (§5), not a claim.
   is refused (same rule as QED running without Λ_Hopf). This is the
   spectral form of Robertson's 1971 radius objection; Gilmore's r = 1
   reply is cited with it in §1. I is uniqueness raw material, not the
-  eighth digit.
+  eighth digit. The same radius gate appears in the heat sector: the
+  integrated coexact coefficients A₄ᶜᵉ³(S⁷_R) = (49√π/72)R³ and
+  A₄ᶜᵉ²(S⁹_R) = −(7√π/640)R⁵ (ChatGPT round 12a; verified exact; X7
+  script) are dimensionful — R^{n−4} — so no heat coefficient yields a
+  number without the same justified radius prescription.
 - Middle-tower closed forms (X8) — D1 lemma (S³–S¹³, dps=80), L-family
   (r=1–8), ζ(0) theorem, mirror residual exactly −1/16 from H₂.
 - The excluded *specific* QED-running route (X3a) with its assumptions.

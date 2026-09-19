@@ -51,6 +51,13 @@ the correction block in `mqgt_t1_e4_a4_heat.py`):
 | S⁷, coexact 3-forms | 20 (full Λ³: 35) | A = 94080, B = −40320, C = 3600 |
 | S⁹, coexact 2-forms | 28 (full Λ²: 36) | A = −24192, B = −34560, C = 5040 |
 
+**Integrated values, radius restored (2026-09-18, ChatGPT round 12a —
+verified exact):** A₄ᶜᵉ³(S⁷_R) = (49√π/72)·R³ and
+A₄ᶜᵉ²(S⁹_R) = −(7√π/640)·R⁵ (a₄ density ~ R⁻⁴, dV ~ Rⁿ ⇒ R^{n−4}).
+Neither is dimensionless, so any heat-coefficient correction to α needs a
+justified radius/normalization prescription — the same open gate as the
+determinant scaling constraint (manuscript Appendix B).
+
 **The no-go result is unchanged:** coexact a₄(u) remains degree-2 in the
 shift (an alternating sum of quadratics), so a₄'''(0) ≡ a₄''''(0) ≡ 0 on
 the coexact towers too. What changed is the numerical certificate, not
