@@ -1,12 +1,23 @@
-# Manuscript — SPECTRAL EXCLUSIONS (DRAFT v1, skeleton)
+# Manuscript — SPECTRAL EXCLUSIONS (DRAFT v1.1, skeleton + §2/Appendix A prose)
 
 **Working title:** *Where the eighth digit is not: certified exclusions
 around the Wyler–Nielsen α⁻¹ candidate on the round Hopf bundle*
 (alternative for journal cut, per ChatGPT: *Spectral exclusions for a
 proposed correction to a geometric fine-structure-constant candidate* —
 decision deferred; both referees accept the current working title.)
-**Date:** 2026-09-18 · **Status:** DRAFT v1 — header decisions D1–D3
-marked; claims-and-evidence table frozen for structural review.
+**Date:** 2026-09-18 · **Status:** DRAFT v1.1 — Grok's accept edit
+applied to Prop. 2; ChatGPT round-9 reconciliation applied (unified
+L/D1 definitions; lock relabeled; σ_need removed from the proposition);
+§2 and Appendix A prose written per Grok's accept ("those two units,
+then stop"). All other sections remain skeleton.
+**v1.1 changes:** (i) Prop. 2 box: L := −ζ′(0) and D1 := (dL/dη)|₀ now
+defined from the same generating function and differentiated explicitly
+(ChatGPT 1); the lock σ_κ = ±D1 relabeled a high-precision
+computational observation, algebraic proof pending (ChatGPT 2);
+σ_need = −6.21 removed from the proposition — that number is the
+quarantined play chain (Grok + ChatGPT 3); (ii) CODATA value corrected
+to the record's 137.035999178(21); (iii) X-table count noted (eight
+groups, nine rows); (iv) §2 + Appendix A prose.
 **Supersedes:** v0 (`SPECTRAL_EXCLUSIONS_MANUSCRIPT_DRAFT_v0.md`,
 commit `3daffd9`) — v0 retained, not rewritten.
 **Structural passes applied:** Grok D1–D3 + stubs; ChatGPT four changes.
@@ -66,7 +77,7 @@ proof-assistant compile checks as physics evidence.
   r = |α⁻¹_cand − α⁻¹_CODATA| / α⁻¹_CODATA = 6.0765×10⁻⁷, we call the
   candidate an **n-digit approximation** when −log₁₀ r ∈ [n, n+1);
   here n = 6. Both numbers quoted in full: candidate
-  α⁻¹ = 137.03608245; CODATA 2022 α⁻¹ = 137.035999177(21).
+  α⁻¹ = 137.03608245; CODATA 2022 α⁻¹ = 137.035999178(21).
   (The phrase "7-digit" in `E4_FINAL_STATUS.md` is superseded
   terminology for the identical numbers; the residual is unchanged.)
 - Status taxonomy used throughout: **conjecture / identification /
@@ -77,17 +88,49 @@ proof-assistant compile checks as physics evidence.
 
 ## §2 — The prefactor gate (census; NOT an operator exclusion)
 
-- **Gate definition (stub, to be stated exactly from
-  `mqgt_t1_e4_structure.py`):** the pre-declared 13,057-expression
-  topological family, the frozen scan, the numerical gate and its
-  selection rules — written before any results are quoted.
-- Result: 58 of 13,057 expressions pass the gate.
-- **The precisely rejected inference (ChatGPT):** "passes the numerical
-  gate ⇒ identifies a topological prefactor for the correction" is
-  rejected *for this family*, on the multiple-comparisons base rate —
-  58/13,057 is the gate's coincidence floor, not a candidate set.
-  Nothing here excludes an expression outside the pre-declared family,
-  and nothing here is an operator-level exclusion (those are §§3–4).
+The T-1 candidate α⁻¹ = 137.03608244816433744 fails the program's own
+admissibility gate — agreement with CODATA 2022 to relative 1×10⁻⁸ —
+by a relative margin of 6.07652×10⁻⁷. Before asking whether any
+*structural* correction could close that gap, the program asked a prior
+question: how often do mere coincidences close it? The instrument is a
+frozen, pre-declared family of 13,057 topological expressions
+(verification packet v1.0-paper), scanned once against the gate, with
+the family and the gate fixed before any result was quoted. No further
+candidate search is performed in the continued line
+(`mqgt_t1_e4_structure.py` pins targets and tests hypotheses; it does
+not search).
+
+Fifty-eight of the 13,057 expressions pass the gate. Two illustrate
+what a gate-passer is. The coefficient c₄ = −214.285690123763 lies
+within 1.1×10⁻⁷ of −1500/7, so the correction (1 − (1500/7)α⁴) passes
+the gate with residual 6.85×10⁻¹⁴ — seven hundred-fold inside the gate
+— and −1500/7 has no derivation from the program's operator content.
+Conversely, the known F3 coincidence (1 − (π/2)α³) passes the gate at
+residual 2.8×10⁻⁹, yet −π/2 = −1.5707963 differs from the needed
+c₃ = −1.56371823031276 by 4.5×10⁻³ relative — excluded outright as an
+identity, before any multiplicity argument. Gate-passing is necessary,
+not sufficient.
+
+The inference rejected here is stated precisely: from "expression X
+passes the numerical gate" one cannot infer "X identifies a topological
+prefactor of the correction." For this family, 58/13,057 is the
+coincidence floor set jointly by the gate width and the family size;
+every gate-passer remains coincidence-class until its coefficient is
+produced from operator content with every factor identifiable before
+comparison to CODATA. This is a documented multiplicity ceiling on
+fitting within one pre-declared family. It excludes nothing outside
+that family, and it is not an operator-level exclusion — those are
+Propositions 1 and 2.
+
+The resolution standard is therefore quantified: a closing derivation
+must produce c₃ = −1.56371823031276 on the α³ basis (equivalently
+c₄ = −214.285690123763 on α⁴) from a trace anomaly, heat-kernel
+coefficient, or index density of the operator content already in the
+theory — the same content that produced ζ(3)·13/(24π) = 0.20725607285,
+ζ(5)/(4π²) = 0.0262656868757, S7/56 = 0.0312223607937, and
+S7′/16 = 0.0258527911369 (`E4_ALPHA_GATE_RESEARCH_NOTE.md`). Any
+combination found by fitting remains coincidence-class per the frozen
+scan, regardless of how far inside the gate it falls.
 
 ## §3 — Door 1: twisted Hopf-line towers
 
@@ -119,23 +162,29 @@ proof-assistant compile checks as physics evidence.
 > *Hypotheses.* The canonical variation (Berger squash) of the Hopf
 > fibration, acting on coexact eigenvalues as the Landau-form ansatz
 > λ ↦ λ + κq², κ = t⁻² − 1 from the round point.
-> *Definitions.* With L := ζ′(0) and D1 the tower determinant
-> invariant, the round-point responses are the exact full-tower zeta
-> values dL/dκ = +Σ_x Q2(x)/λ(x) and dD1/dκ = −Σ_x Q2(x)/λ(x)²
+> *Definitions (unified, ChatGPT round 9).* Both invariants are derived
+> from the same generating function, the log-determinant
+> L := −ζ′(0): the determinant invariant is D1 := (dL/dη)|₀, with η
+> the uniform endomorphism shift (the corpus's E-shift). Under the
+> ansatz, differentiating L explicitly gives the round-point responses
+> as exact full-tower zeta values:
+> dL/dκ = +Σ_x Q2(x)/λ(x) and dD1/dκ = −Σ_x Q2(x)/λ(x)²
 > (Q2(k) an exact even polynomial — truncation-free); the response
 > slope is σ_κ := (dD1/dκ)/(dL/dκ).
-> *Statement.* σ_κ = ±D1(tower) exactly in both towers: each tower's
-> charge susceptibility is locked to its own self-response, so the
-> ansatz generates no independent slope in the (L, D1) plane —
-> while the required correction demands exactly such independence
-> (σ_need = −6.21).
-> *Certificate vs support (ChatGPT):* the identity is asserted as a
-> derivation-level certificate (exact rational values dL/dκ = +1/7,
-> −1/9; dD1/dκ = +0.664425606401, +19/720) and is *supported
-> numerically* at deviations 1.5×10⁻¹²⁸ and 1.1×10⁻⁶⁰ — numerical
-> agreement supports an identity; the derivation is the certificate.
+> *Statement.* The ansatz generates no independent slope in the
+> (L, D1) plane: in both towers the slope is locked to the tower's own
+> determinant response, σ_κ = ±D1(tower).
+> *Certificate vs support (ChatGPT, rounds 8–9).* The responses
+> themselves are derivation-level exact (dL/dκ = +1/7 and −1/9;
+> dD1/dκ = +0.664425606401 and +19/720 — exact rational). The *lock
+> identity* σ_κ = ±D1 is a **high-precision computational observation**
+> (deviations 1.5×10⁻¹²⁸ and 1.1×10⁻⁶⁰), algebraic proof pending; it is
+> labeled as such, not asserted as a derived identity.
 > *Boundary.* Not a theorem about every geometric deformation — only
-> about the κq² canonical-variation ansatz.
+> about the κq² canonical-variation ansatz. No external slope target
+> appears in this proposition: the play-branch comparison value
+> σ_need = −6.21 belongs to the quarantined interior-observer chain
+> (`play_notes/`) and is not a premise, target, or conclusion here.
 
 - Sign honesty sentence retained: per-mode responses sign-definite;
   zeta-regularized totals not; reported signs are exact regularized
@@ -156,22 +205,36 @@ proof-assistant compile checks as physics evidence.
   refractive-α chain (R*, σ-weightings) is quarantined play-branch
   material (`play_notes/`) and is not part of this paper.
 
-## Appendix A — Claims and evidence (frozen v1)
+## Appendix A — Claims and evidence (frozen v1.1)
 
-Numbering (Grok D1): manuscript claims are **X1–X8**. They are
-manuscript-local; they are distinct from the frozen verification
-packet's C6a–C9. v0's C1–C9 map: C1→X1, C2→X2, C3→X3a/X3b, C4→X4,
-C5→X5, C6→X6, C7→X7, C8→X8, C9→out-of-scope statement (§5), not a
-claim.
+This appendix is the paper's audit spine: every numbered claim, its
+evidence type, and its exact evidence path. Five evidence types are
+distinguished, and the type is part of the claim: **documented status**
+(a position or value on the record; no command, by design); **analytic
+proof** (a derivation closed in the text or its cited record file);
+**derivation certificate with numerical support** (responses derived
+exactly, with an associated identity observed numerically and labeled
+as observed); **computational reproduction** (a script whose output is
+the evidence); **identification** (a constant matched to a named
+spectral object, with numerical confirmation, without a derivation of
+its normalization). A claim's row never promises a stronger type than
+it carries.
+
+Numbering (Grok D1): manuscript claims are **X1–X8** — eight numbered
+groups in nine table rows, since X3a and X3b are counted separately.
+The X-numbers are manuscript-local; they are distinct from the frozen
+verification packet's C6a–C9. v0's C1–C9 map: C1→X1, C2→X2,
+C3→X3a/X3b, C4→X4, C5→X5, C6→X6, C7→X7, C8→X8, C9→out-of-scope
+statement (§5), not a claim.
 
 | # | claim | type | evidence (path · command) |
 |---|---|---|---|
 | X1 | candidate α⁻¹ = 137.03608245; residual 6.0765×10⁻⁷ vs CODATA 2022; six-digit per §1 convention | documented status | `artifacts/T1_E4_DEPOSIT_NOTE_2026-09-18.md` · — |
-| X2 | gate-passing does not certify a prefactor (58/13,057; inference rejected for this family) | computational reproduction | `E4_FINAL_STATUS.md` · `python3 mqgt_t1_e4_structure.py` |
+| X2 | gate-passing does not certify a prefactor (58/13,057; inference rejected for this family) | computational reproduction + documented status | frozen scan: `mqgt-scf-independent-verification` v1.0-paper (pre-declared 13,057-expression family, relative gate 1×10⁻⁸); anatomy: `E4_ALPHA_GATE_RESEARCH_NOTE.md` · `python3 mqgt_t1_e4_structure.py` (no candidate search) |
 | X3a | the *specific* QED-running route (bare-α running, electron threshold) is excluded: needs q/m_e = 1.00039, no such threshold | documented exclusion (with assumptions) | `E4_FINAL_STATUS.md` · `python3 mqgt_t1_e4_derivation.py` |
 | X3b | QED-running closure not advanced without a specified dial-free scale | methodological refusal (documented status) | `E4_FINAL_STATUS.md`; deposit note · — |
 | X4 | charge-resolved towers cannot generate c₃ (Prop. 1; scope boundary in §3) | analytic proof + computational certification | `exclusions/DOOR1_TWISTED_TOWERS_CLOSED.md` · `python3 play_notes/play_twisted_towers_lab.py` |
-| X5 | Berger κq² ansatz generates no independent slope (Prop. 2; σ_κ = ±D1; scope boundary in §4) | derivation certificate + numerical support (1.5e-128 / 1.1e-60) | `exclusions/DOOR2_BERGER_CHARGE_CLOSED.md` · `python3 play_notes/play_berger_charge_lab.py` |
+| X5 | Berger κq² ansatz generates no independent slope (Prop. 2; scope boundary in §4) | responses derivation-exact (dL/dκ = +1/7, −1/9; dD1/dκ exact); the lock σ_κ = ±D1 is a **high-precision computational observation** (1.5e-128 / 1.1e-60), algebraic proof pending | `exclusions/DOOR2_BERGER_CHARGE_CLOSED.md` · `python3 play_notes/play_berger_charge_lab.py` |
 | X6 | T-3 constants are spectral determinants on S⁷, S⁹ (S7 = 1.74845220445; S7′ = 0.41364465819) | identification, not derivation; numerically confirmed to 14 digits (E3) | deposit note; verification packet E3 · — |
 | X7 | a₄‴(0) = a₄⁗(0) ≡ 0 on the corpus path | analytic proof (exact-integer arithmetic) | `E4_FINAL_STATUS.md` · `python3 mqgt_t1_e4_a4_heat.py` |
 | X8 | middle-tower D1 / L / ζ(0) closed forms (exact rational; 65/65 towers) | analytic proof + high-precision certification | `supporting_analysis/MIDDLE_TOWER_*.md`, `ZETA0_THEOREM.md` · three scripts in `supporting_analysis/` |
@@ -206,14 +269,19 @@ as procedural (front-matter stub).
 - Robertson, Phys. Rev. Lett. 27:1545–1547 (1971) — see §1 paragraph.
 - Nielsen, TUFT v5, Center for Topological Physics
   (github.com/startigerjln/CenterforTopologicalPhysics).
-- CODATA 2022 recommended value, α⁻¹ = 137.035999177(21).
+- CODATA 2022 recommended value, α⁻¹ = 137.035999178(21).
 - Frozen verification record: `mqgt-scf-independent-verification`,
   release v1.0-paper; upstream corpus: `mqgt-scf-science-public`.
 
 ---
 
-## Gate for the next page (Grok, held)
+## Gate status (v1.1)
 
-X1–X8 and the two proposition boxes are frozen in this v1. Prose is
-written next for **§2 and Appendix A only** — on Christopher's explicit
-accept. Not §§1–6 in one sitting; no uniqueness lemma; no QED running.
+Grok's accept (2026-09-18) authorized §2 and Appendix A prose after one
+box edit; ChatGPT's round-9 conditions were the same edits in longer
+form (Prop. 2 definitions unified and differentiated; the lock relabeled
+observation-pending-proof; σ_need removed). Those edits are in this
+v1.1, and §2 + Appendix A prose is written. **Stop line held:** §§1, 3,
+4, 5 and Appendices B–D remain skeleton. Not §§1–6 in one sitting; no
+uniqueness lemma; no QED running. Next prose units await the referees'
+pass on these two units and Christopher's word.
