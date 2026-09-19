@@ -1,11 +1,11 @@
-# Manuscript — SPECTRAL EXCLUSIONS (DRAFT v1.1, skeleton + §2/Appendix A prose)
+# Manuscript — SPECTRAL EXCLUSIONS (DRAFT v1.2, skeleton + §2/Appendix A prose)
 
 **Working title:** *Where the eighth digit is not: certified exclusions
 around the Wyler–Nielsen α⁻¹ candidate on the round Hopf bundle*
 (alternative for journal cut, per ChatGPT: *Spectral exclusions for a
 proposed correction to a geometric fine-structure-constant candidate* —
 decision deferred; both referees accept the current working title.)
-**Date:** 2026-09-18 · **Status:** DRAFT v1.1 — Grok's accept edit
+**Date:** 2026-09-18 · **Status:** DRAFT v1.2 — Grok's accept edit
 applied to Prop. 2; ChatGPT round-9 reconciliation applied (unified
 L/D1 definitions; lock relabeled; σ_need removed from the proposition);
 §2 and Appendix A prose written per Grok's accept ("those two units,
@@ -18,6 +18,21 @@ computational observation, algebraic proof pending (ChatGPT 2);
 quarantined play chain (Grok + ChatGPT 3); (ii) CODATA value corrected
 to the record's 137.035999178(21); (iii) X-table count noted (eight
 groups, nine rows); (iv) §2 + Appendix A prose.
+**v1.2 changes (round 10, ChatGPT + Grok micro-edits):** (i) CODATA
+re-pinned to NIST 137.035999177(21) — the record's …178 tail was
+internal rounding; §1 anchor footnote carries both 80-digit comparisons
+and the re-anchored pins c₃ = −1.56373700913218, c₄ =
+−214.288263496482; record-side re-anchor queued in `LEDGER.md` §5;
+(ii) Prop. 2 convention translation printed: the lab's D1_t = ∂_u ζ′(0)
+= −D1, so the card's σ_κ = ±D1_t reads σ_κ = ∓D1 here, with per-tower
+signs and unchanged magnitudes/ratios; (iii) §2 illustration residuals
+recomputed at the 177 anchor (−1500/7: 7.2×10⁻¹², ≈1.4×10³-fold below
+the gate; F3: 2.7×10⁻⁹) — replacing the v1.1 "seven hundred-fold" slip
+AND its intermediate wrong fix; (iv) §2 constants marked as
+identifications (X6 sense), not derived outputs; (v) X2 evidence now
+names the exact frozen scan `mqgt_t1_topological_scan.py`
+(verification packet v1.0-paper) and states that the continued-line
+script does not rerun it.
 **Supersedes:** v0 (`SPECTRAL_EXCLUSIONS_MANUSCRIPT_DRAFT_v0.md`,
 commit `3daffd9`) — v0 retained, not rewritten.
 **Structural passes applied:** Grok D1–D3 + stubs; ChatGPT four changes.
@@ -77,14 +92,25 @@ proof-assistant compile checks as physics evidence.
   r = |α⁻¹_cand − α⁻¹_CODATA| / α⁻¹_CODATA = 6.0765×10⁻⁷, we call the
   candidate an **n-digit approximation** when −log₁₀ r ∈ [n, n+1);
   here n = 6. Both numbers quoted in full: candidate
-  α⁻¹ = 137.03608245; CODATA 2022 α⁻¹ = 137.035999178(21).
+  α⁻¹ = 137.03608245; CODATA 2022 α⁻¹ = 137.035999177(21) (NIST).
   (The phrase "7-digit" in `E4_FINAL_STATUS.md` is superseded
   terminology for the identical numbers; the residual is unchanged.)
+- **CODATA anchor footnote (Grok round 10):** the continued-line record
+  scripts anchor on 137.035999178 — an internal rounding of the NIST
+  value. This paper pins 137.035999177(21). The 80-digit comparisons:
+  residual 6.0765175×10⁻⁷ (…178 anchor) vs 6.0765904×10⁻⁷ (…177
+  anchor) — both round to the working residual 6.0765×10⁻⁷. The pinned
+  coefficients re-anchor as c₃ = −1.56373700913218, c₄ =
+  −214.288263496482 (…177) vs the record's c₃ = −1.56371823031276,
+  c₄ = −214.285690123763 (…178). A record-side re-anchor is queued in
+  `LEDGER.md` §5 as an erratum candidate; the frozen scan's conclusion
+  is anchor-insensitive at its gate width.
 - Status taxonomy used throughout: **conjecture / identification /
   certified exclusion / documented status / open gate** — one sentence
   each, never blended within a claim.
-- Pinned target for any positive proposal: c₃ = −1.56371823031276 on
-  the α³ basis (80-digit CODATA 2022 anchor).
+- Pinned target for any positive proposal: c₃ = −1.56373700913218 on
+  the α³ basis (80-digit, NIST 137.035999177 anchor; the record's
+  …178-anchored pin is footnoted above).
 
 ## §2 — The prefactor gate (census; NOT an operator exclusion)
 
@@ -93,21 +119,25 @@ admissibility gate — agreement with CODATA 2022 to relative 1×10⁻⁸ —
 by a relative margin of 6.07652×10⁻⁷. Before asking whether any
 *structural* correction could close that gap, the program asked a prior
 question: how often do mere coincidences close it? The instrument is a
-frozen, pre-declared family of 13,057 topological expressions
-(verification packet v1.0-paper), scanned once against the gate, with
+frozen, pre-declared family — coefficients c = Aπ^j/B with
+j ∈ {−2, −1, 0, 1, 2} and A, B ∈ 1…64: 20,480 expressions, 13,057
+distinct values — scanned once against the gate
+(`mqgt_t1_topological_scan.py`, verification packet v1.0-paper), with
 the family and the gate fixed before any result was quoted. No further
 candidate search is performed in the continued line
 (`mqgt_t1_e4_structure.py` pins targets and tests hypotheses; it does
 not search).
 
 Fifty-eight of the 13,057 expressions pass the gate. Two illustrate
-what a gate-passer is. The coefficient c₄ = −214.285690123763 lies
-within 1.1×10⁻⁷ of −1500/7, so the correction (1 − (1500/7)α⁴) passes
-the gate with residual 6.85×10⁻¹⁴ — seven hundred-fold inside the gate
-— and −1500/7 has no derivation from the program's operator content.
-Conversely, the known F3 coincidence (1 − (π/2)α³) passes the gate at
-residual 2.8×10⁻⁹, yet −π/2 = −1.5707963 differs from the needed
-c₃ = −1.56371823031276 by 4.5×10⁻³ relative — excluded outright as an
+what a gate-passer is (both recomputed at this paper's NIST anchor;
+the record's …178-anchored figures differ slightly, see §1 footnote).
+The coefficient c₄ = −214.288263496482 lies within 1.2×10⁻⁵ (relative)
+of −1500/7, so the correction (1 − (1500/7)α⁴) passes the gate with
+residual 7.2×10⁻¹² — ≈1.4×10³-fold below the gate — and −1500/7 has
+no derivation from the program's operator content. Conversely, the
+known F3 coincidence (1 − (π/2)α³) passes the gate at residual
+2.7×10⁻⁹, yet −π/2 = −1.5707963 differs from the needed
+c₃ = −1.56373700913218 by 4.5×10⁻³ relative — excluded outright as an
 identity, before any multiplicity argument. Gate-passing is necessary,
 not sufficient.
 
@@ -123,12 +153,14 @@ that family, and it is not an operator-level exclusion — those are
 Propositions 1 and 2.
 
 The resolution standard is therefore quantified: a closing derivation
-must produce c₃ = −1.56371823031276 on the α³ basis (equivalently
-c₄ = −214.285690123763 on α⁴) from a trace anomaly, heat-kernel
-coefficient, or index density of the operator content already in the
-theory — the same content that produced ζ(3)·13/(24π) = 0.20725607285,
+must produce c₃ = −1.56373700913218 on the α³ basis (equivalently
+c₄ = −214.288263496482 on α⁴; NIST anchor, §1 footnote) from a trace
+anomaly, heat-kernel coefficient, or index density of the operator
+content already in the theory — the content underlying the program's
+identified constants ζ(3)·13/(24π) = 0.20725607285,
 ζ(5)/(4π²) = 0.0262656868757, S7/56 = 0.0312223607937, and
-S7′/16 = 0.0258527911369 (`E4_ALPHA_GATE_RESEARCH_NOTE.md`). Any
+S7′/16 = 0.0258527911369 (identifications in the sense of X6, not
+derived operator outputs; `E4_ALPHA_GATE_RESEARCH_NOTE.md`). Any
 combination found by fitting remains coincidence-class per the frozen
 scan, regardless of how far inside the gate it falls.
 
@@ -173,13 +205,23 @@ scan, regardless of how far inside the gate it falls.
 > slope is σ_κ := (dD1/dκ)/(dL/dκ).
 > *Statement.* The ansatz generates no independent slope in the
 > (L, D1) plane: in both towers the slope is locked to the tower's own
-> determinant response, σ_κ = ±D1(tower).
+> determinant response. In this paper's convention (D1 := ∂_η L|₀,
+> L := −ζ′(0)) the lock reads σ_κ = −D1 (S⁷ ce3) and σ_κ = +D1
+> (S⁹ ce2), with D1(S⁷ ce3) = −4.650979245 and D1(S⁹ ce2) = −0.2375.
 > *Certificate vs support (ChatGPT, rounds 8–9).* The responses
 > themselves are derivation-level exact (dL/dκ = +1/7 and −1/9;
 > dD1/dκ = +0.664425606401 and +19/720 — exact rational). The *lock
 > identity* σ_κ = ±D1 is a **high-precision computational observation**
 > (deviations 1.5×10⁻¹²⁸ and 1.1×10⁻⁶⁰), algebraic proof pending; it is
 > labeled as such, not asserted as a derived identity.
+> *Convention translation (ChatGPT round 10, verified against the lab).*
+> The Door 2 lab's comparison value is D1_t := ∂_u ζ′(0)|₀ = −D1, so
+> the card prints the same lock as σ_κ = ±D1_t (S⁷: +, S⁹: −). The two
+> conventions carry identical magnitudes and slope ratios
+> (|σ_κ| = 4.650979245 and 0.2375; deviations 1.5×10⁻¹²⁸ and
+> 1.1×10⁻⁶⁰); only the signed ± labels interchange. The lab's printed
+> κ-responses (dL/dκ = +ΣQ2/λ, dD1/dκ = −ΣQ2/λ²) already use this
+> paper's log-determinant convention; no lab numbers change.
 > *Boundary.* Not a theorem about every geometric deformation — only
 > about the κq² canonical-variation ansatz. No external slope target
 > appears in this proposition: the play-branch comparison value
@@ -230,11 +272,11 @@ statement (§5), not a claim.
 | # | claim | type | evidence (path · command) |
 |---|---|---|---|
 | X1 | candidate α⁻¹ = 137.03608245; residual 6.0765×10⁻⁷ vs CODATA 2022; six-digit per §1 convention | documented status | `artifacts/T1_E4_DEPOSIT_NOTE_2026-09-18.md` · — |
-| X2 | gate-passing does not certify a prefactor (58/13,057; inference rejected for this family) | computational reproduction + documented status | frozen scan: `mqgt-scf-independent-verification` v1.0-paper (pre-declared 13,057-expression family, relative gate 1×10⁻⁸); anatomy: `E4_ALPHA_GATE_RESEARCH_NOTE.md` · `python3 mqgt_t1_e4_structure.py` (no candidate search) |
+| X2 | gate-passing does not certify a prefactor (58/13,057; inference rejected for this family) | computational reproduction (frozen packet) + documented status (continued line) | frozen scan: `mqgt_t1_topological_scan.py`, `mqgt-scf-independent-verification` v1.0-paper — family c = Aπ^j/B, j ∈ {−2,…,2}, A,B ∈ 1…64 → 13,057 distinct values, gate rel. 1×10⁻⁸, 58 pass; the continued-line `mqgt_t1_e4_structure.py` quotes the count and does **not** rerun the scan |
 | X3a | the *specific* QED-running route (bare-α running, electron threshold) is excluded: needs q/m_e = 1.00039, no such threshold | documented exclusion (with assumptions) | `E4_FINAL_STATUS.md` · `python3 mqgt_t1_e4_derivation.py` |
 | X3b | QED-running closure not advanced without a specified dial-free scale | methodological refusal (documented status) | `E4_FINAL_STATUS.md`; deposit note · — |
 | X4 | charge-resolved towers cannot generate c₃ (Prop. 1; scope boundary in §3) | analytic proof + computational certification | `exclusions/DOOR1_TWISTED_TOWERS_CLOSED.md` · `python3 play_notes/play_twisted_towers_lab.py` |
-| X5 | Berger κq² ansatz generates no independent slope (Prop. 2; scope boundary in §4) | responses derivation-exact (dL/dκ = +1/7, −1/9; dD1/dκ exact); the lock σ_κ = ±D1 is a **high-precision computational observation** (1.5e-128 / 1.1e-60), algebraic proof pending | `exclusions/DOOR2_BERGER_CHARGE_CLOSED.md` · `python3 play_notes/play_berger_charge_lab.py` |
+| X5 | Berger κq² ansatz generates no independent slope (Prop. 2; scope boundary in §4) | responses derivation-exact (dL/dκ = +1/7, −1/9; dD1/dκ exact); the lock — σ_κ = ∓D1 in this paper's convention (±D1_t in the lab's, translation printed in Prop. 2) — is a **high-precision computational observation** (1.5e-128 / 1.1e-60), algebraic proof pending | `exclusions/DOOR2_BERGER_CHARGE_CLOSED.md` · `python3 play_notes/play_berger_charge_lab.py` |
 | X6 | T-3 constants are spectral determinants on S⁷, S⁹ (S7 = 1.74845220445; S7′ = 0.41364465819) | identification, not derivation; numerically confirmed to 14 digits (E3) | deposit note; verification packet E3 · — |
 | X7 | a₄‴(0) = a₄⁗(0) ≡ 0 on the corpus path | analytic proof (exact-integer arithmetic) | `E4_FINAL_STATUS.md` · `python3 mqgt_t1_e4_a4_heat.py` |
 | X8 | middle-tower D1 / L / ζ(0) closed forms (exact rational; 65/65 towers) | analytic proof + high-precision certification | `supporting_analysis/MIDDLE_TOWER_*.md`, `ZETA0_THEOREM.md` · three scripts in `supporting_analysis/` |
@@ -269,7 +311,7 @@ as procedural (front-matter stub).
 - Robertson, Phys. Rev. Lett. 27:1545–1547 (1971) — see §1 paragraph.
 - Nielsen, TUFT v5, Center for Topological Physics
   (github.com/startigerjln/CenterforTopologicalPhysics).
-- CODATA 2022 recommended value, α⁻¹ = 137.035999178(21).
+- CODATA 2022 recommended value, α⁻¹ = 137.035999177(21) (NIST).
 - Frozen verification record: `mqgt-scf-independent-verification`,
   release v1.0-paper; upstream corpus: `mqgt-scf-science-public`.
 
