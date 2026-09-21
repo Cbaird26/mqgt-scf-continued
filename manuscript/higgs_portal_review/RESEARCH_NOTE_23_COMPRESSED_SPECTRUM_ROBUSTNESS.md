@@ -52,7 +52,7 @@ At the *unperturbed* Note-22 point only, write `Gamma_total=Gamma_leptons+Gamma_
 c*tau_total = (6.448030e5 m)/(1+r).
 ```
 
-To have a proper decay length no longer than a selected scale `L`, a **necessary total additional-width ratio** is `r >= max(0,6.448030e5 m/L-1)`. Examples: at most 1 km requires `r>=643.803`; at most 1 m requires `r>=644802`; at most 1 mm requires `r>=644802999`. These are algebraic requirements *if* that benchmark and lepton floor apply, **not** estimates of `r`, collider efficiencies, visible branching fractions, or evidence that any decay regime occurs. The total width must also inventory two-meson, other hadronic, possible photon, and other permitted modes without double-counting. Under a mass perturbation, the leptonic width and Higgs production rates must be recalculated: the baseline 645-km number cannot be reused as a new benchmark's actual bound.
+To have a proper decay length no longer than a selected scale `L`, the **required total additional-width ratio** is `r >= max(0,6.448030e5 m/L-1)`. Examples: at most 1 km requires `r>=643.803`; at most 1 m requires `r>=644802`; at most 1 mm requires `r>=644802999`. These are algebraic requirements *if* that benchmark and lepton floor apply, **not** estimates of `r`, collider efficiencies, visible branching fractions, or evidence that any decay regime occurs. The total width must also inventory two-meson, other hadronic, possible photon, and other permitted modes without double-counting. Under a mass perturbation, the leptonic width and Higgs production rates must be recalculated: the baseline 645-km number cannot be reused as a new benchmark's actual bound.
 
 ## 4. Evidence boundary and next experiment-facing step
 
