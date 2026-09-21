@@ -6,7 +6,7 @@ This package develops a restricted symmetric-vacuum, two-real-singlet effective 
 
 - `COMPREHENSIVE_WORKING_PAPER_2026-09-21.md`: broad working-paper synthesis of Research Notes 01–13; derived and illustrative results are distinguished from unresolved links.
 - `DUAL_SINGLET_HIGGS_PORTAL_DRAFT.md`: narrower standalone collider working paper.
-- `RESEARCH_NOTE_14_DECAY_AUDIT.md`: subsequent *development addendum*, not silently incorporated into the already dated working paper. Independently rechecks the illustrative leptonic partial-width arithmetic and derives the conditional quartic `s2 -> 3s1` threshold. Full heavy-state lifetime remains unverified.
+- `RESEARCH_NOTE_14_DECAY_AUDIT.md`: subsequent *development addendum*, not silently incorporated into the already dated working paper. It internally rechecks the illustrative leptonic partial-width arithmetic and derives the conditional quartic `s2 -> 3s1` threshold. Full heavy-state lifetime remains unverified.
 - `CLAIMS_AND_RELEASE_GATE.md`: evidence/assumption ledger and outstanding release gates; its original 01–13 status snapshot should be read alongside the Note 14 addendum.
 - `higgs_portal_checks.py`, `h2_audit_checks.py` and `test_research_note_14.py`: 17 local tests in aggregate (6 + 5 + 6); checks of toy equations and numerical examples only, not validation of experimental physics or the complete theory.
 
