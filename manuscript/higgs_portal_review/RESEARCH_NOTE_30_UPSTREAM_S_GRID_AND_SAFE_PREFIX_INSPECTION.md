@@ -1,0 +1,25 @@
+# Research Note 30 — Pinned Omnès input-grid audit and safe offline prefix inspection
+
+**22 September 2026 (UTC; 21 September US Eastern during this research session). Public scientific-development addendum, not peer reviewed.** Human author: Christopher Michael Baird. ChatGPT (ZoraASI) assisted with source inspection, original code, checks and drafting. This concerns a hypothetical restricted two-singlet EFT; no measured new fields, QCD decay width, dark-matter abundance or H2 signal is claimed.
+
+## 1. Source-visible, limited grid evidence
+
+We queried the GitHub Git-blob responses for all four exact blob SHA-1 IDs at pinned `blackstonep/hipsofcobra` commit `6a6dcfccf903317ea2104e27bb1dbbc7ad1d9fc7`. The returned *prefix* for each of `hips_c1.txt`, `hips_c2.txt`, `hips_d1.txt`, `hips_d2.txt` visibly starts with the same first list: `0., 0.01, ..., 6.`. The upstream `HipsofCobra` class labels `c1_sl[0]` as the `s` grid and uses it in form-factor derivatives. Under its invariant-mass-squared convention, these nodes are in **GeV²**, not a 0–6-GeV mass grid. The visible first-list pattern implies a candidate grid of **601 nodes**, `s_i=0.01 i GeV²` for `i=0,...,600`, with virtual masses up to `sqrt(6)≈2.44949 GeV`.
+
+**Evidence boundary:** each approximately 3-MB blob response was truncated by the connector. We could not obtain, independently hash, safely parse, or validate the **complete bytes** of any of the four inputs. A visible prefix is not a successful offline manifest check or proof that complete amplitude-iteration arrays share the grid, are finite, physically valid or correctly normalized. No upstream `eval(file.read().replace('C','c'))` code was executed, and no third-party datasets were copied into this repository. The pinned byte lengths and Git blob SHA IDs remain expected metadata, not independently rehashed local files.
+
+Sources: [pinned inputs](https://github.com/blackstonep/hipsofcobra/tree/6a6dcfccf903317ea2104e27bb1dbbc7ad1d9fc7/hipsofcobra/input), blob IDs `89cb2c3a7a992653521a9c2e9eb84295a0c45737`, `fa282fc1584322ed1f64902ca023fcdac8e01843`, `e5c0ef428e84e9605777dfa9845cc262e5b0e037`, `1ff49406489df0dc90eabcb06acd99083bfcb56e`; [source classes.py](https://github.com/blackstonep/hipsofcobra/blob/6a6dcfccf903317ea2104e27bb1dbbc7ad1d9fc7/hipsofcobra/classes.py). The source authors do not endorse this hypothetical application.
+
+## 2. Coverage does not imply physical validity
+
+For the separate illustrative compressed point of Note 22, `(m1,m2)=(10,11.5) GeV`, the virtual-current endpoint `(m2-m1)²=2.25 GeV²` is **nominal grid node 225**, within both the candidate 6-GeV² grid and the source-paper's provisional below-2-GeV virtual-mass window (`s≤4 GeV²`). It is candidate grid-compatible, **not** numerically authenticated or physically certified. For the earlier `(10,25) GeV` point the required grid extends to `225 GeV²`; its missing 2–15-GeV virtual-mass domain cannot be supplied by interpolation. Note 20's low-mass kernel-weight fraction is not a hadronic branching ratio.
+
+A numerical grid extending to `sqrt(6)≈2.45 GeV` does **not** extend the underlying two-meson treatment's validated physical applicability. Source domain, other exclusive/inclusive final states, current-matching conventions, uncertainties and extrapolation are separate requirements. No pion/kaon width, total lifetime, collider exclusion or relic abundance follows from grid coverage.
+
+## 3. Fail-closed first-stage offline checker
+
+The original, dependency-free `omnes_grid_gate.py` reads each of the four fixed-size files as one bounded regular-file snapshot, confirms byte count and Git blob SHA-1 against the manifest, then extracts **only** the first literal numerical list with `ast.literal_eval`, never `eval`. It requires 601 finite, matching grid nodes at 0.01-GeV² spacing across all four inputs. It never imports upstream code, executes expressions, parses amplitude `Complex(...)` entries, opens a network connection or republishes third-party data. Its `test_research_note_30.py` has **14 passing synthetic-fixture tests** covering grid shape, hashes, mismatch, malformed inputs, paths and endpoints. The actual four multi-megabyte input bytes were **not available for running this gate**.
+
+This is only a first-stage inspection. Before any exclusive partial-width calculation, authenticate all four complete source files, safely parse all complex amplitude arrays with a restricted grammar, verify iteration counts and shapes, check GeV/GeV² units and current normalization, reproduce source uncertainty methods with controlled random seeds, and integrate nonoverlapping physical final states. Additional positive verified widths can tighten a leptonic-only lifetime upper bound, not supply a complete lifetime without a full inventory.
+
+**Status:** Source-visible truncated prefixes plus synthetic software checks; full input authentication, physical QCD amplitudes and their widths remain missing. The original manuscripts and Notes 18–29 are not silently overwritten. This does not constitute independent review or experimental validation.
