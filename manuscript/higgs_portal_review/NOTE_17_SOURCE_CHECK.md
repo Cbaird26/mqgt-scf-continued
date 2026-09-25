@@ -1,0 +1,5 @@
+# Note 17 source and interpretation check (2026-09-21)
+
+The threshold ordering uses PDG D0 (2025), B0 (2021 fit), χc0(1P) (2022 listing), and χb0(1P) (2025), with edition/year labels in `RESEARCH_NOTE_17_THRESHOLD_AND_SPECTRAL_CERTIFICATION.md`. These are dated particle-mass references, **not** a newly computed or measured virtual-Higgs spectral function. The possible 0++ quarkonium overlap is a selection-rule/matching consideration; no scalar-current matrix elements or resonance residues were measured or inferred here. The inequality code accepts only exhaustive *pointwise bounds* and rejects unknown spectrum intervals; synthetic test bounds are not physical inputs.
+
+Before journal/preprint submission: replace mixed-edition mass citations with one checked PDG edition if needed; identify an absolute inclusive matched hadronic Higgs-current spectrum 0–15 GeV and its uncertainty/provenance, and verify no inclusive/exclusive double count. Do not use the synthetic testing envelopes as a fitted result.
