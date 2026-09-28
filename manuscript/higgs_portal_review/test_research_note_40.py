@@ -49,7 +49,7 @@ class HeavyQuarkThermalTests(unittest.TestCase):
                           rtol=2e-12,atol=1e-14,method='DOP853')
             self.assertTrue(sol.success)
             state=sol.y[:,-1]
-        self.assertAlmostEqual(math.exp(state[1,-1])/h.running_mass('c',20.),1.,delta=2e-10)
+        self.assertAlmostEqual(math.exp(state[1])/h.running_mass('c',20.),1.,delta=2e-10)
 
     def test_running_path_composition(self):
         a,b,c=[h.alpha_s(mu)/math.pi for mu in (10.,20.,40.)]
