@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-28",
+  "repository": "Cbaird26/mqgt-scf-continued",
+  "branch": "research/two-singlet-higgs-portal-2026-09-21",
+  "inherited_head": "d44b673ae56c283071bc87e506f29a8cce3c403d",
+  "code_test_commit": "b0229e354ba91f6875bfb37360c7b26a31ba1748",
+  "files": {
+    "heavy_quark_thermal.py": {
+      "bytes": 9852,
+      "git_blob_sha1": "40d51657a26fb20851be2bafa0ea6b3efe05ddfb",
+      "sha256": "9a9c45f27aeab9d4873e77f38bdfb5fa3401bbe0061f4aef4ab296fbc573d92e",
+      "matches_GitHub_blob": true
+    },
+    "test_research_note_40.py": {
+      "bytes": 6923,
+      "git_blob_sha1": "7ce8c3172a8434a54be4e2217796e3a9ea8452cc",
+      "sha256": "1206d31eb65089f9872bc891865f3c9117155152a57641b20f4e375049a4bfb1",
+      "matches_GitHub_blob": true
+    }
+  },
+  "execution": {
+    "command": "python -m unittest -v test_research_note_40.py",
+    "test_count": 22,
+    "failures": 0,
+    "errors": 0,
+    "return_code": 0,
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "log_location": "Full test log and full-precision results supplied in the conversation reproducibility ZIP; python commands in the note reproduce both checks and numerical output.",
+  "transfer_correction": "The initial GitHub test-file transfer transcribed state[1] as state[1,-1]. This was corrected to the already passing local source before the hash-matched rerun; no physics formula changed.",
+  "inputs": {
+    "alpha_s_MZ": 0.1189,
+    "MZ_GeV": 91.1876,
+    "mb10_GeV": 3.61,
+    "mc3_GeV": 0.986,
+    "matching_scale_GeV": 4.163
+  },
+  "temperature_GeV": 0.5,
+  "central_bc_pair_totals_GeV_minus2": {
+    "11": 1.4018532077495942e-14,
+    "12": 1.399898741025008e-14,
+    "22": 1.3882948542532732e-14
+  },
+  "conditional_effective_bc_variants_GeV_minus2": {
+    "central_LP_NLO": 1.4015979722154404e-14,
+    "mu_half": 1.5187043403102153e-14,
+    "mu_double": 1.2908078473894033e-14,
+    "running_Born_LP": 1.0978278443672551e-14,
+    "Born_phase_diagnostic": 1.2079126996284096e-14
+  },
+  "scope": "Leading-power NLO bottom/charm-current approximation only; not full massive NLO, full QCD, relic density, or a rigorous physical lower bound.",
+  "Omnes_files_acquired": false,
+  "relic_abundance_computed": false
+}
