@@ -1,0 +1,104 @@
+{
+  "date": "2026-09-29",
+  "repository": "Cbaird26/mqgt-scf-continued",
+  "branch": "research/two-singlet-higgs-portal-2026-09-21",
+  "inherited_head": "4fbcef5ff7e42f1962c75529d2bbc94c083a05e0",
+  "code_test_commit": "28909a9f3a139cbb31f1f970062fabed180ab832",
+  "files": {
+    "gluon_loop_thermal.py": {
+      "bytes": 8620,
+      "git_blob_sha1": "c49c6fab4baa2d9c01c64f9fd8c2fdb7f018d50c",
+      "sha256": "6ce66a178f9dfa2a7b0d6e56a1dbb82fd851406348b00f2412090829f2e97eb9",
+      "matches_GitHub_blob": true
+    },
+    "test_research_note_42.py": {
+      "bytes": 9813,
+      "git_blob_sha1": "16b989d17622647f6e75a135ecb45e9d08243c3d",
+      "sha256": "e2f3cf043872f8bd9fd8aca55bf96038dd1c9a64d3b65f37babba15488b75380",
+      "matches_GitHub_blob": true
+    },
+    "heavy_quark_thermal.py": {
+      "bytes": 9852,
+      "git_blob_sha1": "40d51657a26fb20851be2bafa0ea6b3efe05ddfb",
+      "sha256": "9a9c45f27aeab9d4873e77f38bdfb5fa3401bbe0061f4aef4ab296fbc573d92e",
+      "matches_GitHub_blob": true
+    },
+    "finite_mass_quark_thermal.py": {
+      "bytes": 7729,
+      "git_blob_sha1": "117fd5d3abb650f05334d8bff6f88115c63e09da",
+      "sha256": "7466caed04712cca641c6a95ad7985b6cfbf49c3b97b1a52efc79b96606437b8",
+      "matches_GitHub_blob": true
+    },
+    "test_research_note_40.py": {
+      "bytes": 6923,
+      "git_blob_sha1": "7ce8c3172a8434a54be4e2217796e3a9ea8452cc",
+      "sha256": "1206d31eb65089f9872bc891865f3c9117155152a57641b20f4e375049a4bfb1",
+      "matches_GitHub_blob": true
+    }
+  },
+  "execution": {
+    "command": "python -m unittest -v test_research_note_40.py test_research_note_42.py",
+    "test_count": 48,
+    "new_Note42_tests": 26,
+    "inherited_Note40_tests": 22,
+    "original_Note41_suite_run": false,
+    "failures": 0,
+    "errors": 0,
+    "return_code": 0,
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "mpmath": "1.3.0",
+    "log_sha256": "e1235226e36961b37912730303567bc66717ccebb4c18bfc5ff7dd96daf7159c"
+  },
+  "initial_failure_and_fix": "A 60-digit test found small-tau cancellation at tau=1e-4. Extended the fourth-order heavy-mass Taylor branch from tau<1e-4 to tau<1e-3 and added transition checks, without loosening the test tolerance; benchmark rates unchanged. Initial failed log is retained in package.",
+  "central_pair_gg_GeV_minus2": {
+    "11": 6.234892739296664e-17,
+    "12": 6.244685637049902e-17,
+    "22": 6.275420642867611e-17
+  },
+  "conditional_effective_gg_variants_GeV_minus2": {
+    "central": 6.236081886931395e-17,
+    "mu_half": 9.776010056896179e-17,
+    "mu_double": 4.275780622827688e-17,
+    "pole1_diagnostic": 1.0702670867584023e-16,
+    "incoherent_diagnostic": 5.990843727989196e-17,
+    "top_only": 3.761382976927823e-17,
+    "heavy_top_only": 3.7548624857843643e-17,
+    "heavy_top_coherent": 6.229731419806565e-17
+  },
+  "conditional_effective_signed_components_GeV_minus2": {
+    "tt": 3.761382976927823e-17,
+    "bb": 2.1950552661897572e-17,
+    "cc": 3.4405484871652247e-19,
+    "tb": 2.4319161809139e-18,
+    "tc": -4.257541248807694e-18,
+    "bc": 4.278006657315852e-18
+  },
+  "central_mass_prescription": "b,c MSbar(mu) in both Yukawa and loop mass; top fixed historical MT=172.69 GeV; inherited alpha_s(mu); mu=Q central",
+  "auxiliary_pole1_masses_GeV": {
+    "b": 4.307173039825607,
+    "c": 1.271321673378413
+  },
+  "numerical_checks": {
+    "11": {
+      "Q_vs_w_relative": 0.0,
+      "cut100_vs90_relative": 1.2878587085651816e-14
+    },
+    "12": {
+      "Q_vs_w_relative": 1.9984014443252818e-15,
+      "cut100_vs90_relative": 1.8984813721090177e-14
+    },
+    "22": {
+      "Q_vs_w_relative": 2.3314683517128287e-15,
+      "cut100_vs90_relative": 1.354472090042691e-14
+    }
+  },
+  "scope": "LO alpha_s^2 gg from coherent t/b/c loops only; finite window; not total QCD.",
+  "chemical_equilibrium_established": false,
+  "NLO_gg_computed": false,
+  "Q_above_80_included": false,
+  "Omnes_data_acquired_in_this_step": false,
+  "relic_density_computed": false,
+  "full_output_location": "Full results and test logs are supplied in the conversation reproducibility ZIP. Commands above and gluon_loop_thermal.py regenerate them."
+}
