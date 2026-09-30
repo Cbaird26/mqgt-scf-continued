@@ -1,0 +1,111 @@
+{
+  "date": "2026-09-30",
+  "repository": "Cbaird26/mqgt-scf-continued",
+  "branch": "research/two-singlet-higgs-portal-2026-09-21",
+  "inherited_head": "384d2773bc857a171fd5b00ca83d5b6c239e9315",
+  "files": {
+    "top_operator_nlo.py": {
+      "bytes": 8382,
+      "git_blob_sha1": "cf2c5f0fa09802330dfdf401e15ed1c1d78b9ab3",
+      "sha256": "108d965df0a1c99630776da6c728f372a307e913c7b2e541d126a2abc5ad0198"
+    },
+    "test_research_note_43.py": {
+      "bytes": 10716,
+      "git_blob_sha1": "bfbf2cfc0e3cf83fdb443b0f5e561a2c057f6d61",
+      "sha256": "53a0d4390f4d3e330300b043c1a981d6d1636ee6fb97456e28bda8a053acae45"
+    },
+    "heavy_quark_thermal.py": {
+      "bytes": 9852,
+      "git_blob_sha1": "40d51657a26fb20851be2bafa0ea6b3efe05ddfb",
+      "sha256": "9a9c45f27aeab9d4873e77f38bdfb5fa3401bbe0061f4aef4ab296fbc573d92e"
+    },
+    "finite_mass_quark_thermal.py": {
+      "bytes": 7729,
+      "git_blob_sha1": "117fd5d3abb650f05334d8bff6f88115c63e09da",
+      "sha256": "7466caed04712cca641c6a95ad7985b6cfbf49c3b97b1a52efc79b96606437b8"
+    },
+    "gluon_loop_thermal.py": {
+      "bytes": 8620,
+      "git_blob_sha1": "c49c6fab4baa2d9c01c64f9fd8c2fdb7f018d50c",
+      "sha256": "6ce66a178f9dfa2a7b0d6e56a1dbb82fd851406348b00f2412090829f2e97eb9"
+    },
+    "test_research_note_40.py": {
+      "bytes": 6923,
+      "git_blob_sha1": "7ce8c3172a8434a54be4e2217796e3a9ea8452cc",
+      "sha256": "1206d31eb65089f9872bc891865f3c9117155152a57641b20f4e375049a4bfb1"
+    },
+    "test_research_note_42.py": {
+      "bytes": 9813,
+      "git_blob_sha1": "16b989d17622647f6e75a135ecb45e9d08243c3d",
+      "sha256": "e2f3cf043872f8bd9fd8aca55bf96038dd1c9a64d3b65f37babba15488b75380"
+    }
+  },
+  "verification_sequence": "New GitHub blob objects returned the same identifiers as local code/tests; the matched local bytes were then rerun. The same blob objects are selected for the branch commit. No old code was edited.",
+  "execution": {
+    "command": "python -m unittest -v test_research_note_40.py test_research_note_42.py test_research_note_43.py",
+    "test_count": 76,
+    "new_Note43_tests": 28,
+    "inherited_Note40_tests": 22,
+    "inherited_Note42_tests": 26,
+    "original_Note41_suite_run": false,
+    "failures": 0,
+    "errors": 0,
+    "return_code": 0,
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "mpmath": "1.3.0",
+    "log_sha256": "8bdb691e43fde5a4ae4370684da4770678bac9b750eb80e593ccbb4abc646bc8"
+  },
+  "new_suite_initial_run": "Passed 76/76; no test tolerance or physics formula needed correction after that run.",
+  "central_pair_contributions_GeV_minus2": {
+    "11": {
+      "LO": 3.6967143926734754e-17,
+      "delta_veto": 3.034564398070106e-17,
+      "real_b": 3.5378215888495464e-19,
+      "real_c": 1.934456720443915e-18,
+      "NLO_veto": 6.731278790743577e-17,
+      "NLO_inclusive": 6.960102678676461e-17
+    },
+    "12": {
+      "LO": 4.2049501274707873e-17,
+      "delta_veto": 3.3839185168432265e-17,
+      "real_b": 4.661823611877377e-19,
+      "real_c": 2.2727507592136925e-18,
+      "NLO_veto": 7.588868644314023e-17,
+      "NLO_inclusive": 7.862761956354163e-17
+    },
+    "22": {
+      "LO": 4.7104627847066704e-17,
+      "delta_veto": 3.721551295391592e-17,
+      "real_b": 5.914459716572168e-19,
+      "real_c": 2.619973934503618e-18,
+      "NLO_veto": 8.432014080098261e-17,
+      "NLO_inclusive": 8.753156070714338e-17
+    }
+  },
+  "conditional_effective_central_GeV_minus2": {
+    "LO": 3.754862485784366e-17,
+    "delta_veto": 3.074502339500264e-17,
+    "real_b": 3.666861323013122e-19,
+    "real_c": 1.9731966653462667e-18,
+    "NLO_veto": 6.829364825284627e-17,
+    "NLO_inclusive": 7.063353105049382e-17
+  },
+  "conditional_effective_inclusive_scale_scan_GeV_minus2": {
+    "mu_half": 8.711593353115353e-17,
+    "central": 7.063353105049382e-17,
+    "mu_double": 5.81375739979418e-17,
+    "pole1_diagnostic": 7.080357925587158e-17
+  },
+  "LO_bc_loop_square_fraction_of_gg": 0.42611073186220483,
+  "scope": "NLO O1^2 sector in the heavy-top EFT, with massive real b/c cuts. NOT complete coherent NLO gg or total QCD.",
+  "full_coherent_NLO_gg_computed": false,
+  "NLO_O1_O2_computed": false,
+  "NLO_O2_square_computed": false,
+  "Q_above_80_included": false,
+  "chemical_equilibrium_established": false,
+  "relic_density_computed": false,
+  "Omnes_data_acquired_in_this_step": false,
+  "full_output_location": "Conversation reproducibility ZIP contains the complete results and execution logs; commands above regenerate them."
+}
