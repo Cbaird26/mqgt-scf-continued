@@ -1,0 +1,98 @@
+{
+  "temperature_GeV": 0.5,
+  "window_w": [
+    0,
+    90.0
+  ],
+  "scope": "Finite collinear-subtracted massless u/d/s real-emission remainder from coherent b/c loops only.",
+  "variants": {
+    "central": {
+      "pair_signed_remainders_GeV_minus2": {
+        "11": -1.6525606062989504e-19,
+        "12": -2.2201231653333243e-19,
+        "22": -2.6555937545406168e-19
+      },
+      "conditional_effective_GeV_minus2": -1.7170739298805313e-19
+    },
+    "mu_half": {
+      "pair_signed_remainders_GeV_minus2": {
+        "11": -1.6395488473979e-19,
+        "12": -2.808307537514217e-19,
+        "22": -3.721034990208005e-19
+      },
+      "conditional_effective_GeV_minus2": -1.772450845164917e-19
+    },
+    "mu_double": {
+      "pair_signed_remainders_GeV_minus2": {
+        "11": -1.336250638612303e-19,
+        "12": -1.6398532498409206e-19,
+        "22": -1.8687125048315679e-19
+      },
+      "conditional_effective_GeV_minus2": -1.3707469685441754e-19
+    },
+    "pole1_diagnostic": {
+      "pair_signed_remainders_GeV_minus2": {
+        "11": 1.8417929749062944e-20,
+        "12": -9.306045483697153e-20,
+        "22": -1.9234243816500362e-19
+      },
+      "conditional_effective_GeV_minus2": 5.701472738145104e-21
+    }
+  },
+  "pair_components_GeV_minus2": {
+    "11": {
+      "bb": 1.111267063918367e-19,
+      "cc": -2.0932372697343107e-20,
+      "bc": -2.554503943243888e-19
+    },
+    "12": {
+      "bb": 4.021001796092725e-20,
+      "cc": -1.9723084065981498e-20,
+      "bc": -2.424992504282781e-19
+    },
+    "22": {
+      "bb": -1.796958816762233e-20,
+      "cc": -1.846310926959409e-20,
+      "bc": -2.29126678016845e-19
+    }
+  },
+  "conditional_effective_components_GeV_minus2": {
+    "bb": 1.0305346163495148e-19,
+    "cc": -2.0793828848361498e-20,
+    "bc": -2.5396702577464325e-19
+  },
+  "inherited_LO_bc_square_GeV_minus2": 2.657261416792994e-17,
+  "signed_remainder_over_LO_bc_square": -0.006461817866428965,
+  "hard_Q20_J": {
+    "bb": 0.09066254160250937,
+    "cc": -0.012759957015088322,
+    "bc": -0.1552327005879538
+  },
+  "real_resolution_checks_Q20": {
+    "0.001": {
+      "resolved_real_integral": 4.010131102817965,
+      "counterterm": 4.089776050606347,
+      "difference": -0.07964494778838205,
+      "quadrature_error": 1.4388490399142029e-11
+    },
+    "1e-05": {
+      "resolved_real_integral": 7.719418217053521,
+      "counterterm": 7.796771449880741,
+      "difference": -0.07735323282722018,
+      "quadrature_error": 3.8902214782865485e-13
+    },
+    "1e-07": {
+      "resolved_real_integral": 11.428803656048439,
+      "counterterm": 11.506134003219982,
+      "difference": -0.07733034717154297,
+      "quadrature_error": 2.3655921665977075e-10
+    }
+  },
+  "full_bc_square_NLO_computed": false,
+  "standalone_physical_partial_width": false,
+  "full_coherent_NLO_gg_computed": false,
+  "relic_density_computed": false,
+  "chemical_equilibrium_established": false,
+  "Q_above_80_included": false,
+  "Omnes_data_acquired": false
+}

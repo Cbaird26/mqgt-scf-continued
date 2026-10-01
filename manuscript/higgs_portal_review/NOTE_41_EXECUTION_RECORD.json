@@ -1,0 +1,66 @@
+{
+  "date": "2026-09-29",
+  "repository": "Cbaird26/mqgt-scf-continued",
+  "branch": "research/two-singlet-higgs-portal-2026-09-21",
+  "inherited_head": "160016eb2798a11e6cced984951cd5331bc614bb",
+  "code_test_commit": "86289fcf7825090282b579b0e1ff400e79497239",
+  "files": {
+    "finite_mass_quark_thermal.py": {
+      "bytes": 7729,
+      "git_blob_sha1": "117fd5d3abb650f05334d8bff6f88115c63e09da",
+      "sha256": "7466caed04712cca641c6a95ad7985b6cfbf49c3b97b1a52efc79b96606437b8",
+      "matches_GitHub_blob": true
+    },
+    "test_research_note_41.py": {
+      "bytes": 8258,
+      "git_blob_sha1": "66bad882f07db816d266c102e168efae641ac6fa",
+      "sha256": "70cb6ad0ee50f1773cc218aec0f03b10dfa733504dd91ccd84c47b4079b0a51c",
+      "matches_GitHub_blob": true
+    },
+    "heavy_quark_thermal.py": {
+      "bytes": 9852,
+      "git_blob_sha1": "40d51657a26fb20851be2bafa0ea6b3efe05ddfb",
+      "sha256": "9a9c45f27aeab9d4873e77f38bdfb5fa3401bbe0061f4aef4ab296fbc573d92e",
+      "matches_GitHub_blob": true
+    }
+  },
+  "execution": {
+    "command": "python -m unittest -v test_research_note_40.py test_research_note_41.py",
+    "test_count": 46,
+    "new_note41_tests": 24,
+    "inherited_note40_tests": 22,
+    "failures": 0,
+    "errors": 0,
+    "return_code": 0,
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "mpmath": "1.3.0",
+    "log": "TEST_LOG_COMBINED_40_41.txt"
+  },
+  "scope": "Finite-mass nonsinglet O(alpha_s) b/c currents via all-MSbar re-expansion; conditional Maxwell-Boltzmann finite-window rates. Not full QCD, an infinite-domain thermal integral, relic density, or validation of the proposed fields.",
+  "temperature_GeV": 0.5,
+  "window_w": [
+    0,
+    90
+  ],
+  "central_bc_pair_totals_GeV_minus2": {
+    "11": 1.1949309374936024e-14,
+    "12": 1.2226560538832938e-14,
+    "22": 1.236024664980161e-14
+  },
+  "conditional_effective_bc_GeV_minus2": {
+    "mu_half": 1.2862351501901198e-14,
+    "central": 1.1980565041371454e-14,
+    "mu_double": 1.1168442946121151e-14
+  },
+  "historical_comparators_GeV_minus2": {
+    "note40_LP_NLO": 1.4015979722154404e-14,
+    "note40_phase_diagnostic": 1.2079126996284096e-14
+  },
+  "Q_above_80_included": false,
+  "Omnes_data_acquired": false,
+  "chemical_equilibrium_established": false,
+  "relic_density_computed": false,
+  "log_delivery": "Full logs and RESULTS_NOTE_41.json are in the accompanying conversation reproducibility ZIP; the commands reproduce them."
+}
