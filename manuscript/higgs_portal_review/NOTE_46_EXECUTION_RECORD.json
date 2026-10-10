@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-10",
+  "repository": "Cbaird26/mqgt-scf-continued",
+  "branch": "research/two-singlet-higgs-portal-2026-09-21",
+  "inherited_head": "994b7f12af99e228bda0fe0e9dcaa5dae2d8dff4",
+  "new_and_recovered_GitHub_blob_matches": {
+    "bc_virtual_finite.py": "fd2af360cc4eae7a838f2d93a16c003627b533a5",
+    "virtual_reference.py": "00eda0258365a8cdb7d2e8bd8d210d694f40630e",
+    "test_research_note_46.py": "007c1d4331386c78a0bf5a822b195fb00282c8bd",
+    "coherent_bc_rg.py": "b95d7bdd1cf8a467df9f5df2e54112d073f8579a",
+    "test_note45_rg_matching.py": "181b1c088dbb49d4efa89966adf4b14bfa09deda"
+  },
+  "execution": {
+    "command": "python -m unittest -v test_research_note_40.py test_research_note_42.py test_research_note_43.py test_research_note_44.py test_note45_rg_matching.py test_research_note_46.py",
+    "tests": 171,
+    "new_note46_tests": 32,
+    "local_RG_note45_tests": 30,
+    "inherited_notes40_42_43_44_tests": 109,
+    "failures": 0,
+    "errors": 0,
+    "return_code": 0,
+    "hash_matched_seconds": 13.951,
+    "log_sha256": "58bc1b9b01ea3655e494a4817cfb395370c9ef12f09362536c5529298f82ca3e",
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "mpmath": "1.3.0"
+  },
+  "live_note45_real_radiation_tests_run": false,
+  "original_note41_suite_run": false,
+  "whole_repository_audited": false,
+  "provenance": "Returned GitHub blob IDs match five local source/test files; the matched local bytes were rerun successfully before branch assembly. Full executed-source hashes and logs accompany the ZIP. The first new 32-test suite and first combined 171-test suite also passed. A prior exploratory high-precision calculation timed out; no final test tolerance or physics formula was changed after the first new-suite run. A terminal cleanup warning followed the successful process; return code was zero.",
+  "scope": "Finite mass-dependent c_H virtual coefficient, not the full finite real-plus-virtual decay coefficient. Source mass convention is already MSbar. Independent MP special-function evaluation shares the rational coefficient expression.",
+  "source": "Harlander/Kant hep-ph/0509189 Eqs.(2.7),(3.4)-(3.7)",
+  "conditional_effective_virtual_GeV_minus2": 1.576999872850949e-17,
+  "complete_coherent_NLO_rate_computed": false,
+  "chemical_equilibrium_established": false,
+  "Omnes_data_acquired": false,
+  "relic_density_computed": false,
+  "publication": "Commit/ref verification is recorded separately after branch update; blob creation alone is not publication."
+}

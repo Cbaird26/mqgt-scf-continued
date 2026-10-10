@@ -1,0 +1,181 @@
+{
+  "date": "2026-10-01",
+  "temperature_GeV": 0.5,
+  "window_w": [
+    0,
+    90.0
+  ],
+  "scope": "RG-required NLO log and mass-scheme transformation for coherent b/c-square only; finite NLO hard current NOT calculated.",
+  "pair_integrals_GeV_minus2": {
+    "11": {
+      "bb": {
+        "LO": 2.210690215812087e-17,
+        "required_NLO_log_slope": 6.80979860511257e-18,
+        "OS_to_MSbar_finite_shift": 1.3367653526723656e-17
+      },
+      "cc": {
+        "LO": 3.479271769233201e-19,
+        "required_NLO_log_slope": 1.159580051305123e-19,
+        "OS_to_MSbar_finite_shift": 4.0649197117440364e-19
+      },
+      "bc": {
+        "LO": 4.304714776782953e-18,
+        "required_NLO_log_slope": 1.2999212026735884e-18,
+        "OS_to_MSbar_finite_shift": 3.553908997579852e-18
+      },
+      "coherent": {
+        "LO": 2.675954411182714e-17,
+        "required_NLO_log_slope": 8.225677812916676e-18,
+        "OS_to_MSbar_finite_shift": 1.732805449547791e-17
+      }
+    },
+    "12": {
+      "bb": {
+        "LO": 2.074128768484546e-17,
+        "required_NLO_log_slope": 6.3487199068250495e-18,
+        "OS_to_MSbar_finite_shift": 1.2995573985511709e-17
+      },
+      "cc": {
+        "LO": 3.1400089977997357e-19,
+        "required_NLO_log_slope": 1.0346849141636867e-19,
+        "OS_to_MSbar_finite_shift": 3.70892161711682e-19
+      },
+      "bc": {
+        "LO": 4.071890240245811e-18,
+        "required_NLO_log_slope": 1.2292593368233963e-18,
+        "OS_to_MSbar_finite_shift": 3.4626428539519454e-18
+      },
+      "coherent": {
+        "LO": 2.512717882487126e-17,
+        "required_NLO_log_slope": 7.681447735064818e-18,
+        "OS_to_MSbar_finite_shift": 1.6829109001175328e-17
+      }
+    },
+    "22": {
+      "bb": {
+        "LO": 1.9350217868025202e-17,
+        "required_NLO_log_slope": 5.884784744516345e-18,
+        "OS_to_MSbar_finite_shift": 1.2500617006288485e-17
+      },
+      "cc": {
+        "LO": 2.830770422488564e-19,
+        "required_NLO_log_slope": 9.230304337805661e-20,
+        "OS_to_MSbar_finite_shift": 3.3768509750082926e-19
+      },
+      "bc": {
+        "LO": 3.818844396551545e-18,
+        "required_NLO_log_slope": 1.1507093857586266e-18,
+        "OS_to_MSbar_finite_shift": 3.3295906657659682e-18
+      },
+      "coherent": {
+        "LO": 2.3452139306825612e-17,
+        "required_NLO_log_slope": 7.127797173653033e-18,
+        "OS_to_MSbar_finite_shift": 1.6167892769555278e-17
+      }
+    }
+  },
+  "equilibrium_weights_ASSUMED": {
+    "11": 0.8888443130704899,
+    "12": 0.10788217663518722,
+    "22": 0.0032735102943226954
+  },
+  "conditional_effective": {
+    "bb": {
+      "LO": 2.1950552661897576e-17,
+      "required_NLO_log_slope": 6.75702838914614e-18,
+      "OS_to_MSbar_finite_shift": 1.3324674522961088e-17
+    },
+    "cc": {
+      "LO": 3.440548487165222e-19,
+      "required_NLO_log_slope": 1.14533174445107e-19,
+      "OS_to_MSbar_finite_shift": 4.0242614623247667e-19
+    },
+    "bc": {
+      "LO": 4.2780066573158525e-18,
+      "required_NLO_log_slope": 1.29180960036186e-18,
+      "OS_to_MSbar_finite_shift": 3.5433286989837756e-18
+    },
+    "coherent": {
+      "LO": 2.6572614167929948e-17,
+      "required_NLO_log_slope": 8.16337116395311e-18,
+      "OS_to_MSbar_finite_shift": 1.727042936817734e-17
+    }
+  },
+  "two_variable_absolute_differences": {
+    "11": {
+      "bb": {
+        "LO": 5.238529448733282e-32,
+        "required_NLO_log_slope": 1.5407439555097887e-33,
+        "OS_to_MSbar_finite_shift": 7.703719777548943e-33
+      },
+      "cc": {
+        "LO": 1.4444474582904269e-34,
+        "required_NLO_log_slope": 1.2037062152420224e-34,
+        "OS_to_MSbar_finite_shift": 4.333342374871281e-34
+      },
+      "bc": {
+        "LO": 0.0,
+        "required_NLO_log_slope": 2.1185229388259594e-33,
+        "OS_to_MSbar_finite_shift": 6.162975822039155e-33
+      },
+      "coherent": {
+        "LO": 2.7733391199176196e-32,
+        "required_NLO_log_slope": 1.232595164407831e-32,
+        "OS_to_MSbar_finite_shift": 9.244463733058732e-33
+      }
+    },
+    "12": {
+      "bb": {
+        "LO": 2.465190328815662e-32,
+        "required_NLO_log_slope": 1.0014835710813626e-32,
+        "OS_to_MSbar_finite_shift": 3.8518598887744717e-32
+      },
+      "cc": {
+        "LO": 2.407412430484045e-34,
+        "required_NLO_log_slope": 1.6851887013388314e-34,
+        "OS_to_MSbar_finite_shift": 1.0111132208032988e-33
+      },
+      "bc": {
+        "LO": 3.0814879110195774e-33,
+        "required_NLO_log_slope": 4.8148248609680896e-33,
+        "OS_to_MSbar_finite_shift": 3.0814879110195774e-33
+      },
+      "coherent": {
+        "LO": 7.087422195345028e-32,
+        "required_NLO_log_slope": 1.0785207688568521e-32,
+        "OS_to_MSbar_finite_shift": 2.1570415377137042e-32
+      }
+    },
+    "22": {
+      "bb": {
+        "LO": 3.389636702121535e-32,
+        "required_NLO_log_slope": 1.3096323621833204e-32,
+        "OS_to_MSbar_finite_shift": 3.0814879110195774e-32
+      },
+      "cc": {
+        "LO": 8.185202263645752e-34,
+        "required_NLO_log_slope": 3.611118645726067e-35,
+        "OS_to_MSbar_finite_shift": 9.62964972193618e-34
+      },
+      "bc": {
+        "LO": 5.3926038442842604e-33,
+        "required_NLO_log_slope": 2.1185229388259594e-33,
+        "OS_to_MSbar_finite_shift": 1.1170393677445968e-32
+      },
+      "coherent": {
+        "LO": 8.011868568650901e-32,
+        "required_NLO_log_slope": 1.8488927466117464e-32,
+        "OS_to_MSbar_finite_shift": 1.8488927466117464e-32
+      }
+    }
+  },
+  "log_slope_to_LO_ratio": 0.3072099384864192,
+  "finite_shift_to_LO_ratio": 0.6499333960533223,
+  "finite_NLO_hard_current_computed": false,
+  "full_coherent_NLO_gg_computed": false,
+  "external_NLO_probe_data_obtained": false,
+  "chemical_equilibrium_established": false,
+  "Omnes_data_acquired": false,
+  "relic_density_computed": false,
+  "Q_above_80_included": false
+}

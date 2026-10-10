@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-10",
+  "temperature_GeV": 0.5,
+  "window_w": [
+    0,
+    90.0
+  ],
+  "scope": "Mass-dependent infrared-regularized c_H virtual building block; NOT complete decay NLO.",
+  "pair_virtual_GeV_minus2": {
+    "11": {
+      "bb": 1.194437697176992e-17,
+      "cc": 3.6028512329025407e-19,
+      "bc": 3.5417014851790965e-18,
+      "coherent": 1.5846363580239256e-17
+    },
+    "12": {
+      "bb": 1.145376912307587e-17,
+      "cc": 3.304020443255299e-19,
+      "bc": 3.397023345531946e-18,
+      "coherent": 1.518119451293335e-17
+    },
+    "22": {
+      "bb": 1.0908480951666725e-17,
+      "cc": 3.0227954391467703e-19,
+      "bc": 3.2288670415820814e-18,
+      "coherent": 1.4439627537163492e-17
+    }
+  },
+  "conditional_effective_virtual_GeV_minus2": {
+    "bb": 1.1888058112892842e-17,
+    "cc": 3.568713898257643e-19,
+    "bc": 3.525069225790899e-18,
+    "coherent": 1.576999872850949e-17
+  },
+  "conditional_effective_LO_bc_square_GeV_minus2": 2.6572614167929948e-17,
+  "virtual_plus_universal_scale_log_scan_GeV_minus2": {
+    "0.5": 7.687096289614492e-18,
+    "1.0": 1.576999872850949e-17,
+    "2.0": 1.5680466743368e-17
+  },
+  "auxiliary_pole1_virtual_GeV_minus2": -6.159103663602555e-19,
+  "Q_vs_w_absolute_differences_GeV_minus2": {
+    "11": {
+      "bb": 6.162975822039155e-33,
+      "cc": 9.62964972193618e-35,
+      "bc": 6.933347799794049e-33,
+      "coherent": 3.0814879110195774e-33
+    },
+    "12": {
+      "bb": 2.7733391199176196e-32,
+      "cc": 4.81482486096809e-34,
+      "bc": 3.851859888774472e-34,
+      "coherent": 3.0814879110195774e-32
+    },
+    "22": {
+      "bb": 2.1570415377137042e-32,
+      "cc": 3.3703774026776627e-34,
+      "bc": 1.232595164407831e-32,
+      "coherent": 5.546678239835239e-32
+    }
+  },
+  "chemical_equilibrium_established": false,
+  "complete_coherent_NLO_computed": false,
+  "physical_rate_beyond_Q80_computed": false,
+  "relic_density_computed": false,
+  "low_energy_Omnes_data_acquired": false,
+  "source": "hep-ph/0509189 Eqs.(2.7),(3.4)-(3.7); source mass convention explicitly MSbar"
+}
