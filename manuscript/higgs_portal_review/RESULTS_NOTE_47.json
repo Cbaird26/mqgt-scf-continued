@@ -1,0 +1,213 @@
+{
+  "date": "2026-10-10",
+  "scope": "Finite coherent b/c-loop three-gluon real remainder with independently reconstructed soft normalization; not a complete NLO rate.",
+  "T_GeV": 0.5,
+  "finite_window_w": [
+    0,
+    90
+  ],
+  "inherited_head": "1abb5e2769dc77657ed6080e2c0c2ce1e0d77cbf",
+  "chemical_equilibrium_established": false,
+  "full_coherent_NLO_computed": false,
+  "normalization_note": "Printed source (C.14) fails its heavy/collinear limit. Amplitude (C.7) retained; common prefactor 1/2 derived independently.",
+  "runs": {
+    "central": {
+      "scale": 1.0,
+      "scheme": "MSbar",
+      "angular_n": 32,
+      "thermal_n": 24,
+      "method": "laguerre",
+      "pair_components_GeV_minus2": {
+        "11": {
+          "bb": -6.648188714211275e-19,
+          "cc": 4.730673329207991e-20,
+          "bc": 3.7996845575446167e-19,
+          "coherent": -2.3754368237458604e-19
+        },
+        "12": {
+          "bb": -5.16214868011688e-19,
+          "cc": 4.568866583698964e-20,
+          "bc": 3.679933100507125e-19,
+          "coherent": -1.0253289212398557e-19
+        },
+        "22": {
+          "bb": -3.8066973949357217e-19,
+          "cc": 4.369429647202301e-20,
+          "bc": 3.5580963414150336e-19,
+          "coherent": 1.8834191119954024e-20
+        }
+      },
+      "conditional_effective_GeV_minus2": {
+        "bb": -6.478569829681265e-19,
+        "cc": 4.712034730396416e-20,
+        "bc": 3.785974668191689e-19,
+        "coherent": -2.221391688449936e-19
+      }
+    },
+    "fine": {
+      "scale": 1.0,
+      "scheme": "MSbar",
+      "angular_n": 48,
+      "thermal_n": 32,
+      "method": "laguerre",
+      "pair_components_GeV_minus2": {
+        "11": {
+          "bb": -6.64818854799402e-19,
+          "cc": 4.730675557948841e-20,
+          "bc": 3.7996867735773602e-19,
+          "coherent": -2.3754342186217745e-19
+        },
+        "12": {
+          "bb": -5.162148421500786e-19,
+          "cc": 4.568868464508174e-20,
+          "bc": 3.679935052552235e-19,
+          "coherent": -1.0253265224977351e-19
+        },
+        "22": {
+          "bb": -3.8066970192192574e-19,
+          "cc": 4.3694312406335036e-20,
+          "bc": 3.5580980621195625e-19,
+          "coherent": 1.8834416696365742e-20
+        }
+      },
+      "conditional_effective_GeV_minus2": {
+        "bb": -6.478569652810025e-19,
+        "cc": 4.712036919521951e-20,
+        "bc": 3.7859768541234103e-19,
+        "coherent": -2.221389106734419e-19
+      }
+    },
+    "independent_Q": {
+      "scale": 1.0,
+      "scheme": "MSbar",
+      "angular_n": 32,
+      "thermal_n": 48,
+      "method": "Q",
+      "pair_components_GeV_minus2": {
+        "11": {
+          "bb": -6.648188714209673e-19,
+          "cc": 4.730673329204402e-20,
+          "bc": 3.7996845575436933e-19,
+          "coherent": -2.3754368237455397e-19
+        },
+        "12": {
+          "bb": -5.162148680117987e-19,
+          "cc": 4.568866583697153e-20,
+          "bc": 3.679933100506289e-19,
+          "coherent": -1.025328921241984e-19
+        },
+        "22": {
+          "bb": -3.806697394936357e-19,
+          "cc": 4.3694296472026824e-20,
+          "bc": 3.5580963414150505e-19,
+          "coherent": 1.883419111989622e-20
+        }
+      },
+      "conditional_effective_GeV_minus2": {
+        "bb": -6.478569829679964e-19,
+        "cc": 4.712034730393032e-20,
+        "bc": 3.7859746681907784e-19,
+        "coherent": -2.2213916884498817e-19
+      }
+    },
+    "mu_half": {
+      "scale": 0.5,
+      "scheme": "MSbar",
+      "angular_n": 32,
+      "thermal_n": 24,
+      "method": "laguerre",
+      "pair_components_GeV_minus2": {
+        "11": {
+          "bb": -1.4839249643413204e-18,
+          "cc": 8.681085926139466e-20,
+          "bc": 7.049243420255799e-19,
+          "coherent": -6.921897630543452e-19
+        },
+        "12": {
+          "bb": -1.198202624055376e-18,
+          "cc": 8.366145067890357e-20,
+          "bc": 6.720998689934262e-19,
+          "coherent": -4.424413043830462e-19
+        },
+        "22": {
+          "bb": -9.339738543730997e-19,
+          "cc": 7.979509242884908e-20,
+          "bc": 6.419706593634009e-19,
+          "coherent": -2.1220810258084925e-19
+        }
+      },
+      "conditional_effective_GeV_minus2": {
+        "bb": -1.4513003457381177e-18,
+        "cc": 8.644812802345306e-20,
+        "bc": 7.011770868997079e-19,
+        "coherent": -6.636751308149561e-19
+      }
+    },
+    "mu_double": {
+      "scale": 2.0,
+      "scheme": "MSbar",
+      "angular_n": 32,
+      "thermal_n": 24,
+      "method": "laguerre",
+      "pair_components_GeV_minus2": {
+        "11": {
+          "bb": -3.1851918433520387e-19,
+          "cc": 2.786704111489381e-20,
+          "bc": 2.243895769281082e-19,
+          "coherent": -6.626256629220165e-20
+        },
+        "12": {
+          "bb": -2.344857216358708e-19,
+          "cc": 2.6956424321902756e-20,
+          "bc": 2.1953920145436716e-19,
+          "coherent": 1.2009904140399182e-20
+        },
+        "22": {
+          "bb": -1.5867290559951397e-19,
+          "cc": 2.582978232165964e-20,
+          "bc": 2.1393655247930675e-19,
+          "coherent": 8.109342920145251e-20
+        }
+      },
+      "conditional_effective_GeV_minus2": {
+        "bb": -3.089302130300575e-19,
+        "cc": 2.7762132805553525e-20,
+        "bc": 2.238320897813631e-19,
+        "coherent": -5.733599044314068e-20
+      }
+    },
+    "pole1": {
+      "scale": 1.0,
+      "scheme": "pole1",
+      "angular_n": 32,
+      "thermal_n": 24,
+      "method": "laguerre",
+      "pair_components_GeV_minus2": {
+        "11": {
+          "bb": -1.741376188865226e-18,
+          "cc": 1.0513915844039745e-19,
+          "bc": 6.476005474541492e-19,
+          "coherent": -9.886364829706805e-19
+        },
+        "12": {
+          "bb": -1.579453796682574e-18,
+          "cc": 1.1065891938635684e-19,
+          "bc": 6.34907577541147e-19,
+          "coherent": -8.338872997550698e-19
+        },
+        "22": {
+          "bb": -1.4013428873027339e-18,
+          "cc": 1.1379463162702159e-19,
+          "bc": 6.259574327304272e-19,
+          "coherent": -6.615908229452854e-19
+        }
+      },
+      "conditional_effective_GeV_minus2": {
+        "bb": -1.7227945462375075e-18,
+        "cc": 1.0576297604633209e-19,
+        "bc": 6.461603532731202e-19,
+        "coherent": -9.708712169180563e-19
+      }
+    }
+  }
+}
