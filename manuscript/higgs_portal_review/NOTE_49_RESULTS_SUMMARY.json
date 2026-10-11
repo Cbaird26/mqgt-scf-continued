@@ -1,0 +1,70 @@
+{
+  "note": 49,
+  "research_date": "2026-10-10",
+  "third_source": "hep-ph/0611266v3",
+  "symbolic": {
+    "method": "Exact SymPy rational cancellation after explicit HPL shuffle identities",
+    "source_ABDV": "hep-ph/0611266v3 Eqs (6),(11)-(15),(27)-(30)",
+    "source_HK": "hep-ph/0509189v1 Eq (3.7), inherited transcription",
+    "Fb_minus_mass_derivative_exact_zero": true,
+    "G_ABDV_OS_minus_HK_G1_exact_zero": true,
+    "G_ABDV_MS_minus_HK_G1_minus_2_log_plus_four_thirds_D_exact_zero": true,
+    "OS_polynomial_monomials_checked": 1,
+    "MS_polynomial_monomials_checked": 1,
+    "identity": "G_ABDV_OS=G1; G_ABDV_MS=G1+2*(ln(mu^2/m^2)+4/3)*D F",
+    "literal_Note46_difference": "G_ABDV_MS-G_Note46_literal=(8/3)D F",
+    "scope": "Exact identities of transcribed formulas in a common HPL basis; not full real-plus-virtual validation."
+  },
+  "scan_count": 72,
+  "max_matched_absolute_difference": 9.565974336450906e-15,
+  "max_matched_relative_difference": 7.031043804939953e-15,
+  "max_literal_absolute_difference": 4.346350239302495,
+  "temperature_GeV": 0.5,
+  "window_w": [
+    0.0,
+    90.0
+  ],
+  "pair_finite_virtual_GeV_minus2": {
+    "11": {
+      "bb": 1.549725771110683e-17,
+      "cc": 4.2790345490392494e-19,
+      "bc": 4.19875046689572e-18,
+      "coherent": 2.0123911632906473e-17
+    },
+    "12": {
+      "bb": 1.4804196298610393e-17,
+      "cc": 3.9092531859598152e-19,
+      "bc": 4.0319736088087545e-18,
+      "coherent": 1.9227095226015135e-17
+    },
+    "22": {
+      "bb": 1.404353459982922e-17,
+      "cc": 3.5642311233722007e-19,
+      "bc": 3.8333537695565904e-18,
+      "coherent": 1.8233311481723017e-17
+    }
+  },
+  "equilibrium_weights_ASSUMED": {
+    "11": 0.8888443130704899,
+    "12": 0.10788217663518722,
+    "22": 0.0032735102943226954
+  },
+  "conditional_effective_virtual_GeV_minus2": {
+    "bb": 1.5417729959814993e-17,
+    "cc": 4.2368018143387746e-19,
+    "bc": 4.1795620865826695e-18,
+    "coherent": 2.002097222783154e-17
+  },
+  "Q_vs_w_absolute_difference_GeV_minus2": {
+    "11": 3.0814879110195774e-33,
+    "12": 3.0814879110195774e-32,
+    "22": 2.7733391199176196e-32
+  },
+  "scope": "Third-source mass-dependent finite virtual numerator only, not full NLO decay",
+  "full_real_plus_virtual_rate_rerun": false,
+  "independent_real_normalization_check": false,
+  "external_HDECAY_or_HIGLU_run": false,
+  "chemical_equilibrium_established": false,
+  "empirical_validation": false,
+  "relic_abundance_computed": false
+}

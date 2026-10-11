@@ -1,0 +1,119 @@
+{
+  "research_date": "2026-10-10",
+  "execution_started_UTC": "2026-10-11T01:53:45.721436+00:00",
+  "execution_finished_UTC": "2026-10-11T01:54:23.456576+00:00",
+  "repository": "Cbaird26/mqgt-scf-continued",
+  "branch": "research/two-singlet-higgs-portal-2026-09-21",
+  "inherited_head": "94093121a33a3486a8c5e74c0a1fbcf496654d74",
+  "files": {
+    "abdv_virtual_check.py": {
+      "bytes": 6408,
+      "git_blob_sha1": "6163a4f73bfe8a8025ebf20588ac9e498b10e5b8",
+      "sha256": "3df102d597ef4d754091012878b053aa3f296f1ebb6a8d5a5f98a6234021eff5",
+      "returned_GitHub_blob_matches": true
+    },
+    "abdv_reference.py": {
+      "bytes": 3056,
+      "git_blob_sha1": "4a727f65e44be9a28755b37a7d8dc561b70a1042",
+      "sha256": "35d6b09aa56aaae7beb034028631749526637203f73e389e246a200199a4d0b2",
+      "returned_GitHub_blob_matches": true
+    },
+    "prove_note49.py": {
+      "bytes": 2797,
+      "git_blob_sha1": "f69c42966d01d06886faa4bd266b745c01428c70",
+      "sha256": "8f3224d6ecf6ad7d19736046c0a4739f5368bf184608b0cf06f412c913e57f91",
+      "returned_GitHub_blob_matches": true
+    },
+    "test_research_note_49.py": {
+      "bytes": 6445,
+      "git_blob_sha1": "d2c289f5b56db9a6b34996497cb9b18783b43c36",
+      "sha256": "ab6bb831aa14cd55bdba3d7f86737b10acca88b1f31cd23317fdfa60dbb15d21",
+      "returned_GitHub_blob_matches": true
+    },
+    "reproduce_note49.py": {
+      "bytes": 2653,
+      "git_blob_sha1": "5cd4c64917d3a333232bd216be02e764e121c332",
+      "sha256": "c2fac7bf0be421e55d81d522b503e1e4d249eb4d8a487e7b8943db9095e1775d",
+      "returned_GitHub_blob_matches": true
+    },
+    "decay_assembly_audit.py": {
+      "bytes": 10433,
+      "git_blob_sha1": "7e641843e7d84ef51c536b6dd0f228ea7f955ddb",
+      "sha256": "ee84abd09bf4b56ec334c676c5f23b31d6fe63bed67ff9cb19fd4345e1da8847",
+      "returned_GitHub_blob_matches": true
+    },
+    "test_research_note_48.py": {
+      "bytes": 10248,
+      "git_blob_sha1": "f05e913ec291c40f2a110c58acd49e14253a10a6",
+      "sha256": "cf389a4819b25a1f85c9287cdcf2cce34c0c938c0f9dfad4bdbe09c2e82af5bd",
+      "returned_GitHub_blob_matches": true
+    },
+    "reproduce_note48.py": {
+      "bytes": 2423,
+      "git_blob_sha1": "3f38184644fb8070e7cfa6cb0a78a5e46bd05a79",
+      "sha256": "c96ca0c2704c67aaefbfbcb2f0c2fa8231cd90488a090ef9649cd927e70858a8",
+      "returned_GitHub_blob_matches": true
+    },
+    "RESEARCH_NOTE_48_DECAY_ASSEMBLY_AND_FINITE_SCHEME_CLOSURE.md": {
+      "bytes": 17231,
+      "git_blob_sha1": "39392fbad07e8c4ed2cfbe3132feae76ca5baeb2",
+      "sha256": "20216522ffce1d3963d4b831757698784ff9fa5c30fe6919ac45f3fd288d2170",
+      "returned_GitHub_blob_matches": true
+    }
+  },
+  "execution": {
+    "command": [
+      "/opt/pyvenv/bin/python",
+      "-m",
+      "unittest",
+      "-v",
+      "test_research_note_40.py",
+      "test_research_note_42.py",
+      "test_research_note_43.py",
+      "test_research_note_44.py",
+      "test_note45_rg_matching.py",
+      "test_research_note_46.py",
+      "test_research_note_47.py",
+      "test_research_note_48.py",
+      "test_research_note_49.py"
+    ],
+    "tests": 251,
+    "new_note49_tests": 24,
+    "inherited_tests": 227,
+    "failures": 0,
+    "errors": 0,
+    "return_code": 0,
+    "elapsed_seconds_including_result_regeneration": 37.735164403915405,
+    "log_sha256": "145cf4d35bf005beef0369069199a1b6bb1573d0c0d55b4217b32d9fe4057d4c",
+    "result_JSON_exact_match": true,
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "mpmath": "1.3.0",
+    "sympy": "1.14.0"
+  },
+  "source": "Aglietti/Bonciani/Degrassi/Vicini hep-ph/0611266v3, independent hard-coefficient transcription",
+  "symbolic": {
+    "method": "Exact SymPy rational cancellation after explicit HPL shuffle identities",
+    "source_ABDV": "hep-ph/0611266v3 Eqs (6),(11)-(15),(27)-(30)",
+    "source_HK": "hep-ph/0509189v1 Eq (3.7), inherited transcription",
+    "Fb_minus_mass_derivative_exact_zero": true,
+    "G_ABDV_OS_minus_HK_G1_exact_zero": true,
+    "G_ABDV_MS_minus_HK_G1_minus_2_log_plus_four_thirds_D_exact_zero": true,
+    "OS_polynomial_monomials_checked": 1,
+    "MS_polynomial_monomials_checked": 1,
+    "identity": "G_ABDV_OS=G1; G_ABDV_MS=G1+2*(ln(mu^2/m^2)+4/3)*D F",
+    "literal_Note46_difference": "G_ABDV_MS-G_Note46_literal=(8/3)D F",
+    "scope": "Exact identities of transcribed formulas in a common HPL basis; not full real-plus-virtual validation."
+  },
+  "conditional_effective_matched_virtual_GeV_minus2": 2.002097222783154e-17,
+  "original_note41_suite_run": false,
+  "original_note45_real_suite_run": false,
+  "full_note48_six_prescription_run_repeated": false,
+  "full_real_emission_normalization_independently_checked": false,
+  "whole_repository_audited": false,
+  "Omnes_inputs_acquired": false,
+  "relic_abundance_computed": false,
+  "empirical_validation": false,
+  "publication": "Returned Git objects match local files; commit/ref linkage recorded separately. Blob creation alone is not branch publication."
+}

@@ -1,0 +1,230 @@
+{
+  "date": "2026-10-10",
+  "scope": "Finite-convention candidate assembly and closure diagnostic; not certified full NLO.",
+  "source_normalization_review_open": true,
+  "source_erratum_confirmed": false,
+  "chemical_equilibrium_established": false,
+  "complete_physical_NLO_claimed": false,
+  "temperature_GeV": 0.5,
+  "fine_conditional_bc_square_terms_GeV_minus2": {
+    "LO": 2.657261416792993e-17,
+    "virtual_literal": 1.5769998728509496e-17,
+    "universal": 1.4644734424149042e-17,
+    "three_gluon": -2.221391688450405e-19,
+    "light_pair": -1.7170739298805504e-19,
+    "finite_shift": 4.250973499322039e-18,
+    "literal_increment": 3.002088659082545e-17,
+    "matched_increment": 3.427186009014749e-17,
+    "matched_NLO": 6.084447425807743e-17
+  },
+  "fine_pair_bc_square_GeV_minus2": {
+    "11": {
+      "LO": 2.675954411182712e-17,
+      "finite_shift": 4.277548052667209e-18,
+      "matched_NLO": 6.126450971474669e-17
+    },
+    "12": {
+      "LO": 2.5127178824871242e-17,
+      "finite_shift": 4.045900713081783e-18,
+      "matched_NLO": 5.759652628552419e-17
+    },
+    "22": {
+      "LO": 2.3452139306825612e-17,
+      "finite_shift": 3.7936839445595514e-18,
+      "matched_NLO": 5.383352026433035e-17
+    }
+  },
+  "conditional_candidate_prescription_scan_GeV_minus2": {
+    "central": 6.084447326254977e-17,
+    "fine": 6.084447425807743e-17,
+    "mu_half": 8.746970688422186e-17,
+    "mu_double": 4.327511052206426e-17,
+    "pole1": 9.470155302157196e-17,
+    "Q_check": 6.08444732625498e-17
+  },
+  "closure_checks": [
+    {
+      "Q_GeV": 20.0,
+      "scale": 1.0,
+      "scheme": "MSbar",
+      "angular_nodes": 32,
+      "flavors": {
+        "b": {
+          "literal_increment_GeV2": 0.02748292562551461,
+          "finite_shift_GeV2": 0.010009838827593624,
+          "matched_increment_GeV2": 0.037492764453108236,
+          "reference_increment_GeV2": 0.0374927644613678,
+          "literal_minus_reference_GeV2": -0.010009838835853192,
+          "matched_minus_reference_GeV2": -8.259566641743987e-12
+        },
+        "c": {
+          "literal_increment_GeV2": -0.012814894403297238,
+          "finite_shift_GeV2": -0.0009341819755042355,
+          "matched_increment_GeV2": -0.013749076378801474,
+          "reference_increment_GeV2": -0.01374907637819102,
+          "literal_minus_reference_GeV2": 0.000934181974893783,
+          "matched_minus_reference_GeV2": -6.104526606431904e-13
+        }
+      },
+      "source_erratum_confirmed": false,
+      "complete_physical_NLO_claimed": false
+    },
+    {
+      "Q_GeV": 23.0,
+      "scale": 1.0,
+      "scheme": "MSbar",
+      "angular_nodes": 32,
+      "flavors": {
+        "b": {
+          "literal_increment_GeV2": 0.010702525385069949,
+          "finite_shift_GeV2": 0.007413747719044182,
+          "matched_increment_GeV2": 0.01811627310411413,
+          "reference_increment_GeV2": 0.01811627311217968,
+          "literal_minus_reference_GeV2": -0.007413747727109732,
+          "matched_minus_reference_GeV2": -8.065551698743789e-12
+        },
+        "c": {
+          "literal_increment_GeV2": -0.013564150694795636,
+          "finite_shift_GeV2": -0.0010213539450562071,
+          "matched_increment_GeV2": -0.014585504639851844,
+          "reference_increment_GeV2": -0.014585504639308322,
+          "literal_minus_reference_GeV2": 0.001021353944512686,
+          "matched_minus_reference_GeV2": -5.435218247695772e-13
+        }
+      },
+      "source_erratum_confirmed": false,
+      "complete_physical_NLO_claimed": false
+    },
+    {
+      "Q_GeV": 40.0,
+      "scale": 1.0,
+      "scheme": "MSbar",
+      "angular_nodes": 32,
+      "flavors": {
+        "b": {
+          "literal_increment_GeV2": -0.041938580533628464,
+          "finite_shift_GeV2": -0.0009994085664603097,
+          "matched_increment_GeV2": -0.04293798910008877,
+          "reference_increment_GeV2": -0.04293798909399635,
+          "literal_minus_reference_GeV2": 0.0009994085603678843,
+          "matched_minus_reference_GeV2": -6.0924251754634895e-12
+        },
+        "c": {
+          "literal_increment_GeV2": -0.01571182937530115,
+          "finite_shift_GeV2": -0.0012146777505648628,
+          "matched_increment_GeV2": -0.016926507125866012,
+          "reference_increment_GeV2": -0.016926507125502158,
+          "literal_minus_reference_GeV2": 0.0012146777502010063,
+          "matched_minus_reference_GeV2": -3.6385477963918333e-13
+        }
+      },
+      "source_erratum_confirmed": false,
+      "complete_physical_NLO_claimed": false
+    },
+    {
+      "Q_GeV": 65.0,
+      "scale": 1.0,
+      "scheme": "MSbar",
+      "angular_nodes": 32,
+      "flavors": {
+        "b": {
+          "literal_increment_GeV2": -0.07515073688256464,
+          "finite_shift_GeV2": -0.00567448817097503,
+          "matched_increment_GeV2": -0.08082522505353967,
+          "reference_increment_GeV2": -0.08082522513864661,
+          "literal_minus_reference_GeV2": 0.0056744882560819665,
+          "matched_minus_reference_GeV2": 8.510693538799075e-11
+        },
+        "c": {
+          "literal_increment_GeV2": -0.01689701122796409,
+          "finite_shift_GeV2": -0.0012632946565820917,
+          "matched_increment_GeV2": -0.01816030588454618,
+          "reference_increment_GeV2": -0.018160305883158437,
+          "literal_minus_reference_GeV2": 0.0012632946551943483,
+          "matched_minus_reference_GeV2": -1.3877440863119261e-12
+        }
+      },
+      "source_erratum_confirmed": false,
+      "complete_physical_NLO_claimed": false
+    },
+    {
+      "Q_GeV": 20.0,
+      "scale": 0.5,
+      "scheme": "MSbar",
+      "angular_nodes": 32,
+      "flavors": {
+        "b": {
+          "literal_increment_GeV2": 0.03276183459618008,
+          "finite_shift_GeV2": 0.02010495879264563,
+          "matched_increment_GeV2": 0.05286679338882571,
+          "reference_increment_GeV2": 0.05286679340316581,
+          "literal_minus_reference_GeV2": -0.020104958806985727,
+          "matched_minus_reference_GeV2": -1.434009855305618e-11
+        },
+        "c": {
+          "literal_increment_GeV2": -0.01416147163264209,
+          "finite_shift_GeV2": -0.0015342866973401294,
+          "matched_increment_GeV2": -0.01569575832998222,
+          "reference_increment_GeV2": -0.015695758328841715,
+          "literal_minus_reference_GeV2": 0.001534286696199625,
+          "matched_minus_reference_GeV2": -1.1405043576218077e-12
+        }
+      },
+      "source_erratum_confirmed": false,
+      "complete_physical_NLO_claimed": false
+    },
+    {
+      "Q_GeV": 20.0,
+      "scale": 2.0,
+      "scheme": "MSbar",
+      "angular_nodes": 32,
+      "flavors": {
+        "b": {
+          "literal_increment_GeV2": 0.01825723047341222,
+          "finite_shift_GeV2": 0.0054042603049853115,
+          "matched_increment_GeV2": 0.02366149077839753,
+          "reference_increment_GeV2": 0.023661490783461515,
+          "literal_minus_reference_GeV2": -0.005404260310049296,
+          "matched_minus_reference_GeV2": -5.0639839543897835e-12
+        },
+        "c": {
+          "literal_increment_GeV2": -0.010885160385936373,
+          "finite_shift_GeV2": -0.0006036194555576003,
+          "matched_increment_GeV2": -0.011488779841493973,
+          "reference_increment_GeV2": -0.011488779841138334,
+          "literal_minus_reference_GeV2": 0.0006036194552019609,
+          "matched_minus_reference_GeV2": -3.556391292569572e-13
+        }
+      },
+      "source_erratum_confirmed": false,
+      "complete_physical_NLO_claimed": false
+    },
+    {
+      "Q_GeV": 23.0,
+      "scale": 1.0,
+      "scheme": "pole1",
+      "angular_nodes": 32,
+      "flavors": {
+        "b": {
+          "literal_increment_GeV2": -0.00033424459111294557,
+          "finite_shift_GeV2": 0.017176899401931983,
+          "matched_increment_GeV2": 0.01684265481081904,
+          "reference_increment_GeV2": 0.016842654821228167,
+          "literal_minus_reference_GeV2": -0.01717689941234111,
+          "matched_minus_reference_GeV2": -1.0409128420318936e-11
+        },
+        "c": {
+          "literal_increment_GeV2": -0.013976240921755671,
+          "finite_shift_GeV2": -0.00119011496781916,
+          "matched_increment_GeV2": -0.015166355889574832,
+          "reference_increment_GeV2": -0.015166355887923031,
+          "literal_minus_reference_GeV2": 0.0011901149661673605,
+          "matched_minus_reference_GeV2": -1.6518002243781638e-12
+        }
+      },
+      "source_erratum_confirmed": false,
+      "complete_physical_NLO_claimed": false
+    }
+  ],
+  "full_output": "Full nine-term/six-component output for every prescription and initial pair is in the companion reproducibility ZIP."
+}
