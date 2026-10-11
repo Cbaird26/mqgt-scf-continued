@@ -1,0 +1,121 @@
+{
+  "Q_vs_w_relative": {
+    "11": 6.661338147750939e-16,
+    "12": 2.1094237467877974e-15,
+    "22": 1.7763568394002505e-15
+  },
+  "abundance_calculated": false,
+  "baseline_candidate_recomputed": false,
+  "complete_massive_real_amplitudes_rederived": false,
+  "date": "2026-10-11",
+  "new_Omnes_data": false,
+  "regulated_numerical_checks": [
+    {
+      "channel": "ggg",
+      "epsilon": -1.0,
+      "gamma_integral": 0.11541111606652642,
+      "relative_difference": 2.220446049250313e-16,
+      "two_dimensional_integral": 0.11541111606652643
+    },
+    {
+      "channel": "gqq",
+      "epsilon": -1.0,
+      "gamma_integral": 0.01247687741259745,
+      "relative_difference": 1.4432899320127035e-15,
+      "two_dimensional_integral": 0.012476877412597433
+    },
+    {
+      "channel": "ggg",
+      "epsilon": -2.0,
+      "gamma_integral": 0.0005177499559236312,
+      "relative_difference": 4.551914400963142e-15,
+      "two_dimensional_integral": 0.0005177499559236288
+    },
+    {
+      "channel": "gqq",
+      "epsilon": -2.0,
+      "gamma_integral": 6.25469745411098e-05,
+      "relative_difference": 4.107825191113079e-15,
+      "two_dimensional_integral": 6.254697454110955e-05
+    },
+    {
+      "channel": "ggg",
+      "epsilon": -3.0,
+      "gamma_integral": 2.287964328870415e-06,
+      "relative_difference": 5.218048215738236e-15,
+      "two_dimensional_integral": 2.287964328870403e-06
+    },
+    {
+      "channel": "gqq",
+      "epsilon": -3.0,
+      "gamma_integral": 2.83778521410284e-07,
+      "relative_difference": 5.218048215738236e-15,
+      "two_dimensional_integral": 2.8377852141028254e-07
+    }
+  ],
+  "scope": "Independent antenna normalization and universal subtraction; not independent full massive QCD",
+  "symbolic": {
+    "U_veto_in_alpha5": "23*L/6 - ell_b/3 - ell_c/3 + 59/4",
+    "all_exact_zero": true,
+    "finite_in_alpha_over_pi": "73*N/12 - 7*nf/6",
+    "ggg_laurent": {
+      "-1": "11/3",
+      "-2": "2",
+      "0": "73/6 - 7*pi**2/6",
+      "1": "-77*pi**2/36 - 50*zeta(3)/3 + 451/12",
+      "2": "-511*pi**2/72 - 275*zeta(3)/9 - 71*pi**4/720 + 2729/24"
+    },
+    "ggg_rational": "4*(8*epsilon**3 - 15*epsilon**2 + 11*epsilon - 3)/(3*epsilon**2*(epsilon - 1)*(3*epsilon - 2)*(3*epsilon - 1))",
+    "gqq_laurent": {
+      "-1": "-2/3",
+      "-2": "0",
+      "0": "-7/3",
+      "1": "-15/2 + 7*pi**2/18",
+      "2": "-93/4 + 50*zeta(3)/9 + 49*pi**2/36"
+    },
+    "gqq_rational": "4*(epsilon - 1)/(3*epsilon*(3*epsilon - 2)*(3*epsilon - 1))",
+    "identities": {
+      "SU3_universal_coefficient": "0",
+      "double_pole_cancellation": "0",
+      "evanescent_light_pair_finite_shift": "0",
+      "five_flavor_veto_translation": "0",
+      "four_dimensional_ggg_shape": "0",
+      "heavy_top_with_Wilson_matching": "0",
+      "integrated_finite_coefficient": "0",
+      "light_pair_angular_normalization": "0",
+      "single_pole_cancellation": "0"
+    }
+  },
+  "temperature_GeV_ASSUMED": 0.5,
+  "thermal_universal": {
+    "0.5": {
+      "conditional_effective_GeV_minus2": 1.5222334856332325e-17,
+      "pair_universal_GeV_minus2": {
+        "11": 1.53896007427825e-17,
+        "12": 1.3925317732368305e-17,
+        "22": 1.2549882140739672e-17
+      }
+    },
+    "1.0": {
+      "conditional_effective_GeV_minus2": 1.464473442414904e-17,
+      "pair_universal_GeV_minus2": {
+        "11": 1.4783853713017624e-17,
+        "12": 1.356679744329514e-17,
+        "22": 1.239479466011575e-17
+      }
+    },
+    "2.0": {
+      "conditional_effective_GeV_minus2": 1.212624512065411e-17,
+      "pair_universal_GeV_minus2": {
+        "11": 1.2231986133347537e-17,
+        "12": 1.1307303015896299e-17,
+        "22": 1.0403922450347979e-17
+      }
+    }
+  },
+  "weights_ASSUMED": {
+    "11": 0.8888443130704899,
+    "12": 0.10788217663518722,
+    "22": 0.0032735102943226954
+  }
+}

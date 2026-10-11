@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-11",
+  "inherited_archive": "NOTES_48_49_REPRODUCIBILITY_PACKAGE.zip",
+  "inspected_branch_head": "6674e64d4edc6165bdd40617a55e93ee31a84651",
+  "files": {
+    "antenna_normalization_audit.py": {
+      "bytes": 10017,
+      "sha256": "02311d31e88be8f6bbbfeb36e7cb1c1cb78e1419c7796faa5fd474bff671ec7d",
+      "git_blob_sha1": "3ad02024e3abf9200bf8e9b57bf3c206a91eebe9"
+    },
+    "test_research_note_50.py": {
+      "bytes": 7573,
+      "sha256": "6dfe9367d2ef3f5da2c3b70c047ba9ac97d6ecac04c6419222764fa74b54b652",
+      "git_blob_sha1": "7899f4fc82a74734ec776b07663cb520455c743f"
+    }
+  },
+  "execution": {
+    "command": [
+      "/opt/pyvenv/bin/python",
+      "-m",
+      "unittest",
+      "-v",
+      "test_research_note_40",
+      "test_research_note_42",
+      "test_research_note_43",
+      "test_research_note_44",
+      "test_note45_rg_matching",
+      "test_research_note_46",
+      "test_research_note_47",
+      "test_research_note_48",
+      "test_research_note_49",
+      "test_research_note_50"
+    ],
+    "required_PYTHONPATH": "inherited",
+    "exit_code": 0,
+    "tests": 277,
+    "new_tests": 24,
+    "inherited_local_archive_tests": 253,
+    "elapsed_seconds": 34.83161926269531,
+    "log_sha256": "8b1549c3988cf32f88021ed003325161dce0a15a448ab83b769fd050dfccbf6b",
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "lineage": "The supplied local Note49 archive has 26 Note49 tests; the live branch has a separately named 24-test Note49 implementation. This 277 count uses the local archive, NOT the live 251-test chain. No old files are overwritten.",
+  "source_evaluation": "Published d-dimensional real matrix elements integrated anew with Dirichlet moments. Published EFT virtual Laurent term transcribed, not recalculated from diagrams.",
+  "exact_symbolic_identities": 9,
+  "real_laurent_orders_checked": [
+    -2,
+    -1,
+    0,
+    1,
+    2
+  ],
+  "first_new_suite": "24/24 passed. No new physics formula or test tolerance changed after this run.",
+  "execution_failures_preserved": "A streaming-session request failed before execution. A foreground combined attempt timed out; the partial log is retained and is not a passing result. The initial combined command used file suffixes for inherited modules located only on PYTHONPATH, causing 9 discovery errors; changed the command to module names, with no source or test-assertion edits. Log retained.",
+  "scope": "Normalization and universal subtraction verification, not new full massive amplitudes, full annihilation rate, or empirical evidence.",
+  "whole_repository_audited": false,
+  "live_alternative_Note49_test_suite_run": false,
+  "original_Note41_suite_run": false,
+  "Note45_real_suite_run": false,
+  "complete_candidate_recomputed": false,
+  "Omnes_arrays_acquired": false,
+  "abundance_computed": false,
+  "publication": "Local execution. Remote blob/commit receipt recorded separately; file hashes alone do not establish publication."
+}
