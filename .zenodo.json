@@ -1,0 +1,60 @@
+{
+  "title": "A Theory of Everything - Research Collection (2026-10-01), public edition",
+  "upload_type": "publication",
+  "publication_type": "other",
+  "version": "2026.10.01",
+  "language": "eng",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "creators": [
+    {
+      "name": "Baird, Christopher Michael"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Nielsen, Jennifer Lorraine",
+      "type": "Other",
+      "affiliation": "Independent author; her CC BY 4.0 preprint (DOI 10.20944/preprints202604.0315.v5) is reproduced in full with attribution. Inclusion implies no coauthorship, collaboration or endorsement."
+    }
+  ],
+  "keywords": [
+    "Theory of Everything",
+    "MQGT-SCF",
+    "Baird",
+    "ZoraASI",
+    "Hopf fibration",
+    "research collection",
+    "public edition",
+    "attribution"
+  ],
+  "description": "<p>Public edition of the 1 October 2026 research collection: 7,399 pages. Baird / ZoraASI corpus Parts 1-4 (pp. 5-7,282), containing the 18 September 2026 unified edition (6,926 pp; identical to A_Theory_of_Everything_UPDATED_2026-09-18.pdf in github.com/Cbaird26/mqgt-scf-continued), the September 2026 working papers and dated January-March 2026 notes; plus Jennifer Lorraine Nielsen's independently authored preprint <em>The Complex Hopf Fibration as the Canonical Space for Gauge-Gravity Unification</em> (Preprints.org v5, 17 July 2026, DOI 10.20944/preprints202604.0315.v5, CC BY 4.0; pp. 7,284-7,399), reproduced unmodified with attribution.</p><p><strong>Withheld:</strong> Nielsen's 240-page TUFT manuscript (PhilArchive NIETTU) is cited, not reproduced, because the supplied copy carries no reuse license; a 50-page personal study guide is withheld as personal material.</p><p><strong>Rights:</strong> the CC BY 4.0 license of this deposit covers the depositor's own material. Third-party work keeps its own terms; see editions/2026-10-01/NOTICE.md in the repository. Source manifests with SHA-256 hashes and page maps are embedded in the PDF as attachments and mirrored in the repository.</p><p><strong>Status labels:</strong> archival research compilation; not peer reviewed; contains duplicate copies of some working papers and template author placeholders inside the corpus (documented). It does not claim experimental detection of any MQGT-SCF observable.</p>",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Cbaird26/mqgt-scf-continued/tree/main/editions/2026-10-01",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "10.5281/zenodo.22738328",
+      "relation": "isNewVersionOf",
+      "resource_type": "publication-other"
+    },
+    {
+      "identifier": "10.20944/preprints202604.0315.v5",
+      "relation": "hasPart",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "https://philarchive.org/rec/NIETTU",
+      "relation": "references",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "https://github.com/Cbaird26/mqgt-scf-independent-verification",
+      "relation": "references",
+      "resource_type": "software"
+    }
+  ],
+  "notes": "Public edition built 2026-10-12 by editions/2026-10-01/build_public_edition.py from the private full collection (SHA-256 c8417d0a9804a1f42769958962729225e4cda4b79a34aa0d2698c244cd8be218). If this record is minted as a new version of 10.5281/zenodo.22738328, keep the isNewVersionOf relation; otherwise change it to 'isDerivedFrom'."
+}

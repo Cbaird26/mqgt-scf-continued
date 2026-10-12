@@ -1,0 +1,63 @@
+# Citation metadata for this repository (Citation File Format 1.2.0).
+# After the v2026.10.01 release is published and the Zenodo version is minted,
+# fill in `doi:` and `date-released:` and bump `version:` on later editions.
+cff-version: 1.2.0
+message: "If you use this record, please cite it as below. Third-party work included in the public-edition PDF keeps its own citation (see references)."
+type: dataset
+title: "MQGT-SCF — Continued Development Line (A Theory of Everything research record)"
+authors:
+  - family-names: Baird
+    given-names: Christopher Michael
+version: "2026.10.01"
+# date-released: 2026-10-12
+# doi: 10.5281/zenodo.XXXXXXXX
+repository-code: "https://github.com/Cbaird26/mqgt-scf-continued"
+license: CC-BY-4.0
+keywords:
+  - theory of everything
+  - MQGT-SCF
+  - research collection
+  - open science record
+abstract: >-
+  Forward development line of the MQGT-SCF program, carrying the corpus forward
+  with the September 2026 verification repairs applied. The v2026.10.01 release
+  distributes the public edition of the 1 October 2026 research collection
+  (7,399 pages): Baird / ZoraASI corpus Parts 1-4 with the 18 September 2026
+  unified edition, plus Jennifer Lorraine Nielsen's independently authored
+  gauge-gravity preprint (CC BY 4.0). Per-component rights are listed in
+  editions/2026-10-01/NOTICE.md.
+references:
+  - type: article
+    title: "The Complex Hopf Fibration as the Canonical Space for Gauge-Gravity Unification: The Field, Universal Action, and Particle Spectrum"
+    authors:
+      - family-names: Nielsen
+        given-names: Jennifer Lorraine
+    date-published: 2026-07-17
+    doi: 10.20944/preprints202604.0315.v5
+    journal: "Preprints.org (not peer reviewed), version 5"
+    license: CC-BY-4.0
+    notes: "Reproduced in full, unmodified, in the public-edition PDF (pages 7,284-7,399)."
+  - type: unpublished
+    title: "The Topological Unified Field Theory on the Complex Hopf Fibration: The Canonical Field Bundle, Beltrami Lagrangian, Spectral Geometry, and Particle Spectrum"
+    authors:
+      - family-names: Nielsen
+        given-names: Jennifer Lorraine
+    year: 2026
+    url: "https://philarchive.org/rec/NIETTU"
+    notes: "240-page manuscript dated 14 August 2026. Cited only; not reproduced (no reuse license on the supplied copy)."
+  - type: data
+    title: "A Theory of Everything (Zenodo deposit v302, 13 September 2026)"
+    authors:
+      - family-names: Baird
+        given-names: Christopher Michael
+    doi: 10.5281/zenodo.22738328
+    year: 2026
+    notes: "Historical deposit; not overwritten. The public edition is to be minted as a new Zenodo version."
+  - type: software
+    title: "Independent Verification: MQGT-SCF and TUFT (frozen record v1.0-paper)"
+    authors:
+      - family-names: Baird
+        given-names: Christopher Michael
+    repository-code: "https://github.com/Cbaird26/mqgt-scf-independent-verification"
+    year: 2026
+    notes: "Frozen snapshot; same account, procedural independence only."

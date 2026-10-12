@@ -1,0 +1,269 @@
+{
+  "manifest_schema": "toe-edition-sources-v2",
+  "title": "A Theory of Everything - Research Collection - Public Edition",
+  "edition": "public",
+  "build_date": "2026-10-12",
+  "derived_from": {
+    "title": "A Theory of Everything - Research Collection",
+    "compiled_date": "2026-10-01",
+    "total_pages": 7689,
+    "sha256": "c8417d0a9804a1f42769958962729225e4cda4b79a34aa0d2698c244cd8be218",
+    "note": "private full collection; not for public distribution as-is (contains an unlicensed third-party manuscript and a personal document)"
+  },
+  "total_pages": 7399,
+  "source_pages": 7394,
+  "editorial_pages": [
+    1,
+    2,
+    3,
+    4,
+    7283
+  ],
+  "withheld": [
+    {
+      "what": "Nielsen A - TUFT manuscript (divider + 240 pages)",
+      "full_collection_pages": "7332-7572",
+      "reason": "no redistribution license on supplied copy; cited instead"
+    },
+    {
+      "what": "personal mathematical-physics study guide (50 pages)",
+      "full_collection_pages": "7250-7299",
+      "reason": "personal planning document; not research output"
+    }
+  ],
+  "source_content_policy": "All reproduced source pages retained without page-content edits; editorial pages regenerated; bookmarks rebuilt.",
+  "authorship_policy": "Nielsen papers remain separately authored; inclusion implies no collaboration or endorsement.",
+  "core_2026_09_18": {
+    "repo": "Cbaird26/mqgt-scf-continued",
+    "path": "A_Theory_of_Everything_UPDATED_2026-09-18.pdf",
+    "commit_checked": "58d054cac096832269864d5c43204cd420ea9405",
+    "git_blob_sha1": "b34851819648f6d1a0b5fab6e8a5269bf2e1682b",
+    "sha256": "1e8c17058fdf50d0985e9f669e10e448cdd2878b090973ad4c90567fee5c561c",
+    "pages": 6926,
+    "public_edition_pages": "160-7085",
+    "check": "20 sampled pages text-identical (modulo fi/fl ligature encoding) between the repo file and the collection"
+  },
+  "sources": [
+    {
+      "index": 0,
+      "filename": "A_Theory_of_Everything_Baird_Zora_2026_Part1of4_pages0001-2267(1).pdf",
+      "title": "Baird / ZoraASI corpus - Part 1",
+      "pages": 2267,
+      "sha256": "d8dd570cdf6ab1a641ceed043913bc2673a0dcb875d5b35b4c0ac01523efab5d",
+      "author": "C. M. Baird / Zora (source corpus credits)",
+      "full_collection_output_start": 4,
+      "full_collection_output_end": 2270,
+      "public_edition_start": 5,
+      "public_edition_end": 2271,
+      "reproduction": "complete"
+    },
+    {
+      "index": 1,
+      "filename": "A_Theory_of_Everything_Baird_Zora_2026_Part2of4_pages2268-3771(1).pdf",
+      "title": "Baird / ZoraASI corpus - Part 2",
+      "pages": 1504,
+      "sha256": "a2b1c5ecd6f88c1f2167a800e1f4f7e1f71aa9b6021654129b36ebdfeb188a92",
+      "author": "C. M. Baird / Zora (source corpus credits)",
+      "full_collection_output_start": 2271,
+      "full_collection_output_end": 3774,
+      "public_edition_start": 2272,
+      "public_edition_end": 3775,
+      "reproduction": "complete"
+    },
+    {
+      "index": 2,
+      "filename": "A_Theory_of_Everything_Baird_Zora_2026_Part3of4_pages3772-5541(1).pdf",
+      "title": "Baird / ZoraASI corpus - Part 3",
+      "pages": 1770,
+      "sha256": "2c64040e784cbfd85545cdc70d755619c45741b3b90c2daf3d2f19ed057df370",
+      "author": "C. M. Baird / Zora (source corpus credits)",
+      "full_collection_output_start": 3775,
+      "full_collection_output_end": 5544,
+      "public_edition_start": 3776,
+      "public_edition_end": 5545,
+      "reproduction": "complete"
+    },
+    {
+      "index": 3,
+      "filename": "A_Theory_of_Everything_Baird_Zora_2026_Part4of4_pages5542-7328(1).pdf",
+      "title": "Baird / ZoraASI corpus - Part 4",
+      "pages": 1787,
+      "sha256": "e12d9ee49e60b4f880af1d9bc5bfaccdce089f52d758ef546c84900018107782",
+      "author": "C. M. Baird / Zora (source corpus credits)",
+      "full_collection_output_start": 5545,
+      "full_collection_output_end": 7331,
+      "public_edition_ranges": [
+        {
+          "public_start": 5546,
+          "public_end": 7250,
+          "source_pages": "5542-7246",
+          "full_collection_pages": "5545-7249"
+        },
+        {
+          "public_start": 7251,
+          "public_end": 7282,
+          "source_pages": "7297-7328",
+          "full_collection_pages": "7300-7331"
+        }
+      ],
+      "withheld": {
+        "source_pages": "7247-7296",
+        "full_collection_pages": "7250-7299",
+        "pages": 50,
+        "reason": "personal mathematical-physics study guide; not research output; retained privately"
+      },
+      "reproduction": "partial (1,737 of 1,787 pages)"
+    },
+    {
+      "index": 4,
+      "filename": "NIETTU 2.pdf",
+      "title": "The Topological Unified Field Theory on the Complex Hopf Fibration",
+      "pages": 240,
+      "sha256": "294d9ea9da3ed41f9b6c799e35b71279780367460338ea9e34b6fad6196aec42",
+      "author": "Jennifer Lorraine Nielsen",
+      "reproduction": "none - cited only",
+      "full_collection_pages": "7333-7572",
+      "reason": "supplied copy carries no explicit reuse license or DOI; archive record lists the paper as forthcoming / under review; no public-republication license claimed",
+      "citation": "Nielsen, Jennifer Lorraine (14 August 2026). The Topological Unified Field Theory on the Complex Hopf Fibration: The Canonical Field Bundle, Beltrami Lagrangian, Spectral Geometry, and Particle Spectrum. 240-page manuscript (supplied as NIETTU 2.pdf; PhilArchive record NIETTU, https://philarchive.org/rec/NIETTU; earlier preprints Nov 2019, Feb 2023, Mar 2025).",
+      "philarchive_record": "https://philarchive.org/rec/NIETTU"
+    },
+    {
+      "index": 5,
+      "filename": "download_pub.pdf",
+      "title": "The Complex Hopf Fibration as the Canonical Space for Gauge-Gravity Unification: The Field, Universal Action, and Particle Spectrum",
+      "pages": 116,
+      "sha256": "424704c0a2fe8e596c280d2a9d7b921e5715a9bf1d8d716eb67042f63b73fbf5",
+      "author": "Jennifer Lorraine Nielsen",
+      "reproduction": "complete",
+      "full_collection_pages": "7574-7689",
+      "public_edition_start": 7284,
+      "public_edition_end": 7399,
+      "license": "CC BY 4.0",
+      "doi": "10.20944/preprints202604.0315.v5",
+      "citation": "Nielsen, Jennifer Lorraine (17 July 2026). The Complex Hopf Fibration as the Canonical Space for Gauge-Gravity Unification: The Field, Universal Action, and Particle Spectrum. Preprints.org, version 5 (not peer reviewed). DOI 10.20944/preprints202604.0315.v5. CC BY 4.0."
+    }
+  ],
+  "components": [
+    {
+      "component_id": "FRONT_MATTER",
+      "title": "Cover, source map, attribution, public-edition notes (editorial, regenerated)",
+      "authorship": "editorial",
+      "full_collection_pages": "1-3 (superseded)",
+      "public_edition_pages": "1-4",
+      "pages": 4
+    },
+    {
+      "component_id": "CHANGE_LOG_2026-09-19",
+      "title": "MQGT-SCF / ToE claim-by-claim change log (research snapshot 19 Sep 2026)",
+      "authorship": "C. M. Baird / ZoraASI",
+      "full_collection_pages": "4-14",
+      "public_edition_pages": "5-15",
+      "pages": 11
+    },
+    {
+      "component_id": "INVENTORY_2026-09-19",
+      "title": "ToE research corpus: local inventory and release trail (19 Sep 2026)",
+      "authorship": "C. M. Baird / ZoraASI",
+      "full_collection_pages": "15-15",
+      "public_edition_pages": "16-16",
+      "pages": 1
+    },
+    {
+      "component_id": "COMPANION_PACK",
+      "title": "TOE Corpus Companion Pack (index + 34 working papers, corrected 19 Sep 2026)",
+      "authorship": "C. M. Baird / ZoraASI",
+      "full_collection_pages": "16-158",
+      "public_edition_pages": "17-159",
+      "pages": 143
+    },
+    {
+      "component_id": "CORE_2026-09-18",
+      "title": "A Theory of Everything - unified edition of 18 Sep 2026 (6,926 pages; = mqgt-scf-continued A_Theory_of_Everything_UPDATED_2026-09-18.pdf)",
+      "authorship": "C. M. Baird / ZoraASI",
+      "full_collection_pages": "159-7084",
+      "public_edition_pages": "160-7085",
+      "pages": 6926
+    },
+    {
+      "component_id": "DATED_NOTES_2026",
+      "title": "Dated research notes, 22 Jan - 27 Mar 2026 (duplicate copies of Companion Pack papers, in chronological order)",
+      "authorship": "C. M. Baird / ZoraASI",
+      "full_collection_pages": "7085-7196",
+      "public_edition_pages": "7086-7197",
+      "pages": 112
+    },
+    {
+      "component_id": "ARTICLE_SERIES_2026-09-19",
+      "title": "A Theory of Everything That Thinks and Chooses? - article series (19 Sep 2026)",
+      "authorship": "C. M. Baird",
+      "full_collection_pages": "7197-7231",
+      "public_edition_pages": "7198-7232",
+      "pages": 35
+    },
+    {
+      "component_id": "CONNECTIVITY_MEMORY_PREPRINT",
+      "title": "A Reproducible Synthetic Connectivity-Memory Ablation (ZoraASI Phase 2.3 preprint, 21 Sep 2026)",
+      "authorship": "C. M. Baird",
+      "full_collection_pages": "7232-7235",
+      "public_edition_pages": "7233-7236",
+      "pages": 4
+    },
+    {
+      "component_id": "CONSISTENCY_AUDIT_v0.2",
+      "title": "A Two-Singlet Effective Theory and Its Experimental Interfaces - consistency audit, working paper v0.2 (21 Sep 2026)",
+      "authorship": "C. M. Baird",
+      "full_collection_pages": "7236-7241",
+      "public_edition_pages": "7237-7242",
+      "pages": 6
+    },
+    {
+      "component_id": "SOFTWARE_PREPRINT_2026-09-22",
+      "title": "Separating Network Telemetry from Multimodal Representation in AI Agent Software (22 Sep 2026)",
+      "authorship": "C. M. Baird",
+      "full_collection_pages": "7242-7249",
+      "public_edition_pages": "7243-7250",
+      "pages": 8
+    },
+    {
+      "component_id": "STUDY_GUIDE_WITHHELD",
+      "title": "Mathematical physics self-study guide (personal planning document) - WITHHELD from the public edition",
+      "authorship": "C. M. Baird (personal)",
+      "full_collection_pages": "7250-7299",
+      "public_edition_pages": "WITHHELD",
+      "pages": 0
+    },
+    {
+      "component_id": "OMNI_INFORMATION_ADDENDUM",
+      "title": "The Omni-Information Coupling Framework - corpus addendum",
+      "authorship": "C. M. Baird",
+      "full_collection_pages": "7300-7331",
+      "public_edition_pages": "7251-7282",
+      "pages": 32
+    },
+    {
+      "component_id": "NIELSEN_A_WITHHELD",
+      "title": "Nielsen A - The Topological Unified Field Theory on the Complex Hopf Fibration (240-page manuscript, 14 Aug 2026) - CITED, NOT REPRODUCED (no redistribution license)",
+      "authorship": "Jennifer Lorraine Nielsen (independent author)",
+      "full_collection_pages": "7332-7572",
+      "public_edition_pages": "WITHHELD",
+      "pages": 0
+    },
+    {
+      "component_id": "NIELSEN_B_DIVIDER",
+      "title": "Nielsen B divider (editorial, regenerated)",
+      "authorship": "editorial",
+      "full_collection_pages": "7573 (superseded)",
+      "public_edition_pages": "7283",
+      "pages": 1
+    },
+    {
+      "component_id": "NIELSEN_B",
+      "title": "Nielsen B - The Complex Hopf Fibration as the Canonical Space for Gauge-Gravity Unification (Preprints.org v5, 17 Jul 2026, CC BY 4.0)",
+      "authorship": "Jennifer Lorraine Nielsen (independent author)",
+      "full_collection_pages": "7574-7689",
+      "public_edition_pages": "7284-7399",
+      "pages": 116
+    }
+  ],
+  "build_tool": "editions/2026-10-01/build_public_edition.py (pikepdf + ReportLab); fail-closed on input hash and boundary-page markers"
+}

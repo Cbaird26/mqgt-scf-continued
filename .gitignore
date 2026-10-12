@@ -1,2 +1,5 @@
 __pycache__/
 *.pyc
+# Edition PDFs are distributed as release assets / Zenodo, never committed in-tree (see editions/*/README.md)
+editions/*/*.pdf
+editions/*/out/
