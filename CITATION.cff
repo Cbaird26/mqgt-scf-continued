@@ -10,7 +10,6 @@ authors:
     given-names: Christopher Michael
 version: "2026.10.01"
 # date-released: 2026-10-12
-# doi: 10.5281/zenodo.XXXXXXXX
 repository-code: "https://github.com/Cbaird26/mqgt-scf-continued"
 license: CC-BY-4.0
 keywords:
@@ -20,8 +19,8 @@ keywords:
   - open science record
 abstract: >-
   Forward development line of the MQGT-SCF program, carrying the corpus forward
-  with the September 2026 verification repairs applied. The v2026.10.01 release
-  distributes the public edition of the 1 October 2026 research collection
+  with the September 2026 verification repairs applied. The draft v2026.10.01 release
+  stages the public edition of the 1 October 2026 research collection
   (7,399 pages): Baird / ZoraASI corpus Parts 1-4 with the 18 September 2026
   unified edition, plus Jennifer Lorraine Nielsen's independently authored
   gauge-gravity preprint (CC BY 4.0). Per-component rights are listed in

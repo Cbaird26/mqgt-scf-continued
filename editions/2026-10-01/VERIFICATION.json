@@ -1,0 +1,20 @@
+{
+  "public_pdf_sha256": "ac0d62ae361a796bea3bbab3062112a4c872c2aec71bf4aeacfb72741398bb7c",
+  "page_counts": {
+    "public": 7399,
+    "full": 7689,
+    "core": 6926
+  },
+  "core_pages_checked": 6926,
+  "surrounding_source_pages_checked": 468,
+  "core_text_mismatches": [],
+  "surrounding_text_mismatches": [],
+  "comparison_method": "pdftotext -layout; per-page whitespace and fi/fl ligature normalization",
+  "embedded_manifests_match": true,
+  "core_content_stream_mismatches": [],
+  "surrounding_content_stream_mismatches": [],
+  "valid_outline_entries": 107,
+  "core_linked_named_destinations_preserved": 19,
+  "duplicate_groups_checked": 324,
+  "duplicate_group_errors": []
+}

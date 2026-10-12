@@ -1,0 +1,183 @@
+{
+  "public_pdf_sha256": "3427baabf8585f8948b69d4990fdb6295f63618b44c6616c4f38f523feef2ce3",
+  "page_counts": {
+    "public": 7399,
+    "full": 7689,
+    "core": 6926
+  },
+  "reproduced_pages_checked": 7394,
+  "source_page_text_mismatches": [],
+  "core_pages_checked": 6926,
+  "core_page_text_mismatches": [
+    3166,
+    4191,
+    4207,
+    4290,
+    4365,
+    4462,
+    4506,
+    4572,
+    4579,
+    4616,
+    4636,
+    4812,
+    4817,
+    4822,
+    5039,
+    5041,
+    5057,
+    5307,
+    5317,
+    6124,
+    6287,
+    6299,
+    6301,
+    6303,
+    6304,
+    6305,
+    6306,
+    6308,
+    6312,
+    6323,
+    6326,
+    6327,
+    6329,
+    6331,
+    6384,
+    6386,
+    6391,
+    6422,
+    6432,
+    6434,
+    6492,
+    6574,
+    6612,
+    6635,
+    6646,
+    6647,
+    6673,
+    6679,
+    6682,
+    6683,
+    6706,
+    6709,
+    6719,
+    6720,
+    6730,
+    6743,
+    6745,
+    6751,
+    6761,
+    6762,
+    6779,
+    6780,
+    6783,
+    6784,
+    6785,
+    6791,
+    6797,
+    6801,
+    6804,
+    6833,
+    6836,
+    6842,
+    6843,
+    6853,
+    6918,
+    6919,
+    6921,
+    6922,
+    6923,
+    6924
+  ],
+  "duplicate_groups_checked": 324,
+  "duplicate_group_errors": [],
+  "comparison_method": "pdftotext -layout, per page, whitespace collapsed and fi/fl ligatures normalized",
+  "core_extraction_mismatch_render_checks": {
+    "pages_checked": 80,
+    "raster_max_dimension": 1200,
+    "pixel_mismatches": [
+      {
+        "page": 6384,
+        "pixel_bbox": [
+          150,
+          144,
+          818,
+          1091
+        ]
+      },
+      {
+        "page": 6386,
+        "pixel_bbox": [
+          118,
+          134,
+          818,
+          1095
+        ]
+      },
+      {
+        "page": 6391,
+        "pixel_bbox": [
+          173,
+          217,
+          326,
+          575
+        ]
+      },
+      {
+        "page": 6918,
+        "pixel_bbox": [
+          140,
+          334,
+          645,
+          949
+        ]
+      },
+      {
+        "page": 6919,
+        "pixel_bbox": [
+          164,
+          313,
+          786,
+          1009
+        ]
+      },
+      {
+        "page": 6921,
+        "pixel_bbox": [
+          110,
+          54,
+          831,
+          1043
+        ]
+      },
+      {
+        "page": 6922,
+        "pixel_bbox": [
+          109,
+          54,
+          818,
+          1046
+        ]
+      },
+      {
+        "page": 6923,
+        "pixel_bbox": [
+          109,
+          54,
+          914,
+          1091
+        ]
+      },
+      {
+        "page": 6924,
+        "pixel_bbox": [
+          109,
+          54,
+          818,
+          1088
+        ]
+      }
+    ]
+  }
+}

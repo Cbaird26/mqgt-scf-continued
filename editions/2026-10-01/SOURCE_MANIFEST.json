@@ -2,6 +2,7 @@
   "manifest_schema": "toe-edition-sources-v2",
   "title": "A Theory of Everything - Research Collection - Public Edition",
   "edition": "public",
+  "build_revision": "canonical-core-restoration-1",
   "build_date": "2026-10-12",
   "derived_from": {
     "title": "A Theory of Everything - Research Collection",
@@ -31,7 +32,7 @@
       "reason": "personal planning document; not research output"
     }
   ],
-  "source_content_policy": "All reproduced source pages retained without page-content edits; editorial pages regenerated; bookmarks rebuilt.",
+  "source_content_policy": "6,926 core pages reproduced directly from the hash-verified repository PDF; 468 surrounding pages reproduced from the full collection without edits. Five editorial pages regenerated; bookmarks rebuilt. Core replacement repairs rendering damage in the collection copy.",
   "authorship_policy": "Nielsen papers remain separately authored; inclusion implies no collaboration or endorsement.",
   "core_2026_09_18": {
     "repo": "Cbaird26/mqgt-scf-continued",
@@ -41,7 +42,7 @@
     "sha256": "1e8c17058fdf50d0985e9f669e10e448cdd2878b090973ad4c90567fee5c561c",
     "pages": 6926,
     "public_edition_pages": "160-7085",
-    "check": "20 sampled pages text-identical (modulo fi/fl ligature encoding) between the repo file and the collection"
+    "check": "Core input SHA-256 verified before assembly; all 6,926 pages copied directly from this file, replacing the collection copy. See REVIEW.md for output verification."
   },
   "sources": [
     {
@@ -55,7 +56,8 @@
       "full_collection_output_end": 2270,
       "public_edition_start": 5,
       "public_edition_end": 2271,
-      "reproduction": "complete"
+      "reproduction": "complete",
+      "core_restoration": "Where this part overlaps full-collection pages 159-7084, pages come directly from the hash-verified repository core instead of the collection copy."
     },
     {
       "index": 1,
@@ -68,7 +70,8 @@
       "full_collection_output_end": 3774,
       "public_edition_start": 2272,
       "public_edition_end": 3775,
-      "reproduction": "complete"
+      "reproduction": "complete",
+      "core_restoration": "Where this part overlaps full-collection pages 159-7084, pages come directly from the hash-verified repository core instead of the collection copy."
     },
     {
       "index": 2,
@@ -81,7 +84,8 @@
       "full_collection_output_end": 5544,
       "public_edition_start": 3776,
       "public_edition_end": 5545,
-      "reproduction": "complete"
+      "reproduction": "complete",
+      "core_restoration": "Where this part overlaps full-collection pages 159-7084, pages come directly from the hash-verified repository core instead of the collection copy."
     },
     {
       "index": 3,
@@ -112,7 +116,8 @@
         "pages": 50,
         "reason": "personal mathematical-physics study guide; not research output; retained privately"
       },
-      "reproduction": "partial (1,737 of 1,787 pages)"
+      "reproduction": "partial (1,737 of 1,787 pages)",
+      "core_restoration": "Where this part overlaps full-collection pages 159-7084, pages come directly from the hash-verified repository core instead of the collection copy."
     },
     {
       "index": 4,

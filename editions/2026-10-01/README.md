@@ -1,12 +1,13 @@
 # A Theory of Everything — Research Collection (2026-10-01), public edition
 
 **Status: REVIEW.** Branch `edition/2026-10-01-public`. Not merged, not tagged,
-release not published, no Zenodo version minted. Christopher Michael Baird
-approves the exact built artifact before any of those happen.
+release not published, no Zenodo version minted. The owner authorized review,
+corrections and a branch push; the PDF is staged as a draft release. See
+`REVIEW.md` for the independent artifact checks and remaining publication work.
 
 This folder holds the *metadata* for the public edition of the 1 October 2026
 research collection. The PDF itself is **not committed to the tree** (it is
-40 MB and every rebuild would add another 40 MB to every clone forever). It is
+41 MB and every rebuild would add another 41 MB to every clone forever). It is
 distributed as a GitHub Release asset on tag `v2026.10.01` and, once approved,
 as a new Zenodo version. The hashes here are how anyone checks that the file
 they downloaded is the file described here.
@@ -15,10 +16,11 @@ they downloaded is the file described here.
 |---|---|
 | `SOURCE_MANIFEST.json` | Every source file with SHA-256, page counts, page map, withheld items. Also embedded inside the PDF as an attachment (next to the original manifest of the full collection). |
 | `PAGE_MAP.csv` | Component → full-collection pages → public-edition pages. |
-| `SHA256SUMS` | SHA-256 of the public-edition PDF, of the private full collection it derives from, of the repo core PDF, and of the six original source files. |
+| `SHA256SUMS` | SHA-256 of the distributed PDF; provenance hashes for the private inputs are comments and also appear in `SOURCE_MANIFEST.json`. |
 | `NOTICE.md` | Per-component rights and license terms. The repository's blanket CC BY 4.0 does **not** extend to third-party material. |
 | `DUPLICATES.csv` | Page-level exact-duplicate report (324 groups, 363 redundant pages) — the duplicate report the 2026-09-19 staging plan asked for. |
-| `build_public_edition.py` | Fail-closed derivation script (pikepdf + ReportLab). Rebuilds the public edition only from the exact full-collection bytes named in `SHA256SUMS`; aborts if any boundary page differs. |
+| `build_public_edition.py` | Fail-closed derivation script (pikepdf + ReportLab). Rebuilds from the exact full-collection and repository-core bytes named in the manifest; aborts if any boundary page differs. |
+| `verify_public_edition.py`, `VERIFICATION.json`, `RENDER_VERIFICATION.json`, `REVIEW.md` | Independent comparison procedure, recorded results and repair rationale. |
 | `RELEASE_CHECKLIST.md` | What remains before merge / release / Zenodo, mapped to the publish gates defined in `editions/2026-09-19/SOURCE_MANIFEST_DRAFT.json`. |
 
 ## What the public edition is
@@ -32,7 +34,7 @@ they downloaded is the file described here.
 | 5–15 | MQGT-SCF / ToE claim-by-claim change log (research snapshot 19 Sep 2026, checked against this repo at `58d054c`) | C. M. Baird / ZoraASI |
 | 16 | ToE research corpus: local inventory and release trail (19 Sep 2026) | C. M. Baird / ZoraASI |
 | 17–159 | TOE Corpus Companion Pack: index + 34 working papers (corrected 19 Sep 2026) | C. M. Baird / ZoraASI |
-| 160–7,085 | **The 18 Sep 2026 unified edition (6,926 pp)** — text-identical page-for-page to `A_Theory_of_Everything_UPDATED_2026-09-18.pdf` on `main` (SHA-256 `1e8c1705…`, git blob `b348518`) | C. M. Baird / ZoraASI |
+| 160–7,085 | **The 18 Sep 2026 unified edition (6,926 pp)** — restored directly from `A_Theory_of_Everything_UPDATED_2026-09-18.pdf` on `main` (SHA-256 `1e8c1705…`, git blob `b348518`) | C. M. Baird / ZoraASI |
 | 7,086–7,197 | Dated research notes, 22 Jan – 27 Mar 2026 (chronological copies of Companion Pack papers) | C. M. Baird / ZoraASI |
 | 7,198–7,232 | *A Theory of Everything That Thinks and Chooses?* — article series (19 Sep 2026) | C. M. Baird |
 | 7,233–7,236 | Synthetic connectivity–memory ablation preprint (ZoraASI Phase 2.3, 21 Sep 2026) | C. M. Baird |
@@ -42,17 +44,17 @@ they downloaded is the file described here.
 | 7,283 | Nielsen B divider (editorial, regenerated) | editorial |
 | 7,284–7,399 | **Nielsen B** — *The Complex Hopf Fibration as the Canonical Space for Gauge-Gravity Unification*, Preprints.org v5, 17 Jul 2026, DOI 10.20944/preprints202604.0315.v5, **CC BY 4.0** | Jennifer Lorraine Nielsen (independent author) |
 
-The corpus's Parts 1–4 are reproduced without page-content edits; only the
-editorial pages were regenerated and the bookmark outline rebuilt (the full
-collection nested each source inside the previous one and had no bookmark for
-the Omni-Information addendum).
+The 6,926 core pages are copied directly from the hash-verified repository PDF
+to repair rendering damage found in the full collection. The 468 surrounding
+source pages are retained without edits. Five editorial pages and the bookmark
+outline were regenerated. `REVIEW.md` records the comparison, repair and checks.
 
 ## What is withheld, and why
 
 | Withheld | Full-collection pages | Reason | How it can come back |
 |---|---|---|---|
-| **Nielsen A** — *The Topological Unified Field Theory on the Complex Hopf Fibration*, 240-page manuscript dated 14 Aug 2026 (supplied as `NIETTU 2.pdf`; PhilArchive record [NIETTU](https://philarchive.org/rec/NIETTU)) | 7,332–7,572 | The supplied copy carries no reuse license and no DOI; the archive record lists the paper as forthcoming / under review; the full collection's own attribution page says "confirm its terms before public redistribution". This repository declares CC BY 4.0, so committing it here would publicly relicense her manuscript. It is **cited** on page iii instead. | Written permission from the author → rebuild with the range re-enabled → new version (v2026.10.01.1 or later) and a new Zenodo version. |
-| Personal mathematical-physics study guide (50 pp, 26 Sep 2026) | 7,250–7,299 | Personal planning document, not research output; the 2026-09-19 staging rules require explicit release approval for personal material. | Owner's decision; one-line change to `KEEP_RANGES` in the build script. |
+| **Nielsen A** — *The Topological Unified Field Theory on the Complex Hopf Fibration*, 240-page manuscript dated 14 Aug 2026 (supplied as `NIETTU 2.pdf`; PhilArchive record [NIETTU](https://philarchive.org/rec/NIETTU)) | 7,332–7,572 | The supplied copy carries no reuse license and no DOI; the archive record lists the paper as forthcoming / under review; the full collection's own attribution page says "confirm its terms before public redistribution". The repository license cannot grant redistribution rights to her manuscript; permission has not been established. It is **cited** on page iii instead. | Written permission from the author → rebuild with the range re-enabled → new version (v2026.10.01.1 or later) and a new Zenodo version. |
+| Personal mathematical-physics study guide (50 pp, 26 Sep 2026) | 7,250–7,299 | Personal planning document, not research output; the 2026-09-19 staging rules require explicit release approval for personal material. | Owner's decision; update the selected ranges, mappings, page counts, editorial text and verification together. |
 
 Not withheld, but noted: the unified edition opens with the author's CV
 (public-edition pages 160–161). It is already public on `main` as pages 1–2
@@ -83,7 +85,7 @@ be a two-page edit to the core, which this edition deliberately does not touch.
 ## Verify a downloaded copy
 
 ```sh
-sha256sum -c SHA256SUMS --ignore-missing      # checks the PDF you downloaded
+shasum -a 256 -c SHA256SUMS                 # run beside the downloaded PDF
 pdfinfo A_Theory_of_Everything_Research_Collection_2026-10-01_public-edition.pdf | grep Pages   # 7399
 qpdf --list-attachments A_Theory_of_Everything_Research_Collection_2026-10-01_public-edition.pdf
 #   source_manifest.json                              (this edition)
@@ -93,27 +95,29 @@ qpdf --list-attachments A_Theory_of_Everything_Research_Collection_2026-10-01_pu
 ## Rebuild (requires the private full collection)
 
 ```sh
+# Requires Python packages pikepdf>=10.17, pypdf and reportlab, plus Poppler pdftotext.
+# Run from editions/2026-10-01; --input names the private full collection.
 python3 build_public_edition.py \
-  --input  A_Theory_of_Everything_Research_Collection_2026-10-01.pdf \   # private, SHA-256 c8417d0a…
+  --input /path/to/A_Theory_of_Everything_Research_Collection_2026-10-01.pdf \
   --outdir out \
-  --core-pdf ../../A_Theory_of_Everything_UPDATED_2026-09-18.pdf          # optional: outline import + hash record
+  --core-pdf ../../A_Theory_of_Everything_UPDATED_2026-09-18.pdf
 ```
 
-The script verifies the input hash and 22 boundary-page text markers before
-touching anything, assembles the kept ranges, regenerates the five editorial
+The script verifies both input hashes and 22 full-collection boundary markers,
+restores the repository core, assembles the surrounding ranges, regenerates five editorial
 pages, rebuilds the outline, embeds both manifests, sets metadata, then
 re-verifies the output (page count, seam markers, absence of withheld content)
-and writes `SOURCE_MANIFEST.json`, `PAGE_MAP.csv` and `SHA256SUMS`. Because
-the editorial pages carry the build timestamp, a rebuild is byte-different but
-page-identical; compare with `pdftotext` per page, not by hash.
+and writes `SOURCE_MANIFEST.json`, `PAGE_MAP.csv` and `SHA256SUMS`. PDF metadata carries the build timestamp, so a rebuild is byte-different.
+Use the recorded checksum for the staged artifact and compare rebuilt page text
+with `pdftotext`; never replace a release asset without updating its checksum.
 
 ## Relationship to the rest of the repository
 
 * `main` keeps the 18 Sep 2026 unified edition in-tree; this edition contains
   it unchanged and adds the September working papers, the dated notes and the
   Nielsen preprint around it.
-* `editions/2026-09-19/` is the staging plan (chronology-first ToE edition)
-  that this edition partly realizes. Its publish gates are tracked in
+* [The 2026-09-19 staging plan](https://github.com/Cbaird26/mqgt-scf-continued/tree/zora/toe-edition-2026-09-19-draft/editions/2026-09-19) (chronology-first ToE edition) lives on a separate branch
+  and describes the plan this edition partly realizes. Its publish gates are tracked in
   `RELEASE_CHECKLIST.md`.
 * `Cbaird26/mqgt-scf-independent-verification` `v1.0-paper` is frozen and
   untouched. Zenodo record 22738328 (v302, 13 Sep 2026) is a historical

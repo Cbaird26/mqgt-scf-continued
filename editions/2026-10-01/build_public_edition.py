@@ -6,8 +6,10 @@ build_public_edition.py -- fail-closed derivation of the PUBLIC EDITION of
 Input : the full 7,689-page collection PDF (private; contains an unlicensed
         third-party manuscript and personal material).
 Output: a 7,399-page public edition that
-        * reproduces Baird / ZoraASI corpus Parts 1-4 unchanged, except that the
-          personal 50-page study guide (full-collection pp. 7250-7299) is withheld;
+        * restores the 6,926-page core directly from the hash-verified repository
+          PDF to repair rendering damage inherited from the full collection;
+        * preserves surrounding source pages, with the personal 50-page study
+          guide (full-collection pp. 7250-7299) withheld;
         * CITES (does not reproduce) Nielsen A, the 240-page TUFT manuscript whose
           supplied copy carries no redistribution license (pp. 7332-7572);
         * reproduces Nielsen B (Preprints.org v5, CC BY 4.0) in full;
@@ -20,7 +22,7 @@ Every page-content check is fail-closed: if the input is not the exact expected
 file, or a boundary page does not carry its expected text, the build aborts.
 
 Usage:
-    python3 build_public_edition.py --input FULL_COLLECTION.pdf --outdir OUT_DIR
+    python3 build_public_edition.py --input FULL_COLLECTION.pdf --core-pdf CORE.pdf --outdir OUT_DIR
 """
 from __future__ import annotations
 
@@ -43,6 +45,7 @@ from reportlab.pdfgen import canvas
 # Expected input (fail-closed)
 # --------------------------------------------------------------------------
 EXPECTED_INPUT_SHA256 = "c8417d0a9804a1f42769958962729225e4cda4b79a34aa0d2698c244cd8be218"
+EXPECTED_CORE_SHA256 = "1e8c17058fdf50d0985e9f669e10e448cdd2878b090973ad4c90567fee5c561c"
 EXPECTED_INPUT_PAGES = 7689
 BUILD_DATE = "2026-10-12"
 BUILD_TIMESTAMP = dt.datetime.now(dt.timezone(dt.timedelta(hours=-4))).replace(microsecond=0).isoformat()  # America/New_York (EDT)
@@ -220,6 +223,26 @@ def die(msg: str) -> None:
     sys.exit(2)
 
 
+def verified_core_sha256(path: str) -> str:
+    if not os.path.isfile(path):
+        die(f"core PDF does not exist: {path}")
+    sha = sha256_file(path)
+    if sha != EXPECTED_CORE_SHA256:
+        die(f"core SHA-256 {sha} != expected {EXPECTED_CORE_SHA256}")
+    return sha
+
+
+def write_checksums(path: str, output_sha: str, input_sha: str, core_sha: str, sources: list[dict]) -> None:
+    """Only the distributed PDF is checkable; private inputs are provenance comments."""
+    with open(path, "w") as f:
+        f.write(f"{output_sha}  {OUTPUT_BASENAME}\n")
+        f.write("# --- inputs (not distributed in this folder) ---\n")
+        f.write(f"# {input_sha}  A_Theory_of_Everything_Research_Collection_2026-10-01.pdf  # private full collection (7,689 pages)\n")
+        f.write(f"# {core_sha}  A_Theory_of_Everything_UPDATED_2026-09-18.pdf  # repo core, main@58d054c\n")
+        for source in sources:
+            f.write(f"# {source['sha256']}  {source['filename']}  # source {source['index']}: {source['title']}\n")
+
+
 def new_page(full_page: int) -> int:
     """Map a full-collection page number to its public-edition page number."""
     if 4 <= full_page <= 7249:
@@ -342,12 +365,12 @@ def make_editorial_pages(input_sha: str, source_manifest: dict) -> bytes:
     y = _para(c, y, "Gauge-gravity preprint, Preprints.org v5 (116 pages, CC BY 4.0), reproduced in full", color=MUTED)
     y = _para(c, y, "TUFT manuscript (240 pages): cited, not reproduced - no redistribution license on the supplied copy", color=MUTED); y -= 0.4 * inch
     c.setFillColorRGB(*INK)
-    y = _para(c, y, "Derived without page-content edits from the full research collection of 1 October 2026 "
+    y = _para(c, y, "Based on the full research collection of 1 October 2026 "
                     f"(7,689 pages; SHA-256 {input_sha}). "
-                    "7,394 source pages preserved, with 5 regenerated editorial pages. Independent authorship and "
-                    "source provenance retained; the embedded source manifest records file hashes and page ranges.")
+                    "The 6,926-page core is restored directly from the verified GitHub PDF; 468 surrounding source pages "
+                    "are retained. Five editorial pages record the source hashes, page ranges and separate authorship.")
     y -= 0.15 * inch
-    y = _para(c, y, "Public edition assembled for Christopher Michael Baird on 12 October 2026 (AI-assisted, Claude). "
+    y = _para(c, y, "Public edition prepared for Christopher Michael Baird on 12 October 2026 (AI-assisted: Claude; review and core restoration: Codex). "
                     "Full collection assembled 1 October 2026 (AI-assisted, ChatGPT, ZoraASI project).", color=MUTED)
     _footer(c, "Editorial front matter", "i")
     c.showPage()
@@ -421,8 +444,8 @@ def make_editorial_pages(input_sha: str, source_manifest: dict) -> bytes:
     y = _heading(c, y, "Editorial contribution", 10.5)
     y = _para(c, y, "AI-assisted assembly, front matter, source mapping and attribution of the full collection were prepared "
                     "for Christopher Michael Baird using ChatGPT in the ZoraASI project (1 October 2026). This public edition "
-                    "was derived from that file on 12 October 2026 with AI assistance (Claude). All reproduced source pages are "
-                    "unchanged in content. The embedded source manifest records file hashes and output ranges. No new license "
+                    "was derived on 12 October 2026 (Claude; Codex review and core restoration). The core uses the verified repository "
+                    "PDF; surrounding source pages are unchanged. The manifest records hashes and ranges. No new license "
                     "is assigned to the included source works; see the NOTICE in the repository for per-component terms.")
     _footer(c, "Editorial front matter", "iii")
     c.showPage()
@@ -436,7 +459,7 @@ def make_editorial_pages(input_sha: str, source_manifest: dict) -> bytes:
         "Withheld: personal mathematical-physics study guide (full-collection pages 7,250-7,299; 50 pages). Reason: personal planning document, not research output. Retained in the private full collection.",
         "Replaced: the five editorial pages (cover, source map, attribution, Nielsen A divider, Nielsen B divider) were regenerated for the new page positions; pages 7,332 and 7,573 of the full collection are superseded by pages iv and 7,283 here.",
         "Rebuilt: the bookmark outline. The full collection nested each source inside the previous one and omitted the Omni-Information addendum; this edition lists the components as siblings with correct page targets.",
-        "Unchanged: all other pages are reproduced without page-content edits. The 18 Sep 2026 unified edition (pages 160-7,085 here) is page-for-page identical in text to A_Theory_of_Everything_UPDATED_2026-09-18.pdf in Cbaird26/mqgt-scf-continued (SHA-256 1e8c17058fdf50d0985e9f669e10e448cdd2878b090973ad4c90567fee5c561c).",
+        "Restored: pages 160-7,085 are copied directly from the 6,926-page repository core, repairing text collisions inherited from the full collection. Source: A_Theory_of_Everything_UPDATED_2026-09-18.pdf, Cbaird26/mqgt-scf-continued (SHA-256 1e8c17058fdf50d0985e9f669e10e448cdd2878b090973ad4c90567fee5c561c). The 468 surrounding source pages are retained without page-content edits.",
     ]
     for it in items:
         y = _para(c, y, "\u2022  " + it, indent=0)
@@ -456,7 +479,7 @@ def make_editorial_pages(input_sha: str, source_manifest: dict) -> bytes:
                     "source_manifest_full_collection_2026-10-01.json is the manifest embedded in the full collection, kept for provenance. "
                     "Repository: github.com/Cbaird26/mqgt-scf-continued, folder editions/2026-10-01/ (README, SOURCE_MANIFEST.json, PAGE_MAP.csv, "
                     "SHA256SUMS, NOTICE.md, DUPLICATES.csv, build_public_edition.py). The build script is fail-closed: it rebuilds this file only "
-                    "from the exact full-collection bytes named above and aborts if any boundary page differs.")
+                    "from the exact full-collection and repository-core bytes named above and aborts if any input hash or boundary marker differs.")
     _footer(c, "Editorial front matter", "iv")
     c.showPage()
 
@@ -556,7 +579,7 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--input", required=True)
     ap.add_argument("--outdir", required=True)
-    ap.add_argument("--core-pdf", default=None, help="repo copy of A_Theory_of_Everything_UPDATED_2026-09-18.pdf (optional; outline import + hash check)")
+    ap.add_argument("--core-pdf", required=True, help="hash-verified repository core PDF, required for canonical page restoration")
     args = ap.parse_args()
     os.makedirs(args.outdir, exist_ok=True)
 
@@ -590,9 +613,9 @@ def main() -> int:
 
     core_outline = []
     core_sha = None
-    if args.core_pdf and os.path.exists(args.core_pdf):
+    if args.core_pdf:
         import pypdf
-        core_sha = sha256_file(args.core_pdf)
+        core_sha = verified_core_sha256(args.core_pdf)
         rd = pypdf.PdfReader(args.core_pdf)
         if len(rd.pages) != 6926:
             die(f"core PDF has {len(rd.pages)} pages, expected 6926")
@@ -621,8 +644,14 @@ def main() -> int:
     print("[4/7] assembling ...")
     out = pikepdf.new()
     out.pages.extend(ed.pages[0:N_FRONT])
-    for s, e in KEEP_RANGES[:2]:
-        out.pages.extend(src.pages[s - 1:e])
+    # Restore the canonical core instead of copying the damaged collection version.
+    core = pikepdf.open(args.core_pdf)
+    out.pages.extend(src.pages[3:158])
+    copied_core = out.add_pages_from(core)
+    if copied_core.dropped_dests:
+        die(f"canonical core lost named destinations: {copied_core.dropped_dests}")
+    out.pages.extend(src.pages[7084:7249])
+    out.pages.extend(src.pages[7299:7331])
     out.pages.append(ed.pages[N_FRONT])
     s, e = KEEP_RANGES[2]
     out.pages.extend(src.pages[s - 1:e])
@@ -672,6 +701,7 @@ def main() -> int:
             entry["reproduction"] = "partial (1,737 of 1,787 pages)"
         for k in ("output_start", "output_end"):
             entry.pop(k, None)
+        entry["core_restoration"] = "Where this part overlaps full-collection pages 159-7084, pages come directly from the hash-verified repository core instead of the collection copy."
         sources.append(entry)
     na = dict(by_index[4]); na.pop("output_start", None); na.pop("output_end", None)
     na.update({"reproduction": "none - cited only", "full_collection_pages": "7333-7572",
@@ -688,6 +718,7 @@ def main() -> int:
         "manifest_schema": "toe-edition-sources-v2",
         "title": "A Theory of Everything - Research Collection - Public Edition",
         "edition": "public",
+        "build_revision": "canonical-core-restoration-1",
         "build_date": BUILD_DATE,
         "derived_from": {
             "title": orig_manifest.get("title"),
@@ -703,14 +734,14 @@ def main() -> int:
             {"what": "Nielsen A - TUFT manuscript (divider + 240 pages)", "full_collection_pages": "7332-7572", "reason": "no redistribution license on supplied copy; cited instead"},
             {"what": "personal mathematical-physics study guide (50 pages)", "full_collection_pages": "7250-7299", "reason": "personal planning document; not research output"},
         ],
-        "source_content_policy": "All reproduced source pages retained without page-content edits; editorial pages regenerated; bookmarks rebuilt.",
+        "source_content_policy": "6,926 core pages reproduced directly from the hash-verified repository PDF; 468 surrounding pages reproduced from the full collection without edits. Five editorial pages regenerated; bookmarks rebuilt. Core replacement repairs rendering damage in the collection copy.",
         "authorship_policy": orig_manifest.get("authorship_policy"),
         "core_2026_09_18": {
             "repo": "Cbaird26/mqgt-scf-continued", "path": "A_Theory_of_Everything_UPDATED_2026-09-18.pdf",
             "commit_checked": "58d054cac096832269864d5c43204cd420ea9405", "git_blob_sha1": "b34851819648f6d1a0b5fab6e8a5269bf2e1682b",
-            "sha256": core_sha or "1e8c17058fdf50d0985e9f669e10e448cdd2878b090973ad4c90567fee5c561c",
+            "sha256": core_sha or EXPECTED_CORE_SHA256,
             "pages": 6926, "public_edition_pages": f"{new_page(159)}-{new_page(7084)}",
-            "check": "20 sampled pages text-identical (modulo fi/fl ligature encoding) between the repo file and the collection",
+            "check": "Core input SHA-256 verified before assembly; all 6,926 pages copied directly from this file, replacing the collection copy. See REVIEW.md for output verification.",
         },
         "sources": sources,
         "components": page_map,
@@ -729,7 +760,7 @@ def main() -> int:
                                   "(50-page personal study guide withheld) plus Jennifer Lorraine Nielsen's 116-page Preprints.org preprint (CC BY 4.0). "
                                   "Nielsen's 240-page TUFT manuscript is cited, not reproduced (no redistribution license).")
         meta["pdf:Keywords"] = "Theory of Everything, Baird, ZoraASI, MQGT-SCF, Jennifer Lorraine Nielsen, Hopf fibration, research collection, public edition, attribution"
-        meta["xmp:CreatorTool"] = "Public edition: AI-assisted derivation (Claude) with pikepdf and ReportLab; full collection: AI-assisted editorial assembly using ChatGPT in the ZoraASI project"
+        meta["xmp:CreatorTool"] = "Public edition: Claude derivation, Codex review and canonical-core restoration, with pikepdf and ReportLab; full collection: ChatGPT / ZoraASI project"
         meta["xmp:CreateDate"] = BUILD_TIMESTAMP
         meta["xmp:ModifyDate"] = BUILD_TIMESTAMP
     out.docinfo["/Subject"] = pikepdf.String(
@@ -739,7 +770,7 @@ def main() -> int:
     out_pdf = os.path.join(args.outdir, OUTPUT_BASENAME)
     print("[6/7] saving", out_pdf, "...")
     out.save(out_pdf, linearize=True, min_version="1.7", object_stream_mode=pikepdf.ObjectStreamMode.generate, compress_streams=True)
-    out.close(); src.close(); ed.close()
+    out.close(); src.close(); ed.close(); core.close()
 
     # 7. verify output + sidecars ---------------------------------------------------------------------
     print("[7/7] verifying output ...")
@@ -768,13 +799,8 @@ def main() -> int:
     with open(os.path.join(args.outdir, "PAGE_MAP.csv"), "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=["component_id", "title", "authorship", "full_collection_pages", "public_edition_pages", "pages"])
         w.writeheader(); w.writerows(page_map)
-    with open(os.path.join(args.outdir, "SHA256SUMS"), "w") as f:
-        f.write(f"{out_sha}  {OUTPUT_BASENAME}\n")
-        f.write(f"# --- inputs (not distributed in this folder) ---\n")
-        f.write(f"{sha}  A_Theory_of_Everything_Research_Collection_2026-10-01.pdf  # private full collection (7,689 pages)\n")
-        f.write(f"{manifest['core_2026_09_18']['sha256']}  A_Theory_of_Everything_UPDATED_2026-09-18.pdf  # repo core, main@58d054c\n")
-        for s_ in orig_manifest["sources"]:
-            f.write(f"{s_['sha256']}  {s_['filename']}  # source {s_['index']}: {s_['title']}\n")
+    write_checksums(os.path.join(args.outdir, "SHA256SUMS"), out_sha, sha,
+                    manifest['core_2026_09_18']['sha256'], orig_manifest["sources"])
     print("DONE")
     print("  output :", out_pdf)
     print("  pages  :", EXPECTED_OUTPUT_PAGES)
