@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-12",
+  "repository": "Cbaird26/mqgt-scf-continued",
+  "branch": "research/two-singlet-higgs-portal-2026-09-21",
+  "inspected_head": "451e10ae2249e12d13c2ceb1f6b41184b9e21eb8",
+  "inherited_archive": {
+    "file": "NOTE_50_REPRODUCIBILITY_PACKAGE.zip",
+    "sha256": "8f23408612d75093b5dc2fa46b08a7fd4900c2561996dc68507749c49eb27afd",
+    "manifest_entries_verified": 52,
+    "unmodified": true
+  },
+  "new_sources": {
+    "reproduce_note51.py": {
+      "bytes": 1988,
+      "sha256": "ad57714755fd4c85f3677f0adce26f79d49b474437c546c7449482f33dcedf9a",
+      "remote_created_git_blob_matches": "f9bfa07a278bd8e52140c6dd7d5556f6ed32865a"
+    },
+    "leptonic_conversion_scattering.py": {
+      "bytes": 14036,
+      "sha256": "e6a78ec48310e1e64bb0cfad158bbfaa6aeff9ef2712f7e4ed8a7af6662ac55d",
+      "remote_created_git_blob_matches": "6ba9dcd73f7ef7325e939cebbcf0e6d482a341b3"
+    },
+    "test_research_note_51.py": {
+      "bytes": 11719,
+      "sha256": "4aaff744708e69e5458f192f77ccb88525914006fb571a26ae7b4b57ff8ed61f",
+      "remote_created_git_blob_matches": "9de2313af2462d47ddaea758d325eeb844f2155c"
+    }
+  },
+  "execution": {
+    "inherited_tests": 277,
+    "new_note51_tests": 31,
+    "combined_tests": 308,
+    "failures": 0,
+    "errors": 0,
+    "inherited_run_exit": 0,
+    "combined_run_exit": 0,
+    "new_hash_matched_run_exit": 0,
+    "inherited_unittest_seconds": 36.25,
+    "new_initial_unittest_seconds": 0.372,
+    "combined_unittest_seconds": 35.107,
+    "hash_matched_new_unittest_seconds": 0.376,
+    "combined_command": [
+      "/opt/pyvenv/bin/python",
+      "-m",
+      "unittest",
+      "-v",
+      "test_research_note_40",
+      "test_research_note_42",
+      "test_research_note_43",
+      "test_research_note_44",
+      "test_note45_rg_matching",
+      "test_research_note_46",
+      "test_research_note_47",
+      "test_research_note_48",
+      "test_research_note_49",
+      "test_research_note_50",
+      "test_research_note_51"
+    ],
+    "combined_PYTHONPATH": "inherited_note50/note50 in this working layout; packaged inherited/ in the final archive",
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0",
+    "log_hashes": {
+      "NEW_51_INITIAL.txt": "6ec72b3d10d3bb7186343b8f74f33b1e2b41719437979cdb29d9419ad3e34bc7",
+      "HASH_MATCHED_NEW_31.txt": "48547cdbb98f2b59ca6146c78ccd5bf391f17cac8f7000839bb549d730a6898e",
+      "COMBINED_308.txt": "3715d7516efc922ed98bd2106cac954b7df8fb400e524a81b6156542240fe1e7",
+      "INHERITED_277.txt": "f0e057f4a8e93d9dc66d1778de12d674f5db16f7bc53dcf9b17ecce25255e4ab"
+    }
+  },
+  "source_basis": {
+    "thermal_reaction_density": "Garny et al. arXiv:1705.09292v2 Eq.(7); Edsjo/Gondolo hep-ph/9704361",
+    "matrix_element": "Derived in Note51 from inherited portal vertices; checked with explicit Dirac matrices",
+    "decay_width": "Inherited 3.060267688e-22 GeV; not a new decay-width calculation"
+  },
+  "first_new_suite": "31/31 passed on first run; no physics formula or assertion tolerance altered afterward",
+  "environment_issue": "Initial container.exec call rejected before execution; Python file access and subprocess execution succeeded",
+  "FD_full_phase_space_evaluated": false,
+  "FD_pointwise_bound_derived": true,
+  "scattering_kernel": "Vacuum tree, finite masses, no Higgs width in spacelike t",
+  "new_integration_checks": 18,
+  "max_relative_q_angle_vs_w_difference": 3.885780586188048e-15,
+  "inherited_test_lineage": "Attached Note50 local 277-test chain; includes the 26-test local Note49, not alternate live 24-test implementation",
+  "original_standalone_note41_suite_run": false,
+  "live_note45_real_suite_run": false,
+  "whole_repository_audit": false,
+  "complete_network": false,
+  "abundance_computed": false,
+  "publication": "Blob matching verified; later commit/ref and clean-package validation are separate receipts"
+}

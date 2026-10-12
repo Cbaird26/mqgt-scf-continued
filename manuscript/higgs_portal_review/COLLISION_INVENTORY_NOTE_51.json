@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-12",
+  "model": "Restricted exact-common-Z2 two-real-singlet Higgs portal, illustrative m1=10 GeV, m2=11.5 GeV",
+  "scope": "Minimum collision inventory for this development line; not an exhaustive operator or all-orders census",
+  "rows": [
+    {
+      "id": "ANN-LEP",
+      "reaction": "s_i s_j <-> e+e-, mu+mu-, tau+tau-",
+      "delta_total_odd_forward": -2,
+      "status": "Vacuum tree thermal partials for 11/12/22, Note 39",
+      "missing": "Plasma/QED effects and a full-temperature history"
+    },
+    {
+      "id": "ANN-QUARK",
+      "reaction": "s_i s_j <-> b bbar, c cbar (+ QCD radiation)",
+      "delta_total_odd_forward": -2,
+      "status": "Finite-mass nonsinglet perturbative contributions in Note 41",
+      "missing": "Compatible overlapping gluonic/mixed final states and a complete inclusive current"
+    },
+    {
+      "id": "ANN-GLUON",
+      "reaction": "s_i s_j <-> gg, ggg, g q qbar (q=u,d,s)",
+      "delta_total_odd_forward": -2,
+      "status": "Candidate selected-cut assembly with independent finite-virtual and universal-normalization checks, Notes 48-50",
+      "missing": "Second complete massive real-amplitude implementation; real heavy-pair cuts and interference; wider thermal domain"
+    },
+    {
+      "id": "ANN-OTHER",
+      "reaction": "s_i s_j <-> other allowed Standard Model final states",
+      "delta_total_odd_forward": -2,
+      "status": "Not a complete computed channel list",
+      "missing": "Direct light-quark Yukawa, loop photonic/electroweak and any relevant high-temperature channels"
+    },
+    {
+      "id": "DEC-LEP",
+      "reaction": "s2 <-> s1 e+e-, s1 mu+mu-",
+      "delta_total_odd_forward": 0,
+      "status": "Inherited vacuum width partial 3.060267688e-22 GeV; MB time-dilation applied",
+      "missing": "Finite-density blocking/radiative corrections; tau-pair decay is kinematically closed at this benchmark"
+    },
+    {
+      "id": "DEC-NONLEP",
+      "reaction": "s2 <-> s1 + hadrons/photons/other allowed even final states",
+      "delta_total_odd_forward": 0,
+      "status": "No new contribution evaluated here",
+      "missing": "Authenticated Omnes input plus source/normalization/domain matching for exclusive hadrons, and other open widths"
+    },
+    {
+      "id": "CONV-LEP",
+      "reaction": "s2 l^+/- <-> s1 l^+/- (l=e,mu,tau)",
+      "delta_total_odd_forward": 0,
+      "status": "New Note 51: finite-mass exact-vacuum-tree/MB rates, reciprocity, thermal detailed balance, and FD scattering bracket",
+      "missing": "Explicit full FD integration (bracket only), medium/radiative effects, and proof of scalar kinetic equilibrium"
+    },
+    {
+      "id": "CONV-QCD",
+      "reaction": "s2 + bath quark/gluon/hadron <-> s1 + bath state",
+      "delta_total_odd_forward": 0,
+      "status": "Uncomputed in this note",
+      "missing": "Spacelike/finite-temperature scalar response and distributions; timelike vacuum annihilation rates cannot simply be substituted"
+    },
+    {
+      "id": "CONV-INTERNAL",
+      "reaction": "s_i s_j <-> s_k s_l, including s2 s2 <-> s1 s1",
+      "delta_total_odd_forward": 0,
+      "status": "Not included in the linear bath-conversion rate",
+      "missing": "Declared singlet quartics, Higgs-exchange amplitudes, densities and nonlinear collision terms"
+    },
+    {
+      "id": "KIN-ELASTIC",
+      "reaction": "s_i + bath <-> s_i + bath",
+      "delta_total_odd_forward": 0,
+      "status": "Not evaluated here; event-count rate is not momentum-relaxation rate",
+      "missing": "Momentum-transfer collision kernel, possible inelastic kinetic effects, and nonthermal distribution evolution"
+    },
+    {
+      "id": "PROD-HIGGS",
+      "reaction": "h <-> s_i s_j",
+      "delta_total_odd_forward": 2,
+      "status": "Vacuum Higgs pair widths discussed in Notes 22-24",
+      "missing": "Early thermal production/reheating history, actual bath distributions and initial yields"
+    },
+    {
+      "id": "NUMBER-HIGHER",
+      "reaction": "Other symmetry-allowed number-changing odd-sector reactions, e.g. 4->2",
+      "delta_total_odd_forward": -2,
+      "status": "Not computed or declared negligible",
+      "missing": "Relevant self-interactions, density regime and a justified truncation"
+    }
+  ],
+  "full_network_complete": false,
+  "kinetic_equilibrium_established": false,
+  "chemical_equilibrium_established": false,
+  "absolute_abundance_determined": false
+}
