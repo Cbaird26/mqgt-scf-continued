@@ -26,7 +26,7 @@ Single auditable index across the research estate: **claim → assumptions → d
 | `consciousness-research-pipeline` | methodological transfer to consciousness research; labeled speculation, explicit guardrails | public | description-level |
 | `mqgt-gate03-external-reproduction` | GATE-03 reproduction packet + preregistered QRNG analysis controls | public | description-level; standing caveat §3 |
 | `mqgt-scf-phase3-public` | Phase-3 papers staging | private | name/role only |
-| Corpus line: `TOE_Corpus_2026`, `toe_corpus_release`, `A-Theory-of-Everything---Baird-et-al-2025-.pdf`, `toe-2026-updates(-v2)` | corpus sources; this repo carries `A_Theory_of_Everything_UPDATED_2026-09-18.pdf` | public | description-level |
+| Corpus line: `TOE_Corpus_2026`, `toe_corpus_release`, `toe-research-2025` (formerly `A-Theory-of-Everything---Baird-et-al-2025-.pdf`), `toe-2026-updates(-v2)` | corpus sources; this repo carries `A_Theory_of_Everything_UPDATED_2026-09-18.pdf` | public | description-level |
 | Satellite line: `mqgt-*` domain repos (core params, validation suite, constraints ledger, QRNG, preregistration, …) | per-domain materials from the 2026-01 program organization | public | description-level |
 | Applications line (`fold-space-engine`, Zora/ZoraASI apps, sites) | interactive/public surfaces; not claim-bearing for physics | mixed | out of scope |
 
