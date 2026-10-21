@@ -1,0 +1,101 @@
+REPRODUCING THE EXPANDING FREE-FERMION BENCHMARK
+
+Environment
+-----------
+The supplied calculation used Python 3.12.14, NumPy 2.3.5, SciPy 1.17.0,
+and Matplotlib 3.10.8. Install the listed dependencies if needed:
+
+  python -m pip install -r requirements.txt
+
+The scripts resolve paths relative to their own locations. They can be
+called from another working directory. Child processes use the current
+Python interpreter and OPENBLAS_NUM_THREADS=1. A writable temporary
+Matplotlib cache is selected if the environment has not already set one.
+
+Default reproduction
+--------------------
+  python reproduce_all.py
+
+This uses the six supplied raw banks and reruns:
+  - the combined expanding-network evolution;
+  - matched grid, time, temperature, tail, and scattering-quadrature checks;
+  - the scattering-only and scattering-plus-decay channel controls;
+  - the independent thermal annihilation and vacuum decay rate table;
+  - analytic equilibrium and direct continuum collisionless checks;
+  - the inherited fixed-temperature count contrast for available banks;
+  - the report and figure through build_report.py, when present.
+
+The combined evolution and its refinement suite took about 14 seconds
+in the original environment. The full default also regenerates rates,
+independent controls, and the report; its runtime depends on hardware.
+Use --skip-report to omit the figure/report step.
+
+Full reconstruction of the six required raw banks
+------------------------------------------------
+  python reproduce_all.py --full
+
+This first regenerates:
+  solver/bank_q40.npz              8 regular eta intervals plus T=0.4
+  solver/bank_q48_eta16.npz        16 regular eta intervals plus T=0.4
+  network/pair_bank_eta16.npz      conditional pair-annihilation kernels
+  network/pair_bank.npz           matching 8-interval subset, reusing cache
+  network/decay_bank_eta16.npz     decay plus inverse-absorption conductances
+  network/decay_bank.npz           matching 8-interval conductances
+
+The scattering banks use 192 finite y=p/T cells through y=48, followed
+by a semi-infinite cell per species. Their event quadrature orders are
+(40,28,20,20,32) and (48,32,24,24,32), respectively. Pair kernels use
+radial/angular orders (4,24). Decay kernels use parent/spectrum/tail
+orders (8,64,64). Every grid retains the aggregate infinite tail.
+
+The fine scattering bank is rebuilt directly on all 18 temperature
+nodes. A separate q48 eight-interval file is unnecessary: that grid is
+an exact subset of the fine bank. The fine pair bank is computed first;
+the coarse pair bank reuses its matching entries exactly. The original
+scattering integrations required roughly five and a half minutes;
+including reaction kernels and postprocessing, allow several minutes
+for --full. Hardware and numerical-library builds affect runtime.
+
+Each rebuilt bank's metadata sidecar is regenerated. This can change
+elapsed-time or source-description fields even when numerical arrays
+agree. Floating-point last digits and compressed archive bytes need
+not reproduce exactly. Delivery checksums describe the delivered files
+before regeneration.
+
+Independent archived diagnostics
+--------------------------------
+The standard runner preserves additional archived diagnostics and
+their source scripts. It does not delete them or replace their results
+with values from the main evolution. In particular:
+
+  network/verify_network.py
+    Recomputes the targeted decay-shape refinement, its refined T=0.4
+    conductance array, and timelike-width sensitivity.
+
+  network/scalar_exchange_audit.py
+    Recomputes the audit of known higher-portal-order scalar-exchange
+    rates. These rates are outside the declared leading-order network.
+
+Other independent diagnostic records, including the pair-kernel check,
+remain supplied evidence. The exact scope of each is documented in the
+network and review notes. Older q24 and stand-alone q48 eight-interval
+pilot banks are not needed for the final matched refinement suite.
+
+Physical scope
+--------------
+The evolved temperature window is 0.5 to 1/3 GeV. The initial scalar
+distribution is zero-chemical-potential Maxwell-Boltzmann equilibrium
+at 0.5 GeV. The radiation background is prescribed with g*=g*s=60.
+The common variable y=p/T follows exact collisionless redshift under
+that background. The kinetic equations retain momentum-cell structure.
+
+The reaction-rate table also contains diagnostic temperatures above
+0.5 GeV; those entries are not additional solved cosmological histories.
+The declared network includes free-fermion scattering/conversion,
+decay and inverse absorption, and pair annihilation and inverse creation.
+It does not calculate an interacting QCD response or establish a physical
+relic abundance. Refinement changes are empirical sensitivities, not
+certified continuum-error bounds.
+
+No network access is required after dependencies are installed.
+The runner overwrites the numerical outputs it explicitly regenerates.

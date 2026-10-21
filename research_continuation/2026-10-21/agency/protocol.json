@@ -1,0 +1,78 @@
+{
+  "protocol_id": "synthetic-causal-memory-v1-2026-10-21",
+  "status": "Local prespecification before data generation; not an externally registered study",
+  "data_status": "Entirely synthetic; no human, animal, neural or physical-field observations",
+  "question": "Does intervention on an explicitly implemented previous-state memory change held-out prediction of a temporally dependent binary source?",
+  "scope": "Operational causal access to predictive memory only; no consciousness, phenomenology, autonomous agency or scalar-field inference",
+  "source": {
+    "initial_state": "Independent Bernoulli(0.5) for every trial",
+    "transition": "X[t]=X[t-1] with probability stay; otherwise flip",
+    "trials_independent": true,
+    "population_marginal": "Stationary balanced Bernoulli(0.5); finite empirical balance is not forced",
+    "conditions": [
+      {
+        "name": "markov_stay_0_8",
+        "stay": 0.8,
+        "train_seed": 2026102101,
+        "test_seed": 2026102102,
+        "pairing_seed": 2026102103,
+        "bootstrap_seed": 2026102104
+      },
+      {
+        "name": "iid_stay_0_5",
+        "stay": 0.5,
+        "train_seed": 2026102111,
+        "test_seed": 2026102112,
+        "pairing_seed": 2026102113,
+        "bootstrap_seed": 2026102114
+      }
+    ]
+  },
+  "sample": {
+    "training_trials_per_source": 400,
+    "held_out_trials_per_source": 400,
+    "transitions_per_trial": 64,
+    "training_test_split": "Independent RNG seeds and disjoint trial identifiers; complete trials assigned before fitting"
+  },
+  "predictor": {
+    "state": "Previous source bit; no access to contemporaneous target or future bits",
+    "fit": "Train-only 2x2 transition counts with symmetric Laplace pseudocount 1",
+    "p_next_one_given_previous": "(train_count[previous,1]+1)/(sum(train_count[previous,:])+2)",
+    "reset_prediction": "Train-only marginal P(next=1), with Laplace pseudocount 1",
+    "freeze": "No refitting or tuning using held-out outcomes or interventions"
+  },
+  "interventions": [
+    "intact: decoder uses the trial's own previous bit",
+    "reset: replace memory by null state; frozen decoder returns training marginal",
+    "cross_trial_swap: random pairing of held-out trials, reciprocal donor swap of previous-state sequences, no fixed points; exact marginal preservation at each prediction time",
+    "state_relabel: internal state becomes 1-previous_bit and decoder is conjugated accordingly; predictions must be bitwise identical to intact"
+  ],
+  "scores": {
+    "primary": "Brier loss mean((p-y)^2), lower is better",
+    "secondary": "Natural-log loss mean(-y*log(p)-(1-y)*log(1-p)), lower is better",
+    "effect": "Paired intervention loss minus intact loss; positive means intervention worsens prediction",
+    "clipping": 1e-12
+  },
+  "uncertainty": {
+    "method": "Percentile bootstrap of paired loss differences",
+    "replicates": 4000,
+    "confidence_level": 0.95,
+    "cluster": "Reciprocal-swap pair of two complete trials; resample all 64 transitions and both donor-linked trials together",
+    "reason": "Serial dependence is retained within each trial, and reciprocal donor dependence is retained within each two-trial block",
+    "scope": "Held-out sampling uncertainty conditional on the fitted predictor, fixed source parameters and prespecified pairing mechanism; does not include training-fit or real-world model uncertainty"
+  },
+  "prespecified_checks": {
+    "positive_control": "For Markov source, reset and swap paired Brier-loss 95% intervals are strictly above zero; log loss is corroborating secondary evidence",
+    "negative_control": "For IID source, each reset and swap Brier-loss interval lies within [-0.01,0.01]; each log-loss interval within [-0.02,0.02]",
+    "equivalence_control": "Relabeling gives exactly identical predictions and losses",
+    "leakage": "Fitting accepts training partition only; training and test seed/IDs disjoint; decoder frozen; every prediction input is an own- or donor-trial bit at t-1",
+    "marginal_control": "Swap has no fixed points and preserves previous-bit counts at every time"
+  },
+  "analysis_policy": {
+    "no_seed_search": true,
+    "no_optional_stopping": true,
+    "no_parameter_tuning_after_results": true,
+    "report_all_conditions": true,
+    "interpretation": "A successful run validates this synthetic operational memory mechanism and analysis pipeline, not the existence of conscious experience or a new physical field"
+  }
+}

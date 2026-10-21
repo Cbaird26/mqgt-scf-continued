@@ -1,0 +1,29 @@
+{
+  "qcd_leptons_photon": {
+    "time384": {
+      "Tkin_over_T": 6.669818886084755e-07,
+      "heavy_fraction": 9.166198290666561e-08,
+      "comoving_number_over_actual_initial": 5.85725912216617e-10
+    },
+    "grid96": {
+      "Tkin_over_T": 0.0005752380923735867,
+      "heavy_fraction": 3.9704972638887615e-07,
+      "comoving_number_over_actual_initial": 3.179083662985249e-10
+    }
+  },
+  "qcd_leptons_photon_ideal_cb": {
+    "time384": {
+      "Tkin_over_T": 1.4620944192023089e-06,
+      "heavy_fraction": 9.684303720058907e-08,
+      "comoving_number_over_actual_initial": 5.721760842902768e-10
+    },
+    "grid96": {
+      "Tkin_over_T": 0.0007424646124067902,
+      "heavy_fraction": 1.0113312746348746e-06,
+      "comoving_number_over_actual_initial": 3.836919670874295e-10
+    }
+  },
+  "max_remap_count_error": 3.3306690738754696e-16,
+  "max_linear_count_error": 3.3306690738754696e-16,
+  "max_entropy_relative_error": 4.440892098500626e-16
+}

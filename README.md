@@ -37,6 +37,21 @@ spectral determinants on S⁷ and S⁹, not derived.
 > - Lean-4 compile checks as physics evidence (they are proof-assistant
 >   checks of stated theorems, where used)
 
+## Research continuation — 21 October 2026
+
+The [dated checkpoint](research_continuation/2026-10-21/README.md) brings together
+six executed workstreams: common action conventions, thermal-history and EOS
+sensitivity, public interferometry count reanalysis, spectral-profile
+identifiability, an ultraviolet audit, and a synthetic causal-memory study.
+It includes code, compact results, source hashes, claim status, and reproducibility
+instructions. The [research release](https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.21-research-continuation)
+provides the report and complete offline input/output package.
+
+These are conditional computational and methodological results. The checkpoint
+records the additional physics needed for full unification or a new experimental
+claim. See its [claim-status record](research_continuation/2026-10-21/sources/claim_status.json)
+and [release notes](research_continuation/2026-10-21/RELEASE_NOTES.md).
+
 ## What's in here
 
 | Path | What it is |

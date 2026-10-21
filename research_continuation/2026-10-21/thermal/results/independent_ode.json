@@ -1,0 +1,189 @@
+{
+  "method": "DOP853 direct unsplit ODE; relative coordinates M/z; piecewise bank-knot intervals",
+  "rtol": 2e-10,
+  "atol": 2e-13,
+  "function_evaluations": 274,
+  "minimum_normalized_population": 2.817303340570671e-14,
+  "cases": [
+    {
+      "initial_condition": {
+        "id": "z_1e-06",
+        "z": 1e-06,
+        "theta": 1.0,
+        "heavy_fraction": null
+      },
+      "rows": [
+        {
+          "T_GeV": 0.3333333333333333,
+          "eta": 0.4054651081081644,
+          "scale_factor": 1.5,
+          "physical_number_GeV3": 1.7956924161021682e-15,
+          "heavy_fraction": 0.03642783834687756,
+          "mean_total_energy_GeV": 10.442821521624747,
+          "mean_kinetic_energy_GeV": 0.3881797641044318,
+          "Tkin_over_T": 0.752846329423398,
+          "total_variation_to_common_fugacity_MB": 0.1465730181424466,
+          "total_variation_to_same_species_MB": 0.13988431041122706,
+          "minimum_cell_mass": 2.2239120621693045e-19,
+          "instantaneous_eq_heavy_fraction": 0.013409920546294479,
+          "instantaneous_eq_Tkin_over_T": 0.9999999999999998,
+          "comoving_number_over_equilibrium_reference": 3.563739204875317e-06,
+          "comoving_number_over_actual_initial": 3.563739204875317,
+          "instantaneous_eq_number_over_equilibrium_reference": 7.734779096792362e-05,
+          "yield_Y_total": 1.842159520702541e-15,
+          "rho_scalar_over_prescribed_radiation": 7.694937235623368e-14
+        }
+      ]
+    },
+    {
+      "initial_condition": {
+        "id": "z_1",
+        "z": 1.0,
+        "theta": 1.0,
+        "heavy_fraction": null
+      },
+      "rows": [
+        {
+          "T_GeV": 0.3333333333333333,
+          "eta": 0.4054651081081644,
+          "scale_factor": 1.5,
+          "physical_number_GeV3": 5.03862848988162e-10,
+          "heavy_fraction": 0.03663228805464357,
+          "mean_total_energy_GeV": 10.441766437432005,
+          "mean_kinetic_energy_GeV": 0.38681800535004646,
+          "Tkin_over_T": 0.7502710943448345,
+          "total_variation_to_common_fugacity_MB": 0.14829773500307972,
+          "total_variation_to_same_species_MB": 0.14156177726198188,
+          "minimum_cell_mass": 6.1128828528308e-14,
+          "instantaneous_eq_heavy_fraction": 0.013409920546294479,
+          "instantaneous_eq_Tkin_over_T": 0.9999999999999998,
+          "comoving_number_over_equilibrium_reference": 0.9999684649317577,
+          "comoving_number_over_actual_initial": 0.9999684649317577,
+          "instantaneous_eq_number_over_equilibrium_reference": 7.734779096792362e-05,
+          "yield_Y_total": 5.16901300060421e-10,
+          "rho_scalar_over_prescribed_radiation": 2.158945058574349e-08
+        }
+      ]
+    },
+    {
+      "initial_condition": {
+        "id": "z_10000",
+        "z": 10000.0,
+        "theta": 1.0,
+        "heavy_fraction": null
+      },
+      "rows": [
+        {
+          "T_GeV": 0.3333333333333333,
+          "eta": 0.4054651081081644,
+          "scale_factor": 1.5,
+          "physical_number_GeV3": 3.7575524284889845e-06,
+          "heavy_fraction": 0.0362766142125187,
+          "mean_total_energy_GeV": 10.44217873906843,
+          "mean_kinetic_energy_GeV": 0.38776381774963486,
+          "Tkin_over_T": 0.752057859305544,
+          "total_variation_to_common_fugacity_MB": 0.1470394280006744,
+          "total_variation_to_same_species_MB": 0.14041008302343247,
+          "minimum_cell_mass": 4.6297920085212847e-10,
+          "instantaneous_eq_heavy_fraction": 0.013409920546294479,
+          "instantaneous_eq_Tkin_over_T": 0.9999999999999998,
+          "comoving_number_over_equilibrium_reference": 7457.2553649515185,
+          "comoving_number_over_actual_initial": 0.7457255364951518,
+          "instantaneous_eq_number_over_equilibrium_reference": 7.734779096792362e-05,
+          "yield_Y_total": 3.854786553983029e-06,
+          "rho_scalar_over_prescribed_radiation": 0.00016100948079059374
+        }
+      ]
+    },
+    {
+      "initial_condition": {
+        "id": "kinetic_0.75",
+        "z": 1.0,
+        "theta": 0.75,
+        "heavy_fraction": null
+      },
+      "rows": [
+        {
+          "T_GeV": 0.3333333333333333,
+          "eta": 0.4054651081081644,
+          "scale_factor": 1.5,
+          "physical_number_GeV3": 5.038627421090947e-10,
+          "heavy_fraction": 0.03389595978658604,
+          "mean_total_energy_GeV": 10.373423523446517,
+          "mean_kinetic_energy_GeV": 0.32257958376663753,
+          "Tkin_over_T": 0.6281800369848071,
+          "total_variation_to_common_fugacity_MB": 0.23245954513123113,
+          "total_variation_to_same_species_MB": 0.22759783432622602,
+          "minimum_cell_mass": 2.817303340570671e-14,
+          "instantaneous_eq_heavy_fraction": 0.013409920546294479,
+          "instantaneous_eq_Tkin_over_T": 0.9999999999999998,
+          "comoving_number_over_equilibrium_reference": 0.9999682528190825,
+          "comoving_number_over_actual_initial": 0.9999682528190825,
+          "instantaneous_eq_number_over_equilibrium_reference": 7.734779096792362e-05,
+          "yield_Y_total": 5.169011904156458e-10,
+          "rho_scalar_over_prescribed_radiation": 2.1448139871820668e-08
+        }
+      ]
+    },
+    {
+      "initial_condition": {
+        "id": "kinetic_1.25",
+        "z": 1.0,
+        "theta": 1.25,
+        "heavy_fraction": null
+      },
+      "rows": [
+        {
+          "T_GeV": 0.3333333333333333,
+          "eta": 0.4054651081081644,
+          "scale_factor": 1.5,
+          "physical_number_GeV3": 5.038629502869855e-10,
+          "heavy_fraction": 0.039473978096466446,
+          "mean_total_energy_GeV": 10.510124241526151,
+          "mean_kinetic_energy_GeV": 0.45091327438145934,
+          "Tkin_over_T": 0.8707559228993982,
+          "total_variation_to_common_fugacity_MB": 0.07972112381666627,
+          "total_variation_to_same_species_MB": 0.07016797782377958,
+          "minimum_cell_mass": 6.038498482087156e-13,
+          "instantaneous_eq_heavy_fraction": 0.013409920546294479,
+          "instantaneous_eq_Tkin_over_T": 0.9999999999999998,
+          "comoving_number_over_equilibrium_reference": 0.999968665969856,
+          "comoving_number_over_actual_initial": 0.999968665969856,
+          "instantaneous_eq_number_over_equilibrium_reference": 7.734779096792362e-05,
+          "yield_Y_total": 5.169014039805526e-10,
+          "rho_scalar_over_prescribed_radiation": 2.173079190581963e-08
+        }
+      ]
+    },
+    {
+      "initial_condition": {
+        "id": "heavy_0.25",
+        "z": 1.0,
+        "theta": 1.0,
+        "heavy_fraction": 0.25
+      },
+      "rows": [
+        {
+          "T_GeV": 0.3333333333333333,
+          "eta": 0.4054651081081644,
+          "scale_factor": 1.5,
+          "physical_number_GeV3": 5.038627206995427e-10,
+          "heavy_fraction": 0.08188906952624998,
+          "mean_total_energy_GeV": 10.531868048038877,
+          "mean_kinetic_energy_GeV": 0.4090344437495057,
+          "Tkin_over_T": 0.7922129157935562,
+          "total_variation_to_common_fugacity_MB": 0.13985246646389107,
+          "total_variation_to_same_species_MB": 0.11586435702697653,
+          "minimum_cell_mass": 1.0543257813321148e-13,
+          "instantaneous_eq_heavy_fraction": 0.013409920546294479,
+          "instantaneous_eq_Tkin_over_T": 0.9999999999999998,
+          "comoving_number_over_equilibrium_reference": 0.9999682103295896,
+          "comoving_number_over_actual_initial": 0.9999682103295896,
+          "instantaneous_eq_number_over_equilibrium_reference": 7.734779096792362e-05,
+          "yield_Y_total": 5.169011684520791e-10,
+          "rho_scalar_over_prescribed_radiation": 2.177573960005765e-08
+        }
+      ]
+    }
+  ]
+}

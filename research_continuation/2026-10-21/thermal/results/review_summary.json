@@ -1,0 +1,72 @@
+{
+  "refinement_maximum_absolute_changes": {
+    "step_192_vs_384": {
+      "comoving_number_over_actual_initial": 0.0005428046939419673,
+      "Tkin_over_T": 2.474134107255388e-06,
+      "heavy_fraction": 4.146664247250964e-07,
+      "total_variation_to_same_species_MB": 1.6618572142024224e-06
+    },
+    "momentum_grid_192_vs_96": {
+      "comoving_number_over_actual_initial": 9.768722132319496e-07,
+      "Tkin_over_T": 0.00044794577947826486,
+      "heavy_fraction": 1.4295547271253595e-05,
+      "total_variation_to_same_species_MB": 0.0005643106086284932
+    },
+    "temperature_intervals_16_vs_8": {
+      "comoving_number_over_actual_initial": 3.514568849194433e-05,
+      "Tkin_over_T": 0.0002472743319433812,
+      "heavy_fraction": 0.0005907589896563814,
+      "total_variation_to_same_species_MB": 0.00020305955509034024
+    },
+    "scattering_quadrature48_vs40_at_temperature8": {
+      "comoving_number_over_actual_initial": 7.898649956317172e-08,
+      "Tkin_over_T": 2.8745975721111705e-05,
+      "heavy_fraction": 1.120547397544247e-05,
+      "total_variation_to_same_species_MB": 3.894185717065457e-05
+    },
+    "split_vs_independent_unsplit_ODE": {
+      "comoving_number_over_actual_initial": 0.0007237856573087953,
+      "Tkin_over_T": 3.299142540491573e-06,
+      "heavy_fraction": 5.534422102271286e-07,
+      "total_variation_to_same_species_MB": 2.21602214142691e-06
+    }
+  },
+  "independent_ODE_time_convergence": {
+    "z_1e-06": {
+      "error192": 0.0007237856573087953,
+      "error384": 0.000180980963366828,
+      "error_ratio": 3.9992364050011346
+    },
+    "z_1": {
+      "error192": 7.173771576773902e-10,
+      "error384": 1.7938484031532198e-10,
+      "error_ratio": 3.9990957787535857
+    },
+    "z_10000": {
+      "error192": 6.017265175017883e-08,
+      "error384": 1.5076640602629254e-08,
+      "error_ratio": 3.991118004078784
+    },
+    "kinetic_0.75": {
+      "error192": 7.180203098755555e-10,
+      "error384": 1.7954582265389263e-10,
+      "error_ratio": 3.9990922610306052
+    },
+    "kinetic_1.25": {
+      "error192": 7.165951165788442e-10,
+      "error384": 1.7918944106298795e-10,
+      "error_ratio": 3.9990923144123744
+    },
+    "heavy_0.25": {
+      "error192": 7.2058403688402e-10,
+      "error384": 1.8018719849521858e-10,
+      "error_ratio": 3.999085633728532
+    }
+  },
+  "source_only_low_z_absolute_difference": 2.7993507170512646e-16,
+  "source_only_low_z_relative_difference": 7.855094202745717e-11,
+  "omitted_scalar_only_initial_rate_over_H_at_z1": 1.3513898900857543e-05,
+  "omitted_scalar_only_initial_rate_over_H_at_z10000": 0.13513898900857543,
+  "high_z10000_status": "Formal stress test of the declared fermionic network; omitted nonlinear scalar channels can alter detailed results.",
+  "no_physical_relic_claim": true
+}

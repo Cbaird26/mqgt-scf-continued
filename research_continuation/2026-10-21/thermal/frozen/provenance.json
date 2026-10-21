@@ -1,0 +1,97 @@
+{
+  "prepared_date": "2026-10-21",
+  "work": "Momentum-resolved expanding free-bath evolution with the leading-portal-order fermionic network",
+  "parent_package": {
+    "filename": "Free_Bath_Momentum_Evolution_2026-10-21.zip",
+    "sha256": "e800b7957d24f3c4c2c2c00ab10128ae95d4abc1fe2d4e2a4e4b84258711d0a5",
+    "included_in_full": false
+  },
+  "original_model_repository": "https://github.com/Cbaird26/mqgt-scf-continued",
+  "original_model_commit": "994e51cb28b51ade500bb0e1902f3b082ef8e594",
+  "original_model_source_files": [
+    {
+      "file": "kinetic_moment_audit.py",
+      "git_blob_sha1": "5a1de78d703c2300e4d09e74154180b18d935335",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/994e51cb28b51ade500bb0e1902f3b082ef8e594/manuscript/higgs_portal_review/kinetic_moment_audit.py",
+      "sha256": "a184db6464cfba4dd2bba2720cf5ecd334b980f1fb7eced09df75aaecd6e5dd8",
+      "bytes": 12596,
+      "package_path": "source_reference/kinetic_moment_audit.py"
+    },
+    {
+      "file": "kinetic_moment_reference.py",
+      "git_blob_sha1": "4675d54e0b829c20eba9a2e56844ab0deb3009fc",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/994e51cb28b51ade500bb0e1902f3b082ef8e594/manuscript/higgs_portal_review/kinetic_moment_reference.py",
+      "sha256": "1afa547b5792a4595d37a22aabfe2a3643622467fc2b1e265ff8e0283121cbc9",
+      "bytes": 4002,
+      "package_path": "source_reference/kinetic_moment_reference.py"
+    },
+    {
+      "file": "NOTE_52_RESULTS_SUMMARY.json",
+      "git_blob_sha1": "8726edc9df93b0ee6c6917c64928eaed1e2de425",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/994e51cb28b51ade500bb0e1902f3b082ef8e594/manuscript/higgs_portal_review/NOTE_52_RESULTS_SUMMARY.json",
+      "sha256": "f838ac900113d06a06957132ec11c72d1b58db85eeed2e2536886afdbb6baf97",
+      "bytes": 2706,
+      "package_path": "source_reference/NOTE_52_RESULTS_SUMMARY.json"
+    },
+    {
+      "file": "RESEARCH_NOTE_52_KINETIC_MOMENTS_AND_BATH_RESPONSE.md",
+      "git_blob_sha1": "4b38fb10a26d758f50b830d461d77158d1ebe9fc",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/994e51cb28b51ade500bb0e1902f3b082ef8e594/manuscript/higgs_portal_review/RESEARCH_NOTE_52_KINETIC_MOMENTS_AND_BATH_RESPONSE.md",
+      "sha256": "f08c57ae8be724421cba2220acd15094993ac3ca864913748a804afbeada7ca6",
+      "bytes": 18011,
+      "package_path": "source_reference/RESEARCH_NOTE_52_KINETIC_MOMENTS_AND_BATH_RESPONSE.md"
+    },
+    {
+      "file": "leptonic_conversion_scattering.py",
+      "git_blob_sha1": "6ba9dcd73f7ef7325e939cebbcf0e6d482a341b3",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/994e51cb28b51ade500bb0e1902f3b082ef8e594/manuscript/higgs_portal_review/leptonic_conversion_scattering.py",
+      "sha256": "e6a78ec48310e1e64bb0cfad158bbfaa6aeff9ef2712f7e4ed8a7af6662ac55d",
+      "bytes": 14036,
+      "package_path": "source_reference/leptonic_conversion_scattering.py"
+    }
+  ],
+  "new_declared_inputs": {
+    "initial_temperature_GeV": 0.5,
+    "final_temperature_GeV": 0.3333333333333333,
+    "initial_distribution": "f_i(p)=exp(-E_i(p)/T0); zero chemical potentials; scalar degeneracies one",
+    "initial_number_density_GeV3": 1.7005907435801984e-09,
+    "entropy_degrees_of_freedom": 60,
+    "entropy_history": "constant gstar_s; Ta=T0*a0; a0=1",
+    "timelike_higgs_width_GeV": 0.0041,
+    "timelike_higgs_width_role": "Nominal SM-width prescription for finite inclusive annihilation kernel; not a measured or self-consistently fitted model width"
+  },
+  "inherited_prescribed_radiation_degrees_of_freedom": 60,
+  "evolved_channels": [
+    "phi_i f <-> phi_j f and charge conjugates",
+    "phi_i phi_j <-> f fbar for 11,12,22",
+    "phi2 <-> phi1 f fbar including inverse absorption and recoil"
+  ],
+  "evolved_portal_order": "Leading O(K^2) fermionic collision terms",
+  "excluded": [
+    "interacting QCD and hadronic matching",
+    "loop-induced gluon/photon channels",
+    "general scalar self-couplings",
+    "known O(K^4) scalar-only scattering",
+    "earlier history before T0",
+    "radiation/entropy backreaction",
+    "apparatus response"
+  ],
+  "scope": {
+    "expanding_prescribed_background": true,
+    "isotropic_momentum_resolution": true,
+    "physical_relic_abundance_prediction": false,
+    "uniform_gap_theorem_for_this_evolution": false
+  },
+  "numerical_environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  },
+  "reproduction": "reproduce_all.py uses six supplied banks; --full rebuilds all six first",
+  "review_status": "Independent internal mathematical and computational checks; not external peer review",
+  "primary_context_sources": [
+    "https://arxiv.org/html/1706.07433v3",
+    "https://pdg.lbl.gov/2025/reviews/rpp2025-rev-higgs-boson.pdf"
+  ]
+}

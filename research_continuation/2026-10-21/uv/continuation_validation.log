@@ -1,0 +1,25 @@
+{
+  "status": "new bounded calculations complete; common coupled UV completion remains open",
+  "validation_checks": 5,
+  "spectrum_counts": {
+    "positive_real_part": 8,
+    "zero_within_tolerance": 12,
+    "negative_real_part": 13
+  },
+  "mass_exponents": [
+    2.0,
+    2.0,
+    2.0
+  ],
+  "xi_exponents": [
+    2.855435254039311,
+    2.855435254039311,
+    2.855435254039311
+  ],
+  "six_scalar_DEP_coordinates": {
+    "Lambda_tilde": -2.6261976694855385,
+    "gN_equals_G_tilde": 1.9858609514402776,
+    "lambdaN_equals_2Lambda_tilde": -5.252395338971077
+  },
+  "common_flow_accepted": false
+}

@@ -1,0 +1,13 @@
+{
+  "offline_stage": "Isolated local copy of the delivered package; staging directory is not part of the distribution.",
+  "pre_run_manifest_verification_passed": true,
+  "delivered_files_verified": 281,
+  "full_reproduction_exit_code": 0,
+  "network_acquisition_called": false,
+  "original_result_files_unchanged_by_stage_run": true,
+  "stdout_log": "sources/offline_reproduction_stdout.txt",
+  "stdout_log_path_base": "package root",
+  "stdout_log_sha256": "b133ec17b89e2bcece2f08ed2fb45955602964ee5815419fb421bf577dd8735c",
+  "verification_count_scope": "The full offline rerun began with 281 manifest-listed files. This validation receipt was added afterward, giving the original final package 282 manifest-listed files plus its manifest. Publication metadata and this preserved stdout log were added later. PACKAGE_MANIFEST.json is authoritative for the current release file count.",
+  "publication_changes": "The raw stdout is copied byte-for-byte from the successful original run. Absolute staging and log paths in this receipt have been replaced with a descriptive staging label and a relative log reference; numerical run results are unchanged."
+}

@@ -1,0 +1,637 @@
+{
+  "repository": "Cbaird26/mqgt-scf-continued",
+  "commit": "48f9dcbd34e7cfb86504167a0483f732a5dd5e8e",
+  "verified_source_file_count": 55,
+  "files": [
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/README.txt",
+      "local": "frozen/README.txt",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/README.txt",
+      "git_blob_sha1": "7c9568a89a2156a5a02e8c052e82b7962c1bae91",
+      "sha256": "f69118679e925376d3f70248a326c50c39c2e7011bb4de5ba2edd5e3fd100c44",
+      "bytes": 3338
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/REPRODUCING.txt",
+      "local": "frozen/REPRODUCING.txt",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/REPRODUCING.txt",
+      "git_blob_sha1": "830db421af74e0a01dd560c6faf857d8521652d9",
+      "sha256": "795b7c0123829aa49f05acc4579fa3419fc09f502d89ab3063cb47c1837f8f90",
+      "bytes": 4953
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/RESEARCH_NOTE.txt",
+      "local": "frozen/RESEARCH_NOTE.txt",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/RESEARCH_NOTE.txt",
+      "git_blob_sha1": "7645b81c40593fcaae6a2043c8ab6a3bd957ce49",
+      "sha256": "01ba097ac741647bb89ddbbcbbb767b781a3a46f4ea55c176b3875c552590e32",
+      "bytes": 13855
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/SHA256SUMS",
+      "local": "frozen/SHA256SUMS",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/SHA256SUMS",
+      "git_blob_sha1": "22b9f4f9954286d04f497ceec676fe8da20e63d0",
+      "sha256": "333c09eeefd956d6a55255202d27208ada9e2f2e93653816877c3c198ffd0653",
+      "bytes": 5717
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/analyze_network.py",
+      "local": "frozen/analyze_network.py",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/analyze_network.py",
+      "git_blob_sha1": "facbf96c1d2f95473281a16db6200606882d9064",
+      "sha256": "f4d139850034856a37c87af8084974821cbe0c56d3c24be59345576dbd28afa5",
+      "bytes": 4281
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/build_report.py",
+      "local": "frozen/build_report.py",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/build_report.py",
+      "git_blob_sha1": "d02ee79d676f20344aee17f643638135ae9849d2",
+      "sha256": "fbf57d8d7d26b0d17c5d1f7dee0e358e13d41725b5f35e50594aeb59a3ea8ecd",
+      "bytes": 7076
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/NETWORK_AUDIT.txt",
+      "local": "frozen/network/NETWORK_AUDIT.txt",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/NETWORK_AUDIT.txt",
+      "git_blob_sha1": "47d40c5fa63d9091e0d9bad2c19c6a63dd2281ec",
+      "sha256": "c2eee19fccdf7e67972e3b3663cd95b67276fda292b2566b2744bf3bdd91726a",
+      "bytes": 10269
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/build_decay_bank.py",
+      "local": "frozen/network/build_decay_bank.py",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/build_decay_bank.py",
+      "git_blob_sha1": "bc39a2fa0023f2b8c246663f0789ca128a4f55f4",
+      "sha256": "a1d093692e1da539dce92c9b34a2e4d095141f4fe541559e5f75699aecc488cf",
+      "bytes": 1611
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/decay_bank.npz",
+      "local": "frozen/network/decay_bank.npz",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/decay_bank.npz",
+      "git_blob_sha1": "6549edf679cc013450b2e48277bd09907bb562c1",
+      "sha256": "6980a7c9930dab3e4b4b77bbc8bd03bbf3a0de1f86277f520ba58db813270f2c",
+      "bytes": 1250293
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/decay_bank_eta16.npz",
+      "local": "frozen/network/decay_bank_eta16.npz",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/decay_bank_eta16.npz",
+      "git_blob_sha1": "9e51122e936b11ffbe3ba595281308d79a9f923f",
+      "sha256": "4b41a187f099c5de70db082ebbe8409b8551ffc4dc5178a76878a6a9c0823bc6",
+      "bytes": 2247380
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/decay_graph.py",
+      "local": "frozen/network/decay_graph.py",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/decay_graph.py",
+      "git_blob_sha1": "bdbf38f6d5c63e682670f76e75265f9656565b17",
+      "sha256": "6af53db5ac0bd1cdb48e818fe702162d3c11011dfab1e7d1af6e3e72763e4b8a",
+      "bytes": 6890
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/evolve_network.py",
+      "local": "frozen/network/evolve_network.py",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/evolve_network.py",
+      "git_blob_sha1": "bced52748a20b91d9d233d458966dd02aec6246a",
+      "sha256": "4efc72f9bb8780ce4c43a82381f05c93dfa437c9fb296d2d4f73bbf6f3555215",
+      "bytes": 10622
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/pair_annihilation.py",
+      "local": "frozen/network/pair_annihilation.py",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/pair_annihilation.py",
+      "git_blob_sha1": "04639bcd3e8a057e8664b18189938813db6722dc",
+      "sha256": "b89660f0168f556896b981bf34d79c27e0c7946904bda16b1d60ec9fbfbe9a34",
+      "bytes": 4256
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/pair_bank.json",
+      "local": "frozen/network/pair_bank.json",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/pair_bank.json",
+      "git_blob_sha1": "52e3e48360a678bbdcd7ea0301f7a643c2d68e7c",
+      "sha256": "d31a3d9221a7bd1c66e784618ebae73ec75e4682f6c22ac24cf3c4e0bfc4a6cc",
+      "bytes": 273
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/pair_bank_eta16.json",
+      "local": "frozen/network/pair_bank_eta16.json",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/pair_bank_eta16.json",
+      "git_blob_sha1": "dace12c0ee36e347c34b05c3658a21890bc349ae",
+      "sha256": "2dcef993955e8995cc9469e4c124cb6a17556ae0a1aca0fa4dbca0354c46af36",
+      "bytes": 272
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/reaction_rates.py",
+      "local": "frozen/network/reaction_rates.py",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/reaction_rates.py",
+      "git_blob_sha1": "189cbb83d4123d8080efea1d4d76b5f185b2f3c6",
+      "sha256": "8d882509ffa9ee93c4c1b8cd80ac09e40c803f591c93d61c3cac81d9397ed0e2",
+      "bytes": 7423
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/scalar_exchange_audit.py",
+      "local": "frozen/network/scalar_exchange_audit.py",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/scalar_exchange_audit.py",
+      "git_blob_sha1": "c8bb2ec51045c32a9cd3bd8a7a1acddaf74d47cd",
+      "sha256": "946e150e6867c9b01b4b990beee77182a27fa42f2add386c4631370c1a8d7ac1",
+      "bytes": 3867
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/verify_network.py",
+      "local": "frozen/network/verify_network.py",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/verify_network.py",
+      "git_blob_sha1": "68ab6f858d5490921f71d4fa657d5e46484fe789",
+      "sha256": "0da64ab4fed8778f223b1273214413e36aed7109b6a0e240b763bd30a21d61cd",
+      "bytes": 2577
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/provenance.json",
+      "local": "frozen/provenance.json",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/provenance.json",
+      "git_blob_sha1": "76a5c2e82a69278bb557c45d9c42408e78fefc69",
+      "sha256": "b192e45cb979a6e351f49222ca25c18acd50da7b55b7cecdb9bf2ba82bd7a7fc",
+      "bytes": 4829
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/reproduce_all.py",
+      "local": "frozen/reproduce_all.py",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/reproduce_all.py",
+      "git_blob_sha1": "5f9039c5853a6bbe4849db4e8322a45a53a2f9f9",
+      "sha256": "e9852713ca4ffb8c48d12bc5b16c07acd529332760f15bcbf846e2bf47a4ee4b",
+      "bytes": 4293
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/requirements.txt",
+      "local": "frozen/requirements.txt",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/requirements.txt",
+      "git_blob_sha1": "471f776f67541bcaadd042782a1c0a438d0009f3",
+      "sha256": "815360a00e0e1d7a128cade3de11b66d3fe997cbd6e2c69f8081eb9bc8b88197",
+      "bytes": 46
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/results/convergence_summary.json",
+      "local": "frozen/results/convergence_summary.json",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/results/convergence_summary.json",
+      "git_blob_sha1": "db11c997a6297fb8fd1dfe3bf4b3f879fe30d587",
+      "sha256": "3dcb85a5666db44723c5125bea849b929c45ae7e6c654c714ee8d217faffa9e0",
+      "bytes": 15874
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/results/full_final.json",
+      "local": "frozen/results/full_final.json",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/results/full_final.json",
+      "git_blob_sha1": "b96907d060f187d2272d0a3aef527425a9f04bf8",
+      "sha256": "881e055ccbabd9af2aeeb3aa8a4dbb299e302cac0f79d81f03b63a351a9aabd0",
+      "bytes": 198648
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/review/THEORY_REVIEW.txt",
+      "local": "frozen/review/THEORY_REVIEW.txt",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/review/THEORY_REVIEW.txt",
+      "git_blob_sha1": "870a56e48740803598e89d45a87971ca87573ffd",
+      "sha256": "35b5e5e2a7f551ea9a4fa06af14a4c65dd5709e8650aa8cf705deb1afa6315b3",
+      "bytes": 18037
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/review/reproduction_check.txt",
+      "local": "frozen/review/reproduction_check.txt",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/review/reproduction_check.txt",
+      "git_blob_sha1": "3ff84f7b382a313995d1b4e46e9c5ed381a0768b",
+      "sha256": "fcd9966ac971f030ce2d4996f76f5263def22bf271f386e64a14f994717c8b17",
+      "bytes": 3692
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/review/verify_background.py",
+      "local": "frozen/review/verify_background.py",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/review/verify_background.py",
+      "git_blob_sha1": "9b55db2e8166140b048607d362c249110e46318e",
+      "sha256": "cc4b119c9844891fb4632b4f00c77ca727bfcbb21c066a0d4154bb336bd836c7",
+      "bytes": 2019
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/review/verify_banks.py",
+      "local": "frozen/review/verify_banks.py",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/review/verify_banks.py",
+      "git_blob_sha1": "a54d05a5d63011853ca85853755ff6ce35150d25",
+      "sha256": "4847f2de51061ea2ab9e8a2a326308f40a71275af984dbb67068af1262e09b1c",
+      "bytes": 1546
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/solver/SCATTERING_METHOD.txt",
+      "local": "frozen/solver/SCATTERING_METHOD.txt",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/solver/SCATTERING_METHOD.txt",
+      "git_blob_sha1": "bae0ca657bc7f4b84b2b43445742e7f2815da74b",
+      "sha256": "34779209acafca0d64a6e6d9a06fe390ae92bfa0dbd1bc969cff3e2c203d821a",
+      "bytes": 4950
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/solver/analyze_scattering.py",
+      "local": "frozen/solver/analyze_scattering.py",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/solver/analyze_scattering.py",
+      "git_blob_sha1": "353b7b897cd3090812a7983e18461bcdaefca120",
+      "sha256": "2d1256886bc4c17099421a4dd11f305af1f53390bc995676fe154657cb465d2b",
+      "bytes": 3998
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/solver/bank_q40.json",
+      "local": "frozen/solver/bank_q40.json",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/solver/bank_q40.json",
+      "git_blob_sha1": "aad4e94448fa387cdf223ff349610ae5e029f38a",
+      "sha256": "4cdcfd7efded99a7991cb146cd4a9f06b312444859f7bcfc5694ae43764d7a0d",
+      "bytes": 467
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/solver/bank_q48_eta16.json",
+      "local": "frozen/solver/bank_q48_eta16.json",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/solver/bank_q48_eta16.json",
+      "git_blob_sha1": "12017b7c4e7bf1945f5f64d94026246ff3af0e49",
+      "sha256": "15192d5a4f42b683228c708c41fc23a32758b8a1e7abc1a663d88b95c0436cc8",
+      "bytes": 591
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/solver/expanding_free_bath.py",
+      "local": "frozen/solver/expanding_free_bath.py",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/solver/expanding_free_bath.py",
+      "git_blob_sha1": "ab183c81bc9cb463ec34ce808c8549edc1ea855a",
+      "sha256": "03b17a0d726892a2540493145d4c3a964b655e8aded1b55f026bfa6330a96156",
+      "bytes": 15457
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/source_reference/kinetic_moment_audit.py",
+      "local": "frozen/source_reference/kinetic_moment_audit.py",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/source_reference/kinetic_moment_audit.py",
+      "git_blob_sha1": "5a1de78d703c2300e4d09e74154180b18d935335",
+      "sha256": "a184db6464cfba4dd2bba2720cf5ecd334b980f1fb7eced09df75aaecd6e5dd8",
+      "bytes": 12596
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/source_reference/kinetic_moment_reference.py",
+      "local": "frozen/source_reference/kinetic_moment_reference.py",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/source_reference/kinetic_moment_reference.py",
+      "git_blob_sha1": "4675d54e0b829c20eba9a2e56844ab0deb3009fc",
+      "sha256": "1afa547b5792a4595d37a22aabfe2a3643622467fc2b1e265ff8e0283121cbc9",
+      "bytes": 4002
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/source_reference/leptonic_conversion_scattering.py",
+      "local": "frozen/source_reference/leptonic_conversion_scattering.py",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/source_reference/leptonic_conversion_scattering.py",
+      "git_blob_sha1": "6ba9dcd73f7ef7325e939cebbcf0e6d482a341b3",
+      "sha256": "e6a78ec48310e1e64bb0cfad158bbfaa6aeff9ef2712f7e4ed8a7af6662ac55d",
+      "bytes": 14036
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/bank_q40.npz/0000.part",
+      "local": "frozen/_archive/artifact_parts/bank_q40.npz/0000.part",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/bank_q40.npz/0000.part",
+      "git_blob_sha1": "5e292de3a84758839ee0a6fce4793cc3e886a453",
+      "sha256": "3284f5dde53a5ff29be068b540faec284708d459de9042f87c1a32d325d2acfc",
+      "bytes": 5000000
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/bank_q40.npz/0001.part",
+      "local": "frozen/_archive/artifact_parts/bank_q40.npz/0001.part",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/bank_q40.npz/0001.part",
+      "git_blob_sha1": "654da945529e4630b563489fc0c8c7ae1245e035",
+      "sha256": "606b974ab9be9c07fdf2f7bdee2f3fac4807a83521ec31b2192cb3f498b067a9",
+      "bytes": 5000000
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/bank_q40.npz/0002.part",
+      "local": "frozen/_archive/artifact_parts/bank_q40.npz/0002.part",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/bank_q40.npz/0002.part",
+      "git_blob_sha1": "1ef6fb8347c0515c6cf2f736bc95803263777ad5",
+      "sha256": "4569a47dc439bdc77bc4268f781799c8d71eb319d43aed736fff468616f219d2",
+      "bytes": 1092570
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/bank_q48_eta16.npz/0000.part",
+      "local": "frozen/_archive/artifact_parts/bank_q48_eta16.npz/0000.part",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/bank_q48_eta16.npz/0000.part",
+      "git_blob_sha1": "b9ea4fba2c8f59dd990fb526402c0b9a68f6daa1",
+      "sha256": "630a4facd2b18ab95274d37b470202897fc3ae87eb260029a4020fdcaf4715d7",
+      "bytes": 5000000
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/bank_q48_eta16.npz/0001.part",
+      "local": "frozen/_archive/artifact_parts/bank_q48_eta16.npz/0001.part",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/bank_q48_eta16.npz/0001.part",
+      "git_blob_sha1": "e3f53e1a8a493a270c7fceb4a79893bdb7970a63",
+      "sha256": "1cf5a3cbd26084a18c06294f90c36b609b322fa9a99590c1beedd395f3be54df",
+      "bytes": 5000000
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/bank_q48_eta16.npz/0002.part",
+      "local": "frozen/_archive/artifact_parts/bank_q48_eta16.npz/0002.part",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/bank_q48_eta16.npz/0002.part",
+      "git_blob_sha1": "79893540c551c6607b1aeba7935e887a7f09138b",
+      "sha256": "9da7fda17ee283f1bd79b1927fd87eaf05d5d66400d682692fc5681d1e268189",
+      "bytes": 5000000
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/bank_q48_eta16.npz/0003.part",
+      "local": "frozen/_archive/artifact_parts/bank_q48_eta16.npz/0003.part",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/bank_q48_eta16.npz/0003.part",
+      "git_blob_sha1": "0ebe7f671080cbda9dc3bb74b7ee8351595f0f34",
+      "sha256": "b284511711af8f55abe18a681748a6f8126cb4ebad6267f3c59391a29c96e45c",
+      "bytes": 5000000
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/bank_q48_eta16.npz/0004.part",
+      "local": "frozen/_archive/artifact_parts/bank_q48_eta16.npz/0004.part",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/bank_q48_eta16.npz/0004.part",
+      "git_blob_sha1": "6e11097f1df0f1c36e25a5112d0b57852e6ed22f",
+      "sha256": "492fbc59b706b2c53329038da010ac68aedac274dbc8e3d3d2eefc339d9b2c6b",
+      "bytes": 51933
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/pair_bank.npz/0000.part",
+      "local": "frozen/_archive/artifact_parts/pair_bank.npz/0000.part",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/pair_bank.npz/0000.part",
+      "git_blob_sha1": "15f8198e278ba083235ef78b31c21579a6980e46",
+      "sha256": "2fb2df982e78c4ba4b23a4f7894b617a5845fbc15334d7105a37b23d69e30313",
+      "bytes": 5000000
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/pair_bank.npz/0001.part",
+      "local": "frozen/_archive/artifact_parts/pair_bank.npz/0001.part",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/pair_bank.npz/0001.part",
+      "git_blob_sha1": "2c2733fdae0841d5b012bb9189611dce9229ff04",
+      "sha256": "25b6895141f37e8f7aa6bd846ed1c2bc588e5ef07f912056ab023169ee7ce4d3",
+      "bytes": 5000000
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/pair_bank.npz/0002.part",
+      "local": "frozen/_archive/artifact_parts/pair_bank.npz/0002.part",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/pair_bank.npz/0002.part",
+      "git_blob_sha1": "963c8e3b5daac58b30fe873927b362a2c865fb52",
+      "sha256": "d4f4e6ac1182f342b36090168b0505a7cb7d7f22ef5c8916aa15fe6169507f4b",
+      "bytes": 545379
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/pair_bank_eta16.npz/0000.part",
+      "local": "frozen/_archive/artifact_parts/pair_bank_eta16.npz/0000.part",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/pair_bank_eta16.npz/0000.part",
+      "git_blob_sha1": "4b0dc5f66f7e7cabc28211d8728fce73f5d7df19",
+      "sha256": "fbcf40d6f86b19034e81c0d1b1424ee91cd03f017e8c533a1db8f3a6d4955c56",
+      "bytes": 5000000
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/pair_bank_eta16.npz/0001.part",
+      "local": "frozen/_archive/artifact_parts/pair_bank_eta16.npz/0001.part",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/pair_bank_eta16.npz/0001.part",
+      "git_blob_sha1": "78e7bcb433da86b23f903477fccde02f0669b5f9",
+      "sha256": "51120e94cb365d05e972ffd867cc4daba2ff82825671ad11e79a1419f77255a9",
+      "bytes": 5000000
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/pair_bank_eta16.npz/0002.part",
+      "local": "frozen/_archive/artifact_parts/pair_bank_eta16.npz/0002.part",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/pair_bank_eta16.npz/0002.part",
+      "git_blob_sha1": "6d0a473fd214baf93abf8e16c3d3c55fcff5eb0b",
+      "sha256": "0bced99b69d1f7cc808e10910e7d4bda7f39621da339915a767fab3c1a0c03b4",
+      "bytes": 5000000
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/pair_bank_eta16.npz/0003.part",
+      "local": "frozen/_archive/artifact_parts/pair_bank_eta16.npz/0003.part",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/pair_bank_eta16.npz/0003.part",
+      "git_blob_sha1": "4a8799f04b8835ae2d722874337e23691feb3fd8",
+      "sha256": "d538241cc24072c3a0768a8263abf60a0424977f92f6b74a1193e7fc51e759e2",
+      "bytes": 3980998
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/restore_artifacts.py",
+      "local": "frozen/_archive/restore_artifacts.py",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/restore_artifacts.py",
+      "git_blob_sha1": "6dfd1b793aaa6d9d488b5bc28551dce498e55864",
+      "sha256": "fdd4895a6b1198cd8cc4b48c90c05d54387b6f4e1fc3cdb9f533ea5dc1005d5b",
+      "bytes": 3290
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/ARTIFACT_PARTS.json",
+      "local": "frozen/_archive/ARTIFACT_PARTS.json",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/ARTIFACT_PARTS.json",
+      "git_blob_sha1": "73de71f2fbe1bb429598da1b09641167cbaaa29b",
+      "sha256": "8081a60a334e4b7e545e6c2448a7ba90893fc946c322de418a80799dc4c3c958",
+      "bytes": 4003
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/decay_bank.json",
+      "local": "frozen/network/decay_bank.json",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/decay_bank.json",
+      "git_blob_sha1": "bd15130790c74879eb641ff7d985f1d36eb6bdb0",
+      "sha256": "2b803c8e8a29b0014270f5c8815f886a164450cd956f0e2f1e96f056d37a1990",
+      "bytes": 42574
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/decay_bank_eta16.json",
+      "local": "frozen/network/decay_bank_eta16.json",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/decay_bank_eta16.json",
+      "git_blob_sha1": "ed5a87386f60294d09208374f9ff058d4fc59741",
+      "sha256": "20fc3d8d5e5ee02188ac1c7588b22086c4e9700bf1f34a03124382724d9dae68",
+      "bytes": 76598
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/scalar_exchange_audit.json",
+      "local": "frozen/network/scalar_exchange_audit.json",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/scalar_exchange_audit.json",
+      "git_blob_sha1": "f266292dce43e42e5dfdcf4dbd45a0309b532f13",
+      "sha256": "3a839b50c8dec91bddfbb3a760dd934aa28ac1a334b25f3f0c3e6641aeeaf013",
+      "bytes": 4171
+    }
+  ],
+  "omitted_redundant_split_parts": [],
+  "source_checksum_matches": [
+    {
+      "path": "README.txt",
+      "sha256": "f69118679e925376d3f70248a326c50c39c2e7011bb4de5ba2edd5e3fd100c44"
+    },
+    {
+      "path": "REPRODUCING.txt",
+      "sha256": "795b7c0123829aa49f05acc4579fa3419fc09f502d89ab3063cb47c1837f8f90"
+    },
+    {
+      "path": "RESEARCH_NOTE.txt",
+      "sha256": "01ba097ac741647bb89ddbbcbbb767b781a3a46f4ea55c176b3875c552590e32"
+    },
+    {
+      "path": "analyze_network.py",
+      "sha256": "f4d139850034856a37c87af8084974821cbe0c56d3c24be59345576dbd28afa5"
+    },
+    {
+      "path": "build_report.py",
+      "sha256": "fbf57d8d7d26b0d17c5d1f7dee0e358e13d41725b5f35e50594aeb59a3ea8ecd"
+    },
+    {
+      "path": "network/NETWORK_AUDIT.txt",
+      "sha256": "c2eee19fccdf7e67972e3b3663cd95b67276fda292b2566b2744bf3bdd91726a"
+    },
+    {
+      "path": "network/build_decay_bank.py",
+      "sha256": "a1d093692e1da539dce92c9b34a2e4d095141f4fe541559e5f75699aecc488cf"
+    },
+    {
+      "path": "network/decay_bank.json",
+      "sha256": "2b803c8e8a29b0014270f5c8815f886a164450cd956f0e2f1e96f056d37a1990"
+    },
+    {
+      "path": "network/decay_bank.npz",
+      "sha256": "6980a7c9930dab3e4b4b77bbc8bd03bbf3a0de1f86277f520ba58db813270f2c"
+    },
+    {
+      "path": "network/decay_bank_eta16.json",
+      "sha256": "20fc3d8d5e5ee02188ac1c7588b22086c4e9700bf1f34a03124382724d9dae68"
+    },
+    {
+      "path": "network/decay_bank_eta16.npz",
+      "sha256": "4b41a187f099c5de70db082ebbe8409b8551ffc4dc5178a76878a6a9c0823bc6"
+    },
+    {
+      "path": "network/decay_graph.py",
+      "sha256": "6af53db5ac0bd1cdb48e818fe702162d3c11011dfab1e7d1af6e3e72763e4b8a"
+    },
+    {
+      "path": "network/evolve_network.py",
+      "sha256": "4efc72f9bb8780ce4c43a82381f05c93dfa437c9fb296d2d4f73bbf6f3555215"
+    },
+    {
+      "path": "network/pair_annihilation.py",
+      "sha256": "b89660f0168f556896b981bf34d79c27e0c7946904bda16b1d60ec9fbfbe9a34"
+    },
+    {
+      "path": "network/pair_bank.json",
+      "sha256": "d31a3d9221a7bd1c66e784618ebae73ec75e4682f6c22ac24cf3c4e0bfc4a6cc"
+    },
+    {
+      "path": "network/pair_bank.npz",
+      "sha256": "05eb2dc6fa33718d38637c103cfe212cffae19adaf2f24933478e24e0d58ac5e"
+    },
+    {
+      "path": "network/pair_bank_eta16.json",
+      "sha256": "2dcef993955e8995cc9469e4c124cb6a17556ae0a1aca0fa4dbca0354c46af36"
+    },
+    {
+      "path": "network/pair_bank_eta16.npz",
+      "sha256": "05881aa8cbb92e1d00838038e50487f0f94fea88c3d64d9b078f939bd4079d7b"
+    },
+    {
+      "path": "network/reaction_rates.py",
+      "sha256": "8d882509ffa9ee93c4c1b8cd80ac09e40c803f591c93d61c3cac81d9397ed0e2"
+    },
+    {
+      "path": "network/scalar_exchange_audit.json",
+      "sha256": "3a839b50c8dec91bddfbb3a760dd934aa28ac1a334b25f3f0c3e6641aeeaf013"
+    },
+    {
+      "path": "network/scalar_exchange_audit.py",
+      "sha256": "946e150e6867c9b01b4b990beee77182a27fa42f2add386c4631370c1a8d7ac1"
+    },
+    {
+      "path": "network/verify_network.py",
+      "sha256": "0da64ab4fed8778f223b1273214413e36aed7109b6a0e240b763bd30a21d61cd"
+    },
+    {
+      "path": "provenance.json",
+      "sha256": "b192e45cb979a6e351f49222ca25c18acd50da7b55b7cecdb9bf2ba82bd7a7fc"
+    },
+    {
+      "path": "reproduce_all.py",
+      "sha256": "e9852713ca4ffb8c48d12bc5b16c07acd529332760f15bcbf846e2bf47a4ee4b"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "815360a00e0e1d7a128cade3de11b66d3fe997cbd6e2c69f8081eb9bc8b88197"
+    },
+    {
+      "path": "results/convergence_summary.json",
+      "sha256": "3dcb85a5666db44723c5125bea849b929c45ae7e6c654c714ee8d217faffa9e0"
+    },
+    {
+      "path": "results/full_final.json",
+      "sha256": "881e055ccbabd9af2aeeb3aa8a4dbb299e302cac0f79d81f03b63a351a9aabd0"
+    },
+    {
+      "path": "review/THEORY_REVIEW.txt",
+      "sha256": "35b5e5e2a7f551ea9a4fa06af14a4c65dd5709e8650aa8cf705deb1afa6315b3"
+    },
+    {
+      "path": "review/reproduction_check.txt",
+      "sha256": "fcd9966ac971f030ce2d4996f76f5263def22bf271f386e64a14f994717c8b17"
+    },
+    {
+      "path": "review/verify_background.py",
+      "sha256": "cc4b119c9844891fb4632b4f00c77ca727bfcbb21c066a0d4154bb336bd836c7"
+    },
+    {
+      "path": "review/verify_banks.py",
+      "sha256": "4847f2de51061ea2ab9e8a2a326308f40a71275af984dbb67068af1262e09b1c"
+    },
+    {
+      "path": "solver/SCATTERING_METHOD.txt",
+      "sha256": "34779209acafca0d64a6e6d9a06fe390ae92bfa0dbd1bc969cff3e2c203d821a"
+    },
+    {
+      "path": "solver/analyze_scattering.py",
+      "sha256": "2d1256886bc4c17099421a4dd11f305af1f53390bc995676fe154657cb465d2b"
+    },
+    {
+      "path": "solver/bank_q40.json",
+      "sha256": "4cdcfd7efded99a7991cb146cd4a9f06b312444859f7bcfc5694ae43764d7a0d"
+    },
+    {
+      "path": "solver/bank_q40.npz",
+      "sha256": "64f35e6c803c20d73bf18c34923432dd4641f2f474eed10304fac67a52e1496e"
+    },
+    {
+      "path": "solver/bank_q48_eta16.json",
+      "sha256": "15192d5a4f42b683228c708c41fc23a32758b8a1e7abc1a663d88b95c0436cc8"
+    },
+    {
+      "path": "solver/bank_q48_eta16.npz",
+      "sha256": "01e1ab6219bdec9bae5fe2edbe622e1d937603d260d63ed59b12553d639413e4"
+    },
+    {
+      "path": "solver/expanding_free_bath.py",
+      "sha256": "03b17a0d726892a2540493145d4c3a964b655e8aded1b55f026bfa6330a96156"
+    },
+    {
+      "path": "source_reference/kinetic_moment_audit.py",
+      "sha256": "a184db6464cfba4dd2bba2720cf5ecd334b980f1fb7eced09df75aaecd6e5dd8"
+    },
+    {
+      "path": "source_reference/kinetic_moment_reference.py",
+      "sha256": "1afa547b5792a4595d37a22aabfe2a3643622467fc2b1e265ff8e0283121cbc9"
+    },
+    {
+      "path": "source_reference/leptonic_conversion_scattering.py",
+      "sha256": "e6a78ec48310e1e64bb0cfad158bbfaa6aeff9ef2712f7e4ed8a7af6662ac55d"
+    }
+  ],
+  "exact_restored_banks": [
+    {
+      "path": "network/pair_bank.npz",
+      "sha256": "05eb2dc6fa33718d38637c103cfe212cffae19adaf2f24933478e24e0d58ac5e",
+      "bytes": 10545379
+    },
+    {
+      "path": "network/pair_bank_eta16.npz",
+      "sha256": "05881aa8cbb92e1d00838038e50487f0f94fea88c3d64d9b078f939bd4079d7b",
+      "bytes": 18980998
+    },
+    {
+      "path": "solver/bank_q40.npz",
+      "sha256": "64f35e6c803c20d73bf18c34923432dd4641f2f474eed10304fac67a52e1496e",
+      "bytes": 11092570
+    },
+    {
+      "path": "solver/bank_q48_eta16.npz",
+      "sha256": "01e1ab6219bdec9bae5fe2edbe622e1d937603d260d63ed59b12553d639413e4",
+      "bytes": 20051933
+    }
+  ],
+  "missing_archived_diagnostics": "Only the files used for this continuation and its review were acquired; this is not a complete repository mirror."
+}

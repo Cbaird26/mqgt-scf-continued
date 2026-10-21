@@ -1,0 +1,54 @@
+{
+  "scope": "Tree-level algebra and basis consistency; no vacuum, relic, detector, or UV certification",
+  "units": "GeV, hbar=c=1",
+  "benchmark_mass_GeV": [
+    10.0,
+    11.5
+  ],
+  "benchmark_portal_matrix_mass_basis": [
+    [
+      0.001,
+      -0.001
+    ],
+    [
+      -0.001,
+      0.001
+    ]
+  ],
+  "tree_widths_GeV": {
+    "11": 4.753669541749432e-06,
+    "12": 9.487199837761945e-06,
+    "22": 4.733488003188464e-06,
+    "total_production": 1.897435738269984e-05
+  },
+  "total_production_width_keV": 18.974357382699843,
+  "hypothetical_fraction_if_every_daughter_invisible_and_SM_width_4p1_MeV": 0.004606573320538132,
+  "bare_mass_squared_matrix_GeV2": [
+    [
+      69.742,
+      30.258
+    ],
+    [
+      30.258,
+      101.992
+    ]
+  ],
+  "bare_mass_squared_eigenvalues_GeV2": [
+    51.58052760927424,
+    120.15347239072577
+  ],
+  "bare_eigenvalue_caveat": "A positive quadratic Hessian does not establish global stability; quartics are unspecified.",
+  "trace_K_squared": 4e-06,
+  "max_relative_total_width_basis_error": 8.881784197001252e-16,
+  "max_absolute_matching_covariance_error_GeV_inverse": 9.926167350636332e-24,
+  "checks": {
+    "production_basis_invariance": true,
+    "matching_basis_covariance": true,
+    "degenerate_trace_identity": true,
+    "closed_channels_zero": true,
+    "exact_threshold_zero": true,
+    "distinct_channel_factor_two": true,
+    "collider_to_noise_coefficient_identity": true
+  },
+  "check_count": 7
+}

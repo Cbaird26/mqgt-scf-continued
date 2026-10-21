@@ -1,0 +1,24 @@
+{
+  "checkpoint": "v2026.10.21-research-continuation",
+  "validated_at_utc": "2026-10-21T22:36:07.815345+00:00",
+  "isolated_source_files_verified": 289,
+  "pre_run_hash_verification": {
+    "manifest_entries": 289,
+    "failures": []
+  },
+  "full_reproduction_exit_code": 0,
+  "network_acquisition_called": false,
+  "raw_optional_eos_table_distributed": false,
+  "stdout_log": "sources/publication_reproduction_stdout.txt",
+  "stdout_log_sha256": "aa15f1a0ba4320290f27b81cd2faab50c5b638ffbe0669adfec3a9952f652c44",
+  "comparison": {
+    "eos_endpoint_summaries_unchanged": true,
+    "derivative_checks_unchanged": true,
+    "quadrature_checks_unchanged": true,
+    "optional_table_status": "skipped_missing_optional_source",
+    "optional_table_not_requested": true,
+    "report_sha256": "9488d93d948e129b45f4073e11f346af783dbac09dab9a5570882d827ba8d325",
+    "original_report_unchanged": true
+  },
+  "count_scope": "The publication run verified this many package files before adding its own stdout and receipt; the final PACKAGE_MANIFEST.json records the release inventory."
+}

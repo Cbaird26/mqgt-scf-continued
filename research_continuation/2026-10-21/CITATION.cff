@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: >-
+  Please cite this dated research checkpoint when reusing its new calculations,
+  code, or report, and also cite the original sources identified in
+  THIRD_PARTY_NOTICES.md and sources/source_catalog.json. AI assistance is
+  acknowledged in README.txt; cited-source authors retain credit for their work.
+title: "MQGT-SCF Research Continuation — 2026-10-21"
+type: software
+authors:
+  - family-names: Baird
+    given-names: Christopher Michael
+version: v2026.10.21-research-continuation
+date-released: 2026-10-21
+repository-code: "https://github.com/Cbaird26/mqgt-scf-continued"
+license: CC-BY-4.0
+abstract: >-
+  A reproducible continuation of six declared research workstreams: common
+  action conventions, thermal history, public interferometry count analysis,
+  spectral-profile identifiability, ultraviolet flow diagnostics, and a
+  synthetic causal-memory intervention experiment. Results are conditional
+  on the recorded models; a complete Theory of Everything and experimental
+  confirmation of new fields are not established.
+keywords:
+  - reproducible research
+  - scalar portal
+  - kinetic theory
+  - interferometry
+  - spectral action
+  - functional renormalization group
+  - causal memory

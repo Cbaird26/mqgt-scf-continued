@@ -1,0 +1,54 @@
+constant60 standard {'Tkin_over_T': 0.7502713380032882, 'heavy_fraction': 0.03663215909982854, 'comoving_number_over_actual_initial': 0.9999684642143806, 'scale_factor': 1.5}
+constant60 collisionless {'Tkin_over_T': 0.70915034726954, 'heavy_fraction': 0.05721459861191631, 'comoving_number_over_actual_initial': 1.0, 'scale_factor': 1.5}
+qcd_leptons_photon standard {'Tkin_over_T': 0.7222007196866387, 'heavy_fraction': 0.03470920477979238, 'comoving_number_over_actual_initial': 0.9999655241953465, 'scale_factor': np.float64(1.5420276201059797)}
+qcd_leptons_photon time384 {'Tkin_over_T': 0.7222013866685273, 'heavy_fraction': 0.034709296441775284, 'comoving_number_over_actual_initial': 0.9999655247810724, 'scale_factor': np.float64(1.5420276201059797)}
+qcd_leptons_photon grid96 {'Tkin_over_T': 0.7227759577790123, 'heavy_fraction': 0.034709601829518766, 'comoving_number_over_actual_initial': 0.9999655245132548, 'scale_factor': np.float64(1.5420276201059797)}
+qcd_leptons_photon collisionless {'Tkin_over_T': 0.6733539512254856, 'heavy_fraction': 0.05721459861191631, 'comoving_number_over_actual_initial': 0.9999999999999999, 'scale_factor': np.float64(1.5420276201059797)}
+qcd_leptons_photon collisionless96 {'Tkin_over_T': 0.6740062143055032, 'heavy_fraction': 0.05721459861191632, 'comoving_number_over_actual_initial': 0.9999999999999999, 'scale_factor': np.float64(1.5420276201059797)}
+qcd_leptons_photon_ideal_cb standard {'Tkin_over_T': 0.70567369815819, 'heavy_fraction': 0.03466906747706897, 'comoving_number_over_actual_initial': 0.9999665611821005, 'scale_factor': np.float64(1.5648585027013522)}
+qcd_leptons_photon_ideal_cb time384 {'Tkin_over_T': 0.7056751602526092, 'heavy_fraction': 0.03466916432010617, 'comoving_number_over_actual_initial': 0.9999665617542766, 'scale_factor': np.float64(1.5648585027013522)}
+qcd_leptons_photon_ideal_cb grid96 {'Tkin_over_T': 0.7064161627705968, 'heavy_fraction': 0.03467007880834361, 'comoving_number_over_actual_initial': 0.9999665615657924, 'scale_factor': np.float64(1.5648585027013522)}
+qcd_leptons_photon_ideal_cb collisionless {'Tkin_over_T': 0.6550384784545771, 'heavy_fraction': 0.0572145986119163, 'comoving_number_over_actual_initial': 1.0, 'scale_factor': np.float64(1.5648585027013522)}
+qcd_leptons_photon_ideal_cb collisionless96 {'Tkin_over_T': 0.6558953548138353, 'heavy_fraction': 0.057214598611916294, 'comoving_number_over_actual_initial': 1.0, 'scale_factor': np.float64(1.5648585027013522)}
+[
+  {
+    "eos": "constant60",
+    "initial_g_rho": 60.0,
+    "final_g_rho": 60.0,
+    "initial_g_s": 60.0,
+    "final_g_s": 60.0,
+    "final_a": 1.5,
+    "final_Tkin_over_T": 0.7502713380032882,
+    "final_heavy_fraction": 0.03663215909982854,
+    "final_number_over_initial": 0.9999684642143806,
+    "net_number_loss_ppm": 31.535785619429824,
+    "final_yield": 5.169012996895962e-10
+  },
+  {
+    "eos": "qcd_leptons_photon",
+    "initial_g_rho": 54.746485054818606,
+    "final_g_rho": 51.322081122533874,
+    "initial_g_s": 53.73091962429241,
+    "final_g_s": 49.456296669128,
+    "final_a": 1.5420276201059797,
+    "final_Tkin_over_T": 0.7222007196866387,
+    "final_heavy_fraction": 0.03470920477979238,
+    "final_number_over_initial": 0.9999655241953465,
+    "net_number_loss_ppm": 34.47580465354427,
+    "final_yield": 5.772093054312583e-10
+  },
+  {
+    "eos": "qcd_leptons_photon_ideal_cb",
+    "initial_g_rho": 60.893674459784634,
+    "final_g_rho": 54.50490862960544,
+    "initial_g_s": 59.33291250757888,
+    "final_g_s": 52.25696975916433,
+    "final_a": 1.5648585027013522,
+    "final_Tkin_over_T": 0.70567369815819,
+    "final_heavy_fraction": 0.03466906747706897,
+    "final_number_over_initial": 0.9999665611821005,
+    "net_number_loss_ppm": 33.43881789952263,
+    "final_yield": 5.227118920676839e-10
+  }
+]
+Elapsed 23.623134705994744

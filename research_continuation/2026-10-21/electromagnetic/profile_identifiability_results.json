@@ -1,0 +1,449 @@
+{
+  "status": "conditional mathematical continuation; no physical profile selected; no alpha prediction",
+  "source": {
+    "sha256": "4b52a5fb57716168d354b5c3dcb4bbf2ca4c0fe6744733b6ca0d3b3eae48f921",
+    "physical_pdf_pages": [
+      7592,
+      7599
+    ],
+    "title": "T-1: A shared spectral-action normalization test",
+    "date": "2026-10-12",
+    "archive_source_catalog": "sources/source_catalog.json",
+    "archive_source_id": "A1",
+    "archive_filename": "36-A-Theory-of-Everything-Baird-et-al-2026-Expanded-Research-Archive-Public-Edition-2026-10-20-2-.pdf"
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "decimal_precision": 70,
+    "tracked_root_bracket": [
+      1.2,
+      1.4
+    ]
+  },
+  "five_node_family": {
+    "nodes": "a_j=(5269/8220) j, j=1,...,5",
+    "weights": "1/5+t*v_j/2560",
+    "v": [
+      1,
+      -32,
+      162,
+      -256,
+      125
+    ],
+    "strict_positive_weight_interval": [
+      "-256/81",
+      "2"
+    ],
+    "closure_endpoints_have_nonnegative_weights": true,
+    "constraint_rank": 4,
+    "nullity": 1,
+    "extra_first_derivative_rank": 5,
+    "first_derivative_intercept": "-5269/2740",
+    "first_derivative_slope": "-5269/876800",
+    "mellin_m4_slope": "713357606025/1541497376588642",
+    "exact_inverse_examples": [
+      {
+        "t": "-3",
+        "profile_derivative": "-1670273/876800",
+        "recovered_t": "-3"
+      },
+      {
+        "t": "-1",
+        "profile_derivative": "-1680811/876800",
+        "recovered_t": "-1"
+      },
+      {
+        "t": "0",
+        "profile_derivative": "-5269/2740",
+        "recovered_t": "0"
+      },
+      {
+        "t": "1",
+        "profile_derivative": "-1691349/876800",
+        "recovered_t": "1"
+      },
+      {
+        "t": "19/10",
+        "profile_derivative": "-16960911/8768000",
+        "recovered_t": "19/10"
+      }
+    ]
+  },
+  "high_precision_results": {
+    "lower_limit": {
+      "radius": "1.302380922594703953195750124335610336111222386391999875345356378907463",
+      "cosmological_subtraction": "48.40016460853488224273740182460626815038919373735327705082193757066376",
+      "potential_curvature": "15.93081483591891161698308541428359334542970356483062313096324128747888",
+      "ZY_over_kappa": "0.2452149580999199998172099884726906046180823121823443800836764036762791",
+      "M4r_over_sqrt_kappa": "0.6858740477930264867839361333307581266253404732454751351213186085239529",
+      "M4r_squared_over_kappa": "0.4704232094359907813662715894550697625153144931643922814293220227583337",
+      "normalization_free_ratio": "0.5212645829994613360513662722931366418852280433622476319665996905341507",
+      "stationarity_residual": "0E-67"
+    },
+    "source_minus": {
+      "radius": "1.302117649369000484345273435698998996926250432605547336451242666331218",
+      "cosmological_subtraction": "48.39897889029903036173734226270103564348214631853876594987192548410848",
+      "potential_curvature": "16.00066375175612596044740963164728792335869550713647895585417512397494",
+      "ZY_over_kappa": "0.2453459725498639288292548860216974455204311711960375677880832660702237",
+      "M4r_over_sqrt_kappa": "0.6855578846956843080059560305815004211170209445825924755586736403803725",
+      "M4r_squared_over_kappa": "0.4699896132684211807411116078507113345192589807367410955080603881739730",
+      "normalization_free_ratio": "0.5220242439905614783912729542141400603862192888142823342271078285353131",
+      "stationarity_residual": "-1E-67"
+    },
+    "center": {
+      "radius": "1.301996486813753800092249517277534645288543625224426067780456657271526",
+      "cosmological_subtraction": "48.39842985199462661248028154587675309286489745420891193140625614476446",
+      "potential_curvature": "16.03306787173899135605524911673655115036397263252465522543486665671098",
+      "ZY_over_kappa": "0.2454067937948169354171194982718770593285488462276174277516765667183990",
+      "M4r_over_sqrt_kappa": "0.6854122492446907543436203624075144875451962551632021259576448299299291",
+      "M4r_squared_over_kappa": "0.4697899514146660815482082680611090860694418127033634195232596004406203",
+      "normalization_free_ratio": "0.5223755703071765036143398577448606652129133792911154657057207257480219",
+      "stationarity_residual": "0E-67"
+    },
+    "source_plus": {
+      "radius": "1.301875761693914987946753821973155452701994753039711872140938836344301",
+      "cosmological_subtraction": "48.39788067534528138758738728430048588554770036629074565906681537119486",
+      "potential_curvature": "16.06551850066946279732401176068292176114995119554414626715401432733978",
+      "ZY_over_kappa": "0.2454677283425791879213682006732317483768858667832642968904517401476527",
+      "M4r_over_sqrt_kappa": "0.6852670558904276963333555204222888368911560317896377816221308157686018",
+      "M4r_squared_over_kappa": "0.4695909378887345561064471538930748473396807940549816903861821335413127",
+      "normalization_free_ratio": "0.5227267149706807329778575674681204966517615569642770594239590949527291",
+      "stationarity_residual": "-2E-67"
+    },
+    "upper_limit": {
+      "radius": "1.301755472154456037069293531407252416703586107381819570111872885426026",
+      "cosmological_subtraction": "48.39733136104430020153905618577723414875651407512325805383686544622450",
+      "potential_curvature": "16.09801538713696988694713901914814594471238018610916429319821025351430",
+      "ZY_over_kappa": "0.2455287756376353597841684646936877161694364278379274406747385460036316",
+      "M4r_over_sqrt_kappa": "0.6851223026909133764459344575348683075970413492989304082864645231629823",
+      "M4r_squared_over_kappa": "0.4693925696444995303838236819267419795946046558932124133531587065420836",
+      "normalization_free_ratio": "0.5230776785060524501672649144721577003574649101815777946820437418237104",
+      "stationarity_residual": "0E-67"
+    },
+    "six_first": {
+      "radius": "1.302106999432008867985630802834413317815693546508110631220352687735825",
+      "cosmological_subtraction": "48.39859268113924340335044261972505889205419865413618268109272645857538",
+      "potential_curvature": "16.02706576546776823474991836688414380615632175440445340944899366086914",
+      "ZY_over_kappa": "0.2454202682421427942417037652344513434688328253265114607944515088689897",
+      "M4r_over_sqrt_kappa": "0.6855264161594513401493675173976472510169952275580827759205830995834763",
+      "M4r_squared_over_kappa": "0.4699464672524212675034103676122828352692331761714827922425112588019514",
+      "normalization_free_ratio": "0.5222302652406593552729365258915613423854501808334161276514771560564386",
+      "stationarity_residual": "1E-67"
+    },
+    "six_second": {
+      "radius": "1.302217551512325268509449568854941287375285428891210389989218041032583",
+      "cosmological_subtraction": "48.39875539479512627438648553741828439804019229323308032864629605321781",
+      "potential_curvature": "16.02108368761409486888065023293699098918052995649637011082389038996548",
+      "ZY_over_kappa": "0.2454337727995015214881573894696615725361148772028911973902630635520218",
+      "M4r_over_sqrt_kappa": "0.6856406293686179409298410198109085810824702392280941923174857489944985",
+      "M4r_squared_over_kappa": "0.4701030726409945148955212697616614045547617348931387367314595633095540",
+      "normalization_free_ratio": "0.5220850215266150959772646764528966264375775710052355611046135602629501",
+      "stationarity_residual": "1E-67"
+    },
+    "exponential": {
+      "radius": "1.300783283227360318637502680229761468162083129765808482480360588413092",
+      "cosmological_subtraction": "53.10903054999520623537255926523640734426150100390662795179075734425637",
+      "potential_curvature": "25.0782147697705442590348600280392249632391979711960025625727107123358",
+      "ZY_over_kappa": "0.3303631229653508994000883789714473851434258818920744798867093698072797",
+      "M4r_over_sqrt_kappa": "0.8011956588308160760423350566424810780770408167710442975601693710284931",
+      "M4r_squared_over_kappa": "0.6419144837293454301336886953366628634806481691768239780762891413390844",
+      "normalization_free_ratio": "0.5146528569444836627597669997293952988834193041203943127341705909046676",
+      "stationarity_residual": "0E-67"
+    },
+    "rescaled_exponential": {
+      "radius": "2.253022736186045078003990083189009458876795301639725617815218609009772",
+      "cosmological_subtraction": "1.967001131481303934643428120934681753491166703848393627844102123861347",
+      "potential_curvature": "0.928822769250760898482772593631082406045896221155407502317507804160592",
+      "ZY_over_kappa": "0.3303631229653508994000883789714473851434258818920744798867093698072797",
+      "M4r_over_sqrt_kappa": "0.8011956588308160760423350566424810780770408167710442975601693710284931",
+      "M4r_squared_over_kappa": "0.6419144837293454301336886953366628634806481691768239780762891413390844",
+      "normalization_free_ratio": "0.5146528569444836627597669997293952988834193041203943127341705909046676",
+      "stationarity_residual": "-2E-68"
+    }
+  },
+  "uniform_heat_value_tail_bound": {
+    "radius_upper": 1.4,
+    "cutoff": 40,
+    "P_absolute": 5.017621053219709e-226,
+    "J_absolute": 3.216282886790103e-226,
+    "T_absolute": 5.72710255329318e-228
+  },
+  "scan_summary": {
+    "points": 1001,
+    "endpoint_gauge_span_percent": 0.1279765068767924,
+    "endpoint_ratio_span_percent": 0.34782633728100976,
+    "min_sampled_potential_curvature": 15.930814835918937,
+    "min_sampled_dlog_ratio_dt": 0.0006707859299001539,
+    "max_sampled_dlog_ratio_dt": 0.0006749204308287759,
+    "center_derivatives": {
+      "radius": 1.3019964868137561,
+      "cosmological_subtraction": 48.398429851994635,
+      "potential_curvature": 16.03306787173895,
+      "ZY_over_kappa": 0.24540679379481772,
+      "M4r_over_sqrt_kappa": 0.6854122492446931,
+      "M4r_squared_over_kappa": 0.46978995141466934,
+      "normalization_free_ratio": 0.5223755703071745,
+      "stationarity_residual": 2.842170943040401e-14,
+      "min_weight": 0.2,
+      "dR_dt": -0.00012094352788376689,
+      "dZY_over_kappa_dt": 6.0877989153686524e-05,
+      "dlog_ratio_dt": 0.0006723809893880798,
+      "dt_per_unit_fractional_ratio_change": 1487.252042789133,
+      "log_observable_jacobian_determinant": -0.0006723809893880798
+    },
+    "monotonicity_scope": "Numerical on the sampled tracked branch, not interval-certified global uniqueness."
+  },
+  "six_node_counterexample": {
+    "nodes": "a_j=(5269/8220) j, j=1,...,6",
+    "weights": "b_j+t*v_j/7680; b=(1/5,1/5,1/5,1/5,1/5,0)",
+    "v": [
+      -1,
+      40,
+      -270,
+      640,
+      -625,
+      216
+    ],
+    "t_pair": [
+      1,
+      2
+    ],
+    "strict_positive_weight_interval": [
+      "0",
+      "1536/625"
+    ],
+    "constraints": "f(0), m1, m2, m3, f_prime(0)",
+    "matches_original_five_node_center_data": true,
+    "exact_leading_data": [
+      "1",
+      "18769/26345",
+      "18769/26345",
+      "658531217359/731399400545"
+    ],
+    "first_derivative": "-5269/2740",
+    "second_derivative_slope": "27762361/4324377600",
+    "extra_second_derivative_rank": 6,
+    "rank": 5,
+    "nullity": 1,
+    "gauge_difference": 1.3504557358712255e-05,
+    "gauge_relative_difference_percent": 0.00550262513174804,
+    "ratio_relative_difference_percent": -0.027812197743348754
+  },
+  "checks": [
+    {
+      "name": "five_node_leading_constraint_rank_is_four",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "five_node_exact_null_direction",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "adding_first_derivative_has_rank_five",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact_weight_positivity_interval",
+      "passed": true,
+      "detail": {
+        "lower": "-256/81",
+        "upper": "2"
+      }
+    },
+    {
+      "name": "first_derivative_profile_datum_identifies_t_in_five_node_family",
+      "passed": true,
+      "detail": "-5269/876800"
+    },
+    {
+      "name": "extra_mellin_moment_identifies_t_in_five_node_family",
+      "passed": true,
+      "detail": "713357606025/1541497376588642"
+    },
+    {
+      "name": "source_exact_leading_moments",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "six_node_extra_constraint_rank_is_five",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "six_node_exact_null_direction_preserves_first_derivative",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "six_node_pair_positive_weights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "six_node_pair_equal_leading_data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "six_node_pair_equal_first_derivative",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "six_node_pair_matches_original_five_node_center_leading_data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "six_node_pair_matches_original_five_node_center_first_derivative",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "six_node_adding_second_derivative_has_rank_six",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_minus_radius_reproduced",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_plus_radius_reproduced",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_minus_gauge_coefficient_reproduced",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_plus_gauge_coefficient_reproduced",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "source_exponential_reproduced",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "scale_redefinition_leaves_gauge_and_gravity_radius_invariant",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "scale_redefinition_rescales_radius",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "high_precision_stationarity_residuals",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "high_precision_20_vs_40_level_check",
+      "passed": true,
+      "detail": "1.0E-68"
+    },
+    {
+      "name": "uniform_heat_value_tail_bound_below_1e_220",
+      "passed": true,
+      "detail": {
+        "radius_upper": 1.4,
+        "cutoff": 40,
+        "P_absolute": 5.017621053219709e-226,
+        "J_absolute": 3.216282886790103e-226,
+        "T_absolute": 5.72710255329318e-228
+      }
+    },
+    {
+      "name": "tracked_branch_curvature_positive_on_1001_point_grid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "gauge_coefficient_increases_on_grid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "normalization_free_ratio_increases_on_grid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "implicit_ratio_derivative_positive_on_grid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "interior_mixture_weights_positive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "independent_decimal_newton_vs_scipy_brent",
+      "passed": true,
+      "detail": {
+        "lower_limit": 1.3322676295501878e-15,
+        "source_minus": 8.881784197001252e-16,
+        "center": 2.220446049250313e-15,
+        "source_plus": 2.220446049250313e-16,
+        "upper_limit": 2.220446049250313e-16
+      }
+    },
+    {
+      "name": "implicit_derivative_vs_independent_centered_difference",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "six_node_equal_first_derivative_still_changes_coupling",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact_first_derivative_inverse_-3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact_first_derivative_inverse_-1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact_first_derivative_inverse_0",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact_first_derivative_inverse_1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact_first_derivative_inverse_19/10",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "not_established": [
+    "Physical choice of profile or kappa",
+    "Full quantum or Lorentzian consistency",
+    "Canonical radion kinetic term or radion mass",
+    "Full electroweak embedding and running",
+    "Global uniqueness of the stationary-radius branch",
+    "An experimental measurement or attainable sensitivity"
+  ]
+}

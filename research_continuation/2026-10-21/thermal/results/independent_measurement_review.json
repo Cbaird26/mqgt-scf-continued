@@ -1,0 +1,872 @@
+{
+  "n_scans": 95,
+  "n_bins": 3895,
+  "total_counts": 10772714,
+  "joint_deviance": 12413.381080501395,
+  "joint_pearson_dispersion": 3.439377620045611,
+  "max_visibility_difference": 8.690865666016734e-10,
+  "max_per_scan_deviance_difference": 7.133849067031406e-12,
+  "max_normalized_gradient": 1.8816055863678012e-09,
+  "minimum_all_phase_positivity_margin": 0.8983916220391017,
+  "generic_optimizer_non_success_statuses": 0,
+  "scope": "Independent trust-exact optimizer on convex per-bin-positive Poisson mean model; interior solution also satisfies the root all-phase-positive cone; no root files modified.",
+  "identifiability_review": "The analytic shared-A/shared-chi invariance is correct when the attenuation is a multiplicative normalization. The empirical ridge uses free per-scan amplitudes; it demonstrates that nuisance model, not validation of a particular global quantum baseline shape. A physical A<=1 can truncate a ridge and may give a bound with a known baseline, but does not identify a unique mechanism.",
+  "residual_review": "Large dispersion rejects adequacy of this combined sinusoidal-independent-Poisson working model. It does not by itself identify non-Poisson counting noise; omitted mean structure, drift, correlation and calibration can contribute.",
+  "scans": [
+    {
+      "name": "Sodium_int_powerscan_1",
+      "visibility_difference": 1.0408340855860843e-15,
+      "deviance_difference": 3.268496584496461e-13,
+      "normalized_gradient_infinity_norm": 1.0751413069616767e-15,
+      "all_phase_positivity_margin": 0.9798740549343778,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_2",
+      "visibility_difference": 2.040034807748725e-15,
+      "deviance_difference": 3.637978807091713e-12,
+      "normalized_gradient_infinity_norm": 4.774585307489583e-15,
+      "all_phase_positivity_margin": 0.9765059136028849,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_3",
+      "visibility_difference": 9.233402931130286e-11,
+      "deviance_difference": 5.3717030823463574e-12,
+      "normalized_gradient_infinity_norm": 9.818202631309022e-11,
+      "all_phase_positivity_margin": 0.9205567213274831,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_4",
+      "visibility_difference": 2.0054582994255554e-11,
+      "deviance_difference": 2.0747847884194925e-12,
+      "normalized_gradient_infinity_norm": 2.308036125632659e-11,
+      "all_phase_positivity_margin": 0.9344935031438049,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_5",
+      "visibility_difference": 4.90001178521382e-10,
+      "deviance_difference": 2.3305801732931286e-12,
+      "normalized_gradient_infinity_norm": 4.601022410576393e-10,
+      "all_phase_positivity_margin": 0.904899490984176,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_6",
+      "visibility_difference": 1.1407527700235676e-10,
+      "deviance_difference": 2.1316282072803006e-12,
+      "normalized_gradient_infinity_norm": 1.373617231088717e-10,
+      "all_phase_positivity_margin": 0.9185091779763349,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_7",
+      "visibility_difference": 4.76581968333889e-12,
+      "deviance_difference": 2.2168933355715126e-12,
+      "normalized_gradient_infinity_norm": 6.0007354142630106e-12,
+      "all_phase_positivity_margin": 0.9429757626173138,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_8",
+      "visibility_difference": 1.3246188867999109e-11,
+      "deviance_difference": 1.1368683772161603e-12,
+      "normalized_gradient_infinity_norm": 1.8033403746945115e-11,
+      "all_phase_positivity_margin": 0.9364583974275934,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_9",
+      "visibility_difference": 1.1470269178914805e-12,
+      "deviance_difference": 1.2221335055073723e-12,
+      "normalized_gradient_infinity_norm": 1.393141966805801e-12,
+      "all_phase_positivity_margin": 0.9518611032954724,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_10",
+      "visibility_difference": 3.533134895761236e-11,
+      "deviance_difference": 4.376943252282217e-12,
+      "normalized_gradient_infinity_norm": 3.48536934931295e-11,
+      "all_phase_positivity_margin": 0.9294722295289294,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_11",
+      "visibility_difference": 2.03848049551425e-11,
+      "deviance_difference": 7.247535904753022e-13,
+      "normalized_gradient_infinity_norm": 1.9439174719743636e-11,
+      "all_phase_positivity_margin": 0.9330761862851193,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_12",
+      "visibility_difference": 1.3521251566311898e-10,
+      "deviance_difference": 1.7195134205394424e-12,
+      "normalized_gradient_infinity_norm": 6.009198693368609e-10,
+      "all_phase_positivity_margin": 0.9927916632515088,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_13",
+      "visibility_difference": 5.216072365699098e-10,
+      "deviance_difference": 2.3874235921539366e-12,
+      "normalized_gradient_infinity_norm": 1.8816055863678012e-09,
+      "all_phase_positivity_margin": 0.9903853901906199,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_14",
+      "visibility_difference": 6.765421556309548e-17,
+      "deviance_difference": 8.384404281969182e-13,
+      "normalized_gradient_infinity_norm": 9.984871862686761e-17,
+      "all_phase_positivity_margin": 0.9852929852516153,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_15",
+      "visibility_difference": 1.734723475976807e-17,
+      "deviance_difference": 1.5205614545266144e-12,
+      "normalized_gradient_infinity_norm": 7.866405578497895e-17,
+      "all_phase_positivity_margin": 0.9877356046681561,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_16",
+      "visibility_difference": 2.7755575615628914e-17,
+      "deviance_difference": 2.8137492336099967e-12,
+      "normalized_gradient_infinity_norm": 8.648716182080415e-17,
+      "all_phase_positivity_margin": 0.9864080862521136,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_17",
+      "visibility_difference": 2.5326962749261384e-16,
+      "deviance_difference": 1.2931877790833823e-12,
+      "normalized_gradient_infinity_norm": 3.061539456288012e-16,
+      "all_phase_positivity_margin": 0.9829141001566938,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_18",
+      "visibility_difference": 2.0816681711721685e-17,
+      "deviance_difference": 3.126388037344441e-13,
+      "normalized_gradient_infinity_norm": 1.971653163193582e-17,
+      "all_phase_positivity_margin": 0.9866773474338688,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_19",
+      "visibility_difference": 4.336808689942018e-17,
+      "deviance_difference": 1.8189894035458565e-12,
+      "normalized_gradient_infinity_norm": 1.1169066419328508e-16,
+      "all_phase_positivity_margin": 0.9863609127681937,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_20",
+      "visibility_difference": 4.352733937174058e-10,
+      "deviance_difference": 9.094947017729282e-13,
+      "normalized_gradient_infinity_norm": 1.1092550654584878e-09,
+      "all_phase_positivity_margin": 0.9912176926988285,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_21",
+      "visibility_difference": 9.648531973383001e-15,
+      "deviance_difference": 1.7053025658242404e-12,
+      "normalized_gradient_infinity_norm": 1.1579803556277828e-14,
+      "all_phase_positivity_margin": 0.9729371242859447,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_22",
+      "visibility_difference": 3.3954653325118933e-13,
+      "deviance_difference": 2.5437429940211587e-12,
+      "normalized_gradient_infinity_norm": 1.2829474982296293e-11,
+      "all_phase_positivity_margin": 0.9973525106350851,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_23",
+      "visibility_difference": 2.3037127760972e-15,
+      "deviance_difference": 3.439026841078885e-12,
+      "normalized_gradient_infinity_norm": 3.088732162120378e-15,
+      "all_phase_positivity_margin": 0.977204985620091,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_24",
+      "visibility_difference": 3.017348003397924e-11,
+      "deviance_difference": 1.0231815394945443e-12,
+      "normalized_gradient_infinity_norm": 4.603488243848289e-10,
+      "all_phase_positivity_margin": 0.9935737499946231,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_25",
+      "visibility_difference": 4.035547417069463e-11,
+      "deviance_difference": 2.8705926524708048e-12,
+      "normalized_gradient_infinity_norm": 4.3381426912101174e-10,
+      "all_phase_positivity_margin": 0.993604588707965,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_26",
+      "visibility_difference": 5.537237335317968e-15,
+      "deviance_difference": 7.105427357601002e-13,
+      "normalized_gradient_infinity_norm": 7.699156633153939e-15,
+      "all_phase_positivity_margin": 0.9743349319624871,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_27",
+      "visibility_difference": 4.544975507059235e-16,
+      "deviance_difference": 1.1368683772161603e-13,
+      "normalized_gradient_infinity_norm": 6.599160941528212e-16,
+      "all_phase_positivity_margin": 0.9813429762324588,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_28",
+      "visibility_difference": 5.315192730392937e-15,
+      "deviance_difference": 1.2363443602225743e-12,
+      "normalized_gradient_infinity_norm": 5.805650863114283e-15,
+      "all_phase_positivity_margin": 0.9753511479008198,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_29",
+      "visibility_difference": 5.80785419757035e-15,
+      "deviance_difference": 8.810729923425242e-13,
+      "normalized_gradient_infinity_norm": 6.9665312299522e-15,
+      "all_phase_positivity_margin": 0.9749830113244892,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_30",
+      "visibility_difference": 1.8821749714348357e-14,
+      "deviance_difference": 9.379164112033322e-13,
+      "normalized_gradient_infinity_norm": 2.3880306967018924e-14,
+      "all_phase_positivity_margin": 0.971080927492401,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_31",
+      "visibility_difference": 1.0998146837692957e-13,
+      "deviance_difference": 1.8047785488306545e-12,
+      "normalized_gradient_infinity_norm": 1.1957345249939149e-13,
+      "all_phase_positivity_margin": 0.9644817044109851,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_32",
+      "visibility_difference": 1.4035994588823542e-12,
+      "deviance_difference": 4.234834705130197e-12,
+      "normalized_gradient_infinity_norm": 1.533590983671368e-12,
+      "all_phase_positivity_margin": 0.9517899860759231,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_33",
+      "visibility_difference": 8.206789414710869e-12,
+      "deviance_difference": 5.684341886080801e-13,
+      "normalized_gradient_infinity_norm": 7.802823497295696e-12,
+      "all_phase_positivity_margin": 0.9405912297699519,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_34",
+      "visibility_difference": 1.8034879145645277e-12,
+      "deviance_difference": 4.547473508864641e-12,
+      "normalized_gradient_infinity_norm": 2.0465967004136096e-12,
+      "all_phase_positivity_margin": 0.9498613676988347,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_35",
+      "visibility_difference": 1.663530424522719e-12,
+      "deviance_difference": 2.842170943040401e-14,
+      "normalized_gradient_infinity_norm": 2.012404987047656e-12,
+      "all_phase_positivity_margin": 0.9501783161507911,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_36",
+      "visibility_difference": 1.3414977462211652e-11,
+      "deviance_difference": 3.979039320256561e-13,
+      "normalized_gradient_infinity_norm": 1.4569205351463796e-11,
+      "all_phase_positivity_margin": 0.935391271916502,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_37",
+      "visibility_difference": 1.4772219558700783e-10,
+      "deviance_difference": 1.4210854715202004e-12,
+      "normalized_gradient_infinity_norm": 1.386724474739411e-10,
+      "all_phase_positivity_margin": 0.9173222036648055,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_38",
+      "visibility_difference": 1.5833098720996475e-11,
+      "deviance_difference": 4.348521542851813e-12,
+      "normalized_gradient_infinity_norm": 1.649566656469182e-11,
+      "all_phase_positivity_margin": 0.9353193676861825,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_39",
+      "visibility_difference": 2.3670204685188878e-11,
+      "deviance_difference": 5.400124791776761e-13,
+      "normalized_gradient_infinity_norm": 2.840901446405048e-11,
+      "all_phase_positivity_margin": 0.930274025099068,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_40",
+      "visibility_difference": 5.268614711173569e-11,
+      "deviance_difference": 6.536993168992922e-13,
+      "normalized_gradient_infinity_norm": 5.24407719578205e-11,
+      "all_phase_positivity_margin": 0.9267761645393017,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_41",
+      "visibility_difference": 1.4932796665867443e-10,
+      "deviance_difference": 6.536993168992922e-13,
+      "normalized_gradient_infinity_norm": 1.6334470811894506e-10,
+      "all_phase_positivity_margin": 0.916540180245635,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_42",
+      "visibility_difference": 5.861196250567247e-11,
+      "deviance_difference": 2.3305801732931286e-12,
+      "normalized_gradient_infinity_norm": 5.7799068729970336e-11,
+      "all_phase_positivity_margin": 0.9243597740141041,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_43",
+      "visibility_difference": 4.121365748677164e-11,
+      "deviance_difference": 1.1368683772161603e-13,
+      "normalized_gradient_infinity_norm": 4.638150611632121e-11,
+      "all_phase_positivity_margin": 0.9272977299611054,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_44",
+      "visibility_difference": 2.3112632641097974e-10,
+      "deviance_difference": 9.663381206337363e-13,
+      "normalized_gradient_infinity_norm": 2.3000157847488403e-10,
+      "all_phase_positivity_margin": 0.9121990709208597,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_45",
+      "visibility_difference": 9.894862706971708e-14,
+      "deviance_difference": 4.064304448547773e-12,
+      "normalized_gradient_infinity_norm": 1.0615228318914286e-13,
+      "all_phase_positivity_margin": 0.9648370109216191,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_46",
+      "visibility_difference": 3.5453584512623593e-13,
+      "deviance_difference": 2.5579538487363607e-12,
+      "normalized_gradient_infinity_norm": 5.198229272849565e-13,
+      "all_phase_positivity_margin": 0.9588774907688388,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_47",
+      "visibility_difference": 6.979063160716947e-12,
+      "deviance_difference": 3.780087354243733e-12,
+      "normalized_gradient_infinity_norm": 8.776263726092618e-12,
+      "all_phase_positivity_margin": 0.9410282479668441,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_48",
+      "visibility_difference": 7.389922007661198e-16,
+      "deviance_difference": 1.9895196601282805e-12,
+      "normalized_gradient_infinity_norm": 1.2837544164800896e-15,
+      "all_phase_positivity_margin": 0.9801799530963998,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_49",
+      "visibility_difference": 2.7074870123655614e-13,
+      "deviance_difference": 1.9326762412674725e-12,
+      "normalized_gradient_infinity_norm": 4.266156251977607e-13,
+      "all_phase_positivity_margin": 0.9601412468706968,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_50",
+      "visibility_difference": 7.73686670285656e-16,
+      "deviance_difference": 5.080380560684716e-12,
+      "normalized_gradient_infinity_norm": 1.5616740443992474e-15,
+      "all_phase_positivity_margin": 0.9799582749141336,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_51",
+      "visibility_difference": 5.204170427930421e-17,
+      "deviance_difference": 5.9969806898152456e-12,
+      "normalized_gradient_infinity_norm": 4.336724606791391e-16,
+      "all_phase_positivity_margin": 0.9834252987332437,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_52",
+      "visibility_difference": 1.409445476996396e-12,
+      "deviance_difference": 3.637978807091713e-12,
+      "normalized_gradient_infinity_norm": 2.1755654579521796e-11,
+      "all_phase_positivity_margin": 0.9969903114304223,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_53",
+      "visibility_difference": 2.5049406993105094e-15,
+      "deviance_difference": 3.637978807091713e-12,
+      "normalized_gradient_infinity_norm": 3.4067825513636025e-15,
+      "all_phase_positivity_margin": 0.9773593015661273,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_54",
+      "visibility_difference": 5.737843533637488e-11,
+      "deviance_difference": 6.764366844436154e-12,
+      "normalized_gradient_infinity_norm": 6.713577211630509e-11,
+      "all_phase_positivity_margin": 0.9243498590766854,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_55",
+      "visibility_difference": 8.690865666016734e-10,
+      "deviance_difference": 2.9132252166164108e-12,
+      "normalized_gradient_infinity_norm": 7.968001009411211e-10,
+      "all_phase_positivity_margin": 0.8983916220391017,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_56",
+      "visibility_difference": 1.0789279192291445e-10,
+      "deviance_difference": 1.8758328224066645e-12,
+      "normalized_gradient_infinity_norm": 1.1376632604392149e-10,
+      "all_phase_positivity_margin": 0.9195549934899118,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_57",
+      "visibility_difference": 3.469446951953614e-17,
+      "deviance_difference": 1.1368683772161603e-12,
+      "normalized_gradient_infinity_norm": 8.825076496913748e-17,
+      "all_phase_positivity_margin": 0.9893894875060122,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_58",
+      "visibility_difference": 3.0010716134398763e-15,
+      "deviance_difference": 2.1600499167107046e-12,
+      "normalized_gradient_infinity_norm": 3.872195385376368e-15,
+      "all_phase_positivity_margin": 0.9767820543352435,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_59",
+      "visibility_difference": 4.336808689942018e-17,
+      "deviance_difference": 3.694822225952521e-13,
+      "normalized_gradient_infinity_norm": 1.495624136908809e-17,
+      "all_phase_positivity_margin": 0.986758730019561,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_60",
+      "visibility_difference": 1.1206313654810174e-15,
+      "deviance_difference": 1.7053025658242404e-13,
+      "normalized_gradient_infinity_norm": 1.4106638929018268e-15,
+      "all_phase_positivity_margin": 0.9794025506288065,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_61",
+      "visibility_difference": 2.111598396137282e-11,
+      "deviance_difference": 2.5153212845907547e-12,
+      "normalized_gradient_infinity_norm": 7.072650334450478e-11,
+      "all_phase_positivity_margin": 0.9956305372367861,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_62",
+      "visibility_difference": 4.891920202254596e-16,
+      "deviance_difference": 1.5347723092418164e-12,
+      "normalized_gradient_infinity_norm": 7.424292533445909e-16,
+      "all_phase_positivity_margin": 0.9810742366472853,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_63",
+      "visibility_difference": 1.5856346791132125e-10,
+      "deviance_difference": 8.526512829121202e-13,
+      "normalized_gradient_infinity_norm": 1.889662874468527e-10,
+      "all_phase_positivity_margin": 0.9155662870067556,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_64",
+      "visibility_difference": 7.265316126492394e-11,
+      "deviance_difference": 6.252776074688882e-13,
+      "normalized_gradient_infinity_norm": 9.281958228385875e-11,
+      "all_phase_positivity_margin": 0.9219055593031042,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_65",
+      "visibility_difference": 3.4007335836250263e-10,
+      "deviance_difference": 2.6432189770275727e-12,
+      "normalized_gradient_infinity_norm": 3.5113264865506334e-10,
+      "all_phase_positivity_margin": 0.9095326621785687,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_66",
+      "visibility_difference": 3.8464717522224134e-11,
+      "deviance_difference": 1.0516032489249483e-12,
+      "normalized_gradient_infinity_norm": 4.888568938368848e-11,
+      "all_phase_positivity_margin": 0.9277378434670966,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_67",
+      "visibility_difference": 2.5533293535051627e-10,
+      "deviance_difference": 7.133849067031406e-12,
+      "normalized_gradient_infinity_norm": 3.002489396265132e-10,
+      "all_phase_positivity_margin": 0.910552637265289,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_68",
+      "visibility_difference": 1.387933934449137e-10,
+      "deviance_difference": 1.3642420526593924e-12,
+      "normalized_gradient_infinity_norm": 1.7267323053857236e-10,
+      "all_phase_positivity_margin": 0.9168579162815839,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_69",
+      "visibility_difference": 1.1889794704345036e-14,
+      "deviance_difference": 1.6910917111090384e-12,
+      "normalized_gradient_infinity_norm": 4.208305664345312e-14,
+      "all_phase_positivity_margin": 0.9700776795131874,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_70",
+      "visibility_difference": 2.4445723223465166e-14,
+      "deviance_difference": 3.694822225952521e-13,
+      "normalized_gradient_infinity_norm": 9.609638898487512e-14,
+      "all_phase_positivity_margin": 0.9668830427985249,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_71",
+      "visibility_difference": 5.447725603957565e-14,
+      "deviance_difference": 4.263256414560601e-12,
+      "normalized_gradient_infinity_norm": 1.3193503728575063e-13,
+      "all_phase_positivity_margin": 0.9652209734745448,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_72",
+      "visibility_difference": 3.115685487387054e-11,
+      "deviance_difference": 1.3358203432289883e-12,
+      "normalized_gradient_infinity_norm": 8.468449000673538e-11,
+      "all_phase_positivity_margin": 0.9959060630267328,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_73",
+      "visibility_difference": 7.061208978642597e-10,
+      "deviance_difference": 2.6716406864579767e-12,
+      "normalized_gradient_infinity_norm": 1.203501815532728e-09,
+      "all_phase_positivity_margin": 0.9878838040653342,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_74",
+      "visibility_difference": 3.9318465670790115e-10,
+      "deviance_difference": 2.0179413695586845e-12,
+      "normalized_gradient_infinity_norm": 1.3989385891673168e-09,
+      "all_phase_positivity_margin": 0.9907452262660323,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_75",
+      "visibility_difference": 5.204170427930421e-17,
+      "deviance_difference": 5.968558980384842e-13,
+      "normalized_gradient_infinity_norm": 1.4150854388584755e-17,
+      "all_phase_positivity_margin": 0.9869651829949739,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_76",
+      "visibility_difference": 4.2674197509029455e-16,
+      "deviance_difference": 8.384404281969182e-13,
+      "normalized_gradient_infinity_norm": 9.233728103447515e-16,
+      "all_phase_positivity_margin": 0.9813476984169354,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_77",
+      "visibility_difference": 1.6084356069256955e-14,
+      "deviance_difference": 2.5863755581667647e-12,
+      "normalized_gradient_infinity_norm": 2.2803311871275055e-14,
+      "all_phase_positivity_margin": 0.9715773038349409,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_78",
+      "visibility_difference": 2.544839339257976e-13,
+      "deviance_difference": 1.7621459846850485e-12,
+      "normalized_gradient_infinity_norm": 5.917458732566049e-13,
+      "all_phase_positivity_margin": 0.9582065778039165,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_79",
+      "visibility_difference": 8.282263763703668e-14,
+      "deviance_difference": 5.826450433232822e-13,
+      "normalized_gradient_infinity_norm": 1.4703563263949404e-13,
+      "all_phase_positivity_margin": 0.9647353860508849,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_80",
+      "visibility_difference": 7.548128788670283e-14,
+      "deviance_difference": 2.0463630789890885e-12,
+      "normalized_gradient_infinity_norm": 1.1256359615111789e-13,
+      "all_phase_positivity_margin": 0.9657256050827155,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_81",
+      "visibility_difference": 9.581808783909462e-11,
+      "deviance_difference": 1.5347723092418164e-12,
+      "normalized_gradient_infinity_norm": 6.853938257170303e-10,
+      "all_phase_positivity_margin": 0.9929549145559835,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_82",
+      "visibility_difference": 2.993978762827476e-12,
+      "deviance_difference": 9.663381206337363e-13,
+      "normalized_gradient_infinity_norm": 1.583121123692187e-11,
+      "all_phase_positivity_margin": 0.9972563290792255,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_83",
+      "visibility_difference": 2.3801456465466497e-10,
+      "deviance_difference": 5.400124791776761e-13,
+      "normalized_gradient_infinity_norm": 1.0793338904200719e-09,
+      "all_phase_positivity_margin": 0.9922540859954051,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_84",
+      "visibility_difference": 3.0783562504632656e-10,
+      "deviance_difference": 1.0516032489249483e-12,
+      "normalized_gradient_infinity_norm": 3.971760157951227e-10,
+      "all_phase_positivity_margin": 0.9893617868490465,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_85",
+      "visibility_difference": 1.0408340855860843e-17,
+      "deviance_difference": 2.4442670110147446e-12,
+      "normalized_gradient_infinity_norm": 9.951047933233107e-17,
+      "all_phase_positivity_margin": 0.987180267882532,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_86",
+      "visibility_difference": 4.163336342344337e-17,
+      "deviance_difference": 1.2789769243681803e-13,
+      "normalized_gradient_infinity_norm": 1.9763200881754782e-16,
+      "all_phase_positivity_margin": 0.9841773984888637,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_87",
+      "visibility_difference": 4.044373395212242e-10,
+      "deviance_difference": 1.7621459846850485e-12,
+      "normalized_gradient_infinity_norm": 1.0475190197832476e-09,
+      "all_phase_positivity_margin": 0.9914906685969442,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_88",
+      "visibility_difference": 4.683753385137379e-16,
+      "deviance_difference": 2.0463630789890885e-12,
+      "normalized_gradient_infinity_norm": 1.5590081206320707e-15,
+      "all_phase_positivity_margin": 0.980741465235825,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_89",
+      "visibility_difference": 2.4528989950312052e-15,
+      "deviance_difference": 5.115907697472721e-13,
+      "normalized_gradient_infinity_norm": 7.587205133325056e-15,
+      "all_phase_positivity_margin": 0.9767881511577732,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_90",
+      "visibility_difference": 4.85722573273506e-17,
+      "deviance_difference": 1.3358203432289883e-12,
+      "normalized_gradient_infinity_norm": 1.944427668772642e-16,
+      "all_phase_positivity_margin": 0.9860985016344513,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_91",
+      "visibility_difference": 1.583489936396454e-11,
+      "deviance_difference": 1.2363443602225743e-12,
+      "normalized_gradient_infinity_norm": 6.591075882702665e-11,
+      "all_phase_positivity_margin": 0.995847625264087,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_92",
+      "visibility_difference": 7.395757617434384e-12,
+      "deviance_difference": 8.526512829121202e-13,
+      "normalized_gradient_infinity_norm": 2.2418050253261205e-10,
+      "all_phase_positivity_margin": 0.9946625515943441,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_93",
+      "visibility_difference": 2.840548126575859e-10,
+      "deviance_difference": 6.920686246303376e-12,
+      "normalized_gradient_infinity_norm": 7.676654786022903e-10,
+      "all_phase_positivity_margin": 0.9929213773928983,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_94",
+      "visibility_difference": 2.220446049250313e-16,
+      "deviance_difference": 9.094947017729282e-13,
+      "normalized_gradient_infinity_norm": 6.308919990876562e-16,
+      "all_phase_positivity_margin": 0.981250005103838,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    },
+    {
+      "name": "Sodium_int_powerscan_95",
+      "visibility_difference": 1.6846845012769007e-10,
+      "deviance_difference": 3.694822225952521e-12,
+      "normalized_gradient_infinity_norm": 5.178598633794953e-10,
+      "all_phase_positivity_margin": 0.9936330600494461,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully."
+    }
+  ]
+}

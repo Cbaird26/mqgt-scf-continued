@@ -1,0 +1,53 @@
+INTERNAL CROSS-CHECK RECORD - 21 OCTOBER 2026
+===========================================
+
+These are separate calculations and reviews within this AI-assisted research
+session. They are not external scientific peer review or independent empirical
+replication.
+
+COMMON INTERFACE
+A separate read-only review confirmed all tree portal factors, thresholds,
+matching dimensions, Hamiltonian sign, and multiplicative source. It identified
+the restricted UV-basis mismatch and the need for a full matrix composite-noise
+tensor. Both were added to the common contract. Nonfinite physical inputs are
+now explicitly rejected by the public width/matching functions. The original
+review remains in uv/COMMON_INTERFACE_REVIEW.md and records the state reviewed.
+
+MEASUREMENT
+A separate generic trust-region Poisson optimizer started from zero contrast
+and independently refit all 95 scans. It reproduced joint deviance to 4e-11,
+visibility to 8.7e-10, and joint Pearson dispersion to about 5e-10. Review output:
+thermal/results/independent_measurement_review.json. It confirmed the contrast
+symmetry and emphasized that the numerical ridge uses free per-scan amplitudes;
+the global fixed-V_Q identity is analytical, not an empirical fit of V_Q.
+
+UV SCALAR PROJECTION
+A separate one-field derivation for U=m^2 phi^2/2+lambda phi^4/4+c phi^6/8
+confirmed beta_lambda=(36 lambda^2/D^3-15c/D^2)/(32 pi^2), D=1+m^2,
+and beta_c=(180 lambda c/D^3-216 lambda^3/D^4)/(32 pi^2), excluding their
+separately stated canonical terms. O(4) Higgs Goldstone multiplicity gives
+-24/(32 pi^2) for sextic-to-quartic feedback. The matrix resolvent ordering and
+field-degree truncation are consistent. Higher operators, if later retained,
+can feed lower-degree beta functions and must be projected afresh.
+
+LITIM COORDINATE
+The primary paper's equation-level g*=1/64 and c4=24 pi restore to 3 pi/8 in
+its stated convention, confirming the upstream wrapper's inverted c4 map.
+The gauge-parameter convention remains part of that construction; the coordinate
+is not a directly measured gauge-independent Newton constant. This separate
+wrapper is not called by the DEP reproduction.
+
+SYNTHETIC MEMORY
+Protocol hash, saved trial scores and JSON aggregates were checked consistently.
+The synthetic sources and causal mechanisms are stipulated by construction.
+The data support the recorded mechanism only, not an experience interpretation.
+
+THERMAL EOS EXTENSION
+A separate read-only derivation confirmed a^3s conservation, dt/deta=[T ds/dT]/
+(3sH), the direction of the p/T remap, inherited linear-bank scaling H60/H times
+the entropy derivative, and the pair source normalization. Direct continuum
+collisionless controls expose finite-cell transport error. The new thermodynamic
+background is deliberately paired with unchanged ideal collision kernels.
+Different yield normalizations partly reflect different initial entropy densities,
+not additional production. The ideal charm/bottom addition is a separate model
+choice and not an uncertainty envelope.

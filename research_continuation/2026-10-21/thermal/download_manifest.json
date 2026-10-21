@@ -1,0 +1,448 @@
+{
+  "commit": "48f9dcbd34e7cfb86504167a0483f732a5dd5e8e",
+  "repository": "Cbaird26/mqgt-scf-continued",
+  "base": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/",
+  "checkpoint": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/",
+  "files": [
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/README.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c9568a89a2156a5a02e8c052e82b7962c1bae91",
+      "size": 3338,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/7c9568a89a2156a5a02e8c052e82b7962c1bae91"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/REPRODUCING.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "830db421af74e0a01dd560c6faf857d8521652d9",
+      "size": 4953,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/830db421af74e0a01dd560c6faf857d8521652d9"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/RESEARCH_NOTE.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7645b81c40593fcaae6a2043c8ab6a3bd957ce49",
+      "size": 13855,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/7645b81c40593fcaae6a2043c8ab6a3bd957ce49"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/SHA256SUMS",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22b9f4f9954286d04f497ceec676fe8da20e63d0",
+      "size": 5717,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/22b9f4f9954286d04f497ceec676fe8da20e63d0"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/analyze_network.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "facbf96c1d2f95473281a16db6200606882d9064",
+      "size": 4281,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/facbf96c1d2f95473281a16db6200606882d9064"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/build_report.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d02ee79d676f20344aee17f643638135ae9849d2",
+      "size": 7076,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/d02ee79d676f20344aee17f643638135ae9849d2"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/NETWORK_AUDIT.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47d40c5fa63d9091e0d9bad2c19c6a63dd2281ec",
+      "size": 10269,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/47d40c5fa63d9091e0d9bad2c19c6a63dd2281ec"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/build_decay_bank.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc39a2fa0023f2b8c246663f0789ca128a4f55f4",
+      "size": 1611,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/bc39a2fa0023f2b8c246663f0789ca128a4f55f4"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/decay_bank.npz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6549edf679cc013450b2e48277bd09907bb562c1",
+      "size": 1250293,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/6549edf679cc013450b2e48277bd09907bb562c1"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/decay_bank_eta16.npz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e51122e936b11ffbe3ba595281308d79a9f923f",
+      "size": 2247380,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/9e51122e936b11ffbe3ba595281308d79a9f923f"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/decay_graph.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdbf38f6d5c63e682670f76e75265f9656565b17",
+      "size": 6890,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/bdbf38f6d5c63e682670f76e75265f9656565b17"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/evolve_network.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bced52748a20b91d9d233d458966dd02aec6246a",
+      "size": 10622,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/bced52748a20b91d9d233d458966dd02aec6246a"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/pair_annihilation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04639bcd3e8a057e8664b18189938813db6722dc",
+      "size": 4256,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/04639bcd3e8a057e8664b18189938813db6722dc"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/pair_bank.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52e3e48360a678bbdcd7ea0301f7a643c2d68e7c",
+      "size": 273,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/52e3e48360a678bbdcd7ea0301f7a643c2d68e7c"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/pair_bank_eta16.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dace12c0ee36e347c34b05c3658a21890bc349ae",
+      "size": 272,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/dace12c0ee36e347c34b05c3658a21890bc349ae"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/reaction_rates.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "189cbb83d4123d8080efea1d4d76b5f185b2f3c6",
+      "size": 7423,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/189cbb83d4123d8080efea1d4d76b5f185b2f3c6"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/scalar_exchange_audit.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8bb2ec51045c32a9cd3bd8a7a1acddaf74d47cd",
+      "size": 3867,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/c8bb2ec51045c32a9cd3bd8a7a1acddaf74d47cd"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/verify_network.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68ab6f858d5490921f71d4fa657d5e46484fe789",
+      "size": 2577,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/68ab6f858d5490921f71d4fa657d5e46484fe789"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/provenance.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76a5c2e82a69278bb557c45d9c42408e78fefc69",
+      "size": 4829,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/76a5c2e82a69278bb557c45d9c42408e78fefc69"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/reproduce_all.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f9039c5853a6bbe4849db4e8322a45a53a2f9f9",
+      "size": 4293,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/5f9039c5853a6bbe4849db4e8322a45a53a2f9f9"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "471f776f67541bcaadd042782a1c0a438d0009f3",
+      "size": 46,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/471f776f67541bcaadd042782a1c0a438d0009f3"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/results/convergence_summary.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db11c997a6297fb8fd1dfe3bf4b3f879fe30d587",
+      "size": 15874,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/db11c997a6297fb8fd1dfe3bf4b3f879fe30d587"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/results/full_final.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b96907d060f187d2272d0a3aef527425a9f04bf8",
+      "size": 198648,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/b96907d060f187d2272d0a3aef527425a9f04bf8"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/review/THEORY_REVIEW.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "870a56e48740803598e89d45a87971ca87573ffd",
+      "size": 18037,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/870a56e48740803598e89d45a87971ca87573ffd"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/review/reproduction_check.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ff84f7b382a313995d1b4e46e9c5ed381a0768b",
+      "size": 3692,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/3ff84f7b382a313995d1b4e46e9c5ed381a0768b"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/review/verify_background.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b55db2e8166140b048607d362c249110e46318e",
+      "size": 2019,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/9b55db2e8166140b048607d362c249110e46318e"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/review/verify_banks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a54d05a5d63011853ca85853755ff6ce35150d25",
+      "size": 1546,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/a54d05a5d63011853ca85853755ff6ce35150d25"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/solver/SCATTERING_METHOD.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bae0ca657bc7f4b84b2b43445742e7f2815da74b",
+      "size": 4950,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/bae0ca657bc7f4b84b2b43445742e7f2815da74b"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/solver/analyze_scattering.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "353b7b897cd3090812a7983e18461bcdaefca120",
+      "size": 3998,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/353b7b897cd3090812a7983e18461bcdaefca120"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/solver/bank_q40.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aad4e94448fa387cdf223ff349610ae5e029f38a",
+      "size": 467,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/aad4e94448fa387cdf223ff349610ae5e029f38a"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/solver/bank_q48_eta16.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12017b7c4e7bf1945f5f64d94026246ff3af0e49",
+      "size": 591,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/12017b7c4e7bf1945f5f64d94026246ff3af0e49"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/solver/expanding_free_bath.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab183c81bc9cb463ec34ce808c8549edc1ea855a",
+      "size": 15457,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/ab183c81bc9cb463ec34ce808c8549edc1ea855a"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/source_reference/kinetic_moment_audit.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a1de78d703c2300e4d09e74154180b18d935335",
+      "size": 12596,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/5a1de78d703c2300e4d09e74154180b18d935335"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/source_reference/kinetic_moment_reference.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4675d54e0b829c20eba9a2e56844ab0deb3009fc",
+      "size": 4002,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/4675d54e0b829c20eba9a2e56844ab0deb3009fc"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/source_reference/leptonic_conversion_scattering.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ba9dcd73f7ef7325e939cebbcf0e6d482a341b3",
+      "size": 14036,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/6ba9dcd73f7ef7325e939cebbcf0e6d482a341b3"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/bank_q40.npz/0000.part",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e292de3a84758839ee0a6fce4793cc3e886a453",
+      "size": 5000000,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/5e292de3a84758839ee0a6fce4793cc3e886a453"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/bank_q40.npz/0001.part",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "654da945529e4630b563489fc0c8c7ae1245e035",
+      "size": 5000000,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/654da945529e4630b563489fc0c8c7ae1245e035"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/bank_q40.npz/0002.part",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ef6fb8347c0515c6cf2f736bc95803263777ad5",
+      "size": 1092570,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/1ef6fb8347c0515c6cf2f736bc95803263777ad5"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/bank_q48_eta16.npz/0000.part",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9ea4fba2c8f59dd990fb526402c0b9a68f6daa1",
+      "size": 5000000,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/b9ea4fba2c8f59dd990fb526402c0b9a68f6daa1"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/bank_q48_eta16.npz/0001.part",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3f53e1a8a493a270c7fceb4a79893bdb7970a63",
+      "size": 5000000,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/e3f53e1a8a493a270c7fceb4a79893bdb7970a63"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/bank_q48_eta16.npz/0002.part",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79893540c551c6607b1aeba7935e887a7f09138b",
+      "size": 5000000,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/79893540c551c6607b1aeba7935e887a7f09138b"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/bank_q48_eta16.npz/0003.part",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ebe7f671080cbda9dc3bb74b7ee8351595f0f34",
+      "size": 5000000,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/0ebe7f671080cbda9dc3bb74b7ee8351595f0f34"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/bank_q48_eta16.npz/0004.part",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e11097f1df0f1c36e25a5112d0b57852e6ed22f",
+      "size": 51933,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/6e11097f1df0f1c36e25a5112d0b57852e6ed22f"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/pair_bank.npz/0000.part",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15f8198e278ba083235ef78b31c21579a6980e46",
+      "size": 5000000,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/15f8198e278ba083235ef78b31c21579a6980e46"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/pair_bank.npz/0001.part",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c2733fdae0841d5b012bb9189611dce9229ff04",
+      "size": 5000000,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/2c2733fdae0841d5b012bb9189611dce9229ff04"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/pair_bank.npz/0002.part",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "963c8e3b5daac58b30fe873927b362a2c865fb52",
+      "size": 545379,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/963c8e3b5daac58b30fe873927b362a2c865fb52"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/pair_bank_eta16.npz/0000.part",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b0dc5f66f7e7cabc28211d8728fce73f5d7df19",
+      "size": 5000000,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/4b0dc5f66f7e7cabc28211d8728fce73f5d7df19"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/pair_bank_eta16.npz/0001.part",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78e7bcb433da86b23f903477fccde02f0669b5f9",
+      "size": 5000000,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/78e7bcb433da86b23f903477fccde02f0669b5f9"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/pair_bank_eta16.npz/0002.part",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d0a473fd214baf93abf8e16c3d3c55fcff5eb0b",
+      "size": 5000000,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/6d0a473fd214baf93abf8e16c3d3c55fcff5eb0b"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/pair_bank_eta16.npz/0003.part",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a8799f04b8835ae2d722874337e23691feb3fd8",
+      "size": 3980998,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/4a8799f04b8835ae2d722874337e23691feb3fd8"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/restore_artifacts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6dfd1b793aaa6d9d488b5bc28551dce498e55864",
+      "size": 3290,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/6dfd1b793aaa6d9d488b5bc28551dce498e55864"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/ARTIFACT_PARTS.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73de71f2fbe1bb429598da1b09641167cbaaa29b",
+      "size": 4003,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/73de71f2fbe1bb429598da1b09641167cbaaa29b"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/decay_bank.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd15130790c74879eb641ff7d985f1d36eb6bdb0",
+      "size": 42574,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/bd15130790c74879eb641ff7d985f1d36eb6bdb0"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/decay_bank_eta16.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed5a87386f60294d09208374f9ff058d4fc59741",
+      "size": 76598,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/ed5a87386f60294d09208374f9ff058d4fc59741"
+    },
+    {
+      "path": "manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/scalar_exchange_audit.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f266292dce43e42e5dfdcf4dbd45a0309b532f13",
+      "size": 4171,
+      "url": "https://api.github.com/repos/Cbaird26/mqgt-scf-continued/git/blobs/f266292dce43e42e5dfdcf4dbd45a0309b532f13"
+    }
+  ]
+}

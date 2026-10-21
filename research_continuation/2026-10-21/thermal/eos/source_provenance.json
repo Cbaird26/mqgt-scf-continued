@@ -1,0 +1,29 @@
+[
+  {
+    "file": "WB-EoS.dat",
+    "url": "https://arxiv.org/src/1309.5258v2/anc/WB-EoS.dat",
+    "bytes": 5922,
+    "sha256": "5f39782b65fcadf36a84c84afc57855cf7d20bc1f0b96f9d28c51737916b9550",
+    "redistributed_in_public_package": false,
+    "distribution_decision": "Raw ancillary file excluded. URL, hash and historical validation are retained; explicit optional retrieval is provided.",
+    "arxiv_license": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "article_license": "CC-BY-3.0",
+    "article_license_evidence": "https://repo.scoap3.org/records/975",
+    "ancillary_redistribution_terms": "No separate general redistribution grant located for this ancillary file; the article license is not asserted to relicense the separate file.",
+    "optional_retrieval_script": "thermal/fetch_eos_validation_table.py"
+  },
+  {
+    "file": "Borsanyi_2014.pdf",
+    "url": "https://arxiv.org/pdf/1309.5258v2",
+    "bytes": 1510736,
+    "sha256": "83e3546e88d3086423583faffd63bb109e3648e87a8f50ce2fc42826b818f0f5",
+    "redistributed_in_public_package": false
+  },
+  {
+    "file": "Borsanyi_2010.pdf",
+    "url": "https://arxiv.org/pdf/1007.2580v2",
+    "bytes": 518087,
+    "sha256": "a5737705cbe7f31c268dbaf017ba848d29ed7ff6e050a6315fabb3d01cf0f9f1",
+    "redistributed_in_public_package": false
+  }
+]

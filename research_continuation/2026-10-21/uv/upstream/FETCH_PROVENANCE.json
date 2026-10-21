@@ -1,0 +1,156 @@
+{
+  "repository": "Cbaird26/uv-reconstruction-frg",
+  "commit": "0a644a41eb947509280cbd648996d98bad54bdc5",
+  "files": [
+    {
+      "path": "DECLARED_TRUNCATION_V0_1.md",
+      "sha": "7f38aaf09fe31253de6ff35722f9dec8b0764914",
+      "url": "https://github.com/Cbaird26/uv-reconstruction-frg/blob/0a644a41eb947509280cbd648996d98bad54bdc5/DECLARED_TRUNCATION_V0_1.md"
+    },
+    {
+      "path": "FRG_PROJECTION_PROTOCOL_V0_1.md",
+      "sha": "ae7cc1870d2d924647f790b15f734a180521c4b3",
+      "url": "https://github.com/Cbaird26/uv-reconstruction-frg/blob/0a644a41eb947509280cbd648996d98bad54bdc5/FRG_PROJECTION_PROTOCOL_V0_1.md"
+    },
+    {
+      "path": "GRAVITY_IMPLEMENTATION_NOTES.md",
+      "sha": "c398fe5ed8e5c31f2b7d61599ae13bd7b318acb7",
+      "url": "https://github.com/Cbaird26/uv-reconstruction-frg/blob/0a644a41eb947509280cbd648996d98bad54bdc5/GRAVITY_IMPLEMENTATION_NOTES.md"
+    },
+    {
+      "path": "LICENSE",
+      "sha": "10fabd90118f7ce38bb2e4753e105e744442a429",
+      "url": "https://github.com/Cbaird26/uv-reconstruction-frg/blob/0a644a41eb947509280cbd648996d98bad54bdc5/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "sha": "72353474e65e0545e015021f3f170735b649d30b",
+      "url": "https://github.com/Cbaird26/uv-reconstruction-frg/blob/0a644a41eb947509280cbd648996d98bad54bdc5/README.md"
+    },
+    {
+      "path": "Reproducibility_and_Reconstruction_Update_2026-08-12.md",
+      "sha": "1b967d44bea2accbe363e3164da3b4dd9aab2d0c",
+      "url": "https://github.com/Cbaird26/uv-reconstruction-frg/blob/0a644a41eb947509280cbd648996d98bad54bdc5/Reproducibility_and_Reconstruction_Update_2026-08-12.md"
+    },
+    {
+      "path": "SOURCE_AUDIT.md",
+      "sha": "99103d8dbdd799399dec93e24f5eddb662f726aa",
+      "url": "https://github.com/Cbaird26/uv-reconstruction-frg/blob/0a644a41eb947509280cbd648996d98bad54bdc5/SOURCE_AUDIT.md"
+    },
+    {
+      "path": "canonical_scaling.py",
+      "sha": "777ac9561fc101276da72b97d6f04589b2daf1b1",
+      "url": "https://github.com/Cbaird26/uv-reconstruction-frg/blob/0a644a41eb947509280cbd648996d98bad54bdc5/canonical_scaling.py"
+    },
+    {
+      "path": "derive_higgs_two_singlet_core.py",
+      "sha": "a92a05ac61ebaa2ecb911dfbc7a906cc56bda5a5",
+      "url": "https://github.com/Cbaird26/uv-reconstruction-frg/blob/0a644a41eb947509280cbd648996d98bad54bdc5/derive_higgs_two_singlet_core.py"
+    },
+    {
+      "path": "derive_scalar_core.py",
+      "sha": "14ceccb74eb12d8c3a8d78f66a01c671ce21b2f7",
+      "url": "https://github.com/Cbaird26/uv-reconstruction-frg/blob/0a644a41eb947509280cbd648996d98bad54bdc5/derive_scalar_core.py"
+    },
+    {
+      "path": "derive_sm_gauge_core.py",
+      "sha": "6a3e30139fc15a894e24fa5b2ef8d9fda8030104",
+      "url": "https://github.com/Cbaird26/uv-reconstruction-frg/blob/0a644a41eb947509280cbd648996d98bad54bdc5/derive_sm_gauge_core.py"
+    },
+    {
+      "path": "einstein_hilbert_litim_benchmark.py",
+      "sha": "570c9d12e0c0a4e2a0e72c732451adab4b550249",
+      "url": "https://github.com/Cbaird26/uv-reconstruction-frg/blob/0a644a41eb947509280cbd648996d98bad54bdc5/einstein_hilbert_litim_benchmark.py"
+    },
+    {
+      "path": "gravity_frg.py",
+      "sha": "06275b9d88a122fcee72f27ee387de67e7f499eb",
+      "url": "https://github.com/Cbaird26/uv-reconstruction-frg/blob/0a644a41eb947509280cbd648996d98bad54bdc5/gravity_frg.py"
+    },
+    {
+      "path": "gravity_matter_coupling.py",
+      "sha": "ae1eac1e383440dcb5d1ca92179f570331c725ab",
+      "url": "https://github.com/Cbaird26/uv-reconstruction-frg/blob/0a644a41eb947509280cbd648996d98bad54bdc5/gravity_matter_coupling.py"
+    },
+    {
+      "path": "higgs_two_singlet_core.py",
+      "sha": "914aef875d5c172608514c64393742105fe6764c",
+      "url": "https://github.com/Cbaird26/uv-reconstruction-frg/blob/0a644a41eb947509280cbd648996d98bad54bdc5/higgs_two_singlet_core.py"
+    },
+    {
+      "path": "joint_fixed_point_stability.py",
+      "sha": "46e7189de0f76c61f4d3f8f380de3f31383abe10",
+      "url": "https://github.com/Cbaird26/uv-reconstruction-frg/blob/0a644a41eb947509280cbd648996d98bad54bdc5/joint_fixed_point_stability.py"
+    },
+    {
+      "path": "lithium_thresholds.py",
+      "sha": "2c63938baad761c5f64816725e101d8782c3a461",
+      "url": "https://github.com/Cbaird26/uv-reconstruction-frg/blob/0a644a41eb947509280cbd648996d98bad54bdc5/lithium_thresholds.py"
+    },
+    {
+      "path": "model.py",
+      "sha": "0d73decf474eb11f758a0ccf3066228c037a14e6",
+      "url": "https://github.com/Cbaird26/uv-reconstruction-frg/blob/0a644a41eb947509280cbd648996d98bad54bdc5/model.py"
+    },
+    {
+      "path": "partial_flow_41.py",
+      "sha": "cba70b99564dc1c82f7180625166b8e29c60632e",
+      "url": "https://github.com/Cbaird26/uv-reconstruction-frg/blob/0a644a41eb947509280cbd648996d98bad54bdc5/partial_flow_41.py"
+    },
+    {
+      "path": "perturbative_matter_baseline.py",
+      "sha": "28521edf9a30b0f650c311b5a639d028d36ed844",
+      "url": "https://github.com/Cbaird26/uv-reconstruction-frg/blob/0a644a41eb947509280cbd648996d98bad54bdc5/perturbative_matter_baseline.py"
+    },
+    {
+      "path": "r2_gravity_cpr.py",
+      "sha": "255fe08ef961e80554320834147af13db48851b9",
+      "url": "https://github.com/Cbaird26/uv-reconstruction-frg/blob/0a644a41eb947509280cbd648996d98bad54bdc5/r2_gravity_cpr.py"
+    },
+    {
+      "path": "run_einstein_hilbert_benchmark.py",
+      "sha": "414e2fd2278dfb95c6dc2693302138012b23e111",
+      "url": "https://github.com/Cbaird26/uv-reconstruction-frg/blob/0a644a41eb947509280cbd648996d98bad54bdc5/run_einstein_hilbert_benchmark.py"
+    },
+    {
+      "path": "run_matter_baseline.py",
+      "sha": "6f322064fb0a0bb2529b6745b53370acebbf0633",
+      "url": "https://github.com/Cbaird26/uv-reconstruction-frg/blob/0a644a41eb947509280cbd648996d98bad54bdc5/run_matter_baseline.py"
+    },
+    {
+      "path": "scalar_core.py",
+      "sha": "8ae6196b17567453f33ea723ae804d1c4db5791d",
+      "url": "https://github.com/Cbaird26/uv-reconstruction-frg/blob/0a644a41eb947509280cbd648996d98bad54bdc5/scalar_core.py"
+    },
+    {
+      "path": "scalar_frg_lpa.py",
+      "sha": "3cfcbe0a580517a4941d3a5d07a03a5e9bbd6ce7",
+      "url": "https://github.com/Cbaird26/uv-reconstruction-frg/blob/0a644a41eb947509280cbd648996d98bad54bdc5/scalar_frg_lpa.py"
+    },
+    {
+      "path": "scalar_tensor_nonminimal_np.py",
+      "sha": "f118f0fe9fdb395a0c339ad8a2ca4a200107736b",
+      "url": "https://github.com/Cbaird26/uv-reconstruction-frg/blob/0a644a41eb947509280cbd648996d98bad54bdc5/scalar_tensor_nonminimal_np.py"
+    },
+    {
+      "path": "sextic_lpa.py",
+      "sha": "b66431859b284d1a6b3f4142d49b18fff4f387da",
+      "url": "https://github.com/Cbaird26/uv-reconstruction-frg/blob/0a644a41eb947509280cbd648996d98bad54bdc5/sextic_lpa.py"
+    },
+    {
+      "path": "sm_gauge_core.py",
+      "sha": "11bf682abb5f096ed7a374597f4a94c77b952811",
+      "url": "https://github.com/Cbaird26/uv-reconstruction-frg/blob/0a644a41eb947509280cbd648996d98bad54bdc5/sm_gauge_core.py"
+    },
+    {
+      "path": "solve.py",
+      "sha": "f1d18f6c2de9602d77e2150e1e5ddb7e03cac077",
+      "url": "https://github.com/Cbaird26/uv-reconstruction-frg/blob/0a644a41eb947509280cbd648996d98bad54bdc5/solve.py"
+    },
+    {
+      "path": "tests/test_reconstruction.py",
+      "sha": "ded709c4f0a6fa1cb5350bed5b02ccd3a62c64ba",
+      "url": "https://github.com/Cbaird26/uv-reconstruction-frg/blob/0a644a41eb947509280cbd648996d98bad54bdc5/tests/test_reconstruction.py"
+    }
+  ]
+}

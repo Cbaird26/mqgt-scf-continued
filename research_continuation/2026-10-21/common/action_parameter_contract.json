@@ -1,0 +1,86 @@
+{
+  "contract_version": "0.1.0",
+  "created": "2026-10-21",
+  "purpose": "Cross-workstream convention and dependency contract, not a complete action or established theory",
+  "metric_signature": "+---",
+  "units": {"natural": "hbar=c=1; energies in GeV", "apparatus": "SI; explicit conversion required at interface"},
+  "reference_action": {
+    "schematic": "S = integral sqrt(-g) [Mbar_P^2 R/2 + L_SM + (partial phi)^T(partial phi)/2 - V(phi,H) + L_curvature + L_higher_operators]",
+    "potential": "V = V_SM(H) + phi^T M0^2 phi/2 + (phi^T K phi) HdaggerH/2 + lambda_abcd phi_a phi_b phi_c phi_d/4!",
+    "phi": ["Phi", "E_phys"],
+    "quartic_tensor": "Fully symmetric; five independent components for two real scalars; values unspecified",
+    "scope": "Only the quadratic portal interface is fixed here. Curvature, higher operators, counterterms and renormalization are unfinished.",
+    "interpretation": "Field labels do not establish psychological or ethical meanings; E_phys is not E_norm without an operational bridge."
+  },
+  "symmetric_branch": {
+    "id": "massive_zero_singlet_vev_tree_portal",
+    "symmetry": "simultaneous Z2: phi -> -phi; individual sign flips generally not symmetries",
+    "vacuum_singlet_GeV": [0.0, 0.0],
+    "external_additive_sources": 0.0,
+    "kinetic_normalization": "positive identity in this low-energy tree branch",
+    "unmixed_physical_higgs": true,
+    "mass_relation": "Mphysical^2 = M0^2 + v^2 K/2",
+    "basis_rule": "Under phi=Q psi, transform M^2, K, all quartics, sources and operators consistently; field redefinition is not a physical symmetry claim.",
+    "single_scalar_photon_operator": "Forbidden by exact simultaneous Z2; a broken-vacuum branch needs fresh matching"
+  },
+  "thermal_benchmark": {
+    "physical_masses_GeV": [10.0, 11.5],
+    "K_mass_basis": [[0.001, -0.001], [-0.001, 0.001]],
+    "higgs_mass_GeV": 125.0,
+    "vev_GeV": 246.0,
+    "SM_higgs_width_GeV": 0.0041,
+    "T_initial_GeV": 0.5,
+    "T_final_GeV": 0.3333333333333333,
+    "g_star": 60.0,
+    "g_star_s": 60.0,
+    "bath": "Ideal Maxwell-Boltzmann e,mu,tau,u,d,s,c,b; no claim of complete QCD thermodynamics",
+    "initial_state": "Imposed scalar Maxwell-Boltzmann population at T=0.5 GeV; continuation scans alter preparation, not earlier cosmology",
+    "source_repository": "Cbaird26/mqgt-scf-continued",
+    "source_commit": "48f9dcbd34e7cfb86504167a0483f732a5dd5e8e"
+  },
+  "tree_interfaces": {
+    "higgs_interaction": "L_hss = -v h (K11 s1^2 + 2 K12 s1 s2 + K22 s2^2)/2",
+    "diagonal_width": "Gamma_ii = v^2 Kii^2 sqrt(1-4 mi^2/mh^2)/(32 pi mh), only for 2 mi < mh",
+    "mixed_width": "Gamma_12 = v^2 K12^2 sqrt([1-(m1+m2)^2/mh^2][1-(m1-m2)^2/mh^2])/(16 pi mh), only for m1+m2 < mh",
+    "width_status": "Production only; each lifetime, decay branch, acceptance, and total Higgs width is required for an invisible prediction",
+    "point_probe_matching": "C = fa ma K_mass/(2 mh^2), [C]=GeV^-1; |q^2| << mh^2",
+    "probe_Hamiltonian": "H_int = - integral d^3x n_a(x) (s^T C s)_renormalized",
+    "field_equation_source": "(Box I + M^2)s = 2 n_a C s + ...; multiplicative mass shift, zero remains a solution",
+    "conditional_stationary_noise_one_scalar": "gamma(d) = c_a^2 [S_phi2(0,0)-S_phi2(0,d)]",
+    "conditional_stationary_noise_matrix": "For O_ij=(s_i s_j)_ren, use S_B=sum_ijkl C_ij C_kl S_(ij)(kl), including both off-diagonal orderings; gamma(d)=S_B(0,0)-Re S_B(0,d) under the same stationary heavy-probe assumptions",
+    "noise_fourier_convention": "S_AB(Omega,r)=integral over all real t of exp(i Omega t) <delta A(t,r) delta B(0,0)>; at Omega=0 use the equal symmetrized spectrum; no extra factor two",
+    "noise_dimensions": "[S_phi2]=GeV^3; [gamma]=GeV; convert to s^-1 with hbar",
+    "detector_scope": "Stationary heavy point probe, weak coupling, specified stationary bath, controlled Markov limit; extended moving detector needs response and finite-time filter"
+  },
+  "branches_not_identified": [
+    "massive tree portal benchmark",
+    "ultralight broken-vacuum photon benchmark",
+    "ideal cosmological bath checkpoint",
+    "laboratory scalar bath",
+    "spectral hypercharge compactification ansatz",
+    "partially assembled FRG truncation",
+    "operational cognitive or agency variables"
+  ],
+  "undetermined_inputs": {
+    "renormalization_scale_GeV": null,
+    "renormalization_scheme": null,
+    "full_scalar_quartics": null,
+    "global_vacuum_stability": null,
+    "QCD_matched_reaction_network": null,
+    "physical_initial_abundance": null,
+    "laboratory_bath_population_and_spectrum": null,
+    "apparatus_composite_form_factor": null,
+    "spectral_profile_selection_rule": null,
+    "spectral_overall_normalization": null,
+    "common_FRG_regulator_gauge_projection": null,
+    "field_to_cognition_operational_map": null,
+    "general_Z2_portal_to_separately_even_UV_basis": null
+  },
+  "source_archive": {
+    "file": "36-A-Theory-of-Everything-Baird-et-al-2026-Expanded-Research-Archive-Public-Edition-2026-10-20-2-.pdf",
+    "sha256": "4b52a5fb57716168d354b5c3dcb4bbf2ca4c0fe6744733b6ca0d3b3eae48f921",
+    "physical_pages": [7561,7562,7563,7576,7577,7578,7580,7582],
+    "general_bridge_principle_pages": "6457-6468; this contract implements rather than originates that architecture"
+  },
+  "claim_gate": "No workstream may use a null dependency as a measured or derived value. Numerical verification certifies specified computations, not the existence or interpretation of the fields."
+}

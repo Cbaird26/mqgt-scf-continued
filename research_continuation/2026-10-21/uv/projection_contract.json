@@ -1,0 +1,80 @@
+{
+  "status": "common_coupled_projection_not_available",
+  "authority": "New audit contract, not a claim that upstream implements these requirements.",
+  "dimension": 4,
+  "RG_time": "ln(k/k0)",
+  "required_scalar_census": {
+    "H_real_components": 4,
+    "Phi_real_components": 1,
+    "E_real_components": 1,
+    "total": 6
+  },
+  "coordinate_map": {
+    "gN": "G*k^2 = G_tilde",
+    "lambdaN": "2*Lambda/k^2 = 2*Lambda_tilde",
+    "beta_lambdaN": "2*beta_Lambda_tilde",
+    "g1": "gY in ordinary Standard Model hypercharge normalization"
+  },
+  "coordinate_map_scope": "This records the repository DEP branch, not a universal map to the separately implemented Litim branch. A single action convention must replace the conflicting branch labels.",
+  "NP_scalar_mass_matching": {
+    "paper_potential": "V contains lambda2*phi^2",
+    "canonical_mass_potential": "V contains m^2*phi^2/2",
+    "required_identification_at_Z1": "lambda2=m^2/2",
+    "upstream_wiring": "lambda2=m^2",
+    "status": "factor-of-two mismatch; changing it alone does not reconcile backgrounds, Higgs multiplicity, or nonminimal signs"
+  },
+  "field_normalization": {
+    "eta_i": "-d ln(Z_i)/dt",
+    "regular_chart": "Z_i > 0, with canonically normalized fields sqrt(Z_i)*phi_i",
+    "essential_mass_squared": "m_i^2/(Z_i*k^2)",
+    "essential_self_quartic": "lambda_i/Z_i^2",
+    "essential_sextic": "k^2*c_abc/(Z_H^a*Z_Phi^b*Z_E^c), a+b+c=3",
+    "sextic_scaling_term": "(2+a*eta_H+b*eta_Phi+c*eta_E)*c_abc_tilde"
+  },
+  "missing_at_reported_point": [
+    "a_R2",
+    "a_C2",
+    "c_HBox",
+    "c_PhiBox",
+    "c_EBox",
+    "c_HF2",
+    "c_PhiF2",
+    "c_EF2"
+  ],
+  "required_projection_work": [
+    {
+      "operators": [
+        "a_R2",
+        "a_C2"
+      ],
+      "canonical_weight": 0,
+      "required": "Choose regular higher-curvature coordinates and one gravity/matter Hessian; include mixing. Existing inverse coordinates are singular at the selected point; standalone CPR beta_aC2 is nonzero."
+    },
+    {
+      "operators": [
+        "c_HBox",
+        "c_PhiBox",
+        "c_EBox"
+      ],
+      "canonical_weight": 2,
+      "required": "Declare scalar invariant normalization, integration-by-parts/EOM basis and momentum subtraction projector; project the p^2 part of appropriate four-scalar vertices with all selected traces."
+    },
+    {
+      "operators": [
+        "c_HF2",
+        "c_PhiF2",
+        "c_EF2"
+      ],
+      "canonical_weight": 2,
+      "required": "Declare whether F denotes U(1), SU(2), SU(3), or a fixed combination. A general scalar-bilinear gauge-strength set has a separate coefficient for each scalar invariant and each gauge factor; project transverse two-gauge/two-scalar vertices."
+    }
+  ],
+  "common_flow_acceptance_criteria": [
+    "One explicitly defined field content, action, gauge fixing, ghost normalization and regulator prescription, or a derived matching map between schemes.",
+    "All retained beta projections finite in a regular field-normalization chart; no missing entries silently replaced by zero.",
+    "Gravity, scalar, gauge, Yukawa, nonminimal and higher-derivative mixing included to the declared truncation order, with controlled omission estimates.",
+    "Nonzero Newton fixed point satisfies beta_gN=(2+eta_N)*gN and eta_N=-2; distinguish background eta_N from fluctuation eta_h.",
+    "Residual, basis/field-normalization checks, derivative-step convergence, regulator sensitivity and truncation enlargement assessed before claiming physical critical exponents.",
+    "Nonlinear analysis resolves zero linear exponents before an exact-marginality or UV-critical-surface dimension claim."
+  ]
+}

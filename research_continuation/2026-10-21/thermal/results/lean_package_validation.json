@@ -1,0 +1,17 @@
+{
+  "provenance": {
+    "verified_git_blobs": 40,
+    "omitted_redundant_parts": 15,
+    "verified_archived_sha256": 41,
+    "verified_restored_banks": 4
+  },
+  "existing_banks_check": [
+    "Verified existing network/pair_bank.npz: 10545379 bytes",
+    "Verified existing network/pair_bank_eta16.npz: 18980998 bytes",
+    "Verified existing solver/bank_q40.npz: 11092570 bytes",
+    "Verified existing solver/bank_q48_eta16.npz: 20051933 bytes"
+  ],
+  "offline_test": true,
+  "original_acquisition_sha256_before": "3de3408279891bd754520a1d8600ac554532d38bdccbc9bdcd0c2d93038ac4ff",
+  "original_acquisition_sha256_after": "3de3408279891bd754520a1d8600ac554532d38bdccbc9bdcd0c2d93038ac4ff"
+}

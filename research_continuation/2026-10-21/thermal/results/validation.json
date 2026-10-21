@@ -1,0 +1,1562 @@
+{
+  "baseline_endpoint_absolute_differences": {
+    "Tkin_over_T": 0.0,
+    "heavy_fraction": 0.0,
+    "comoving_number_relative_to_initial": 0.0,
+    "total_variation_to_same_species_MB": 0.0
+  },
+  "batched_vs_original_baseline_absolute_differences": {
+    "Tkin_over_T": 7.771561172376096e-16,
+    "heavy_fraction": 0.0,
+    "total_variation_to_same_species_MB": 0.0
+  },
+  "step_192_vs_384": {
+    "z_1e-06": {
+      "comoving_number_over_actual_initial": {
+        "reference": 3.5630154192180084,
+        "comparison": 3.5635582239119503,
+        "absolute_difference": 0.0005428046939419673,
+        "relative_difference": 0.0001523441888615512
+      },
+      "Tkin_over_T": {
+        "reference": 0.7528496285659385,
+        "comparison": 0.7528471544318313,
+        "absolute_difference": 2.474134107255388e-06,
+        "relative_difference": 3.286358939923008e-06
+      },
+      "heavy_fraction": {
+        "reference": 0.036427559498996995,
+        "comparison": 0.03642776850137947,
+        "absolute_difference": 2.0900238247717473e-07,
+        "relative_difference": 5.737479681638554e-06
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.13988209438908564,
+        "comparison": 0.13988375624629984,
+        "absolute_difference": 1.6618572142024224e-06,
+        "relative_difference": 1.1880414154937685e-05
+      }
+    },
+    "z_0.0001": {
+      "comoving_number_over_actual_initial": {
+        "reference": 1.0256301506219245,
+        "comparison": 1.0256355786688196,
+        "absolute_difference": 5.428046895072924e-06,
+        "relative_difference": 5.292401838792911e-06
+      },
+      "Tkin_over_T": {
+        "reference": 0.7503606981395391,
+        "comparison": 0.7503604491369352,
+        "absolute_difference": 2.490026038692861e-07,
+        "relative_difference": 3.318438778665629e-07
+      },
+      "heavy_fraction": {
+        "reference": 0.03662509325567235,
+        "comparison": 0.03662519269611749,
+        "absolute_difference": 9.944044514209605e-08,
+        "relative_difference": 2.7150905650375405e-06
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.14150339067492598,
+        "comparison": 0.14150356682158313,
+        "absolute_difference": 1.7614665714926758e-07,
+        "relative_difference": 1.2448228717990733e-06
+      }
+    },
+    "z_0.01": {
+      "comoving_number_over_actual_initial": {
+        "reference": 1.0002559603818004,
+        "comparison": 1.0002560146621766,
+        "absolute_difference": 5.428037619381598e-08,
+        "relative_difference": 5.426648612330889e-08
+      },
+      "Tkin_over_T": {
+        "reference": 0.7502720419408715,
+        "comparison": 0.7502718587100452,
+        "absolute_difference": 1.8323082628945997e-07,
+        "relative_difference": 2.442191845713215e-07
+      },
+      "heavy_fraction": {
+        "reference": 0.03663212918804474,
+        "comparison": 0.03663222579675074,
+        "absolute_difference": 9.66087060003118e-08,
+        "relative_difference": 2.6372670150945255e-06
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.14156114158766486,
+        "comparison": 0.14156127359881235,
+        "absolute_difference": 1.3201114748562226e-07,
+        "relative_difference": 9.32538025654953e-07
+      }
+    },
+    "z_0.1": {
+      "comoving_number_over_actual_initial": {
+        "reference": 1.0000222200234057,
+        "comparison": 1.000022225450931,
+        "absolute_difference": 5.427525318069115e-09,
+        "relative_difference": 5.427404721009182e-09
+      },
+      "Tkin_over_T": {
+        "reference": 0.7502712339903566,
+        "comparison": 0.750271051368399,
+        "absolute_difference": 1.8262195755625044e-07,
+        "relative_difference": 2.434079160745189e-07
+      },
+      "heavy_fraction": {
+        "reference": 0.03663219095127081,
+        "comparison": 0.036632287533900645,
+        "absolute_difference": 9.658262983824883e-08,
+        "relative_difference": 2.6365507312059446e-06
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.141561668028673,
+        "comparison": 0.14156179963115473,
+        "absolute_difference": 1.316024817177297e-07,
+        "relative_difference": 9.29647718555237e-07
+      }
+    },
+    "z_1": {
+      "comoving_number_over_actual_initial": {
+        "reference": 0.9999684642143806,
+        "comparison": 0.9999684647523729,
+        "absolute_difference": 5.379923173620682e-10,
+        "relative_difference": 5.380092839075068e-10
+      },
+      "Tkin_over_T": {
+        "reference": 0.7502713380032889,
+        "comparison": 0.7502711554422626,
+        "absolute_difference": 1.8256102629621296e-07,
+        "relative_difference": 2.4332667003122633e-07
+      },
+      "heavy_fraction": {
+        "reference": 0.03663215909982854,
+        "comparison": 0.036632255679645905,
+        "absolute_difference": 9.65798173657717e-08,
+        "relative_difference": 2.6364762476210077e-06
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.14156160167199583,
+        "comparison": 0.14156173323354496,
+        "absolute_difference": 1.315615491270794e-07,
+        "relative_difference": 9.29359003947363e-07
+      }
+    },
+    "z_10": {
+      "comoving_number_over_actual_initial": {
+        "reference": 0.9996593743857927,
+        "comparison": 0.9996593743923791,
+        "absolute_difference": 6.586398093588741e-12,
+        "relative_difference": 6.588642353937343e-12
+      },
+      "Tkin_over_T": {
+        "reference": 0.7502731963819591,
+        "comparison": 0.7502730138273481,
+        "absolute_difference": 1.8255461098348746e-07,
+        "relative_difference": 2.433175166910136e-07
+      },
+      "heavy_fraction": {
+        "reference": 0.03663177569902269,
+        "comparison": 0.03663187227651396,
+        "absolute_difference": 9.657749126812387e-08,
+        "relative_difference": 2.636440342440197e-06
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.1415604050915345,
+        "comparison": 0.14156053664841228,
+        "absolute_difference": 1.3155687778043657e-07,
+        "relative_difference": 9.293338606608992e-07
+      }
+    },
+    "z_100": {
+      "comoving_number_over_actual_initial": {
+        "reference": 0.9966016361687625,
+        "comparison": 0.9966016357005424,
+        "absolute_difference": 4.682201293348953e-10,
+        "relative_difference": 4.698167375430716e-10
+      },
+      "Tkin_over_T": {
+        "reference": 0.7502918308665066,
+        "comparison": 0.7502916483158437,
+        "absolute_difference": 1.825506629193896e-07,
+        "relative_difference": 2.4330621154246493e-07
+      },
+      "heavy_fraction": {
+        "reference": 0.0366279430445291,
+        "comparison": 0.036628039601368456,
+        "absolute_difference": 9.655683935738679e-08,
+        "relative_difference": 2.6361523834412788e-06
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.14154840588743686,
+        "comparison": 0.1415485374380188,
+        "absolute_difference": 1.3155058192770852e-07,
+        "relative_difference": 9.293681628058823e-07
+      }
+    },
+    "z_10000": {
+      "comoving_number_over_actual_initial": {
+        "reference": 0.7457255966678036,
+        "comparison": 0.7457255515717924,
+        "absolute_difference": 4.5096011147549575e-08,
+        "relative_difference": 6.047266092119723e-08
+      },
+      "Tkin_over_T": {
+        "reference": 0.7520581013105385,
+        "comparison": 0.752057919987896,
+        "absolute_difference": 1.8132264256731645e-07,
+        "relative_difference": 2.4110190722145416e-07
+      },
+      "heavy_fraction": {
+        "reference": 0.03627648799157497,
+        "comparison": 0.03627658252368314,
+        "absolute_difference": 9.453210816912083e-08,
+        "relative_difference": 2.6058781707610567e-06
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.14040990899699804,
+        "comparison": 0.14041003938735377,
+        "absolute_difference": 1.3039035573481073e-07,
+        "relative_difference": 9.286406968442552e-07
+      }
+    },
+    "kinetic_0.75": {
+      "comoving_number_over_actual_initial": {
+        "reference": 0.9999682521010622,
+        "comparison": 0.9999682526395367,
+        "absolute_difference": 5.384744872216629e-10,
+        "relative_difference": 5.384915831980251e-10
+      },
+      "Tkin_over_T": {
+        "reference": 0.6281802073522756,
+        "comparison": 0.6281800797297897,
+        "absolute_difference": 1.2762248591258185e-07,
+        "relative_difference": 2.0316222067947573e-07
+      },
+      "heavy_fraction": {
+        "reference": 0.03389583520192615,
+        "comparison": 0.03389592851261706,
+        "absolute_difference": 9.331069091012001e-08,
+        "relative_difference": 2.7528659599105433e-06
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.22759767579300147,
+        "comparison": 0.22759779456483903,
+        "absolute_difference": 1.1877183755948373e-07,
+        "relative_difference": 5.218499580263987e-07
+      }
+    },
+    "kinetic_1.25": {
+      "comoving_number_over_actual_initial": {
+        "reference": 0.9999686652532609,
+        "comparison": 0.9999686657906666,
+        "absolute_difference": 5.374056755158563e-10,
+        "relative_difference": 5.374225155142718e-10
+      },
+      "Tkin_over_T": {
+        "reference": 0.8707563142621252,
+        "comparison": 0.870756020986936,
+        "absolute_difference": 2.9327518913380146e-07,
+        "relative_difference": 3.3680512484405177e-07
+      },
+      "heavy_fraction": {
+        "reference": 0.039473842700829646,
+        "comparison": 0.03947394410170365,
+        "absolute_difference": 1.0140087400301034e-07,
+        "relative_difference": 2.5688118274048636e-06
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.07016775962018368,
+        "comparison": 0.07016792312951403,
+        "absolute_difference": 1.6350933035313986e-07,
+        "relative_difference": 2.3302629475162347e-06
+      }
+    },
+    "heavy_0": {
+      "comoving_number_over_actual_initial": {
+        "reference": 0.9999685415950039,
+        "comparison": 0.9999685421322224,
+        "absolute_difference": 5.372184919139045e-10,
+        "relative_difference": 5.372353924824594e-10
+      },
+      "Tkin_over_T": {
+        "reference": 0.7378238651505353,
+        "comparison": 0.7378237098425663,
+        "absolute_difference": 1.55307969040841e-07,
+        "relative_difference": 2.1049464022033783e-07
+      },
+      "heavy_fraction": {
+        "reference": 0.023201039712458123,
+        "comparison": 0.023201041890944397,
+        "absolute_difference": 2.178486273318736e-09,
+        "relative_difference": 9.389606243158867e-08
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.1491880706751111,
+        "comparison": 0.14918818447403503,
+        "absolute_difference": 1.1379892392304747e-07,
+        "relative_difference": 7.627883610806184e-07
+      }
+    },
+    "heavy_0.25": {
+      "comoving_number_over_actual_initial": {
+        "reference": 0.9999682096090056,
+        "comparison": 0.9999682101494024,
+        "absolute_difference": 5.403968383888014e-10,
+        "relative_difference": 5.40414018361744e-10
+      },
+      "Tkin_over_T": {
+        "reference": 0.7922132820445315,
+        "comparison": 0.7922130076538307,
+        "absolute_difference": 2.7439070071633154e-07,
+        "relative_difference": 3.4635963185089295e-07
+      },
+      "heavy_fraction": {
+        "reference": 0.08188851608403976,
+        "comparison": 0.08188893075046448,
+        "absolute_difference": 4.146664247250964e-07,
+        "relative_difference": 5.06379214760146e-06
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.11586410153265989,
+        "comparison": 0.11586429294570033,
+        "absolute_difference": 1.9141304044567597e-07,
+        "relative_difference": 1.6520478553205739e-06
+      }
+    }
+  },
+  "momentum_grid_192_vs_96": {
+    "z_1e-06": {
+      "comoving_number_over_actual_initial": {
+        "reference": 3.5630154192180084,
+        "comparison": 3.563015436575537,
+        "absolute_difference": 1.7357528747652395e-08,
+        "relative_difference": 4.871583954992239e-09
+      },
+      "Tkin_over_T": {
+        "reference": 0.7528496285659385,
+        "comparison": 0.7531102936050499,
+        "absolute_difference": 0.00026066503911137406,
+        "relative_difference": 0.0003462378531127131
+      },
+      "heavy_fraction": {
+        "reference": 0.036427559498996995,
+        "comparison": 0.03642734537597982,
+        "absolute_difference": 2.141230171781583e-07,
+        "relative_difference": 5.878050029238275e-06
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.13988209438908564,
+        "comparison": 0.13965800444498896,
+        "absolute_difference": 0.0002240899440966726,
+        "relative_difference": 0.0016019916278445236
+      }
+    },
+    "z_0.0001": {
+      "comoving_number_over_actual_initial": {
+        "reference": 1.0256301506219245,
+        "comparison": 1.0256301507955186,
+        "absolute_difference": 1.7359402804117963e-10,
+        "relative_difference": 1.6925597198553025e-10
+      },
+      "Tkin_over_T": {
+        "reference": 0.7503606981395391,
+        "comparison": 0.7506249682814816,
+        "absolute_difference": 0.0002642701419425242,
+        "relative_difference": 0.00035219080983020756
+      },
+      "heavy_fraction": {
+        "reference": 0.03662509325567235,
+        "comparison": 0.03662486431422228,
+        "absolute_difference": 2.2894145006863154e-07,
+        "relative_difference": 6.250945177680169e-06
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.14150339067492598,
+        "comparison": 0.14125149670795328,
+        "absolute_difference": 0.0002518939669726994,
+        "relative_difference": 0.001780126721849177
+      }
+    },
+    "z_0.01": {
+      "comoving_number_over_actual_initial": {
+        "reference": 1.0002559603818004,
+        "comparison": 1.0002559603853127,
+        "absolute_difference": 3.5123015607041452e-12,
+        "relative_difference": 3.5114027807077402e-12
+      },
+      "Tkin_over_T": {
+        "reference": 0.7502720419408715,
+        "comparison": 0.7505364404977313,
+        "absolute_difference": 0.00026439855685977953,
+        "relative_difference": 0.0003524035844062768
+      },
+      "heavy_fraction": {
+        "reference": 0.03663212918804474,
+        "comparison": 0.03663189971880138,
+        "absolute_difference": 2.2946924335687235e-07,
+        "relative_difference": 6.2641524924454005e-06
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.14156114158766486,
+        "comparison": 0.14130825723344825,
+        "absolute_difference": 0.00025288435421660926,
+        "relative_difference": 0.001786396686127351
+      }
+    },
+    "z_0.1": {
+      "comoving_number_over_actual_initial": {
+        "reference": 1.0000222200234057,
+        "comparison": 1.0000222200413325,
+        "absolute_difference": 1.7926771178622403e-11,
+        "relative_difference": 1.7926372854198004e-11
+      },
+      "Tkin_over_T": {
+        "reference": 0.7502712339903566,
+        "comparison": 0.7505356337253737,
+        "absolute_difference": 0.000264399735017129,
+        "relative_difference": 0.0003524055342104818
+      },
+      "heavy_fraction": {
+        "reference": 0.03663219095127081,
+        "comparison": 0.03663196147729031,
+        "absolute_difference": 2.294739804981072e-07,
+        "relative_difference": 6.264271247203316e-06
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.141561668028673,
+        "comparison": 0.1413087746244538,
+        "absolute_difference": 0.0002528934042192177,
+        "relative_difference": 0.0017864539726106835
+      }
+    },
+    "z_1": {
+      "comoving_number_over_actual_initial": {
+        "reference": 0.9999684642143806,
+        "comparison": 0.9999684643919171,
+        "absolute_difference": 1.7753654102392602e-10,
+        "relative_difference": 1.7754213995479004e-10
+      },
+      "Tkin_over_T": {
+        "reference": 0.7502713380032889,
+        "comparison": 0.7505357376664604,
+        "absolute_difference": 0.00026439966317148844,
+        "relative_difference": 0.00035240538959563643
+      },
+      "heavy_fraction": {
+        "reference": 0.03663215909982854,
+        "comparison": 0.036631929627195386,
+        "absolute_difference": 2.2947263315226119e-07,
+        "relative_difference": 6.264239913539119e-06
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.14156160167199583,
+        "comparison": 0.14130870918641214,
+        "absolute_difference": 0.00025289248558368893,
+        "relative_difference": 0.0017864483207081212
+      }
+    },
+    "z_10": {
+      "comoving_number_over_actual_initial": {
+        "reference": 0.9996593743857927,
+        "comparison": 0.9996593761598686,
+        "absolute_difference": 1.774075886196158e-09,
+        "relative_difference": 1.774680387793272e-09
+      },
+      "Tkin_over_T": {
+        "reference": 0.7502731963819591,
+        "comparison": 0.7505375941413119,
+        "absolute_difference": 0.00026439775935283016,
+        "relative_difference": 0.0003524019792094865
+      },
+      "heavy_fraction": {
+        "reference": 0.03663177569902269,
+        "comparison": 0.036631546244733165,
+        "absolute_difference": 2.2945428952703129e-07,
+        "relative_difference": 6.263804720041266e-06
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.1415604050915345,
+        "comparison": 0.1413075309336515,
+        "absolute_difference": 0.0002528741578829985,
+        "relative_difference": 0.001786333952064402
+      }
+    },
+    "z_100": {
+      "comoving_number_over_actual_initial": {
+        "reference": 0.9966016361687625,
+        "comparison": 0.9966016537993357,
+        "absolute_difference": 1.7630573223570423e-08,
+        "relative_difference": 1.769069263356587e-08
+      },
+      "Tkin_over_T": {
+        "reference": 0.7502918308665066,
+        "comparison": 0.7505562094968359,
+        "absolute_difference": 0.0002643786303292428,
+        "relative_difference": 0.0003523677313984797
+      },
+      "heavy_fraction": {
+        "reference": 0.0366279430445291,
+        "comparison": 0.03662771377382806,
+        "absolute_difference": 2.2927070103540004e-07,
+        "relative_difference": 6.2594478962870635e-06
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.14154840588743686,
+        "comparison": 0.14129571563534343,
+        "absolute_difference": 0.0002526902520934293,
+        "relative_difference": 0.0017851861383333097
+      }
+    },
+    "z_10000": {
+      "comoving_number_over_actual_initial": {
+        "reference": 0.7457255966678036,
+        "comparison": 0.7457265735400168,
+        "absolute_difference": 9.768722132319496e-07,
+        "relative_difference": 1.3099620257062389e-06
+      },
+      "Tkin_over_T": {
+        "reference": 0.7520581013105385,
+        "comparison": 0.7523206313571061,
+        "absolute_difference": 0.0002625300465676217,
+        "relative_difference": 0.0003490821335614045
+      },
+      "heavy_fraction": {
+        "reference": 0.03627648799157497,
+        "comparison": 0.03627627590155391,
+        "absolute_difference": 2.120900210594856e-07,
+        "relative_difference": 5.846487154675569e-06
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.14040990899699804,
+        "comparison": 0.14017482864322087,
+        "absolute_difference": 0.00023508035377717285,
+        "relative_difference": 0.0016742433312324052
+      }
+    },
+    "kinetic_0.75": {
+      "comoving_number_over_actual_initial": {
+        "reference": 0.9999682521010622,
+        "comparison": 0.9999682526217669,
+        "absolute_difference": 5.207047015787225e-10,
+        "relative_difference": 5.207212333838148e-10
+      },
+      "Tkin_over_T": {
+        "reference": 0.6281802073522756,
+        "comparison": 0.6286281531317539,
+        "absolute_difference": 0.00044794577947826486,
+        "relative_difference": 0.0007130848349493801
+      },
+      "heavy_fraction": {
+        "reference": 0.03389583520192615,
+        "comparison": 0.03389719616240312,
+        "absolute_difference": 1.360960476974593e-06,
+        "relative_difference": 4.015125955348213e-05
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.22759767579300147,
+        "comparison": 0.22703336518437298,
+        "absolute_difference": 0.0005643106086284932,
+        "relative_difference": 0.0024794216665979044
+      }
+    },
+    "kinetic_1.25": {
+      "comoving_number_over_actual_initial": {
+        "reference": 0.9999686652532609,
+        "comparison": 0.9999686651423142,
+        "absolute_difference": 1.1094669627453868e-10,
+        "relative_difference": 1.1095017287010623e-10
+      },
+      "Tkin_over_T": {
+        "reference": 0.8707563142621252,
+        "comparison": 0.870849390413502,
+        "absolute_difference": 9.307615137676972e-05,
+        "relative_difference": 0.00010689115869994238
+      },
+      "heavy_fraction": {
+        "reference": 0.039473842700829646,
+        "comparison": 0.03947116292715214,
+        "absolute_difference": 2.679773677509434e-06,
+        "relative_difference": 6.78873272566674e-05
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.07016775962018368,
+        "comparison": 0.07017968568050453,
+        "absolute_difference": 1.1926060320854859e-05,
+        "relative_difference": 0.0001699649580578078
+      }
+    },
+    "heavy_0": {
+      "comoving_number_over_actual_initial": {
+        "reference": 0.9999685415950039,
+        "comparison": 0.9999685417565115,
+        "absolute_difference": 1.6150758508359786e-10,
+        "relative_difference": 1.6151266601445733e-10
+      },
+      "Tkin_over_T": {
+        "reference": 0.7378238651505353,
+        "comparison": 0.7380986062542699,
+        "absolute_difference": 0.00027474110373459926,
+        "relative_difference": 0.0003723667892994284
+      },
+      "heavy_fraction": {
+        "reference": 0.023201039712458123,
+        "comparison": 0.023204984749506927,
+        "absolute_difference": 3.9450370488032516e-06,
+        "relative_difference": 0.00017003708013502985
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.1491880706751111,
+        "comparison": 0.14887415618571387,
+        "absolute_difference": 0.0003139144893972434,
+        "relative_difference": 0.00210415275146804
+      }
+    },
+    "heavy_0.25": {
+      "comoving_number_over_actual_initial": {
+        "reference": 0.9999682096090056,
+        "comparison": 0.9999682098380954,
+        "absolute_difference": 2.2908985819469763e-10,
+        "relative_difference": 2.290971412823947e-10
+      },
+      "Tkin_over_T": {
+        "reference": 0.7922132820445315,
+        "comparison": 0.7924428360692979,
+        "absolute_difference": 0.00022955402476643183,
+        "relative_difference": 0.00028976290851120604
+      },
+      "heavy_fraction": {
+        "reference": 0.08188851608403976,
+        "comparison": 0.0818742205367685,
+        "absolute_difference": 1.4295547271253595e-05,
+        "relative_difference": 0.00017457328517935897
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.11586410153265989,
+        "comparison": 0.11581682358457565,
+        "absolute_difference": 4.727794808423447e-05,
+        "relative_difference": 0.00040804656022735145
+      }
+    }
+  },
+  "temperature_intervals_16_vs_8": {
+    "z_1e-06": {
+      "comoving_number_over_actual_initial": {
+        "reference": 3.5630154192180084,
+        "comparison": 3.5629802735295164,
+        "absolute_difference": 3.514568849194433e-05,
+        "relative_difference": 9.864029300119592e-06
+      },
+      "Tkin_over_T": {
+        "reference": 0.7528496285659385,
+        "comparison": 0.7529407002673296,
+        "absolute_difference": 9.107170139110998e-05,
+        "relative_difference": 0.00012096931171313375
+      },
+      "heavy_fraction": {
+        "reference": 0.036427559498996995,
+        "comparison": 0.03632809162972012,
+        "absolute_difference": 9.946786927687162e-05,
+        "relative_difference": 0.0027305663800950048
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.13988209438908564,
+        "comparison": 0.13982233209995482,
+        "absolute_difference": 5.976228913082138e-05,
+        "relative_difference": 0.0004272333023881601
+      }
+    },
+    "z_0.0001": {
+      "comoving_number_over_actual_initial": {
+        "reference": 1.0256301506219245,
+        "comparison": 1.0256297991651067,
+        "absolute_difference": 3.5145681787085437e-07,
+        "relative_difference": 3.4267403084604816e-07
+      },
+      "Tkin_over_T": {
+        "reference": 0.7503606981395391,
+        "comparison": 0.7504549567032094,
+        "absolute_difference": 9.425856367029084e-05,
+        "relative_difference": 0.00012561767147985977
+      },
+      "heavy_fraction": {
+        "reference": 0.03662509325567235,
+        "comparison": 0.03652308085645631,
+        "absolute_difference": 0.00010201239921604072,
+        "relative_difference": 0.0027853143882505048
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.14150339067492598,
+        "comparison": 0.14144113332840366,
+        "absolute_difference": 6.225734652232084e-05,
+        "relative_difference": 0.00043997070476808496
+      }
+    },
+    "z_0.01": {
+      "comoving_number_over_actual_initial": {
+        "reference": 1.0002559603818004,
+        "comparison": 1.0002559568734188,
+        "absolute_difference": 3.5083815852487987e-09,
+        "relative_difference": 3.5074838083540535e-09
+      },
+      "Tkin_over_T": {
+        "reference": 0.7502720419408715,
+        "comparison": 0.7503664148959188,
+        "absolute_difference": 9.437295504732823e-05,
+        "relative_difference": 0.0001257849816757076
+      },
+      "heavy_fraction": {
+        "reference": 0.03663212918804474,
+        "comparison": 0.03653002608396204,
+        "absolute_difference": 0.00010210310408270001,
+        "relative_difference": 0.0027872555143756803
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.14156114158766486,
+        "comparison": 0.1414987947967287,
+        "absolute_difference": 6.234679093616857e-05,
+        "relative_difference": 0.00044042305845321927
+      }
+    },
+    "z_0.1": {
+      "comoving_number_over_actual_initial": {
+        "reference": 1.0000222200234057,
+        "comparison": 1.000022219733765,
+        "absolute_difference": 2.896407558239389e-10,
+        "relative_difference": 2.8963432014256626e-10
+      },
+      "Tkin_over_T": {
+        "reference": 0.7502712339903566,
+        "comparison": 0.7503656080029807,
+        "absolute_difference": 9.437401262413214e-05,
+        "relative_difference": 0.0001257865267234078
+      },
+      "heavy_fraction": {
+        "reference": 0.03663219095127081,
+        "comparison": 0.03653008702313027,
+        "absolute_difference": 0.00010210392814053587,
+        "relative_difference": 0.0027872733104158977
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.141561668028673,
+        "comparison": 0.14149932040975113,
+        "absolute_difference": 6.234761892187635e-05,
+        "relative_difference": 0.0004404272695433906
+      }
+    },
+    "z_1": {
+      "comoving_number_over_actual_initial": {
+        "reference": 0.9999684642143806,
+        "comparison": 0.9999684647973173,
+        "absolute_difference": 5.829366989118512e-10,
+        "relative_difference": 5.8295508285837e-10
+      },
+      "Tkin_over_T": {
+        "reference": 0.7502713380032889,
+        "comparison": 0.7503657120299846,
+        "absolute_difference": 9.437402669565387e-05,
+        "relative_difference": 0.00012578652804039298
+      },
+      "heavy_fraction": {
+        "reference": 0.03663215909982854,
+        "comparison": 0.036530055303977356,
+        "absolute_difference": 0.00010210379585118279,
+        "relative_difference": 0.0027872721226432076
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.14156160167199583,
+        "comparison": 0.14149925403119126,
+        "absolute_difference": 6.234764080456645e-05,
+        "relative_difference": 0.0004404276305733567
+      }
+    },
+    "z_10": {
+      "comoving_number_over_actual_initial": {
+        "reference": 0.9996593743857927,
+        "comparison": 0.9996593805592238,
+        "absolute_difference": 6.173431099654181e-09,
+        "relative_difference": 6.175534644935671e-09
+      },
+      "Tkin_over_T": {
+        "reference": 0.7502731963819591,
+        "comparison": 0.7503675694930514,
+        "absolute_difference": 9.437311109228297e-05,
+        "relative_difference": 0.00012578499611525272
+      },
+      "heavy_fraction": {
+        "reference": 0.03663177569902269,
+        "comparison": 0.03652967406320384,
+        "absolute_difference": 0.00010210163581884923,
+        "relative_difference": 0.0027872423291119145
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.1415604050915345,
+        "comparison": 0.1414980580578578,
+        "absolute_difference": 6.23470336766907e-05,
+        "relative_difference": 0.0004404270645903876
+      }
+    },
+    "z_100": {
+      "comoving_number_over_actual_initial": {
+        "reference": 0.9966016361687625,
+        "comparison": 0.9966016975571635,
+        "absolute_difference": 6.13884010292054e-08,
+        "relative_difference": 6.159773253554042e-08
+      },
+      "Tkin_over_T": {
+        "reference": 0.7502918308665066,
+        "comparison": 0.7503861947259962,
+        "absolute_difference": 9.436385948957682e-05,
+        "relative_difference": 0.0001257695414071038
+      },
+      "heavy_fraction": {
+        "reference": 0.0366279430445291,
+        "comparison": 0.03652586305652795,
+        "absolute_difference": 0.00010207998800115109,
+        "relative_difference": 0.0027869429598339998
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.14154840588743686,
+        "comparison": 0.14148606500220473,
+        "absolute_difference": 6.234088523213166e-05,
+        "relative_difference": 0.0004404209630005076
+      }
+    },
+    "z_10000": {
+      "comoving_number_over_actual_initial": {
+        "reference": 0.7457255966678036,
+        "comparison": 0.7457290148089896,
+        "absolute_difference": 3.4181411859846023e-06,
+        "relative_difference": 4.583644709606599e-06
+      },
+      "Tkin_over_T": {
+        "reference": 0.7520581013105385,
+        "comparison": 0.7521515432922263,
+        "absolute_difference": 9.344198168781404e-05,
+        "relative_difference": 0.00012424835464837328
+      },
+      "heavy_fraction": {
+        "reference": 0.03627648799157497,
+        "comparison": 0.03617645913408831,
+        "absolute_difference": 0.00010002885748666007,
+        "relative_difference": 0.0027574019158053908
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.14040990899699804,
+        "comparison": 0.14034819139572596,
+        "absolute_difference": 6.17176012720766e-05,
+        "relative_difference": 0.00043955303235326587
+      }
+    },
+    "kinetic_0.75": {
+      "comoving_number_over_actual_initial": {
+        "reference": 0.9999682521010622,
+        "comparison": 0.9999682528435911,
+        "absolute_difference": 7.425289272333657e-10,
+        "relative_difference": 7.425525017151461e-10
+      },
+      "Tkin_over_T": {
+        "reference": 0.6281802073522756,
+        "comparison": 0.628427481684219,
+        "absolute_difference": 0.0002472743319433812,
+        "relative_difference": 0.00039363598064577805
+      },
+      "heavy_fraction": {
+        "reference": 0.03389583520192615,
+        "comparison": 0.03378948375607426,
+        "absolute_difference": 0.00010635144585188772,
+        "relative_difference": 0.003137596262736262
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.22759767579300147,
+        "comparison": 0.22739461623791113,
+        "absolute_difference": 0.00020305955509034024,
+        "relative_difference": 0.0008921864179097396
+      }
+    },
+    "kinetic_1.25": {
+      "comoving_number_over_actual_initial": {
+        "reference": 0.9999686652532609,
+        "comparison": 0.9999686657179047,
+        "absolute_difference": 4.646437679056703e-10,
+        "relative_difference": 4.646583278566939e-10
+      },
+      "Tkin_over_T": {
+        "reference": 0.8707563142621252,
+        "comparison": 0.8707326737302553,
+        "absolute_difference": 2.3640531869872916e-05,
+        "relative_difference": 2.7149423418084303e-05
+      },
+      "heavy_fraction": {
+        "reference": 0.039473842700829646,
+        "comparison": 0.039373265282792114,
+        "absolute_difference": 0.00010057741803753267,
+        "relative_difference": 0.00254795102670404
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.07016775962018368,
+        "comparison": 0.07018882476553337,
+        "absolute_difference": 2.1065145349691283e-05,
+        "relative_difference": 0.00030021117196439486
+      }
+    },
+    "heavy_0": {
+      "comoving_number_over_actual_initial": {
+        "reference": 0.9999685415950039,
+        "comparison": 0.999968541713637,
+        "absolute_difference": 1.1863310334092603e-10,
+        "relative_difference": 1.186368354665436e-10
+      },
+      "Tkin_over_T": {
+        "reference": 0.7378238651505353,
+        "comparison": 0.7379199256192491,
+        "absolute_difference": 9.606046871379892e-05,
+        "relative_difference": 0.00013019430957847923
+      },
+      "heavy_fraction": {
+        "reference": 0.023201039712458123,
+        "comparison": 0.02324395831689737,
+        "absolute_difference": 4.291860443924808e-05,
+        "relative_difference": 0.0018498569448248622
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.1491880706751111,
+        "comparison": 0.1491318318231756,
+        "absolute_difference": 5.623885193550837e-05,
+        "relative_difference": 0.0003769661453560887
+      }
+    },
+    "heavy_0.25": {
+      "comoving_number_over_actual_initial": {
+        "reference": 0.9999682096090056,
+        "comparison": 0.999968211711124,
+        "absolute_difference": 2.102118479285764e-09,
+        "relative_difference": 2.1021853085786665e-09
+      },
+      "Tkin_over_T": {
+        "reference": 0.7922132820445315,
+        "comparison": 0.7923019735381379,
+        "absolute_difference": 8.869149360646311e-05,
+        "relative_difference": 0.00011195406037319838
+      },
+      "heavy_fraction": {
+        "reference": 0.08188851608403976,
+        "comparison": 0.08129775709438337,
+        "absolute_difference": 0.0005907589896563814,
+        "relative_difference": 0.0072141860410573685
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.11586410153265989,
+        "comparison": 0.115781170262186,
+        "absolute_difference": 8.293127047388771e-05,
+        "relative_difference": 0.0007157632897236161
+      }
+    }
+  },
+  "scattering_quadrature48_vs40_at_temperature8": {
+    "z_1e-06": {
+      "comoving_number_over_actual_initial": {
+        "reference": 3.5629802735295164,
+        "comparison": 3.5629802735295115,
+        "absolute_difference": 4.884981308350689e-15,
+        "relative_difference": 1.3710379887990757e-15
+      },
+      "Tkin_over_T": {
+        "reference": 0.7529407002673296,
+        "comparison": 0.7529300755058823,
+        "absolute_difference": 1.0624761447308728e-05,
+        "relative_difference": 1.4111020221826811e-05
+      },
+      "heavy_fraction": {
+        "reference": 0.03632809162972012,
+        "comparison": 0.03633036380095429,
+        "absolute_difference": 2.2721712341702838e-06,
+        "relative_difference": 6.254584626491675e-05
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.13982233209995482,
+        "comparison": 0.1398304960274029,
+        "absolute_difference": 8.16392744809602e-06,
+        "relative_difference": 5.8387864981824734e-05
+      }
+    },
+    "z_0.0001": {
+      "comoving_number_over_actual_initial": {
+        "reference": 1.0256297991651067,
+        "comparison": 1.0256297991651038,
+        "absolute_difference": 2.886579864025407e-15,
+        "relative_difference": 2.814446173829163e-15
+      },
+      "Tkin_over_T": {
+        "reference": 0.7504549567032094,
+        "comparison": 0.7504439673146366,
+        "absolute_difference": 1.098938857280185e-05,
+        "relative_difference": 1.4643635137115822e-05
+      },
+      "heavy_fraction": {
+        "reference": 0.03652308085645631,
+        "comparison": 0.036525485552814214,
+        "absolute_difference": 2.404696357906355e-06,
+        "relative_difference": 6.584045763711275e-05
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.14144113332840366,
+        "comparison": 0.14144965351012545,
+        "absolute_difference": 8.520181721788367e-06,
+        "relative_difference": 6.023835868174125e-05
+      }
+    },
+    "z_0.01": {
+      "comoving_number_over_actual_initial": {
+        "reference": 1.0002559568734188,
+        "comparison": 1.0002559568732732,
+        "absolute_difference": 1.4566126083082054e-13,
+        "relative_difference": 1.4562398737031846e-13
+      },
+      "Tkin_over_T": {
+        "reference": 0.7503664148959188,
+        "comparison": 0.7503554125191991,
+        "absolute_difference": 1.1002376719693174e-05,
+        "relative_difference": 1.4662672130947229e-05
+      },
+      "heavy_fraction": {
+        "reference": 0.03653002608396204,
+        "comparison": 0.03653243550088292,
+        "absolute_difference": 2.4094169208815908e-06,
+        "relative_difference": 6.595716398733724e-05
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.1414987947967287,
+        "comparison": 0.14150732766837468,
+        "absolute_difference": 8.532871645983153e-06,
+        "relative_difference": 6.030349345548224e-05
+      }
+    },
+    "z_0.1": {
+      "comoving_number_over_actual_initial": {
+        "reference": 1.000022219733765,
+        "comparison": 1.0000222197323172,
+        "absolute_difference": 1.4477308241112041e-12,
+        "relative_difference": 1.447698656632482e-12
+      },
+      "Tkin_over_T": {
+        "reference": 0.7503656080029807,
+        "comparison": 0.7503546055062169,
+        "absolute_difference": 1.1002496763778957e-05,
+        "relative_difference": 1.466284787899721e-05
+      },
+      "heavy_fraction": {
+        "reference": 0.03653008702313027,
+        "comparison": 0.03653249648341797,
+        "absolute_difference": 2.4094602876986726e-06,
+        "relative_difference": 6.595824111158127e-05
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.14149932040975113,
+        "comparison": 0.14150785339886934,
+        "absolute_difference": 8.532989118209544e-06,
+        "relative_difference": 6.0304099648675844e-05
+      }
+    },
+    "z_1": {
+      "comoving_number_over_actual_initial": {
+        "reference": 0.9999684647973173,
+        "comparison": 0.9999684647828476,
+        "absolute_difference": 1.4469647702242128e-11,
+        "relative_difference": 1.4470104019905235e-11
+      },
+      "Tkin_over_T": {
+        "reference": 0.7503657120299846,
+        "comparison": 0.750354709531663,
+        "absolute_difference": 1.1002498321643905e-05,
+        "relative_difference": 1.4662847922353155e-05
+      },
+      "heavy_fraction": {
+        "reference": 0.036530055303977356,
+        "comparison": 0.03653246476219937,
+        "absolute_difference": 2.409458222010774e-06,
+        "relative_difference": 6.595824183568742e-05
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.14149925403119126,
+        "comparison": 0.1415077870236902,
+        "absolute_difference": 8.532992498949676e-06,
+        "relative_difference": 6.0304151830148264e-05
+      }
+    },
+    "z_10": {
+      "comoving_number_over_actual_initial": {
+        "reference": 0.9996593805592238,
+        "comparison": 0.9996593804146311,
+        "absolute_difference": 1.4459267116961882e-10,
+        "relative_difference": 1.4464193902600265e-10
+      },
+      "Tkin_over_T": {
+        "reference": 0.7503675694930514,
+        "comparison": 0.7503565670990457,
+        "absolute_difference": 1.1002394005643623e-05,
+        "relative_difference": 1.4662672606009405e-05
+      },
+      "heavy_fraction": {
+        "reference": 0.03652967406320384,
+        "comparison": 0.036532083457193845,
+        "absolute_difference": 2.4093939900021732e-06,
+        "relative_difference": 6.595717185522725e-05
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.1414980580578578,
+        "comparison": 0.1415065909670033,
+        "absolute_difference": 8.532909145486656e-06,
+        "relative_difference": 6.0304072455874936e-05
+      }
+    },
+    "z_100": {
+      "comoving_number_over_actual_initial": {
+        "reference": 0.9966016975571635,
+        "comparison": 0.9966016961203298,
+        "absolute_difference": 1.4368337630799033e-09,
+        "relative_difference": 1.4417332085644863e-09
+      },
+      "Tkin_over_T": {
+        "reference": 0.7503861947259962,
+        "comparison": 0.7503751933861865,
+        "absolute_difference": 1.1001339809690869e-05,
+        "relative_difference": 1.466090379462273e-05
+      },
+      "heavy_fraction": {
+        "reference": 0.03652586305652795,
+        "comparison": 0.03652827180477552,
+        "absolute_difference": 2.4087482475704247e-06,
+        "relative_difference": 6.594637459606667e-05
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.14148606500220473,
+        "comparison": 0.14149459706622533,
+        "absolute_difference": 8.532064020599917e-06,
+        "relative_difference": 6.030321092375397e-05
+      }
+    },
+    "z_10000": {
+      "comoving_number_over_actual_initial": {
+        "reference": 0.7457290148089896,
+        "comparison": 0.74572893582249,
+        "absolute_difference": 7.898649956317172e-08,
+        "relative_difference": 1.0591850121776911e-07
+      },
+      "Tkin_over_T": {
+        "reference": 0.7521515432922263,
+        "comparison": 0.7521406488366491,
+        "absolute_difference": 1.0894455577226125e-05,
+        "relative_difference": 1.448438904949957e-05
+      },
+      "heavy_fraction": {
+        "reference": 0.03617645913408831,
+        "comparison": 0.036178805413737684,
+        "absolute_difference": 2.346279649373395e-06,
+        "relative_difference": 6.485653116787611e-05
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.14034819139572596,
+        "comparison": 0.1403566325895916,
+        "absolute_difference": 8.441193865643681e-06,
+        "relative_difference": 6.0144657239243496e-05
+      }
+    },
+    "kinetic_0.75": {
+      "comoving_number_over_actual_initial": {
+        "reference": 0.9999682528435911,
+        "comparison": 0.999968252793029,
+        "absolute_difference": 5.0562110054386267e-11,
+        "relative_difference": 5.0563715308564783e-11
+      },
+      "Tkin_over_T": {
+        "reference": 0.628427481684219,
+        "comparison": 0.6284025380522774,
+        "absolute_difference": 2.4943631941609645e-05,
+        "relative_difference": 3.969214057087285e-05
+      },
+      "heavy_fraction": {
+        "reference": 0.03378948375607426,
+        "comparison": 0.03379580000911031,
+        "absolute_difference": 6.316253036049713e-06,
+        "relative_difference": 0.00018692955126650178
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.22739461623791113,
+        "comparison": 0.227406291475543,
+        "absolute_difference": 1.1675237631875168e-05,
+        "relative_difference": 5.134350946840349e-05
+      }
+    },
+    "kinetic_1.25": {
+      "comoving_number_over_actual_initial": {
+        "reference": 0.9999686657179047,
+        "comparison": 0.9999686657339368,
+        "absolute_difference": 1.6032175587099573e-11,
+        "relative_difference": 1.60326779595535e-11
+      },
+      "Tkin_over_T": {
+        "reference": 0.8707326737302553,
+        "comparison": 0.870740510736566,
+        "absolute_difference": 7.837006310684735e-06,
+        "relative_difference": 9.00047344853923e-06
+      },
+      "heavy_fraction": {
+        "reference": 0.039373265282792114,
+        "comparison": 0.03937378477546248,
+        "absolute_difference": 5.194926703672165e-07,
+        "relative_difference": 1.3194045925224752e-05
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.07018882476553337,
+        "comparison": 0.07020228932233871,
+        "absolute_difference": 1.3464556805342642e-05,
+        "relative_difference": 0.0001918333417081873
+      }
+    },
+    "heavy_0": {
+      "comoving_number_over_actual_initial": {
+        "reference": 0.999968541713637,
+        "comparison": 0.9999685417221672,
+        "absolute_difference": 8.530176565102465e-12,
+        "relative_difference": 8.530444918281508e-12
+      },
+      "Tkin_over_T": {
+        "reference": 0.7379199256192491,
+        "comparison": 0.7379141890064781,
+        "absolute_difference": 5.736612771034544e-06,
+        "relative_difference": 7.774031533598285e-06
+      },
+      "heavy_fraction": {
+        "reference": 0.02324395831689737,
+        "comparison": 0.02324375730636134,
+        "absolute_difference": 2.010105360321368e-07,
+        "relative_difference": 8.647861663304166e-06
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.1491318318231756,
+        "comparison": 0.14913348728146475,
+        "absolute_difference": 1.655458289145928e-06,
+        "relative_difference": 1.1100636724618198e-05
+      }
+    },
+    "heavy_0.25": {
+      "comoving_number_over_actual_initial": {
+        "reference": 0.999968211711124,
+        "comparison": 0.9999682116201805,
+        "absolute_difference": 9.094358599526231e-11,
+        "relative_difference": 9.094647702814633e-11
+      },
+      "Tkin_over_T": {
+        "reference": 0.7923019735381379,
+        "comparison": 0.7922732275624168,
+        "absolute_difference": 2.8745975721111705e-05,
+        "relative_difference": 3.628159045564715e-05
+      },
+      "heavy_fraction": {
+        "reference": 0.08129775709438337,
+        "comparison": 0.08130896256835882,
+        "absolute_difference": 1.120547397544247e-05,
+        "relative_difference": 0.00013783251071039233
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.115781170262186,
+        "comparison": 0.11582011211935665,
+        "absolute_difference": 3.894185717065457e-05,
+        "relative_difference": 0.00033634015861535075
+      }
+    }
+  },
+  "split_vs_independent_unsplit_ODE": {
+    "z_1e-06": {
+      "comoving_number_over_actual_initial": {
+        "reference": 3.5630154192180084,
+        "comparison": 3.563739204875317,
+        "absolute_difference": 0.0007237856573087953,
+        "relative_difference": 0.00020313851391292825
+      },
+      "Tkin_over_T": {
+        "reference": 0.7528496285659385,
+        "comparison": 0.752846329423398,
+        "absolute_difference": 3.299142540491573e-06,
+        "relative_difference": 4.382206506199554e-06
+      },
+      "heavy_fraction": {
+        "reference": 0.036427559498996995,
+        "comparison": 0.03642783834687756,
+        "absolute_difference": 2.7884788056375953e-07,
+        "relative_difference": 7.654860341973702e-06
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.13988209438908564,
+        "comparison": 0.13988431041122706,
+        "absolute_difference": 2.21602214142691e-06,
+        "relative_difference": 1.5842071503898043e-05
+      }
+    },
+    "z_1": {
+      "comoving_number_over_actual_initial": {
+        "reference": 0.9999684642143806,
+        "comparison": 0.9999684649317577,
+        "absolute_difference": 7.173771576773902e-10,
+        "relative_difference": 7.173997814431012e-10
+      },
+      "Tkin_over_T": {
+        "reference": 0.7502713380032889,
+        "comparison": 0.7502710943448345,
+        "absolute_difference": 2.4365845441298717e-07,
+        "relative_difference": 3.247604460826665e-07
+      },
+      "heavy_fraction": {
+        "reference": 0.03663215909982854,
+        "comparison": 0.03663228805464357,
+        "absolute_difference": 1.2895481503460982e-07,
+        "relative_difference": 3.52026247437906e-06
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.14156160167199583,
+        "comparison": 0.14156177726198188,
+        "absolute_difference": 1.7558998605116116e-07,
+        "relative_difference": 1.240378633593102e-06
+      }
+    },
+    "z_10000": {
+      "comoving_number_over_actual_initial": {
+        "reference": 0.7457255966678036,
+        "comparison": 0.7457255364951518,
+        "absolute_difference": 6.017265175017883e-08,
+        "relative_difference": 8.069007154783743e-08
+      },
+      "Tkin_over_T": {
+        "reference": 0.7520581013105385,
+        "comparison": 0.752057859305544,
+        "absolute_difference": 2.420049944884539e-07,
+        "relative_difference": 3.21790289961288e-07
+      },
+      "heavy_fraction": {
+        "reference": 0.03627648799157497,
+        "comparison": 0.0362766142125187,
+        "absolute_difference": 1.262209437316586e-07,
+        "relative_difference": 3.4794146489862185e-06
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.14040990899699804,
+        "comparison": 0.14041008302343247,
+        "absolute_difference": 1.740264344296527e-07,
+        "relative_difference": 1.2394170445148098e-06
+      }
+    },
+    "kinetic_0.75": {
+      "comoving_number_over_actual_initial": {
+        "reference": 0.9999682521010622,
+        "comparison": 0.9999682528190825,
+        "absolute_difference": 7.180203098755555e-10,
+        "relative_difference": 7.180431062355253e-10
+      },
+      "Tkin_over_T": {
+        "reference": 0.6281802073522756,
+        "comparison": 0.6281800369848071,
+        "absolute_difference": 1.7036746857712615e-07,
+        "relative_difference": 2.7120795367814923e-07
+      },
+      "heavy_fraction": {
+        "reference": 0.03389583520192615,
+        "comparison": 0.03389595978658604,
+        "absolute_difference": 1.2458465989406697e-07,
+        "relative_difference": 3.6755152705895675e-06
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.22759767579300147,
+        "comparison": 0.22759783432622602,
+        "absolute_difference": 1.5853322454795205e-07,
+        "relative_difference": 6.965502788883351e-07
+      }
+    },
+    "kinetic_1.25": {
+      "comoving_number_over_actual_initial": {
+        "reference": 0.9999686652532609,
+        "comparison": 0.999968665969856,
+        "absolute_difference": 7.165951165788442e-10,
+        "relative_difference": 7.166175716089594e-10
+      },
+      "Tkin_over_T": {
+        "reference": 0.8707563142621252,
+        "comparison": 0.8707559228993982,
+        "absolute_difference": 3.9136272700357466e-07,
+        "relative_difference": 4.4945149474478814e-07
+      },
+      "heavy_fraction": {
+        "reference": 0.039473842700829646,
+        "comparison": 0.039473978096466446,
+        "absolute_difference": 1.3539563679942912e-07,
+        "relative_difference": 3.430009027131869e-06
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.07016775962018368,
+        "comparison": 0.07016797782377958,
+        "absolute_difference": 2.1820359590030147e-07,
+        "relative_difference": 3.1097415263282178e-06
+      }
+    },
+    "heavy_0.25": {
+      "comoving_number_over_actual_initial": {
+        "reference": 0.9999682096090056,
+        "comparison": 0.9999682103295896,
+        "absolute_difference": 7.2058403688402e-10,
+        "relative_difference": 7.206069452605631e-10
+      },
+      "Tkin_over_T": {
+        "reference": 0.7922132820445315,
+        "comparison": 0.7922129157935562,
+        "absolute_difference": 3.6625097521447714e-07,
+        "relative_difference": 4.6231360104095e-07
+      },
+      "heavy_fraction": {
+        "reference": 0.08188851608403976,
+        "comparison": 0.08188906952624998,
+        "absolute_difference": 5.534422102271286e-07,
+        "relative_difference": 6.758483810588865e-06
+      },
+      "total_variation_to_same_species_MB": {
+        "reference": 0.11586410153265989,
+        "comparison": 0.11586435702697653,
+        "absolute_difference": 2.554943166477308e-07,
+        "relative_difference": 2.2051205961814828e-06
+      }
+    }
+  },
+  "no_pair_scaling_limit": {
+    "max_abs_number_error": 2.7755575615628914e-15,
+    "max_L1_normalized_shape_difference": 1.809072182760111e-15
+  },
+  "independent_source_integral": {
+    "no_loss_inverse_creation_integral_over_reference": 2.563739205155252e-06,
+    "quadrature_error_estimate": 2.8463222946975585e-20,
+    "expression": "B=integral d_eta alpha E^T A E; N_final <= N_initial+B because annihilation is nonnegative and linear channels conserve number",
+    "fixed_temperature_equilibrium_residuals": [
+      {
+        "T_GeV": 0.5,
+        "relative_linear_stationarity": 3.271694009940379e-17,
+        "relative_column_sum": 1.2754035752089414e-15,
+        "pair_residual": 0.0
+      },
+      {
+        "T_GeV": 0.4,
+        "relative_linear_stationarity": 2.9195638962212065e-17,
+        "relative_column_sum": 1.177158582125522e-15,
+        "pair_residual": 0.0
+      },
+      {
+        "T_GeV": 0.3333333333333333,
+        "relative_linear_stationarity": 2.3467457072710256e-17,
+        "relative_column_sum": 1.2380814356053085e-15,
+        "pair_residual": 0.0
+      }
+    ],
+    "low_fugacity_no_loss_relative_discrepancy": 0.0002031385924797777
+  },
+  "continuum_initial_checks": [
+    {
+      "case": "z_1e-06",
+      "exact_initial_Tkin_over_T0": 1.0,
+      "initial_heavy_fraction": 0.05721459861191631,
+      "maximum_phase_space_occupation": 2.0611536224385577e-15,
+      "rho_scalar_over_radiation": 1.4997646002644038e-14,
+      "common_mu_GeV": -6.907755278982137
+    },
+    {
+      "case": "z_0.0001",
+      "exact_initial_Tkin_over_T0": 1.0,
+      "initial_heavy_fraction": 0.05721459861191631,
+      "maximum_phase_space_occupation": 2.0611536224385584e-13,
+      "rho_scalar_over_radiation": 1.4997646002644039e-12,
+      "common_mu_GeV": -4.605170185988091
+    },
+    {
+      "case": "z_0.01",
+      "exact_initial_Tkin_over_T0": 1.0,
+      "initial_heavy_fraction": 0.05721459861191631,
+      "maximum_phase_space_occupation": 2.061153622438558e-11,
+      "rho_scalar_over_radiation": 1.4997646002644037e-10,
+      "common_mu_GeV": -2.3025850929940455
+    },
+    {
+      "case": "z_0.1",
+      "exact_initial_Tkin_over_T0": 1.0,
+      "initial_heavy_fraction": 0.05721459861191631,
+      "maximum_phase_space_occupation": 2.061153622438558e-10,
+      "rho_scalar_over_radiation": 1.4997646002644038e-09,
+      "common_mu_GeV": -1.1512925464970227
+    },
+    {
+      "case": "z_1",
+      "exact_initial_Tkin_over_T0": 1.0,
+      "initial_heavy_fraction": 0.05721459861191631,
+      "maximum_phase_space_occupation": 2.061153622438558e-09,
+      "rho_scalar_over_radiation": 1.499764600264404e-08,
+      "common_mu_GeV": 0.0
+    },
+    {
+      "case": "z_10",
+      "exact_initial_Tkin_over_T0": 1.0,
+      "initial_heavy_fraction": 0.05721459861191631,
+      "maximum_phase_space_occupation": 2.0611536224385583e-08,
+      "rho_scalar_over_radiation": 1.499764600264404e-07,
+      "common_mu_GeV": 1.151292546497023
+    },
+    {
+      "case": "z_100",
+      "exact_initial_Tkin_over_T0": 1.0,
+      "initial_heavy_fraction": 0.05721459861191631,
+      "maximum_phase_space_occupation": 2.0611536224385582e-07,
+      "rho_scalar_over_radiation": 1.499764600264404e-06,
+      "common_mu_GeV": 2.302585092994046
+    },
+    {
+      "case": "z_10000",
+      "exact_initial_Tkin_over_T0": 1.0,
+      "initial_heavy_fraction": 0.05721459861191631,
+      "maximum_phase_space_occupation": 2.061153622438558e-05,
+      "rho_scalar_over_radiation": 0.00014997646002644038,
+      "common_mu_GeV": 4.605170185988092
+    },
+    {
+      "case": "kinetic_0.75",
+      "exact_initial_Tkin_over_T0": 0.75,
+      "initial_heavy_fraction": 0.05721459861191631,
+      "maximum_phase_space_occupation": 3.2453644577364563e-09,
+      "rho_scalar_over_radiation": 1.4712906620547905e-08,
+      "common_mu_GeV": null
+    },
+    {
+      "case": "kinetic_1.25",
+      "exact_initial_Tkin_over_T0": 1.25,
+      "initial_heavy_fraction": 0.05721459861191631,
+      "maximum_phase_space_occupation": 1.4425135501991209e-09,
+      "rho_scalar_over_radiation": 1.528927996395293e-08,
+      "common_mu_GeV": null
+    },
+    {
+      "case": "heavy_0",
+      "exact_initial_Tkin_over_T0": 1.0,
+      "initial_heavy_fraction": 0.0,
+      "maximum_phase_space_occupation": 2.1862383734451933e-09,
+      "rho_scalar_over_radiation": 1.4879784090013753e-08,
+      "common_mu_GeV": null
+    },
+    {
+      "case": "heavy_0.25",
+      "exact_initial_Tkin_over_T0": 1.0,
+      "initial_heavy_fraction": 0.25,
+      "maximum_phase_space_occupation": 1.639678780083895e-09,
+      "rho_scalar_over_radiation": 1.539478338866188e-08,
+      "common_mu_GeV": null
+    }
+  ],
+  "continuum_collisionless_Tf": {
+    "heavy_fraction": 0.057214598611916315,
+    "mean_total_energy_GeV": 10.450718155257793,
+    "mean_kinetic_energy_GeV": 0.36489625733992026,
+    "Tkin_over_T": 0.709060074062349
+  },
+  "refinement_status": "Empirical sensitivities within inherited cell closure and fixed free bath; no certified continuum or physical-model error bound"
+}

@@ -1,0 +1,27 @@
+Using the six supplied raw banks; pass --full to recompute them.
+Running analyze_network.py
+full_final seconds 1.81 Tkin/T 0.7502713380032882 heavy 0.03663215909982854 numberloss_ppm 31.535785619429824
+full_time96 seconds 1.08 Tkin/T 0.750272067497079 heavy 0.03663177336505595 numberloss_ppm 31.537936104553133
+full_grid96 seconds 1.23 Tkin/T 0.7505357376664603 heavy 0.036631929627195386 numberloss_ppm 31.5356080828888
+full_temperature8 seconds 1.59 Tkin/T 0.7503657120299853 heavy 0.036530055303977356 numberloss_ppm 31.53520268273091
+full_tail40 seconds 1.67 Tkin/T 0.7502713380433499 heavy 0.036632159100016874 numberloss_ppm 31.53578561876369
+scattering_and_decay seconds 1.63 Tkin/T 0.7502711213752127 heavy 0.03663220251091706 numberloss_ppm 1.9984014443252818e-09
+scattering_only seconds 1.67 Tkin/T 0.7502759515598773 heavy 0.03666502146036296 numberloss_ppm 2.6645352591003757e-09
+full_quadrature40_temperature8 seconds 1.71 Tkin/T 0.7503547095316626 heavy 0.03653246476219937 numberloss_ppm 31.535217152378614
+All structural checks passed. Refinement changes are sensitivities, not certified error bounds.
+Running network/reaction_rates.py
+vacuum free-fermion decay width 1.137267933443579e-21
+e+mu width 3.06026769100054e-22
+{'T_GeV': 0.3333333333333333, 'equilibrium_annihilation_loss_per_particle_over_H': np.float64(5.27314756762681e-09), 'common_fugacity_linearized_chemical_rate_over_H': np.float64(1.054629513525362e-08), 'decay_species_contrast_rate_over_H': np.float64(0.009436558320794458), 'maximum_remote_tail_upper_bound_fraction': np.float64(2.401911755139605e-24)}
+{'T_GeV': 0.4, 'equilibrium_annihilation_loss_per_particle_over_H': np.float64(7.306376250851711e-07), 'common_fugacity_linearized_chemical_rate_over_H': np.float64(1.4612752501703422e-06), 'decay_species_contrast_rate_over_H': np.float64(0.006595261136140086), 'maximum_remote_tail_upper_bound_fraction': np.float64(3.1506816370990117e-24)}
+{'T_GeV': 0.5, 'equilibrium_annihilation_loss_per_particle_over_H': np.float64(0.00010123835054283319), 'common_fugacity_linearized_chemical_rate_over_H': np.float64(0.00020247670108566637), 'decay_species_contrast_rate_over_H': np.float64(0.004297843317592194), 'maximum_remote_tail_upper_bound_fraction': np.float64(4.534764555991245e-24)}
+{'T_GeV': 0.6, 'equilibrium_annihilation_loss_per_particle_over_H': np.float64(0.002720906247002834), 'common_fugacity_linearized_chemical_rate_over_H': np.float64(0.005441812494005668), 'decay_species_contrast_rate_over_H': np.float64(0.003056532884075626), 'maximum_remote_tail_upper_bound_fraction': np.float64(6.252178889515236e-24)}
+{'T_GeV': 0.8, 'equilibrium_annihilation_loss_per_particle_over_H': np.float64(0.16813759896980363), 'common_fugacity_linearized_chemical_rate_over_H': np.float64(0.33627519793960725), 'decay_species_contrast_rate_over_H': np.float64(0.0018086176486885148), 'maximum_remote_tail_upper_bound_fraction': np.float64(1.076237854318763e-23)}
+{'T_GeV': 1.0, 'equilibrium_annihilation_loss_per_particle_over_H': np.float64(2.010879612061453), 'common_fugacity_linearized_chemical_rate_over_H': np.float64(4.021759224122906), 'decay_species_contrast_rate_over_H': np.float64(0.0012093931309938317), 'maximum_remote_tail_upper_bound_fraction': np.float64(2.1126611927517215e-22)}
+Running review/verify_background.py
+Analytic equilibrium and collisionless-background checks passed.
+Running review/verify_banks.py
+Count-contrast, conservation, and stationary-metric checks passed for 2 banks.
+Running build_report.py
+Wrote Expanding_Free_Bath_Fermionic_Network_2026-10-21.png and comparison_summary.json
+Reproduction completed successfully for the declared expanding free-bath benchmark.

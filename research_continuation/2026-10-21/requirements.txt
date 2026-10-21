@@ -1,0 +1,9 @@
+# Versions used for the recorded computations (Python 3.12.14).
+numpy==2.3.5
+scipy==1.17.0
+pandas==2.2.3
+openpyxl==3.1.5
+matplotlib==3.10.8
+# Report construction and PDF inspection; the rendered report is included.
+reportlab==4.4.9
+pypdf==6.10.0

@@ -1,0 +1,58 @@
+{
+  "created": "2026-10-21",
+  "sources": [
+    {
+      "id": "A1",
+      "type": "user_supplied_archive",
+      "title": "A Theory of Everything - Expanded Research Archive, Public Edition, 20 October 2026",
+      "filename": "36-A-Theory-of-Everything-Baird-et-al-2026-Expanded-Research-Archive-Public-Edition-2026-10-20-2-.pdf",
+      "sha256": "4b52a5fb57716168d354b5c3dcb4bbf2ca4c0fe6744733b6ca0d3b3eae48f921",
+      "page_count": 9252,
+      "relevant_physical_pages": {"bridge_architecture":"6457-6468","portal":"7561-7563","noise_and_matching":"7576-7584","spectral_action":"7592-7599","apparatus_audit":"7600-7605"},
+      "scope": "Specific cited sections supply the continued models; this turn does not claim to rederive every equation in the archive."
+    },
+    {
+      "id": "T1",
+      "type": "pinned_public_repository",
+      "title": "mqgt-scf-continued: 21 October free-bath checkpoint",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/tree/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath",
+      "commit": "48f9dcbd34e7cfb86504167a0483f732a5dd5e8e",
+      "detailed_provenance": "thermal/source_provenance.json"
+    },
+    {
+      "id": "U1",
+      "type": "pinned_public_repository",
+      "title": "uv-reconstruction-frg",
+      "url": "https://github.com/Cbaird26/uv-reconstruction-frg/tree/0a644a41eb947509280cbd648996d98bad54bdc5",
+      "commit": "0a644a41eb947509280cbd648996d98bad54bdc5",
+      "detailed_provenance": "uv/provenance.json"
+    },
+    {
+      "id": "D1",
+      "type": "public_experimental_dataset",
+      "title": "Probing quantum mechanics with nanoparticle matter-wave interferometry - Dataset and code",
+      "authors": ["Sebastian Pedalino","Bruno Eduardo Ramirez Galindo","Richard Ferstl","Klaus Hornberger","Markus Arndt","Stefan Gerlich"],
+      "url": "https://doi.org/10.5281/zenodo.17502163",
+      "license": "CC BY 4.0",
+      "zip_md5": "7917961b27676f4e9df3af6d3b01c374",
+      "zip_sha256": "b92355d06e06f16b3c746020ef7bc6c6eac6a629d36d739aff79e6a894003b9a",
+      "metadata": "measurement/sources/zenodo_metadata.json",
+      "modification_status": "Original preserved; new count-level analysis is separate and does not imply author endorsement."
+    },
+    {"id":"D2","type":"primary_paper","title":"Pedalino et al., Probing quantum mechanics with nanoparticle matter-wave interferometry","url":"https://doi.org/10.1038/s41586-025-09917-9","author_preprint":"https://arxiv.org/abs/2507.21211"},
+    {"id":"P1","type":"primary_paper","title":"D. Litim, On fixed points of quantum gravity","url":"https://arxiv.org/abs/hep-th/0606044","equations":"4-6, 11","use":"Coordinate normalization audit; not a universal measured Newton coordinate."},
+    {"id":"P2","type":"primary_paper","title":"G. Narain and R. Percacci, Renormalization Group Flow in Scalar-Tensor Theories. I","url":"https://arxiv.org/abs/0911.0386","equations":"1, 25, 26","use":"Scalar mass and potential normalization audit."},
+    {"id":"P3","type":"primary_paper","title":"P. Dona, A. Eichhorn and R. Percacci, Matter matters in asymptotically safe quantum gravity","url":"https://arxiv.org/abs/1311.2898","use":"Inherited DEP gravity/matter block conventions."},
+    {"id":"P4","type":"primary_paper","title":"S. Borsanyi et al., Full result for the QCD equation of state with 2+1 flavors","url":"https://arxiv.org/abs/1309.5258","equations":"2, Table 1","use":"Thermodynamic sensitivity extension, with its own scope and validation record."},
+    {"id":"P5","type":"primary_paper","title":"S. Borsanyi et al., The QCD equation of state with dynamical quarks","url":"https://arxiv.org/abs/1007.2580","equations":"3.1-3.2","use":"Pressure integration and dimensionless-temperature convention."}
+  ],
+  "new_results": {
+    "N-common": "common/common_results.json",
+    "N-thermal": "thermal/results/scan_summary.json",
+    "N-EOS": "thermal/eos/eos_sensitivity_results.json",
+    "N-measurement": "measurement/measurement_results.json",
+    "N-electromagnetic": "electromagnetic/profile_identifiability_results.json",
+    "N-uv": "uv/results.json",
+    "N-memory": "agency/synthetic_memory_results.json"
+  }
+}

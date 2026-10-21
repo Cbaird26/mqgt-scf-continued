@@ -1,0 +1,160 @@
+APPARATUS MODEL AND INFERENCE COMPLETION PROTOCOL
+================================================
+Date: 21 October 2026
+
+1. Executed data analysis
+------------------------
+Dataset: Sebastian Pedalino, Bruno Eduardo Ramirez Galindo, Richard Ferstl,
+Klaus Hornberger, Markus Arndt and Stefan Gerlich, Probing quantum mechanics
+with nanoparticle matter-wave interferometry - Dataset and code,
+https://doi.org/10.5281/zenodo.17502163 .
+Associated paper: https://doi.org/10.1038/s41586-025-09917-9 .
+Original zip MD5: 7917961b27676f4e9df3af6d3b01c374 (matches record).
+Original zip SHA256:
+b92355d06e06f16b3c746020ef7bc6c6eac6a629d36d739aff79e6a894003b9a.
+The original files are preserved. The reanalysis code is new and separate.
+
+All 95 April 22 power scans are read from the accompanying spreadsheet and
+raw .dat files, with 41 recorded positions per scan (3895 bins total). They
+contain 10,772,714 recorded counts. This is real public experimental data,
+not an experiment performed in this continuation.
+
+For each scan, fit the working model
+  mu_k = a [1 + b cos(2 pi x_k/d) + c sin(2 pi x_k/d)],
+with d=133 nm, a>0 and sqrt(b^2+c^2)<1. The fit minimizes the independent-
+Poisson negative log likelihood using its analytic gradient and Hessian.
+The cosine/sine representation has no artificial phase boundary. No modulo-
+period binning is needed for this count-level fit. The reported visibility is
+sqrt(b^2+c^2). Counts are taken exactly as recorded; the working model does
+not establish that detector output events are independent Poisson arrivals.
+
+Results: pooled Pearson statistic / 3610 residual degrees of freedom is
+3.43937761948. The per-scan median is 3.36831933497; 92 of 95 scans exceed 2.
+The pooled Poisson deviance is 12413.3810805. Thus naive Poisson Fisher errors
+cannot be treated as calibrated exclusion uncertainties. Overdispersion here
+means residual variation relative to this working model, not a diagnosed
+microscopic noise mechanism or a new-field signal.
+
+Independent ordinary least-squares sinusoidal visibilities differ by at most
+0.000721960459 (0.072196 percentage points); their median absolute difference
+is 0.0000501143641. The fitted central visibility is comparatively insensitive
+to this likelihood change; statistical coverage is a different question.
+
+Adding a free second harmonic gives pooled Pearson/df=3.44497884925. Adding
+both that harmonic and a linear scan-order trend gives 3.40112041866. These
+diagnostics reduce raw deviance but do not remove the residual problem after
+accounting for their extra parameters. They do not rule out other instrument
+models, detector statistics, time correlations, or additional harmonics.
+
+2. Exact contrast/attenuation identifiability obstruction
+-------------------------------------------------------
+If a proposed attenuation is common to every power setting,
+  V_obs(P) = A V_Q(P) exp(-chi),
+then log A -> log A + delta and chi -> chi + delta leave every expected count
+unchanged. The derivatives with respect to log A and chi have opposite signs,
+so their two-column Fisher block has rank one for nonzero contrast. Data can
+identify B=A exp(-chi) but cannot uniquely separate A and chi without further
+information. This remains true for a common A with a fixed quantum curve;
+allowing a separate contrast nuisance for each scan only weakens identification.
+
+The delivered ridge CSV uses each scan's fitted effective contrast and chi
+between 0 and 0.4. Each rescaled contrast stays below one. Expected counts
+change by at most 9.1e-13 and total deviance by at most 3.9e-11 (roundoff).
+The ridge is a reparameterization of the fitted data, not a fitted quantum
+baseline or an empirical upper bound on chi. Physical A<=1 can truncate an
+otherwise calibrated ridge; it does not identify its point or a mechanism.
+
+The obstruction does not apply to every possible scalar signal. A predicted
+dependence on velocity, path separation, material, mass, or controlled bath
+state that is linearly independent of calibrated nuisances can be identifiable.
+That dependence must follow from the matched theory and measured state.
+
+3. Apparatus values recovered from the author code
+------------------------------------------------
+Grating period: 133 nm. Grating gaps: L1=L2=0.98375 m. Beam mean longitudinal
+velocity: 158 m/s; Gaussian standard deviation: 9 m/s. Grating beam waists:
+560, 540 and 575 micrometers. The source analysis assumes unit reflectivity
+and ionization probability. These are author-code inputs, not newly calibrated
+measurements. The mass spectrum is interpreted as doubly charged and selected
+within 0.85--1.15 of nominal 170,000 Da; the original analysis gives about
+168.94 kDa mean mass. Power, position, exposure and count fields come from
+the actual scan metadata. Original analysis code is included for provenance.
+
+At that mean mass and speed, total flight is 12.4525 ms and the symmetric
+first-harmonic triangular-path estimate reaches about 110.57 nm. Neither the
+full flight at a constant maximum separation nor a single geometric path is
+the complete Talbot-Lau observable. Average complex harmonic coefficients over
+mass and velocity before forming visibility. Do not average visibility ratios.
+
+4. Theory-to-counts interface that remains to be completed
+--------------------------------------------------------
+The common symmetric portal has V_portal=(phi^T K phi) HdaggerH/2. At low
+transfer, elementary fermion/nucleon matching gives C=f_a m_a K/(2 m_h^2)
+in B=s^T C s. A composite nanoparticle requires a matched density response,
+its spatial form factor, recoil kinematics, and a decision about coherent
+versus incoherent scattering. Multiplying a nucleon coefficient by a mass
+number without checking momentum transfer is not sufficient.
+
+For a specified stationary bath, define the connected symmetrized spectrum
+of B. In natural units, the leading weak-coupling second-cumulant attenuation
+for a specified pair of paths has the schematic filter form
+  chi = (1/2) integral dOmega/(2pi) d^3Q/(2pi)^3
+                S_B_sym(Omega,Q) |F(Q,Omega)|^2,
+  F = integral dt exp(-i Omega t)
+       [exp(i Q.x_L(t))-exp(i Q.x_R(t))] F_object(Q).
+This formula declares a leading approximation; the quadratic bath operator
+is not exactly Gaussian. Switching, composite response and ultraviolet
+renormalization must be specified before finite-time integration is justified.
+The two-field case contracts the connected O_ij=s_i s_j spectrum with
+C_ij C_kl, not a freely fitted rate constant.
+
+For stationary heavy point paths and a controlled Markov limit the source
+archive gives gamma(d)=S_B(0,0)-S_B(0,d). A moving probe samples Doppler-shifted
+frequencies and generally needs S_B(Omega,Q), not just its zero-frequency
+slice. The approximation of a stationary probe requires small velocity relative
+to relevant bath velocities, not merely v much smaller than light speed.
+
+A Talbot-Lau prediction needs the appropriate harmonic/path filters R_l,
+complex grating coefficients S_l, joint mass/velocity distribution W(m,v),
+detector response, background, exposure, and calibrated instrument nuisances:
+  mu_jk = exposure_j * [background_jk + efficiency_j *
+         integral dm dv W(m,v) sum_l S_l(P_j;m,v) R_l(m,v)
+                            exp(2 pi i l x_jk/d)].
+The sum must yield real nonnegative expected counts; conjugate harmonics,
+finite geometry and the detector response enforce that condition.
+
+The bath population is a physical input. A cosmological ideal-bath checkpoint
+at T~GeV is not a measured laboratory scalar bath. The matching field equation
+is multiplicative, (Box+M^2)s=2 n_a C s+...; ordinary matter does not thereby
+become a calibrated additive scalar source. Zero field remains a solution.
+
+5. Concrete completion criteria
+-------------------------------
+A. Fix and independently calibrate the composite coupling/form factor and
+   baseline optical/matter-wave response. Reconcile paper/code absorption
+   cross-section conventions before using an absolute quantum baseline.
+B. Determine or explicitly condition on the scalar mass, occupation,
+   temperature/nonequilibrium spectrum, and source preparation. Record a
+   zero-population branch; coupling alone does not force a laboratory signal.
+C. Compute finite-time moving-object harmonic filters in the applicable regime,
+   including response, switching, renormalization, and mass/velocity averaging.
+D. Obtain repeated blank/reference scans and detector calibration sufficient
+   to specify count dispersion and temporal correlations. A negative-binomial,
+   latent-rate or correlated model requires validation, not just a choice of
+   a convenient variance inflation factor.
+E. Choose independently measured interventions on at least two signal-relevant
+   settings (e.g. velocity and geometry) whose predicted change cannot be
+   reproduced by the calibrated instrument nuisance space. Preserve identical
+   control acquisition and blind analysis labels where feasible.
+F. Freeze predictions, nuisance priors/constraints, fit range and test statistic
+   before evaluating a held-out acquisition. Demonstrate confidence-interval
+   coverage with the validated measurement model and independent replication.
+
+These deliverables define a measurement program with falsifiable predictions.
+They do not create GATE03 device data, certify an unprovided apparatus, or
+reinterpret the public authors' collapse-model result as a portal-field limit.
+
+Source archive: SHA256 4b52a5fb57716168d354b5c3dcb4bbf2ca4c0fe6744733b6ca0d3b3eae48f921,
+physical PDF pages 7576-7584 and 7600-7605. Conditional field matching and noise
+relations are inherited there. The count-level Poisson analysis, extended
+residual diagnostics and numerical likelihood ridge are new in this package.
