@@ -25,7 +25,7 @@ The inventory inspected 5,361 local PDF paths. Selection was bounded to the iden
 
 Jennifer Lorraine Nielsen's **independently authored 116-page preprint** remains reproduced with its CC BY 4.0 notice and citation: *The Complex Hopf Fibration as the Canonical Space for Gauge-Gravity Unification: The Field, Universal Action, and Particle Spectrum*, Preprints.org v5, 17 July 2026, DOI [10.20944/preprints202604.0315.v5](https://doi.org/10.20944/preprints202604.0315.v5). Inclusion does not assert joint authorship of the Baird corpus or her endorsement of the compilation.
 
-The 240-page Nielsen manuscript without a stated republication license, the personal study guide, the original private full collection, and the 9,542-page full local review edition are **not release assets and are not committed here**. Catalogue columns describing full-edition page positions are reference metadata only. See `RIGHTS_AND_ATTRIBUTION.txt` and `baseline_review/NOTICE.md` for component-specific rights.
+The owner selected inclusion of only Nielsen's publicly licensed preprint. The 240-page Nielsen manuscript without a stated republication license, the personal study guide, the original private full collection, and the 9,542-page full local review edition are **not release assets and are not committed here**. Catalogue columns describing full-edition page positions are reference metadata only. See `RIGHTS_AND_ATTRIBUTION.txt` and `baseline_review/NOTICE.md` for component-specific rights.
 
 This is an archival research compilation. Existing assumptions, corrections and research-status distinctions remain in force. Packaging does not establish a completed or experimentally validated Theory of Everything.
 
