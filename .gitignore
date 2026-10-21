@@ -1,2 +1,7 @@
 __pycache__/
 *.pyc
+
+# Edition binaries are distributed as release assets.
+editions/**/*.pdf
+editions/**/*.zip
+editions/**/out/

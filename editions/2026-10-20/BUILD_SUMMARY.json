@@ -1,0 +1,23 @@
+{
+  "edition_date": "2026-10-20",
+  "timezone": "America/New_York",
+  "inventory_pdf_paths": 5361,
+  "selected_source_paths": 743,
+  "byte_unique_existing_supplement_pdfs": 550,
+  "byte_identical_copies_removed": 193,
+  "rendered_current_report_pdfs": 1,
+  "supplement_pdf_count": 551,
+  "supplement_source_pages": 1846,
+  "supplement_total_pages": 1849,
+  "public_baseline_pages": 7399,
+  "full_original_pages": 7689,
+  "public_expanded_pages": 9252,
+  "full_expanded_pages": 9542,
+  "original_sha256": "c8417d0a9804a1f42769958962729225e4cda4b79a34aa0d2698c244cd8be218",
+  "public_baseline_sha256": "ac0d62ae361a796bea3bbab3062112a4c872c2aec71bf4aeacfb72741398bb7c",
+  "canonical_core_sha256": "1e8c17058fdf50d0985e9f669e10e448cdd2878b090973ad4c90567fee5c561c",
+  "public_master_sha256": "f62d26cc0e4dda66686a4ba84d5cd80821f12ea82cb98c314f8349957f966d73",
+  "publication_performed": false,
+  "nielsen_240_page_permission_recorded": false,
+  "scope": "Local baseline corpus; scoped research PDFs dated 2026-09-19 through 2026-10-20; current workspace report and its supporting files. Not a universal inventory of cloud-only drafts or all repositories."
+}

@@ -1,0 +1,31 @@
+ZENODO PUBLIC UPLOAD PACKAGE | 20 OCTOBER 2026
+
+MAIN READING COPY
+01_Combined_Research_Collection_PUBLIC_2026-10-20.pdf
+9,252 pages; searchable source text, bookmarks and embedded catalogue.
+
+CONTENTS
+02_Collection_Catalogue.pdf - complete document list and edition page positions.
+03_Original_PDFs - 551 supplemental PDFs, stored once per exact byte stream.
+04_Supporting_Research_2026-10-20 - available Markdown sources and current report code/results.
+05_Provenance - reviewed baseline, earlier review evidence and assembly inputs.
+06_Rebuild - package verification and reading-copy rebuild tools.
+07_Research_Supplement.pdf - 1,849-page standalone supplement.
+CATALOG.csv / CATALOG.json - machine-readable inventory.
+SHA256SUMS.txt - payload integrity checks.
+VERIFICATION.json - checks performed for this assembly.
+
+UPLOAD
+1. Extract the download ZIP locally and inspect the main PDF and catalogue.
+2. At https://zenodo.org/uploads/new upload the package ZIP. For an online reading preview, also upload the main PDF separately; that repeats its bytes but is optional.
+3. Paste ZENODO_DESCRIPTION.txt and use ZENODO_METADATA_DRAFT.json as a field guide; a JSON file does not auto-fill the browser form.
+4. Creator: Christopher Michael Baird (Baird, Christopher Michael). Nielsen is separately credited in the description as the author of an included work. Do not add an invented ORCID, institution or joint-authorship claim.
+5. Resource type: Publication / Other. Version: 2026.10.20. Use the actual publication date. Zenodo can reserve a DOI in the draft.
+6. Preserve source-specific rights. The existing owner corpus and Nielsen preprint state CC BY 4.0; apply the deposit license with the exceptions in RIGHTS_AND_ATTRIBUTION.txt. New supporting code retains its own terms; this package does not assign a new code license.
+7. For an existing deposit, open that record and choose New version only after confirming it is the intended lineage. No isNewVersionOf relation or new DOI is invented here.
+8. Review the draft, then publish when you are satisfied. This task did not upload or publish anything.
+
+Zenodo's current documented default limits are 100 files and 50 GB total. It recommends ZIP packaging for collections above 20 files. This package is well below the size limit and can be uploaded as one ZIP.
+Sources checked: https://help.zenodo.org/docs/deposit/manage-files/ and https://help.zenodo.org/docs/deposit/create-new-upload/
+
+The separate FULL_COLLECTION_LOCAL_REVIEW package preserves the complete 7,689-page original and its expanded repaired version. It contains material withheld from this public package. Read its release note before public redistribution.

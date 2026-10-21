@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Cite this compilation and separately cite any source paper you use; see RIGHTS_AND_ATTRIBUTION.txt."
+type: dataset
+title: "A Theory of Everything - Expanded Research Collection (2026-10-20)"
+version: "2026.10.20"
+authors:
+  - family-names: "Baird"
+    given-names: "Christopher Michael"
+abstract: "Archival research collection with separately credited Nielsen source material and recent research supplements. No DOI has yet been assigned to this package."
