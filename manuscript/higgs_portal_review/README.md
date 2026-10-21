@@ -21,3 +21,14 @@ This package develops a restricted symmetric-vacuum, two-real-singlet effective 
 Older test scripts cover the corresponding earlier toy algebra and synthetic fixtures. No external QCD code or numerical data were run or redistributed. The pinned four Omnès inputs remain unavailable; until authenticated and safely parsed, no pion/kaon width, total lifetime or full detector classification is established. An H2 visibility coefficient remains an instrument-level estimand pending a microscopic, detector-specific derivation.
 
 **Provenance and AI assistance:** Christopher Michael Baird is the human author. ChatGPT (ZoraASI) assisted with drafting, algebra and code. No independent referee, experiment, or machine-sentience claim is made. The primary candidate external hadronic source is Blackstone et al., arXiv:2407.13587v1; the source authors do not endorse this hypothetical two-singlet application. Existing repository licensing terms apply subject to the owner's final publication metadata decision. Do not silently overwrite original manuscripts; each later note is a development addendum.
+
+
+## Dated computational checkpoint — 2026-10-21
+
+[Free-bath kinetic checkpoint](checkpoints/2026-10-21-free-bath/README.md)
+preserves all three completed numerical stages and their source-audited
+dependency map. Read its `SCIENTIFIC_STATUS.md` for the later conditional
+completion of momentum-resolved and expanding free-bath calculations.
+Earlier notes and their dated open-item lists are retained unchanged.
+Physical thermal history, QCD matching, complete medium/reaction inputs,
+GATE-03 apparatus Objects 1–5, and EM construction remain open.

@@ -51,6 +51,17 @@ spectral determinants on S⁷ and S⁹, not derived.
 | `supporting_analysis/` | 2026-09-18 record-side theorems: middle-tower D₁ lemma and L closed forms (exact rational), mirror-check residual −1/16 closed, ζ(0) theorem (65/65 coexact towers, scalar conventions A/B), and the Part-0 open-problem-1 closure: one-loop radiative sequestering of J = κ_ES² in an explicit minimal Z₂_h-even model (Lemma 1′: E\|H\|² absent to all loop orders *in that model*; errata 1–7 on record) |
 | `play_notes/` | Clearly labeled exploration branch (interior-observer / refractive α idea): pre-declared combination-rule exclusion record across eight principled weightings; kept separate from the record side per program discipline |
 
+## Free-bath computational checkpoint — 2026-10-21
+
+The [dated checkpoint](manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/README.md)
+preserves the complete nested-moment, fixed-temperature momentum-evolution,
+and expanding fermionic-network packages, with source code, raw collision
+banks, figures, provenance, and numerical controls. It records conditional
+free-bath results and the supplied Grok discussion inputs. Thermal prehistory,
+interacting QCD, physical reaction completion, apparatus inputs, and EM
+normalization remain open. This is a computational draft checkpoint;
+the existing scientific release gate still applies.
+
 ## Conventions
 
 - Every repaired claim keeps a pointer to the erratum that motivated the

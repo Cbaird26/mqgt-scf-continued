@@ -1,0 +1,107 @@
+{
+  "T_GeV": 0.4,
+  "H_GeV": 1.685248937226985e-19,
+  "B_by_initial_species_GeV2": [
+    6.630350823059819e-15,
+    6.630350823059819e-15
+  ],
+  "B_over_H_by_initial_species_GeV": [
+    39343.45055259205,
+    39343.45055259205
+  ],
+  "bound": "nu_i(p) <= B_i(T)/E_i(p)",
+  "bound_is_not_actual_collision_rate": true,
+  "theorem_scope": "globally extended vacuum-tree fixed ideal MB scattering-only operator",
+  "uniform_L2_variational_gap_of_scoped_operator": 0.0,
+  "physical_UV_completion_claim": false,
+  "rows": [
+    {
+      "flavor": "e",
+      "mass_GeV": 0.00051099895,
+      "bath_degeneracy": 4,
+      "inverse_energy_MB_integral_GeV2": 0.008105646547716673,
+      "amplitude_maximum_abs_coupling_0p001": 4.1779188306969196e-18,
+      "B_contribution_by_initial_species_GeV2": [
+        2.6948698543064505e-21,
+        2.6948698543064505e-21
+      ]
+    },
+    {
+      "flavor": "mu",
+      "mass_GeV": 0.1056583755,
+      "bath_degeneracy": 4,
+      "inverse_energy_MB_integral_GeV2": 0.007548395993898305,
+      "amplitude_maximum_abs_coupling_0p001": 1.7861958749063766e-13,
+      "B_contribution_by_initial_species_GeV2": [
+        1.0729361881985636e-16,
+        1.0729361881985636e-16
+      ]
+    },
+    {
+      "flavor": "tau",
+      "mass_GeV": 1.77686,
+      "bath_degeneracy": 4,
+      "inverse_energy_MB_integral_GeV2": 0.00027203333439931095,
+      "amplitude_maximum_abs_coupling_0p001": 5.0556565761257166e-11,
+      "B_contribution_by_initial_species_GeV2": [
+        1.0944346288893987e-15,
+        1.0944346288893987e-15
+      ]
+    },
+    {
+      "flavor": "u",
+      "mass_GeV": 0.002,
+      "bath_degeneracy": 12,
+      "inverse_energy_MB_integral_GeV2": 0.008105095450579827,
+      "amplitude_maximum_abs_coupling_0p001": 6.400000006553602e-17,
+      "B_contribution_by_initial_species_GeV2": [
+        1.2383673662518442e-19,
+        1.2383673662518442e-19
+      ]
+    },
+    {
+      "flavor": "d",
+      "mass_GeV": 0.005,
+      "bath_degeneracy": 12,
+      "inverse_energy_MB_integral_GeV2": 0.008102529626321589,
+      "amplitude_maximum_abs_coupling_0p001": 4.0000000256e-16,
+      "B_contribution_by_initial_species_GeV2": [
+        7.737345898984665e-19,
+        7.737345898984665e-19
+      ]
+    },
+    {
+      "flavor": "s",
+      "mass_GeV": 0.1,
+      "bath_degeneracy": 12,
+      "inverse_energy_MB_integral_GeV2": 0.007593062137378342,
+      "amplitude_maximum_abs_coupling_0p001": 1.600004096010486e-13,
+      "B_contribution_by_initial_species_GeV2": [
+        2.9003435185618286e-16,
+        2.9003435185618286e-16
+      ]
+    },
+    {
+      "flavor": "c",
+      "mass_GeV": 1.3,
+      "bath_degeneracy": 12,
+      "inverse_energy_MB_integral_GeV2": 0.0007857090752405959,
+      "amplitude_maximum_abs_coupling_0p001": 2.7051703649066736e-11,
+      "B_contribution_by_initial_species_GeV2": [
+        5.0742023397361275e-15,
+        5.0742023397361275e-15
+      ]
+    },
+    {
+      "flavor": "b",
+      "mass_GeV": 4.2,
+      "bath_degeneracy": 12,
+      "inverse_energy_MB_integral_GeV2": 9.379501310625487e-07,
+      "amplitude_maximum_abs_coupling_0p001": 2.835203324581277e-10,
+      "B_contribution_by_initial_species_GeV2": [
+        6.348561756187533e-17,
+        6.348561756187533e-17
+      ]
+    }
+  ]
+}

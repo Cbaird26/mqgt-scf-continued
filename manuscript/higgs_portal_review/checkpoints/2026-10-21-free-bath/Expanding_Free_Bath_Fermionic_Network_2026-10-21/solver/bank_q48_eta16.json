@@ -1,0 +1,23 @@
+{
+  "T0_GeV": 0.5,
+  "Tf_GeV": 0.3333333333333333,
+  "resolution": {
+    "q": 48,
+    "boost": 32,
+    "scattering": 24,
+    "direction": 24,
+    "azimuth": 32
+  },
+  "finite_bins_per_species": 192,
+  "ymax": 48.0,
+  "eta_intervals": 16,
+  "elapsed_seconds": 249.01810528999704,
+  "conductance_units": "D_per_Neq / H(T), offdiagonal magnitude; diagonal stored as zero",
+  "scattering_only": true,
+  "gstar": 60,
+  "gstar_s": 60,
+  "coordinate": "y=p/T, eta=ln(T0/T)",
+  "parent_bank": "bank_q48.npz",
+  "additional_elapsed_seconds": 104.29443890899711,
+  "additional_temperature_nodes": 8
+}

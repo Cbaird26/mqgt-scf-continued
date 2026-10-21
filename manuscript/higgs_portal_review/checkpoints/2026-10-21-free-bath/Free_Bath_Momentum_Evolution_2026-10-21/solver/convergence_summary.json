@@ -1,0 +1,1588 @@
+{
+  "T_GeV": 0.4,
+  "quadrature_and_grid": {
+    "32": {
+      "32": {
+        "number_null_relative_residual": 1.9303996684051673e-16,
+        "symmetry_relative_residual": 5.299667266523618e-17,
+        "metric_total": 1.0000000000000002,
+        "tail_equilibrium_mass": 9.45041126936403e-07,
+        "count_only_rate_over_H": 2.974745764953218,
+        "finite_graph_lowest_positive_rate_over_H": 0.7518171207903075,
+        "initial_conditions": {
+          "population": {
+            "initial_shape_variance": 0.02714849258023017,
+            "continuum_initial_shape_variance": 0.027148492580230138,
+            "initial_variance_retained_fraction": 1.000000000000001,
+            "tau_Ht": [
+              0.25,
+              0.5,
+              1.0,
+              2.0,
+              5.0
+            ],
+            "correlation": [
+              0.47686082719867207,
+              0.22938282637692997,
+              0.055799812590599525,
+              0.005598310088723901,
+              0.00030970194453506177
+            ],
+            "correlation_divided_by_continuum_variance": [
+              0.4768608271986727,
+              0.22938282637693025,
+              0.055799812590599594,
+              0.005598310088723907,
+              0.00030970194453506215
+            ],
+            "L2_squared_norm_ratio": [
+              0.22938282637692892,
+              0.05579981259060035,
+              0.005598310088723376,
+              0.0006723125011932806,
+              7.011001773844996e-06
+            ],
+            "max_absolute_number_error": 4.440892098500626e-16,
+            "minimum_relative_occupation": 0.9986035753340339
+          },
+          "temperature": {
+            "initial_shape_variance": 2.0006038163434807,
+            "continuum_initial_shape_variance": 2.020726250162852,
+            "initial_variance_retained_fraction": 0.9900419793043469,
+            "tau_Ht": [
+              0.25,
+              0.5,
+              1.0,
+              2.0,
+              5.0
+            ],
+            "correlation": [
+              0.7818969500529201,
+              0.6238659632349974,
+              0.41040647356896404,
+              0.18650204505573928,
+              0.01883095023156434
+            ],
+            "correlation_divided_by_continuum_variance": [
+              0.774110804042425,
+              0.6176534930617897,
+              0.40631963741153426,
+              0.18464485383129262,
+              0.018643431239439606
+            ],
+            "L2_squared_norm_ratio": [
+              0.6238659632349979,
+              0.4104064735689641,
+              0.18650204505573886,
+              0.0402477563004008,
+              0.0004325796590610211
+            ],
+            "max_absolute_number_error": 4.440892098500626e-16,
+            "minimum_relative_occupation": 0.9303427544467566
+          }
+        }
+      },
+      "64": {
+        "number_null_relative_residual": 2.62277748430778e-16,
+        "symmetry_relative_residual": 1.6105197536807763e-17,
+        "metric_total": 1.0000000000000004,
+        "tail_equilibrium_mass": 9.45041126936403e-07,
+        "count_only_rate_over_H": 2.9747457649532176,
+        "finite_graph_lowest_positive_rate_over_H": 0.7409554686232882,
+        "initial_conditions": {
+          "population": {
+            "initial_shape_variance": 0.027148492580230173,
+            "continuum_initial_shape_variance": 0.027148492580230145,
+            "initial_variance_retained_fraction": 1.0000000000000009,
+            "tau_Ht": [
+              0.25,
+              0.5,
+              1.0,
+              2.0,
+              5.0
+            ],
+            "correlation": [
+              0.4769094517041207,
+              0.22947563556812714,
+              0.055901439205997265,
+              0.005662938349538751,
+              0.00032461349294488274
+            ],
+            "correlation_divided_by_continuum_variance": [
+              0.4769094517041212,
+              0.2294756355681274,
+              0.05590143920599732,
+              0.0056629383495387575,
+              0.00032461349294488306
+            ],
+            "L2_squared_norm_ratio": [
+              0.22947563556812664,
+              0.05590143920599685,
+              0.005662938349539425,
+              0.000697661093465518,
+              7.737579159528447e-06
+            ],
+            "max_absolute_number_error": 4.440892098500626e-16,
+            "minimum_relative_occupation": 0.9986035753340323
+          },
+          "temperature": {
+            "initial_shape_variance": 2.0155938435589373,
+            "continuum_initial_shape_variance": 2.0207262501626246,
+            "initial_variance_retained_fraction": 0.997460117814932,
+            "tau_Ht": [
+              0.25,
+              0.5,
+              1.0,
+              2.0,
+              5.0
+            ],
+            "correlation": [
+              0.7838857098540764,
+              0.627027953532656,
+              0.4145259787781044,
+              0.1902259117930026,
+              0.019798149649175714
+            ],
+            "correlation_divided_by_continuum_variance": [
+              0.7818947325044886,
+              0.6254353764039388,
+              0.413473131629358,
+              0.18974276038850127,
+              0.019747864681584463
+            ],
+            "L2_squared_norm_ratio": [
+              0.627027953532656,
+              0.41452597877810404,
+              0.19022591179300233,
+              0.041882698474219875,
+              0.00047945995935664827
+            ],
+            "max_absolute_number_error": 4.440892098500626e-16,
+            "minimum_relative_occupation": 0.9234669130030225
+          }
+        }
+      },
+      "128": {
+        "number_null_relative_residual": 3.2831343627507333e-16,
+        "symmetry_relative_residual": 0.0,
+        "metric_total": 1.0000000000000002,
+        "tail_equilibrium_mass": 9.45041126936403e-07,
+        "count_only_rate_over_H": 2.9747457649532185,
+        "finite_graph_lowest_positive_rate_over_H": 0.737239217965463,
+        "initial_conditions": {
+          "population": {
+            "initial_shape_variance": 0.027148492580230173,
+            "continuum_initial_shape_variance": 0.027148492580230135,
+            "initial_variance_retained_fraction": 1.0000000000000013,
+            "tau_Ht": [
+              0.25,
+              0.5,
+              1.0,
+              2.0,
+              5.0
+            ],
+            "correlation": [
+              0.47764696165172355,
+              0.23073424448496024,
+              0.05686076595466586,
+              0.005844699241997732,
+              0.0003331419814093794
+            ],
+            "correlation_divided_by_continuum_variance": [
+              0.4776469616517242,
+              0.23073424448496055,
+              0.056860765954665944,
+              0.00584469924199774,
+              0.00033314198140937983
+            ],
+            "L2_squared_norm_ratio": [
+              0.23073424448496133,
+              0.05686076595466575,
+              0.0058446992419979036,
+              0.0007141530235524077,
+              8.084076483454479e-06
+            ],
+            "max_absolute_number_error": 4.440892098500626e-16,
+            "minimum_relative_occupation": 0.9986035753339594
+          },
+          "temperature": {
+            "initial_shape_variance": 2.0194309046730576,
+            "continuum_initial_shape_variance": 2.020726250162852,
+            "initial_variance_retained_fraction": 0.9993589703257976,
+            "tau_Ht": [
+              0.25,
+              0.5,
+              1.0,
+              2.0,
+              5.0
+            ],
+            "correlation": [
+              0.7843798643304188,
+              0.6279883811930137,
+              0.41591046297414175,
+              0.19157376253978844,
+              0.020175253716376122
+            ],
+            "correlation_divided_by_continuum_variance": [
+              0.7838770535615361,
+              0.6275858220056146,
+              0.41564385202556403,
+              0.19145095807320184,
+              0.020162320780059365
+            ],
+            "L2_squared_norm_ratio": [
+              0.6279883811930143,
+              0.41591046297414225,
+              0.19157376253978856,
+              0.04251511839142544,
+              0.0004978182794686336
+            ],
+            "max_absolute_number_error": 2.220446049250313e-16,
+            "minimum_relative_occupation": 0.9198713985413562
+          }
+        }
+      }
+    },
+    "48": {
+      "32": {
+        "number_null_relative_residual": 1.3738933268588139e-16,
+        "symmetry_relative_residual": 5.363905563172203e-17,
+        "metric_total": 1.0000000000000002,
+        "tail_equilibrium_mass": 9.45041126936403e-07,
+        "count_only_rate_over_H": 2.974745764983615,
+        "finite_graph_lowest_positive_rate_over_H": 0.7528588325895926,
+        "initial_conditions": {
+          "population": {
+            "initial_shape_variance": 0.02714849258023017,
+            "continuum_initial_shape_variance": 0.027148492580230138,
+            "initial_variance_retained_fraction": 1.000000000000001,
+            "tau_Ht": [
+              0.25,
+              0.5,
+              1.0,
+              2.0,
+              5.0
+            ],
+            "correlation": [
+              0.47682824236252913,
+              0.2293291346298069,
+              0.05576839037177061,
+              0.005605173055768874,
+              0.0003107935108681799
+            ],
+            "correlation_divided_by_continuum_variance": [
+              0.4768282423625297,
+              0.22932913462980717,
+              0.05576839037177067,
+              0.005605173055768881,
+              0.0003107935108681803
+            ],
+            "L2_squared_norm_ratio": [
+              0.22932913462980659,
+              0.05576839037177098,
+              0.005605173055770357,
+              0.0006751249913478539,
+              7.003165699741795e-06
+            ],
+            "max_absolute_number_error": 4.440892098500626e-16,
+            "minimum_relative_occupation": 0.9986035753340331
+          },
+          "temperature": {
+            "initial_shape_variance": 2.0006038163434807,
+            "continuum_initial_shape_variance": 2.020726250162852,
+            "initial_variance_retained_fraction": 0.9900419793043469,
+            "tau_Ht": [
+              0.25,
+              0.5,
+              1.0,
+              2.0,
+              5.0
+            ],
+            "correlation": [
+              0.7819587633126152,
+              0.6238975000667938,
+              0.4103452318975572,
+              0.18636214245256325,
+              0.018771957390055865
+            ],
+            "correlation_divided_by_continuum_variance": [
+              0.7741720017644008,
+              0.6176847158491624,
+              0.4062590055859588,
+              0.18450634438113436,
+              0.018585025849867768
+            ],
+            "L2_squared_norm_ratio": [
+              0.6238975000667942,
+              0.4103452318975569,
+              0.18636214245256344,
+              0.04015636836050243,
+              0.0004291365918031889
+            ],
+            "max_absolute_number_error": 4.440892098500626e-16,
+            "minimum_relative_occupation": 0.9303427544467565
+          }
+        }
+      },
+      "64": {
+        "number_null_relative_residual": 2.3151170266704315e-16,
+        "symmetry_relative_residual": 1.306301554615896e-17,
+        "metric_total": 1.0000000000000004,
+        "tail_equilibrium_mass": 9.45041126936403e-07,
+        "count_only_rate_over_H": 2.974745764983614,
+        "finite_graph_lowest_positive_rate_over_H": 0.742232361962543,
+        "initial_conditions": {
+          "population": {
+            "initial_shape_variance": 0.027148492580230173,
+            "continuum_initial_shape_variance": 0.027148492580230145,
+            "initial_variance_retained_fraction": 1.0000000000000009,
+            "tau_Ht": [
+              0.25,
+              0.5,
+              1.0,
+              2.0,
+              5.0
+            ],
+            "correlation": [
+              0.47692826892127693,
+              0.2295091441082945,
+              0.05592471010282191,
+              0.005659075477264789,
+              0.00032225367010507537
+            ],
+            "correlation_divided_by_continuum_variance": [
+              0.47692826892127743,
+              0.22950914410829473,
+              0.05592471010282197,
+              0.005659075477264794,
+              0.0003222536701050757
+            ],
+            "L2_squared_norm_ratio": [
+              0.229509144108294,
+              0.05592471010282268,
+              0.005659075477264242,
+              0.0006936458709727611,
+              7.629014560837229e-06
+            ],
+            "max_absolute_number_error": 4.440892098500626e-16,
+            "minimum_relative_occupation": 0.998603575334021
+          },
+          "temperature": {
+            "initial_shape_variance": 2.0155938435589373,
+            "continuum_initial_shape_variance": 2.0207262501626246,
+            "initial_variance_retained_fraction": 0.997460117814932,
+            "tau_Ht": [
+              0.25,
+              0.5,
+              1.0,
+              2.0,
+              5.0
+            ],
+            "correlation": [
+              0.783649853944862,
+              0.6266102624039266,
+              0.41391059929238794,
+              0.18961845483126594,
+              0.0196427329086665
+            ],
+            "correlation_divided_by_continuum_variance": [
+              0.7816594756414963,
+              0.625018746161466,
+              0.41285931513503443,
+              0.1891368462958799,
+              0.019592842681285732
+            ],
+            "L2_squared_norm_ratio": [
+              0.6266102624039266,
+              0.4139105992923884,
+              0.18961845483126555,
+              0.04161562345295774,
+              0.0004724192383262908
+            ],
+            "max_absolute_number_error": 2.220446049250313e-16,
+            "minimum_relative_occupation": 0.9234669130030231
+          }
+        }
+      },
+      "128": {
+        "number_null_relative_residual": 3.8738200586174813e-16,
+        "symmetry_relative_residual": 0.0,
+        "metric_total": 1.0000000000000002,
+        "tail_equilibrium_mass": 9.45041126936403e-07,
+        "count_only_rate_over_H": 2.974745764983615,
+        "finite_graph_lowest_positive_rate_over_H": 0.7388186279627842,
+        "initial_conditions": {
+          "population": {
+            "initial_shape_variance": 0.027148492580230173,
+            "continuum_initial_shape_variance": 0.027148492580230135,
+            "initial_variance_retained_fraction": 1.0000000000000013,
+            "tau_Ht": [
+              0.25,
+              0.5,
+              1.0,
+              2.0,
+              5.0
+            ],
+            "correlation": [
+              0.4772435642751676,
+              0.23005121142897184,
+              0.056342499604510474,
+              0.005744224396595912,
+              0.00032838868667795434
+            ],
+            "correlation_divided_by_continuum_variance": [
+              0.47724356427516834,
+              0.23005121142897214,
+              0.05634249960451055,
+              0.00574422439659592,
+              0.0003283886866779548
+            ],
+            "L2_squared_norm_ratio": [
+              0.23005121142897192,
+              0.05634249960451068,
+              0.005744224396596155,
+              0.0007048393746889015,
+              7.901745056771984e-06
+            ],
+            "max_absolute_number_error": 4.440892098500626e-16,
+            "minimum_relative_occupation": 0.9986035753340154
+          },
+          "temperature": {
+            "initial_shape_variance": 2.0194309046730576,
+            "continuum_initial_shape_variance": 2.020726250162852,
+            "initial_variance_retained_fraction": 0.9993589703257976,
+            "tau_Ht": [
+              0.25,
+              0.5,
+              1.0,
+              2.0,
+              5.0
+            ],
+            "correlation": [
+              0.7842557495621981,
+              0.6276120182231525,
+              0.4152384540978224,
+              0.1908458062795179,
+              0.019970977180650554
+            ],
+            "correlation_divided_by_continuum_variance": [
+              0.7837530183545649,
+              0.6272097002955854,
+              0.41497227392687575,
+              0.19072346845449564,
+              0.01995817519165494
+            ],
+            "L2_squared_norm_ratio": [
+              0.6276120182231522,
+              0.4152384540978219,
+              0.19084580627951783,
+              0.042168618830067194,
+              0.0004884756363047085
+            ],
+            "max_absolute_number_error": 4.440892098500626e-16,
+            "minimum_relative_occupation": 0.9198713985413562
+          }
+        }
+      }
+    },
+    "64": {
+      "32": {
+        "number_null_relative_residual": 2.47103796225457e-16,
+        "symmetry_relative_residual": 5.125219942783548e-17,
+        "metric_total": 1.0000000000000002,
+        "tail_equilibrium_mass": 9.45041126936403e-07,
+        "count_only_rate_over_H": 2.974745764988553,
+        "finite_graph_lowest_positive_rate_over_H": 0.7521803248175081,
+        "initial_conditions": {
+          "population": {
+            "initial_shape_variance": 0.02714849258023017,
+            "continuum_initial_shape_variance": 0.027148492580230138,
+            "initial_variance_retained_fraction": 1.000000000000001,
+            "tau_Ht": [
+              0.25,
+              0.5,
+              1.0,
+              2.0,
+              5.0
+            ],
+            "correlation": [
+              0.47682885561833976,
+              0.22932781336632796,
+              0.05575837481827477,
+              0.005591162789129056,
+              0.0003088989913162312
+            ],
+            "correlation_divided_by_continuum_variance": [
+              0.4768288556183403,
+              0.22932781336632824,
+              0.055758374818274836,
+              0.005591162789129063,
+              0.00030889899131623157
+            ],
+            "L2_squared_norm_ratio": [
+              0.22932781336632757,
+              0.05575837481827496,
+              0.005591162789129056,
+              0.0006710698907497689,
+              6.971831413788567e-06
+            ],
+            "max_absolute_number_error": 4.440892098500626e-16,
+            "minimum_relative_occupation": 0.9986035753340338
+          },
+          "temperature": {
+            "initial_shape_variance": 2.0006038163434807,
+            "continuum_initial_shape_variance": 2.020726250162852,
+            "initial_variance_retained_fraction": 0.9900419793043469,
+            "tau_Ht": [
+              0.25,
+              0.5,
+              1.0,
+              2.0,
+              5.0
+            ],
+            "correlation": [
+              0.7818677123673794,
+              0.6237745479855608,
+              0.41022170707826866,
+              0.1862864029675514,
+              0.01877112949378754
+            ],
+            "correlation_divided_by_continuum_variance": [
+              0.774081857506362,
+              0.6175629881272988,
+              0.4061367108293771,
+              0.18443135911148173,
+              0.018584206197807616
+            ],
+            "L2_squared_norm_ratio": [
+              0.6237745479855615,
+              0.4102217070782688,
+              0.18628640296755133,
+              0.04014516177949616,
+              0.0004301066129248587
+            ],
+            "max_absolute_number_error": 5.551115123125783e-16,
+            "minimum_relative_occupation": 0.9303427544467567
+          }
+        }
+      },
+      "64": {
+        "number_null_relative_residual": 2.3811610174923997e-16,
+        "symmetry_relative_residual": 1.5505372967138776e-17,
+        "metric_total": 1.0000000000000004,
+        "tail_equilibrium_mass": 9.45041126936403e-07,
+        "count_only_rate_over_H": 2.9747457649885525,
+        "finite_graph_lowest_positive_rate_over_H": 0.7416625152810461,
+        "initial_conditions": {
+          "population": {
+            "initial_shape_variance": 0.027148492580230173,
+            "continuum_initial_shape_variance": 0.027148492580230145,
+            "initial_variance_retained_fraction": 1.0000000000000009,
+            "tau_Ht": [
+              0.25,
+              0.5,
+              1.0,
+              2.0,
+              5.0
+            ],
+            "correlation": [
+              0.476888696742509,
+              0.22943927705461772,
+              0.05586826456336585,
+              0.005646989937724774,
+              0.0003217898949857358
+            ],
+            "correlation_divided_by_continuum_variance": [
+              0.4768886967425095,
+              0.22943927705461797,
+              0.0558682645633659,
+              0.0056469899377247805,
+              0.00032178989498573613
+            ],
+            "L2_squared_norm_ratio": [
+              0.2294392770546172,
+              0.05586826456336618,
+              0.005646989937725963,
+              0.0006925282112441312,
+              7.632433283941267e-06
+            ],
+            "max_absolute_number_error": 4.440892098500626e-16,
+            "minimum_relative_occupation": 0.9986035753340173
+          },
+          "temperature": {
+            "initial_shape_variance": 2.0155938435589373,
+            "continuum_initial_shape_variance": 2.0207262501626246,
+            "initial_variance_retained_fraction": 0.997460117814932,
+            "tau_Ht": [
+              0.25,
+              0.5,
+              1.0,
+              2.0,
+              5.0
+            ],
+            "correlation": [
+              0.7836364120205602,
+              0.6265828174188818,
+              0.4138746494192985,
+              0.1895979255466969,
+              0.019651376994426685
+            ],
+            "correlation_divided_by_continuum_variance": [
+              0.7816460678580985,
+              0.6249913708834498,
+              0.4128234565703872,
+              0.189116369153275,
+              0.019601464812086487
+            ],
+            "L2_squared_norm_ratio": [
+              0.6265828174188822,
+              0.41387464941929875,
+              0.18959792554669708,
+              0.041622149560553025,
+              0.0004736943702847136
+            ],
+            "max_absolute_number_error": 3.3306690738754696e-16,
+            "minimum_relative_occupation": 0.9234669130030231
+          }
+        }
+      },
+      "128": {
+        "number_null_relative_residual": 3.032286534782098e-16,
+        "symmetry_relative_residual": 0.0,
+        "metric_total": 1.0000000000000002,
+        "tail_equilibrium_mass": 9.45041126936403e-07,
+        "count_only_rate_over_H": 2.9747457649885534,
+        "finite_graph_lowest_positive_rate_over_H": 0.7388283462428387,
+        "initial_conditions": {
+          "population": {
+            "initial_shape_variance": 0.027148492580230173,
+            "continuum_initial_shape_variance": 0.027148492580230135,
+            "initial_variance_retained_fraction": 1.0000000000000013,
+            "tau_Ht": [
+              0.25,
+              0.5,
+              1.0,
+              2.0,
+              5.0
+            ],
+            "correlation": [
+              0.476984753994442,
+              0.22960682884334746,
+              0.056002885758604896,
+              0.005681194008857703,
+              0.0003260136516661658
+            ],
+            "correlation_divided_by_continuum_variance": [
+              0.4769847539944427,
+              0.2296068288433478,
+              0.05600288575860497,
+              0.005681194008857711,
+              0.00032601365166616623
+            ],
+            "L2_squared_norm_ratio": [
+              0.22960682884334777,
+              0.05600288575860465,
+              0.005681194008857637,
+              0.0006998469225764211,
+              7.836163043700995e-06
+            ],
+            "max_absolute_number_error": 4.440892098500626e-16,
+            "minimum_relative_occupation": 0.9986035753340129
+          },
+          "temperature": {
+            "initial_shape_variance": 2.0194309046730576,
+            "continuum_initial_shape_variance": 2.020726250162852,
+            "initial_variance_retained_fraction": 0.9993589703257976,
+            "tau_Ht": [
+              0.25,
+              0.5,
+              1.0,
+              2.0,
+              5.0
+            ],
+            "correlation": [
+              0.7841394857169515,
+              0.6273983201871077,
+              0.4149501447557203,
+              0.1905807979057352,
+              0.01991048722673718
+            ],
+            "correlation_divided_by_continuum_variance": [
+              0.7836368290378931,
+              0.626996139246323,
+              0.4146841493996173,
+              0.19045862995894444,
+              0.01989772401359701
+            ],
+            "L2_squared_norm_ratio": [
+              0.6273983201871085,
+              0.41495014475572073,
+              0.19058079790573554,
+              0.042058727377827725,
+              0.00048651639998206325
+            ],
+            "max_absolute_number_error": 4.440892098500626e-16,
+            "minimum_relative_occupation": 0.9198713985413564
+          }
+        }
+      }
+    },
+    "80": {
+      "32": {
+        "number_null_relative_residual": 2.1336035944749249e-16,
+        "symmetry_relative_residual": 4.9769507097273074e-17,
+        "metric_total": 1.0000000000000002,
+        "tail_equilibrium_mass": 9.450411269364027e-07,
+        "count_only_rate_over_H": 2.974745764989979,
+        "finite_graph_lowest_positive_rate_over_H": 0.7519767368743038,
+        "initial_conditions": {
+          "population": {
+            "initial_shape_variance": 0.02714849258023017,
+            "continuum_initial_shape_variance": 0.027148492580230138,
+            "initial_variance_retained_fraction": 1.000000000000001,
+            "tau_Ht": [
+              0.25,
+              0.5,
+              1.0,
+              2.0,
+              5.0
+            ],
+            "correlation": [
+              0.4768196657787447,
+              0.22931127084547265,
+              0.05574470788195482,
+              0.005588833522480902,
+              0.0003092229038713363
+            ],
+            "correlation_divided_by_continuum_variance": [
+              0.4768196657787453,
+              0.22931127084547293,
+              0.05574470788195489,
+              0.005588833522480909,
+              0.0003092229038713366
+            ],
+            "L2_squared_norm_ratio": [
+              0.22931127084547326,
+              0.05574470788195531,
+              0.005588833522481381,
+              0.000671481302826822,
+              6.990647756391305e-06
+            ],
+            "max_absolute_number_error": 4.440892098500626e-16,
+            "minimum_relative_occupation": 0.9986035753340339
+          },
+          "temperature": {
+            "initial_shape_variance": 2.0006038163434807,
+            "continuum_initial_shape_variance": 2.020726250162852,
+            "initial_variance_retained_fraction": 0.9900419793043469,
+            "tau_Ht": [
+              0.25,
+              0.5,
+              1.0,
+              2.0,
+              5.0
+            ],
+            "correlation": [
+              0.7819200443114376,
+              0.6238664976885469,
+              0.4103581605548242,
+              0.1864246994589441,
+              0.01880738722706515
+            ],
+            "correlation_divided_by_continuum_variance": [
+              0.7741336683278383,
+              0.6176540221932397,
+              0.4062718054993891,
+              0.184568278443551,
+              0.018620102875826872
+            ],
+            "L2_squared_norm_ratio": [
+              0.6238664976885472,
+              0.41035816055482444,
+              0.1864246994589442,
+              0.04020776934912398,
+              0.0004315677914620627
+            ],
+            "max_absolute_number_error": 5.551115123125783e-16,
+            "minimum_relative_occupation": 0.9303427544467566
+          }
+        }
+      },
+      "64": {
+        "number_null_relative_residual": 5.448306093287505e-16,
+        "symmetry_relative_residual": 1.7137370607331887e-17,
+        "metric_total": 1.0000000000000004,
+        "tail_equilibrium_mass": 9.450411269364027e-07,
+        "count_only_rate_over_H": 2.974745764989979,
+        "finite_graph_lowest_positive_rate_over_H": 0.741737254237508,
+        "initial_conditions": {
+          "population": {
+            "initial_shape_variance": 0.027148492580230173,
+            "continuum_initial_shape_variance": 0.027148492580230145,
+            "initial_variance_retained_fraction": 1.0000000000000009,
+            "tau_Ht": [
+              0.25,
+              0.5,
+              1.0,
+              2.0,
+              5.0
+            ],
+            "correlation": [
+              0.4768468269931592,
+              0.2293667050820852,
+              0.05581373781814915,
+              0.00564033487303003,
+              0.00032224559943869473
+            ],
+            "correlation_divided_by_continuum_variance": [
+              0.4768468269931597,
+              0.22936670508208543,
+              0.0558137378181492,
+              0.005640334873030036,
+              0.00032224559943869505
+            ],
+            "L2_squared_norm_ratio": [
+              0.22936670508208534,
+              0.055813737818149085,
+              0.005640334873029865,
+              0.0006933027021409554,
+              7.645784891096162e-06
+            ],
+            "max_absolute_number_error": 4.440892098500626e-16,
+            "minimum_relative_occupation": 0.9986035753340333
+          },
+          "temperature": {
+            "initial_shape_variance": 2.0155938435589373,
+            "continuum_initial_shape_variance": 2.0207262501626246,
+            "initial_variance_retained_fraction": 0.997460117814932,
+            "tau_Ht": [
+              0.25,
+              0.5,
+              1.0,
+              2.0,
+              5.0
+            ],
+            "correlation": [
+              0.7837130467271878,
+              0.6267034541846486,
+              0.41403153438319973,
+              0.1897320363793589,
+              0.01967664518063698
+            ],
+            "correlation_divided_by_continuum_variance": [
+              0.7817225079216,
+              0.6251117012460444,
+              0.4129799430649635,
+              0.1892501393602223,
+              0.019626668820080777
+            ],
+            "L2_squared_norm_ratio": [
+              0.6267034541846486,
+              0.4140315343831993,
+              0.18973203637935893,
+              0.04167017858408445,
+              0.0004743448784460002
+            ],
+            "max_absolute_number_error": 4.440892098500626e-16,
+            "minimum_relative_occupation": 0.9234669130030225
+          }
+        }
+      },
+      "128": {
+        "number_null_relative_residual": 3.2828650666832667e-16,
+        "symmetry_relative_residual": 2.1945740053857357e-23,
+        "metric_total": 1.0000000000000002,
+        "tail_equilibrium_mass": 9.450411269364027e-07,
+        "count_only_rate_over_H": 2.97474576498998,
+        "finite_graph_lowest_positive_rate_over_H": 0.7390985349248016,
+        "initial_conditions": {
+          "population": {
+            "initial_shape_variance": 0.027148492580230173,
+            "continuum_initial_shape_variance": 0.027148492580230135,
+            "initial_variance_retained_fraction": 1.0000000000000013,
+            "tau_Ht": [
+              0.25,
+              0.5,
+              1.0,
+              2.0,
+              5.0
+            ],
+            "correlation": [
+              0.4769140118528872,
+              0.22948571871800386,
+              0.05591297031198913,
+              0.005668217108220366,
+              0.0003258852593276835
+            ],
+            "correlation_divided_by_continuum_variance": [
+              0.47691401185288784,
+              0.2294857187180042,
+              0.055912970311989205,
+              0.005668217108220374,
+              0.00032588525932768393
+            ],
+            "L2_squared_norm_ratio": [
+              0.22948571871800258,
+              0.05591297031198979,
+              0.005668217108219672,
+              0.0006996176383481771,
+              7.825354254636605e-06
+            ],
+            "max_absolute_number_error": 4.440892098500626e-16,
+            "minimum_relative_occupation": 0.9986035753340323
+          },
+          "temperature": {
+            "initial_shape_variance": 2.0194309046730576,
+            "continuum_initial_shape_variance": 2.020726250162852,
+            "initial_variance_retained_fraction": 0.9993589703257976,
+            "tau_Ht": [
+              0.25,
+              0.5,
+              1.0,
+              2.0,
+              5.0
+            ],
+            "correlation": [
+              0.7841463654420695,
+              0.6273953586035788,
+              0.4149288829714536,
+              0.19054370679257304,
+              0.0198957269499751
+            ],
+            "correlation_divided_by_continuum_variance": [
+              0.7836437043529032,
+              0.626993179561257,
+              0.4146629012447852,
+              0.1904215626222865,
+              0.019882973198610338
+            ],
+            "L2_squared_norm_ratio": [
+              0.6273953586035782,
+              0.41492888297145325,
+              0.19054370679257318,
+              0.04203551476774086,
+              0.00048561717877235373
+            ],
+            "max_absolute_number_error": 4.440892098500626e-16,
+            "minimum_relative_occupation": 0.9198713985413566
+          }
+        }
+      }
+    }
+  },
+  "tail_bin_start_sensitivity": {
+    "12": {
+      "number_null_relative_residual": 3.132464864548294e-16,
+      "symmetry_relative_residual": 1.818919833557918e-21,
+      "metric_total": 1.0000000000000002,
+      "tail_equilibrium_mass": 3.960346303394787e-05,
+      "count_only_rate_over_H": 2.97474576498998,
+      "finite_graph_lowest_positive_rate_over_H": 0.7390988400632894,
+      "initial_conditions": {
+        "population": {
+          "initial_shape_variance": 0.027148492580230173,
+          "continuum_initial_shape_variance": 0.027148492580230138,
+          "initial_variance_retained_fraction": 1.0000000000000013,
+          "tau_Ht": [
+            0.25,
+            0.5,
+            1.0,
+            2.0,
+            5.0
+          ],
+          "correlation": [
+            0.4769139187619097,
+            0.22948555612579458,
+            0.05591282590175698,
+            0.005668164428804194,
+            0.0003258816925252742
+          ],
+          "correlation_divided_by_continuum_variance": [
+            0.47691391876191036,
+            0.2294855561257949,
+            0.055912825901757064,
+            0.005668164428804203,
+            0.0003258816925252746
+          ],
+          "L2_squared_norm_ratio": [
+            0.22948555612579488,
+            0.05591282590175651,
+            0.005668164428804288,
+            0.0006996094782301829,
+            7.825270960119233e-06
+          ],
+          "max_absolute_number_error": 4.440892098500626e-16,
+          "minimum_relative_occupation": 0.9986035753340337
+        },
+        "temperature": {
+          "initial_shape_variance": 2.019386632328518,
+          "continuum_initial_shape_variance": 2.0207262501629657,
+          "initial_variance_retained_fraction": 0.9993370612004768,
+          "tau_Ht": [
+            0.25,
+            0.5,
+            1.0,
+            2.0,
+            5.0
+          ],
+          "correlation": [
+            0.7841470452944627,
+            0.6273969432481824,
+            0.4149312491642753,
+            0.190545487696228,
+            0.019895968647746898
+          ],
+          "correlation_divided_by_continuum_variance": [
+            0.7836272037936055,
+            0.6269810174718009,
+            0.4146561751400697,
+            0.1904191676993601,
+            0.01988277883817621
+          ],
+          "L2_squared_norm_ratio": [
+            0.6273969432481821,
+            0.41493124916427504,
+            0.19054548769622776,
+            0.04203601042828114,
+            0.0004856228547288587
+          ],
+          "max_absolute_number_error": 2.220446049250313e-16,
+          "minimum_relative_occupation": 0.9198713985413561
+        }
+      }
+    },
+    "16": {
+      "number_null_relative_residual": 3.2828650666832667e-16,
+      "symmetry_relative_residual": 2.1945740053857357e-23,
+      "metric_total": 1.0000000000000002,
+      "tail_equilibrium_mass": 9.450411269364027e-07,
+      "count_only_rate_over_H": 2.97474576498998,
+      "finite_graph_lowest_positive_rate_over_H": 0.7390985349248016,
+      "initial_conditions": {
+        "population": {
+          "initial_shape_variance": 0.027148492580230173,
+          "continuum_initial_shape_variance": 0.027148492580230135,
+          "initial_variance_retained_fraction": 1.0000000000000013,
+          "tau_Ht": [
+            0.25,
+            0.5,
+            1.0,
+            2.0,
+            5.0
+          ],
+          "correlation": [
+            0.4769140118528872,
+            0.22948571871800386,
+            0.05591297031198913,
+            0.005668217108220366,
+            0.0003258852593276835
+          ],
+          "correlation_divided_by_continuum_variance": [
+            0.47691401185288784,
+            0.2294857187180042,
+            0.055912970311989205,
+            0.005668217108220374,
+            0.00032588525932768393
+          ],
+          "L2_squared_norm_ratio": [
+            0.22948571871800258,
+            0.05591297031198979,
+            0.005668217108219672,
+            0.0006996176383481771,
+            7.825354254636605e-06
+          ],
+          "max_absolute_number_error": 4.440892098500626e-16,
+          "minimum_relative_occupation": 0.9986035753340323
+        },
+        "temperature": {
+          "initial_shape_variance": 2.0194309046730576,
+          "continuum_initial_shape_variance": 2.020726250162852,
+          "initial_variance_retained_fraction": 0.9993589703257976,
+          "tau_Ht": [
+            0.25,
+            0.5,
+            1.0,
+            2.0,
+            5.0
+          ],
+          "correlation": [
+            0.7841463654420695,
+            0.6273953586035788,
+            0.4149288829714536,
+            0.19054370679257304,
+            0.0198957269499751
+          ],
+          "correlation_divided_by_continuum_variance": [
+            0.7836437043529032,
+            0.626993179561257,
+            0.4146629012447852,
+            0.1904215626222865,
+            0.019882973198610338
+          ],
+          "L2_squared_norm_ratio": [
+            0.6273953586035782,
+            0.41492888297145325,
+            0.19054370679257318,
+            0.04203551476774086,
+            0.00048561717877235373
+          ],
+          "max_absolute_number_error": 4.440892098500626e-16,
+          "minimum_relative_occupation": 0.9198713985413566
+        }
+      }
+    },
+    "20": {
+      "number_null_relative_residual": 3.917331840400308e-16,
+      "symmetry_relative_residual": 4.629696224029061e-25,
+      "metric_total": 1.0000000000000002,
+      "tail_equilibrium_mass": 2.1681894940203757e-08,
+      "count_only_rate_over_H": 2.9747457649899802,
+      "finite_graph_lowest_positive_rate_over_H": 0.7390985289552345,
+      "initial_conditions": {
+        "population": {
+          "initial_shape_variance": 0.027148492580230173,
+          "continuum_initial_shape_variance": 0.027148492580230135,
+          "initial_variance_retained_fraction": 1.0000000000000013,
+          "tau_Ht": [
+            0.25,
+            0.5,
+            1.0,
+            2.0,
+            5.0
+          ],
+          "correlation": [
+            0.47691401427336694,
+            0.22948572238430634,
+            0.05591297277936569,
+            0.005668217822965168,
+            0.0003258853175097141
+          ],
+          "correlation_divided_by_continuum_variance": [
+            0.4769140142733676,
+            0.22948572238430665,
+            0.05591297277936577,
+            0.005668217822965176,
+            0.0003258853175097146
+          ],
+          "L2_squared_norm_ratio": [
+            0.22948572238430603,
+            0.055912972779366216,
+            0.005668217822965212,
+            0.0006996177680855149,
+            7.825355654407316e-06
+          ],
+          "max_absolute_number_error": 4.440892098500626e-16,
+          "minimum_relative_occupation": 0.9986035753340302
+        },
+        "temperature": {
+          "initial_shape_variance": 2.019431940288002,
+          "continuum_initial_shape_variance": 2.0207262501629657,
+          "initial_variance_retained_fraction": 0.999359482822149,
+          "tau_Ht": [
+            0.25,
+            0.5,
+            1.0,
+            2.0,
+            5.0
+          ],
+          "correlation": [
+            0.7841463166164026,
+            0.6273952863581985,
+            0.4149288071371561,
+            0.19054365932097272,
+            0.019895720660495834
+          ],
+          "correlation_divided_by_continuum_variance": [
+            0.7836440574306611,
+            0.6269934288999833,
+            0.4146630381085995,
+            0.19042161283404704,
+            0.019882977109647062
+          ],
+          "L2_squared_norm_ratio": [
+            0.6273952863581989,
+            0.41492880713715596,
+            0.1905436593209727,
+            0.042035501887516626,
+            0.00048561702797929893
+          ],
+          "max_absolute_number_error": 4.440892098500626e-16,
+          "minimum_relative_occupation": 0.9198713985413565
+        }
+      }
+    },
+    "24": {
+      "number_null_relative_residual": 3.9982362472827395e-16,
+      "symmetry_relative_residual": 0.0,
+      "metric_total": 1.0000000000000002,
+      "tail_equilibrium_mass": 4.839036615463792e-10,
+      "count_only_rate_over_H": 2.97474576498998,
+      "finite_graph_lowest_positive_rate_over_H": 0.7390985288386052,
+      "initial_conditions": {
+        "population": {
+          "initial_shape_variance": 0.02714849258023018,
+          "continuum_initial_shape_variance": 0.027148492580230138,
+          "initial_variance_retained_fraction": 1.0000000000000016,
+          "tau_Ht": [
+            0.25,
+            0.5,
+            1.0,
+            2.0,
+            5.0
+          ],
+          "correlation": [
+            0.47691401434957875,
+            0.2294857224975203,
+            0.0559129728574251,
+            0.00566821784658536,
+            0.0003258853189837394
+          ],
+          "correlation_divided_by_continuum_variance": [
+            0.4769140143495795,
+            0.22948572249752067,
+            0.05591297285742519,
+            0.005668217846585368,
+            0.00032588531898373996
+          ],
+          "L2_squared_norm_ratio": [
+            0.22948572249751986,
+            0.05591297285742482,
+            0.005668217846585495,
+            0.0006996177715317932,
+            7.82535568761027e-06
+          ],
+          "max_absolute_number_error": 4.440892098500626e-16,
+          "minimum_relative_occupation": 0.9986035753339711
+        },
+        "temperature": {
+          "initial_shape_variance": 2.019431963719702,
+          "continuum_initial_shape_variance": 2.0207262501629657,
+          "initial_variance_retained_fraction": 0.9993594944178315,
+          "tau_Ht": [
+            0.25,
+            0.5,
+            1.0,
+            2.0,
+            5.0
+          ],
+          "correlation": [
+            0.7841463154339521,
+            0.6273952848024467,
+            0.41492880557508954,
+            0.19054365826488853,
+            0.019895720513659915
+          ],
+          "correlation_divided_by_continuum_variance": [
+            0.7836440653416799,
+            0.6269934346203045,
+            0.4146630413589162,
+            0.19042161398812307,
+            0.019882977193609652
+          ],
+          "L2_squared_norm_ratio": [
+            0.627395284802447,
+            0.41492880557509,
+            0.19054365826488867,
+            0.04203550158770915,
+            0.00048561702441501453
+          ],
+          "max_absolute_number_error": 4.440892098500626e-16,
+          "minimum_relative_occupation": 0.9198713985413562
+        }
+      }
+    }
+  },
+  "refinement_changes": {
+    "quadrature_48_to_64": {
+      "population": {
+        "tau_Ht": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          5.0
+        ],
+        "absolute_change": [
+          -0.00025881028072560763,
+          -0.0004443825856243755,
+          -0.00033961384590557725,
+          -6.30303877382091e-05,
+          -2.375035011788543e-06
+        ],
+        "relative_change": [
+          -0.0005425965474959884,
+          -0.0019354066595622112,
+          -0.006064220464806945,
+          -0.011094567029384442,
+          -0.007285078399786004
+        ]
+      },
+      "temperature": {
+        "tau_Ht": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          5.0
+        ],
+        "absolute_change": [
+          -0.00011626384524665578,
+          -0.00021369803604476267,
+          -0.000288309342102111,
+          -0.0002650083737826825,
+          -6.048995391337575e-05
+        ],
+        "relative_change": [
+          -0.00014826934157046543,
+          -0.0003406098313763925,
+          -0.0006948047753347278,
+          -0.0013905302984079254,
+          -0.003038095111612621
+        ]
+      }
+    },
+    "quadrature_64_to_80": {
+      "population": {
+        "tau_Ht": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          5.0
+        ],
+        "absolute_change": [
+          -7.074214155483594e-05,
+          -0.00012111012534360421,
+          -8.991544661576811e-05,
+          -1.2976900637336891e-05,
+          -1.2839233848229575e-07
+        ],
+        "relative_change": [
+          -0.00014833311623617726,
+          -0.0005277458049249091,
+          -0.001608132176023709,
+          -0.002289414888240089,
+          -0.0003939801964261137
+        ]
+      },
+      "temperature": {
+        "tau_Ht": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          5.0
+        ],
+        "absolute_change": [
+          6.879725118036362e-06,
+          -2.9615835289709125e-06,
+          -2.1261784266701778e-05,
+          -3.709111316216318e-05,
+          -1.4760276762077612e-05
+        ],
+        "relative_change": [
+          8.773521655179586e-06,
+          -4.720442203402075e-06,
+          -5.1241996253523166e-05,
+          -0.00019465934502124898,
+          -0.0007418817517545437
+        ]
+      }
+    },
+    "grid_32_to_64": {
+      "population": {
+        "tau_Ht": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          5.0
+        ],
+        "absolute_change": [
+          2.7161214414539447e-05,
+          5.5434236612555976e-05,
+          6.902993619432862e-05,
+          5.1501350549127724e-05,
+          1.3022695567358443e-05
+        ],
+        "relative_change": [
+          5.6960040157568457e-05,
+          0.00024168388604055372,
+          0.001236791135889163,
+          0.009130902988648406,
+          0.04041233019176087
+        ]
+      },
+      "temperature": {
+        "tau_Ht": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          5.0
+        ],
+        "absolute_change": [
+          0.0017930024157502,
+          0.002836956496101717,
+          0.0036733738283755146,
+          0.003307336920414794,
+          0.0008692579535718309
+        ],
+        "relative_change": [
+          0.0022878302501634223,
+          0.0045267924999594,
+          0.008872207847278818,
+          0.017431620845527393,
+          0.04417714227155114
+        ]
+      }
+    },
+    "grid_64_to_128": {
+      "population": {
+        "tau_Ht": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          5.0
+        ],
+        "absolute_change": [
+          6.71848597279534e-05,
+          0.00011901363591865222,
+          9.92324938399805e-05,
+          2.788223519033673e-05,
+          3.6396598889887723e-06
+        ],
+        "relative_change": [
+          0.00014087415772694428,
+          0.0005186102062625443,
+          0.0017747669867344286,
+          0.0049190485575967705,
+          0.011168531821591318
+        ]
+      },
+      "temperature": {
+        "tau_Ht": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          5.0
+        ],
+        "absolute_change": [
+          0.00043331871488172524,
+          0.0006919044189301893,
+          0.0008973485882538546,
+          0.0008116704132141439,
+          0.00021908176933812043
+        ],
+        "relative_change": [
+          0.0005525992773523065,
+          0.0011028204296413527,
+          0.0021626563613205752,
+          0.004259759752116783,
+          0.011011498594093573
+        ]
+      }
+    },
+    "tail_12_to_16": {
+      "population": {
+        "tau_Ht": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          5.0
+        ],
+        "absolute_change": [
+          9.309097748211315e-08,
+          1.625922092796106e-07,
+          1.4441023214739612e-07,
+          5.267941617214528e-08,
+          3.566802409308255e-09
+        ],
+        "relative_change": [
+          1.9519446937706823e-07,
+          7.085068743620025e-07,
+          2.582768029342755e-06,
+          9.293824701200425e-06,
+          1.0944963931988622e-05
+        ]
+      },
+      "temperature": {
+        "tau_Ht": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          5.0
+        ],
+        "absolute_change": [
+          -6.798523931594858e-07,
+          -1.5846446036471562e-06,
+          -2.3661928217344474e-06,
+          -1.7809036549631951e-06,
+          -2.416977717967228e-07
+        ],
+        "relative_change": [
+          -8.669968045776924e-07,
+          -2.5257512379023155e-06,
+          -5.702646691619291e-06,
+          -9.34643124635912e-06,
+          -1.2148225214611989e-05
+        ]
+      }
+    },
+    "tail_16_to_24": {
+      "population": {
+        "tau_Ht": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          5.0
+        ],
+        "absolute_change": [
+          2.496691575704091e-09,
+          3.779516449808895e-09,
+          2.5454359731114096e-09,
+          7.383649932787839e-10,
+          5.965605591982948e-11
+        ],
+        "relative_change": [
+          5.235097943408331e-09,
+          1.6469505852808487e-08,
+          4.552496215148721e-08,
+          1.3026404652453306e-07,
+          1.830584332729825e-07
+        ]
+      },
+      "temperature": {
+        "tau_Ht": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          5.0
+        ],
+        "absolute_change": [
+          -5.0008117424837906e-08,
+          -7.380113209443095e-08,
+          -7.739636403991668e-08,
+          -4.852768450969158e-08,
+          -6.4363151856816625e-09
+        ],
+        "relative_change": [
+          -6.377396212996686e-08,
+          -1.1763099577273577e-07,
+          -1.8652926236983149e-07,
+          -2.5468013447201553e-07,
+          -3.2350249297393605e-07
+        ]
+      }
+    }
+  },
+  "all_invariants_passed": true,
+  "refinement_changes_are_certified_error_bounds": false,
+  "full_gap_certified": false
+}

@@ -1,0 +1,166 @@
+NESTED SCALAR/DRIFT AND QUADRUPOLE DIAGNOSTICS
+Research continuation, 2026-10-21 UTC
+
+1. Question and scope
+---------------------
+The October 20 free-bath continuation reports a six-moment approximation
+for scattering of two hypothetical scalar species against an ideal bath.
+Can additional radial functions and a new angular sector reveal slower
+retained relaxation? This calculation answers that limited question.
+
+It retains the fixed reference model:
+  scalar masses m1=10, m2=11.5 GeV; Higgs mass mh=125 GeV;
+  K11=K22=+0.001, K12=-0.001 (only Kij squared enters here);
+  ideal Maxwell-Boltzmann leptons e, mu, tau and free quarks u,d,s,c,b;
+  quark masses 0.002,0.005,0.100,1.300,4.200 GeV, respectively;
+  two bath spins and both charges, with quark color multiplicity three;
+  fixed g*=60 and non-reduced Planck mass 1.2209e19 GeV.
+
+H(T)=sqrt(8*pi^3*60/90)*T^2/(1.2209e19 GeV).
+
+All singlet dispersions and matrix elements use the inherited vacuum
+tree model. The bath is held fixed. Scalar self-collisions, number-changing
+channels, decay redistribution, interacting QCD, and time-dependent
+background evolution are not included. The declared interval is
+1/3 <= T <= 0.5 GeV. The retained tree scattering amplitude is
+
+  |M_ij|^2 = Kij^2 * mf^2 * (4*mf^2 - t)/(mh^2 - t)^2.
+
+2. Trial spaces and independent integration
+-------------------------------------------
+For species i define x_i=(E_i-m_i)/T. The trial functions are:
+
+  scalar:     1, x_i, x_i^2
+  drift:      p_z/T, x_i*p_z/T
+  quadrupole: (p_z^2-|p|^2/3)/T^2
+
+These give six scalar functions, four drift representatives, and two
+quadrupole representatives. Isotropy supplies equal rates for the other
+angular components; counting all those components would give dimension28.
+The old centered-energy functions span exactly the same subspace as
+1,x_i. Basis centering therefore does not explain the changed eigenvalues.
+
+The equilibrium metric retains the actual relative species weights.
+The only exact collision invariant projected out is common total scalar
+number. Energy and drift relax against the fixed bath; they are not
+projected out as conserved quantities.
+
+The new implementation evaluates explicit Lorentz boosts and angular
+averages. The inherited implementation uses analytic Bessel reductions.
+Both share the same physical amplitude and assumptions, but their
+integrations of the original six-moment matrix are independent.
+
+The boost integration uses v=(q/T)(cosh(eta)-1) and generalized
+Gauss-Laguerre quadrature with index 1/2. Invariant-energy integration
+uses the appropriate elastic or conversion threshold power. Scattering
+angles use Gauss-Legendre quadrature; boost directions combine polar
+Gauss-Legendre and azimuthal trapezoidal rules. A final common spatial
+rotation is averaged by exact scalar invariants.
+
+One useful angular identity is
+  <Q(p)Q(p')> = (2/15)*[(p.p')^2 - |p|^2*|p'|^2/3],
+where Q(p)=p_z^2-|p|^2/3. Elastic channels have their reversible-form
+factor 1/2; each paired conversion contribution is included once.
+
+The generalized eigenproblem is D*c=lambda*G*c. Cholesky whitening of
+the positive metric and projection of its transformed number-null
+vector produce the reported positive trial-space rates.
+
+3. Numerical results
+--------------------
+Every entry below is a rate divided by the same assumed H(T).
+
+T GeV    Count only   Old scalar   New scalar   Old drift   New drift   Quadrupole
+1/3      1.387295937  0.294993073  0.283553663  0.187900154 0.185018712 0.336684186
+0.4      2.974745765  0.788181031  0.747848884  0.521608084 0.510586637 0.920803280
+0.5      7.388707812  2.554191775  2.387180107  1.800140644 1.748646266 3.103007232
+
+At T=0.4 the scalar decrease is 5.117117%, and the drift decrease is
+2.112975%. Quadrupole is a newly evaluated sector.
+
+The reported T=0.4 run uses resolution (q,boost,scattering,direction,azimuth)
+=(80,20,20,6,12). Comparison runs use (24,8,8,4,8) and (48,12,12,4,8).
+The endpoints use (48,12,12,4,8).
+
+4. Verification and its limits
+------------------------------
+At T=0.4, the entire six-moment collision matrix, transformed back to
+the old centered-energy basis, agrees with the independently rerun
+inherited matrix to relative Frobenius error 9.632e-14.
+The independently integrated metric agrees to 1.442e-15.
+
+The maximum relative change among reported eigenvalues between the
+q48 and q80 setups is 2.11e-12. The exact common-number residual is zero
+at reported precision; the symmetry residual is about 4.60e-18.
+All nonconserved retained eigenvalues are positive. Scalar and drift
+Cauchy interlacing checks pass. Boost-normalization checks agree with
+the exact scaled-Bessel normalization to floating-point precision.
+
+Endpoint full baseline-matrix errors are 7.139e-13 and 6.090e-13.
+Endpoint nesting/interlacing checks pass. Multiple quadrature
+refinements were performed at the central temperature; endpoint
+results were checked against their independent original matrices.
+
+These are numerical consistency checks. They do not measure physical
+QCD uncertainty, omitted trial functions, or a rigorous rounding-error
+interval. Internal review by separate AI agents is not independent
+experimental reproduction or external scientific peer review.
+
+5. What the inequalities mean
+-----------------------------
+For a fixed reversible nonnegative collision operator, with the exact
+null direction removed, nested trial spaces obey for exact integrals
+
+  lambda_full <= lambda_(N+1) <= lambda_N.
+
+Thus enlarging the space can discover slower behavior. It cannot by
+itself certify a positive lower bound on the full spectral gap. The
+computed floating-point values are numerical estimates of those
+variational upper bounds.
+
+The new drift witness at T=0.4 gives an approximate upper witness
+lambda_full/H <= 0.510586637. The scalar sector independently has the
+upper witness 0.747848884. Neither comparison justifies a uniform
+faster-than-expansion relaxation statement for this model.
+
+Drift and quadrupole need not be populated in a homogeneous isotropic
+cosmological preparation. The scalar result is the relevant witness
+within that isotropic sector. An instantaneous comparison with H also
+does not determine a time-dependent abundance or prove that a particular
+initial state departs from its moving equilibrium distribution.
+
+At T=0.5 all displayed positive rates exceed H. Because they are upper
+bounds, that fact does not prove full equilibration. Higher radial
+functions, other angular sectors, and high-energy tails remain open.
+Quadrature convergence and interlacing do not close those omissions.
+
+6. Next calculations
+--------------------
+A useful next step is momentum-resolved evolution in the same declared
+free model, with momentum/tail sensitivity assessed on the observables
+of interest. A claim about the full global gap would additionally need
+control of the omitted space, for example a valid coercivity bound or
+a tail analysis. No such positive lower-bound certificate is supplied.
+
+Physical cosmological predictions require the interacting matched bath
+response, number-changing collision network, thermodynamics, initial
+conditions, and expansion history. These requirements are separate
+from the numerical success of the present free-bath extension.
+
+Sources
+-------
+Inherited code and Note52: pinned URLs and Git blob identities are in
+provenance.json. October20 collection physical pp7407-7409 supply the
+free-quark continuation benchmark.
+
+Binder et al., Early kinetic decoupling of dark matter: when the standard
+way of calculating the thermal relic density fails:
+https://arxiv.org/html/1706.07433v3
+
+Aldous and Fill, Reversible Markov Chains and Random Walks on Graphs,
+Chapter3 section6 (Dirichlet-form variational characterization):
+https://www.stat.berkeley.edu/~aldous/RWG/Book_Ralph/Ch3.S6.html
+
+The new values in this note are outputs of the enclosed computation.
+The external references motivate methodology; they do not validate this
+particular hypothetical model or supply the new numerical values.

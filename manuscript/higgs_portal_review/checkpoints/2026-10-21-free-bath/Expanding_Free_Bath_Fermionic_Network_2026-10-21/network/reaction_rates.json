@@ -1,0 +1,1165 @@
+{
+  "model": "same ideal MB free-fermion benchmark, crossed Higgs portal, constant timelike-width prescription",
+  "timelike_Higgs_width_GeV": 0.0041,
+  "timelike_width_is_new_declared_input": true,
+  "width_source": "https://pdg.lbl.gov/2025/reviews/rpp2025-rev-higgs-boson.pdf",
+  "scalar_masses_GeV": [
+    10.0,
+    11.5
+  ],
+  "vacuum_phi2_partial_widths_GeV": {
+    "e": 7.705062310082741e-27,
+    "mu": 3.0601906403774393e-22,
+    "tau": 0.0,
+    "u": 3.540842071934107e-25,
+    "d": 2.2127164221515914e-24,
+    "s": 8.2867436371418e-22,
+    "c": 0.0,
+    "b": 0.0
+  },
+  "vacuum_phi2_total_free_fermion_width_GeV": 1.137267933443579e-21,
+  "vacuum_phi2_e_plus_mu_width_GeV": 3.06026769100054e-22,
+  "inherited_e_plus_mu_reference_GeV": 3.060267688e-22,
+  "h_to_scalar_partial_widths_GeV": {
+    "11": 4.762175842046952e-06,
+    "12": 9.504176400834709e-06,
+    "22": 4.741958190284181e-06
+  },
+  "h_to_scalar_total_width_GeV": 1.9008310433165842e-05,
+  "rows": [
+    {
+      "T_GeV": 0.3333333333333333,
+      "H_GeV": 1.1703117619631837e-19,
+      "n_equilibrium_GeV3": [
+        3.8451270363725735e-14,
+        5.226370011415111e-16
+      ],
+      "sigma_v_matrix_GeV_m2": [
+        [
+          1.5812727781193492e-14,
+          1.6616780660673424e-14
+        ],
+        [
+          1.6616780660673424e-14,
+          1.7195221683533933e-14
+        ]
+      ],
+      "channels": {
+        "11": {
+          "sigma_v_GeV_m2": 1.5812727781193492e-14,
+          "event_density_GeV4": 1.1689560534889104e-41,
+          "per_flavor": {
+            "e": {
+              "value_GeV_m2": 8.568531554710763e-23,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.562717196607489e-46,
+              "quadrature_estimate_GeV_m2": 1.4422690464781413e-30,
+              "remote_split_q_GeV": 46.666666666666664
+            },
+            "mu": {
+              "value_GeV_m2": 3.662731604855736e-18,
+              "omitted_remote_tail_upper_bound_GeV_m2": 6.681104028584776e-42,
+              "quadrature_estimate_GeV_m2": 3.422260577500863e-29,
+              "remote_split_q_GeV": 46.666666666666664
+            },
+            "tau": {
+              "value_GeV_m2": 9.897338292314423e-16,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.8894995698492782e-39,
+              "quadrature_estimate_GeV_m2": 9.172492379244763e-27,
+              "remote_split_q_GeV": 46.666666666666664
+            },
+            "u": {
+              "value_GeV_m2": 3.9377451730344886e-21,
+              "omitted_remote_tail_upper_bound_GeV_m2": 7.181606774266712e-45,
+              "quadrature_estimate_GeV_m2": 2.779749075844118e-30,
+              "remote_split_q_GeV": 46.666666666666664
+            },
+            "d": {
+              "value_GeV_m2": 2.4610899960628766e-20,
+              "omitted_remote_tail_upper_bound_GeV_m2": 4.488504233916695e-44,
+              "quadrature_estimate_GeV_m2": 1.7373483442454084e-29,
+              "remote_split_q_GeV": 46.666666666666664
+            },
+            "s": {
+              "value_GeV_m2": 9.84295955859157e-18,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.7954016935666784e-41,
+              "quadrature_estimate_GeV_m2": 9.197662545219164e-29,
+              "remote_split_q_GeV": 46.666666666666664
+            },
+            "c": {
+              "value_GeV_m2": 1.6237604404980922e-15,
+              "omitted_remote_tail_upper_bound_GeV_m2": 3.034228862127686e-39,
+              "quadrature_estimate_GeV_m2": 1.5104444465654794e-26,
+              "remote_split_q_GeV": 46.666666666666664
+            },
+            "b": {
+              "value_GeV_m2": 1.318569918597006e-14,
+              "omitted_remote_tail_upper_bound_GeV_m2": 3.1670885874516206e-38,
+              "quadrature_estimate_GeV_m2": 1.1672084379041482e-25,
+              "remote_split_q_GeV": 46.666666666666664
+            }
+          }
+        },
+        "12": {
+          "sigma_v_GeV_m2": 1.6616780660673424e-14,
+          "event_density_GeV4": 3.3393176521468467e-43,
+          "per_flavor": {
+            "e": {
+              "value_GeV_m2": 8.707340800413622e-23,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.4253690104725763e-46,
+              "quadrature_estimate_GeV_m2": 1.4896845961461195e-30,
+              "remote_split_q_GeV": 48.166666666666664
+            },
+            "mu": {
+              "value_GeV_m2": 3.722145439048673e-18,
+              "omitted_remote_tail_upper_bound_GeV_m2": 6.093897641084287e-42,
+              "quadrature_estimate_GeV_m2": 3.5302041883189917e-29,
+              "remote_split_q_GeV": 48.166666666666664
+            },
+            "tau": {
+              "value_GeV_m2": 1.011917822623811e-15,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.7234302777311084e-39,
+              "quadrature_estimate_GeV_m2": 9.531707023138842e-27,
+              "remote_split_q_GeV": 48.166666666666664
+            },
+            "u": {
+              "value_GeV_m2": 4.001536229221599e-21,
+              "omitted_remote_tail_upper_bound_GeV_m2": 6.550410889226814e-45,
+              "quadrature_estimate_GeV_m2": 2.861552291638324e-30,
+              "remote_split_q_GeV": 48.166666666666664
+            },
+            "d": {
+              "value_GeV_m2": 2.5009594928132325e-20,
+              "omitted_remote_tail_upper_bound_GeV_m2": 4.094006805766758e-44,
+              "quadrature_estimate_GeV_m2": 1.7884737579309353e-29,
+              "remote_split_q_GeV": 48.166666666666664
+            },
+            "s": {
+              "value_GeV_m2": 1.000260214128025e-17,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.6376027223067036e-41,
+              "quadrature_estimate_GeV_m2": 9.48313275504941e-29,
+              "remote_split_q_GeV": 48.166666666666664
+            },
+            "c": {
+              "value_GeV_m2": 1.6553873032006909e-15,
+              "omitted_remote_tail_upper_bound_GeV_m2": 2.7675486006983283e-39,
+              "quadrature_estimate_GeV_m2": 1.5641889991587949e-26,
+              "remote_split_q_GeV": 48.166666666666664
+            },
+            "b": {
+              "value_GeV_m2": 1.3935721689064028e-14,
+              "omitted_remote_tail_upper_bound_GeV_m2": 2.8887312021490244e-38,
+              "quadrature_estimate_GeV_m2": 1.2673632851752824e-25,
+              "remote_split_q_GeV": 48.166666666666664
+            }
+          }
+        },
+        "22": {
+          "sigma_v_GeV_m2": 1.7195221683533933e-14,
+          "event_density_GeV4": 2.3484325434534617e-45,
+          "per_flavor": {
+            "e": {
+              "value_GeV_m2": 8.77202410076195e-23,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.2957623442816319e-46,
+              "quadrature_estimate_GeV_m2": 1.5231274112359893e-30,
+              "remote_split_q_GeV": 49.666666666666664
+            },
+            "mu": {
+              "value_GeV_m2": 3.749859773393051e-18,
+              "omitted_remote_tail_upper_bound_GeV_m2": 5.5397886689045594e-42,
+              "quadrature_estimate_GeV_m2": 3.602672233568798e-29,
+              "remote_split_q_GeV": 49.666666666666664
+            },
+            "tau": {
+              "value_GeV_m2": 1.024493194889197e-15,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.5667213475746957e-39,
+              "quadrature_estimate_GeV_m2": 9.79037582305288e-27,
+              "remote_split_q_GeV": 49.666666666666664
+            },
+            "u": {
+              "value_GeV_m2": 4.031262040628192e-21,
+              "omitted_remote_tail_upper_bound_GeV_m2": 5.954791852124223e-45,
+              "quadrature_estimate_GeV_m2": 2.916951574551529e-30,
+              "remote_split_q_GeV": 49.666666666666664
+            },
+            "d": {
+              "value_GeV_m2": 2.5195382010303165e-20,
+              "omitted_remote_tail_upper_bound_GeV_m2": 3.7217449075776397e-44,
+              "quadrature_estimate_GeV_m2": 1.823095711852868e-29,
+              "remote_split_q_GeV": 49.666666666666664
+            },
+            "s": {
+              "value_GeV_m2": 1.0077061535499126e-17,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.4886979630310561e-41,
+              "quadrature_estimate_GeV_m2": 9.679748096290232e-29,
+              "remote_split_q_GeV": 49.666666666666664
+            },
+            "c": {
+              "value_GeV_m2": 1.6720577315532488e-15,
+              "omitted_remote_tail_upper_bound_GeV_m2": 2.5158995575224843e-39,
+              "quadrature_estimate_GeV_m2": 1.6017425304866866e-26,
+              "remote_split_q_GeV": 49.666666666666664
+            },
+            "b": {
+              "value_GeV_m2": 1.4484814521418302e-14,
+              "omitted_remote_tail_upper_bound_GeV_m2": 2.6260632067867825e-38,
+              "quadrature_estimate_GeV_m2": 1.3459531133953246e-25,
+              "remote_split_q_GeV": 49.666666666666664
+            }
+          }
+        }
+      },
+      "sigma_v_effective_GeV_m2": 1.5834251780780434e-14,
+      "equilibrium_annihilation_loss_per_particle_over_H": 5.27314756762681e-09,
+      "common_fugacity_linearized_chemical_rate_over_H": 1.054629513525362e-08,
+      "maximum_remote_tail_upper_bound_fraction": 2.401911755139605e-24,
+      "decay_down_thermal_over_H": 0.009310014823482132,
+      "decay_up_thermal_over_H": 0.00012654349731232778,
+      "decay_species_contrast_rate_over_H": 0.009436558320794458
+    },
+    {
+      "T_GeV": 0.4,
+      "H_GeV": 1.685248937226985e-19,
+      "n_equilibrium_GeV3": [
+        7.592571405710156e-12,
+        2.1814144157449504e-13
+      ],
+      "sigma_v_matrix_GeV_m2": [
+        [
+          1.5719854745619434e-14,
+          1.6519103354840697e-14
+        ],
+        [
+          1.6519103354840697e-14,
+          1.709811071701052e-14
+        ]
+      ],
+      "channels": {
+        "11": {
+          "sigma_v_GeV_m2": 1.5719854745619434e-14,
+          "event_density_GeV4": 4.531023379795009e-37,
+          "per_flavor": {
+            "e": {
+              "value_GeV_m2": 8.495925616577987e-23,
+              "omitted_remote_tail_upper_bound_GeV_m2": 2.0387655136722166e-46,
+              "quadrature_estimate_GeV_m2": 1.3574786730265021e-30,
+              "remote_split_q_GeV": 52.0
+            },
+            "mu": {
+              "value_GeV_m2": 3.631701109987275e-18,
+              "omitted_remote_tail_upper_bound_GeV_m2": 8.716359246769347e-42,
+              "quadrature_estimate_GeV_m2": 3.238739344389327e-29,
+              "remote_split_q_GeV": 52.0
+            },
+            "tau": {
+              "value_GeV_m2": 9.818098862119665e-16,
+              "omitted_remote_tail_upper_bound_GeV_m2": 2.4650951365161e-39,
+              "quadrature_estimate_GeV_m2": 8.66712985500295e-27,
+              "remote_split_q_GeV": 52.0
+            },
+            "u": {
+              "value_GeV_m2": 3.904378468076328e-21,
+              "omitted_remote_tail_upper_bound_GeV_m2": 9.369329432040101e-45,
+              "quadrature_estimate_GeV_m2": 2.6439015988625176e-30,
+              "remote_split_q_GeV": 52.0
+            },
+            "d": {
+              "value_GeV_m2": 2.4402358191274807e-20,
+              "omitted_remote_tail_upper_bound_GeV_m2": 5.855830895025063e-44,
+              "quadrature_estimate_GeV_m2": 1.6524343714408596e-29,
+              "remote_split_q_GeV": 52.0
+            },
+            "s": {
+              "value_GeV_m2": 9.759568810483335e-18,
+              "omitted_remote_tail_upper_bound_GeV_m2": 2.3423323580100255e-41,
+              "quadrature_estimate_GeV_m2": 8.70419666185583e-29,
+              "remote_split_q_GeV": 52.0
+            },
+            "c": {
+              "value_GeV_m2": 1.610401815532425e-15,
+              "omitted_remote_tail_upper_bound_GeV_m2": 3.9585416850369423e-39,
+              "quadrature_estimate_GeV_m2": 1.4290255495864648e-26,
+              "remote_split_q_GeV": 52.0
+            },
+            "b": {
+              "value_GeV_m2": 1.3114223382258658e-14,
+              "omitted_remote_tail_upper_bound_GeV_m2": 4.131874279529685e-38,
+              "quadrature_estimate_GeV_m2": 1.0948759592870763e-25,
+              "remote_split_q_GeV": 52.0
+            }
+          }
+        },
+        "12": {
+          "sigma_v_GeV_m2": 1.6519103354840697e-14,
+          "event_density_GeV4": 2.735983879991127e-38,
+          "per_flavor": {
+            "e": {
+              "value_GeV_m2": 8.638247119390448e-23,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.8417261436166707e-46,
+              "quadrature_estimate_GeV_m2": 1.4076143819734155e-30,
+              "remote_split_q_GeV": 53.5
+            },
+            "mu": {
+              "value_GeV_m2": 3.6926146366414714e-18,
+              "omitted_remote_tail_upper_bound_GeV_m2": 7.873954407348765e-42,
+              "quadrature_estimate_GeV_m2": 3.35216119691883e-29,
+              "remote_split_q_GeV": 53.5
+            },
+            "tau": {
+              "value_GeV_m2": 1.0042688007058032e-15,
+              "omitted_remote_tail_upper_bound_GeV_m2": 2.226852538449369e-39,
+              "quadrature_estimate_GeV_m2": 9.044165508807099e-27,
+              "remote_split_q_GeV": 53.5
+            },
+            "u": {
+              "value_GeV_m2": 3.969783612773902e-21,
+              "omitted_remote_tail_upper_bound_GeV_m2": 8.463817367630677e-45,
+              "quadrature_estimate_GeV_m2": 2.7306434052802734e-30,
+              "remote_split_q_GeV": 53.5
+            },
+            "d": {
+              "value_GeV_m2": 2.481114118786501e-20,
+              "omitted_remote_tail_upper_bound_GeV_m2": 5.289885854769173e-44,
+              "quadrature_estimate_GeV_m2": 1.706654597466644e-29,
+              "remote_split_q_GeV": 53.5
+            },
+            "s": {
+              "value_GeV_m2": 9.923242025359726e-18,
+              "omitted_remote_tail_upper_bound_GeV_m2": 2.1159543419076698e-41,
+              "quadrature_estimate_GeV_m2": 9.00847299874373e-29,
+              "remote_split_q_GeV": 53.5
+            },
+            "c": {
+              "value_GeV_m2": 1.6425807856999537e-15,
+              "omitted_remote_tail_upper_bound_GeV_m2": 3.575962837823961e-39,
+              "quadrature_estimate_GeV_m2": 1.4849446875152792e-26,
+              "remote_split_q_GeV": 53.5
+            },
+            "b": {
+              "value_GeV_m2": 1.3858609044465666e-14,
+              "omitted_remote_tail_upper_bound_GeV_m2": 3.7325434591251293e-38,
+              "quadrature_estimate_GeV_m2": 1.1955686380604181e-25,
+              "remote_split_q_GeV": 53.5
+            }
+          }
+        },
+        "22": {
+          "sigma_v_GeV_m2": 1.709811071701052e-14,
+          "event_density_GeV4": 4.068126855343568e-40,
+          "per_flavor": {
+            "e": {
+              "value_GeV_m2": 8.707947007999799e-23,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.6592439910387248e-46,
+              "quadrature_estimate_GeV_m2": 1.4445519514638007e-30,
+              "remote_split_q_GeV": 55.0
+            },
+            "mu": {
+              "value_GeV_m2": 3.722472114666117e-18,
+              "omitted_remote_tail_upper_bound_GeV_m2": 7.0937862186451e-42,
+              "quadrature_estimate_GeV_m2": 3.4330032766727225e-29,
+              "remote_split_q_GeV": 55.0
+            },
+            "tau": {
+              "value_GeV_m2": 1.0173243575289833e-15,
+              "omitted_remote_tail_upper_bound_GeV_m2": 2.0062112416429307e-39,
+              "quadrature_estimate_GeV_m2": 9.322594390303041e-27,
+              "remote_split_q_GeV": 55.0
+            },
+            "u": {
+              "value_GeV_m2": 4.001814841647619e-21,
+              "omitted_remote_tail_upper_bound_GeV_m2": 7.625204299327885e-45,
+              "quadrature_estimate_GeV_m2": 2.7921484484256736e-30,
+              "remote_split_q_GeV": 55.0
+            },
+            "d": {
+              "value_GeV_m2": 2.5011337108927237e-20,
+              "omitted_remote_tail_upper_bound_GeV_m2": 4.765752687079928e-44,
+              "quadrature_estimate_GeV_m2": 1.7450903690794123e-29,
+              "remote_split_q_GeV": 55.0
+            },
+            "s": {
+              "value_GeV_m2": 1.0003461102477903e-17,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.9063010748319716e-41,
+              "quadrature_estimate_GeV_m2": 9.223518470549474e-29,
+              "remote_split_q_GeV": 55.0
+            },
+            "c": {
+              "value_GeV_m2": 1.6601158360826704e-15,
+              "omitted_remote_tail_upper_bound_GeV_m2": 3.221648816466031e-39,
+              "quadrature_estimate_GeV_m2": 1.5257993738204316e-26,
+              "remote_split_q_GeV": 55.0
+            },
+            "b": {
+              "value_GeV_m2": 1.4406915489950302e-14,
+              "omitted_remote_tail_upper_bound_GeV_m2": 3.3627150960035974e-38,
+              "quadrature_estimate_GeV_m2": 1.2752213028131596e-25,
+              "remote_split_q_GeV": 55.0
+            }
+          }
+        }
+      },
+      "sigma_v_effective_GeV_m2": 1.576432657617018e-14,
+      "equilibrium_annihilation_loss_per_particle_over_H": 7.306376250851711e-07,
+      "common_fugacity_linearized_chemical_rate_over_H": 1.4612752501703422e-06,
+      "maximum_remote_tail_upper_bound_fraction": 3.1506816370990117e-24,
+      "decay_down_thermal_over_H": 0.006411065429560245,
+      "decay_up_thermal_over_H": 0.0001841957065798413,
+      "decay_species_contrast_rate_over_H": 0.006595261136140086
+    },
+    {
+      "T_GeV": 0.5,
+      "H_GeV": 2.6332014644171643e-19,
+      "n_equilibrium_GeV3": [
+        1.603292126783117e-09,
+        9.729861679708134e-11
+      ],
+      "sigma_v_matrix_GeV_m2": [
+        [
+          1.5585857699153174e-14,
+          1.637782477131164e-14
+        ],
+        [
+          1.637782477131164e-14,
+          1.6957349632588335e-14
+        ]
+      ],
+      "channels": {
+        "11": {
+          "sigma_v_GeV_m2": 1.5585857699153174e-14,
+          "event_density_GeV4": 2.0032079306759308e-32,
+          "per_flavor": {
+            "e": {
+              "value_GeV_m2": 8.390817609053429e-23,
+              "omitted_remote_tail_upper_bound_GeV_m2": 2.9113344081808663e-46,
+              "quadrature_estimate_GeV_m2": 1.2391512714646619e-30,
+              "remote_split_q_GeV": 60.0
+            },
+            "mu": {
+              "value_GeV_m2": 3.5867798543630425e-18,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.2446863760942022e-41,
+              "quadrature_estimate_GeV_m2": 2.975920142905891e-29,
+              "remote_split_q_GeV": 60.0
+            },
+            "tau": {
+              "value_GeV_m2": 9.703428620209758e-16,
+              "omitted_remote_tail_upper_bound_GeV_m2": 3.52012835328569e-39,
+              "quadrature_estimate_GeV_m2": 7.949001834107683e-27,
+              "remote_split_q_GeV": 60.0
+            },
+            "u": {
+              "value_GeV_m2": 3.8560751479249265e-21,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.3379297900693033e-44,
+              "quadrature_estimate_GeV_m2": 2.4517226844939057e-30,
+              "remote_split_q_GeV": 60.0
+            },
+            "d": {
+              "value_GeV_m2": 2.4100462638750888e-20,
+              "omitted_remote_tail_upper_bound_GeV_m2": 8.362061187933145e-44,
+              "quadrature_estimate_GeV_m2": 1.532324717214781e-29,
+              "remote_split_q_GeV": 60.0
+            },
+            "s": {
+              "value_GeV_m2": 9.638848288386916e-18,
+              "omitted_remote_tail_upper_bound_GeV_m2": 3.344824475173259e-41,
+              "quadrature_estimate_GeV_m2": 7.999474108947422e-29,
+              "remote_split_q_GeV": 60.0
+            },
+            "c": {
+              "value_GeV_m2": 1.591066648179024e-15,
+              "omitted_remote_tail_upper_bound_GeV_m2": 5.6527533630428065e-39,
+              "quadrature_estimate_GeV_m2": 1.3113208284429803e-26,
+              "remote_split_q_GeV": 60.0
+            },
+            "b": {
+              "value_GeV_m2": 1.3011194520364462e-14,
+              "omitted_remote_tail_upper_bound_GeV_m2": 5.900270374205628e-38,
+              "quadrature_estimate_GeV_m2": 9.915105065308487e-26,
+              "remote_split_q_GeV": 60.0
+            }
+          }
+        },
+        "12": {
+          "sigma_v_GeV_m2": 1.637782477131164e-14,
+          "event_density_GeV4": 2.5549096489442136e-33,
+          "per_flavor": {
+            "e": {
+              "value_GeV_m2": 8.53804434542636e-23,
+              "omitted_remote_tail_upper_bound_GeV_m2": 2.601695650050561e-46,
+              "quadrature_estimate_GeV_m2": 1.2925715318628834e-30,
+              "remote_split_q_GeV": 61.5
+            },
+            "mu": {
+              "value_GeV_m2": 3.6497877778499984e-18,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.1123061374405683e-41,
+              "quadrature_estimate_GeV_m2": 3.098056465714604e-29,
+              "remote_split_q_GeV": 61.5
+            },
+            "tau": {
+              "value_GeV_m2": 9.93179395552963e-16,
+              "omitted_remote_tail_upper_bound_GeV_m2": 3.1457405231869414e-39,
+              "quadrature_estimate_GeV_m2": 8.349158890538891e-27,
+              "remote_split_q_GeV": 61.5
+            },
+            "u": {
+              "value_GeV_m2": 3.923734535629935e-21,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.1956325268286105e-44,
+              "quadrature_estimate_GeV_m2": 2.5447166898500598e-30,
+              "remote_split_q_GeV": 61.5
+            },
+            "d": {
+              "value_GeV_m2": 2.4523334619460738e-20,
+              "omitted_remote_tail_upper_bound_GeV_m2": 7.472703292678816e-44,
+              "quadrature_estimate_GeV_m2": 1.590438029075962e-29,
+              "remote_split_q_GeV": 61.5
+            },
+            "s": {
+              "value_GeV_m2": 9.808150508698053e-18,
+              "omitted_remote_tail_upper_bound_GeV_m2": 2.9890813170715264e-41,
+              "quadrature_estimate_GeV_m2": 8.326451384981537e-29,
+              "remote_split_q_GeV": 61.5
+            },
+            "c": {
+              "value_GeV_m2": 1.6240112162514678e-15,
+              "omitted_remote_tail_upper_bound_GeV_m2": 5.05154742585088e-39,
+              "quadrature_estimate_GeV_m2": 1.3711995309403434e-26,
+              "remote_split_q_GeV": 61.5
+            },
+            "b": {
+              "value_GeV_m2": 1.3747147688771063e-14,
+              "omitted_remote_tail_upper_bound_GeV_m2": 5.272739443314172e-38,
+              "quadrature_estimate_GeV_m2": 1.092771253901309e-25,
+              "remote_split_q_GeV": 61.5
+            }
+          }
+        },
+        "22": {
+          "sigma_v_GeV_m2": 1.6957349632588335e-14,
+          "event_density_GeV4": 8.026779110195484e-35,
+          "per_flavor": {
+            "e": {
+              "value_GeV_m2": 8.614853991782315e-23,
+              "omitted_remote_tail_upper_bound_GeV_m2": 2.3202519897517536e-46,
+              "quadrature_estimate_GeV_m2": 1.3339348371625598e-30,
+              "remote_split_q_GeV": 63.0
+            },
+            "mu": {
+              "value_GeV_m2": 3.682682586655309e-18,
+              "omitted_remote_tail_upper_bound_GeV_m2": 9.919801836004188e-42,
+              "quadrature_estimate_GeV_m2": 3.1912363018068284e-29,
+              "remote_split_q_GeV": 63.0
+            },
+            "tau": {
+              "value_GeV_m2": 1.006912414962733e-15,
+              "omitted_remote_tail_upper_bound_GeV_m2": 2.805443714381187e-39,
+              "quadrature_estimate_GeV_m2": 8.652552390313734e-27,
+              "remote_split_q_GeV": 63.0
+            },
+            "u": {
+              "value_GeV_m2": 3.959033116491308e-21,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.0662925732039749e-44,
+              "quadrature_estimate_GeV_m2": 2.6142756783315112e-30,
+              "remote_split_q_GeV": 63.0
+            },
+            "d": {
+              "value_GeV_m2": 2.47439514612168e-20,
+              "omitted_remote_tail_upper_bound_GeV_m2": 6.664328582524842e-44,
+              "quadrature_estimate_GeV_m2": 1.633914738915313e-29,
+              "remote_split_q_GeV": 63.0
+            },
+            "s": {
+              "value_GeV_m2": 9.896532400845642e-18,
+              "omitted_remote_tail_upper_bound_GeV_m2": 2.6657314330099373e-41,
+              "quadrature_estimate_GeV_m2": 8.576099194375951e-29,
+              "remote_split_q_GeV": 63.0
+            },
+            "c": {
+              "value_GeV_m2": 1.6427689968593087e-15,
+              "omitted_remote_tail_upper_bound_GeV_m2": 4.5050861217867937e-39,
+              "quadrature_estimate_GeV_m2": 1.417512697365697e-26,
+              "remote_split_q_GeV": 63.0
+            },
+            "b": {
+              "value_GeV_m2": 1.4294060216645674e-14,
+              "omitted_remote_tail_upper_bound_GeV_m2": 4.70235024782953e-38,
+              "quadrature_estimate_GeV_m2": 1.1755894541605097e-25,
+              "remote_split_q_GeV": 63.0
+            }
+          }
+        }
+      },
+      "sigma_v_effective_GeV_m2": 1.567578642368371e-14,
+      "equilibrium_annihilation_loss_per_particle_over_H": 0.00010123835054283319,
+      "common_fugacity_linearized_chemical_rate_over_H": 0.00020247670108566637,
+      "maximum_remote_tail_upper_bound_fraction": 4.534764555991245e-24,
+      "decay_down_thermal_over_H": 0.00405194393727925,
+      "decay_up_thermal_over_H": 0.00024589938031294417,
+      "decay_species_contrast_rate_over_H": 0.004297843317592194
+    },
+    {
+      "T_GeV": 0.6,
+      "H_GeV": 3.7918101087607158e-19,
+      "n_equilibrium_GeV3": [
+        6.013711978044189e-08,
+        6.00379535195928e-09
+      ],
+      "sigma_v_matrix_GeV_m2": [
+        [
+          1.5458000781776267e-14,
+          1.6242617176388268e-14
+        ],
+        [
+          1.6242617176388268e-14,
+          1.6822292368866754e-14
+        ]
+      ],
+      "channels": {
+        "11": {
+          "sigma_v_GeV_m2": 1.5458000781776267e-14,
+          "event_density_GeV4": 2.795172258697713e-29,
+          "per_flavor": {
+            "e": {
+              "value_GeV_m2": 8.290099333668044e-23,
+              "omitted_remote_tail_upper_bound_GeV_m2": 3.983628533310336e-46,
+              "quadrature_estimate_GeV_m2": 1.130635698580114e-30,
+              "remote_split_q_GeV": 68.0
+            },
+            "mu": {
+              "value_GeV_m2": 3.543734751301186e-18,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.7031256007205705e-41,
+              "quadrature_estimate_GeV_m2": 2.733587533593563e-29,
+              "remote_split_q_GeV": 68.0
+            },
+            "tau": {
+              "value_GeV_m2": 9.593597406453538e-16,
+              "omitted_remote_tail_upper_bound_GeV_m2": 4.81665167342481e-39,
+              "quadrature_estimate_GeV_m2": 7.285268116799827e-27,
+              "remote_split_q_GeV": 68.0
+            },
+            "u": {
+              "value_GeV_m2": 3.809789168261565e-21,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.8307121546426178e-44,
+              "quadrature_estimate_GeV_m2": 2.2724571040558347e-30,
+              "remote_split_q_GeV": 68.0
+            },
+            "d": {
+              "value_GeV_m2": 2.3811175456757116e-20,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.1441950966516362e-43,
+              "quadrature_estimate_GeV_m2": 1.4202879567378602e-29,
+              "remote_split_q_GeV": 68.0
+            },
+            "s": {
+              "value_GeV_m2": 9.52316968575128e-18,
+              "omitted_remote_tail_upper_bound_GeV_m2": 4.576780386606546e-41,
+              "quadrature_estimate_GeV_m2": 7.345990884251284e-29,
+              "remote_split_q_GeV": 68.0
+            },
+            "c": {
+              "value_GeV_m2": 1.5725432308358554e-15,
+              "omitted_remote_tail_upper_bound_GeV_m2": 7.734758853365061e-39,
+              "quadrature_estimate_GeV_m2": 1.2030793836608465e-26,
+              "remote_split_q_GeV": 68.0
+            },
+            "b": {
+              "value_GeV_m2": 1.2913003201992387e-14,
+              "omitted_remote_tail_upper_bound_GeV_m2": 8.073440601973945e-38,
+              "quadrature_estimate_GeV_m2": 8.958025888945344e-26,
+              "remote_split_q_GeV": 68.0
+            }
+          }
+        },
+        "12": {
+          "sigma_v_GeV_m2": 1.6242617176388268e-14,
+          "event_density_GeV4": 5.864412527988941e-30,
+          "per_flavor": {
+            "e": {
+              "value_GeV_m2": 8.441822918998622e-23,
+              "omitted_remote_tail_upper_bound_GeV_m2": 3.532301014764277e-46,
+              "quadrature_estimate_GeV_m2": 1.1865005969707924e-30,
+              "remote_split_q_GeV": 69.5
+            },
+            "mu": {
+              "value_GeV_m2": 3.60866260802074e-18,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.5101689922622185e-41,
+              "quadrature_estimate_GeV_m2": 2.8645183394258696e-29,
+              "remote_split_q_GeV": 69.5
+            },
+            "tau": {
+              "value_GeV_m2": 9.825349599511134e-16,
+              "omitted_remote_tail_upper_bound_GeV_m2": 4.270946312272305e-39,
+              "quadrature_estimate_GeV_m2": 7.699796974242685e-27,
+              "remote_split_q_GeV": 69.5
+            },
+            "u": {
+              "value_GeV_m2": 3.8795151222219075e-21,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.623300553129572e-44,
+              "quadrature_estimate_GeV_m2": 2.3705023552957572e-30,
+              "remote_split_q_GeV": 69.5
+            },
+            "d": {
+              "value_GeV_m2": 2.4246963443574203e-20,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.0145628457059826e-43,
+              "quadrature_estimate_GeV_m2": 1.4815584214859768e-29,
+              "remote_split_q_GeV": 69.5
+            },
+            "s": {
+              "value_GeV_m2": 9.697632041025186e-18,
+              "omitted_remote_tail_upper_bound_GeV_m2": 4.0582513828239305e-41,
+              "quadrature_estimate_GeV_m2": 7.697203728843482e-29,
+              "remote_split_q_GeV": 69.5
+            },
+            "c": {
+              "value_GeV_m2": 1.6061831777974256e-15,
+              "omitted_remote_tail_upper_bound_GeV_m2": 6.858444836972442e-39,
+              "quadrature_estimate_GeV_m2": 1.2665941569716849e-26,
+              "remote_split_q_GeV": 69.5
+            },
+            "b": {
+              "value_GeV_m2": 1.3640564533093887e-14,
+              "omitted_remote_tail_upper_bound_GeV_m2": 7.158755439301413e-38,
+              "quadrature_estimate_GeV_m2": 9.982985810902696e-26,
+              "remote_split_q_GeV": 69.5
+            }
+          }
+        },
+        "22": {
+          "sigma_v_GeV_m2": 1.6822292368866754e-14,
+          "event_density_GeV4": 3.031844629214201e-31,
+          "per_flavor": {
+            "e": {
+              "value_GeV_m2": 8.525272167413344e-23,
+              "omitted_remote_tail_upper_bound_GeV_m2": 3.127115990562836e-46,
+              "quadrature_estimate_GeV_m2": 1.2314198726884963e-30,
+              "remote_split_q_GeV": 71.0
+            },
+            "mu": {
+              "value_GeV_m2": 3.644393848953698e-18,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.336939741096922e-41,
+              "quadrature_estimate_GeV_m2": 2.968453176585635e-29,
+              "remote_split_q_GeV": 71.0
+            },
+            "tau": {
+              "value_GeV_m2": 9.968970415781324e-16,
+              "omitted_remote_tail_upper_bound_GeV_m2": 3.781032378644372e-39,
+              "quadrature_estimate_GeV_m2": 8.038425842726598e-27,
+              "remote_split_q_GeV": 71.0
+            },
+            "u": {
+              "value_GeV_m2": 3.917864990854372e-21,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.437094147968513e-44,
+              "quadrature_estimate_GeV_m2": 2.4468307416765398e-30,
+              "remote_split_q_GeV": 71.0
+            },
+            "d": {
+              "value_GeV_m2": 2.448665080603055e-20,
+              "omitted_remote_tail_upper_bound_GeV_m2": 8.981838424803206e-44,
+              "quadrature_estimate_GeV_m2": 1.993909991890318e-31,
+              "remote_split_q_GeV": 71.0
+            },
+            "s": {
+              "value_GeV_m2": 9.793636846541654e-18,
+              "omitted_remote_tail_upper_bound_GeV_m2": 3.592735369921283e-41,
+              "quadrature_estimate_GeV_m2": 7.977487661040348e-29,
+              "remote_split_q_GeV": 71.0
+            },
+            "c": {
+              "value_GeV_m2": 1.6260797258869737e-15,
+              "omitted_remote_tail_upper_bound_GeV_m2": 6.071722775166968e-39,
+              "quadrature_estimate_GeV_m2": 1.3175338453790704e-26,
+              "remote_split_q_GeV": 71.0
+            },
+            "b": {
+              "value_GeV_m2": 1.4185849080937634e-14,
+              "omitted_remote_tail_upper_bound_GeV_m2": 6.337585192541143e-38,
+              "quadrature_estimate_GeV_m2": 1.0835545143269163e-25,
+              "remote_split_q_GeV": 71.0
+            }
+          }
+        }
+      },
+      "sigma_v_effective_GeV_m2": 1.559875576520614e-14,
+      "equilibrium_annihilation_loss_per_particle_over_H": 0.002720906247002834,
+      "common_fugacity_linearized_chemical_rate_over_H": 0.005441812494005668,
+      "maximum_remote_tail_upper_bound_fraction": 6.252178889515236e-24,
+      "decay_down_thermal_over_H": 0.0027790828686685325,
+      "decay_up_thermal_over_H": 0.00027745001540709297,
+      "decay_species_contrast_rate_over_H": 0.003056532884075626
+    },
+    {
+      "T_GeV": 0.8,
+      "H_GeV": 6.74099574890794e-19,
+      "n_equilibrium_GeV3": [
+        6.184509489032778e-06,
+        1.1485757213120226e-06
+      ],
+      "sigma_v_matrix_GeV_m2": [
+        [
+          1.521971649194467e-14,
+          1.5989508587356144e-14
+        ],
+        [
+          1.5989508587356144e-14,
+          1.65685122540581e-14
+        ]
+      ],
+      "channels": {
+        "11": {
+          "sigma_v_GeV_m2": 1.521971649194467e-14,
+          "event_density_GeV4": 2.910630576573232e-25,
+          "per_flavor": {
+            "e": {
+              "value_GeV_m2": 8.101105938835938e-23,
+              "omitted_remote_tail_upper_bound_GeV_m2": 6.760347465012775e-46,
+              "quadrature_estimate_GeV_m2": 9.397697690282436e-31,
+              "remote_split_q_GeV": 84.0
+            },
+            "mu": {
+              "value_GeV_m2": 3.4629627037662237e-18,
+              "omitted_remote_tail_upper_bound_GeV_m2": 2.890259656781285e-41,
+              "quadrature_estimate_GeV_m2": 2.2966390996848158e-29,
+              "remote_split_q_GeV": 84.0
+            },
+            "tau": {
+              "value_GeV_m2": 9.387657121779346e-16,
+              "omitted_remote_tail_upper_bound_GeV_m2": 8.17401488567716e-39,
+              "quadrature_estimate_GeV_m2": 6.088608841891831e-27,
+              "remote_split_q_GeV": 84.0
+            },
+            "u": {
+              "value_GeV_m2": 3.722935572035236e-21,
+              "omitted_remote_tail_upper_bound_GeV_m2": 3.106778197394278e-44,
+              "quadrature_estimate_GeV_m2": 1.9491886449225794e-30,
+              "remote_split_q_GeV": 84.0
+            },
+            "d": {
+              "value_GeV_m2": 2.32683408409249e-20,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.9417363733714235e-43,
+              "quadrature_estimate_GeV_m2": 1.2182413868561942e-29,
+              "remote_split_q_GeV": 84.0
+            },
+            "s": {
+              "value_GeV_m2": 9.306104347728599e-18,
+              "omitted_remote_tail_upper_bound_GeV_m2": 7.766945493485695e-41,
+              "quadrature_estimate_GeV_m2": 6.172988004159597e-29,
+              "remote_split_q_GeV": 84.0
+            },
+            "c": {
+              "value_GeV_m2": 1.5377978744681143e-15,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.3126137883990824e-38,
+              "quadrature_estimate_GeV_m2": 1.0081717760315599e-26,
+              "remote_split_q_GeV": 84.0
+            },
+            "b": {
+              "value_GeV_m2": 1.2730356765959653e-14,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.3700891850508766e-37,
+              "quadrature_estimate_GeV_m2": 7.248661604444441e-26,
+              "remote_split_q_GeV": 84.0
+            }
+          }
+        },
+        "12": {
+          "sigma_v_GeV_m2": 1.5989508587356144e-14,
+          "event_density_GeV4": 1.13579514693265e-25,
+          "per_flavor": {
+            "e": {
+              "value_GeV_m2": 8.260712068600645e-23,
+              "omitted_remote_tail_upper_bound_GeV_m2": 5.934631476608844e-46,
+              "quadrature_estimate_GeV_m2": 9.984484725545333e-31,
+              "remote_split_q_GeV": 85.5
+            },
+            "mu": {
+              "value_GeV_m2": 3.5312557461197745e-18,
+              "omitted_remote_tail_upper_bound_GeV_m2": 2.5372402858696074e-41,
+              "quadrature_estimate_GeV_m2": 2.4345786356645498e-29,
+              "remote_split_q_GeV": 85.5
+            },
+            "tau": {
+              "value_GeV_m2": 9.625130543379952e-16,
+              "omitted_remote_tail_upper_bound_GeV_m2": 7.175632063568383e-39,
+              "quadrature_estimate_GeV_m2": 6.519750770414993e-27,
+              "remote_split_q_GeV": 85.5
+            },
+            "u": {
+              "value_GeV_m2": 3.7962840181107195e-21,
+              "omitted_remote_tail_upper_bound_GeV_m2": 2.727313022965059e-44,
+              "quadrature_estimate_GeV_m2": 2.0543675460743323e-30,
+              "remote_split_q_GeV": 85.5
+            },
+            "d": {
+              "value_GeV_m2": 2.3726769342185934e-20,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.7045706393531617e-43,
+              "quadrature_estimate_GeV_m2": 1.6358308600828271e-31,
+              "remote_split_q_GeV": 85.5
+            },
+            "s": {
+              "value_GeV_m2": 9.489611267029552e-18,
+              "omitted_remote_tail_upper_bound_GeV_m2": 6.818282557412648e-41,
+              "quadrature_estimate_GeV_m2": 6.545770994891147e-29,
+              "remote_split_q_GeV": 85.5
+            },
+            "c": {
+              "value_GeV_m2": 1.572638111283327e-15,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.1522897522027372e-38,
+              "quadrature_estimate_GeV_m2": 1.0741069098808287e-26,
+              "remote_split_q_GeV": 85.5
+            },
+            "b": {
+              "value_GeV_m2": 1.3441308949061192e-14,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.202745043127591e-37,
+              "quadrature_estimate_GeV_m2": 8.253590339789839e-26,
+              "remote_split_q_GeV": 85.5
+            }
+          }
+        },
+        "22": {
+          "sigma_v_GeV_m2": 1.65685122540581e-14,
+          "event_density_GeV4": 1.0928807627458366e-26,
+          "per_flavor": {
+            "e": {
+              "value_GeV_m2": 8.356147378352457e-23,
+              "omitted_remote_tail_upper_bound_GeV_m2": 5.2042935709456075e-46,
+              "quadrature_estimate_GeV_m2": 1.048289584761807e-30,
+              "remote_split_q_GeV": 87.0
+            },
+            "mu": {
+              "value_GeV_m2": 3.5721072930939794e-18,
+              "omitted_remote_tail_upper_bound_GeV_m2": 2.2249980238437162e-41,
+              "quadrature_estimate_GeV_m2": 2.550943004628155e-29,
+              "remote_split_q_GeV": 87.0
+            },
+            "tau": {
+              "value_GeV_m2": 9.780005223351942e-16,
+              "omitted_remote_tail_upper_bound_GeV_m2": 6.29257199256443e-39,
+              "quadrature_estimate_GeV_m2": 6.886343751473188e-27,
+              "remote_split_q_GeV": 87.0
+            },
+            "u": {
+              "value_GeV_m2": 3.840142187052474e-21,
+              "omitted_remote_tail_upper_bound_GeV_m2": 2.3916797003010955e-44,
+              "quadrature_estimate_GeV_m2": 2.1411661004281422e-30,
+              "remote_split_q_GeV": 87.0
+            },
+            "d": {
+              "value_GeV_m2": 2.4000883529637217e-20,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.4947998126881844e-43,
+              "quadrature_estimate_GeV_m2": 1.7151308663872014e-31,
+              "remote_split_q_GeV": 87.0
+            },
+            "s": {
+              "value_GeV_m2": 9.599376934785564e-18,
+              "omitted_remote_tail_upper_bound_GeV_m2": 5.979199250752739e-41,
+              "quadrature_estimate_GeV_m2": 6.854484392375168e-29,
+              "remote_split_q_GeV": 87.0
+            },
+            "c": {
+              "value_GeV_m2": 1.594581588878939e-15,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.0104846733772127e-38,
+              "quadrature_estimate_GeV_m2": 1.1297769131358388e-26,
+              "remote_split_q_GeV": 87.0
+            },
+            "b": {
+              "value_GeV_m2": 1.3982730734028895e-14,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.054730747832783e-37,
+              "quadrature_estimate_GeV_m2": 9.122311283733714e-26,
+              "remote_split_q_GeV": 87.0
+            }
+          }
+        }
+      },
+      "sigma_v_effective_GeV_m2": 1.545617986666953e-14,
+      "equilibrium_annihilation_loss_per_particle_over_H": 0.16813759896980363,
+      "common_fugacity_linearized_chemical_rate_over_H": 0.33627519793960725,
+      "maximum_remote_tail_upper_bound_fraction": 1.076237854318763e-23,
+      "decay_down_thermal_over_H": 0.0015253352019647857,
+      "decay_up_thermal_over_H": 0.0002832824467237288,
+      "decay_species_contrast_rate_over_H": 0.0018086176486885148
+    },
+    {
+      "T_GeV": 1.0,
+      "H_GeV": 1.0532805857668657e-18,
+      "n_equilibrium_GeV3": [
+        0.00010897000595362577,
+        2.9324268698426786e-05
+      ],
+      "sigma_v_matrix_GeV_m2": [
+        [
+          1.5003152556381608e-14,
+          1.575807791933426e-14
+        ],
+        [
+          1.575807791933426e-14,
+          1.6335307185526538e-14
+        ]
+      ],
+      "channels": {
+        "11": {
+          "sigma_v_GeV_m2": 1.5003152556381608e-14,
+          "event_density_GeV4": 8.907718393728877e-23,
+          "per_flavor": {
+            "e": {
+              "value_GeV_m2": 7.927584114305284e-23,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.0414910532166007e-45,
+              "quadrature_estimate_GeV_m2": 7.79036510882709e-31,
+              "remote_split_q_GeV": 100.0
+            },
+            "mu": {
+              "value_GeV_m2": 3.3888031604743514e-18,
+              "omitted_remote_tail_upper_bound_GeV_m2": 4.452699494499879e-41,
+              "quadrature_estimate_GeV_m2": 1.9185201695686252e-29,
+              "remote_split_q_GeV": 100.0
+            },
+            "tau": {
+              "value_GeV_m2": 9.198787931817583e-16,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.2592789669984796e-38,
+              "quadrature_estimate_GeV_m2": 5.054277286113264e-27,
+              "remote_split_q_GeV": 100.0
+            },
+            "u": {
+              "value_GeV_m2": 3.6431920736981316e-21,
+              "omitted_remote_tail_upper_bound_GeV_m2": 4.7862653712111e-44,
+              "quadrature_estimate_GeV_m2": 1.667774065001929e-30,
+              "remote_split_q_GeV": 100.0
+            },
+            "d": {
+              "value_GeV_m2": 2.276994431067265e-20,
+              "omitted_remote_tail_upper_bound_GeV_m2": 2.9914158570069375e-43,
+              "quadrature_estimate_GeV_m2": 1.0423606438640805e-29,
+              "remote_split_q_GeV": 100.0
+            },
+            "s": {
+              "value_GeV_m2": 9.106809260903306e-18,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.1965663428027754e-40,
+              "quadrature_estimate_GeV_m2": 5.153914382844671e-29,
+              "remote_split_q_GeV": 100.0
+            },
+            "c": {
+              "value_GeV_m2": 1.5059149594462661e-15,
+              "omitted_remote_tail_upper_bound_GeV_m2": 2.0221971193366895e-38,
+              "quadrature_estimate_GeV_m2": 8.389668459224036e-27,
+              "remote_split_q_GeV": 100.0
+            },
+            "b": {
+              "value_GeV_m2": 1.256483669891998e-14,
+              "omitted_remote_tail_upper_bound_GeV_m2": 2.110743028704095e-37,
+              "quadrature_estimate_GeV_m2": 5.769037381925166e-26,
+              "remote_split_q_GeV": 100.0
+            }
+          }
+        },
+        "12": {
+          "sigma_v_GeV_m2": 1.575807791933426e-14,
+          "event_density_GeV4": 5.035439803522922e-23,
+          "per_flavor": {
+            "e": {
+              "value_GeV_m2": 8.093762905395122e-23,
+              "omitted_remote_tail_upper_bound_GeV_m2": 3.8702171036834955e-45,
+              "quadrature_estimate_GeV_m2": 7.651649295013008e-31,
+              "remote_split_q_GeV": 100.0
+            },
+            "mu": {
+              "value_GeV_m2": 3.4599018246675304e-18,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.654638672886643e-40,
+              "quadrature_estimate_GeV_m2": 1.8897258315576454e-29,
+              "remote_split_q_GeV": 100.0
+            },
+            "tau": {
+              "value_GeV_m2": 9.4407527163026e-16,
+              "omitted_remote_tail_upper_bound_GeV_m2": 4.679524592490964e-38,
+              "quadrature_estimate_GeV_m2": 5.0361234205684726e-27,
+              "remote_split_q_GeV": 100.0
+            },
+            "u": {
+              "value_GeV_m2": 3.719561043542419e-21,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.778592916878066e-43,
+              "quadrature_estimate_GeV_m2": 1.64513968213866e-30,
+              "remote_split_q_GeV": 100.0
+            },
+            "d": {
+              "value_GeV_m2": 2.3247251029927434e-20,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.1116205730487914e-42,
+              "quadrature_estimate_GeV_m2": 1.269552092821766e-31,
+              "remote_split_q_GeV": 100.0
+            },
+            "s": {
+              "value_GeV_m2": 9.297856911339941e-18,
+              "omitted_remote_tail_upper_bound_GeV_m2": 4.446482292195166e-40,
+              "quadrature_estimate_GeV_m2": 5.077771285499835e-29,
+              "remote_split_q_GeV": 100.0
+            },
+            "c": {
+              "value_GeV_m2": 1.5417318880852444e-15,
+              "omitted_remote_tail_upper_bound_GeV_m2": 7.51455507380983e-38,
+              "quadrature_estimate_GeV_m2": 8.317749524337406e-27,
+              "remote_split_q_GeV": 100.0
+            },
+            "b": {
+              "value_GeV_m2": 1.3259485953133047e-14,
+              "omitted_remote_tail_upper_bound_GeV_m2": 7.843594763432272e-37,
+              "quadrature_estimate_GeV_m2": 6.193017467625475e-26,
+              "remote_split_q_GeV": 100.0
+            }
+          }
+        },
+        "22": {
+          "sigma_v_GeV_m2": 1.6335307185526538e-14,
+          "event_density_GeV4": 7.023469337015194e-24,
+          "per_flavor": {
+            "e": {
+              "value_GeV_m2": 8.199638388578115e-23,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.4381861834898517e-44,
+              "quadrature_estimate_GeV_m2": 7.405642909829364e-31,
+              "remote_split_q_GeV": 100.0
+            },
+            "mu": {
+              "value_GeV_m2": 3.505213129460225e-18,
+              "omitted_remote_tail_upper_bound_GeV_m2": 6.148695058343588e-40,
+              "quadrature_estimate_GeV_m2": 1.8358917507985865e-29,
+              "remote_split_q_GeV": 100.0
+            },
+            "tau": {
+              "value_GeV_m2": 9.60530057108933e-16,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.7389276709609267e-37,
+              "quadrature_estimate_GeV_m2": 4.9406107026549776e-27,
+              "remote_split_q_GeV": 100.0
+            },
+            "u": {
+              "value_GeV_m2": 3.7682170862993776e-21,
+              "omitted_remote_tail_upper_bound_GeV_m2": 6.6093133552441054e-43,
+              "quadrature_estimate_GeV_m2": 1.6011890712130433e-30,
+              "remote_split_q_GeV": 100.0
+            },
+            "d": {
+              "value_GeV_m2": 2.3551351881425827e-20,
+              "omitted_remote_tail_upper_bound_GeV_m2": 4.1308208470275665e-42,
+              "quadrature_estimate_GeV_m2": 1.2340190452456744e-31,
+              "remote_split_q_GeV": 100.0
+            },
+            "s": {
+              "value_GeV_m2": 9.419608258521794e-18,
+              "omitted_remote_tail_upper_bound_GeV_m2": 1.652328338811027e-39,
+              "quadrature_estimate_GeV_m2": 4.9348198130854327e-29,
+              "remote_split_q_GeV": 100.0
+            },
+            "c": {
+              "value_GeV_m2": 1.5654471442659767e-15,
+              "omitted_remote_tail_upper_bound_GeV_m2": 2.792434892590635e-37,
+              "quadrature_estimate_GeV_m2": 8.122646534909014e-27,
+              "remote_split_q_GeV": 100.0
+            },
+            "b": {
+              "value_GeV_m2": 1.3796377761198293e-14,
+              "omitted_remote_tail_upper_bound_GeV_m2": 2.914707189662651e-36,
+              "quadrature_estimate_GeV_m2": 6.406873219457337e-26,
+              "remote_split_q_GeV": 100.0
+            }
+          }
+        }
+      },
+      "sigma_v_effective_GeV_m2": 1.5315315554658066e-14,
+      "equilibrium_annihilation_loss_per_particle_over_H": 2.010879612061453,
+      "common_fugacity_linearized_chemical_rate_over_H": 4.021759224122906,
+      "maximum_remote_tail_upper_bound_fraction": 2.1126611927517215e-22,
+      "decay_down_thermal_over_H": 0.0009529503445912608,
+      "decay_up_thermal_over_H": 0.0002564427864025709,
+      "decay_species_contrast_rate_over_H": 0.0012093931309938317
+    }
+  ]
+}

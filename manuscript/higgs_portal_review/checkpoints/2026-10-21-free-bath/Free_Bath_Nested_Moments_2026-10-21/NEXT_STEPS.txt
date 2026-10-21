@@ -1,0 +1,126 @@
+DEPENDENCIES AMONG THE TEN SUPPLIED NEXT STEPS
+2026-10-21 source audit and research planning
+
+These are proposed completion criteria. No item is promoted on the basis
+of this document. The pasted Grok list is treated as a work list, not
+evidence of completed physics.
+
+A. Apparatus chain: items1,2,8,9
+-------------------------------
+These items overlap. They must be linked in one auditable measurement
+chain:
+
+  calibrated source -> field at detector -> device response
+  -> nuisance likelihood -> accessible bounds and exposure budget.
+
+The five source objects in the combined collection, physical pp6681-6685:
+
+1. Physical source J(x): calibrated measurable quantity, units, spatial
+   and temporal support, geometry, boundaries, and uncertainty.
+2. Field transfer and estimand: the actual E(x,t) at the detector and the
+   parameter combination to which the observable responds.
+3. Device generator/readout: actual apparatus operators, dynamics, and
+   observed waiting times, rates, linewidths, or visibility, as appropriate.
+4. Nuisance likelihood and controls: modeled confounds, instrument
+   behavior, selection, serial correlation, and the specified nulls.
+5. Accessible interval and sensitivity: numerical reach derived from
+   actual noise, calibration, exposure, and the declared observable.
+
+Item2 asks what laboratory quantity sources the model. Source density,
+geometry, time dependence, boundaries, and a justified conversion to
+J are missing physical inputs. A conventional actuator is not
+automatically the hidden S field. A symbolic relation J=kappa_E*S^2
+does not supply a calibration.
+
+Item8 requires the normalized source, causal field solution at the
+detector, and the device coupling law. Symbolic field work can proceed;
+an apparatus-backed transfer function needs the physical records above.
+
+Item9 requires detector response, acquisition specifications, noise,
+live time, and controls before a defensible numerical integration time
+or sensitivity can be assigned. The existing bound is not an accessible
+signal target.
+
+GATE-03 v0.2 is not an operator-ready protocol. Its current stub uses
+prospective vocabulary involving live time and a statistic y-hat,
+while leaving estimator, sampling plan, thresholds, and promotion rules
+undefined. P(1) approximately1/2 remains a null control. The historical
+v0.1 bit endpoint retains its original meaning. A visibility endpoint
+from a separate packet must not silently become a second primary
+endpoint for this rate-based apparatus proposal.
+
+Current records:
+https://github.com/Cbaird26/mqgt-gate03-external-reproduction/blob/main/V0_2_APPARATUS_STUB.md
+https://github.com/Cbaird26/mqgt-gate03-external-reproduction/blob/main/OBJECT1_NO_LAB_SOURCE.md
+
+B. Thermal bath and cosmology: items4,5,7,6
+------------------------------------------
+Items4 and5 belong in one matched finite-temperature response problem.
+Specify the renormalized operator basis, matching scale, coefficients,
+thermal spectral functions, and uncertainty conventions.
+
+If the scalar source is O_S=sum_a C_a O_a, its response is built from
+the matrix of operator correlators, including cross terms where present.
+An interacting quark/gluon response cannot generally be obtained by
+adding unrelated free-particle rates. Heavy quarks counted explicitly
+must not also be counted again through matched effective gluon terms.
+
+The physically relevant response depends on energy transfer, momentum
+transfer, and temperature. Vacuum timelike widths do not by themselves
+supply the full thermal scattering response. Gluonic contributions and
+the thermal/confinement treatment need defensible input, not an arbitrary
+enhancement chosen to force an equilibration outcome.
+
+Item7 specifies the full reaction network and thermodynamics: which
+number-changing reactions, inverse reactions, decays and momentum
+redistribution are present, with expansion/entropy/equation-of-state
+inputs that are consistent with the chosen medium.
+
+Item6 is full momentum-dependent evolution. A declared free-bath
+benchmark can proceed now; a physical abundance prediction additionally
+depends on items4,5,7 and initial conditions. Acceptance requires
+documented momentum/time/tail convergence for the observables claimed,
+and propagation of physical input uncertainty.
+
+The present package advances item10 by a nested finite-space calculation.
+It does not complete item6 or remove all finite-moment limitations.
+
+C. Electromagnetic construction and coupling: item3
+---------------------------------------------------
+The October12 notes, collection physical pp7585-7598, already calculate
+conditional normalized one-loop and shared spectral-action coefficients.
+The next task therefore concerns what physically fixes the matching
+data, normalization, and profile, and how the resulting coupling is
+related to the measurement scale.
+
+The one-loop kinetic term needs renormalization and finite matching
+information. A finite higher-order field-strength coefficient does not
+on its own determine the quadratic kinetic normalization.
+
+The shared spectral-action relation is conditional on its overall
+normalization and spectral profile. The supplied notes construct two
+positive profiles with the same selected leading moments through a6
+but different resulting couplings. Those leading constraints therefore
+do not uniquely fix the coupling.
+
+Completion requires a justified physical profile/normalization or other
+selection principle, complete matching and electroweak embedding, and
+evolution to the scale at which the coupling is compared with data.
+A numerical fit alone is not a parameter-free prediction.
+
+D. What is ready and what needs input
+------------------------------------
+Ready for further work now:
+  - momentum-resolved and tail-sensitive free-bath benchmarks;
+  - matched-response theory and uncertainty organization;
+  - electromagnetic normalization/matching analysis;
+  - apparatus source reconciliation and symbolic field calculations.
+
+Actual missing inputs:
+  - named source/detector and calibration/geometry/acquisition records;
+  - defensible interacting finite-temperature response and matching;
+  - completed reaction network, thermodynamics, and initial conditions;
+  - physical normalization/profile selection for a predictive EM coupling.
+
+These are specific scientific requirements, not a reason to stop every
+branch of the research program.

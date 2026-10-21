@@ -1,0 +1,5 @@
+# Exact large banks reconstructed by restore_artifacts.py
+/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/pair_bank.npz
+/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/pair_bank_eta16.npz
+/Expanding_Free_Bath_Fermionic_Network_2026-10-21/solver/bank_q40.npz
+/Expanding_Free_Bath_Fermionic_Network_2026-10-21/solver/bank_q48_eta16.npz

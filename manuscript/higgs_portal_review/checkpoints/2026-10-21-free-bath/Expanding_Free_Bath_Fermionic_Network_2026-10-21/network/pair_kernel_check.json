@@ -1,0 +1,16 @@
+{
+  "2_12": {
+    "elapsed": 0.3583325200015679,
+    "thermal_sigma_v_GeVminus2": 1.5675786423722547e-14,
+    "equilibrium_loss_over_H": 0.000101238350543084,
+    "symmetry_max": 0.0,
+    "minimum": 1.3111982836433146e-14
+  },
+  "4_24": {
+    "elapsed": 2.4591701709978224,
+    "thermal_sigma_v_GeVminus2": 1.567578642368373e-14,
+    "equilibrium_loss_over_H": 0.00010123835054283332,
+    "symmetry_max": 0.0,
+    "minimum": 1.311198283894284e-14
+  }
+}

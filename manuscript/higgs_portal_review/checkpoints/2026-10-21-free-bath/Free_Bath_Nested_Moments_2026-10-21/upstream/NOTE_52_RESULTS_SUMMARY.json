@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-12",
+  "model": {
+    "m1": 10.0,
+    "m2": 11.5,
+    "mh": 125.0,
+    "K11": 0.001,
+    "K12": -0.001,
+    "K22": 0.001
+  },
+  "scope": "near-stationary lepton-scattering moments only",
+  "temperature_diagnostics": [
+    {
+      "T_GeV": 0.5,
+      "population_only_Lambda_over_H": 1.7627736145388782,
+      "scalar_projected_rates_over_H": [
+        0.6044446951976372,
+        1.7839910391502363,
+        2.1413347926332227
+      ],
+      "drift_projected_rates_over_H": [
+        0.4180960088250115,
+        1.9877098861313303
+      ],
+      "FD_lower_scalar_projected_rates_over_H": [
+        0.5682137314613607,
+        1.6762064920290582,
+        2.0116515491574902
+      ],
+      "FD_lower_drift_projected_rates_over_H": [
+        0.3931804855082838,
+        1.8674772497758654
+      ]
+    },
+    {
+      "T_GeV": 0.4,
+      "population_only_Lambda_over_H": 0.7037968900431196,
+      "scalar_projected_rates_over_H": [
+        0.19386510973043644,
+        0.7102577856759701,
+        0.8401423055793307
+      ],
+      "drift_projected_rates_over_H": [
+        0.12931769124654108,
+        0.785285588859938
+      ],
+      "FD_lower_scalar_projected_rates_over_H": [
+        0.18788855284046085,
+        0.6870031640269415,
+        0.8126065162241698
+      ],
+      "FD_lower_drift_projected_rates_over_H": [
+        0.12541014543167042,
+        0.7595873815745289
+      ]
+    },
+    {
+      "T_GeV": 0.3333333333333333,
+      "population_only_Lambda_over_H": 0.29186241695245385,
+      "scalar_projected_rates_over_H": [
+        0.06703927636202342,
+        0.29363586689745236,
+        0.3424954589058509
+      ],
+      "drift_projected_rates_over_H": [
+        0.043538465811014455,
+        0.3221055518970609
+      ],
+      "FD_lower_scalar_projected_rates_over_H": [
+        0.06560183221525265,
+        0.2858074928414494,
+        0.3334495844882654
+      ],
+      "FD_lower_drift_projected_rates_over_H": [
+        0.04264916977763658,
+        0.3135903717968321
+      ]
+    }
+  ],
+  "max_q_w_relative_frobenius_difference": 3.695926107035327e-15,
+  "refinement_24_48_angular_relative_gram_difference": 2.2662062818504445e-16,
+  "central_elastic_energy_rates_over_H": [
+    0.4865073800460687,
+    0.3729542508521016
+  ],
+  "central_elastic_drift_rates_over_H": [
+    0.32513469198313844,
+    0.24186072904635064
+  ],
+  "omitted_mathematical_MB_tail_normalized_form_bound_over_H": {
+    "0.5": 1.7912012944992899e-29,
+    "0.4": 1.2571512567949721e-29,
+    "0.3333333333333333": 1.076685688484675e-29
+  },
+  "full_kinetic_spectrum_computed": false,
+  "QCD_response_computed": false,
+  "chemical_or_kinetic_equilibrium_established": false,
+  "abundance_computed": false
+}

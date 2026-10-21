@@ -1,0 +1,22 @@
+{
+  "T_GeV": 0.4,
+  "checks": [
+    {
+      "bank": "bank_q40.npz",
+      "count_contrast_over_H": 2.9747457649760376,
+      "reference": 2.97474576498998,
+      "relative_difference": -4.686806498455098e-12,
+      "relative_number_null_residual": 4.062277597776093e-16,
+      "stationarity_absolute_max": 3.2369133360725276e-17
+    },
+    {
+      "bank": "bank_q48_eta16.npz",
+      "count_contrast_over_H": 2.9747457649836146,
+      "reference": 2.97474576498998,
+      "relative_difference": -2.139732835360064e-12,
+      "relative_number_null_residual": 3.303751809452345e-16,
+      "stationarity_absolute_max": 2.794270848101581e-17
+    }
+  ],
+  "all_checks_passed": true
+}

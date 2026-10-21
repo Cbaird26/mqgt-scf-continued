@@ -1,0 +1,101 @@
+{
+  "method": "Independent analytic equilibrium density (Bessel K2), exact MB pressure identity, and direct continuum collisionless comparison",
+  "checks": [
+    {
+      "finite_bins": 48,
+      "T_GeV": 0.5,
+      "metric_normalization_error": 2.220446049250313e-16,
+      "species_fraction_max_error": 1.1102230246251565e-16,
+      "MB_Tkin_over_T_error": 0.0,
+      "collisionless_exact_Tkin_over_T": 0.9999999999999981,
+      "collisionless_cell_closure_Tkin_over_T": 1.0,
+      "collisionless_closure_Tkin_relative_error": 1.9984014443252818e-15
+    },
+    {
+      "finite_bins": 48,
+      "T_GeV": 0.4,
+      "metric_normalization_error": 2.220446049250313e-16,
+      "species_fraction_max_error": 2.220446049250313e-16,
+      "MB_Tkin_over_T_error": 2.220446049250313e-16,
+      "collisionless_exact_Tkin_over_T": 0.831544212079082,
+      "collisionless_cell_closure_Tkin_over_T": 0.8325054302898717,
+      "collisionless_closure_Tkin_relative_error": 0.0011559436008656832
+    },
+    {
+      "finite_bins": 48,
+      "T_GeV": 0.3333333333333333,
+      "metric_normalization_error": 0.0,
+      "species_fraction_max_error": 5.204170427930421e-18,
+      "MB_Tkin_over_T_error": 0.0,
+      "collisionless_exact_Tkin_over_T": 0.709060074062349,
+      "collisionless_cell_closure_Tkin_over_T": 0.7104979321700208,
+      "collisionless_closure_Tkin_relative_error": 0.002027836794467941
+    },
+    {
+      "finite_bins": 96,
+      "T_GeV": 0.5,
+      "metric_normalization_error": 0.0,
+      "species_fraction_max_error": 1.1102230246251565e-16,
+      "MB_Tkin_over_T_error": 2.220446049250313e-16,
+      "collisionless_exact_Tkin_over_T": 0.9999999999999981,
+      "collisionless_cell_closure_Tkin_over_T": 0.9999999999999997,
+      "collisionless_closure_Tkin_relative_error": 1.5543122344752192e-15
+    },
+    {
+      "finite_bins": 96,
+      "T_GeV": 0.4,
+      "metric_normalization_error": 0.0,
+      "species_fraction_max_error": 0.0,
+      "MB_Tkin_over_T_error": 2.220446049250313e-16,
+      "collisionless_exact_Tkin_over_T": 0.831544212079082,
+      "collisionless_cell_closure_Tkin_over_T": 0.8317855077765021,
+      "collisionless_closure_Tkin_relative_error": 0.0002901778328980864
+    },
+    {
+      "finite_bins": 96,
+      "T_GeV": 0.3333333333333333,
+      "metric_normalization_error": 2.220446049250313e-16,
+      "species_fraction_max_error": 1.1102230246251565e-16,
+      "MB_Tkin_over_T_error": 2.220446049250313e-16,
+      "collisionless_exact_Tkin_over_T": 0.709060074062349,
+      "collisionless_cell_closure_Tkin_over_T": 0.7094208399345188,
+      "collisionless_closure_Tkin_relative_error": 0.0005087945089092827
+    },
+    {
+      "finite_bins": 192,
+      "T_GeV": 0.5,
+      "metric_normalization_error": 0.0,
+      "species_fraction_max_error": 0.0,
+      "MB_Tkin_over_T_error": 1.1102230246251565e-16,
+      "collisionless_exact_Tkin_over_T": 0.9999999999999981,
+      "collisionless_cell_closure_Tkin_over_T": 1.0,
+      "collisionless_closure_Tkin_relative_error": 1.9984014443252818e-15
+    },
+    {
+      "finite_bins": 192,
+      "T_GeV": 0.4,
+      "metric_normalization_error": 2.220446049250313e-16,
+      "species_fraction_max_error": 2.220446049250313e-16,
+      "MB_Tkin_over_T_error": 2.220446049250313e-16,
+      "collisionless_exact_Tkin_over_T": 0.831544212079082,
+      "collisionless_cell_closure_Tkin_over_T": 0.8316045982797682,
+      "collisionless_closure_Tkin_relative_error": 7.261935061175784e-05
+    },
+    {
+      "finite_bins": 192,
+      "T_GeV": 0.3333333333333333,
+      "metric_normalization_error": 0.0,
+      "species_fraction_max_error": 1.1102230246251565e-16,
+      "MB_Tkin_over_T_error": 2.220446049250313e-16,
+      "collisionless_exact_Tkin_over_T": 0.709060074062349,
+      "collisionless_cell_closure_Tkin_over_T": 0.70915034726954,
+      "collisionless_closure_Tkin_relative_error": 0.00012731390539832965
+    }
+  ],
+  "elapsed_time": {
+    "eta_final": 0.4054651081081644,
+    "H_T0_delta_t": 0.625,
+    "H_0p4_delta_t": 0.4
+  },
+  "all_equilibrium_checks_passed": true
+}

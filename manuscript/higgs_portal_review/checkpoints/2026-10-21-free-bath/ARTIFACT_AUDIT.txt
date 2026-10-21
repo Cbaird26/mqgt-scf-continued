@@ -1,0 +1,39 @@
+EVENING FREEZE ARTIFACT AUDIT
+21 October 2026
+
+Read-only checks passed. No physics was rerun and no delivered package was modified.
+
+TOTAL: 3 ZIPs; 114 archived files; 70,179,763 compressed bytes.
+
+Free_Bath_Nested_Moments_2026-10-21.zip
+  SHA256: f91ad251961fa13ff30e0b75ce3a27cc8d67e7585c4f43822f24dfe4db5f99be
+  Bytes: 86065; files: 24; manifest entries: 23
+  ZIP CRC: passed. Directory and archive manifest hashes: passed.
+  No missing or extra ZIP files.
+  Completed: Nested scalar and drift trial-space enlargement; New quadrupole sector; Three-temperature finite-space diagnostics; Source-audited dependency map for the ten supplied Grok work items
+  Scope: Finite-space variational upper-bound diagnostics; Ideal Maxwell-Boltzmann lepton/free-quark bath; No physical QCD response or apparatus completion; No gate promotion or external peer review
+
+Free_Bath_Momentum_Evolution_2026-10-21.zip
+  SHA256: e800b7957d24f3c4c2c2c00ab10128ae95d4abc1fe2d4e2a4e4b84258711d0a5
+  Bytes: 4979141; files: 29; manifest entries: 28
+  ZIP CRC: passed. Directory and archive manifest hashes: passed.
+  No missing or extra ZIP files.
+  Completed: Fixed-temperature isotropic radial evolution; Original/enlarged scalar moment comparison; Conditional all-momentum zero uniform L2 gap proof; Momentum-grid/quadrature/time/tail sensitivities and independent generator check
+  Scope: T=0.4 GeV fixed bath; H used as time unit; Isotropic evolution only; no new angular drift evolution; Zero-gap result conditional on unbounded extension of scattering-only vacuum-tree model; No expanding history in this dated stage
+
+Expanding_Free_Bath_Fermionic_Network_2026-10-21.zip
+  SHA256: 42374b1f3703c1c9c133a07e490fa875e7756d76d3f6cd957411062196068b19
+  Bytes: 65114557; files: 61; manifest entries: 60
+  ZIP CRC: passed. Directory and archive manifest hashes: passed.
+  No missing or extra ZIP files.
+  Completed: Redshift in comoving momentum; Leading-portal-order fermionic scattering/conversion; Pair annihilation/inverse creation; Three-body decay/inverse absorption with recoil; Final matched numerical refinements and conservation/channel controls
+  Scope: Prescribed T=0.5 to 1/3 GeV interval; Imposed zero-chemical-potential initial Maxwell-Boltzmann abundance; Constant gstar=gstar_s=60; New declared 4.1 MeV timelike Higgs-width prescription; No physical relic prediction, interacting QCD, gluonic matching, or general scalar network; Earlier scattering gap theorem not transferred to this nonlinear time-dependent evolution
+
+PUBLICATION NOTES
+- Preserve archive bytes and their identities; all ZIP files passed CRC and manifest checks.
+- Use manifests or ZIP members when staging source trees; two live Python caches are outside the fixed-temperature package manifest and outside its ZIP.
+- The first dated NEXT_STEPS file records historical open statuses. Add a top-level freeze status/supersession note rather than silently editing historical records.
+- No original complete Grok conversation is inside these archives; the first package attributes the supplied ten-item list and its dependency audit. Do not claim to have archived unseen Grok work.
+- No credential-pattern findings or absolute environment paths were found in archived text; this is a targeted publication hygiene scan, not a guarantee about all possible sensitive information.
+- Do not include unrelated project-source corpora or other scratch directories in this research freeze.
+- Preserve inherited attribution and source licensing; packages do not relicense source material.

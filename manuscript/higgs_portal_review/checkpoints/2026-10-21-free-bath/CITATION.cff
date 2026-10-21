@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Cite the immutable checkpoint commit and CHECKPOINT_MANIFEST.json; this is a conditional computational research draft."
+title: "Free-bath kinetic benchmarks: nested moments, momentum evolution, and an expanding fermionic network"
+type: software
+authors:
+  - family-names: Baird
+    given-names: Christopher Michael
+version: "2026-10-21-checkpoint"
+repository-code: "https://github.com/Cbaird26/mqgt-scf-continued"
+license: CC-BY-4.0
+abstract: "Conditional two-scalar free-bath benchmarks with source code, numerical controls, provenance, and AI-assistance disclosure. No experimental validation or physical relic-abundance prediction is claimed."

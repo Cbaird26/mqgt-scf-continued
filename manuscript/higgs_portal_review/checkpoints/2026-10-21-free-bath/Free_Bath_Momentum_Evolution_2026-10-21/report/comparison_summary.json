@@ -1,0 +1,507 @@
+{
+  "title": "Fixed-temperature momentum-resolved free-bath evolution",
+  "date": "2026-10-21",
+  "T_GeV": 0.4,
+  "H_reference_GeV": 1.685248937226985e-19,
+  "time_coordinate": "tau = H_reference * t; T and H_reference held fixed",
+  "equilibrium_species_fractions": [
+    0.9720715066806829,
+    0.02792849331931728
+  ],
+  "equilibrium_mean_energy_GeV": 10.670619529578211,
+  "initial_conditions": {
+    "population": "h_P(i,E) = 1_(i=2) - r2",
+    "energy": "h_E(i,E) = (E - equilibrium_mean_energy)/T",
+    "distribution": "f(0) = f_eq * (1 + 0.05*h); two separate initial-value problems",
+    "energy_projection_retains_continuum_variance_fraction": 0.9993589703257976
+  },
+  "observable_definition": "C_h(tau) = <h, exp(-L*tau/H_reference) h>_pi / <h,h>_pi",
+  "normalization_caveat": "Radial-grid headline curves use each represented initial excess. Polynomial energy profiles retain the exact continuum variance; the grid retains 99.935897%. Both radial normalizations are provided.",
+  "numerical_discretization": {
+    "finite_energy_cells_per_species": 128,
+    "cell_coordinate": "x_i=(E_i-m_i)/T",
+    "cell_width": 0.125,
+    "last_cell": "[16,infinity) for each species; tail mass and event weights retained",
+    "quadrature": {
+      "q": 80,
+      "boost": 64,
+      "scattering": 40,
+      "direction": 40,
+      "azimuth": 48
+    },
+    "raw_source_graph": "res80_bins192_tail24.json"
+  },
+  "selected_times": [
+    {
+      "tau_Href_t": 0.0,
+      "population": {
+        "radial_grid_own_initial_normalization": 0.9999999999999996,
+        "radial_grid_continuum_initial_normalization": 1.0000000000000009,
+        "radial_grid_L2_norm_ratio": 0.9999999999999996,
+        "original_scalar_moment": 1.0,
+        "enlarged_scalar_moment": 0.9999999999999999,
+        "original_minus_grid_relative_percent": 4.440892098500626e-14,
+        "enlarged_minus_grid_relative_percent": 4.440892098500626e-14,
+        "count_only_exponential": 1.0
+      },
+      "energy": {
+        "radial_grid_own_initial_normalization": 0.999999999999999,
+        "radial_grid_continuum_initial_normalization": 0.9993589703257966,
+        "radial_grid_L2_norm_ratio": 0.9999999999999991,
+        "original_scalar_moment": 1.0,
+        "enlarged_scalar_moment": 1.0,
+        "original_minus_grid_relative_percent": 1.1102230246251565e-13,
+        "enlarged_minus_grid_relative_percent": 1.1102230246251565e-13
+      }
+    },
+    {
+      "tau_Href_t": 0.25,
+      "population": {
+        "radial_grid_own_initial_normalization": 0.4769140118528872,
+        "radial_grid_continuum_initial_normalization": 0.47691401185288784,
+        "radial_grid_L2_norm_ratio": 0.4790466769720907,
+        "original_scalar_moment": 0.47682568475910103,
+        "enlarged_scalar_moment": 0.4768336408386242,
+        "original_minus_grid_relative_percent": -0.018520549111777918,
+        "enlarged_minus_grid_relative_percent": -0.016852307180226234,
+        "count_only_exponential": 0.4753583010760679
+      },
+      "energy": {
+        "radial_grid_own_initial_normalization": 0.7841463654420695,
+        "radial_grid_continuum_initial_normalization": 0.7836437043529032,
+        "radial_grid_L2_norm_ratio": 0.7920829240701873,
+        "original_scalar_moment": 0.7839135165090406,
+        "enlarged_scalar_moment": 0.7842359833407636,
+        "original_minus_grid_relative_percent": -0.02969457531025732,
+        "enlarged_minus_grid_relative_percent": 0.011428720790362945
+      }
+    },
+    {
+      "tau_Href_t": 0.5,
+      "population": {
+        "radial_grid_own_initial_normalization": 0.22948571871800386,
+        "radial_grid_continuum_initial_normalization": 0.2294857187180042,
+        "radial_grid_L2_norm_ratio": 0.2364592360471246,
+        "original_scalar_moment": 0.22933969905312523,
+        "enlarged_scalar_moment": 0.2293471866378639,
+        "original_minus_grid_relative_percent": -0.06362908580731519,
+        "enlarged_minus_grid_relative_percent": -0.06036631861617847,
+        "count_only_exponential": 0.22596551440192564
+      },
+      "energy": {
+        "radial_grid_own_initial_normalization": 0.6273953586035788,
+        "radial_grid_continuum_initial_normalization": 0.626993179561257,
+        "radial_grid_L2_norm_ratio": 0.6441497364522113,
+        "original_scalar_moment": 0.626411880227295,
+        "enlarged_scalar_moment": 0.6275099400186559,
+        "original_minus_grid_relative_percent": -0.15675576218363574,
+        "enlarged_minus_grid_relative_percent": 0.018263031995036094
+      }
+    },
+    {
+      "tau_Href_t": 1.0,
+      "population": {
+        "radial_grid_own_initial_normalization": 0.05591297031198913,
+        "radial_grid_continuum_initial_normalization": 0.055912970311989205,
+        "radial_grid_L2_norm_ratio": 0.07528756277247704,
+        "original_scalar_moment": 0.05581961995089169,
+        "enlarged_scalar_moment": 0.055808215643094926,
+        "original_minus_grid_relative_percent": -0.16695654081074762,
+        "enlarged_minus_grid_relative_percent": -0.18735307444709415,
+        "count_only_exponential": 0.05106041369892686
+      },
+      "energy": {
+        "radial_grid_own_initial_normalization": 0.4149288829714536,
+        "radial_grid_continuum_initial_normalization": 0.4146629012447852,
+        "radial_grid_L2_norm_ratio": 0.4365131232764637,
+        "original_scalar_moment": 0.4120155007054647,
+        "enlarged_scalar_moment": 0.4150411489385772,
+        "original_minus_grid_relative_percent": -0.7021401463125687,
+        "enlarged_minus_grid_relative_percent": 0.027056676874259722
+      }
+    },
+    {
+      "tau_Href_t": 2.0,
+      "population": {
+        "radial_grid_own_initial_normalization": 0.005668217108220366,
+        "radial_grid_continuum_initial_normalization": 0.005668217108220374,
+        "radial_grid_L2_norm_ratio": 0.026450286167604635,
+        "original_scalar_moment": 0.005660479370403471,
+        "enlarged_scalar_moment": 0.005653796169012607,
+        "original_minus_grid_relative_percent": -0.13651096401500196,
+        "enlarged_minus_grid_relative_percent": -0.2544175519820113,
+        "count_only_exponential": 0.002607165847105558
+      },
+      "energy": {
+        "radial_grid_own_initial_normalization": 0.19054370679257304,
+        "radial_grid_continuum_initial_normalization": 0.1904215626222865,
+        "radial_grid_L2_norm_ratio": 0.20502564417101793,
+        "original_scalar_moment": 0.18531087095346055,
+        "enlarged_scalar_moment": 0.19056328778063308,
+        "original_minus_grid_relative_percent": -2.746265372494816,
+        "enlarged_minus_grid_relative_percent": 0.010276376160445189
+      }
+    },
+    {
+      "tau_Href_t": 5.0,
+      "population": {
+        "radial_grid_own_initial_normalization": 0.0003258852593276835,
+        "radial_grid_continuum_initial_normalization": 0.00032588525932768393,
+        "radial_grid_L2_norm_ratio": 0.002797383465783089,
+        "original_scalar_moment": 0.00030493905833595353,
+        "enlarged_scalar_moment": 0.000326467634723071,
+        "original_minus_grid_relative_percent": -6.42747727680073,
+        "enlarged_minus_grid_relative_percent": 0.17870565750319756,
+        "count_only_exponential": 3.470736523366601e-07
+      },
+      "energy": {
+        "radial_grid_own_initial_normalization": 0.0198957269499751,
+        "radial_grid_continuum_initial_normalization": 0.019882973198610338,
+        "radial_grid_L2_norm_ratio": 0.022036723412802404,
+        "original_scalar_moment": 0.017395152901464216,
+        "enlarged_scalar_moment": 0.01976531596439866,
+        "original_minus_grid_relative_percent": -12.568397499614935,
+        "enlarged_minus_grid_relative_percent": -0.6554723328498602
+      }
+    }
+  ],
+  "refinement_sensitivity": {
+    "quadrature_48_to_64": {
+      "population": {
+        "tau_Href_t": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          5.0
+        ],
+        "finer_minus_coarser_relative_percent": [
+          -0.054259654749598846,
+          -0.19354066595622113,
+          -0.6064220464806945,
+          -1.1094567029384443,
+          -0.7285078399786005
+        ],
+        "absolute_change": [
+          -0.00025881028072560763,
+          -0.0004443825856243755,
+          -0.00033961384590557725,
+          -6.30303877382091e-05,
+          -2.375035011788543e-06
+        ]
+      },
+      "energy": {
+        "tau_Href_t": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          5.0
+        ],
+        "finer_minus_coarser_relative_percent": [
+          -0.014826934157046544,
+          -0.03406098313763925,
+          -0.06948047753347278,
+          -0.13905302984079254,
+          -0.3038095111612621
+        ],
+        "absolute_change": [
+          -0.00011626384524665578,
+          -0.00021369803604476267,
+          -0.000288309342102111,
+          -0.0002650083737826825,
+          -6.048995391337575e-05
+        ]
+      }
+    },
+    "quadrature_64_to_80": {
+      "population": {
+        "tau_Href_t": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          5.0
+        ],
+        "finer_minus_coarser_relative_percent": [
+          -0.014833311623617727,
+          -0.05277458049249091,
+          -0.1608132176023709,
+          -0.22894148882400892,
+          -0.03939801964261137
+        ],
+        "absolute_change": [
+          -7.074214155483594e-05,
+          -0.00012111012534360421,
+          -8.991544661576811e-05,
+          -1.2976900637336891e-05,
+          -1.2839233848229575e-07
+        ]
+      },
+      "energy": {
+        "tau_Href_t": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          5.0
+        ],
+        "finer_minus_coarser_relative_percent": [
+          0.0008773521655179586,
+          -0.00047204422034020753,
+          -0.005124199625352316,
+          -0.019465934502124898,
+          -0.07418817517545437
+        ],
+        "absolute_change": [
+          6.879725118036362e-06,
+          -2.9615835289709125e-06,
+          -2.1261784266701778e-05,
+          -3.709111316216318e-05,
+          -1.4760276762077612e-05
+        ]
+      }
+    },
+    "grid_32_to_64": {
+      "population": {
+        "tau_Href_t": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          5.0
+        ],
+        "finer_minus_coarser_relative_percent": [
+          0.005696004015756846,
+          0.02416838860405537,
+          0.12367911358891631,
+          0.9130902988648406,
+          4.041233019176087
+        ],
+        "absolute_change": [
+          2.7161214414539447e-05,
+          5.5434236612555976e-05,
+          6.902993619432862e-05,
+          5.1501350549127724e-05,
+          1.3022695567358443e-05
+        ]
+      },
+      "energy": {
+        "tau_Href_t": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          5.0
+        ],
+        "finer_minus_coarser_relative_percent": [
+          0.22878302501634223,
+          0.45267924999594,
+          0.8872207847278818,
+          1.7431620845527394,
+          4.4177142271551135
+        ],
+        "absolute_change": [
+          0.0017930024157502,
+          0.002836956496101717,
+          0.0036733738283755146,
+          0.003307336920414794,
+          0.0008692579535718309
+        ]
+      }
+    },
+    "grid_64_to_128": {
+      "population": {
+        "tau_Href_t": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          5.0
+        ],
+        "finer_minus_coarser_relative_percent": [
+          0.014087415772694428,
+          0.05186102062625443,
+          0.17747669867344287,
+          0.4919048557596771,
+          1.1168531821591319
+        ],
+        "absolute_change": [
+          6.71848597279534e-05,
+          0.00011901363591865222,
+          9.92324938399805e-05,
+          2.788223519033673e-05,
+          3.6396598889887723e-06
+        ]
+      },
+      "energy": {
+        "tau_Href_t": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          5.0
+        ],
+        "finer_minus_coarser_relative_percent": [
+          0.05525992773523065,
+          0.11028204296413527,
+          0.21626563613205751,
+          0.4259759752116783,
+          1.1011498594093572
+        ],
+        "absolute_change": [
+          0.00043331871488172524,
+          0.0006919044189301893,
+          0.0008973485882538546,
+          0.0008116704132141439,
+          0.00021908176933812043
+        ]
+      }
+    },
+    "tail_12_to_16": {
+      "population": {
+        "tau_Href_t": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          5.0
+        ],
+        "finer_minus_coarser_relative_percent": [
+          1.9519446937706822e-05,
+          7.085068743620025e-05,
+          0.0002582768029342755,
+          0.0009293824701200425,
+          0.0010944963931988623
+        ],
+        "absolute_change": [
+          9.309097748211315e-08,
+          1.625922092796106e-07,
+          1.4441023214739612e-07,
+          5.267941617214528e-08,
+          3.566802409308255e-09
+        ]
+      },
+      "energy": {
+        "tau_Href_t": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          5.0
+        ],
+        "finer_minus_coarser_relative_percent": [
+          -8.669968045776924e-05,
+          -0.00025257512379023154,
+          -0.0005702646691619291,
+          -0.000934643124635912,
+          -0.0012148225214611988
+        ],
+        "absolute_change": [
+          -6.798523931594858e-07,
+          -1.5846446036471562e-06,
+          -2.3661928217344474e-06,
+          -1.7809036549631951e-06,
+          -2.416977717967228e-07
+        ]
+      }
+    },
+    "tail_16_to_24": {
+      "population": {
+        "tau_Href_t": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          5.0
+        ],
+        "finer_minus_coarser_relative_percent": [
+          5.23509794340833e-07,
+          1.6469505852808487e-06,
+          4.552496215148721e-06,
+          1.3026404652453306e-05,
+          1.8305843327298248e-05
+        ],
+        "absolute_change": [
+          2.496691575704091e-09,
+          3.779516449808895e-09,
+          2.5454359731114096e-09,
+          7.383649932787839e-10,
+          5.965605591982948e-11
+        ]
+      },
+      "energy": {
+        "tau_Href_t": [
+          0.25,
+          0.5,
+          1.0,
+          2.0,
+          5.0
+        ],
+        "finer_minus_coarser_relative_percent": [
+          -6.377396212996686e-06,
+          -1.1763099577273577e-05,
+          -1.865292623698315e-05,
+          -2.5468013447201554e-05,
+          -3.235024929739361e-05
+        ],
+        "absolute_change": [
+          -5.0008117424837906e-08,
+          -7.380113209443095e-08,
+          -7.739636403991668e-08,
+          -4.852768450969158e-08,
+          -6.4363151856816625e-09
+        ]
+      }
+    }
+  },
+  "refinement_changes_are_certified_error_bounds": false,
+  "structural_checks": {
+    "all_invariants_passed": true,
+    "number_null_relative_residual": 3.2828650666832667e-16,
+    "max_absolute_number_error": 4.440892098500626e-16,
+    "minimum_relative_occupation_by_initial_condition": {
+      "population": 0.9986035753340323,
+      "energy": 0.9198713985413566
+    },
+    "independent_forward_matrix_exponential": {
+      "T_GeV": 0.4,
+      "comparison_time_Ht": 1.0,
+      "method": "Direct scipy.linalg.expm of forward mass generator, compared with stored whitened-eigenbasis evolution",
+      "minimum_transition_probability": 6.815670309990634e-10,
+      "maximum_transition_column_sum_error": 3.1086244689504383e-15,
+      "stationary_mass_maximum_absolute_error": 9.020562075079397e-17,
+      "cases": {
+        "population": {
+          "maximum_absolute_cell_mass_error": 1.0408340855860843e-16,
+          "autocorrelation_absolute_error": 3.1225022567582528e-15,
+          "minimum_evolved_cell_mass": 3.11716527394673e-09
+        },
+        "temperature": {
+          "maximum_absolute_cell_mass_error": 8.326672684688674e-17,
+          "autocorrelation_absolute_error": 2.55351295663786e-15,
+          "minimum_evolved_cell_mass": 3.609812525508253e-09
+        }
+      },
+      "all_checks_passed": true
+    }
+  },
+  "finite_graph_lowest_positive_rate_over_H": 0.7390985349248016,
+  "numerical_calculation_certifies_continuum_gap": false,
+  "separate_conditional_analytic_theorem": {
+    "uniform_L2_variational_gap": 0.0,
+    "scope": "globally extended vacuum-tree fixed ideal MB scattering-only operator; unbounded momentum domain and retained massive propagator",
+    "proof_file": "tail/CONDITIONAL_ZERO_GAP_THEOREM.txt",
+    "frequency_upper_bound": "nu_i(p) <= B_i(T)/E_i(p)",
+    "B_by_initial_species_GeV2": [
+      6.630350823059819e-15,
+      6.630350823059819e-15
+    ],
+    "is_claim_about_physical_UV_completion": false,
+    "does_not_imply_absence_of_bulk_relaxation": true
+  },
+  "expanding_cosmological_history_computed": false,
+  "interacting_QCD_response_computed": false,
+  "apparatus_response_computed": false,
+  "result_scope": "isotropic, fixed ideal Maxwell-Boltzmann lepton plus free-quark bath, dilute scalar scattering-only benchmark"
+}
