@@ -1,0 +1,2665 @@
+{
+  "output": "01_Combined_Research_Collection_PUBLIC_2026-10-20.pdf",
+  "title": "A Theory of Everything - Expanded Research Collection: Baird / ZoraASI Corpus, Nielsen Preprint, and Research Supplements (2026-10-20)",
+  "expected_pages": 9252,
+  "parts": [
+    {
+      "path": "05_Provenance/assembly_inputs/Public_Editorial_Guide.pdf",
+      "sha256": "4603f2931b12b1848a052a0396c3a2f32e58144f759c1d06c07b1f32593f598c"
+    },
+    {
+      "path": "05_Provenance/Base_Public_Edition_7399_pages.pdf",
+      "sha256": "ac0d62ae361a796bea3bbab3062112a4c872c2aec71bf4aeacfb72741398bb7c"
+    },
+    {
+      "path": "07_Research_Supplement.pdf",
+      "sha256": "2cced20d33500d615135939c8d4e58e9b4839cb73e3f9d2329673e9ccee39e36"
+    }
+  ],
+  "bookmarks": [
+    {
+      "title": "Guide and attribution",
+      "page": 0
+    },
+    {
+      "title": "Historical corpus and Nielsen preprint",
+      "page": 4
+    },
+    {
+      "title": "Front matter (public edition)",
+      "page": 4
+    },
+    {
+      "title": "Cover",
+      "page": 4
+    },
+    {
+      "title": "Contents and source map",
+      "page": 5
+    },
+    {
+      "title": "Attribution and reading guide (Nielsen A cited here)",
+      "page": 6
+    },
+    {
+      "title": "Public edition: changes and verification",
+      "page": 7
+    },
+    {
+      "title": "Baird / ZoraASI corpus - Parts 1-4",
+      "page": 8
+    },
+    {
+      "title": "MQGT-SCF / ToE claim-by-claim change log (research snapshot 19 Sep 2026)",
+      "page": 8
+    },
+    {
+      "title": "ToE research corpus: local inventory and release trail (19 Sep 2026)",
+      "page": 19
+    },
+    {
+      "title": "TOE Corpus Companion Pack (index + 34 working papers, corrected 19 Sep 2026)",
+      "page": 20
+    },
+    {
+      "title": "Pack index (corrected 2026-09-19)",
+      "page": 20
+    },
+    {
+      "title": "01 - Deterministic Fifth-Force Falsification for a Higgs-Mixed Scalar Portal (index file 00_SOLVED_TOE_root)",
+      "page": 22
+    },
+    {
+      "title": "02 - Teleology as Covariant Boundary Selection in a Consciousness-Ethics Field Theory (index file 01_SOLVED_TOE_2026)",
+      "page": 29
+    },
+    {
+      "title": "03 - Current Scientific Status of the MQGT-SCF Program (2026)",
+      "page": 36
+    },
+    {
+      "title": "04 - Core Formalism 1.0 for the Layered MQGT-SCF Program (2026)",
+      "page": 39
+    },
+    {
+      "title": "05 - Executive Findings Insert 2026",
+      "page": 42
+    },
+    {
+      "title": "06 - Lineage Integration Memo for the Layered ToE Program (2026)",
+      "page": 44
+    },
+    {
+      "title": "07 - Recent Work Addendum for the ToE Stack (March 24-27, 2026)",
+      "page": 47
+    },
+    {
+      "title": "08 - Recent Work Addendum for the ToE Stack - Physics Lanes (March 24-27, 2026)",
+      "page": 54
+    },
+    {
+      "title": "09 - Addendum 2026 - Companion to The Theory of Everything",
+      "page": 61
+    },
+    {
+      "title": "10 - External Replication Summary (2026)",
+      "page": 62
+    },
+    {
+      "title": "11 - Ranked Experiment Program for the Layered ToE (2026)",
+      "page": 64
+    },
+    {
+      "title": "12 - H1 QRNG binary pilot: methods posture, null calibration snapshot",
+      "page": 66
+    },
+    {
+      "title": "13 - H2 Next Experiment Memo (2026)",
+      "page": 68
+    },
+    {
+      "title": "14 - H3 Result Memo (2026)",
+      "page": 70
+    },
+    {
+      "title": "15 - MQGT-SCF Phase II: Scalar-Singlet EFT Extension, GKSL Measurement Control, Interferometric Test Program (variant A)",
+      "page": 72
+    },
+    {
+      "title": "16 - MQGT-SCF Phase II (variant B)",
+      "page": 76
+    },
+    {
+      "title": "17 - MQGT-SCF as a Minimal Scalar-Singlet EFT: Specification-Level Closure (Anchor)",
+      "page": 80
+    },
+    {
+      "title": "18 - MQGT-SCF Hardening Completion Update (2026)",
+      "page": 85
+    },
+    {
+      "title": "19 - Explicit Ethics-Weighted GKSL Operators, Jhana Attractor, and a Lab-Ready Estimator",
+      "page": 88
+    },
+    {
+      "title": "20 - MQGT-SCF Execution Report (2026)",
+      "page": 90
+    },
+    {
+      "title": "21 - MQGT-SCF Exhaustive Hypothesis Campaign 2026",
+      "page": 93
+    },
+    {
+      "title": "22 - Identity as Process (IaP): A Mathematical Framework for Hardened Agent",
+      "page": 96
+    },
+    {
+      "title": "23 - Teleology as Covariant Boundary Selection (variant)",
+      "page": 99
+    },
+    {
+      "title": "24 - Ethically Biased Quantum-like Learning on Discrete Lattices",
+      "page": 106
+    },
+    {
+      "title": "25 - Evidence for Emergent Matter from Quantum Vacuum Fluctuations",
+      "page": 117
+    },
+    {
+      "title": "26 - Archetypal Operators and Phoenix Protocols",
+      "page": 121
+    },
+    {
+      "title": "27 - A Full-Stack Index and Minimal Kernel for Coherent, Ethically Regularized Agency",
+      "page": 126
+    },
+    {
+      "title": "28 - Full Value Ledger - All | World",
+      "page": 135
+    },
+    {
+      "title": "29 - MQGT-SCF: Constraint Channels on a Frequency Axis (frequency atlas)",
+      "page": 139
+    },
+    {
+      "title": "30 - MQGT-SCF: frequency ladder with constraint-channel anchors",
+      "page": 140
+    },
+    {
+      "title": "31 - Errata sheet - corrected unified edition (2026-09-11)",
+      "page": 141
+    },
+    {
+      "title": "32 - Reservoir derivation and fail-closed interferometric protocol (2026-09-11)",
+      "page": 143
+    },
+    {
+      "title": "33 - Neutrino Portal: E-Scalar Dirac Mass Portal for Neutrino Masses in MQGT-SCF",
+      "page": 157
+    },
+    {
+      "title": "34 - UV Completion: Asymptotic Safety Fixed-Point Search in MQGT-SCF",
+      "page": 160
+    },
+    {
+      "title": "A Theory of Everything - unified edition of 18 Sep 2026 (6,926 pages; = mqgt-scf-continued A_Theory_of_Everything_UPDATED_2026-09-18.pdf)",
+      "page": 163
+    },
+    {
+      "title": "Part 1 boundary (source pages 1-2,267)",
+      "page": 163
+    },
+    {
+      "title": "Part 2 boundary (source pages 2,268-3,771)",
+      "page": 2275
+    },
+    {
+      "title": "Part 3 boundary (source pages 3,772-5,541)",
+      "page": 3779
+    },
+    {
+      "title": "Part 4 boundary (source pages 5,542-7,328)",
+      "page": 5549
+    },
+    {
+      "title": "What this supplement is",
+      "page": 7079
+    },
+    {
+      "title": "How the verification maps onto the corpus",
+      "page": 7079
+    },
+    {
+      "title": "A continuity note on the final corpus chapter",
+      "page": 7080
+    },
+    {
+      "title": "Reading order",
+      "page": 7080
+    },
+    {
+      "title": "Introduction",
+      "page": 7079
+    },
+    {
+      "title": "Methods",
+      "page": 7079
+    },
+    {
+      "title": "MQGT-SCF errata (E1–E5)",
+      "page": 7080
+    },
+    {
+      "title": "TUFT numerical verification",
+      "page": 7080
+    },
+    {
+      "title": "The fine-structure constant (Theorem 48)",
+      "page": 7084
+    },
+    {
+      "title": "Neutrino spectrum (Eq. 136)",
+      "page": 7084
+    },
+    {
+      "title": "Anomalous magnetic moments (Eqs. 144–148)",
+      "page": 7085
+    },
+    {
+      "title": "Charged leptons (Theorem 34)",
+      "page": 7085
+    },
+    {
+      "title": "Quarks (Theorem 37)",
+      "page": 7085
+    },
+    {
+      "title": "Gauge bosons, Higgs, and the Weinberg angle (Theorem 35)",
+      "page": 7086
+    },
+    {
+      "title": "CKM and PMNS (Theorems 42–44)",
+      "page": 7086
+    },
+    {
+      "title": "Cosmological constant (Theorems 57–58)",
+      "page": 7086
+    },
+    {
+      "title": "Novel predictions (Part IV)",
+      "page": 7086
+    },
+    {
+      "title": "Machine-checked kernels (author's Lean 4 file)",
+      "page": 7086
+    },
+    {
+      "title": "Master results table",
+      "page": 7087
+    },
+    {
+      "title": "Open items",
+      "page": 7087
+    },
+    {
+      "title": "Reproducibility",
+      "page": 7087
+    },
+    {
+      "title": "Dated research notes, 22 Jan - 27 Mar 2026 (duplicate copies of Companion Pack papers, in chronological order)",
+      "page": 7089
+    },
+    {
+      "title": "2026-01-22 - Fifth-force methods note",
+      "page": 7089
+    },
+    {
+      "title": "2026-02-07 - Archetypal operators research",
+      "page": 7096
+    },
+    {
+      "title": "2026-02-08 - Minimal kernel",
+      "page": 7101
+    },
+    {
+      "title": "2026-02-09 - Identity as Process",
+      "page": 7110
+    },
+    {
+      "title": "2026-02-13 - Emergent matter",
+      "page": 7113
+    },
+    {
+      "title": "2026-02-18 - Teleology manuscript",
+      "page": 7117
+    },
+    {
+      "title": "2026-02-28 - February companion - day not confirmed",
+      "page": 7124
+    },
+    {
+      "title": "2026-02-28 - Teleology variant - day not confirmed",
+      "page": 7125
+    },
+    {
+      "title": "2026-02-28 - Quantum-like learning toy - day not confirmed",
+      "page": 7132
+    },
+    {
+      "title": "2026-02-28 - Frequency atlas - day not confirmed",
+      "page": 7143
+    },
+    {
+      "title": "2026-02-28 - Frequency ladder - day not confirmed",
+      "page": 7144
+    },
+    {
+      "title": "2026-03-01 - Scientific status - March; day not confirmed",
+      "page": 7145
+    },
+    {
+      "title": "2026-03-01 - Core formalism - March; day not confirmed",
+      "page": 7148
+    },
+    {
+      "title": "2026-03-01 - Executive findings - March; day not confirmed",
+      "page": 7151
+    },
+    {
+      "title": "2026-03-01 - Lineage memo - March; day not confirmed",
+      "page": 7153
+    },
+    {
+      "title": "2026-03-01 - Replication summary - March; day not confirmed",
+      "page": 7156
+    },
+    {
+      "title": "2026-03-01 - Experiment program - March; day not confirmed",
+      "page": 7158
+    },
+    {
+      "title": "2026-03-01 - H1 methods - March; day not confirmed",
+      "page": 7160
+    },
+    {
+      "title": "2026-03-01 - H2 memo - March; day not confirmed",
+      "page": 7162
+    },
+    {
+      "title": "2026-03-01 - H3 memo - March; day not confirmed",
+      "page": 7164
+    },
+    {
+      "title": "2026-03-01 - Phase II variant A - March; day not confirmed",
+      "page": 7166
+    },
+    {
+      "title": "2026-03-01 - Phase II variant B - March; day not confirmed",
+      "page": 7170
+    },
+    {
+      "title": "2026-03-01 - Minimal EFT anchor - March; day not confirmed",
+      "page": 7174
+    },
+    {
+      "title": "2026-03-01 - Hardening - March; day not confirmed",
+      "page": 7179
+    },
+    {
+      "title": "2026-03-01 - GKSL/Jhana - March; day not confirmed",
+      "page": 7182
+    },
+    {
+      "title": "2026-03-01 - Execution report - March; day not confirmed",
+      "page": 7184
+    },
+    {
+      "title": "2026-03-01 - Hypothesis campaign - March; day not confirmed",
+      "page": 7187
+    },
+    {
+      "title": "2026-03-27 - Recent work full addendum",
+      "page": 7190
+    },
+    {
+      "title": "2026-03-27 - Recent work physics variant",
+      "page": 7197
+    },
+    {
+      "title": "A Theory of Everything That Thinks and Chooses? - article series (19 Sep 2026)",
+      "page": 7201
+    },
+    {
+      "title": "A Reproducible Synthetic Connectivity-Memory Ablation (ZoraASI Phase 2.3 preprint, 21 Sep 2026)",
+      "page": 7236
+    },
+    {
+      "title": "A Two-Singlet Effective Theory and Its Experimental Interfaces - consistency audit, working paper v0.2 (21 Sep 2026)",
+      "page": 7240
+    },
+    {
+      "title": "Separating Network Telemetry from Multimodal Representation in AI Agent Software (22 Sep 2026)",
+      "page": 7246
+    },
+    {
+      "title": "The Omni-Information Coupling Framework - corpus addendum",
+      "page": 7254
+    },
+    {
+      "title": "Nielsen B - Jennifer Lorraine Nielsen (independent author) - divider",
+      "page": 7286
+    },
+    {
+      "title": "Original preprint - The Complex Hopf Fibration as the Canonical Space for Gauge-Gravity Unification (Preprints.org v5, CC BY 4.0)",
+      "page": 7287
+    },
+    {
+      "title": "Research supplements",
+      "page": 7403
+    },
+    {
+      "title": "R0001 | Free-bath reference continuation of Note 52",
+      "page": 7406
+    },
+    {
+      "title": "S0001 | ARCHIVE INVENTORY CORRECTED 2026-09-19",
+      "page": 7409
+    },
+    {
+      "title": "S0002 | TOE Interface Addendum Grok 2026-09-19",
+      "page": 7410
+    },
+    {
+      "title": "S0003 | TOE Latest Combined Addendum plus Companions 2026-09-19",
+      "page": 7413
+    },
+    {
+      "title": "S0004 | TOE research inventory 2026-09-19",
+      "page": 7559
+    },
+    {
+      "title": "S0005 | A Two-Singlet Effective Theory and Its Experimental Interfaces: A Conditional Consistency Audit of the MQGT-SCF Program",
+      "page": 7560
+    },
+    {
+      "title": "S0006 | Separating Network Telemetry from Multimodal Representation in AI Agent Software",
+      "page": 7566
+    },
+    {
+      "title": "S0007 | Quadratic Higgs-portal interactions and a conditional measurement bridge",
+      "page": 7574
+    },
+    {
+      "title": "S0008 | T-1: One-loop spectral gauge matching",
+      "page": 7584
+    },
+    {
+      "title": "S0009 | T-1: A shared spectral-action normalization test",
+      "page": 7591
+    },
+    {
+      "title": "S0010 | Moving scalar probes and an interferometry data audit",
+      "page": 7599
+    },
+    {
+      "title": "S0011 | Archived MQGT Constraint Modules: Re-run and Cross-check Audit",
+      "page": 7605
+    },
+    {
+      "title": "S0012 | mqgt-scf-independent-verification: Re-run and Cross-check Audit",
+      "page": 7610
+    },
+    {
+      "title": "S0013 | mqgt-scf-science-public: Re-run and Cross-check Audit",
+      "page": 7616
+    },
+    {
+      "title": "S0014 | MQGT-SCF Simulation Code Audit (code/simulations)",
+      "page": 7623
+    },
+    {
+      "title": "S0015 | ToE-MQGT-SCF Phase 1-3 Computational Gate Audit",
+      "page": 7629
+    },
+    {
+      "title": "S0016 | toe_corpus_release and Zenodo 21944514: Checksum and Manifest Hygiene Audit",
+      "page": 7635
+    },
+    {
+      "title": "S0017 | Band-1 Hadamard Order 8884 – Miyamoto (Paley-II Seed H_2220 q=1109 + C_2222); IN SPK via Paley-II; Gap 2052 Still OPEN",
+      "page": 7641
+    },
+    {
+      "title": "S0018 | Band-1 Hadamard Order 8948 – Miyamoto (Paley-II Seed H_2236 q=1117 + C_2238); Miyamoto-only NOT in SPK; Gap 2052 Still OPEN",
+      "page": 7644
+    },
+    {
+      "title": "S0019 | Band-1 Hadamard Order 9092 – Classical Paley-I (q=9091); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7647
+    },
+    {
+      "title": "S0020 | Band-1 Hadamard Order 9104 – Classical Paley-I (q=9103); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7650
+    },
+    {
+      "title": "S0021 | Band-1 Hadamard Order 9124 – Classical Paley-II (q=4561); IN SPK via Paley-II; Gap 2052 Still OPEN",
+      "page": 7653
+    },
+    {
+      "title": "S0022 | Band-1 Hadamard Order 9128 – Classical Paley-I (q=9127); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7656
+    },
+    {
+      "title": "S0023 | Band-1 Hadamard Order 9152 – Classical Paley-I (q=9151); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7659
+    },
+    {
+      "title": "S0024 | Band-1 Hadamard Order 9188 – Classical Paley-I (q=9187); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7662
+    },
+    {
+      "title": "S0025 | Band-1 Hadamard Order 9200 – Classical Paley-I (q=9199); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7665
+    },
+    {
+      "title": "S0026 | Band-1 Hadamard Order 9204 – Classical Paley-I (q=9203); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7668
+    },
+    {
+      "title": "S0027 | Band-1 Hadamard Order 9228 – Classical Paley-I (q=9227); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7671
+    },
+    {
+      "title": "S0028 | Band-1 Hadamard Order 9240 – Classical Paley-I (q=9239); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7674
+    },
+    {
+      "title": "S0029 | Band-1 Hadamard Order 9312 – Classical Paley-I (q=9311); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7677
+    },
+    {
+      "title": "S0030 | Band-1 Hadamard Order 9320 – Classical Paley-I (q=9319); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7680
+    },
+    {
+      "title": "S0031 | Band-1 Hadamard Order 9324 – Classical Paley-I (q=9323); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7683
+    },
+    {
+      "title": "S0032 | Band-1 Hadamard Order 9344 – Classical Paley-I (q=9343); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7686
+    },
+    {
+      "title": "S0033 | Band-1 Hadamard Order 9372 – Classical Paley-I (q=9371); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7689
+    },
+    {
+      "title": "S0034 | Band-1 Hadamard Order 9284 – Classical Paley-I (q=9283); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7692
+    },
+    {
+      "title": "S0035 | Band-1 Hadamard Order 9392 – Classical Paley-I (q=9391); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7695
+    },
+    {
+      "title": "S0036 | Band-1 Hadamard Order 9404 – Classical Paley-I (q=9403); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7698
+    },
+    {
+      "title": "S0037 | Band-1 Hadamard Order 9420 – Classical Paley-I (q=9419); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7701
+    },
+    {
+      "title": "S0038 | Band-1 Hadamard Order 9468 – Classical Paley-I (q=9467); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7704
+    },
+    {
+      "title": "S0039 | Band-1 Hadamard Order 9480 – Classical Paley-I (q=9479); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7707
+    },
+    {
+      "title": "S0040 | Band-1 Hadamard Order 9492 – Classical Paley-I (q=9491); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7710
+    },
+    {
+      "title": "S0041 | Band-1 Hadamard Order 9492 – Classical Paley-I (q=9491); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7713
+    },
+    {
+      "title": "S0042 | Band-1 Hadamard Order 9512 – Classical Paley-I (q=9511); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7716
+    },
+    {
+      "title": "S0043 | Band-1 Hadamard Order 9540 – Classical Paley-I (q=9539); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7719
+    },
+    {
+      "title": "S0044 | Band-1 Hadamard Order 9548 – Classical Paley-I (q=9547); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7722
+    },
+    {
+      "title": "S0045 | Band-1 Hadamard Order 9552 – Classical Paley-I (q=9551); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7725
+    },
+    {
+      "title": "S0046 | Band-1 Hadamard Order 9588 – Classical Paley-I (q=9587); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7728
+    },
+    {
+      "title": "S0047 | Band-1 Hadamard Order 9620 – Classical Paley-I (q=9619); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7731
+    },
+    {
+      "title": "S0048 | Band-1 Hadamard Order 9624 – Classical Paley-I (q=9623); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7734
+    },
+    {
+      "title": "S0049 | Band-1 Hadamard Order 9632 – Classical Paley-I (q=9631); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7737
+    },
+    {
+      "title": "S0050 | Band-1 Hadamard Order 9644 – Classical Paley-I (q=9643); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7740
+    },
+    {
+      "title": "S0051 | Band-1 Hadamard Order 9680 – Classical Paley-I (q=9679); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7743
+    },
+    {
+      "title": "S0052 | Band-1 Hadamard Order 9720 – Classical Paley-I (q=9719); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7746
+    },
+    {
+      "title": "S0053 | Band-1 Hadamard Order 9740 – Classical Paley-I (q=9739); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7749
+    },
+    {
+      "title": "S0054 | Band-1 Hadamard Order 9744 – Classical Paley-I (q=9743); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7752
+    },
+    {
+      "title": "S0055 | Band-1 Hadamard Order 9768 – Classical Paley-I (q=9767); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7755
+    },
+    {
+      "title": "S0056 | Band-1 Hadamard Order 9788 – Classical Paley-I (q=9787); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7758
+    },
+    {
+      "title": "S0057 | Band-1 Hadamard Order 9792 – Classical Paley-I (q=9791); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7761
+    },
+    {
+      "title": "S0058 | Band-1 Hadamard Order 9804 – Classical Paley-I (q=9803); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7764
+    },
+    {
+      "title": "S0059 | Band-1 Hadamard Order 9812 – Classical Paley-I (q=9811); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7767
+    },
+    {
+      "title": "S0060 | Band-1 Hadamard Order 9840 – Classical Paley-I (q=9839); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7770
+    },
+    {
+      "title": "S0061 | Band-1 Hadamard Order 9852 – Classical Paley-I (q=9851); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7773
+    },
+    {
+      "title": "S0062 | Band-1 Hadamard Order 10008 – Classical Paley-I (q=10007); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7776
+    },
+    {
+      "title": "S0063 | Band-1 Hadamard Order 10040 – Classical Paley-I (q=10039); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7779
+    },
+    {
+      "title": "S0064 | Band-1 Hadamard Order 10068 – Classical Paley-I (q=10067); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7782
+    },
+    {
+      "title": "S0065 | Band-1 Hadamard Order 10100 – Classical Paley-I (q=10099); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7785
+    },
+    {
+      "title": "S0066 | Band-1 Hadamard Order 10104 – Classical Paley-I (q=10103); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7788
+    },
+    {
+      "title": "S0067 | Band-1 Hadamard Order 10112 – Classical Paley-I (q=10111); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7791
+    },
+    {
+      "title": "S0068 | Band-1 Hadamard Order 10140 – Classical Paley-I (q=10139); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7794
+    },
+    {
+      "title": "S0069 | Band-1 Hadamard Order 10152 – Classical Paley-I (q=10151); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7797
+    },
+    {
+      "title": "S0070 | Band-1 Hadamard Order 10160 – Classical Paley-I (q=10159); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7800
+    },
+    {
+      "title": "S0071 | Band-1 Hadamard Order 10164 – Classical Paley-I (q=10163); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7803
+    },
+    {
+      "title": "S0072 | Band-1 Hadamard Order 10212 – Classical Paley-I (q=10211); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7806
+    },
+    {
+      "title": "S0073 | Band-1 Hadamard Order 10224 – Classical Paley-I (q=10223); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7809
+    },
+    {
+      "title": "S0074 | Band-1 Hadamard Order 10244 – Classical Paley-I (q=10243); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7812
+    },
+    {
+      "title": "S0075 | Band-1 Hadamard Order 10248 – Classical Paley-I (q=10247); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7815
+    },
+    {
+      "title": "S0076 | Band-1 Hadamard order 10260 – Classical Paley-I (q=10259); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7818
+    },
+    {
+      "title": "S0077 | Band-1 Hadamard order 10268 – Classical Paley-I (q=10267); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7821
+    },
+    {
+      "title": "S0078 | Band-1 Hadamard Order 9860 – Classical Paley-I (q=9859); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7824
+    },
+    {
+      "title": "S0079 | Band-1 Hadamard Order 9872 – Classical Paley-I (q=9871); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7827
+    },
+    {
+      "title": "S0080 | Band-1 Hadamard Order 9884 – Classical Paley-I (q=9883); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7830
+    },
+    {
+      "title": "S0081 | Band-1 Hadamard Order 9888 – Classical Paley-I (q=9887); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7833
+    },
+    {
+      "title": "S0082 | Band-1 Hadamard Order 9908 – Classical Paley-I (q=9907); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7836
+    },
+    {
+      "title": "S0083 | Band-1 Hadamard Order 9924 – Classical Paley-I (q=9923); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7839
+    },
+    {
+      "title": "S0084 | Band-1 Hadamard Order 9932 – Classical Paley-I (q=9931); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7842
+    },
+    {
+      "title": "S0085 | Band-1 Hadamard Order 9968 – Classical Paley-I (q=9967); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7845
+    },
+    {
+      "title": "S0086 | Band-1 Hadamard order 10272 – Classical Paley-I (q=10271); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7848
+    },
+    {
+      "title": "S0087 | Band-1 Hadamard order 10304 – Classical Paley-I (q=10303); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7851
+    },
+    {
+      "title": "S0088 | Band-1 Hadamard order 10332 – Classical Paley-I (q=10331); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7854
+    },
+    {
+      "title": "S0089 | Band-1 Hadamard order 10344 – Classical Paley-I (q=10343); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7857
+    },
+    {
+      "title": "S0090 | Band-1 Hadamard order 10392 – Classical Paley-I (q=10391); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7860
+    },
+    {
+      "title": "S0091 | Band-1 Hadamard order 10400 – Classical Paley-I (q=10399); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7863
+    },
+    {
+      "title": "S0092 | Band-1 Hadamard order 10428 – Classical Paley-I (q=10427); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7866
+    },
+    {
+      "title": "S0093 | Band-1 Hadamard order 10460 – Classical Paley-I (q=10459); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7870
+    },
+    {
+      "title": "S0094 | Band-1 Hadamard order 10464 – Classical Paley-I (q=10463); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7874
+    },
+    {
+      "title": "S0095 | Band-1 Hadamard order 10488 – Classical Paley-I (q=10487); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7878
+    },
+    {
+      "title": "S0096 | Band-1 Hadamard order 10500 – Classical Paley-I (q=10499); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7882
+    },
+    {
+      "title": "S0097 | Band-1 Hadamard order 10532 – Classical Paley-I (q=10531); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7886
+    },
+    {
+      "title": "S0098 | Band-1 Hadamard order 10560 – Classical Paley-I (q=10559); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7890
+    },
+    {
+      "title": "S0099 | Band-1 Hadamard order 10568 – Classical Paley-I (q=10567); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7893
+    },
+    {
+      "title": "S0100 | Band-1 Hadamard order 10608 – Classical Paley-I (q=10607); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7897
+    },
+    {
+      "title": "S0101 | Band-1 Hadamard order 10628 – Classical Paley-I (q=10627); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7900
+    },
+    {
+      "title": "S0102 | Band-1 Hadamard order 10632 – Classical Paley-I (q=10631); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7904
+    },
+    {
+      "title": "S0103 | Band-1 Hadamard order 10640 – Classical Paley-I (q=10639); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7908
+    },
+    {
+      "title": "S0104 | Band-1 Hadamard order 10652 – Classical Paley-I (q=10651); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7912
+    },
+    {
+      "title": "S0105 | Band-1 Hadamard order 10668 – Classical Paley-I (q=10667); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7916
+    },
+    {
+      "title": "S0106 | Band-1 Hadamard order 10688 – Classical Paley-I (q=10687); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7919
+    },
+    {
+      "title": "S0107 | Band-1 Hadamard order 10692 – Classical Paley-I (q=10691); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7923
+    },
+    {
+      "title": "S0108 | Band-1 Hadamard order 10712 – Classical Paley-I (q=10711); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7926
+    },
+    {
+      "title": "S0109 | Band-1 Hadamard order 10724 – Classical Paley-I (q=10723); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7929
+    },
+    {
+      "title": "S0110 | Band-1 Hadamard order 10740 – Classical Paley-I (q=10739); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7933
+    },
+    {
+      "title": "S0111 | Band-1 Hadamard order 10772 – Classical Paley-I (q=10771); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7937
+    },
+    {
+      "title": "S0112 | Band-1 Hadamard order 10800 – Classical Paley-I (q=10799); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7941
+    },
+    {
+      "title": "S0113 | Band-1 Hadamard order 10832 – Classical Paley-I (q=10831); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7945
+    },
+    {
+      "title": "S0114 | Band-1 Hadamard order 10848 – Classical Paley-I (q=10847); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7949
+    },
+    {
+      "title": "S0115 | Band-1 Hadamard order 10860 – Classical Paley-I (q=10859); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7953
+    },
+    {
+      "title": "S0116 | Band-1 Hadamard order 10884 – Classical Paley-I (q=10883); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7957
+    },
+    {
+      "title": "S0117 | Band-1 Hadamard order 10892 – Classical Paley-I (q=10891); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7961
+    },
+    {
+      "title": "S0118 | Band-1 Hadamard order 10904 – Classical Paley-I (q=10903); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7965
+    },
+    {
+      "title": "S0119 | Band-1 Hadamard order 10940 – Classical Paley-I (q=10939); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7969
+    },
+    {
+      "title": "S0120 | Band-1 Hadamard order 10980 – Classical Paley-I (q=10979); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7973
+    },
+    {
+      "title": "S0121 | Band-1 Hadamard order 10988 – Classical Paley-I (q=10987); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7977
+    },
+    {
+      "title": "S0122 | Band-1 Hadamard order 11004 – Classical Paley-I (q=11003); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7981
+    },
+    {
+      "title": "S0123 | Band-1 Hadamard order 11028 – Classical Paley-I (q=11027); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7985
+    },
+    {
+      "title": "S0124 | Band-1 Hadamard order 11048 – Classical Paley-I (q=11047); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7989
+    },
+    {
+      "title": "S0125 | Band-1 Hadamard order 11060 – Classical Paley-I (q=11059); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7993
+    },
+    {
+      "title": "S0126 | Band-1 Hadamard order 11072 – Classical Paley-I (q=11071); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 7997
+    },
+    {
+      "title": "S0127 | Band-1 Hadamard order 11084 – Classical Paley-I (q=11083); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8001
+    },
+    {
+      "title": "S0128 | Band-1 Hadamard order 11088 – Classical Paley-I (q=11087); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8005
+    },
+    {
+      "title": "S0129 | Band-1 Hadamard order 11120 – Classical Paley-I (q=11119); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8009
+    },
+    {
+      "title": "S0130 | Band-1 Hadamard order 11132 – Classical Paley-I (q=11131); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8013
+    },
+    {
+      "title": "S0131 | Band-1 Hadamard order 11160 – Classical Paley-I (q=11159); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8017
+    },
+    {
+      "title": "S0132 | Band-1 Hadamard order 11172 – Classical Paley-I (q=11171); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8021
+    },
+    {
+      "title": "S0133 | Band-1 Hadamard order 11240 – Classical Paley-I (q=11239); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8025
+    },
+    {
+      "title": "S0134 | Band-1 Hadamard order 11244 – Classical Paley-I (q=11243); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8029
+    },
+    {
+      "title": "S0135 | Band-1 Hadamard order 11252 – Classical Paley-I (q=11251); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8033
+    },
+    {
+      "title": "S0136 | Band-1 Hadamard order 11280 – Classical Paley-I (q=11279); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8037
+    },
+    {
+      "title": "S0137 | Band-1 Hadamard order 11288 – Classical Paley-I (q=11287); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8041
+    },
+    {
+      "title": "S0138 | Band-1 Hadamard order 11300 – Classical Paley-I (q=11299); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8045
+    },
+    {
+      "title": "S0139 | Band-1 Hadamard order 11312 – Classical Paley-I (q=11311); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8049
+    },
+    {
+      "title": "S0140 | Band-1 Hadamard order 11352 – Classical Paley-I (q=11351); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8053
+    },
+    {
+      "title": "S0141 | Band-1 Hadamard order 11384 – Classical Paley-I (q=11383); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8057
+    },
+    {
+      "title": "S0142 | Band-1 Hadamard order 11400 – Classical Paley-I (q=11399); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8061
+    },
+    {
+      "title": "S0143 | Band-1 Hadamard order 11412 – Classical Paley-I (q=11411); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8065
+    },
+    {
+      "title": "S0144 | Band-1 Hadamard order 11424 – Classical Paley-I (q=11423); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8069
+    },
+    {
+      "title": "S0145 | Band-1 Hadamard order 11444 – Classical Paley-I (q=11443); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8073
+    },
+    {
+      "title": "S0146 | Band-1 Hadamard order 11448 – Classical Paley-I (q=11447); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8077
+    },
+    {
+      "title": "S0147 | Band-1 Hadamard order 11468 – Classical Paley-I (q=11467); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8081
+    },
+    {
+      "title": "S0148 | Band-1 Hadamard order 11472 – Classical Paley-I (q=11471); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8085
+    },
+    {
+      "title": "S0149 | Band-1 Hadamard order 11484 – Classical Paley-I (q=11483); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8089
+    },
+    {
+      "title": "S0150 | Band-1 Hadamard order 11492 – Classical Paley-I (q=11491); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8093
+    },
+    {
+      "title": "S0151 | Band-1 Hadamard order 11504 – Classical Paley-I (q=11503); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8097
+    },
+    {
+      "title": "S0152 | Band-1 Hadamard order 11520 – Classical Paley-I (q=11519); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8101
+    },
+    {
+      "title": "S0153 | Band-1 Hadamard order 11528 – Classical Paley-I (q=11527); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8105
+    },
+    {
+      "title": "S0154 | Band-1 Hadamard order 11552 – Classical Paley-I (q=11551); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8109
+    },
+    {
+      "title": "S0155 | Band-1 Hadamard order 11580 – Classical Paley-I (q=11579); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8113
+    },
+    {
+      "title": "S0156 | Band-1 Hadamard order 11588 – Classical Paley-I (q=11587); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8117
+    },
+    {
+      "title": "S0157 | Band-1 Hadamard order 11700 – Classical Paley-I (q=11699); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8121
+    },
+    {
+      "title": "S0158 | Band-1 Hadamard order 11720 – Classical Paley-I (q=11719); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8125
+    },
+    {
+      "title": "S0159 | Band-1 Hadamard order 11732 – Classical Paley-I (q=11731); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8129
+    },
+    {
+      "title": "S0160 | Band-1 Hadamard order 11744 – Classical Paley-I (q=11743); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8133
+    },
+    {
+      "title": "S0161 | Band-1 Hadamard order 11780 – Classical Paley-I (q=11779); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8137
+    },
+    {
+      "title": "S0162 | Band-1 Hadamard order 11784 – Classical Paley-I (q=11783); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8141
+    },
+    {
+      "title": "S0163 | Band-1 Hadamard order 11808 – Classical Paley-I (q=11807); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8145
+    },
+    {
+      "title": "S0164 | Band-1 Hadamard order 11828 – Classical Paley-I (q=11827); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8149
+    },
+    {
+      "title": "S0165 | Band-1 Hadamard order 11832 – Classical Paley-I (q=11831); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8153
+    },
+    {
+      "title": "S0166 | Band-1 Hadamard order 11840 – Classical Paley-I (q=11839); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8157
+    },
+    {
+      "title": "S0167 | Band-1 Hadamard order 11864 – Classical Paley-I (q=11863); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8161
+    },
+    {
+      "title": "S0168 | Band-1 Hadamard order 11868 – Classical Paley-I (q=11867); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8165
+    },
+    {
+      "title": "S0169 | Band-1 Hadamard order 11888 – Classical Paley-I (q=11887); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8169
+    },
+    {
+      "title": "S0170 | Band-1 Hadamard order 11904 – Classical Paley-I (q=11903); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8174
+    },
+    {
+      "title": "S0171 | Band-1 Hadamard order 11924 – Classical Paley-I (q=11923); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8179
+    },
+    {
+      "title": "S0172 | Band-1 Hadamard order 11928 – Classical Paley-I (q=11927); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8184
+    },
+    {
+      "title": "S0173 | Band-1 Hadamard order 11940 – Classical Paley-I (q=11939); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8189
+    },
+    {
+      "title": "S0174 | Band-1 Hadamard order 11960 – Classical Paley-I (q=11959); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8194
+    },
+    {
+      "title": "S0175 | Band-1 Hadamard order 11972 – Classical Paley-I (q=11971); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8199
+    },
+    {
+      "title": "S0176 | Band-1 Hadamard order 11988 – Classical Paley-I (q=11987); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8204
+    },
+    {
+      "title": "S0177 | Band-1 Hadamard order 12008 – Classical Paley-I (q=12007); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8209
+    },
+    {
+      "title": "S0178 | Band-1 Hadamard order 12012 – Classical Paley-I (q=12011); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8214
+    },
+    {
+      "title": "S0179 | Band-1 Hadamard order 12044 – Classical Paley-I (q=12043); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8219
+    },
+    {
+      "title": "S0180 | Band-1 Hadamard order 12072 – Classical Paley-I (q=12071); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8224
+    },
+    {
+      "title": "S0181 | Band-1 Hadamard order 12108 – Classical Paley-I (q=12107); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8229
+    },
+    {
+      "title": "S0182 | Band-1 Hadamard order 12120 – Classical Paley-I (q=12119); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8234
+    },
+    {
+      "title": "S0183 | Band-1 Hadamard order 12144 – Classical Paley-I (q=12143); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8239
+    },
+    {
+      "title": "S0184 | Band-1 Hadamard order 12164 – Classical Paley-I (q=12163); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8244
+    },
+    {
+      "title": "S0185 | Band-1 Hadamard order 12204 – Classical Paley-I (q=12203); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8249
+    },
+    {
+      "title": "S0186 | Band-1 Hadamard order 12212 – Classical Paley-I (q=12211); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8254
+    },
+    {
+      "title": "S0187 | Band-1 Hadamard order 12228 – Classical Paley-I (q=12227); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8259
+    },
+    {
+      "title": "S0188 | Band-1 Hadamard order 12240 – Classical Paley-I (q=12239); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8264
+    },
+    {
+      "title": "S0189 | Band-1 Hadamard order 12252 – Classical Paley-I (q=12251); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8269
+    },
+    {
+      "title": "S0190 | Band-1 Hadamard order 12264 – Classical Paley-I (q=12263); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8274
+    },
+    {
+      "title": "S0191 | Band-1 Hadamard order 12324 – Classical Paley-I (q=12323); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8279
+    },
+    {
+      "title": "S0192 | Band-1 Hadamard order 12344 – Classical Paley-I (q=12343); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8284
+    },
+    {
+      "title": "S0193 | Band-1 Hadamard order 12348 – Classical Paley-I (q=12347); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8289
+    },
+    {
+      "title": "S0194 | Band-1 Hadamard order 12380 – Classical Paley-I (q=12379); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8294
+    },
+    {
+      "title": "S0195 | Band-1 Hadamard order 12392 – Classical Paley-I (q=12391); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8299
+    },
+    {
+      "title": "S0196 | Band-1 Hadamard order 12452 – Classical Paley-I (q=12451); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8304
+    },
+    {
+      "title": "S0197 | Band-1 Hadamard order 12480 – Classical Paley-I (q=12479); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8309
+    },
+    {
+      "title": "S0198 | Band-1 Hadamard order 12488 – Classical Paley-I (q=12487); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8314
+    },
+    {
+      "title": "S0199 | Band-1 Hadamard order 12492 – Classical Paley-I (q=12491); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8319
+    },
+    {
+      "title": "S0200 | Band-1 Hadamard order 12504 – Classical Paley-I (q=12503); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8324
+    },
+    {
+      "title": "S0201 | Band-1 Hadamard order 12512 – Classical Paley-I (q=12511); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8329
+    },
+    {
+      "title": "S0202 | Band-1 Hadamard order 12528 – Classical Paley-I (q=12527); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8334
+    },
+    {
+      "title": "S0203 | Band-1 Hadamard order 12540 – Classical Paley-I (q=12539); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8339
+    },
+    {
+      "title": "S0204 | Band-1 Hadamard order 12548 – Classical Paley-I (q=12547); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8344
+    },
+    {
+      "title": "S0205 | Band-1 Hadamard order 12584 – Classical Paley-I (q=12583); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8349
+    },
+    {
+      "title": "S0206 | Band-1 Hadamard order 12612 – Classical Paley-I (q=12611); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8354
+    },
+    {
+      "title": "S0207 | Band-1 Hadamard order 12620 – Classical Paley-I (q=12619); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8359
+    },
+    {
+      "title": "S0208 | Band-1 Hadamard order 12648 – Classical Paley-I (q=12647); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8364
+    },
+    {
+      "title": "S0209 | Band-1 Hadamard order 12660 – Classical Paley-I (q=12659); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8369
+    },
+    {
+      "title": "S0210 | Band-1 Hadamard order 12672 – Classical Paley-I (q=12671); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8374
+    },
+    {
+      "title": "S0211 | Band-1 Hadamard order 12704 – Classical Paley-I (q=12703); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8379
+    },
+    {
+      "title": "S0212 | Band-1 Hadamard order 12740 – Classical Paley-I (q=12739); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8384
+    },
+    {
+      "title": "S0213 | Band-1 Hadamard order 12744 – Classical Paley-I (q=12743); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8389
+    },
+    {
+      "title": "S0214 | Band-1 Hadamard order 12764 – Classical Paley-I (q=12763); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8394
+    },
+    {
+      "title": "S0215 | Band-1 Hadamard order 12792 – Classical Paley-I (q=12791); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8399
+    },
+    {
+      "title": "S0216 | Band-1 Hadamard order 12800 – Classical Paley-I (q=12799); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8404
+    },
+    {
+      "title": "S0217 | Band-1 Hadamard order 12824 – Classical Paley-I (q=12823); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8409
+    },
+    {
+      "title": "S0218 | Band-1 Hadamard order 12900 – Classical Paley-I (q=12899); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8414
+    },
+    {
+      "title": "S0219 | Band-1 Hadamard order 12908 – Classical Paley-I (q=12907); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8419
+    },
+    {
+      "title": "S0220 | Band-1 Hadamard order 12912 – Classical Paley-I (q=12911); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8424
+    },
+    {
+      "title": "S0221 | Band-1 Hadamard order 12920 – Classical Paley-I (q=12919); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8429
+    },
+    {
+      "title": "S0222 | Band-1 Hadamard order 12924 – Classical Paley-I (q=12923); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8434
+    },
+    {
+      "title": "S0223 | Band-1 Hadamard order 12960 – Classical Paley-I (q=12959); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8439
+    },
+    {
+      "title": "S0224 | Band-1 Hadamard order 12968 – Classical Paley-I (q=12967); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8444
+    },
+    {
+      "title": "S0225 | Band-1 Hadamard order 12980 – Classical Paley-I (q=12979); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8449
+    },
+    {
+      "title": "S0226 | Band-1 Hadamard order 12984 – Classical Paley-I (q=12983); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8454
+    },
+    {
+      "title": "S0227 | Band-1 Hadamard order 13004 – Classical Paley-I (q=13003); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8459
+    },
+    {
+      "title": "S0228 | Band-1 Hadamard order 13008 – Classical Paley-I (q=13007); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8464
+    },
+    {
+      "title": "S0229 | Band-1 Hadamard order 13044 – Classical Paley-I (q=13043); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8469
+    },
+    {
+      "title": "S0230 | Band-1 Hadamard order 13064 – Classical Paley-I (q=13063); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8474
+    },
+    {
+      "title": "S0231 | Band-1 Hadamard order 13100 – Classical Paley-I (q=13099); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8479
+    },
+    {
+      "title": "S0232 | Band-1 Hadamard order 13104 – Classical Paley-I (q=13103); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8484
+    },
+    {
+      "title": "S0233 | Band-1 Hadamard order 13128 – Classical Paley-I (q=13127); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8490
+    },
+    {
+      "title": "S0234 | Band-1 Hadamard order 13148 – Classical Paley-I (q=13147); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8495
+    },
+    {
+      "title": "S0235 | Band-1 Hadamard order 13152 – Classical Paley-I (q=13151); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8500
+    },
+    {
+      "title": "S0236 | Band-1 Hadamard order 13160 – Classical Paley-I (q=13159); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8506
+    },
+    {
+      "title": "S0237 | Band-1 Hadamard order 13164 – Classical Paley-I (q=13163); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8511
+    },
+    {
+      "title": "S0238 | Band-1 Hadamard order 13172 – Classical Paley-I (q=13171); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8516
+    },
+    {
+      "title": "S0239 | Band-1 Hadamard order 13184 – Classical Paley-I (q=13183); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8521
+    },
+    {
+      "title": "S0240 | Band-1 Hadamard order 13188 – Classical Paley-I (q=13187); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8527
+    },
+    {
+      "title": "S0241 | Band-1 Hadamard order 13220 – Classical Paley-I (q=13219); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8532
+    },
+    {
+      "title": "S0242 | Band-1 Hadamard order 13260 – Classical Paley-I (q=13259); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8537
+    },
+    {
+      "title": "S0243 | Band-1 Hadamard order 13268 – Classical Paley-I (q=13267); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8542
+    },
+    {
+      "title": "S0244 | Band-1 Hadamard order 13292 – Classical Paley-I (q=13291); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8547
+    },
+    {
+      "title": "S0245 | Band-1 Hadamard order 13328 – Classical Paley-I (q=13327); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8552
+    },
+    {
+      "title": "S0246 | Band-1 Hadamard order 13332 – Classical Paley-I (q=13331); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8558
+    },
+    {
+      "title": "S0247 | Band-1 Hadamard order 13340 – Classical Paley-I (q=13339); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8563
+    },
+    {
+      "title": "S0248 | Band-1 Hadamard order 13368 – Classical Paley-I (q=13367); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8568
+    },
+    {
+      "title": "S0249 | Band-1 Hadamard order 13400 – Classical Paley-I (q=13399); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8573
+    },
+    {
+      "title": "S0250 | Band-1 Hadamard order 13412 – Classical Paley-I (q=13411); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8578
+    },
+    {
+      "title": "S0251 | Band-1 Hadamard order 13452 – Classical Paley-I (q=13451); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8583
+    },
+    {
+      "title": "S0252 | Band-1 Hadamard order 13464 – Classical Paley-I (q=13463); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8588
+    },
+    {
+      "title": "S0253 | Band-1 Hadamard order 13488 – Classical Paley-I (q=13487); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8593
+    },
+    {
+      "title": "S0254 | Band-1 Hadamard order 13500 – Classical Paley-I (q=13499); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8599
+    },
+    {
+      "title": "S0255 | Band-1 Hadamard order 13524 – Classical Paley-I (q=13523); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8604
+    },
+    {
+      "title": "S0256 | Band-1 Hadamard order 13568 – Classical Paley-I (q=13567); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8609
+    },
+    {
+      "title": "S0257 | Band-1 Hadamard order 13592 – Classical Paley-I (q=13591); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8615
+    },
+    {
+      "title": "S0258 | Band-1 Hadamard order 13620 – Classical Paley-I (q=13619); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8620
+    },
+    {
+      "title": "S0259 | Band-1 Hadamard order 13628 – Classical Paley-I (q=13627); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8625
+    },
+    {
+      "title": "S0260 | Band-1 Hadamard order 13680 – Classical Paley-I (q=13679); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8631
+    },
+    {
+      "title": "S0261 | Band-1 Hadamard order 13688 – Classical Paley-I (q=13687); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8637
+    },
+    {
+      "title": "S0262 | Band-1 Hadamard order 13692 – Classical Paley-I (q=13691); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8643
+    },
+    {
+      "title": "S0263 | Band-1 Hadamard order 13712 – Classical Paley-I (q=13711); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8649
+    },
+    {
+      "title": "S0264 | Band-1 Hadamard order 13724 – Classical Paley-I (q=13723); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8655
+    },
+    {
+      "title": "S0265 | Band-1 Hadamard order 13752 – Classical Paley-I (q=13751); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8661
+    },
+    {
+      "title": "S0266 | Band-1 Hadamard order 13760 – Classical Paley-I (q=13759); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8667
+    },
+    {
+      "title": "S0267 | Band-1 Hadamard order 13764 – Classical Paley-I (q=13763); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8673
+    },
+    {
+      "title": "S0268 | Band-1 Hadamard order 13800 – Classical Paley-I (q=13799); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8679
+    },
+    {
+      "title": "S0269 | Band-1 Hadamard order 13808 – Classical Paley-I (q=13807); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8685
+    },
+    {
+      "title": "S0270 | Band-1 Hadamard order 13832 – Classical Paley-I (q=13831); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8691
+    },
+    {
+      "title": "S0271 | Band-1 Hadamard order 13860 – Classical Paley-I (q=13859); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8697
+    },
+    {
+      "title": "S0272 | Band-1 Hadamard order 13880 – Classical Paley-I (q=13879); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8703
+    },
+    {
+      "title": "S0273 | Band-1 Hadamard order 13884 – Classical Paley-I (q=13883); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8709
+    },
+    {
+      "title": "S0274 | Band-1 Hadamard order 13904 – Classical Paley-I (q=13903); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8715
+    },
+    {
+      "title": "S0275 | Band-1 Hadamard order 13908 – Classical Paley-I (q=13907); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8721
+    },
+    {
+      "title": "S0276 | Band-1 Hadamard order 13932 – Classical Paley-I (q=13931); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8727
+    },
+    {
+      "title": "S0277 | Band-1 Hadamard order 13964 – Classical Paley-I (q=13963); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8733
+    },
+    {
+      "title": "S0278 | Band-1 Hadamard order 13968 – Classical Paley-I (q=13967); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8739
+    },
+    {
+      "title": "S0279 | Band-1 Hadamard order 14000 – Classical Paley-I (q=13999); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8745
+    },
+    {
+      "title": "S0280 | Band-1 Hadamard order 14012 – Classical Paley-I (q=14011); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8752
+    },
+    {
+      "title": "S0281 | Band-1 Hadamard order 14052 – Classical Paley-I (q=14051); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8758
+    },
+    {
+      "title": "S0282 | Band-1 Hadamard order 14072 – Classical Paley-I (q=14071); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8765
+    },
+    {
+      "title": "S0283 | Band-1 Hadamard order 14084 – Classical Paley-I (q=14083); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8772
+    },
+    {
+      "title": "S0284 | Band-1 Hadamard order 14088 – Classical Paley-I (q=14087); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8779
+    },
+    {
+      "title": "S0285 | Band-1 Hadamard order 14108 – Classical Paley-I (q=14107); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8785
+    },
+    {
+      "title": "S0286 | Band-1 Hadamard order 14144 – Classical Paley-I (q=14143); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8792
+    },
+    {
+      "title": "S0287 | Band-1 Hadamard order 14160 – Classical Paley-I (q=14159); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8799
+    },
+    {
+      "title": "S0288 | Band-1 Hadamard order 14208 – Classical Paley-I (q=14207); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8806
+    },
+    {
+      "title": "S0289 | Band-1 Hadamard order 14244 – Classical Paley-I (q=14243); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8813
+    },
+    {
+      "title": "S0290 | Band-1 Hadamard order 14252 – Classical Paley-I (q=14251); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8820
+    },
+    {
+      "title": "S0291 | Band-1 Hadamard order 14304 – Classical Paley-I (q=14303); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8827
+    },
+    {
+      "title": "S0292 | Band-1 Hadamard order 14324 – Classical Paley-I (q=14323); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8834
+    },
+    {
+      "title": "S0293 | Band-1 Hadamard order 14328 – Classical Paley-I (q=14327); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8841
+    },
+    {
+      "title": "S0294 | Band-1 Hadamard order 14348 – Classical Paley-I (q=14347); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8848
+    },
+    {
+      "title": "S0295 | Band-1 Hadamard order 14356 – Classical Paley-II DIRECT (q2=7177); IN SPK via Paley-II; Gap 2052 Still OPEN",
+      "page": 8855
+    },
+    {
+      "title": "S0296 | Band-1 Hadamard order 14388 – Classical Paley-I (q=14387); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8859
+    },
+    {
+      "title": "S0297 | Band-1 Hadamard order 14408 – Classical Paley-I (q=14407); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8866
+    },
+    {
+      "title": "S0298 | Band-1 Hadamard order 14412 – Classical Paley-I (q=14411); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8873
+    },
+    {
+      "title": "S0299 | Band-1 Hadamard order 14748 – Classical Paley-I (q=14747); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8880
+    },
+    {
+      "title": "S0300 | Band-1 Hadamard order 14760 – Classical Paley-I (q=14759); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8884
+    },
+    {
+      "title": "S0301 | Band-1 Hadamard order 14768 – Classical Paley-I (q=14767); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8888
+    },
+    {
+      "title": "S0302 | Band-1 Hadamard order 14772 – Classical Paley-I (q=14771); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8892
+    },
+    {
+      "title": "S0303 | Band-1 Hadamard order 14780 – Classical Paley-I (q=14779); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8896
+    },
+    {
+      "title": "S0304 | Band-1 Hadamard order 14784 – Classical Paley-I (q=14783); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8900
+    },
+    {
+      "title": "S0305 | Band-1 Hadamard order 14788 – Classical Paley-II DIRECT (q2=7393); IN SPK via Paley-II; Gap 2052 Still OPEN",
+      "page": 8904
+    },
+    {
+      "title": "S0306 | Band-1 Hadamard order 14828 – Classical Paley-I (q=14827); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8909
+    },
+    {
+      "title": "S0307 | Band-1 Hadamard order 14832 – Classical Paley-I (q=14831); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8913
+    },
+    {
+      "title": "S0308 | Band-1 Hadamard order 14836 – Classical Paley-II DIRECT (q2=7417); IN SPK via Paley-II; Gap 2052 Still OPEN",
+      "page": 8917
+    },
+    {
+      "title": "S0309 | Band-1 Hadamard order 14844 – Classical Paley-I (q=14843); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8922
+    },
+    {
+      "title": "S0310 | Band-1 Hadamard order 14852 – Classical Paley-I (q=14851); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8926
+    },
+    {
+      "title": "S0311 | Band-1 Hadamard order 14868 – Classical Paley-I (q=14867); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8930
+    },
+    {
+      "title": "S0312 | Band-1 Hadamard order 14880 – Classical Paley-I (q=14879); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8934
+    },
+    {
+      "title": "S0313 | Band-1 Hadamard order 14888 – Classical Paley-I (q=14887); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8938
+    },
+    {
+      "title": "S0314 | Band-1 Hadamard order 14892 – Classical Paley-I (q=14891); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8942
+    },
+    {
+      "title": "S0315 | Band-1 Hadamard order 14916 – Classical Paley-II DIRECT (q2=7457); IN SPK via Paley-II; Gap 2052 Still OPEN",
+      "page": 8946
+    },
+    {
+      "title": "S0316 | Band-1 Hadamard order 14924 – Classical Paley-I (q=14923); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8951
+    },
+    {
+      "title": "S0317 | Band-1 Hadamard order 14940 – Classical Paley-I (q=14939); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8955
+    },
+    {
+      "title": "S0318 | Band-1 Hadamard order 14948 – Classical Paley-I (q=14947); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8959
+    },
+    {
+      "title": "S0319 | Band-1 Hadamard order 14952 – Classical Paley-I (q=14951); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8963
+    },
+    {
+      "title": "S0320 | Band-1 Hadamard order 14956 – Classical Paley-II DIRECT (q2=7477); IN SPK via Paley-II; Gap 2052 Still OPEN",
+      "page": 8967
+    },
+    {
+      "title": "S0321 | Band-1 Hadamard order 14964 – Classical Paley-II DIRECT (q2=7481); IN SPK via Paley-II; Gap 2052 Still OPEN",
+      "page": 8973
+    },
+    {
+      "title": "S0322 | Band-1 Hadamard order 14980 – Classical Paley-II DIRECT (q2=7489); IN SPK via Paley-II; Gap 2052 Still OPEN",
+      "page": 8979
+    },
+    {
+      "title": "S0323 | Band-1 Hadamard order 14984 – Classical Paley-I (q=14983); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8985
+    },
+    {
+      "title": "S0324 | Band-1 Hadamard order 15032 – Classical Paley-I (q=15031); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 8989
+    },
+    {
+      "title": "S0325 | Band-1 Hadamard order 15036 – Classical Paley-II DIRECT (q2=7517); IN SPK via Paley-II; Gap 2052 Still OPEN",
+      "page": 8993
+    },
+    {
+      "title": "S0326 | Band-1 Hadamard order 15060 – Classical Paley-II DIRECT (q2=7529); IN SPK via Paley-II; Gap 2052 Still OPEN",
+      "page": 8999
+    },
+    {
+      "title": "S0327 | Band-1 Hadamard order 15076 – Classical Paley-II DIRECT (q2=7537); IN SPK via Paley-II; Gap 2052 Still OPEN",
+      "page": 9005
+    },
+    {
+      "title": "S0328 | Band-1 Hadamard order 15084 – Classical Paley-I (q=15083); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 9011
+    },
+    {
+      "title": "S0329 | Band-1 Hadamard order 15092 – Classical Paley-I (q=15091); IN SPK via Paley-I; Gap 2052 Still OPEN",
+      "page": 9015
+    },
+    {
+      "title": "S0330 | SCOREBOARD 2026-09-21 Band1 Hadamard 8884 Miyamoto",
+      "page": 9019
+    },
+    {
+      "title": "S0331 | SCOREBOARD 2026-09-21 Band1 Hadamard 8948 Miyamoto",
+      "page": 9020
+    },
+    {
+      "title": "S0332 | SCOREBOARD 2026-09-21 Band1 Hadamard 9104 PaleyI",
+      "page": 9021
+    },
+    {
+      "title": "S0333 | SCOREBOARD 2026-09-21 Band1 Hadamard 9124 PaleyII",
+      "page": 9022
+    },
+    {
+      "title": "S0334 | SCOREBOARD 2026-09-21 Band1 Hadamard 9128 PaleyI",
+      "page": 9023
+    },
+    {
+      "title": "S0335 | SCOREBOARD 2026-09-21 Band1 Hadamard 9188 PaleyI",
+      "page": 9024
+    },
+    {
+      "title": "S0336 | SCOREBOARD 2026-09-21 Band1 Hadamard 9204 PaleyI",
+      "page": 9025
+    },
+    {
+      "title": "S0337 | SCOREBOARD 2026-09-21 Band1 Hadamard 9228 PaleyI",
+      "page": 9026
+    },
+    {
+      "title": "S0338 | SCOREBOARD 2026-09-21 Band1 Hadamard 9240 PaleyI",
+      "page": 9027
+    },
+    {
+      "title": "S0339 | SCOREBOARD 2026-09-21 Band1 Hadamard 9312 PaleyI",
+      "page": 9028
+    },
+    {
+      "title": "S0340 | SCOREBOARD 2026-09-21 Band1 Hadamard 9320 PaleyI",
+      "page": 9029
+    },
+    {
+      "title": "S0341 | SCOREBOARD 2026-09-21 Band1 Hadamard 9344 PaleyI",
+      "page": 9030
+    },
+    {
+      "title": "S0342 | SCOREBOARD 2026-09-21 Band1 Hadamard 9372 PaleyI",
+      "page": 9031
+    },
+    {
+      "title": "S0343 | SCOREBOARD 2026-09-21 hadamard 9284",
+      "page": 9032
+    },
+    {
+      "title": "S0344 | SCOREBOARD LATEST",
+      "page": 9033
+    },
+    {
+      "title": "S0345 | STATUS BOARD 2026-09-21 Band1 Hadamard 8884 Miyamoto",
+      "page": 9034
+    },
+    {
+      "title": "S0346 | STATUS BOARD 2026-09-21 Band1 Hadamard 8948 Miyamoto",
+      "page": 9035
+    },
+    {
+      "title": "S0347 | STATUS BOARD 2026-09-21 Band1 Hadamard 9104 PaleyI",
+      "page": 9036
+    },
+    {
+      "title": "S0348 | STATUS BOARD 2026-09-21 Band1 Hadamard 9124 PaleyII",
+      "page": 9037
+    },
+    {
+      "title": "S0349 | STATUS BOARD 2026-09-21 Band1 Hadamard 9128 PaleyI",
+      "page": 9038
+    },
+    {
+      "title": "S0350 | STATUS BOARD 2026-09-21 Band1 Hadamard 9188 PaleyI",
+      "page": 9039
+    },
+    {
+      "title": "S0351 | STATUS BOARD 2026-09-21 Band1 Hadamard 9204 PaleyI",
+      "page": 9040
+    },
+    {
+      "title": "S0352 | STATUS BOARD 2026-09-21 Band1 Hadamard 9228 PaleyI",
+      "page": 9041
+    },
+    {
+      "title": "S0353 | STATUS BOARD 2026-09-21 Band1 Hadamard 9240 PaleyI",
+      "page": 9042
+    },
+    {
+      "title": "S0354 | STATUS BOARD 2026-09-21 Band1 Hadamard 9312 PaleyI",
+      "page": 9043
+    },
+    {
+      "title": "S0355 | STATUS BOARD 2026-09-21 Band1 Hadamard 9320 PaleyI",
+      "page": 9044
+    },
+    {
+      "title": "S0356 | STATUS BOARD 2026-09-21 Band1 Hadamard 9344 PaleyI",
+      "page": 9045
+    },
+    {
+      "title": "S0357 | STATUS BOARD 2026-09-21 Band1 Hadamard 9372 PaleyI",
+      "page": 9046
+    },
+    {
+      "title": "S0358 | STATUS BOARD 2026-09-21 hadamard 9284",
+      "page": 9047
+    },
+    {
+      "title": "S0359 | STATUS BOARD LATEST",
+      "page": 9048
+    },
+    {
+      "title": "S0360 | SCOREBOARD 2026-09-22 Band1 Hadamard 9420 PaleyI",
+      "page": 9049
+    },
+    {
+      "title": "S0361 | SCOREBOARD 2026-09-22 Band1 Hadamard 9480 PaleyI",
+      "page": 9050
+    },
+    {
+      "title": "S0362 | SCOREBOARD 2026-09-22 Band1 Hadamard 9492 PaleyI",
+      "page": 9051
+    },
+    {
+      "title": "S0363 | SCOREBOARD 2026-09-22 Band1 Hadamard 9512 PaleyI",
+      "page": 9052
+    },
+    {
+      "title": "S0364 | SCOREBOARD 2026-09-22 Band1 Hadamard 9540 PaleyI",
+      "page": 9053
+    },
+    {
+      "title": "S0365 | SCOREBOARD 2026-09-22 Band1 Hadamard 9548 PaleyI",
+      "page": 9054
+    },
+    {
+      "title": "S0366 | SCOREBOARD 2026-09-22 Band1 Hadamard 9588 PaleyI",
+      "page": 9055
+    },
+    {
+      "title": "S0367 | SCOREBOARD 2026-09-22 Band1 Hadamard 9620 PaleyI",
+      "page": 9056
+    },
+    {
+      "title": "S0368 | SCOREBOARD 2026-09-22 Band1 Hadamard 9624 PaleyI",
+      "page": 9057
+    },
+    {
+      "title": "S0369 | SCOREBOARD 2026-09-22 Band1 Hadamard 9632 PaleyI",
+      "page": 9058
+    },
+    {
+      "title": "S0370 | SCOREBOARD 2026-09-22 Band1 Hadamard 9644 PaleyI",
+      "page": 9059
+    },
+    {
+      "title": "S0371 | SCOREBOARD 2026-09-22 Band1 Hadamard 9680 PaleyI",
+      "page": 9060
+    },
+    {
+      "title": "S0372 | SCOREBOARD 2026-09-22 Band1 Hadamard 9740 PaleyI",
+      "page": 9061
+    },
+    {
+      "title": "S0373 | SCOREBOARD 2026-09-22 Band1 Hadamard 9744 PaleyI",
+      "page": 9062
+    },
+    {
+      "title": "S0374 | SCOREBOARD 2026-09-22 Band1 Hadamard 9768 PaleyI",
+      "page": 9063
+    },
+    {
+      "title": "S0375 | SCOREBOARD 2026-09-22 Band1 Hadamard 9792 PaleyI",
+      "page": 9064
+    },
+    {
+      "title": "S0376 | SCOREBOARD 2026-09-22 hadamard 9552",
+      "page": 9065
+    },
+    {
+      "title": "S0377 | SCOREBOARD LATEST",
+      "page": 9066
+    },
+    {
+      "title": "S0378 | SCOREBOARD LATEST hadamard 9812",
+      "page": 9067
+    },
+    {
+      "title": "S0379 | SCOREBOARD LATEST hadamard 9840",
+      "page": 9068
+    },
+    {
+      "title": "S0380 | SCOREBOARD LATEST hadamard 9852",
+      "page": 9069
+    },
+    {
+      "title": "S0381 | STATUS BOARD 2026-09-22 Band1 Hadamard 9420 PaleyI",
+      "page": 9070
+    },
+    {
+      "title": "S0382 | STATUS BOARD 2026-09-22 Band1 Hadamard 9480 PaleyI",
+      "page": 9071
+    },
+    {
+      "title": "S0383 | STATUS BOARD 2026-09-22 Band1 Hadamard 9492 PaleyI",
+      "page": 9072
+    },
+    {
+      "title": "S0384 | STATUS BOARD 2026-09-22 Band1 Hadamard 9512 PaleyI",
+      "page": 9073
+    },
+    {
+      "title": "S0385 | STATUS BOARD 2026-09-22 Band1 Hadamard 9540 PaleyI",
+      "page": 9074
+    },
+    {
+      "title": "S0386 | STATUS BOARD 2026-09-22 Band1 Hadamard 9548 PaleyI",
+      "page": 9075
+    },
+    {
+      "title": "S0387 | STATUS BOARD 2026-09-22 Band1 Hadamard 9588 PaleyI",
+      "page": 9076
+    },
+    {
+      "title": "S0388 | STATUS BOARD 2026-09-22 Band1 Hadamard 9620 PaleyI",
+      "page": 9077
+    },
+    {
+      "title": "S0389 | STATUS BOARD 2026-09-22 Band1 Hadamard 9624 PaleyI",
+      "page": 9078
+    },
+    {
+      "title": "S0390 | STATUS BOARD 2026-09-22 Band1 Hadamard 9632 PaleyI",
+      "page": 9079
+    },
+    {
+      "title": "S0391 | STATUS BOARD 2026-09-22 Band1 Hadamard 9644 PaleyI",
+      "page": 9080
+    },
+    {
+      "title": "S0392 | STATUS BOARD 2026-09-22 Band1 Hadamard 9680 PaleyI",
+      "page": 9081
+    },
+    {
+      "title": "S0393 | STATUS BOARD 2026-09-22 Band1 Hadamard 9740 PaleyI",
+      "page": 9082
+    },
+    {
+      "title": "S0394 | STATUS BOARD 2026-09-22 Band1 Hadamard 9744 PaleyI",
+      "page": 9083
+    },
+    {
+      "title": "S0395 | STATUS BOARD 2026-09-22 Band1 Hadamard 9768 PaleyI",
+      "page": 9084
+    },
+    {
+      "title": "S0396 | STATUS BOARD 2026-09-22 Band1 Hadamard 9792 PaleyI",
+      "page": 9085
+    },
+    {
+      "title": "S0397 | STATUS BOARD 2026-09-22 hadamard 9552",
+      "page": 9086
+    },
+    {
+      "title": "S0398 | STATUS BOARD LATEST",
+      "page": 9087
+    },
+    {
+      "title": "S0399 | STATUS BOARD LATEST hadamard 9840",
+      "page": 9088
+    },
+    {
+      "title": "S0400 | STATUS BOARD LATEST hadamard 9852",
+      "page": 9089
+    },
+    {
+      "title": "S0401 | SCOREBOARD 2026-09-23 Band1 Hadamard 10112 PaleyI",
+      "page": 9090
+    },
+    {
+      "title": "S0402 | STATUS BOARD 2026-09-23 Band1 Hadamard 10112 PaleyI",
+      "page": 9091
+    },
+    {
+      "title": "S0403 | SCOREBOARD 2026-09-28 Band1 Hadamard 10500 PaleyI",
+      "page": 9092
+    },
+    {
+      "title": "S0404 | STATUS BOARD 2026-09-28 Band1 Hadamard 10500 PaleyI",
+      "page": 9093
+    },
+    {
+      "title": "S0405 | SCOREBOARD 2026-09-29 Band1 Hadamard 11060 PaleyI",
+      "page": 9094
+    },
+    {
+      "title": "S0406 | STATUS BOARD 2026-09-29 Band1 Hadamard 11060 PaleyI",
+      "page": 9095
+    },
+    {
+      "title": "S0407 | SCOREBOARD 2026-09-30 Band1 Hadamard 11444 PaleyI",
+      "page": 9096
+    },
+    {
+      "title": "S0408 | SCOREBOARD 2026-09-30 Band1 Hadamard 11448 PaleyI",
+      "page": 9097
+    },
+    {
+      "title": "S0409 | SCOREBOARD 2026-09-30 Band1 Hadamard 11468 PaleyI",
+      "page": 9098
+    },
+    {
+      "title": "S0410 | SCOREBOARD 2026-09-30 Band1 Hadamard 11472 PaleyI",
+      "page": 9099
+    },
+    {
+      "title": "S0411 | SCOREBOARD 2026-09-30 Band1 Hadamard 11484 PaleyI",
+      "page": 9100
+    },
+    {
+      "title": "S0412 | SCOREBOARD 2026-09-30 Band1 Hadamard 11492 PaleyI",
+      "page": 9101
+    },
+    {
+      "title": "S0413 | SCOREBOARD 2026-09-30 Band1 Hadamard 11504 PaleyI",
+      "page": 9102
+    },
+    {
+      "title": "S0414 | SCOREBOARD 2026-09-30 Band1 Hadamard 11520 PaleyI",
+      "page": 9103
+    },
+    {
+      "title": "S0415 | SCOREBOARD 2026-09-30 Band1 Hadamard 11528 PaleyI",
+      "page": 9104
+    },
+    {
+      "title": "S0416 | SCOREBOARD 2026-09-30 Band1 Hadamard 11552 PaleyI",
+      "page": 9105
+    },
+    {
+      "title": "S0417 | SCOREBOARD 2026-09-30 Band1 Hadamard 11580 PaleyI",
+      "page": 9106
+    },
+    {
+      "title": "S0418 | SCOREBOARD 2026-09-30 Band1 Hadamard 11588 PaleyI",
+      "page": 9107
+    },
+    {
+      "title": "S0419 | STATUS BOARD 2026-09-30 Band1 Hadamard 11444 PaleyI",
+      "page": 9108
+    },
+    {
+      "title": "S0420 | STATUS BOARD 2026-09-30 Band1 Hadamard 11448 PaleyI",
+      "page": 9109
+    },
+    {
+      "title": "S0421 | STATUS BOARD 2026-09-30 Band1 Hadamard 11468 PaleyI",
+      "page": 9110
+    },
+    {
+      "title": "S0422 | STATUS BOARD 2026-09-30 Band1 Hadamard 11472 PaleyI",
+      "page": 9111
+    },
+    {
+      "title": "S0423 | STATUS BOARD 2026-09-30 Band1 Hadamard 11484 PaleyI",
+      "page": 9112
+    },
+    {
+      "title": "S0424 | STATUS BOARD 2026-09-30 Band1 Hadamard 11492 PaleyI",
+      "page": 9113
+    },
+    {
+      "title": "S0425 | STATUS BOARD 2026-09-30 Band1 Hadamard 11504 PaleyI",
+      "page": 9114
+    },
+    {
+      "title": "S0426 | STATUS BOARD 2026-09-30 Band1 Hadamard 11520 PaleyI",
+      "page": 9115
+    },
+    {
+      "title": "S0427 | STATUS BOARD 2026-09-30 Band1 Hadamard 11528 PaleyI",
+      "page": 9116
+    },
+    {
+      "title": "S0428 | STATUS BOARD 2026-09-30 Band1 Hadamard 11552 PaleyI",
+      "page": 9117
+    },
+    {
+      "title": "S0429 | STATUS BOARD 2026-09-30 Band1 Hadamard 11580 PaleyI",
+      "page": 9118
+    },
+    {
+      "title": "S0430 | STATUS BOARD 2026-09-30 Band1 Hadamard 11588 PaleyI",
+      "page": 9119
+    },
+    {
+      "title": "S0431 | SCOREBOARD 2026-10-02 Band1 Hadamard 11700 PaleyI",
+      "page": 9120
+    },
+    {
+      "title": "S0432 | SCOREBOARD 2026-10-02 Band1 Hadamard 11720 PaleyI",
+      "page": 9121
+    },
+    {
+      "title": "S0433 | SCOREBOARD 2026-10-02 Band1 Hadamard 11732 PaleyI",
+      "page": 9122
+    },
+    {
+      "title": "S0434 | SCOREBOARD 2026-10-02 Band1 Hadamard 11744 PaleyI",
+      "page": 9123
+    },
+    {
+      "title": "S0435 | SCOREBOARD 2026-10-02 Band1 Hadamard 11780 PaleyI",
+      "page": 9124
+    },
+    {
+      "title": "S0436 | SCOREBOARD 2026-10-02 Band1 Hadamard 11784 PaleyI",
+      "page": 9125
+    },
+    {
+      "title": "S0437 | SCOREBOARD 2026-10-02 Band1 Hadamard 11808 PaleyI",
+      "page": 9126
+    },
+    {
+      "title": "S0438 | SCOREBOARD 2026-10-02 Band1 Hadamard 11828 PaleyI",
+      "page": 9127
+    },
+    {
+      "title": "S0439 | SCOREBOARD 2026-10-02 Band1 Hadamard 11832 PaleyI",
+      "page": 9128
+    },
+    {
+      "title": "S0440 | SCOREBOARD 2026-10-02 Band1 Hadamard 11840 PaleyI",
+      "page": 9129
+    },
+    {
+      "title": "S0441 | SCOREBOARD 2026-10-02 Band1 Hadamard 11864 PaleyI",
+      "page": 9130
+    },
+    {
+      "title": "S0442 | SCOREBOARD 2026-10-02 Band1 Hadamard 11868 PaleyI",
+      "page": 9131
+    },
+    {
+      "title": "S0443 | SCOREBOARD 2026-10-02 Band1 Hadamard 11888 PaleyI",
+      "page": 9132
+    },
+    {
+      "title": "S0444 | SCOREBOARD 2026-10-02 Band1 Hadamard 11904 PaleyI",
+      "page": 9133
+    },
+    {
+      "title": "S0445 | SCOREBOARD 2026-10-02 Band1 Hadamard 11924 PaleyI",
+      "page": 9134
+    },
+    {
+      "title": "S0446 | STATUS BOARD 2026-10-02 Band1 Hadamard 11700 PaleyI",
+      "page": 9135
+    },
+    {
+      "title": "S0447 | STATUS BOARD 2026-10-02 Band1 Hadamard 11720 PaleyI",
+      "page": 9136
+    },
+    {
+      "title": "S0448 | STATUS BOARD 2026-10-02 Band1 Hadamard 11732 PaleyI",
+      "page": 9137
+    },
+    {
+      "title": "S0449 | STATUS BOARD 2026-10-02 Band1 Hadamard 11744 PaleyI",
+      "page": 9138
+    },
+    {
+      "title": "S0450 | STATUS BOARD 2026-10-02 Band1 Hadamard 11780 PaleyI",
+      "page": 9139
+    },
+    {
+      "title": "S0451 | STATUS BOARD 2026-10-02 Band1 Hadamard 11784 PaleyI",
+      "page": 9140
+    },
+    {
+      "title": "S0452 | STATUS BOARD 2026-10-02 Band1 Hadamard 11808 PaleyI",
+      "page": 9141
+    },
+    {
+      "title": "S0453 | STATUS BOARD 2026-10-02 Band1 Hadamard 11828 PaleyI",
+      "page": 9142
+    },
+    {
+      "title": "S0454 | STATUS BOARD 2026-10-02 Band1 Hadamard 11832 PaleyI",
+      "page": 9143
+    },
+    {
+      "title": "S0455 | STATUS BOARD 2026-10-02 Band1 Hadamard 11840 PaleyI",
+      "page": 9144
+    },
+    {
+      "title": "S0456 | STATUS BOARD 2026-10-02 Band1 Hadamard 11864 PaleyI",
+      "page": 9145
+    },
+    {
+      "title": "S0457 | STATUS BOARD 2026-10-02 Band1 Hadamard 11868 PaleyI",
+      "page": 9146
+    },
+    {
+      "title": "S0458 | STATUS BOARD 2026-10-02 Band1 Hadamard 11888 PaleyI",
+      "page": 9147
+    },
+    {
+      "title": "S0459 | STATUS BOARD 2026-10-02 Band1 Hadamard 11904 PaleyI",
+      "page": 9148
+    },
+    {
+      "title": "S0460 | STATUS BOARD 2026-10-02 Band1 Hadamard 11924 PaleyI",
+      "page": 9149
+    },
+    {
+      "title": "S0461 | SCOREBOARD 2026-10-03 Band1 Hadamard 11928 PaleyI",
+      "page": 9150
+    },
+    {
+      "title": "S0462 | SCOREBOARD 2026-10-03 Band1 Hadamard 11940 PaleyI",
+      "page": 9151
+    },
+    {
+      "title": "S0463 | SCOREBOARD 2026-10-03 Band1 Hadamard 11960 PaleyI",
+      "page": 9152
+    },
+    {
+      "title": "S0464 | SCOREBOARD 2026-10-03 Band1 Hadamard 11972 PaleyI",
+      "page": 9153
+    },
+    {
+      "title": "S0465 | SCOREBOARD 2026-10-03 Band1 Hadamard 11988 PaleyI",
+      "page": 9154
+    },
+    {
+      "title": "S0466 | SCOREBOARD 2026-10-03 Band1 Hadamard 12008 PaleyI",
+      "page": 9155
+    },
+    {
+      "title": "S0467 | SCOREBOARD 2026-10-03 Band1 Hadamard 12012 PaleyI",
+      "page": 9156
+    },
+    {
+      "title": "S0468 | SCOREBOARD 2026-10-03 Band1 Hadamard 12044 PaleyI",
+      "page": 9157
+    },
+    {
+      "title": "S0469 | SCOREBOARD 2026-10-03 Band1 Hadamard 12072 PaleyI",
+      "page": 9158
+    },
+    {
+      "title": "S0470 | SCOREBOARD 2026-10-03 Band1 Hadamard 12108 PaleyI",
+      "page": 9159
+    },
+    {
+      "title": "S0471 | SCOREBOARD 2026-10-03 Band1 Hadamard 12120 PaleyI",
+      "page": 9160
+    },
+    {
+      "title": "S0472 | SCOREBOARD 2026-10-03 Band1 Hadamard 12144 PaleyI",
+      "page": 9161
+    },
+    {
+      "title": "S0473 | SCOREBOARD 2026-10-03 Band1 Hadamard 12164 PaleyI",
+      "page": 9162
+    },
+    {
+      "title": "S0474 | SCOREBOARD 2026-10-03 Band1 Hadamard 12204 PaleyI",
+      "page": 9163
+    },
+    {
+      "title": "S0475 | SCOREBOARD 2026-10-03 Band1 Hadamard 12212 PaleyI",
+      "page": 9164
+    },
+    {
+      "title": "S0476 | SCOREBOARD 2026-10-03 Band1 Hadamard 12228 PaleyI",
+      "page": 9165
+    },
+    {
+      "title": "S0477 | SCOREBOARD 2026-10-03 Band1 Hadamard 12240 PaleyI",
+      "page": 9166
+    },
+    {
+      "title": "S0478 | SCOREBOARD 2026-10-03 Band1 Hadamard 12252 PaleyI",
+      "page": 9167
+    },
+    {
+      "title": "S0479 | SCOREBOARD 2026-10-03 Band1 Hadamard 12264 PaleyI",
+      "page": 9168
+    },
+    {
+      "title": "S0480 | SCOREBOARD 2026-10-03 Band1 Hadamard 12324 PaleyI",
+      "page": 9169
+    },
+    {
+      "title": "S0481 | SCOREBOARD 2026-10-03 Band1 Hadamard 12344 PaleyI",
+      "page": 9170
+    },
+    {
+      "title": "S0482 | SCOREBOARD 2026-10-03 Band1 Hadamard 12348 PaleyI",
+      "page": 9171
+    },
+    {
+      "title": "S0483 | SCOREBOARD 2026-10-03 Band1 Hadamard 12380 PaleyI",
+      "page": 9172
+    },
+    {
+      "title": "S0484 | STATUS BOARD 2026-10-03 Band1 Hadamard 11928 PaleyI",
+      "page": 9173
+    },
+    {
+      "title": "S0485 | STATUS BOARD 2026-10-03 Band1 Hadamard 11940 PaleyI",
+      "page": 9174
+    },
+    {
+      "title": "S0486 | STATUS BOARD 2026-10-03 Band1 Hadamard 11960 PaleyI",
+      "page": 9175
+    },
+    {
+      "title": "S0487 | STATUS BOARD 2026-10-03 Band1 Hadamard 11972 PaleyI",
+      "page": 9176
+    },
+    {
+      "title": "S0488 | STATUS BOARD 2026-10-03 Band1 Hadamard 11988 PaleyI",
+      "page": 9177
+    },
+    {
+      "title": "S0489 | STATUS BOARD 2026-10-03 Band1 Hadamard 12008 PaleyI",
+      "page": 9178
+    },
+    {
+      "title": "S0490 | STATUS BOARD 2026-10-03 Band1 Hadamard 12012 PaleyI",
+      "page": 9179
+    },
+    {
+      "title": "S0491 | STATUS BOARD 2026-10-03 Band1 Hadamard 12044 PaleyI",
+      "page": 9180
+    },
+    {
+      "title": "S0492 | STATUS BOARD 2026-10-03 Band1 Hadamard 12072 PaleyI",
+      "page": 9181
+    },
+    {
+      "title": "S0493 | STATUS BOARD 2026-10-03 Band1 Hadamard 12108 PaleyI",
+      "page": 9182
+    },
+    {
+      "title": "S0494 | STATUS BOARD 2026-10-03 Band1 Hadamard 12120 PaleyI",
+      "page": 9183
+    },
+    {
+      "title": "S0495 | STATUS BOARD 2026-10-03 Band1 Hadamard 12144 PaleyI",
+      "page": 9184
+    },
+    {
+      "title": "S0496 | STATUS BOARD 2026-10-03 Band1 Hadamard 12164 PaleyI",
+      "page": 9185
+    },
+    {
+      "title": "S0497 | STATUS BOARD 2026-10-03 Band1 Hadamard 12204 PaleyI",
+      "page": 9186
+    },
+    {
+      "title": "S0498 | STATUS BOARD 2026-10-03 Band1 Hadamard 12212 PaleyI",
+      "page": 9187
+    },
+    {
+      "title": "S0499 | STATUS BOARD 2026-10-03 Band1 Hadamard 12228 PaleyI",
+      "page": 9188
+    },
+    {
+      "title": "S0500 | STATUS BOARD 2026-10-03 Band1 Hadamard 12240 PaleyI",
+      "page": 9189
+    },
+    {
+      "title": "S0501 | STATUS BOARD 2026-10-03 Band1 Hadamard 12252 PaleyI",
+      "page": 9190
+    },
+    {
+      "title": "S0502 | STATUS BOARD 2026-10-03 Band1 Hadamard 12264 PaleyI",
+      "page": 9191
+    },
+    {
+      "title": "S0503 | STATUS BOARD 2026-10-03 Band1 Hadamard 12324 PaleyI",
+      "page": 9192
+    },
+    {
+      "title": "S0504 | STATUS BOARD 2026-10-03 Band1 Hadamard 12344 PaleyI",
+      "page": 9193
+    },
+    {
+      "title": "S0505 | STATUS BOARD 2026-10-03 Band1 Hadamard 12348 PaleyI",
+      "page": 9194
+    },
+    {
+      "title": "S0506 | STATUS BOARD 2026-10-03 Band1 Hadamard 12380 PaleyI",
+      "page": 9195
+    },
+    {
+      "title": "S0507 | SCOREBOARD 2026-10-09 Band1 Hadamard 14324 PaleyI",
+      "page": 9196
+    },
+    {
+      "title": "S0508 | SCOREBOARD 2026-10-09 Band1 Hadamard 14328 PaleyI",
+      "page": 9198
+    },
+    {
+      "title": "S0509 | SCOREBOARD 2026-10-09 Band1 Hadamard 14348 PaleyI",
+      "page": 9200
+    },
+    {
+      "title": "S0510 | SCOREBOARD 2026-10-09 Band1 Hadamard 14356 PaleyII",
+      "page": 9202
+    },
+    {
+      "title": "S0511 | SCOREBOARD 2026-10-09 Band1 Hadamard 14388 PaleyI",
+      "page": 9203
+    },
+    {
+      "title": "S0512 | SCOREBOARD 2026-10-09 Band1 Hadamard 14408 PaleyI",
+      "page": 9205
+    },
+    {
+      "title": "S0513 | SCOREBOARD LATEST",
+      "page": 9207
+    },
+    {
+      "title": "S0514 | STATUS BOARD 2026-10-09 Band1 Hadamard 14324 PaleyI",
+      "page": 9209
+    },
+    {
+      "title": "S0515 | STATUS BOARD 2026-10-09 Band1 Hadamard 14328 PaleyI",
+      "page": 9211
+    },
+    {
+      "title": "S0516 | STATUS BOARD 2026-10-09 Band1 Hadamard 14348 PaleyI",
+      "page": 9213
+    },
+    {
+      "title": "S0517 | STATUS BOARD 2026-10-09 Band1 Hadamard 14356 PaleyII",
+      "page": 9215
+    },
+    {
+      "title": "S0518 | STATUS BOARD 2026-10-09 Band1 Hadamard 14388 PaleyI",
+      "page": 9216
+    },
+    {
+      "title": "S0519 | STATUS BOARD 2026-10-09 Band1 Hadamard 14408 PaleyI",
+      "page": 9218
+    },
+    {
+      "title": "S0520 | STATUS BOARD LATEST",
+      "page": 9220
+    },
+    {
+      "title": "S0521 | SCOREBOARD 2026-10-14 Band1 Hadamard 14772 PaleyI",
+      "page": 9222
+    },
+    {
+      "title": "S0522 | SCOREBOARD 2026-10-14 Band1 Hadamard 14780 PaleyI",
+      "page": 9223
+    },
+    {
+      "title": "S0523 | STATUS BOARD 2026-10-14 Band1 Hadamard 14772 PaleyI",
+      "page": 9224
+    },
+    {
+      "title": "S0524 | STATUS BOARD 2026-10-14 Band1 Hadamard 14780 PaleyI",
+      "page": 9225
+    },
+    {
+      "title": "S0525 | SCOREBOARD 2026-10-15 Band1 Hadamard 14844 PaleyI",
+      "page": 9226
+    },
+    {
+      "title": "S0526 | SCOREBOARD 2026-10-15 Band1 Hadamard 14852 PaleyI",
+      "page": 9227
+    },
+    {
+      "title": "S0527 | SCOREBOARD 2026-10-15 Band1 Hadamard 14868 PaleyI",
+      "page": 9228
+    },
+    {
+      "title": "S0528 | SCOREBOARD 2026-10-15 Band1 Hadamard 14880 PaleyI",
+      "page": 9229
+    },
+    {
+      "title": "S0529 | STATUS BOARD 2026-10-15 Band1 Hadamard 14844 PaleyI",
+      "page": 9230
+    },
+    {
+      "title": "S0530 | STATUS BOARD 2026-10-15 Band1 Hadamard 14852 PaleyI",
+      "page": 9231
+    },
+    {
+      "title": "S0531 | STATUS BOARD 2026-10-15 Band1 Hadamard 14868 PaleyI",
+      "page": 9232
+    },
+    {
+      "title": "S0532 | STATUS BOARD 2026-10-15 Band1 Hadamard 14880 PaleyI",
+      "page": 9233
+    },
+    {
+      "title": "S0533 | SCOREBOARD 2026-10-16 Band1 Hadamard 14924 PaleyI",
+      "page": 9234
+    },
+    {
+      "title": "S0534 | SCOREBOARD 2026-10-16 Band1 Hadamard 14980 PaleyII",
+      "page": 9235
+    },
+    {
+      "title": "S0535 | SCOREBOARD 2026-10-16 Band1 Hadamard 14984 PaleyI",
+      "page": 9236
+    },
+    {
+      "title": "S0536 | SCOREBOARD 2026-10-16 Band1 Hadamard 15032 PaleyI",
+      "page": 9237
+    },
+    {
+      "title": "S0537 | SCOREBOARD 2026-10-16 Band1 Hadamard 15036 PaleyII",
+      "page": 9238
+    },
+    {
+      "title": "S0538 | SCOREBOARD 2026-10-16 Band1 Hadamard 15060 PaleyII",
+      "page": 9239
+    },
+    {
+      "title": "S0539 | SCOREBOARD 2026-10-16 Band1 Hadamard 15076 PaleyII",
+      "page": 9240
+    },
+    {
+      "title": "S0540 | STATUS BOARD 2026-10-16 Band1 Hadamard 14924 PaleyI",
+      "page": 9241
+    },
+    {
+      "title": "S0541 | STATUS BOARD 2026-10-16 Band1 Hadamard 14980 PaleyII",
+      "page": 9242
+    },
+    {
+      "title": "S0542 | STATUS BOARD 2026-10-16 Band1 Hadamard 14984 PaleyI",
+      "page": 9243
+    },
+    {
+      "title": "S0543 | STATUS BOARD 2026-10-16 Band1 Hadamard 15032 PaleyI",
+      "page": 9244
+    },
+    {
+      "title": "S0544 | STATUS BOARD 2026-10-16 Band1 Hadamard 15036 PaleyII",
+      "page": 9245
+    },
+    {
+      "title": "S0545 | STATUS BOARD 2026-10-16 Band1 Hadamard 15060 PaleyII",
+      "page": 9246
+    },
+    {
+      "title": "S0546 | STATUS BOARD 2026-10-16 Band1 Hadamard 15076 PaleyII",
+      "page": 9247
+    },
+    {
+      "title": "S0547 | SCOREBOARD 2026-10-17 Band1 Hadamard 15084 PaleyI",
+      "page": 9248
+    },
+    {
+      "title": "S0548 | STATUS BOARD 2026-10-17 Band1 Hadamard 15084 PaleyI",
+      "page": 9249
+    },
+    {
+      "title": "S0549 | SCOREBOARD LATEST",
+      "page": 9250
+    },
+    {
+      "title": "S0550 | STATUS BOARD LATEST",
+      "page": 9251
+    }
+  ]
+}

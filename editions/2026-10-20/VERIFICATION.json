@@ -1,0 +1,37 @@
+{
+  "all_source_content_streams_and_page_geometry_match": true,
+  "public_pages_checked": 9252,
+  "full_pages_checked": 9542,
+  "supplement_pages_checked": 1849,
+  "original_supplement_files_sha256_verified": 551,
+  "qpdf_checks": {
+    "01_Combined_Research_Collection_PUBLIC_2026-10-20.pdf": {
+      "returncode": 0,
+      "output": "checking /Users/christophermichaelbaird/LocalASI_Dev/output/pdf/Zenodo_Research_Collection_2026-10-20/PUBLIC_ZENODO_UPLOAD/01_Combined_Research_Collection_PUBLIC_2026-10-20.pdf\nPDF Version: 1.5\nFile is not encrypted\nFile is not linearized\nNo syntax or stream encoding errors found; the file may still contain\nerrors that qpdf cannot detect\n"
+    },
+    "01_Combined_Research_Collection_FULL_REVIEW_2026-10-20.pdf": {
+      "returncode": 0,
+      "output": "checking /Users/christophermichaelbaird/LocalASI_Dev/output/pdf/Zenodo_Research_Collection_2026-10-20/FULL_COLLECTION_LOCAL_REVIEW/01_Combined_Research_Collection_FULL_REVIEW_2026-10-20.pdf\nPDF Version: 1.5\nFile is not encrypted\nFile is not linearized\nNo syntax or stream encoding errors found; the file may still contain\nerrors that qpdf cannot detect\n"
+    },
+    "07_Research_Supplement.pdf": {
+      "returncode": 0,
+      "output": "checking /Users/christophermichaelbaird/LocalASI_Dev/output/pdf/Zenodo_Research_Collection_2026-10-20/PUBLIC_ZENODO_UPLOAD/07_Research_Supplement.pdf\nPDF Version: 1.5\nFile is not encrypted\nFile is not linearized\nNo syntax or stream encoding errors found; the file may still contain\nerrors that qpdf cannot detect\n"
+    },
+    "02_Collection_Catalogue.pdf": {
+      "returncode": 0,
+      "output": "checking /Users/christophermichaelbaird/LocalASI_Dev/output/pdf/Zenodo_Research_Collection_2026-10-20/PUBLIC_ZENODO_UPLOAD/02_Collection_Catalogue.pdf\nPDF Version: 1.4\nFile is not encrypted\nFile is not linearized\nNo syntax or stream encoding errors found; the file may still contain\nerrors that qpdf cannot detect\n"
+    }
+  },
+  "valid_bookmark_counts": {
+    "01_Combined_Research_Collection_PUBLIC_2026-10-20.pdf": 666,
+    "01_Combined_Research_Collection_FULL_REVIEW_2026-10-20.pdf": 833,
+    "07_Research_Supplement.pdf": 557
+  },
+  "public_baseline_referenced_named_destinations_preserved": 19,
+  "science_tests_rerun": false,
+  "visual_review_scope": "New editorial pages, catalogue samples, current report and selected source transitions; not every historical source page.",
+  "visual_review_completed": true,
+  "visual_review_result": "New covers, editorial pages, catalogue samples and current-report samples were inspected; corrected supplement-guide overflow before final assembly.",
+  "repaired_core_page_6384_pixel_comparison": "Both expanded editions match the canonical source pixel-for-pixel at maximum dimension 1100.",
+  "portable_rebuild_test": "PASS: 9252 pages rebuilt using the shipped plan; decoded page-content hashes and geometry match the public master on all pages."
+}

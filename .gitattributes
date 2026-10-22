@@ -1,0 +1,4 @@
+# CSV exports use CRLF. Preserve the packaged bytes and allow CR at line ends.
+editions/**/*.csv -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Historical text samples intentionally preserve source trailing spaces.
+editions/2026-10-20/baseline_review/DUPLICATES.csv whitespace=-blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

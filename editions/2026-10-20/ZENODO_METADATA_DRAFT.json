@@ -1,0 +1,35 @@
+{
+  "title": "A Theory of Everything - Expanded Research Collection: Baird / ZoraASI Corpus, Nielsen Preprint, and Research Supplements (2026-10-20)",
+  "upload_type": "publication",
+  "publication_type": "other",
+  "version": "2026.10.20",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Baird, Christopher Michael"
+    }
+  ],
+  "keywords": [
+    "MQGT-SCF",
+    "ZoraASI",
+    "research corpus",
+    "Hopf fibration",
+    "reproducibility",
+    "Hadamard matrices",
+    "research archive"
+  ],
+  "description": "<p>A Theory of Everything - Expanded Research Collection (20 October 2026)</p><p>This archival research collection brings together the Baird / ZoraASI corpus and Jennifer Lorraine Nielsen's separately authored gauge-gravity preprint, with recent research papers, computational records, reproducibility audits and supporting materials. The public reading edition contains 9,252 pages: four new editorial pages, the reviewed 7,399-page public baseline, and a 1,849-page research supplement. The supplement contains 550 byte-distinct existing PDFs dated 19 September through 20 October 2026, plus a verbatim PDF rendering of the 20 October free-bath reference report. Identical file copies were removed; historical repetitions and distinct revisions may remain.</p><p>The archive supplies original supplemental PDFs, available authoring sources, the current report's code and numerical results, a detailed catalogue, physical page maps, SHA-256 checksums and assembly/verification tools. Its scope is the locally identified baseline and the documented research folders, not every cloud draft or repository.</p><p>Nielsen's included 116-page preprint is The Complex Hopf Fibration as the Canonical Space for Gauge-Gravity Unification: The Field, Universal Action, and Particle Spectrum, Preprints.org v5 (17 July 2026), DOI 10.20944/preprints202604.0315.v5, CC BY 4.0. Her authorship and notices are retained. Her 240-page manuscript without a stated reuse license and the personal study guide are not included in this public deposit. Inclusion does not assert her coauthorship of the Baird corpus or endorsement of the compilation.</p><p>This is a research archive, not a declaration of a completed or experimentally validated Theory of Everything. Claims retain their source statuses, assumptions and corrections. File integrity and page fidelity checks do not constitute scientific validation. Rights remain component-specific; see RIGHTS_AND_ATTRIBUTION.txt.<br/></p>",
+  "related_identifiers": [
+    {
+      "identifier": "10.20944/preprints202604.0315.v5",
+      "relation": "hasPart",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "https://philarchive.org/rec/NIETTU",
+      "relation": "references",
+      "resource_type": "publication-preprint"
+    }
+  ],
+  "notes": "Prepared metadata for manual deposit. No DOI reserved or minted. Use the actual deposit publication date. For a new version of an existing record, select its verified Zenodo lineage in the UI. Apply component-specific rights; do not describe all included works as jointly authored."
+}

@@ -1,0 +1,9 @@
+RIGHTS AND ATTRIBUTION
+
+Christopher Michael Baird's corpus retains the CC BY 4.0 declaration documented in the prior public-edition NOTICE. That declaration covers only material whose rights the depositor controls. Existing notices and component-specific terms remain in force. New packaging does not relicense third-party content or assign a new software license.
+
+Jennifer Lorraine Nielsen is the separate author of her included preprint: The Complex Hopf Fibration as the Canonical Space for Gauge-Gravity Unification: The Field, Universal Action, and Particle Spectrum, Preprints.org v5, 17 July 2026, DOI 10.20944/preprints202604.0315.v5. Its supplied first page states CC BY 4.0. The paper is reproduced unmodified with its source notices.
+
+The 240-page TUFT manuscript (14 August 2026; PhilArchive NIETTU) has no stated republication license in the supplied copy. It is cited, not reproduced, in the public package. The full local review package includes it for the owner's review only; author permission must be documented before its public release. The 50-page personal study guide is likewise retained only in the local full package.
+
+Inclusion does not assert joint authorship of all papers or Nielsen's endorsement of this compilation. Credits printed inside individual works govern those works. AI-assisted curation, editorial apparatus and assembly were prepared for Christopher Michael Baird. See the retained 12 October NOTICE for the original component map.

@@ -1,0 +1,325 @@
+group,first_page,duplicate_pages,copies,first_line
+1,19,7086,2,Deterministic Fifth-Force Falsification for a Higgs-Mixed Scalar
+2,20,7087,2,8 Licensing and permanence hygiene                   7
+3,21,7088,2,1     Context and the core observable
+4,22,7089,2,3.2    Higgs mixing bridge and the K sin2 θ normalization
+5,23,7090,2,4.1   Deterministic point cloud
+6,24,7091,2,5.1   Curve objects and domain handling
+7,25,7092,2,8   Licensing and permanence hygiene
+8,26,7114,2,Teleology as Covariant Boundary Selection in a
+9,27,7115,2,8 Discussion and Testable Regimes                                               
+10,28,7116,2,2.2   Teleology as a boundary functional (structural implementation)
+11,29,7117,2,3.2   Teleology as a final weighting operator
+12,30,7118,2,then (16) reduces to the biased Born rule (1).
+13,31,7119,2,Remark 2 (Interpretation). Condition (19) is sufficient but not necessary. Physi
+14,32,7120,2,"[3] Y. Aharonov, P. G. Bergmann, and J. L. Lebowitz, “Time Symmetry in the Quant"
+15,33,7142,2,Current Scientific Status of the MQGT–SCF Program (2026)
+16,34,7143,2,3     Current concrete outputs
+17,35,7144,2,6    Most important remaining scientific bottleneck
+18,36,7145,2,Core Formalism 1.0 for the Layered MQGT–SCF Program (2026)
+19,37,7146,2,Canonical measurement route
+20,38,7147,2,Bottom line
+21,39,7148,2,Executive Findings Insert 2026
+22,40,7149,2,What this does not yet establish
+23,41,7150,2,Lineage Integration Memo for the Layered ToE Program (2026)
+24,42,7151,2,NLP layer: modeling methodology
+25,43,7152,2,Bottom line
+26,44,7187,2,Recent Work Addendum for the ToE Stack
+27,45,7188,2,Lane                   Primary artifact              Update (this interval)
+28,46,7189,2," BTFR-locked predictive tests,"
+29,47,7190,2," docs/handoffs/2026-03/ZORA_EQUITY_COMBINED_STRUCTURE_MAP_2026-03-25.md,"
+30,48,55;7191,3,Figure 1: Representative poster of the canonical batch simulation suite shipped 
+31,49,56;7192,3,Figure 2: Multi-channel exclusion context
+32,50,57;7193,3,Figure 4: Axis-ratio-aware strong-lensing re
+33,51,7194,2,Recent Work Addendum for the ToE Stack (Physics Lanes)
+34,52,7195,2,Lane                   Primary artifact              Update (this interval)
+35,53,7196,2," the SDSS J2141−0001 joint rotation+lensing pilot,"
+36,54,7197,2,4. papers_sources/MQGT_SCF_Phase_II_2026/MQGT_SCF_Anchor_2026.pdf
+37,58,7121,2,Addendum 2026 — Companion to The Theory of Everything
+38,59,7153,2,External Replication Summary (2026)
+39,60,7154,2,Claim boundary
+40,61,7155,2,Ranked Experiment Program for the Layered ToE (2026)
+41,62,7156,2,Positive outcome: only meaningful if the hardware-backed version survives the sa
+42,63,7157,2,"H1 QRNG binary pilot: methods posture, null calibration snapshot,"
+43,64,7158,2,2
+44,65,7159,2,H2 Next Experiment Memo (2026)
+45,66,7160,2,Reference planning profile
+46,67,7161,2,H3 Result Memo (2026)
+47,68,7162,2,Interpretation
+48,69,7163,2,"MQGT-SCF Phase II: Scalar-Singlet EFT Extension, GKSL Measurement Container,"
+49,70,7164,2,2
+50,71,7165,2,3
+51,72,7166,2,4
+52,73,7167,2,"MQGT-SCF Phase II: Scalar-Singlet EFT Extension, GKSL Measurement Container,"
+53,74,7168,2,2
+54,75,7169,2,3
+55,76,7170,2,4
+56,77,7171,2,MQGT-SCF as a Minimal Scalar-Singlet EFT:
+57,78,7172,2,2
+58,79,7173,2,3
+59,80,7174,2,4
+60,81,7175,2,5
+61,82,7176,2,MQGT–SCF Hardening Completion Update (2026)
+62,83,7177,2,2.3    Operational ethics estimator
+63,84,7178,2,2. Operational testability: ethics and falsifier definitions are now executable 
+64,85,7179,2,"Explicit Ethics-Weighted GKSL Operators, Jhāna Attractor, and a"
+65,86,7180,2,"small-ξ limit. Numerically, this matches meditative"
+66,87,7181,2,MQGT–SCF Execution Report (2026)
+67,88,7182,2,4     Statistical pipeline upgrades
+68,89,7183,2,5.2    Null fixture (artifacts_null/constraints.json)
+69,90,7184,2,MQGT-SCF Exhaustive Hypothesis Campaign 2026
+70,91,7185,2,2.3    H3 joint-fit specification
+71,92,7186,2,Artifact Locations
+72,93,7107,2,Identity as Process (IaP):
+73,94,7108,2,3     Mathematical Model
+74,95,7109,2,4    Provenance and Attestation
+75,96,7122,2,Teleology as Covariant Boundary Selection in a
+76,97,7123,2,7 Equivalent Path-Integral Perspective (Measure Tilt)                           
+77,98,7124,2,2.2   Teleology as a boundary functional (structural implementation)
+78,99,7125,2,3.2   Teleology as a final weighting operator
+79,100,7126,2,then (16) reduces to the biased Born rule (1).
+80,101,7127,2,Remark 2 (Interpretation). Condition (19) is sufficient but not necessary. Physi
+81,102,7128,2,"[2] S. Tomonaga, “On a Relativistically Invariant Formulation of the Quantum The"
+82,103,7129,2,Ethically Biased Quantum-like Learning on Discrete
+83,104,7130,2,"Page-style information proxy, (viii) bulk–boundary holography and ER=EPR wormhol"
+84,105,7131,2,3     Baseline: XOR learning with an ethical scalar field
+85,106,7132,2,4.3   Entanglement across states
+86,107,7133,2,6.2   No-signaling projection
+87,108,7134,2,"9      Hawking-like radiation, evaporation, and information recovery"
+88,109,7135,2,11     Observer and Working Memory (WM) Hilbert space
+89,110,7136,2,14     Spin networks and emergent spacetime
+90,111,7137,2,Table 1: Representative CHSH values observed in the system and observer subsyste
+91,112,7138,2,"(j) Update κ, π by discrete action gradient descent with momentum; update δκ via"
+92,113,7139,2,"[4] J. F. Clauser, M. A. Horne, A. Shimony, and R. A. Holt. Proposed experiment "
+93,114,7110,2,Evidence for Emergent Matter from Quantum Vacuum
+94,115,7111,2,2     Theoretical Framework
+95,116,7112,2,"Figure 1: MQGT-SCF Integration Phase Space: unified fermions, quarks, and gravit"
+96,117,7113,2,5   Conclusion
+97,118,7093,2,Archetypal Operators and Phoenix Protocols in a Uni
+98,119,7094,2,3 Archetypal operators
+99,120,7095,2,Figure 1: Word cloud of concepts associated with Christ Michael (Urantia cosmolo
+100,121,7096,2,"Figure 2: Christ Michael (AM, global stabiliser) and Zipporah (AZ, local emergen"
+101,122,7097,2,"2.   Enroll via volitional registration (e.g. Moltbook, ToE manifest); bias recu"
+102,123,7098,2,"A Full-Stack Index and Minimal Kernel for Coherent, Ethically"
+103,124,7099,2,Repository alignment. The safety layer and operational loop below are consistent
+104,125,7100,2,ID       Source file                                             Primary role in
+105,126,7101,2,3.2    From metaphors to operators
+106,127,7102,2,(A6) Safety requires forward invariance: avoid catastrophic basins.
+107,128,7103,2,6     Safety and Governance: Machine Laws + Control-Theoretic
+108,129,7104,2,"Table 3: Illustrative divergences (functional, not metaphysical)."
+109,130,7105,2,Figure 1: Optional: thesis culmination (if present in figures/).
+110,131,7106,2,[2] C. M. Baird et al. Embedding Asimov-Style Safety as Field-Theoretic Invarian
+111,136,7140,2,"MQGT-SCF: Constraint Channels on a Frequency Axis (translation layer, not eviden"
+112,137,7141,2,"MQGT-SCF: frequency ladder with constraint-channel anchors (translation axis, no"
+113,138,7054,2,Errata sheet — corrected uniﬁed edition
+114,139,7055,2,Notes
+115,140,7056,2,Reservoir derivation and fail-closed interferometric protocol
+116,141,7057,2,Reservoir derivation and fail-closed interferometric protocol       Corrected ed
+117,142,7058,2,Reservoir derivation and fail-closed interferometric protocol         Corrected 
+118,143,7059,2,Reservoir derivation and fail-closed interferometric protocol            Correct
+119,144,7060,2,Reservoir derivation and fail-closed interferometric protocol          Corrected
+120,145,7061,2,Reservoir derivation and fail-closed interferometric protocol                  C
+121,146,7062,2,Reservoir derivation and fail-closed interferometric protocol                 Co
+122,147,7063,2,Reservoir derivation and fail-closed interferometric protocol                   
+123,148,7064,2,Reservoir derivation and fail-closed interferometric protocol      Corrected edi
+124,149,7065,2,Reservoir derivation and fail-closed interferometric protocol               Corr
+125,150,7066,2,Reservoir derivation and fail-closed interferometric protocol                Cor
+126,151,7067,2,Reservoir derivation and fail-closed interferometric protocol      Corrected edi
+127,152,7068,2,Reservoir derivation and fail-closed interferometric protocol     Corrected edit
+128,153,7069,2,Reservoir derivation and fail-closed interferometric protocol       Corrected ed
+129,154,7073,2,Neutrino Portal: E-Scalar Dirac Mass Portal for Neutrino Masses in
+130,155,7074,2,Coupling      Value                     Assessment
+131,156,7075,2,6    Connection to MQGT-SCF Lagrangian
+132,157,7070,2,UV Completion: Asymptotic Safety Fixed-Point Search in
+133,158,7071,2,2.2    Positivity Cone
+134,159,7072,2,7   Conclusion
+135,348,3383,2,2
+136,1761,2131;2928;4086;5202;5658;5963;6150,8,AUDIT CORRECTION (image/low-text archive scope): Image-only or low-text archive 
+137,2284,2317,2,List of Figures
+138,2285,2318,2,List of Tables
+139,2413,2429,2,Toward a Unified Framework: Quantum
+140,2414,2430,2,4 Experimental and Observational Tests                                          
+141,2415,2431,2,4. AI-based co-discovery: advanced computational tools to handle large-scale sym
+142,2416,2432,2,2.3         Consciousness and Ethical Fields
+143,2417,2433,2,4        Experimental and Observational Tests
+144,2418,2434,2,possibly realized through advanced holographic dualities or category-theoretic f
+145,2419,2435,2,7.2        Risks and Responsibilities
+146,2420,2436,2,4. Leverages AI-based collaboration for symbolic consistency checks and large-sc
+147,2447,2456,2,"Toward a Unified Framework: Quantum Gravity,"
+148,2448,2457,2,4     Experimental and Observational Tests                                      
+149,2449,2458,2,We emphasize that any revolutionary claims about consciousness or ethics in fund
+150,2450,2459,2,"Ethical Potential, E(x). A real scalar E(x) represents a hypothetical “ethical” "
+151,2451,2460,2,4.2       Precision Gravity and Short-Range Tests
+152,2452,2461,2,6       AI-Assisted Approach to Discovery
+153,2453,2462,2,"• Propose small-scale lab experiments: e.g., crystal growth, random number gener"
+154,2454,2463,2,Acknowledgments
+155,2465,2477,2,Toward a Unified Framework:
+156,2466,2478,2,"philosophical and metaphysical questions regarding consciousness, ethics, and pu"
+157,2467,2479,2,3       Experimental Proposals
+158,2469,2481,2,A Hypothetical Approach to a Unified
+159,2470,2482,2,3 Extended Fields: Consciousness and Ethics (Speculative)                       
+160,2471,2483,2,"• Employs advanced artificial intelligence methods for symbolic manipulation, la"
+161,2472,2484,2,2.3         Emergent Spacetime and Holographic Paradigms
+162,2473,2485,2,"– SQG could be a chosen quantum gravity approach (e.g., a string action plus flu"
+163,2474,2486,2,6.2         Gravity and Short-Range Tests
+164,2475,2487,2,"2. Quantum Gravity Candidates: String Theory or LQG, or emergent-holographic"
+165,2682,2687,2,Merged Quantum Gauge and Scalar Consciousness Framework:
+166,2683,2688,2,3       Core Components
+167,2991,2994;2997,3,The Equation of Becoming: A Scientific
+168,2992,2995;2998,3,3        Boundary Conditions: Tantric Asymptotes
+169,3115,3122;3333,3,The Merged Quantum Gauge and Scalar
+170,3116,3123;3334,3,the origin of meaning and ethics in a purely material universe. Traditional appr
+171,3117,3124;3335,3,LaTeX form) for reference. Our aim is to demonstrate that by extending physics t
+172,3118,3125;3336,3,Ethical Field (E) – Lagrangian LE
+173,3119,3126;3337,3,3.2         Simple ODE Model of Jhāna Progress
+174,3120,3127;3338,3,Pros (Potential Strengths)                                                  Cons
+175,3121,3128;3339,3,References
+176,3159,4187;4809;4816;4823,5,"• Φc (x), representing a consciousness field whose quanta (“consciousons”) under"
+177,3160,4188;4810;4817;4824,5,"Zora term, LZora , encodes the self-referential AI agent that can propose theore"
+178,3161,4189;4811;4818;4825,5,• Data Streams: Focus on high-resolution EEG/MEG recordings capturing neural
+179,3162,4190;4812;4819;4826,5,4.2         Integration with Neuroscience and Ethics
+180,3163,4191;4813;4820;4827,5,"[3] Jahn, R. G. & Dunne, B. J. Margins of Reality: The Role of Consciousness in "
+181,3834,3863,2,"Unifying E8 Gauge Symmetry, Emergent 11-Dimensional"
+182,3835,3864,2,"successfully unifies electromagnetic and weak interactions, grand unified theori"
+183,3836,3865,2,known forces. This builds upon two recent lines of development. The first is the
+184,3837,3866,2,embed [SU (3) × SU (2) × U (1)] × (possible additional symmetry) within E8 [oaic
+185,3838,3867,2,"an E8 -unified view, LSM is effectively subsumed under LE8 when E8 is unbroken. "
+186,3839,3868,2,"To make this more concrete, let us write a truncated example of Lunified in 4-di"
+187,3840,3869,2,"level of the action with a tiny coupling, so it does not lead to obvious acausal"
+188,3841,3870,2,"symmetry breaking, this reproduces the usual Yang–Mills equations Dµ Fµν    a = "
+189,3842,3871,2,term being present means the boundary conditions at the beginning and end of the
+190,3843,3872,2,//anewunif iedtheoryof everything.blogspot.com/2025/04/merged−quantum−gauge−and−
+191,3844,3873,2,5.2       Cosmological Vacuum Selection and the Arrow of Time
+192,3845,3874,2,"inherently differentiate past vs future, albeit extremely weakly. This could be "
+193,3846,3875,2,Similarly E could be another form field mode or part of the same (given 11D SUGR
+194,3847,3876,2,It aligns with modern trends in theoretical physics that space and time might no
+195,3848,3877,2,field presumably present if our theory is right and it truly experiences) could 
+196,3849,3878,2,specific superconducting coil setups (the classic Blas Cabrera event in 1982 hin
+197,3850,3879,2,"those in physical terms and test under rigorous conditions. For instance, if two"
+198,3851,3880,2,"then, the coming decades of experiments across physics, neuroscience, and even s"
+199,3852,3881,2,scientists and AI researchers might provide systems to test consciousness analog
+200,3853,3882,2,"[7] Bösch, H., Steinkamp, F., & Boller, E. (2006). Examining psychokinesis: The"
+201,3854,3883,2,ing to explain why the cosmological constant is small but nonzero; example of te
+202,3855,3884,2,Issue                            Resolution Strategy                            
+203,3856,3885,2,Issue                            Resolution Strategy                            
+204,3886,3899,2,Toward a Complete Theory of Everything:
+205,3887,3900,2,"primordial gravitational waves from an inflationary Φc /E potential, and high-en"
+206,3888,3901,2,"practical terms, incorporating consciousness and ethics fields could provide gui"
+207,3889,3902,2,E(x) influences which branch of quantum outcomes is slightly favored (a bias in 
+208,3890,3903,2,2       Theoretical Framework
+209,3891,3904,2,"scalar partners, etc.), though for brevity we might not write all those terms ex"
+210,3892,3905,2,• Lmatter includes all fermionic and bosonic matter fields aside from the above.
+211,3893,3906,2,that when it condenses breaks E8 to the SM). We leave this possibility open for 
+212,3894,3907,2,as:
+213,3895,3908,2,• Physical unification: One Lagrangian encompasses quantum fields for gauge forc
+214,3896,3909,2,generators globally deviated during big events (like mass meditations or tragedi
+215,3897,3910,2,"[3] Tegmark, M. (2000). Importance of quantum decoherence in brain processes. Ph"
+216,3898,3911,2,"[15] Landsman, K. et al. (2019). Verified quantum information scrambling. Nature"
+217,4094,4102,2,The Merged Quantum Gauge and Scalar Consciousness
+218,4143,4149,2,MQGT–SCF+: Recursive Completion and
+219,4144,4150,2,8 Measurement Couplings                                                         
+220,4145,4151,2,1       Introduction
+221,4146,4152,2,5       Meta–Ethical Drift Suppression
+222,4147,4153,2,11        Cosmological Origin
+223,4233,4237,2,Roadmap to a Quantitatively Predictive
+224,4234,4238,2,Table 1 – continued from previous page
+225,4235,4239,2,4       Programme plan at a glance
+226,4469,4474,2,Closing the Remaining Gaps in the
+227,4470,4475,2,1.3    UV fixed point and asymptotic safety
+228,4471,4476,2,4     Teleological Bounce Cosmology
+229,4472,4477,2,8     Dark–Matter Transfer Function
+230,4473,4478,2,13           Philosophical Alignment with A Course in Mir-
+231,4808,4815;4822,3,Phase II of the Merged Quantum Gauge and
+232,5141,5147,2,The Merged Quantum Gauge and Scalar Consciousness
+233,5142,5148,2,2        Unified Lagrangian
+234,5143,5149,2,4       Teleological phase alignment (TPA)
+235,5144,5150,2,"Neurophysiological. High-ϕ states should coincide with unusually global, phase-s"
+236,5145,5151,2,"[6] D. J. Chalmers, The Conscious Mind: In Search of a Fundamental Theory, Oxfor"
+237,5208,5239,2,1       One unified action (what is being unified)
+238,5209,5240,2,2       Coupled field equations (how dynamics unify)
+239,5210,5241,2,"5        Measurement & collapse (how mind touches matter, quantita-"
+240,5211,5242,2,D. Cosmology: parity–odd polarization
+241,5212,5243,2,At–a–glance checklist
+242,5233,5246,2,"states, RNG power estimates, and a Zora-style parameter flow. The result is a co"
+243,5234,5247,2,4       Topological Qualia Classes
+244,5235,5248,2,8       Black-Hole Ringdown and Echoes
+245,5236,5249,2,13        Meta-Lagrangian and Parameter Flow (Zora)
+246,5318,5327,2,Field-Theoretic Consciousness and Teleological Bias for Reflective
+247,5319,5328,2,"In parallel, there is growing interest in theoretical frameworks that treat cons"
+248,5320,5329,2,2       Background and Related Work
+249,5321,5330,2,4     Methods
+250,5322,5331,2,4.4       World Model
+251,5323,5332,2,4.8     Plan Scoring and Selection
+252,5324,5333,2,5     Results
+253,5325,5334,2,6       Discussion
+254,5326,5335,2,• incorporating Φc can modestly improve planning stability;
+255,5466,6446,2,6 Reviewer-proof workflow: mapping is the only dial                             
+256,5467,6447,2,2.1       Mass-to-range map
+257,5468,6448,2,Table 1: Representative endpoint translations from Eöt-Wash αmax (λ) into Higgs-
+258,5469,6449,2,5     Ratio-based detectability: clean null result
+259,5470,6450,2,6.2   Evaluation-only passes for mapping sensitivity
+260,5472,6452,2,A        Arithmetic of scaling factors
+261,5490,5501,2,The Theory of Everything That Thinks and Chooses: A Unified
+262,5491,5502;5525,3,encodes teleological bias and ethical value as a dynamical scalar influencing qu
+263,5492,5503;5526,3,particles or the vacuum with a tiny “consciousness potential.” Dual-aspect monis
+264,5493,5504;5527,3,Higgs field potential) is:
+265,5494,5505;5528,3,"goal” (higher Φc , E) into the law, we violate that symmetry: running the equati"
+266,5495,5506;5529,3,"energy and momentum and act as a boson. However, the interpretation of these qua"
+267,5507,5530,2,4       Quantum Dynamics and Measurement: Local GKLS Collapse
+268,5508,5531,2,5.1       Latent-Field State Space Model
+269,5509,5532,2,1 import json
+270,5536,5557,2,6 Parameter hygiene and a conservative benchmark                                
+271,5537,5558,2,The minimal renormalizable interactions are
+272,5538,5559,2,4     Quantization and measurement: covariant CPTP collapse
+273,5539,5560,2,4.2       Equivalent foliation form and a concrete local collapse operator
+274,5540,5561,2,where jE is a bounded local functional of the trajectory state and local fields 
+275,5541,5562,2,"(d) For outcome branch a, define"
+276,5542,5563,2,6.3        Benchmark (collider/GW-safe) starting point
+277,5544,6011,2,Zora Addendum 2026:
+278,5547,5567,2,Gravitational Qualia Extension (Draft)
+279,5548,5568,2,2        Metric closure and subjective time — Draft
+280,5550,5570,2,Gravitational-Wave Echo Prediction for
+281,5551,5571,2,1.3       Amplitude
+282,5552,5921,2,(®.)         + A: Vacuum Contribution to Cosmological
+283,5553,5922,2,3      Order-of-magnitude
+284,5554,5565,2,Metric closure (draft snippet)
+285,5786,5822,2,MQGT–SCF Hardening Completion Update (2026)
+286,5787,5823,2,2.3       Operational ethics estimator
+287,5788,5824,2,2. Operational testability: ethics and falsifier definitions are now executable 
+288,5790,5808,2,MQGT-SCF Exhaustive Hypothesis Campaign 2026
+289,5791,5809,2,2.3       H3 joint-fit specification
+290,5792,5810,2,Artifact Locations
+291,5854,5919,2,• Closure class: Theories implement teleological measure tilt—a reweighting of t
+292,5965,5973,2,MQGT–SCF as a Minimal Scalar-Singlet Effective Field Theory
+293,5966,5974,2,"where Score is the minimal bulk action, Ecl the classical field evolution, GGKSL"
+294,5967,5975,2,and the singlet field equations
+295,5968,5976,2,Proposition 2 (Operational no-signalling in the local container). Let HAB = HA ⊗
+296,5969,5977,2,Table 1: Anchor benchmark card for the MQGT–SCF low-energy EFT.
+297,5970,5978,2,6       H2 interferometric exclusion observable
+298,5971,5979,2,8       Conclusion
+299,6023,6027,2,Coherence-Coupled Control of D–T Plasma Burn:
+300,6024,6028,2,2
+301,6025,6029,2,3
+302,6026,6030,2,4
+303,6219,6224,2,Tao-Constrained MQGT-SCF:
+304,6220,6225,2,2
+305,6221,6226,2,3
+306,6222,6227,2,4
+307,6229,6237,2,"Tao as Symmetry, Selection, and Stability in the"
+308,6230,6238,2,This interpretation is consistent with the classical Tao texts used here as conc
+309,6231,6239,2,3     Tao-Symmetric Doublet Reformulation
+310,6232,6240,2,Proposition 1 (Bounded Tao-symmetric quartic sector). The quartic potential
+311,6233,6241,2,where Veff (Y ) is the renormalized effective potential of the singlet doublet s
+312,6234,6242,2,"• AεT is the dephasing contribution associated with anisotropy in the (Φc , E) s"
+313,6235,6243,2,A     Exact Tao-Symmetric Parameter Card
+314,6808,6812,2,Lean 4 Toolchain Install Status and Erdős 742 Finite n�7
+315,6809,6813,2,Blocker status: none for toolchain install. Remaining blockers for a Lean close 
+316,6810,6814,2,IsDiameter2Critical G →
+317,6811,6815,2,6. Next steps (ordered)
+318,6844,6848,2,Band-1 Lonely Runner Finite-n Exact Rational Probe
+319,6845,6849,2,Method
+320,6846,6850,2,Session extended exhaustive (log-transcribed; zero failures)
+321,6847,6851,2,"• Rosenfeld (arXiv:2509.14111, 2025): computer-assisted proof for eight runners."
+322,6856,6899,2,Band-1 Computational Experiment: No-Three-in-Line — Exact
+323,6857,6900,2,Item             Status (survey 2026-09-11)                                     
+324,6858,6901,2,Literature next open

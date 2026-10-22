@@ -1,0 +1,555 @@
+component,source_pages,public_start,public_end,full_start,full_end
+New editorial guide,1-4,1,4,1,4
+Baseline collection,public 1-7399 / full 1-7689,5,7403,5,7693
+Supplement editorial guide,1-3,7404,7406,7694,7696
+R0001 Free-bath reference continuation of Note 52,1-3,7407,7409,7697,7699
+S0001 ARCHIVE INVENTORY CORRECTED 2026-09-19,1-1,7410,7410,7700,7700
+S0002 TOE Interface Addendum Grok 2026-09-19,1-3,7411,7413,7701,7703
+S0003 TOE Latest Combined Addendum plus Companions 2026-09-19,1-146,7414,7559,7704,7849
+S0004 TOE research inventory 2026-09-19,1-1,7560,7560,7850,7850
+S0005 A Two-Singlet Effective Theory and Its Experimental Interfaces: A Conditional Consistency Audit of the MQGT-SCF Program,1-6,7561,7566,7851,7856
+S0006 Separating Network Telemetry from Multimodal Representation in AI Agent Software,1-8,7567,7574,7857,7864
+S0007 Quadratic Higgs-portal interactions and a conditional measurement bridge,1-10,7575,7584,7865,7874
+S0008 T-1: One-loop spectral gauge matching,1-7,7585,7591,7875,7881
+S0009 T-1: A shared spectral-action normalization test,1-8,7592,7599,7882,7889
+S0010 Moving scalar probes and an interferometry data audit,1-6,7600,7605,7890,7895
+S0011 Archived MQGT Constraint Modules: Re-run and Cross-check Audit,1-5,7606,7610,7896,7900
+S0012 mqgt-scf-independent-verification: Re-run and Cross-check Audit,1-6,7611,7616,7901,7906
+S0013 mqgt-scf-science-public: Re-run and Cross-check Audit,1-7,7617,7623,7907,7913
+S0014 MQGT-SCF Simulation Code Audit (code/simulations),1-6,7624,7629,7914,7919
+S0015 ToE-MQGT-SCF Phase 1-3 Computational Gate Audit,1-6,7630,7635,7920,7925
+S0016 toe_corpus_release and Zenodo 21944514: Checksum and Manifest Hygiene Audit,1-6,7636,7641,7926,7931
+S0017 Band-1 Hadamard Order 8884 – Miyamoto (Paley-II Seed H_2220 q=1109 + C_2222); IN SPK via Paley-II; Gap 2052 Still OPEN,1-3,7642,7644,7932,7934
+S0018 Band-1 Hadamard Order 8948 – Miyamoto (Paley-II Seed H_2236 q=1117 + C_2238); Miyamoto-only NOT in SPK; Gap 2052 Still OPEN,1-3,7645,7647,7935,7937
+S0019 Band-1 Hadamard Order 9092 – Classical Paley-I (q=9091); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7648,7650,7938,7940
+S0020 Band-1 Hadamard Order 9104 – Classical Paley-I (q=9103); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7651,7653,7941,7943
+S0021 Band-1 Hadamard Order 9124 – Classical Paley-II (q=4561); IN SPK via Paley-II; Gap 2052 Still OPEN,1-3,7654,7656,7944,7946
+S0022 Band-1 Hadamard Order 9128 – Classical Paley-I (q=9127); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7657,7659,7947,7949
+S0023 Band-1 Hadamard Order 9152 – Classical Paley-I (q=9151); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7660,7662,7950,7952
+S0024 Band-1 Hadamard Order 9188 – Classical Paley-I (q=9187); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7663,7665,7953,7955
+S0025 Band-1 Hadamard Order 9200 – Classical Paley-I (q=9199); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7666,7668,7956,7958
+S0026 Band-1 Hadamard Order 9204 – Classical Paley-I (q=9203); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7669,7671,7959,7961
+S0027 Band-1 Hadamard Order 9228 – Classical Paley-I (q=9227); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7672,7674,7962,7964
+S0028 Band-1 Hadamard Order 9240 – Classical Paley-I (q=9239); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7675,7677,7965,7967
+S0029 Band-1 Hadamard Order 9312 – Classical Paley-I (q=9311); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7678,7680,7968,7970
+S0030 Band-1 Hadamard Order 9320 – Classical Paley-I (q=9319); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7681,7683,7971,7973
+S0031 Band-1 Hadamard Order 9324 – Classical Paley-I (q=9323); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7684,7686,7974,7976
+S0032 Band-1 Hadamard Order 9344 – Classical Paley-I (q=9343); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7687,7689,7977,7979
+S0033 Band-1 Hadamard Order 9372 – Classical Paley-I (q=9371); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7690,7692,7980,7982
+S0034 Band-1 Hadamard Order 9284 – Classical Paley-I (q=9283); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7693,7695,7983,7985
+S0035 Band-1 Hadamard Order 9392 – Classical Paley-I (q=9391); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7696,7698,7986,7988
+S0036 Band-1 Hadamard Order 9404 – Classical Paley-I (q=9403); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7699,7701,7989,7991
+S0037 Band-1 Hadamard Order 9420 – Classical Paley-I (q=9419); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7702,7704,7992,7994
+S0038 Band-1 Hadamard Order 9468 – Classical Paley-I (q=9467); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7705,7707,7995,7997
+S0039 Band-1 Hadamard Order 9480 – Classical Paley-I (q=9479); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7708,7710,7998,8000
+S0040 Band-1 Hadamard Order 9492 – Classical Paley-I (q=9491); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7711,7713,8001,8003
+S0041 Band-1 Hadamard Order 9492 – Classical Paley-I (q=9491); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7714,7716,8004,8006
+S0042 Band-1 Hadamard Order 9512 – Classical Paley-I (q=9511); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7717,7719,8007,8009
+S0043 Band-1 Hadamard Order 9540 – Classical Paley-I (q=9539); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7720,7722,8010,8012
+S0044 Band-1 Hadamard Order 9548 – Classical Paley-I (q=9547); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7723,7725,8013,8015
+S0045 Band-1 Hadamard Order 9552 – Classical Paley-I (q=9551); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7726,7728,8016,8018
+S0046 Band-1 Hadamard Order 9588 – Classical Paley-I (q=9587); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7729,7731,8019,8021
+S0047 Band-1 Hadamard Order 9620 – Classical Paley-I (q=9619); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7732,7734,8022,8024
+S0048 Band-1 Hadamard Order 9624 – Classical Paley-I (q=9623); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7735,7737,8025,8027
+S0049 Band-1 Hadamard Order 9632 – Classical Paley-I (q=9631); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7738,7740,8028,8030
+S0050 Band-1 Hadamard Order 9644 – Classical Paley-I (q=9643); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7741,7743,8031,8033
+S0051 Band-1 Hadamard Order 9680 – Classical Paley-I (q=9679); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7744,7746,8034,8036
+S0052 Band-1 Hadamard Order 9720 – Classical Paley-I (q=9719); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7747,7749,8037,8039
+S0053 Band-1 Hadamard Order 9740 – Classical Paley-I (q=9739); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7750,7752,8040,8042
+S0054 Band-1 Hadamard Order 9744 – Classical Paley-I (q=9743); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7753,7755,8043,8045
+S0055 Band-1 Hadamard Order 9768 – Classical Paley-I (q=9767); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7756,7758,8046,8048
+S0056 Band-1 Hadamard Order 9788 – Classical Paley-I (q=9787); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7759,7761,8049,8051
+S0057 Band-1 Hadamard Order 9792 – Classical Paley-I (q=9791); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7762,7764,8052,8054
+S0058 Band-1 Hadamard Order 9804 – Classical Paley-I (q=9803); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7765,7767,8055,8057
+S0059 Band-1 Hadamard Order 9812 – Classical Paley-I (q=9811); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7768,7770,8058,8060
+S0060 Band-1 Hadamard Order 9840 – Classical Paley-I (q=9839); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7771,7773,8061,8063
+S0061 Band-1 Hadamard Order 9852 – Classical Paley-I (q=9851); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7774,7776,8064,8066
+S0062 Band-1 Hadamard Order 10008 – Classical Paley-I (q=10007); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7777,7779,8067,8069
+S0063 Band-1 Hadamard Order 10040 – Classical Paley-I (q=10039); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7780,7782,8070,8072
+S0064 Band-1 Hadamard Order 10068 – Classical Paley-I (q=10067); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7783,7785,8073,8075
+S0065 Band-1 Hadamard Order 10100 – Classical Paley-I (q=10099); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7786,7788,8076,8078
+S0066 Band-1 Hadamard Order 10104 – Classical Paley-I (q=10103); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7789,7791,8079,8081
+S0067 Band-1 Hadamard Order 10112 – Classical Paley-I (q=10111); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7792,7794,8082,8084
+S0068 Band-1 Hadamard Order 10140 – Classical Paley-I (q=10139); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7795,7797,8085,8087
+S0069 Band-1 Hadamard Order 10152 – Classical Paley-I (q=10151); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7798,7800,8088,8090
+S0070 Band-1 Hadamard Order 10160 – Classical Paley-I (q=10159); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7801,7803,8091,8093
+S0071 Band-1 Hadamard Order 10164 – Classical Paley-I (q=10163); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7804,7806,8094,8096
+S0072 Band-1 Hadamard Order 10212 – Classical Paley-I (q=10211); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7807,7809,8097,8099
+S0073 Band-1 Hadamard Order 10224 – Classical Paley-I (q=10223); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7810,7812,8100,8102
+S0074 Band-1 Hadamard Order 10244 – Classical Paley-I (q=10243); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7813,7815,8103,8105
+S0075 Band-1 Hadamard Order 10248 – Classical Paley-I (q=10247); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7816,7818,8106,8108
+S0076 Band-1 Hadamard order 10260 – Classical Paley-I (q=10259); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7819,7821,8109,8111
+S0077 Band-1 Hadamard order 10268 – Classical Paley-I (q=10267); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7822,7824,8112,8114
+S0078 Band-1 Hadamard Order 9860 – Classical Paley-I (q=9859); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7825,7827,8115,8117
+S0079 Band-1 Hadamard Order 9872 – Classical Paley-I (q=9871); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7828,7830,8118,8120
+S0080 Band-1 Hadamard Order 9884 – Classical Paley-I (q=9883); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7831,7833,8121,8123
+S0081 Band-1 Hadamard Order 9888 – Classical Paley-I (q=9887); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7834,7836,8124,8126
+S0082 Band-1 Hadamard Order 9908 – Classical Paley-I (q=9907); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7837,7839,8127,8129
+S0083 Band-1 Hadamard Order 9924 – Classical Paley-I (q=9923); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7840,7842,8130,8132
+S0084 Band-1 Hadamard Order 9932 – Classical Paley-I (q=9931); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7843,7845,8133,8135
+S0085 Band-1 Hadamard Order 9968 – Classical Paley-I (q=9967); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7846,7848,8136,8138
+S0086 Band-1 Hadamard order 10272 – Classical Paley-I (q=10271); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7849,7851,8139,8141
+S0087 Band-1 Hadamard order 10304 – Classical Paley-I (q=10303); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7852,7854,8142,8144
+S0088 Band-1 Hadamard order 10332 – Classical Paley-I (q=10331); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7855,7857,8145,8147
+S0089 Band-1 Hadamard order 10344 – Classical Paley-I (q=10343); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7858,7860,8148,8150
+S0090 Band-1 Hadamard order 10392 – Classical Paley-I (q=10391); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7861,7863,8151,8153
+S0091 Band-1 Hadamard order 10400 – Classical Paley-I (q=10399); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7864,7866,8154,8156
+S0092 Band-1 Hadamard order 10428 – Classical Paley-I (q=10427); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,7867,7870,8157,8160
+S0093 Band-1 Hadamard order 10460 – Classical Paley-I (q=10459); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,7871,7874,8161,8164
+S0094 Band-1 Hadamard order 10464 – Classical Paley-I (q=10463); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,7875,7878,8165,8168
+S0095 Band-1 Hadamard order 10488 – Classical Paley-I (q=10487); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,7879,7882,8169,8172
+S0096 Band-1 Hadamard order 10500 – Classical Paley-I (q=10499); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,7883,7886,8173,8176
+S0097 Band-1 Hadamard order 10532 – Classical Paley-I (q=10531); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,7887,7890,8177,8180
+S0098 Band-1 Hadamard order 10560 – Classical Paley-I (q=10559); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7891,7893,8181,8183
+S0099 Band-1 Hadamard order 10568 – Classical Paley-I (q=10567); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,7894,7897,8184,8187
+S0100 Band-1 Hadamard order 10608 – Classical Paley-I (q=10607); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7898,7900,8188,8190
+S0101 Band-1 Hadamard order 10628 – Classical Paley-I (q=10627); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,7901,7904,8191,8194
+S0102 Band-1 Hadamard order 10632 – Classical Paley-I (q=10631); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,7905,7908,8195,8198
+S0103 Band-1 Hadamard order 10640 – Classical Paley-I (q=10639); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,7909,7912,8199,8202
+S0104 Band-1 Hadamard order 10652 – Classical Paley-I (q=10651); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,7913,7916,8203,8206
+S0105 Band-1 Hadamard order 10668 – Classical Paley-I (q=10667); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7917,7919,8207,8209
+S0106 Band-1 Hadamard order 10688 – Classical Paley-I (q=10687); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,7920,7923,8210,8213
+S0107 Band-1 Hadamard order 10692 – Classical Paley-I (q=10691); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7924,7926,8214,8216
+S0108 Band-1 Hadamard order 10712 – Classical Paley-I (q=10711); IN SPK via Paley-I; Gap 2052 Still OPEN,1-3,7927,7929,8217,8219
+S0109 Band-1 Hadamard order 10724 – Classical Paley-I (q=10723); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,7930,7933,8220,8223
+S0110 Band-1 Hadamard order 10740 – Classical Paley-I (q=10739); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,7934,7937,8224,8227
+S0111 Band-1 Hadamard order 10772 – Classical Paley-I (q=10771); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,7938,7941,8228,8231
+S0112 Band-1 Hadamard order 10800 – Classical Paley-I (q=10799); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,7942,7945,8232,8235
+S0113 Band-1 Hadamard order 10832 – Classical Paley-I (q=10831); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,7946,7949,8236,8239
+S0114 Band-1 Hadamard order 10848 – Classical Paley-I (q=10847); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,7950,7953,8240,8243
+S0115 Band-1 Hadamard order 10860 – Classical Paley-I (q=10859); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,7954,7957,8244,8247
+S0116 Band-1 Hadamard order 10884 – Classical Paley-I (q=10883); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,7958,7961,8248,8251
+S0117 Band-1 Hadamard order 10892 – Classical Paley-I (q=10891); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,7962,7965,8252,8255
+S0118 Band-1 Hadamard order 10904 – Classical Paley-I (q=10903); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,7966,7969,8256,8259
+S0119 Band-1 Hadamard order 10940 – Classical Paley-I (q=10939); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,7970,7973,8260,8263
+S0120 Band-1 Hadamard order 10980 – Classical Paley-I (q=10979); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,7974,7977,8264,8267
+S0121 Band-1 Hadamard order 10988 – Classical Paley-I (q=10987); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,7978,7981,8268,8271
+S0122 Band-1 Hadamard order 11004 – Classical Paley-I (q=11003); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,7982,7985,8272,8275
+S0123 Band-1 Hadamard order 11028 – Classical Paley-I (q=11027); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,7986,7989,8276,8279
+S0124 Band-1 Hadamard order 11048 – Classical Paley-I (q=11047); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,7990,7993,8280,8283
+S0125 Band-1 Hadamard order 11060 – Classical Paley-I (q=11059); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,7994,7997,8284,8287
+S0126 Band-1 Hadamard order 11072 – Classical Paley-I (q=11071); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,7998,8001,8288,8291
+S0127 Band-1 Hadamard order 11084 – Classical Paley-I (q=11083); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8002,8005,8292,8295
+S0128 Band-1 Hadamard order 11088 – Classical Paley-I (q=11087); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8006,8009,8296,8299
+S0129 Band-1 Hadamard order 11120 – Classical Paley-I (q=11119); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8010,8013,8300,8303
+S0130 Band-1 Hadamard order 11132 – Classical Paley-I (q=11131); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8014,8017,8304,8307
+S0131 Band-1 Hadamard order 11160 – Classical Paley-I (q=11159); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8018,8021,8308,8311
+S0132 Band-1 Hadamard order 11172 – Classical Paley-I (q=11171); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8022,8025,8312,8315
+S0133 Band-1 Hadamard order 11240 – Classical Paley-I (q=11239); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8026,8029,8316,8319
+S0134 Band-1 Hadamard order 11244 – Classical Paley-I (q=11243); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8030,8033,8320,8323
+S0135 Band-1 Hadamard order 11252 – Classical Paley-I (q=11251); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8034,8037,8324,8327
+S0136 Band-1 Hadamard order 11280 – Classical Paley-I (q=11279); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8038,8041,8328,8331
+S0137 Band-1 Hadamard order 11288 – Classical Paley-I (q=11287); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8042,8045,8332,8335
+S0138 Band-1 Hadamard order 11300 – Classical Paley-I (q=11299); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8046,8049,8336,8339
+S0139 Band-1 Hadamard order 11312 – Classical Paley-I (q=11311); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8050,8053,8340,8343
+S0140 Band-1 Hadamard order 11352 – Classical Paley-I (q=11351); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8054,8057,8344,8347
+S0141 Band-1 Hadamard order 11384 – Classical Paley-I (q=11383); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8058,8061,8348,8351
+S0142 Band-1 Hadamard order 11400 – Classical Paley-I (q=11399); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8062,8065,8352,8355
+S0143 Band-1 Hadamard order 11412 – Classical Paley-I (q=11411); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8066,8069,8356,8359
+S0144 Band-1 Hadamard order 11424 – Classical Paley-I (q=11423); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8070,8073,8360,8363
+S0145 Band-1 Hadamard order 11444 – Classical Paley-I (q=11443); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8074,8077,8364,8367
+S0146 Band-1 Hadamard order 11448 – Classical Paley-I (q=11447); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8078,8081,8368,8371
+S0147 Band-1 Hadamard order 11468 – Classical Paley-I (q=11467); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8082,8085,8372,8375
+S0148 Band-1 Hadamard order 11472 – Classical Paley-I (q=11471); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8086,8089,8376,8379
+S0149 Band-1 Hadamard order 11484 – Classical Paley-I (q=11483); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8090,8093,8380,8383
+S0150 Band-1 Hadamard order 11492 – Classical Paley-I (q=11491); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8094,8097,8384,8387
+S0151 Band-1 Hadamard order 11504 – Classical Paley-I (q=11503); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8098,8101,8388,8391
+S0152 Band-1 Hadamard order 11520 – Classical Paley-I (q=11519); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8102,8105,8392,8395
+S0153 Band-1 Hadamard order 11528 – Classical Paley-I (q=11527); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8106,8109,8396,8399
+S0154 Band-1 Hadamard order 11552 – Classical Paley-I (q=11551); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8110,8113,8400,8403
+S0155 Band-1 Hadamard order 11580 – Classical Paley-I (q=11579); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8114,8117,8404,8407
+S0156 Band-1 Hadamard order 11588 – Classical Paley-I (q=11587); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8118,8121,8408,8411
+S0157 Band-1 Hadamard order 11700 – Classical Paley-I (q=11699); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8122,8125,8412,8415
+S0158 Band-1 Hadamard order 11720 – Classical Paley-I (q=11719); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8126,8129,8416,8419
+S0159 Band-1 Hadamard order 11732 – Classical Paley-I (q=11731); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8130,8133,8420,8423
+S0160 Band-1 Hadamard order 11744 – Classical Paley-I (q=11743); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8134,8137,8424,8427
+S0161 Band-1 Hadamard order 11780 – Classical Paley-I (q=11779); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8138,8141,8428,8431
+S0162 Band-1 Hadamard order 11784 – Classical Paley-I (q=11783); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8142,8145,8432,8435
+S0163 Band-1 Hadamard order 11808 – Classical Paley-I (q=11807); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8146,8149,8436,8439
+S0164 Band-1 Hadamard order 11828 – Classical Paley-I (q=11827); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8150,8153,8440,8443
+S0165 Band-1 Hadamard order 11832 – Classical Paley-I (q=11831); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8154,8157,8444,8447
+S0166 Band-1 Hadamard order 11840 – Classical Paley-I (q=11839); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8158,8161,8448,8451
+S0167 Band-1 Hadamard order 11864 – Classical Paley-I (q=11863); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8162,8165,8452,8455
+S0168 Band-1 Hadamard order 11868 – Classical Paley-I (q=11867); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8166,8169,8456,8459
+S0169 Band-1 Hadamard order 11888 – Classical Paley-I (q=11887); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8170,8174,8460,8464
+S0170 Band-1 Hadamard order 11904 – Classical Paley-I (q=11903); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8175,8179,8465,8469
+S0171 Band-1 Hadamard order 11924 – Classical Paley-I (q=11923); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8180,8184,8470,8474
+S0172 Band-1 Hadamard order 11928 – Classical Paley-I (q=11927); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8185,8189,8475,8479
+S0173 Band-1 Hadamard order 11940 – Classical Paley-I (q=11939); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8190,8194,8480,8484
+S0174 Band-1 Hadamard order 11960 – Classical Paley-I (q=11959); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8195,8199,8485,8489
+S0175 Band-1 Hadamard order 11972 – Classical Paley-I (q=11971); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8200,8204,8490,8494
+S0176 Band-1 Hadamard order 11988 – Classical Paley-I (q=11987); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8205,8209,8495,8499
+S0177 Band-1 Hadamard order 12008 – Classical Paley-I (q=12007); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8210,8214,8500,8504
+S0178 Band-1 Hadamard order 12012 – Classical Paley-I (q=12011); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8215,8219,8505,8509
+S0179 Band-1 Hadamard order 12044 – Classical Paley-I (q=12043); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8220,8224,8510,8514
+S0180 Band-1 Hadamard order 12072 – Classical Paley-I (q=12071); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8225,8229,8515,8519
+S0181 Band-1 Hadamard order 12108 – Classical Paley-I (q=12107); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8230,8234,8520,8524
+S0182 Band-1 Hadamard order 12120 – Classical Paley-I (q=12119); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8235,8239,8525,8529
+S0183 Band-1 Hadamard order 12144 – Classical Paley-I (q=12143); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8240,8244,8530,8534
+S0184 Band-1 Hadamard order 12164 – Classical Paley-I (q=12163); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8245,8249,8535,8539
+S0185 Band-1 Hadamard order 12204 – Classical Paley-I (q=12203); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8250,8254,8540,8544
+S0186 Band-1 Hadamard order 12212 – Classical Paley-I (q=12211); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8255,8259,8545,8549
+S0187 Band-1 Hadamard order 12228 – Classical Paley-I (q=12227); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8260,8264,8550,8554
+S0188 Band-1 Hadamard order 12240 – Classical Paley-I (q=12239); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8265,8269,8555,8559
+S0189 Band-1 Hadamard order 12252 – Classical Paley-I (q=12251); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8270,8274,8560,8564
+S0190 Band-1 Hadamard order 12264 – Classical Paley-I (q=12263); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8275,8279,8565,8569
+S0191 Band-1 Hadamard order 12324 – Classical Paley-I (q=12323); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8280,8284,8570,8574
+S0192 Band-1 Hadamard order 12344 – Classical Paley-I (q=12343); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8285,8289,8575,8579
+S0193 Band-1 Hadamard order 12348 – Classical Paley-I (q=12347); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8290,8294,8580,8584
+S0194 Band-1 Hadamard order 12380 – Classical Paley-I (q=12379); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8295,8299,8585,8589
+S0195 Band-1 Hadamard order 12392 – Classical Paley-I (q=12391); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8300,8304,8590,8594
+S0196 Band-1 Hadamard order 12452 – Classical Paley-I (q=12451); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8305,8309,8595,8599
+S0197 Band-1 Hadamard order 12480 – Classical Paley-I (q=12479); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8310,8314,8600,8604
+S0198 Band-1 Hadamard order 12488 – Classical Paley-I (q=12487); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8315,8319,8605,8609
+S0199 Band-1 Hadamard order 12492 – Classical Paley-I (q=12491); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8320,8324,8610,8614
+S0200 Band-1 Hadamard order 12504 – Classical Paley-I (q=12503); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8325,8329,8615,8619
+S0201 Band-1 Hadamard order 12512 – Classical Paley-I (q=12511); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8330,8334,8620,8624
+S0202 Band-1 Hadamard order 12528 – Classical Paley-I (q=12527); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8335,8339,8625,8629
+S0203 Band-1 Hadamard order 12540 – Classical Paley-I (q=12539); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8340,8344,8630,8634
+S0204 Band-1 Hadamard order 12548 – Classical Paley-I (q=12547); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8345,8349,8635,8639
+S0205 Band-1 Hadamard order 12584 – Classical Paley-I (q=12583); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8350,8354,8640,8644
+S0206 Band-1 Hadamard order 12612 – Classical Paley-I (q=12611); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8355,8359,8645,8649
+S0207 Band-1 Hadamard order 12620 – Classical Paley-I (q=12619); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8360,8364,8650,8654
+S0208 Band-1 Hadamard order 12648 – Classical Paley-I (q=12647); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8365,8369,8655,8659
+S0209 Band-1 Hadamard order 12660 – Classical Paley-I (q=12659); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8370,8374,8660,8664
+S0210 Band-1 Hadamard order 12672 – Classical Paley-I (q=12671); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8375,8379,8665,8669
+S0211 Band-1 Hadamard order 12704 – Classical Paley-I (q=12703); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8380,8384,8670,8674
+S0212 Band-1 Hadamard order 12740 – Classical Paley-I (q=12739); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8385,8389,8675,8679
+S0213 Band-1 Hadamard order 12744 – Classical Paley-I (q=12743); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8390,8394,8680,8684
+S0214 Band-1 Hadamard order 12764 – Classical Paley-I (q=12763); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8395,8399,8685,8689
+S0215 Band-1 Hadamard order 12792 – Classical Paley-I (q=12791); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8400,8404,8690,8694
+S0216 Band-1 Hadamard order 12800 – Classical Paley-I (q=12799); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8405,8409,8695,8699
+S0217 Band-1 Hadamard order 12824 – Classical Paley-I (q=12823); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8410,8414,8700,8704
+S0218 Band-1 Hadamard order 12900 – Classical Paley-I (q=12899); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8415,8419,8705,8709
+S0219 Band-1 Hadamard order 12908 – Classical Paley-I (q=12907); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8420,8424,8710,8714
+S0220 Band-1 Hadamard order 12912 – Classical Paley-I (q=12911); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8425,8429,8715,8719
+S0221 Band-1 Hadamard order 12920 – Classical Paley-I (q=12919); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8430,8434,8720,8724
+S0222 Band-1 Hadamard order 12924 – Classical Paley-I (q=12923); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8435,8439,8725,8729
+S0223 Band-1 Hadamard order 12960 – Classical Paley-I (q=12959); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8440,8444,8730,8734
+S0224 Band-1 Hadamard order 12968 – Classical Paley-I (q=12967); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8445,8449,8735,8739
+S0225 Band-1 Hadamard order 12980 – Classical Paley-I (q=12979); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8450,8454,8740,8744
+S0226 Band-1 Hadamard order 12984 – Classical Paley-I (q=12983); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8455,8459,8745,8749
+S0227 Band-1 Hadamard order 13004 – Classical Paley-I (q=13003); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8460,8464,8750,8754
+S0228 Band-1 Hadamard order 13008 – Classical Paley-I (q=13007); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8465,8469,8755,8759
+S0229 Band-1 Hadamard order 13044 – Classical Paley-I (q=13043); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8470,8474,8760,8764
+S0230 Band-1 Hadamard order 13064 – Classical Paley-I (q=13063); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8475,8479,8765,8769
+S0231 Band-1 Hadamard order 13100 – Classical Paley-I (q=13099); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8480,8484,8770,8774
+S0232 Band-1 Hadamard order 13104 – Classical Paley-I (q=13103); IN SPK via Paley-I; Gap 2052 Still OPEN,1-6,8485,8490,8775,8780
+S0233 Band-1 Hadamard order 13128 – Classical Paley-I (q=13127); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8491,8495,8781,8785
+S0234 Band-1 Hadamard order 13148 – Classical Paley-I (q=13147); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8496,8500,8786,8790
+S0235 Band-1 Hadamard order 13152 – Classical Paley-I (q=13151); IN SPK via Paley-I; Gap 2052 Still OPEN,1-6,8501,8506,8791,8796
+S0236 Band-1 Hadamard order 13160 – Classical Paley-I (q=13159); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8507,8511,8797,8801
+S0237 Band-1 Hadamard order 13164 – Classical Paley-I (q=13163); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8512,8516,8802,8806
+S0238 Band-1 Hadamard order 13172 – Classical Paley-I (q=13171); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8517,8521,8807,8811
+S0239 Band-1 Hadamard order 13184 – Classical Paley-I (q=13183); IN SPK via Paley-I; Gap 2052 Still OPEN,1-6,8522,8527,8812,8817
+S0240 Band-1 Hadamard order 13188 – Classical Paley-I (q=13187); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8528,8532,8818,8822
+S0241 Band-1 Hadamard order 13220 – Classical Paley-I (q=13219); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8533,8537,8823,8827
+S0242 Band-1 Hadamard order 13260 – Classical Paley-I (q=13259); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8538,8542,8828,8832
+S0243 Band-1 Hadamard order 13268 – Classical Paley-I (q=13267); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8543,8547,8833,8837
+S0244 Band-1 Hadamard order 13292 – Classical Paley-I (q=13291); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8548,8552,8838,8842
+S0245 Band-1 Hadamard order 13328 – Classical Paley-I (q=13327); IN SPK via Paley-I; Gap 2052 Still OPEN,1-6,8553,8558,8843,8848
+S0246 Band-1 Hadamard order 13332 – Classical Paley-I (q=13331); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8559,8563,8849,8853
+S0247 Band-1 Hadamard order 13340 – Classical Paley-I (q=13339); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8564,8568,8854,8858
+S0248 Band-1 Hadamard order 13368 – Classical Paley-I (q=13367); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8569,8573,8859,8863
+S0249 Band-1 Hadamard order 13400 – Classical Paley-I (q=13399); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8574,8578,8864,8868
+S0250 Band-1 Hadamard order 13412 – Classical Paley-I (q=13411); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8579,8583,8869,8873
+S0251 Band-1 Hadamard order 13452 – Classical Paley-I (q=13451); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8584,8588,8874,8878
+S0252 Band-1 Hadamard order 13464 – Classical Paley-I (q=13463); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8589,8593,8879,8883
+S0253 Band-1 Hadamard order 13488 – Classical Paley-I (q=13487); IN SPK via Paley-I; Gap 2052 Still OPEN,1-6,8594,8599,8884,8889
+S0254 Band-1 Hadamard order 13500 – Classical Paley-I (q=13499); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8600,8604,8890,8894
+S0255 Band-1 Hadamard order 13524 – Classical Paley-I (q=13523); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8605,8609,8895,8899
+S0256 Band-1 Hadamard order 13568 – Classical Paley-I (q=13567); IN SPK via Paley-I; Gap 2052 Still OPEN,1-6,8610,8615,8900,8905
+S0257 Band-1 Hadamard order 13592 – Classical Paley-I (q=13591); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8616,8620,8906,8910
+S0258 Band-1 Hadamard order 13620 – Classical Paley-I (q=13619); IN SPK via Paley-I; Gap 2052 Still OPEN,1-5,8621,8625,8911,8915
+S0259 Band-1 Hadamard order 13628 – Classical Paley-I (q=13627); IN SPK via Paley-I; Gap 2052 Still OPEN,1-6,8626,8631,8916,8921
+S0260 Band-1 Hadamard order 13680 – Classical Paley-I (q=13679); IN SPK via Paley-I; Gap 2052 Still OPEN,1-6,8632,8637,8922,8927
+S0261 Band-1 Hadamard order 13688 – Classical Paley-I (q=13687); IN SPK via Paley-I; Gap 2052 Still OPEN,1-6,8638,8643,8928,8933
+S0262 Band-1 Hadamard order 13692 – Classical Paley-I (q=13691); IN SPK via Paley-I; Gap 2052 Still OPEN,1-6,8644,8649,8934,8939
+S0263 Band-1 Hadamard order 13712 – Classical Paley-I (q=13711); IN SPK via Paley-I; Gap 2052 Still OPEN,1-6,8650,8655,8940,8945
+S0264 Band-1 Hadamard order 13724 – Classical Paley-I (q=13723); IN SPK via Paley-I; Gap 2052 Still OPEN,1-6,8656,8661,8946,8951
+S0265 Band-1 Hadamard order 13752 – Classical Paley-I (q=13751); IN SPK via Paley-I; Gap 2052 Still OPEN,1-6,8662,8667,8952,8957
+S0266 Band-1 Hadamard order 13760 – Classical Paley-I (q=13759); IN SPK via Paley-I; Gap 2052 Still OPEN,1-6,8668,8673,8958,8963
+S0267 Band-1 Hadamard order 13764 – Classical Paley-I (q=13763); IN SPK via Paley-I; Gap 2052 Still OPEN,1-6,8674,8679,8964,8969
+S0268 Band-1 Hadamard order 13800 – Classical Paley-I (q=13799); IN SPK via Paley-I; Gap 2052 Still OPEN,1-6,8680,8685,8970,8975
+S0269 Band-1 Hadamard order 13808 – Classical Paley-I (q=13807); IN SPK via Paley-I; Gap 2052 Still OPEN,1-6,8686,8691,8976,8981
+S0270 Band-1 Hadamard order 13832 – Classical Paley-I (q=13831); IN SPK via Paley-I; Gap 2052 Still OPEN,1-6,8692,8697,8982,8987
+S0271 Band-1 Hadamard order 13860 – Classical Paley-I (q=13859); IN SPK via Paley-I; Gap 2052 Still OPEN,1-6,8698,8703,8988,8993
+S0272 Band-1 Hadamard order 13880 – Classical Paley-I (q=13879); IN SPK via Paley-I; Gap 2052 Still OPEN,1-6,8704,8709,8994,8999
+S0273 Band-1 Hadamard order 13884 – Classical Paley-I (q=13883); IN SPK via Paley-I; Gap 2052 Still OPEN,1-6,8710,8715,9000,9005
+S0274 Band-1 Hadamard order 13904 – Classical Paley-I (q=13903); IN SPK via Paley-I; Gap 2052 Still OPEN,1-6,8716,8721,9006,9011
+S0275 Band-1 Hadamard order 13908 – Classical Paley-I (q=13907); IN SPK via Paley-I; Gap 2052 Still OPEN,1-6,8722,8727,9012,9017
+S0276 Band-1 Hadamard order 13932 – Classical Paley-I (q=13931); IN SPK via Paley-I; Gap 2052 Still OPEN,1-6,8728,8733,9018,9023
+S0277 Band-1 Hadamard order 13964 – Classical Paley-I (q=13963); IN SPK via Paley-I; Gap 2052 Still OPEN,1-6,8734,8739,9024,9029
+S0278 Band-1 Hadamard order 13968 – Classical Paley-I (q=13967); IN SPK via Paley-I; Gap 2052 Still OPEN,1-6,8740,8745,9030,9035
+S0279 Band-1 Hadamard order 14000 – Classical Paley-I (q=13999); IN SPK via Paley-I; Gap 2052 Still OPEN,1-7,8746,8752,9036,9042
+S0280 Band-1 Hadamard order 14012 – Classical Paley-I (q=14011); IN SPK via Paley-I; Gap 2052 Still OPEN,1-6,8753,8758,9043,9048
+S0281 Band-1 Hadamard order 14052 – Classical Paley-I (q=14051); IN SPK via Paley-I; Gap 2052 Still OPEN,1-7,8759,8765,9049,9055
+S0282 Band-1 Hadamard order 14072 – Classical Paley-I (q=14071); IN SPK via Paley-I; Gap 2052 Still OPEN,1-7,8766,8772,9056,9062
+S0283 Band-1 Hadamard order 14084 – Classical Paley-I (q=14083); IN SPK via Paley-I; Gap 2052 Still OPEN,1-7,8773,8779,9063,9069
+S0284 Band-1 Hadamard order 14088 – Classical Paley-I (q=14087); IN SPK via Paley-I; Gap 2052 Still OPEN,1-6,8780,8785,9070,9075
+S0285 Band-1 Hadamard order 14108 – Classical Paley-I (q=14107); IN SPK via Paley-I; Gap 2052 Still OPEN,1-7,8786,8792,9076,9082
+S0286 Band-1 Hadamard order 14144 – Classical Paley-I (q=14143); IN SPK via Paley-I; Gap 2052 Still OPEN,1-7,8793,8799,9083,9089
+S0287 Band-1 Hadamard order 14160 – Classical Paley-I (q=14159); IN SPK via Paley-I; Gap 2052 Still OPEN,1-7,8800,8806,9090,9096
+S0288 Band-1 Hadamard order 14208 – Classical Paley-I (q=14207); IN SPK via Paley-I; Gap 2052 Still OPEN,1-7,8807,8813,9097,9103
+S0289 Band-1 Hadamard order 14244 – Classical Paley-I (q=14243); IN SPK via Paley-I; Gap 2052 Still OPEN,1-7,8814,8820,9104,9110
+S0290 Band-1 Hadamard order 14252 – Classical Paley-I (q=14251); IN SPK via Paley-I; Gap 2052 Still OPEN,1-7,8821,8827,9111,9117
+S0291 Band-1 Hadamard order 14304 – Classical Paley-I (q=14303); IN SPK via Paley-I; Gap 2052 Still OPEN,1-7,8828,8834,9118,9124
+S0292 Band-1 Hadamard order 14324 – Classical Paley-I (q=14323); IN SPK via Paley-I; Gap 2052 Still OPEN,1-7,8835,8841,9125,9131
+S0293 Band-1 Hadamard order 14328 – Classical Paley-I (q=14327); IN SPK via Paley-I; Gap 2052 Still OPEN,1-7,8842,8848,9132,9138
+S0294 Band-1 Hadamard order 14348 – Classical Paley-I (q=14347); IN SPK via Paley-I; Gap 2052 Still OPEN,1-7,8849,8855,9139,9145
+S0295 Band-1 Hadamard order 14356 – Classical Paley-II DIRECT (q2=7177); IN SPK via Paley-II; Gap 2052 Still OPEN,1-4,8856,8859,9146,9149
+S0296 Band-1 Hadamard order 14388 – Classical Paley-I (q=14387); IN SPK via Paley-I; Gap 2052 Still OPEN,1-7,8860,8866,9150,9156
+S0297 Band-1 Hadamard order 14408 – Classical Paley-I (q=14407); IN SPK via Paley-I; Gap 2052 Still OPEN,1-7,8867,8873,9157,9163
+S0298 Band-1 Hadamard order 14412 – Classical Paley-I (q=14411); IN SPK via Paley-I; Gap 2052 Still OPEN,1-7,8874,8880,9164,9170
+S0299 Band-1 Hadamard order 14748 – Classical Paley-I (q=14747); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8881,8884,9171,9174
+S0300 Band-1 Hadamard order 14760 – Classical Paley-I (q=14759); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8885,8888,9175,9178
+S0301 Band-1 Hadamard order 14768 – Classical Paley-I (q=14767); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8889,8892,9179,9182
+S0302 Band-1 Hadamard order 14772 – Classical Paley-I (q=14771); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8893,8896,9183,9186
+S0303 Band-1 Hadamard order 14780 – Classical Paley-I (q=14779); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8897,8900,9187,9190
+S0304 Band-1 Hadamard order 14784 – Classical Paley-I (q=14783); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8901,8904,9191,9194
+S0305 Band-1 Hadamard order 14788 – Classical Paley-II DIRECT (q2=7393); IN SPK via Paley-II; Gap 2052 Still OPEN,1-5,8905,8909,9195,9199
+S0306 Band-1 Hadamard order 14828 – Classical Paley-I (q=14827); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8910,8913,9200,9203
+S0307 Band-1 Hadamard order 14832 – Classical Paley-I (q=14831); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8914,8917,9204,9207
+S0308 Band-1 Hadamard order 14836 – Classical Paley-II DIRECT (q2=7417); IN SPK via Paley-II; Gap 2052 Still OPEN,1-5,8918,8922,9208,9212
+S0309 Band-1 Hadamard order 14844 – Classical Paley-I (q=14843); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8923,8926,9213,9216
+S0310 Band-1 Hadamard order 14852 – Classical Paley-I (q=14851); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8927,8930,9217,9220
+S0311 Band-1 Hadamard order 14868 – Classical Paley-I (q=14867); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8931,8934,9221,9224
+S0312 Band-1 Hadamard order 14880 – Classical Paley-I (q=14879); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8935,8938,9225,9228
+S0313 Band-1 Hadamard order 14888 – Classical Paley-I (q=14887); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8939,8942,9229,9232
+S0314 Band-1 Hadamard order 14892 – Classical Paley-I (q=14891); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8943,8946,9233,9236
+S0315 Band-1 Hadamard order 14916 – Classical Paley-II DIRECT (q2=7457); IN SPK via Paley-II; Gap 2052 Still OPEN,1-5,8947,8951,9237,9241
+S0316 Band-1 Hadamard order 14924 – Classical Paley-I (q=14923); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8952,8955,9242,9245
+S0317 Band-1 Hadamard order 14940 – Classical Paley-I (q=14939); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8956,8959,9246,9249
+S0318 Band-1 Hadamard order 14948 – Classical Paley-I (q=14947); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8960,8963,9250,9253
+S0319 Band-1 Hadamard order 14952 – Classical Paley-I (q=14951); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8964,8967,9254,9257
+S0320 Band-1 Hadamard order 14956 – Classical Paley-II DIRECT (q2=7477); IN SPK via Paley-II; Gap 2052 Still OPEN,1-6,8968,8973,9258,9263
+S0321 Band-1 Hadamard order 14964 – Classical Paley-II DIRECT (q2=7481); IN SPK via Paley-II; Gap 2052 Still OPEN,1-6,8974,8979,9264,9269
+S0322 Band-1 Hadamard order 14980 – Classical Paley-II DIRECT (q2=7489); IN SPK via Paley-II; Gap 2052 Still OPEN,1-6,8980,8985,9270,9275
+S0323 Band-1 Hadamard order 14984 – Classical Paley-I (q=14983); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8986,8989,9276,9279
+S0324 Band-1 Hadamard order 15032 – Classical Paley-I (q=15031); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,8990,8993,9280,9283
+S0325 Band-1 Hadamard order 15036 – Classical Paley-II DIRECT (q2=7517); IN SPK via Paley-II; Gap 2052 Still OPEN,1-6,8994,8999,9284,9289
+S0326 Band-1 Hadamard order 15060 – Classical Paley-II DIRECT (q2=7529); IN SPK via Paley-II; Gap 2052 Still OPEN,1-6,9000,9005,9290,9295
+S0327 Band-1 Hadamard order 15076 – Classical Paley-II DIRECT (q2=7537); IN SPK via Paley-II; Gap 2052 Still OPEN,1-6,9006,9011,9296,9301
+S0328 Band-1 Hadamard order 15084 – Classical Paley-I (q=15083); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,9012,9015,9302,9305
+S0329 Band-1 Hadamard order 15092 – Classical Paley-I (q=15091); IN SPK via Paley-I; Gap 2052 Still OPEN,1-4,9016,9019,9306,9309
+S0330 SCOREBOARD 2026-09-21 Band1 Hadamard 8884 Miyamoto,1-1,9020,9020,9310,9310
+S0331 SCOREBOARD 2026-09-21 Band1 Hadamard 8948 Miyamoto,1-1,9021,9021,9311,9311
+S0332 SCOREBOARD 2026-09-21 Band1 Hadamard 9104 PaleyI,1-1,9022,9022,9312,9312
+S0333 SCOREBOARD 2026-09-21 Band1 Hadamard 9124 PaleyII,1-1,9023,9023,9313,9313
+S0334 SCOREBOARD 2026-09-21 Band1 Hadamard 9128 PaleyI,1-1,9024,9024,9314,9314
+S0335 SCOREBOARD 2026-09-21 Band1 Hadamard 9188 PaleyI,1-1,9025,9025,9315,9315
+S0336 SCOREBOARD 2026-09-21 Band1 Hadamard 9204 PaleyI,1-1,9026,9026,9316,9316
+S0337 SCOREBOARD 2026-09-21 Band1 Hadamard 9228 PaleyI,1-1,9027,9027,9317,9317
+S0338 SCOREBOARD 2026-09-21 Band1 Hadamard 9240 PaleyI,1-1,9028,9028,9318,9318
+S0339 SCOREBOARD 2026-09-21 Band1 Hadamard 9312 PaleyI,1-1,9029,9029,9319,9319
+S0340 SCOREBOARD 2026-09-21 Band1 Hadamard 9320 PaleyI,1-1,9030,9030,9320,9320
+S0341 SCOREBOARD 2026-09-21 Band1 Hadamard 9344 PaleyI,1-1,9031,9031,9321,9321
+S0342 SCOREBOARD 2026-09-21 Band1 Hadamard 9372 PaleyI,1-1,9032,9032,9322,9322
+S0343 SCOREBOARD 2026-09-21 hadamard 9284,1-1,9033,9033,9323,9323
+S0344 SCOREBOARD LATEST,1-1,9034,9034,9324,9324
+S0345 STATUS BOARD 2026-09-21 Band1 Hadamard 8884 Miyamoto,1-1,9035,9035,9325,9325
+S0346 STATUS BOARD 2026-09-21 Band1 Hadamard 8948 Miyamoto,1-1,9036,9036,9326,9326
+S0347 STATUS BOARD 2026-09-21 Band1 Hadamard 9104 PaleyI,1-1,9037,9037,9327,9327
+S0348 STATUS BOARD 2026-09-21 Band1 Hadamard 9124 PaleyII,1-1,9038,9038,9328,9328
+S0349 STATUS BOARD 2026-09-21 Band1 Hadamard 9128 PaleyI,1-1,9039,9039,9329,9329
+S0350 STATUS BOARD 2026-09-21 Band1 Hadamard 9188 PaleyI,1-1,9040,9040,9330,9330
+S0351 STATUS BOARD 2026-09-21 Band1 Hadamard 9204 PaleyI,1-1,9041,9041,9331,9331
+S0352 STATUS BOARD 2026-09-21 Band1 Hadamard 9228 PaleyI,1-1,9042,9042,9332,9332
+S0353 STATUS BOARD 2026-09-21 Band1 Hadamard 9240 PaleyI,1-1,9043,9043,9333,9333
+S0354 STATUS BOARD 2026-09-21 Band1 Hadamard 9312 PaleyI,1-1,9044,9044,9334,9334
+S0355 STATUS BOARD 2026-09-21 Band1 Hadamard 9320 PaleyI,1-1,9045,9045,9335,9335
+S0356 STATUS BOARD 2026-09-21 Band1 Hadamard 9344 PaleyI,1-1,9046,9046,9336,9336
+S0357 STATUS BOARD 2026-09-21 Band1 Hadamard 9372 PaleyI,1-1,9047,9047,9337,9337
+S0358 STATUS BOARD 2026-09-21 hadamard 9284,1-1,9048,9048,9338,9338
+S0359 STATUS BOARD LATEST,1-1,9049,9049,9339,9339
+S0360 SCOREBOARD 2026-09-22 Band1 Hadamard 9420 PaleyI,1-1,9050,9050,9340,9340
+S0361 SCOREBOARD 2026-09-22 Band1 Hadamard 9480 PaleyI,1-1,9051,9051,9341,9341
+S0362 SCOREBOARD 2026-09-22 Band1 Hadamard 9492 PaleyI,1-1,9052,9052,9342,9342
+S0363 SCOREBOARD 2026-09-22 Band1 Hadamard 9512 PaleyI,1-1,9053,9053,9343,9343
+S0364 SCOREBOARD 2026-09-22 Band1 Hadamard 9540 PaleyI,1-1,9054,9054,9344,9344
+S0365 SCOREBOARD 2026-09-22 Band1 Hadamard 9548 PaleyI,1-1,9055,9055,9345,9345
+S0366 SCOREBOARD 2026-09-22 Band1 Hadamard 9588 PaleyI,1-1,9056,9056,9346,9346
+S0367 SCOREBOARD 2026-09-22 Band1 Hadamard 9620 PaleyI,1-1,9057,9057,9347,9347
+S0368 SCOREBOARD 2026-09-22 Band1 Hadamard 9624 PaleyI,1-1,9058,9058,9348,9348
+S0369 SCOREBOARD 2026-09-22 Band1 Hadamard 9632 PaleyI,1-1,9059,9059,9349,9349
+S0370 SCOREBOARD 2026-09-22 Band1 Hadamard 9644 PaleyI,1-1,9060,9060,9350,9350
+S0371 SCOREBOARD 2026-09-22 Band1 Hadamard 9680 PaleyI,1-1,9061,9061,9351,9351
+S0372 SCOREBOARD 2026-09-22 Band1 Hadamard 9740 PaleyI,1-1,9062,9062,9352,9352
+S0373 SCOREBOARD 2026-09-22 Band1 Hadamard 9744 PaleyI,1-1,9063,9063,9353,9353
+S0374 SCOREBOARD 2026-09-22 Band1 Hadamard 9768 PaleyI,1-1,9064,9064,9354,9354
+S0375 SCOREBOARD 2026-09-22 Band1 Hadamard 9792 PaleyI,1-1,9065,9065,9355,9355
+S0376 SCOREBOARD 2026-09-22 hadamard 9552,1-1,9066,9066,9356,9356
+S0377 SCOREBOARD LATEST,1-1,9067,9067,9357,9357
+S0378 SCOREBOARD LATEST hadamard 9812,1-1,9068,9068,9358,9358
+S0379 SCOREBOARD LATEST hadamard 9840,1-1,9069,9069,9359,9359
+S0380 SCOREBOARD LATEST hadamard 9852,1-1,9070,9070,9360,9360
+S0381 STATUS BOARD 2026-09-22 Band1 Hadamard 9420 PaleyI,1-1,9071,9071,9361,9361
+S0382 STATUS BOARD 2026-09-22 Band1 Hadamard 9480 PaleyI,1-1,9072,9072,9362,9362
+S0383 STATUS BOARD 2026-09-22 Band1 Hadamard 9492 PaleyI,1-1,9073,9073,9363,9363
+S0384 STATUS BOARD 2026-09-22 Band1 Hadamard 9512 PaleyI,1-1,9074,9074,9364,9364
+S0385 STATUS BOARD 2026-09-22 Band1 Hadamard 9540 PaleyI,1-1,9075,9075,9365,9365
+S0386 STATUS BOARD 2026-09-22 Band1 Hadamard 9548 PaleyI,1-1,9076,9076,9366,9366
+S0387 STATUS BOARD 2026-09-22 Band1 Hadamard 9588 PaleyI,1-1,9077,9077,9367,9367
+S0388 STATUS BOARD 2026-09-22 Band1 Hadamard 9620 PaleyI,1-1,9078,9078,9368,9368
+S0389 STATUS BOARD 2026-09-22 Band1 Hadamard 9624 PaleyI,1-1,9079,9079,9369,9369
+S0390 STATUS BOARD 2026-09-22 Band1 Hadamard 9632 PaleyI,1-1,9080,9080,9370,9370
+S0391 STATUS BOARD 2026-09-22 Band1 Hadamard 9644 PaleyI,1-1,9081,9081,9371,9371
+S0392 STATUS BOARD 2026-09-22 Band1 Hadamard 9680 PaleyI,1-1,9082,9082,9372,9372
+S0393 STATUS BOARD 2026-09-22 Band1 Hadamard 9740 PaleyI,1-1,9083,9083,9373,9373
+S0394 STATUS BOARD 2026-09-22 Band1 Hadamard 9744 PaleyI,1-1,9084,9084,9374,9374
+S0395 STATUS BOARD 2026-09-22 Band1 Hadamard 9768 PaleyI,1-1,9085,9085,9375,9375
+S0396 STATUS BOARD 2026-09-22 Band1 Hadamard 9792 PaleyI,1-1,9086,9086,9376,9376
+S0397 STATUS BOARD 2026-09-22 hadamard 9552,1-1,9087,9087,9377,9377
+S0398 STATUS BOARD LATEST,1-1,9088,9088,9378,9378
+S0399 STATUS BOARD LATEST hadamard 9840,1-1,9089,9089,9379,9379
+S0400 STATUS BOARD LATEST hadamard 9852,1-1,9090,9090,9380,9380
+S0401 SCOREBOARD 2026-09-23 Band1 Hadamard 10112 PaleyI,1-1,9091,9091,9381,9381
+S0402 STATUS BOARD 2026-09-23 Band1 Hadamard 10112 PaleyI,1-1,9092,9092,9382,9382
+S0403 SCOREBOARD 2026-09-28 Band1 Hadamard 10500 PaleyI,1-1,9093,9093,9383,9383
+S0404 STATUS BOARD 2026-09-28 Band1 Hadamard 10500 PaleyI,1-1,9094,9094,9384,9384
+S0405 SCOREBOARD 2026-09-29 Band1 Hadamard 11060 PaleyI,1-1,9095,9095,9385,9385
+S0406 STATUS BOARD 2026-09-29 Band1 Hadamard 11060 PaleyI,1-1,9096,9096,9386,9386
+S0407 SCOREBOARD 2026-09-30 Band1 Hadamard 11444 PaleyI,1-1,9097,9097,9387,9387
+S0408 SCOREBOARD 2026-09-30 Band1 Hadamard 11448 PaleyI,1-1,9098,9098,9388,9388
+S0409 SCOREBOARD 2026-09-30 Band1 Hadamard 11468 PaleyI,1-1,9099,9099,9389,9389
+S0410 SCOREBOARD 2026-09-30 Band1 Hadamard 11472 PaleyI,1-1,9100,9100,9390,9390
+S0411 SCOREBOARD 2026-09-30 Band1 Hadamard 11484 PaleyI,1-1,9101,9101,9391,9391
+S0412 SCOREBOARD 2026-09-30 Band1 Hadamard 11492 PaleyI,1-1,9102,9102,9392,9392
+S0413 SCOREBOARD 2026-09-30 Band1 Hadamard 11504 PaleyI,1-1,9103,9103,9393,9393
+S0414 SCOREBOARD 2026-09-30 Band1 Hadamard 11520 PaleyI,1-1,9104,9104,9394,9394
+S0415 SCOREBOARD 2026-09-30 Band1 Hadamard 11528 PaleyI,1-1,9105,9105,9395,9395
+S0416 SCOREBOARD 2026-09-30 Band1 Hadamard 11552 PaleyI,1-1,9106,9106,9396,9396
+S0417 SCOREBOARD 2026-09-30 Band1 Hadamard 11580 PaleyI,1-1,9107,9107,9397,9397
+S0418 SCOREBOARD 2026-09-30 Band1 Hadamard 11588 PaleyI,1-1,9108,9108,9398,9398
+S0419 STATUS BOARD 2026-09-30 Band1 Hadamard 11444 PaleyI,1-1,9109,9109,9399,9399
+S0420 STATUS BOARD 2026-09-30 Band1 Hadamard 11448 PaleyI,1-1,9110,9110,9400,9400
+S0421 STATUS BOARD 2026-09-30 Band1 Hadamard 11468 PaleyI,1-1,9111,9111,9401,9401
+S0422 STATUS BOARD 2026-09-30 Band1 Hadamard 11472 PaleyI,1-1,9112,9112,9402,9402
+S0423 STATUS BOARD 2026-09-30 Band1 Hadamard 11484 PaleyI,1-1,9113,9113,9403,9403
+S0424 STATUS BOARD 2026-09-30 Band1 Hadamard 11492 PaleyI,1-1,9114,9114,9404,9404
+S0425 STATUS BOARD 2026-09-30 Band1 Hadamard 11504 PaleyI,1-1,9115,9115,9405,9405
+S0426 STATUS BOARD 2026-09-30 Band1 Hadamard 11520 PaleyI,1-1,9116,9116,9406,9406
+S0427 STATUS BOARD 2026-09-30 Band1 Hadamard 11528 PaleyI,1-1,9117,9117,9407,9407
+S0428 STATUS BOARD 2026-09-30 Band1 Hadamard 11552 PaleyI,1-1,9118,9118,9408,9408
+S0429 STATUS BOARD 2026-09-30 Band1 Hadamard 11580 PaleyI,1-1,9119,9119,9409,9409
+S0430 STATUS BOARD 2026-09-30 Band1 Hadamard 11588 PaleyI,1-1,9120,9120,9410,9410
+S0431 SCOREBOARD 2026-10-02 Band1 Hadamard 11700 PaleyI,1-1,9121,9121,9411,9411
+S0432 SCOREBOARD 2026-10-02 Band1 Hadamard 11720 PaleyI,1-1,9122,9122,9412,9412
+S0433 SCOREBOARD 2026-10-02 Band1 Hadamard 11732 PaleyI,1-1,9123,9123,9413,9413
+S0434 SCOREBOARD 2026-10-02 Band1 Hadamard 11744 PaleyI,1-1,9124,9124,9414,9414
+S0435 SCOREBOARD 2026-10-02 Band1 Hadamard 11780 PaleyI,1-1,9125,9125,9415,9415
+S0436 SCOREBOARD 2026-10-02 Band1 Hadamard 11784 PaleyI,1-1,9126,9126,9416,9416
+S0437 SCOREBOARD 2026-10-02 Band1 Hadamard 11808 PaleyI,1-1,9127,9127,9417,9417
+S0438 SCOREBOARD 2026-10-02 Band1 Hadamard 11828 PaleyI,1-1,9128,9128,9418,9418
+S0439 SCOREBOARD 2026-10-02 Band1 Hadamard 11832 PaleyI,1-1,9129,9129,9419,9419
+S0440 SCOREBOARD 2026-10-02 Band1 Hadamard 11840 PaleyI,1-1,9130,9130,9420,9420
+S0441 SCOREBOARD 2026-10-02 Band1 Hadamard 11864 PaleyI,1-1,9131,9131,9421,9421
+S0442 SCOREBOARD 2026-10-02 Band1 Hadamard 11868 PaleyI,1-1,9132,9132,9422,9422
+S0443 SCOREBOARD 2026-10-02 Band1 Hadamard 11888 PaleyI,1-1,9133,9133,9423,9423
+S0444 SCOREBOARD 2026-10-02 Band1 Hadamard 11904 PaleyI,1-1,9134,9134,9424,9424
+S0445 SCOREBOARD 2026-10-02 Band1 Hadamard 11924 PaleyI,1-1,9135,9135,9425,9425
+S0446 STATUS BOARD 2026-10-02 Band1 Hadamard 11700 PaleyI,1-1,9136,9136,9426,9426
+S0447 STATUS BOARD 2026-10-02 Band1 Hadamard 11720 PaleyI,1-1,9137,9137,9427,9427
+S0448 STATUS BOARD 2026-10-02 Band1 Hadamard 11732 PaleyI,1-1,9138,9138,9428,9428
+S0449 STATUS BOARD 2026-10-02 Band1 Hadamard 11744 PaleyI,1-1,9139,9139,9429,9429
+S0450 STATUS BOARD 2026-10-02 Band1 Hadamard 11780 PaleyI,1-1,9140,9140,9430,9430
+S0451 STATUS BOARD 2026-10-02 Band1 Hadamard 11784 PaleyI,1-1,9141,9141,9431,9431
+S0452 STATUS BOARD 2026-10-02 Band1 Hadamard 11808 PaleyI,1-1,9142,9142,9432,9432
+S0453 STATUS BOARD 2026-10-02 Band1 Hadamard 11828 PaleyI,1-1,9143,9143,9433,9433
+S0454 STATUS BOARD 2026-10-02 Band1 Hadamard 11832 PaleyI,1-1,9144,9144,9434,9434
+S0455 STATUS BOARD 2026-10-02 Band1 Hadamard 11840 PaleyI,1-1,9145,9145,9435,9435
+S0456 STATUS BOARD 2026-10-02 Band1 Hadamard 11864 PaleyI,1-1,9146,9146,9436,9436
+S0457 STATUS BOARD 2026-10-02 Band1 Hadamard 11868 PaleyI,1-1,9147,9147,9437,9437
+S0458 STATUS BOARD 2026-10-02 Band1 Hadamard 11888 PaleyI,1-1,9148,9148,9438,9438
+S0459 STATUS BOARD 2026-10-02 Band1 Hadamard 11904 PaleyI,1-1,9149,9149,9439,9439
+S0460 STATUS BOARD 2026-10-02 Band1 Hadamard 11924 PaleyI,1-1,9150,9150,9440,9440
+S0461 SCOREBOARD 2026-10-03 Band1 Hadamard 11928 PaleyI,1-1,9151,9151,9441,9441
+S0462 SCOREBOARD 2026-10-03 Band1 Hadamard 11940 PaleyI,1-1,9152,9152,9442,9442
+S0463 SCOREBOARD 2026-10-03 Band1 Hadamard 11960 PaleyI,1-1,9153,9153,9443,9443
+S0464 SCOREBOARD 2026-10-03 Band1 Hadamard 11972 PaleyI,1-1,9154,9154,9444,9444
+S0465 SCOREBOARD 2026-10-03 Band1 Hadamard 11988 PaleyI,1-1,9155,9155,9445,9445
+S0466 SCOREBOARD 2026-10-03 Band1 Hadamard 12008 PaleyI,1-1,9156,9156,9446,9446
+S0467 SCOREBOARD 2026-10-03 Band1 Hadamard 12012 PaleyI,1-1,9157,9157,9447,9447
+S0468 SCOREBOARD 2026-10-03 Band1 Hadamard 12044 PaleyI,1-1,9158,9158,9448,9448
+S0469 SCOREBOARD 2026-10-03 Band1 Hadamard 12072 PaleyI,1-1,9159,9159,9449,9449
+S0470 SCOREBOARD 2026-10-03 Band1 Hadamard 12108 PaleyI,1-1,9160,9160,9450,9450
+S0471 SCOREBOARD 2026-10-03 Band1 Hadamard 12120 PaleyI,1-1,9161,9161,9451,9451
+S0472 SCOREBOARD 2026-10-03 Band1 Hadamard 12144 PaleyI,1-1,9162,9162,9452,9452
+S0473 SCOREBOARD 2026-10-03 Band1 Hadamard 12164 PaleyI,1-1,9163,9163,9453,9453
+S0474 SCOREBOARD 2026-10-03 Band1 Hadamard 12204 PaleyI,1-1,9164,9164,9454,9454
+S0475 SCOREBOARD 2026-10-03 Band1 Hadamard 12212 PaleyI,1-1,9165,9165,9455,9455
+S0476 SCOREBOARD 2026-10-03 Band1 Hadamard 12228 PaleyI,1-1,9166,9166,9456,9456
+S0477 SCOREBOARD 2026-10-03 Band1 Hadamard 12240 PaleyI,1-1,9167,9167,9457,9457
+S0478 SCOREBOARD 2026-10-03 Band1 Hadamard 12252 PaleyI,1-1,9168,9168,9458,9458
+S0479 SCOREBOARD 2026-10-03 Band1 Hadamard 12264 PaleyI,1-1,9169,9169,9459,9459
+S0480 SCOREBOARD 2026-10-03 Band1 Hadamard 12324 PaleyI,1-1,9170,9170,9460,9460
+S0481 SCOREBOARD 2026-10-03 Band1 Hadamard 12344 PaleyI,1-1,9171,9171,9461,9461
+S0482 SCOREBOARD 2026-10-03 Band1 Hadamard 12348 PaleyI,1-1,9172,9172,9462,9462
+S0483 SCOREBOARD 2026-10-03 Band1 Hadamard 12380 PaleyI,1-1,9173,9173,9463,9463
+S0484 STATUS BOARD 2026-10-03 Band1 Hadamard 11928 PaleyI,1-1,9174,9174,9464,9464
+S0485 STATUS BOARD 2026-10-03 Band1 Hadamard 11940 PaleyI,1-1,9175,9175,9465,9465
+S0486 STATUS BOARD 2026-10-03 Band1 Hadamard 11960 PaleyI,1-1,9176,9176,9466,9466
+S0487 STATUS BOARD 2026-10-03 Band1 Hadamard 11972 PaleyI,1-1,9177,9177,9467,9467
+S0488 STATUS BOARD 2026-10-03 Band1 Hadamard 11988 PaleyI,1-1,9178,9178,9468,9468
+S0489 STATUS BOARD 2026-10-03 Band1 Hadamard 12008 PaleyI,1-1,9179,9179,9469,9469
+S0490 STATUS BOARD 2026-10-03 Band1 Hadamard 12012 PaleyI,1-1,9180,9180,9470,9470
+S0491 STATUS BOARD 2026-10-03 Band1 Hadamard 12044 PaleyI,1-1,9181,9181,9471,9471
+S0492 STATUS BOARD 2026-10-03 Band1 Hadamard 12072 PaleyI,1-1,9182,9182,9472,9472
+S0493 STATUS BOARD 2026-10-03 Band1 Hadamard 12108 PaleyI,1-1,9183,9183,9473,9473
+S0494 STATUS BOARD 2026-10-03 Band1 Hadamard 12120 PaleyI,1-1,9184,9184,9474,9474
+S0495 STATUS BOARD 2026-10-03 Band1 Hadamard 12144 PaleyI,1-1,9185,9185,9475,9475
+S0496 STATUS BOARD 2026-10-03 Band1 Hadamard 12164 PaleyI,1-1,9186,9186,9476,9476
+S0497 STATUS BOARD 2026-10-03 Band1 Hadamard 12204 PaleyI,1-1,9187,9187,9477,9477
+S0498 STATUS BOARD 2026-10-03 Band1 Hadamard 12212 PaleyI,1-1,9188,9188,9478,9478
+S0499 STATUS BOARD 2026-10-03 Band1 Hadamard 12228 PaleyI,1-1,9189,9189,9479,9479
+S0500 STATUS BOARD 2026-10-03 Band1 Hadamard 12240 PaleyI,1-1,9190,9190,9480,9480
+S0501 STATUS BOARD 2026-10-03 Band1 Hadamard 12252 PaleyI,1-1,9191,9191,9481,9481
+S0502 STATUS BOARD 2026-10-03 Band1 Hadamard 12264 PaleyI,1-1,9192,9192,9482,9482
+S0503 STATUS BOARD 2026-10-03 Band1 Hadamard 12324 PaleyI,1-1,9193,9193,9483,9483
+S0504 STATUS BOARD 2026-10-03 Band1 Hadamard 12344 PaleyI,1-1,9194,9194,9484,9484
+S0505 STATUS BOARD 2026-10-03 Band1 Hadamard 12348 PaleyI,1-1,9195,9195,9485,9485
+S0506 STATUS BOARD 2026-10-03 Band1 Hadamard 12380 PaleyI,1-1,9196,9196,9486,9486
+S0507 SCOREBOARD 2026-10-09 Band1 Hadamard 14324 PaleyI,1-2,9197,9198,9487,9488
+S0508 SCOREBOARD 2026-10-09 Band1 Hadamard 14328 PaleyI,1-2,9199,9200,9489,9490
+S0509 SCOREBOARD 2026-10-09 Band1 Hadamard 14348 PaleyI,1-2,9201,9202,9491,9492
+S0510 SCOREBOARD 2026-10-09 Band1 Hadamard 14356 PaleyII,1-1,9203,9203,9493,9493
+S0511 SCOREBOARD 2026-10-09 Band1 Hadamard 14388 PaleyI,1-2,9204,9205,9494,9495
+S0512 SCOREBOARD 2026-10-09 Band1 Hadamard 14408 PaleyI,1-2,9206,9207,9496,9497
+S0513 SCOREBOARD LATEST,1-2,9208,9209,9498,9499
+S0514 STATUS BOARD 2026-10-09 Band1 Hadamard 14324 PaleyI,1-2,9210,9211,9500,9501
+S0515 STATUS BOARD 2026-10-09 Band1 Hadamard 14328 PaleyI,1-2,9212,9213,9502,9503
+S0516 STATUS BOARD 2026-10-09 Band1 Hadamard 14348 PaleyI,1-2,9214,9215,9504,9505
+S0517 STATUS BOARD 2026-10-09 Band1 Hadamard 14356 PaleyII,1-1,9216,9216,9506,9506
+S0518 STATUS BOARD 2026-10-09 Band1 Hadamard 14388 PaleyI,1-2,9217,9218,9507,9508
+S0519 STATUS BOARD 2026-10-09 Band1 Hadamard 14408 PaleyI,1-2,9219,9220,9509,9510
+S0520 STATUS BOARD LATEST,1-2,9221,9222,9511,9512
+S0521 SCOREBOARD 2026-10-14 Band1 Hadamard 14772 PaleyI,1-1,9223,9223,9513,9513
+S0522 SCOREBOARD 2026-10-14 Band1 Hadamard 14780 PaleyI,1-1,9224,9224,9514,9514
+S0523 STATUS BOARD 2026-10-14 Band1 Hadamard 14772 PaleyI,1-1,9225,9225,9515,9515
+S0524 STATUS BOARD 2026-10-14 Band1 Hadamard 14780 PaleyI,1-1,9226,9226,9516,9516
+S0525 SCOREBOARD 2026-10-15 Band1 Hadamard 14844 PaleyI,1-1,9227,9227,9517,9517
+S0526 SCOREBOARD 2026-10-15 Band1 Hadamard 14852 PaleyI,1-1,9228,9228,9518,9518
+S0527 SCOREBOARD 2026-10-15 Band1 Hadamard 14868 PaleyI,1-1,9229,9229,9519,9519
+S0528 SCOREBOARD 2026-10-15 Band1 Hadamard 14880 PaleyI,1-1,9230,9230,9520,9520
+S0529 STATUS BOARD 2026-10-15 Band1 Hadamard 14844 PaleyI,1-1,9231,9231,9521,9521
+S0530 STATUS BOARD 2026-10-15 Band1 Hadamard 14852 PaleyI,1-1,9232,9232,9522,9522
+S0531 STATUS BOARD 2026-10-15 Band1 Hadamard 14868 PaleyI,1-1,9233,9233,9523,9523
+S0532 STATUS BOARD 2026-10-15 Band1 Hadamard 14880 PaleyI,1-1,9234,9234,9524,9524
+S0533 SCOREBOARD 2026-10-16 Band1 Hadamard 14924 PaleyI,1-1,9235,9235,9525,9525
+S0534 SCOREBOARD 2026-10-16 Band1 Hadamard 14980 PaleyII,1-1,9236,9236,9526,9526
+S0535 SCOREBOARD 2026-10-16 Band1 Hadamard 14984 PaleyI,1-1,9237,9237,9527,9527
+S0536 SCOREBOARD 2026-10-16 Band1 Hadamard 15032 PaleyI,1-1,9238,9238,9528,9528
+S0537 SCOREBOARD 2026-10-16 Band1 Hadamard 15036 PaleyII,1-1,9239,9239,9529,9529
+S0538 SCOREBOARD 2026-10-16 Band1 Hadamard 15060 PaleyII,1-1,9240,9240,9530,9530
+S0539 SCOREBOARD 2026-10-16 Band1 Hadamard 15076 PaleyII,1-1,9241,9241,9531,9531
+S0540 STATUS BOARD 2026-10-16 Band1 Hadamard 14924 PaleyI,1-1,9242,9242,9532,9532
+S0541 STATUS BOARD 2026-10-16 Band1 Hadamard 14980 PaleyII,1-1,9243,9243,9533,9533
+S0542 STATUS BOARD 2026-10-16 Band1 Hadamard 14984 PaleyI,1-1,9244,9244,9534,9534
+S0543 STATUS BOARD 2026-10-16 Band1 Hadamard 15032 PaleyI,1-1,9245,9245,9535,9535
+S0544 STATUS BOARD 2026-10-16 Band1 Hadamard 15036 PaleyII,1-1,9246,9246,9536,9536
+S0545 STATUS BOARD 2026-10-16 Band1 Hadamard 15060 PaleyII,1-1,9247,9247,9537,9537
+S0546 STATUS BOARD 2026-10-16 Band1 Hadamard 15076 PaleyII,1-1,9248,9248,9538,9538
+S0547 SCOREBOARD 2026-10-17 Band1 Hadamard 15084 PaleyI,1-1,9249,9249,9539,9539
+S0548 STATUS BOARD 2026-10-17 Band1 Hadamard 15084 PaleyI,1-1,9250,9250,9540,9540
+S0549 SCOREBOARD LATEST,1-1,9251,9251,9541,9541
+S0550 STATUS BOARD LATEST,1-1,9252,9252,9542,9542

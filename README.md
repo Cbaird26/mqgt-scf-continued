@@ -105,6 +105,7 @@ and [release notes](research_continuation/2026-10-21/RELEASE_NOTES.md).
 | `A_Theory_of_Everything_UPDATED_2026-09-18.pdf` | The 6,926-page unified edition: corpus + verification supplement + verification paper |
 | `E4_ALPHA_GATE_RESEARCH_NOTE.md`, `E4_DERIVATION_NOTE.md`, `E4_FINAL_STATUS.md` + `mqgt_t1_e4_*.py` | E4 (T-1 α⁻¹ gate) research record: pinned target c₃ = −1.56371823031276, exclusion record across fits, QED running, existing invariants, heat kernel |
 | `supporting_analysis/` | 2026-09-18 record-side theorems: middle-tower D₁ lemma and L closed forms (exact rational), mirror-check residual −1/16 closed, ζ(0) theorem (65/65 coexact towers, scalar conventions A/B), and the Part-0 open-problem-1 closure: one-loop radiative sequestering of J = κ_ES² in an explicit minimal Z₂_h-even model (Lemma 1′: E\|H\|² absent to all loop orders *in that model*; errata 1–7 on record) |
+| `editions/2026-10-20/` | **Expanded public research collection** (9,252 pages; 551 supplemental PDFs): catalogue, page maps, source attribution, verified checksums and rebuild tools. The public PDF and ZIP are staged as separate draft release assets for `v2026.10.20-research-collection` |
 | `play_notes/` | Clearly labeled exploration branch (interior-observer / refractive α idea): pre-declared combination-rule exclusion record across eight principled weightings; kept separate from the record side per program discipline |
 
 ## Conventions
