@@ -1,0 +1,49 @@
+{
+  "prepared_for": "Christopher Michael Baird",
+  "prepared_with": "OpenAI Codex, AI-assisted derivation and computation",
+  "date": "2026-10-22",
+  "timezone": "America/New_York",
+  "previous_scalar_release": {
+    "url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.22-scalar-anomaly-sector",
+    "commit": "7cfd34114ade13d501c659492511ffbd0e32c017"
+  },
+  "common_vacuum_input": {
+    "repository": "Cbaird26/mqgt-scf-continued",
+    "commit": "3a8a1b029e2923ce3fde3335fbc710ebf618a38b",
+    "path": "research_continuation/2026-10-22/electromagnetic/stationary_profiles_results.json",
+    "copied_to": "inputs/common_vacuum_pair.json",
+    "sha256": "1f28875032cb1fea47858ee4d26929e414fb28f283c3dd6d6b6c3a68e593e13e",
+    "precision_policy": "95-digit source preserved byte-for-byte; new numerical calculations use float64/complex128."
+  },
+  "predecessor_PDFs": [
+    {
+      "filename": "Geometric_Weak_Gauge_Response_2026-10-22.pdf",
+      "sha256": "617b1c8eed570fd8ea37fc87cc913b79eab1aba93008eaae92162b9a5f3fbead",
+      "kind": "user-provided predecessor PDF",
+      "redistributed": false
+    },
+    {
+      "filename": "Neutral_Gauge_Higgs_Matching_2026-10-22.pdf",
+      "sha256": "7aea4baab547a5dfe0da51965ef291a21f60cfc47c798c65e4b837d5a8acfc65",
+      "kind": "user-provided predecessor PDF",
+      "redistributed": false
+    }
+  ],
+  "primary_references": [
+    "https://arxiv.org/abs/hep-th/0306138v3",
+    "https://arxiv.org/abs/1312.4879v2",
+    "https://arxiv.org/abs/1201.6637v1",
+    "https://arxiv.org/abs/1610.02873v1",
+    "https://arxiv.org/abs/2506.09126v2"
+  ],
+  "new_calculations": [
+    "Monopole-harmonic multiplication matrices and exact internal Higgs operator.",
+    "Scalar quadratic, external kinetic, and quartic coefficients.",
+    "Full transverse neutral low-momentum kinetic and mass response including geometric Pauli terms.",
+    "Leading Higgs-induced neutral kinetic shifts and profile differences.",
+    "Unbroken weak radius derivative."
+  ],
+  "review_status": "Self-audit and independent computational methods in the same assistant session; no separate agent or external peer review.",
+  "external_publication": false,
+  "scope": "Conditional inherited spectral-action completion. No measured coupling used. No kappa selection, full anomaly polynomial, coupled vacuum solution, quantum thresholds or running."
+}

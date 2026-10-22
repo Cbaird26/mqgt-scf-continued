@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-22",
+  "timezone": "America/New_York",
+  "completed_at": "2026-10-22T16:29:05.820863-04:00",
+  "pdf": {
+    "pages": 11,
+    "compiled_with": "pdflatex; desktop compiler also successfully checked the project",
+    "latest_terminal_log_warnings": [],
+    "visual_inspection": "All eleven final rendered pages inspected; equations, tables, matrices, figure, headers and references checked.",
+    "sha256": "e61f019843dfcb55dae8c8a74d9ef70fd6891250a349906ebdbbc9fb50449a46"
+  },
+  "numerical_checks": {
+    "passed": 126,
+    "total": 126,
+    "fresh_zip_extraction_rerun": true,
+    "fresh_numerical_sources_match_packaged_sources": true,
+    "byte_identical_result_files": {
+      "results.json": true,
+      "checks.json": true
+    }
+  },
+  "precision_scope": "Internal spectral representations evaluated numerically with cutoff and independent-method checks; no interval certificate or external peer review.",
+  "not_computed": [
+    "physical scalar pole masses",
+    "new coupled scalar/radius/anomaly vacuum",
+    "six-dimensional anomaly completion",
+    "independent kappa and profile selection",
+    "quantum thresholds and running"
+  ],
+  "publication_status": "Local research note and reproduction bundle; not published to GitHub in this task."
+}

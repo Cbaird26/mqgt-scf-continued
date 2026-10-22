@@ -1,0 +1,4 @@
+# Recording environment: CPython 3.14.6, macOS arm64.
+numpy==2.4.3
+scipy==1.18.1
+matplotlib==3.10.8

@@ -1,0 +1,634 @@
+{
+  "checks": {
+    "six_retained_profile_moments": {
+      "passed": true,
+      "metric": 4.7704895589362195e-18,
+      "tolerance": 2e-15
+    },
+    "independent_Wigner_sphere_quadratures": {
+      "passed": true,
+      "metric": 7.299716386910404e-15,
+      "tolerance": 5e-14
+    },
+    "zero_mode_Yukawa_overlap": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-15
+    },
+    "Dirac_chirality_n0_k-15": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n0_k-13": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n0_k-11": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n0_k-9": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n0_k-7": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n0_k-5": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n0_k-3": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n0_k-1": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n0_k1": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n0_k3": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n0_k5": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n0_k7": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n0_k9": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n0_k11": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n0_k13": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n0_k15": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "internal_Dirac_heat_multiplicity_n0": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 3e-14
+    },
+    "Dirac_chirality_n1_k-16": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n1_k-14": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n1_k-12": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n1_k-10": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n1_k-8": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n1_k-6": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n1_k-4": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n1_k-2": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n1_k0": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n1_k2": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n1_k4": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n1_k6": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n1_k8": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n1_k10": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n1_k12": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n1_k14": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n1_k16": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "internal_Dirac_heat_multiplicity_n1": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 3e-14
+    },
+    "Dirac_chirality_n2_k-17": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n2_k-15": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n2_k-13": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n2_k-11": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n2_k-9": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n2_k-7": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n2_k-5": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n2_k-3": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n2_k-1": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n2_k1": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n2_k3": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n2_k5": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n2_k7": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n2_k9": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n2_k11": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n2_k13": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n2_k15": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "Dirac_chirality_n2_k17": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "internal_Dirac_heat_multiplicity_n2": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 3e-14
+    },
+    "analytic_heat_moments_vs_quadrature": {
+      "passed": true,
+      "metric": 2.5604518505417673e-15,
+      "tolerance": 3e-14
+    },
+    "full_external_Clifford_finite_q_response": {
+      "passed": true,
+      "metric": 2.5594110164561812e-14,
+      "tolerance": 2e-10
+    },
+    "quadratic_Duhamel_vs_Toeplitz_L8": {
+      "passed": true,
+      "metric": 3.122502256758253e-17,
+      "tolerance": 1e-13
+    },
+    "Cauchy_imaginary_residual_L8": {
+      "passed": true,
+      "metric": 2.6645352591003757e-14,
+      "tolerance": 2e-12
+    },
+    "quadratic_Duhamel_vs_Toeplitz_L10": {
+      "passed": true,
+      "metric": 2.7755575615628914e-17,
+      "tolerance": 1e-13
+    },
+    "Cauchy_imaginary_residual_L10": {
+      "passed": true,
+      "metric": 3.4638958368304884e-14,
+      "tolerance": 2e-12
+    },
+    "scalar_cutoff_convergence_L10": {
+      "passed": true,
+      "metric": 3.790717739704519e-13,
+      "tolerance": 1e-10
+    },
+    "kinetic_cutoff_convergence_L10": {
+      "passed": true,
+      "metric": 2.2373468256809128e-12,
+      "tolerance": 1e-10
+    },
+    "quadratic_Duhamel_vs_Toeplitz_L12": {
+      "passed": true,
+      "metric": 2.42861286636753e-17,
+      "tolerance": 1e-13
+    },
+    "Cauchy_imaginary_residual_L12": {
+      "passed": true,
+      "metric": 2.1316282072803006e-14,
+      "tolerance": 2e-12
+    },
+    "scalar_cutoff_convergence_L12": {
+      "passed": true,
+      "metric": 6.938893903907228e-18,
+      "tolerance": 1e-10
+    },
+    "kinetic_cutoff_convergence_L12": {
+      "passed": true,
+      "metric": 4.720733054568283e-14,
+      "tolerance": 1e-10
+    },
+    "kinetic_contour_radius_and_order": {
+      "passed": true,
+      "metric": 2.5546953117784953e-14,
+      "tolerance": 2e-12
+    },
+    "scalar_Toeplitz_vs_Cauchy": {
+      "passed": true,
+      "metric": 2.373405291744568e-14,
+      "tolerance": 2e-11
+    },
+    "parallel_Yukawa_flavour_rotation_quartic": {
+      "passed": true,
+      "metric": 1.6263032587282567e-19,
+      "tolerance": 1e-12
+    },
+    "quark_quadratic_additivity": {
+      "passed": true,
+      "metric": 1.3877787807814457e-17,
+      "tolerance": 1e-13
+    },
+    "positive_scalar_wavefunction_and_quartics": {
+      "passed": true
+    },
+    "all_unbroken_neutral_coefficients_match_predecessor": {
+      "passed": true,
+      "metric": 1.3322676295501878e-15,
+      "tolerance": 2e-13
+    },
+    "unbroken_weak_profile_difference": {
+      "passed": true,
+      "metric": 1.9534564997154293e-18,
+      "tolerance": 2e-15
+    },
+    "unbroken_photon_profile_difference": {
+      "passed": true,
+      "metric": 2.0595341414692296e-18,
+      "tolerance": 2e-15
+    },
+    "kinetic_Cauchy_vs_real_Richardson": {
+      "passed": true,
+      "metric": 5.076153386518456e-11,
+      "tolerance": 3e-10
+    },
+    "scalar_kinetic_gauge_mass_Ward_identity_0": {
+      "passed": true,
+      "metric": 1.4825113359151487e-11,
+      "tolerance": 8e-11
+    },
+    "scalar_kinetic_gauge_mass_Ward_identity_1": {
+      "passed": true,
+      "metric": 2.807207244437393e-11,
+      "tolerance": 8e-11
+    },
+    "finite_background_photon_mass_null": {
+      "passed": true,
+      "metric": 6.404924333958117e-17,
+      "tolerance": 2e-14
+    },
+    "finite_background_kinetic_positive": {
+      "passed": true,
+      "metric": 0.19924425879934665
+    },
+    "holomorphic_similarity_vs_Hermitian_quark": {
+      "passed": true,
+      "metric": 2.7200464103316335e-15,
+      "tolerance": 1e-12
+    },
+    "exact_unbroken_generator_quark_k-17": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 2e-14
+    },
+    "exact_unbroken_generator_quark_k-15": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 2e-14
+    },
+    "exact_unbroken_generator_quark_k-13": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 2e-14
+    },
+    "exact_unbroken_generator_quark_k-11": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 2e-14
+    },
+    "exact_unbroken_generator_quark_k-9": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 2e-14
+    },
+    "exact_unbroken_generator_quark_k-7": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 2e-14
+    },
+    "exact_unbroken_generator_quark_k-5": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 2e-14
+    },
+    "exact_unbroken_generator_quark_k-3": {
+      "passed": true,
+      "metric": 3.469446951953614e-18,
+      "tolerance": 2e-14
+    },
+    "exact_unbroken_generator_quark_k-1": {
+      "passed": true,
+      "metric": 1.734723475976807e-18,
+      "tolerance": 2e-14
+    },
+    "exact_unbroken_generator_quark_k1": {
+      "passed": true,
+      "metric": 3.469446951953614e-18,
+      "tolerance": 2e-14
+    },
+    "exact_unbroken_generator_quark_k3": {
+      "passed": true,
+      "metric": 6.938893903907228e-18,
+      "tolerance": 2e-14
+    },
+    "exact_unbroken_generator_quark_k5": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 2e-14
+    },
+    "exact_unbroken_generator_quark_k7": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 2e-14
+    },
+    "exact_unbroken_generator_quark_k9": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 2e-14
+    },
+    "exact_unbroken_generator_quark_k11": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 2e-14
+    },
+    "exact_unbroken_generator_quark_k13": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 2e-14
+    },
+    "exact_unbroken_generator_quark_k15": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 2e-14
+    },
+    "exact_unbroken_generator_quark_k17": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 2e-14
+    },
+    "holomorphic_similarity_vs_Hermitian_lepton": {
+      "passed": true,
+      "metric": 4.440892098500626e-16,
+      "tolerance": 1e-12
+    },
+    "exact_unbroken_generator_lepton_k-17": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 2e-14
+    },
+    "exact_unbroken_generator_lepton_k-15": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 2e-14
+    },
+    "exact_unbroken_generator_lepton_k-13": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 2e-14
+    },
+    "exact_unbroken_generator_lepton_k-11": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 2e-14
+    },
+    "exact_unbroken_generator_lepton_k-9": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 2e-14
+    },
+    "exact_unbroken_generator_lepton_k-7": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 2e-14
+    },
+    "exact_unbroken_generator_lepton_k-5": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 2e-14
+    },
+    "exact_unbroken_generator_lepton_k-3": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 2e-14
+    },
+    "exact_unbroken_generator_lepton_k-1": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 2e-14
+    },
+    "exact_unbroken_generator_lepton_k1": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 2e-14
+    },
+    "exact_unbroken_generator_lepton_k3": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 2e-14
+    },
+    "exact_unbroken_generator_lepton_k5": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 2e-14
+    },
+    "exact_unbroken_generator_lepton_k7": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 2e-14
+    },
+    "exact_unbroken_generator_lepton_k9": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 2e-14
+    },
+    "exact_unbroken_generator_lepton_k11": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 2e-14
+    },
+    "exact_unbroken_generator_lepton_k13": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 2e-14
+    },
+    "exact_unbroken_generator_lepton_k15": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 2e-14
+    },
+    "exact_unbroken_generator_lepton_k17": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 2e-14
+    },
+    "weak_radius_derivative_step_convergence": {
+      "passed": true,
+      "metric": 3.9968028886505635e-12,
+      "tolerance": 3e-11
+    },
+    "small_radius_zero_mode_A2": {
+      "passed": true,
+      "metric": 2.168404344971009e-19,
+      "tolerance": 2e-14
+    },
+    "small_radius_zero_mode_G": {
+      "passed": true,
+      "metric": 8.926538848375021e-11,
+      "tolerance": 2e-10
+    },
+    "large_radius_scalar_local_limit_improves": {
+      "passed": true
+    },
+    "geometric_a4_Higgs_shift_limit_improves": {
+      "passed": true
+    },
+    "radius_scan_scalar_kinetic_positive": {
+      "passed": true
+    }
+  },
+  "total": 126,
+  "passed": 126,
+  "environment": {
+    "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "platform": "macOS-26.3-arm64-arm-64bit-Mach-O",
+    "numpy": "2.4.3",
+    "scipy": "1.18.1"
+  },
+  "input_sha256": "1f28875032cb1fea47858ee4d26929e414fb28f283c3dd6d6b6c3a68e593e13e"
+}

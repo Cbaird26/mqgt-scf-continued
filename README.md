@@ -39,6 +39,17 @@ spectral determinants on S⁷ and S⁹, not derived.
 
 ## Research continuation — 22 October 2026
 
+**Exact internal mode sums and Higgs-induced neutral kinetics (next continuation).**
+[Research note and reproducibility package](research_continuation/2026-10-22/exact_scalar_mode_sums/PUBLICATION.md)
+computes scalar quadratic, wave-function and quartic coefficients and the full transverse
+neutral response, including leading Higgs-induced kinetic shifts. The mixed quartics split
+at finite radius, and the geometric weak correction already contributes at a4, correcting
+the predecessor's A9 order-counting. The package records 126 passing computational checks.
+These conditional classical spectral-action results use converged finite-cutoff evaluations
+of exact internal representations. No new coupled vacuum or physical pole masses are computed;
+the measured fine-structure constant remains unexplained.
+**Research prerelease:** [v2026.10.22-exact-scalar-mode-sums](https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.22-exact-scalar-mode-sums).
+
 **Scalar and anomaly-complete sector (later the same day).**
 [A Microscopic Scalar and Anomaly-Complete Sector for the Shared Spectral Action](research_continuation/2026-10-22/scalar_anomaly_sector/README.md)
 specifies a six-dimensional two-doublet scalar sector and a Stueckelberg axion for the U(1)_X
