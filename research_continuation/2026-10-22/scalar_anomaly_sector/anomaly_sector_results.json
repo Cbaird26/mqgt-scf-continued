@@ -1,0 +1,107 @@
+{
+  "anomaly_coefficients_one_block": {
+    "SU3^2 Y": "0",
+    "SU3^2 X": "1",
+    "SU2^2 Y": "0",
+    "SU2^2 X": "4",
+    "Y^3": "0",
+    "Y^2 X": "-4/3",
+    "Y X^2": "0",
+    "X^3": "57",
+    "grav^2 Y": "0",
+    "grav^2 X": "9",
+    "SU3^3": "0"
+  },
+  "anomaly_coefficients_four_blocks": {
+    "SU3^2 Y": "0",
+    "SU3^2 X": "4",
+    "SU2^2 Y": "0",
+    "SU2^2 X": "16",
+    "Y^3": "0",
+    "Y^2 X": "-16/3",
+    "Y X^2": "0",
+    "X^3": "228",
+    "grav^2 Y": "0",
+    "grav^2 X": "36",
+    "SU3^3": "0"
+  },
+  "su2_doublet_count": 16,
+  "non_contributors": [
+    "Phi_d, Phi_u (scalars): no chiral anomaly",
+    "n=0 spectator block: no chiral zero modes"
+  ],
+  "green_schwarz_couplings_in_anomaly_units": {
+    "c_3  (theta tr G Gdual)": "-4",
+    "c_2  (theta tr W Wdual)": "-16",
+    "c_Y  (theta B Bdual)   ": "16/3",
+    "c_X  (theta X Xdual)   ": "-76",
+    "c_g  (theta R Rdual)   ": "-36",
+    "E_YYX (Bardeen term)   ": "fixed by moving the Y^2 X consistent anomaly from the B legs to the X leg; required because the photon contains B",
+    "no theta shift under Y ": "A_{Y X^2} = 0 and the Bardeen choice leave U(1)_Y exactly non-anomalous"
+  },
+  "Y_variation_coefficients_after_bardeen": {
+    "Y^3": "0",
+    "grav^2 Y": "0",
+    "SU3^2 Y": "0",
+    "SU2^2 Y": "0",
+    "Y X^2": "0"
+  },
+  "one_loop_coefficients_model": {
+    "SU3": "-17/3",
+    "SU2": "-5/3",
+    "U1_Y": "83/9",
+    "U1_X": "316/3",
+    "U1_YX_mixing": "0",
+    "QED_fermions_only": "128/9"
+  },
+  "one_loop_coefficients_sm_control_3gen_1doublet": {
+    "SU3": "-7",
+    "SU2": "-19/6",
+    "U1_Y": "41/6",
+    "U1_X": "236/3",
+    "U1_YX_mixing": "1/3",
+    "QED_fermions_only": "32/3"
+  },
+  "one_loop_convention": "d(1/g^2)/d ln mu = - b/(8 pi^2); b = -(11/3)C_A + (2/3) sum_Weyl T + (1/3) sum_complex_scalars T; abelian T = charge^2 with q_Y = y/2.",
+  "scalar_degrees_of_freedom": {
+    "test_point": {
+      "ld": "1",
+      "lu": "5/2",
+      "l3": "1",
+      "lA": "3",
+      "mu2": "9",
+      "vd": "2",
+      "vu": "1"
+    },
+    "real_fields": 9,
+    "hessian_rank": 4,
+    "hessian_nullity": 5,
+    "gauged_orbit_rank": 4,
+    "global_orbit_plus_theta_rank": 5,
+    "physical_massless": 1,
+    "physical_content": [
+      "h_d, h_u (CP even)",
+      "H^+- (charged)",
+      "a (CP odd; massless at tree level; QCD-anomaly mass not computed)"
+    ],
+    "reason": "The derived potential is invariant under SU(2) x U(1)_d x U(1)_u and independent of theta; the flat directions at the vacuum are exactly that orbit plus theta (5), of which the gauged generators remove 4 (Q = T3 + Y unbroken)."
+  },
+  "checks": {
+    "all_Y_and_nonabelian_anomalies_vanish": true,
+    "X_anomalies_match_predecessor_1_4_m4_3_0_57_9": true,
+    "YX2_anomaly_vanishes_so_Y_leg_needs_no_axion_shift_from_it": true,
+    "Y2X_anomaly_nonzero_requires_Bardeen_counterterm_to_protect_Y": true,
+    "witten_su2_anomaly_free_even_doublets": true,
+    "Y_non_anomalous_after_bardeen_term": true,
+    "stueckelberg_determinant_identity_random_rationals": true,
+    "pure_X_stueckelberg_mass_keeps_photon_direction_1_1_0": true,
+    "sm_control_b2_minus_19_6_bY_41_6_b3_minus_7": true,
+    "model_YX_kinetic_mixing_not_generated_at_one_loop": true,
+    "scalar_test_point_is_stationary": true,
+    "hessian_rank_4_two_cp_even_two_charged": true,
+    "hessian_nullity_5": true,
+    "gauge_orbit_rank_4_Q_unbroken": true,
+    "flat_directions_exactly_global_orbit_plus_theta": true,
+    "one_physical_massless_pseudoscalar": true
+  }
+}

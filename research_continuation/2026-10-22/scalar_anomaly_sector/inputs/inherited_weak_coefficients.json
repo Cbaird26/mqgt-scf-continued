@@ -1,0 +1,32 @@
+{
+  "description": "Geometric weak-gauge kinetic coefficients Z_W/kappa for the published common-vacuum profile pair, inherited value-for-value from the predecessor note 'Geometric Weak-Gauge Response and Electromagnetic Profile Dependence' (22 October 2026). The predecessor's reproducibility bundle was not present in Cbaird26/mqgt-scf-continued at commit 3a8a1b029e2923ce3fde3335fbc710ebf618a38b; the values below are the eighteen-significant-digit figures printed in the shared research transcript and are NOT recomputed in this continuation.",
+  "source": {
+    "kind": "predecessor_research_note_values",
+    "note_title": "Geometric Weak-Gauge Response and Electromagnetic Profile Dependence",
+    "note_date": "2026-10-22",
+    "predecessor_files": [
+      "Geometric_Weak_Gauge_Response_2026-10-22.pdf",
+      "Geometric_Weak_Response_Reproducibility_2026-10-22.zip"
+    ],
+    "transcript_url": "https://chatgpt.com/share/6ad9be6e-4efc-83ea-a90d-958d32bc02e5",
+    "transcript_title": "GitHub Research Release",
+    "repository_status_at_commit_3a8a1b0": "not committed",
+    "printed_precision": "18 significant digits"
+  },
+  "definition": "Z_W[f,R]/kappa = sum_j w_j b_W(a_j, R) with b_W = 12 b_{W,0} + 28 b_{W,1} + 16 b_{W,2} the full geometric response (orbital, spin-potential, Pauli contact, Pauli derivative terms) of the torsion-free SU(2)-equivariant extension, evaluated at the common radius R_* of the published pair.",
+  "common_radius": "1.2784724120439786502735724654",
+  "zW_minus": "0.199544788403314737",
+  "zW_plus": "0.199544850474326932",
+  "delta_zW": "6.20710121949330644e-8",
+  "delta_zW_charge_only_approximation": "-4.86716493780e-8",
+  "predecessor_printed_zY_minus": "0.200445639903622954",
+  "predecessor_printed_zY_plus": "0.200445733023410941",
+  "predecessor_printed_zX_minus": "1.843191195308219",
+  "predecessor_printed_zX_plus": "1.843192267128956",
+  "predecessor_printed_delta_zgamma": "1.55190800181481749e-7",
+  "predecessor_printed_relative_delta_zgamma": "3.87986284667777436e-7",
+  "predecessor_printed_fixture_mX2_minus_s1_kappa1": "0.542537313842138",
+  "predecessor_printed_fixture_mZ2_minus_s1_kappa1": "2.500072505697618",
+  "large_u_expansion_of_bW": "b_W(u) = 2/(3 pi^2) + 37/(36 pi^2 u^2) + [-1/(3 pi^2) + 2/(9 pi^2 u) + 2/(9 pi^2 u^2)] e^{-u} + O(e^{-2u}),  u = a/R^2",
+  "positivity_certificate_quoted": "b_W > 0.3164962993 for u in [0.59, 0.60] (predecessor exact rational certificate; not rerun here)"
+}

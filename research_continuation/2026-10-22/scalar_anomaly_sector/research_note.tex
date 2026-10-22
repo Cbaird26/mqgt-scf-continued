@@ -1,0 +1,396 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=0.88in,headheight=15pt]{geometry}
+\usepackage[T1]{fontenc}
+\IfFileExists{lmodern.sty}{\usepackage{lmodern}}{\usepackage{ae}}  % Latin Modern when available; Type1 CM fallback
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{booktabs,array,longtable}
+\usepackage{xcolor,microtype,enumitem,fancyhdr}
+\usepackage[colorlinks=true,linkcolor=navy,urlcolor=navy,citecolor=navy]{hyperref}
+\definecolor{navy}{HTML}{15344A}
+\definecolor{teal}{HTML}{167D8D}
+\definecolor{pale}{HTML}{EDF4F6}
+\hypersetup{pdftitle={A Microscopic Scalar and Anomaly-Complete Sector for the Shared Spectral Action},pdfauthor={Prepared for Christopher Michael Baird with Claude}}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{navy} SCALAR AND ANOMALY SECTOR / NEUTRAL MATCHING}
+\fancyhead[R]{\small 22 October 2026}
+\fancyfoot[L]{\small Conditional result within a declared completion}
+\fancyfoot[R]{\small\thepage}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\setlist{nosep,leftmargin=1.6em}
+\emergencystretch=2em
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}{Proposition}
+\newtheorem{lemma}{Lemma}
+\DeclareMathOperator{\Tr}{Tr}
+\DeclareMathOperator{\tr}{tr}
+\DeclareMathOperator{\rank}{rank}
+\DeclareMathOperator{\diag}{diag}
+\newcommand{\dd}{\mathrm d}
+\newcommand{\R}{\mathbb R}
+\newcommand{\pker}{\mathsf p}
+\newcommand{\jker}{\mathsf j}
+\newcommand{\bker}{\mathsf b}
+\newcommand{\dker}{\mathsf d}
+\newcommand{\Mb}{\mathcal M}
+\newcommand{\Yb}{\mathcal Y}
+\newcommand{\Lam}{\Lambda}
+\newcommand{\hmu}{\hat\mu}
+
+\begin{document}
+\thispagestyle{plain}
+{\small\color{teal}\textbf{BAIRD / ZORAASI RESEARCH CONTINUATION}}
+
+{\LARGE\bfseries\color{navy} A microscopic scalar and anomaly-complete sector\\[3pt] for the shared spectral action}
+
+{\large Higgs-dependent operator, coupled vacuum, broken-background neutral matrices, and the surviving massless generator}
+
+\textbf{Prepared for Christopher Michael Baird with Claude}\hfill 22 October 2026
+
+\colorbox{pale}{\parbox{\dimexpr\linewidth-2\fboxsep\relax}{\textbf{Result.} A specified six-dimensional scalar sector is adjoined to the inherited shared spectral action: two charged scalars $\Phi_d,\Phi_u$ with $x=\pm1$, entering the Dirac operator as Yukawa insertions. Their $x$ charge is forced by Yukawa charge conservation, and it makes their lowest monopole harmonics $SU(2)_W$ doublets, as the Yukawa couplings require; the zero-mode Yukawa overlaps are exactly $1/(2\sqrt\pi)$. The $a_2$--$a_4$ heat-kernel content of the Higgs-dependent operator fixes the two-doublet potential to $\lambda_d|H_d|^4+\lambda_u|H_u|^4+\lambda_A(|H_d|^2|H_u|^2+|H_d^{T}i\sigma_2H_u|^2)$ with a common doublet mass parameter $\Lambda^2[\,2m_2/m_1-5/(6R^2)\,]>0$; every such coefficient is identical for the published common-vacuum pair. The untuned truncated action places the Yukawa-weighted vev at $O(\Lambda)$ and, on a scan and asymptotically, admits no flat stationary radius; with a tuned mass term the common vacuum survives with computed first-order shifts and an induced radion-curvature reduction that stays within an $N_b$-independent stability bound for all Yukawa ratios. The $U(1)_X$ anomalies $(1,4,-\tfrac43,0,57,9)$ per block are cancelled by a Stückelberg axion shifting only under $X$, whose mass term leaves the kernel of the neutral mass matrix at $(1,1,0)$; the null-space residue gives $e^{-2}=Z_W+Z_Y+\delta K_\gamma$, and the published pair difference $\Delta(e^{-2}/\kappa)=1.5519080018\times10^{-7}$ survives at the inherited radius for any Higgs-induced shift $\delta K_\gamma$ common to the pair (as in the local expansion through $a_{10}$), up to an $O(\varepsilon)$ radius-splitting correction at the tuned coupled vacuum. One physical pseudoscalar remains. The measured fine-structure constant is not derived.}}
+
+\section{Question and provenance}
+
+The predecessor calculation \cite{neutral} completed the neutral gauge and Higgs matching for a declared four-dimensional two-doublet effective theory built on the inherited unbroken kinetic coefficients $Z_W,Z_Y,Z_X$ of the published common-vacuum pair \cite{oct21,oct22}. It identified three missing microscopic inputs: a Higgs-dependent six-dimensional operator, an anomaly-complete sector for the external $U(1)_X$, and a coupled vacuum with broken-background kinetic and mass matrices from which the surviving massless generator and its normalization follow. This note supplies a specified completion of each item and carries the result into a scoped matching setup.
+
+Everything inherited is listed in \texttt{ASSUMPTIONS.md} (items I1--I7); everything declared here is listed there as A1--A10 (with A1b). Three provenance facts matter for reading the numbers. First, the published pair (nodes, 95-digit weights, common radius) is reused byte for byte from the repository at commit \texttt{3a8a1b0}; $Z_Y/\kappa$ and $Z_X/\kappa$ are recomputed here and agree with the predecessor values to the printed precision. Second, the weak coefficient $Z_W/\kappa$ is inherited value-for-value from the weak-response note, whose reproducibility bundle was not in the repository at that commit; its eighteen printed digits are used and it is not recomputed. Third, the source archive itself \cite{archive} was not accessed in this continuation; its conventions enter only through the pinned predecessor notes. No measured coupling is used anywhere.
+
+\section{Inherited action and the published pair}
+
+The action, profiles, internal heat sums and flat-vacuum prescription are those of \cite{oct21,oct22}:
+\begin{gather}
+S_{\rm sp}=\frac\kappa2\sum_i\Tr_{\rm Dirac}f(D_i^2/\Lam^2),\qquad f(u)=\sum_{j}w_je^{-a_ju},\qquad R=\Lam r,\\
+\hat h_n(u)=\frac n2+\sum_{\ell\ge1}(2\ell+n)e^{-u\ell(\ell+n)},\qquad u=a/R^2,\\
+P=\sum_jw_ja_j^{-2}H(a_j/R^2),\quad J=\sum_jw_ja_j^{-1}H,\quad z_Y=\sum_jw_j\frac{H_Y}{6\pi^2},\quad z_X=\sum_jw_j\frac{H_X}{6\pi^2},
+\end{gather}
+with $H=12\hat h_0+28\hat h_1+16\hat h_2$, $H_Y=\tfrac13\hat h_0+\tfrac{32}3\hat h_1+\tfrac43\hat h_2$, $H_X=28\hat h_1+64\hat h_2$, and $F(R)=RP'-2P=0$, $c=P/R^2$, $K=P''-2c$. The sector weights follow from the inherited field table I3 and are re-derived in \texttt{scalar\_sector.py}. The published pair has $R_*=1.278472412043978650\ldots$, $c=43.68896448254183$, $J=50.25090900618314$, $m_1=m_2=0.55355746930518$, $m_3=0.80840924980405$, $K_-=11.7176182431841$, $K_+=11.7174416204487$. Recomputed coefficients:
+
+\begin{center}\small
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+$Z/\kappa$ & $f_-$ & $f_+$ & difference\\
+\midrule
+$z_W$ (inherited) & $0.199544788403314737$ & $0.199544850474326932$ & $6.20710121949\times10^{-8}$\\
+$z_Y$ (recomputed) & $0.200445639903622954$ & $0.200445733023410941$ & $9.31197879865\times10^{-8}$\\
+$z_X$ (recomputed) & $1.843191195308218923$ & $1.843192267128955547$ & $1.07182073662\times10^{-6}$\\
+$z_W+z_Y$ & $0.399990428306937691$ & $0.399990583497737873$ & $1.55190800182\times10^{-7}$\\
+\bottomrule
+\end{tabular}
+\end{center}
+Both $z_X$ are positive. The pure-exponential control reproduces $R_e=1.3007832832273603$ and $z_Y=0.3303631229653509$ of \cite{oct21}.
+
+\section{The microscopic scalar sector}
+
+\subsection{Charge assignment forced by the Yukawa operators}
+
+Within one copied block the $n=2$ fields are $Q$ and $L$ ($x=2$) and the $n=1$ fields are $u,d,e$ ($x=1$); the two sectors are taken to have opposite six-dimensional chirality (A1b): with both fluxes of the same sign this is what makes $Q,L$ left-handed and $u,d,e$ right-handed in four dimensions, and it is what a scalar Yukawa coupling requires. The source's chirality column was not accessed, so this is inferred from the predecessor's orientation rather than read. A six-dimensional scalar $\Phi$ coupling them as $\bar\Psi_{(2)}\Phi\Psi_{(1)}$ must carry
+\begin{equation}
+\bar Q\,\Phi_d\,d:\ (q_Y,x)=(\tfrac12,+1),\qquad \bar L\,\Phi_d\,e:\ (\tfrac12,+1),\qquad \bar Q\,\Phi_u^{*}\,u:\ \Phi_u:(\tfrac12,-1).
+\end{equation}
+A single scalar of one $X$ charge cannot serve all three operators ($-2+x_H+1=0$ for down and lepton, $-2-x_H+1=0$ for up); this is the inherited obstruction \cite{neutral} in six-dimensional form. The minimal content is therefore two complex scalars $\Phi_d,\Phi_u$, colour singlets, with the charges above (A1). The alternative origin of doublets as internal components of a six-dimensional gauge field on the monopole sphere \cite{Manton} would require the fermion blocks to couple to that field and is not pursued. Since $n=x$, both carry monopole charge $\pm\tfrac12$ in the unit flux, exactly the difference of the fermion monopole charges $1-\tfrac12$.
+
+\subsection{Monopole harmonics: the \texorpdfstring{$X$}{X} charge makes the Higgs a doublet}
+
+\begin{lemma}\label{lem:doublet}
+A charged scalar on $S^2_r$ with monopole charge $q=x/2$ decomposes into monopole harmonics $Y_{j,m}$ with $j=|q|,|q|+1,\ldots$, and $-D^mD_mY_{j,m}=[j(j+1)-q^2]\,r^{-2}Y_{j,m}$ \cite{WuYang}. For $|x|=1$ the lowest level is $j=\tfrac12$: an $SU(2)_W$ doublet of the sphere isometry with internal mass-squared $1/(2r^2)$; the next level $j=\tfrac32$ has $7/(2r^2)$.
+\end{lemma}
+
+The sphere isometry is the geometric weak group of the predecessor construction, the Kaluza--Klein gauge group of the monopole compactification \cite{RSS83}, so these doublets transform under the same $SU(2)_W$ as the gauge bosons. A $Y$-charged, $X$-neutral scalar has $q=0$ and is an isometry singlet; a scalar with $|x|=2$ would be a triplet. Yukawa charge conservation and the doublet requirement agree on $|x|=1$; the second is the $SU(2)_W$-covariance of the first, expressed through $j=|q|$, so their agreement is a consistency check of the geometric embedding rather than an extra input.
+
+\begin{lemma}[Zero-mode overlaps]\label{lem:overlap}
+In the stereographic coordinate $z$, the orthonormal sections of $\mathcal O(m)$ with respect to $\dd\Omega=4\,\dd^2z/(1+|z|^2)^2$ are $s_{m,k}=\sqrt{(m+1)\binom mk/(4\pi)}\,z^k(1+|z|^2)^{-m/2}$, $k=0,\ldots,m$. The $n$ zero modes of the charge-$n/2$ monopole Dirac operator are the sections of $\mathcal O(n-1)$ (spin $(n-1)/2$); the $j=\tfrac12$ harmonics of a charge-$\tfrac12$ scalar are the sections of $\mathcal O(1)$. Hence
+\begin{equation}
+\int_{S^2}\overline{\psi^{(2)}_{k}}\,Y_{\frac12,k'}\,\psi^{(1)}_{0}\,\dd\Omega=\frac{\delta_{kk'}}{\sqrt{4\pi}},\qquad k,k'\in\{0,1\}.
+\end{equation}
+\end{lemma}
+\begin{proof}
+The integrand is $N_\psi N_YN_0|z|^{2k}(1+|z|^2)^{-1}\dd\Omega$ with $N_\psi^2=N_Y^2=2\binom1k/(4\pi)$ for the $\mathcal O(1)$ sections and $N_0^2=1/(4\pi)$ for the constant $n=1$ zero mode; the radial integral is $4\pi B(k+1,2-k)=2\pi$ for $k=0,1$, giving $(2/(4\pi)^{3/2})\cdot2\pi=(4\pi)^{-1/2}$. The off-diagonal integrals vanish by phase averaging.
+\end{proof}
+With $\Phi(x,y)=\sum_kH_k(x)Y_k(y)/r$ and the fermion zero modes normalized the same way, the four-dimensional Yukawa coupling of the zero modes is $y_4=y_6\Lam/(2\sqrt\pi R)$, where $y_6$ has mass dimension $-1$. The overlaps are nonzero and $SU(2)_W$-covariant; this was listed as unestablished in \cite{neutral}.
+
+\subsection{The Higgs-dependent operator}
+
+Let $\Yb[\Phi]$ be the Yukawa map from the $n=1$ space $u\oplus d\oplus e$ (with colour) to the $n=2$ space $Q\oplus L$ (with colour): $d\mapsto y_d\Phi_d\,Q$, $e\mapsto y_e\Phi_d\,L$, $u\mapsto y_u\Phi_u^{*}\,Q$, generation-diagonal within each copied block. Define the Hermitian block-off-diagonal operator $\Mb=\begin{pmatrix}0&\Yb\\ \Yb^\dagger&0\end{pmatrix}$ on $(n{=}2)\oplus(n{=}1)$ and the Higgs-dependent operator (A2)
+\begin{equation}
+D_6[\Phi]=D_6^{(0)}+\Gamma_7\otimes\Mb[\Phi],\qquad D_6^{(0)}=i\Gamma^A\nabla_A,
+\end{equation}
+with $\Gamma_7$ the six-dimensional chirality, $\{\Gamma^A,\Gamma_7\}=0$, $\Gamma_7^2=1$. Because the insertion anticommutes with every Clifford generator,
+\begin{equation}
+D_6[\Phi]^2=D_6^{(0)2}+i\Gamma^A\Gamma_7\otimes[\nabla_A,\Mb]+1\otimes\Mb^2,
+\label{eq:square}
+\end{equation}
+an identity verified at matrix level for arbitrary non-commuting $\nabla_A$ and $\Mb$ in \texttt{scalar\_sector.py}. The commutator $[\nabla_A,\Mb]$ is the gauge-covariant derivative of the scalars: the charge differences $q_Y(Q)-q_Y(d)=\tfrac12$, $x(Q)-x(d)=1$, and the monopole-charge difference $\tfrac12$ reproduce the charges of $\Phi_d$; likewise $L$--$e$ and $Q$--$u$ reproduce those of $\Phi_d$ and $\Phi_u^{*}$. No first-order derivative term appears, so $D_6[\Phi]^2=-(\nabla^2+E)$ is of Laplace type with the \emph{unchanged} spin-plus-gauge connection and, by the Lichnerowicz formula \cite{Lich},
+\begin{equation}
+E=E_0+E_\Phi,\qquad E_0=-\tfrac14R_6-\tfrac i2\Gamma^{AB}F_{AB}\ \ (\Gamma^{AB}=\tfrac12[\Gamma^A,\Gamma^B]),\qquad E_\Phi=-\Mb^2-i\Gamma^A\Gamma_7\,\nabla_A\Mb .
+\end{equation}
+On the chiral subspaces $\Gamma_7$ acts as a sign, so the fermionic Yukawa terms are the standard ones up to a phase; the insertion convention matters only for the parity-even full-Dirac trace, exactly as in the Chamseddine--Connes construction \cite{CC97,CCM}.
+
+\subsection{Local heat-kernel scalar action and its delimitation}
+
+With the Seeley--DeWitt coefficients in Vassilevich's conventions \cite{Vass} ($R_6=2/r^2>0$ on the sphere, $\dim$ spinor $=8$),
+\begin{equation}
+\Tr f(D^2/\Lam^2)=\sum_{n\ge0}\Lam^{6-n}\Bigl(\sum_jw_ja_j^{(n-6)/2}\Bigr)a_n(D^2),\qquad a_n=(4\pi)^{-3}\!\int\!\dd^6x\sqrt g\,\tr\alpha_n ,
+\end{equation}
+so the profile factors of $a_0,a_2,a_4,a_6,a_8,a_{10}$ are $m_3,m_2,m_1,f(0),-f'(0),f''(0)$: precisely the retained local data of the published pair. Using $\tr\Gamma^A\Gamma_7\Gamma^B\Gamma_7=-8\delta^{AB}$, $\tr\Gamma^{AB}=0$, $\tr\Gamma^{AB}\Gamma^C\Gamma_7=0$ (all checked numerically), the $\Phi$-dependent densities are
+\begin{align}
+\alpha_2^\Phi&=\tr E_\Phi=-8\tr\Mb^2,\\
+\alpha_4^\Phi&=\tfrac1{360}\bigl[60R_6\tr E_\Phi+180(2\tr E_0E_\Phi+\tr E_\Phi^2)\bigr]
+=\tfrac23R_6\tr\Mb^2+4\tr\Mb^4+4\tr|\nabla_A\Mb|^2 .
+\end{align}
+The assembly was verified on random matrices directly from the Vassilevich formula. Therefore
+\begin{equation}
+S^{\rm loc}_\Phi=\frac{\kappa}{2(4\pi)^3}\!\int\!\dd^6x\sqrt g\Bigl[-8\Lam^4m_2\tr\Mb^2+\Lam^2m_1\bigl(4\tr|\nabla\Mb|^2+4\tr\Mb^4+\tfrac23R_6\tr\Mb^2\bigr)\Bigr]+O(a_6).
+\label{eq:Sloc}
+\end{equation}
+The traces reduce to $\tr\Mb^2=2\tr\Yb^\dagger\Yb$, $\tr\Mb^4=2\tr(\Yb^\dagger\Yb)^2$, with, for $N_b$ identical blocks,
+\begin{gather}
+\tr\Yb^\dagger\Yb=N_d|\Phi_d|^2+N_u|\Phi_u|^2,\qquad N_d=N_b(3y_d^2+y_e^2),\quad N_u=3N_by_u^2,\\
+\tr(\Yb^\dagger\Yb)^2=\Lam_d|\Phi_d|^4+\Lam_u|\Phi_u|^4+\Lam_A|\Phi_d|^2|\Phi_u|^2,\quad \Lam_d=N_b(3y_d^4+y_e^4),\ \Lam_u=3N_by_u^4,\ \Lam_A=6N_by_u^2y_d^2 .
+\end{gather}
+The cross term arises because $\Phi_d$ and $\Phi_u^{*}$ both map into the same colour-$Q$ space; there is no independent $|\Phi_d^\dagger\Phi_u|$-type structure in six dimensions because the fields are single functions there.
+
+\begin{lemma}[Sphere integrals]\label{lem:sphere}
+For $\Phi=\sum_kH_kY_{\frac12,k}/r$ and $\Phi'=\sum_kH'_kY_{\frac12,k}/r$,
+\begin{equation}
+\int r^2\dd\Omega\,|\Phi|^4=\frac{(H^\dagger H)^2}{3\pi r^2},\qquad
+\int r^2\dd\Omega\,|\Phi|^2|\Phi'|^2=\frac{(H^\dagger H)(H'^\dagger H')+|H^\dagger H'|^2}{6\pi r^2}.
+\end{equation}
+\end{lemma}
+\begin{proof}
+With the Beta integrals $4\pi B(1,3)=\tfrac43\pi$, $4\pi B(2,2)=\tfrac23\pi$, $4\pi B(3,1)=\tfrac43\pi$ and angular averaging, the quartic form is $\tfrac1{4\pi^2}[\tfrac{4\pi}3D_1+\tfrac{2\pi}3(D_2+2\Re\alpha\bar\beta)]$ with $D_1=\sum_k|H_k|^2|H'_k|^2$, $D_2=\sum_{k\ne l}|H_k|^2|H'_l|^2$, $\alpha=\bar H_1H_2$, $\beta=\bar H'_1H'_2$, which equals $\tfrac1{6\pi}[(H^\dagger H)(H'^\dagger H')+|H^\dagger H'|^2]$. For $\Phi'=\Phi_u^{*}$ one has $H'=\tilde H_u=i\sigma_2H_u^{*}$ and $|H_d^\dagger\tilde H_u|^2=|H_d^{T}i\sigma_2H_u|^2$. Both identities were confirmed by numerical quadrature at random $H,H'$.
+\end{proof}
+
+Writing $\Phi_u^{*}=\sum_k\tilde H_{u,k}Y_k/r$ with $\tilde H_u=i\sigma_2H_u^{*}$ and $Z_6:=\kappa\Lam^2m_1/(16\pi^3)$, the four-dimensional scalar Lagrangian of the doublets is
+\begin{align}
+\mathcal L_4&=Z_6\bigl(N_d|D_\mu H_d|^2+N_u|D_\mu H_u|^2\bigr)-V,\nonumber\\
+V&=-Z_6\Lam^2\hmu^2\bigl(N_d|H_d|^2+N_u|H_u|^2\bigr)+\frac{Z_6\Lam^2}{R^2}\Bigl[\frac{\Lam_d|H_d|^4+\Lam_u|H_u|^4}{3\pi}+\frac{\Lam_A}{6\pi}\bigl(|H_d|^2|H_u|^2+|H_d^{T}i\sigma_2H_u|^2\bigr)\Bigr],
+\label{eq:V4}\\
+\hmu^2&:=\frac{2m_2}{m_1}-\frac5{6R^2}\qquad\Bigl(\text{from }-\tfrac{2m_2}{m_1}+\underbrace{\tfrac1{3R^2}}_{\frac23R_6/4}+\underbrace{\tfrac1{2R^2}}_{j=\frac12\text{ eigenvalue}}\Bigr).
+\end{align}
+Three structural statements follow without any numerical input. (i) The quartic has the three-term form declared in \cite{neutral} plus a $|H_d|^2|H_u|^2$ term with the \emph{same} coefficient as $|H_d^{T}i\sigma_2H_u|^2$; the coefficient of $|H_d^{T}i\sigma_2H_u|^2$ is positive, which is what aligns the two vevs (A8). (ii) Both doublets have the same mass parameter: the Yukawa trace $N_i$ multiplies kinetic and mass terms alike. (iii) In canonical normalization $\hat H_i=\sqrt{Z_6N_i}H_i$,
+\begin{equation}
+\hat\lambda_d=\frac{16\pi^2\Lam_d}{3\kappa m_1R^2N_d^2},\qquad \hat\lambda_u=\frac{16\pi^2\Lam_u}{3\kappa m_1R^2N_u^2}=\frac{16\pi^2}{9\kappa m_1R^2N_b},\qquad \hat\lambda_3=\hat\lambda_A=\frac{8\pi^2\Lam_A}{3\kappa m_1R^2N_dN_u},
+\end{equation}
+All four couplings are positive, so the potential is bounded below; moreover $4\hat\lambda_d\hat\lambda_u-\hat\lambda_3^2>0$ for all Yukawas (equivalently $16\Lam_d\Lam_u>\Lam_A^2$), so an aligned stationary point with both vevs nonzero, when it exists, is a minimum. For $y_e=0$ all four couplings coincide and are Yukawa independent.
+
+\begin{proposition}[Local invariance under the published deformation]\label{prop:invariance}
+Every coefficient of the scalar sector computed from the local heat expansion through $a_{10}$ is a function of $(m_1,m_2,m_3,f(0),f'(0),f''(0))$ alone and is therefore identical for $f_+$ and $f_-$. In particular $Z_6$, $\hmu^2$, all $\hat\lambda_i$, the canonical vevs, the tree-level scalar masses, and the vector mass matrix $\Mb^2$ in units of $\kappa\Lam^2$ coincide for the pair. The physical vector masses solve $\Mb^2r=m^2Kr$ and so differ through the exact gauge kinetic coefficients $z_W,z_Y,z_X$; the radius backreaction adds a further difference (Section~5).
+\end{proposition}
+\begin{proof}
+The profile factor of $a_n$ is $\sum_jw_ja_j^{(n-6)/2}$; for $n\le10$ these are the six retained local data $m_3,m_2,m_1,f(0),f'(0),f''(0)$, which agree for the pair to below $10^{-90}$.
+\end{proof}
+
+\textbf{Delimitation (A3, A4).} Equation~\eqref{eq:Sloc} is the exact $a_2$--$a_4$ content of the specified operator, but the inherited framework defines its gauge coefficients by exact internal mode sums, and $R_*^{-2}\approx0.61$ is not small. The exact scalar coefficients are defined by the Duhamel expansion of the same trace,
+\begin{multline}
+\Tr f\bigl(D_6[\Phi]^2/\Lam^2\bigr)=\sum_jw_j\Bigl[\Tr e^{-t_jD_0^2}-t_j\Tr\bigl(\Mb^2e^{-t_jD_0^2}\bigr)\\
++\frac{t_j^2}2\!\int_0^1\!\dd s\,\Tr\bigl(S'e^{-st_jD_0^2}S'e^{-(1-s)t_jD_0^2}\bigr)\Bigr]+O(\Mb^4),
+\label{eq:duhamel}
+\end{multline}
+$t_j=a_j/\Lam^2$, $S'=i\Gamma^A\Gamma_7\nabla_A\Mb$; the term linear in $S'$ vanishes because $S'$ is block off-diagonal. These require matrix elements of $\nabla_mY_{\frac12}$ between the $n=2$ and $n=1$ spinor harmonics and are not computed here. At $R_*\approx1.28$ the local coefficients are not a controlled approximation to them, and Proposition~\ref{prop:invariance} makes no claim about them. Equation~\eqref{eq:Sloc} is also an expansion in $\Mb^2a_j/\Lam^2$; Section~5 shows that the untuned truncated minimum lies outside that domain.
+
+\section{The anomaly-complete sector}
+
+\subsection{Zero-mode anomaly bookkeeping}
+
+In the left-handed Weyl basis of one block ($Q$, $L$, $u^c$, $d^c$, $e^c$ with $x=2,2,-1,-1,-1$) the exact coefficients are, with $T(\mathbf 2)=T(\mathbf 3)=\tfrac12$:
+
+\begin{center}\footnotesize
+\begin{tabular}{@{}lcccccccccc@{}}
+\toprule
+ & $SU(3)^2Y$ & $SU(2)^2Y$ & $Y^3$ & $\mathrm{grav}^2Y$ & $SU(3)^3$ & $SU(3)^2X$ & $SU(2)^2X$ & $Y^2X$ & $YX^2$ & $X^3$ \\
+\midrule
+one block & 0 & 0 & 0 & 0 & 0 & $1$ & $4$ & $-\tfrac43$ & $0$ & $57$\\
+four blocks & 0 & 0 & 0 & 0 & 0 & $4$ & $16$ & $-\tfrac{16}3$ & $0$ & $228$\\
+\bottomrule
+\end{tabular}
+\end{center}
+together with $\text{grav}^2X=9$ per block ($36$ in all), and $16$ $SU(2)$ doublets, so Witten's $SU(2)$ anomaly \cite{Witten} is absent. All anomalies not involving $X$ vanish exactly; the $X$ anomalies reproduce the predecessor's values \cite{neutral}. The scalars carry no chiral anomaly and the $n=0$ spectator has no zero modes, so neither repairs these sums.
+
+\subsection{Mechanism, justification, and what it does not establish}
+
+The chosen mechanism (A7) is a single Stückelberg axion $\theta$ shifting only under $U(1)_X$:
+\begin{gather}
+\mathcal L_{\rm an}=\frac{M_{\rm St}^2}2(\partial_\mu\theta-X_\mu)^2+\theta\sum_{i}c_i\,\mathcal O_i+\mathcal L_{\rm GCS},\qquad \theta\to\theta+\lambda_X,\nonumber\\
+\mathcal O_i\in\{\tr G\tilde G,\ \tr W\tilde W,\ B\tilde B,\ X\tilde X,\ \tr R\tilde R\}.
+\end{gather}
+Here $\mathcal L_{\rm GCS}$ is the Bardeen counterterm \cite{Bardeen,ABDK} that moves the $Y^2X$ consistent anomaly from the $B$ legs to the $X$ leg; it is \emph{required}, because the photon contains $B$ and $U(1)_Y$ must remain exactly non-anomalous. With all mixed anomalies on the $X$ leg, gauge invariance fixes $c_i\propto-\mathcal A_i$ with the standard consistent-anomaly normalization (the cubic $X^3$ term carrying the symmetric-scheme factor $\tfrac13$); the required rational data are the table above, and the linear system for $(c_3,c_2,c_Y,c_X,c_g)$ is always solvable with one axion. Since $\mathcal A_{YX^2}=0$, no $\theta$ shift under $Y$ is needed from any source.
+
+\emph{Justification.} In six dimensions on a monopole flux, a two-form $B_{MN}$ with a Green--Schwarz coupling \cite{GS} reduces on $S^2$ to exactly such an axion: the internal component $B_{\theta\phi}$ gives $\theta$, the modified field strength gives the Stückelberg coupling to $X$ through the flux integer, and the Green--Schwarz term gives the $\theta\,\mathcal O_i$ couplings. This is the standard route by which anomalous $U(1)$ factors of flux compactifications acquire Stückelberg masses \cite{RSSS85,ABDK,CIK}. The mechanism leaves the inherited Dirac spectrum, hence $z_W,z_Y,z_X$, untouched. The alternative of adding matter was considered and not adopted: vector-like fields contribute nothing to these anomalies, so cancelling $(1,4,-\tfrac43,0,57,9)$ with fermions requires new chiral matter, which in this framework means new monopole sectors that change the multiplicities $D_n$ and all three gauge coefficients; the predecessor's $n=0$ spectator has no chiral zero modes and cannot contribute.
+
+\emph{Not established.} The six-dimensional anomaly polynomial of the repaired blocks, the explicit reduction of the two-form, and the value of $M_{\rm St}$, which the two-form normalization and the flux would fix, are not computed; $M_{\rm St}$ is a free parameter of the sector. The construction cancels the four-dimensional zero-mode anomalies, which is necessary for consistency of the retained theory; it does not by itself certify the full six-dimensional theory.
+
+\subsection{Consequences for the neutral sector}
+
+The Stückelberg charge vector in the $(W^3,B,X)$ basis is $\sigma=(0,0,M_{\rm St})$. The predecessor identity $\det(\Mb^2+\sigma\sigma^{T})=\hat v_d^2\hat v_u^2\mu_Y^2$ for $\sigma=(0,\mu_Y,\mu_X)$ was re-verified at 200 random rational points; with $\mu_Y=0$ the photon direction $(1,1,0)$ is annihilated for every $M_{\rm St}$. The scalar sector now has nine real fields ($H_d,H_u,\theta$) and four broken generators ($W^\pm$, $Z$, $X'$): five physical scalars survive, $h_d,h_u,H^\pm$ and one CP-odd state $a$. Its tree mass vanishes because the derived quartic terms are invariant under independent rephasings of $H_d$ and $H_u$ and only two of the three neutral phase directions are gauged; its mass from the $\theta\tr G\tilde G$ coupling is not computed. Once $\theta$ is present, the operator $\mu_{12}^2e^{2i\theta}H_d^\dagger H_u+\text{h.c.}$ is gauge invariant ($H_d^\dagger H_u$ has $x=-2$ and $q_Y=0$); it does not arise from the specified operator, and if another sector generated it, it would give $a$ a tree-level mass. One-loop coefficients of the retained light sector (convention $\dd g^{-2}/\dd\ln\mu=-b/8\pi^2$), exact: $b_3=-\tfrac{17}3$, $b_2=-\tfrac53$, $b_Y=\tfrac{83}9$, $b_X=\tfrac{316}3$, $b_{YX}=0$ (the fermion and scalar charge sums $\sum q_Yx$ vanish separately, so the logarithmic running of $Y$--$X$ kinetic mixing vanishes at one loop; finite threshold mixing proportional to $\sum q_Yx\ln m^2$ can still arise once the charged masses differ), and the fermionic QED coefficient $\tfrac{128}9$; the control values for three generations and one doublet are $-7,-\tfrac{19}6,\tfrac{41}6$.
+
+\section{The coupled vacuum}
+
+\subsection{Equations}
+
+The axion has no potential (shift symmetry) and is eaten in unitary gauge; the anomaly sector contributes only $M_{\rm St}^2$ to the mass matrix. With aligned vevs $\langle\hat H_i\rangle=(0,\hat v_i/\sqrt2)^{T}$ and $\sigma_i:=\hat v_i^2/(\kappa\Lam^2)$, $\ell_i:=\kappa R^2\hat\lambda_i$,
+\begin{equation}
+2\ell_d\sigma_d+\ell_3\sigma_u=2\hmu^2R^2,\qquad \ell_3\sigma_d+2\ell_u\sigma_u=2\hmu^2R^2,\qquad
+\sigma_d+\sigma_u=\gamma\,\hmu^2R^2,\qquad V_H^{\min}=-\frac{\kappa\Lam^4}4\gamma\,\hmu^4R^2,
+\end{equation}
+with $\gamma$ the Yukawa-ratio constant solving $(2\ell_d,\ell_3;\ell_3,2\ell_u)(\gamma_d,\gamma_u)^{T}=(2,2)^{T}$. For the fixture $N_b=4$, $y_u=y_d=y_e=1$: $\ell_d=\ell_3=\pi^2/(3m_1)=5.9431$, $\ell_u=4\pi^2/(9m_1)=7.9242$, $\gamma=48m_1/(13\pi^2)=0.207091$, $\tan^2\beta=\sigma_u/\sigma_d=\tfrac35$. The radius potential is $V_{\rm rad}=\kappa\Lam^4[P_f(R)-cR^2]/(4\pi^2)$ (same trace normalization as the exact sums), so the flat-vacuum prescription applied to the total gives
+\begin{gather}
+\tilde P:=P_f+G_H,\qquad G_H(R)=-\pi^2\gamma\,\hmu^4(R)R^2,\nonumber\\
+\tilde F(R):=R\tilde P'-2\tilde P=F_f(R)+\tilde G(R)=0,\qquad \tilde G(R)=-\frac{10\pi^2}3\gamma\,\hmu^2(R),
+\label{eq:coupled}
+\end{gather}
+using $(\hmu^2)'=\tfrac53R^{-3}$; then $\tilde c=\tilde P/R^2$ and $\tilde K=\tilde P''-2\tilde c$. The closed forms were checked against numerical differentiation.
+
+\subsection{Untuned truncated action: no flat stationary radius}
+
+At $R_*$: $\hmu^2=1.49015750335575$, $\sigma_d=0.315250$, $\sigma_u=0.189150$, $s/(\kappa\Lam^2)=0.504401$, $V_H^{\min}/(\kappa\Lam^4)=-0.187909$, $G_H=-7.41836$ against $P_f=71.4093$, and $\tilde G(R_*)=-10.1525$, so the first-order radius shift $-\tilde G/(R_*K)=0.678$ is more than half of $R_*$: the backreaction is not perturbative. Below $R_c=(5m_1/12m_2)^{1/2}=0.6455$ the doublet is not tachyonic, there is no vev, $G_H=0$, and $\tilde F=F_f<0$. A scan of $\tilde F$ at $0.1\le R\le30$ (49 radii, adaptive internal levels) finds $F_f$ increasing and $\tilde F<0$ throughout (maximum $-3.303$), and the limit is negative as well: Euler--Maclaurin gives $\hat h_n(u)=u^{-1}-\tfrac16+O(u)$ for all three sectors, so $F_f\to\tfrac{56}3m_2=10.3331$ (approached from below on the scan), while $\tilde G\to-\tfrac{10\pi^2}3\gamma\cdot2m_2/m_1=-13.6260$. \emph{On the scan and asymptotically, the untuned truncated action admits no radius satisfying stationarity and flatness simultaneously} (a scan, not an interval certificate); the inherited common vacuum is not preserved. Independently, at the truncated minimum the largest eigenvalue of $\Mb^2$ on the sphere is $0.860\Lam^2$ in the $d$ and $e$ sectors and $0.688\Lam^2$ in the $u$ sector. With aligned vevs $\Phi_d\propto\sin(\theta/2)$ and $\Phi_u^{*}\propto\cos(\theta/2)$ peak at opposite poles, so the rank-one quark block never exceeds the larger pole value. These eigenvalues are independent of $\kappa$ and $N_b$; for $y_e=0$ they reduce to $\tfrac12\hmu^2\Lam^2=0.745\Lam^2$. The expansion parameters $a_j\Mb^2_{\max}/\Lam^2$ therefore range from $0.455$ to $4.55$ over the ten nodes: the minimum lies outside the domain of \eqref{eq:Sloc} (A4). Both facts are the six-dimensional form of the known feature of the Chamseddine--Connes action that its $a_2$ Higgs mass term is of order $\Lam^2$, so that an electroweak hierarchy needs additional input or tuning \cite{CCM}. The tree spectrum of this fixture, $m_W=0.795\Lam$, $m_{h}^2=(1.146,\,2.980)\Lam^2$, $m_{H^\pm}^2=0.917\Lam^2$, is recorded as a fixture of the truncated action, not as a prediction.
+
+\subsection{Hierarchical regime}
+
+With the tuning parameter of A5, $\hmu^2(R)=\varepsilon+\tfrac56(R_*^{-2}-R^{-2})$, the vevs scale as $\varepsilon$ and $G_H(R_*)=-\pi^2\gamma\varepsilon^2R_*^2$ is negligible, but two $O(1)$ effects remain because the slope $(\hmu^2)'=\tfrac53R^{-3}$ is set by the KK and curvature terms, not by $\varepsilon$:
+\begin{align}
+\delta R&=-\frac{\tilde G(R_*)}{R_*K_f+\tilde G'(R_*)}=\frac{(10\pi^2/3)\gamma\,\varepsilon}{R_*K_f-(50\pi^2/9)\gamma R_*^{-3}}+O(\varepsilon^2),\\
+\tilde K-K_f&=G_H''-\frac{2G_H}{R^2}=-\frac{4\pi^2\gamma B}{R^2}\Bigl(\hmu^2+\frac{2B}{R^2}\Bigr)\ \xrightarrow{\ \varepsilon\to0\ }\ -\frac{8\pi^2\gamma B^2}{R_*^4}=-4.25033,\qquad B=\tfrac56 .
+\label{eq:inducedK}
+\end{align}
+The induced curvature shift is a radion--Higgs effect: integrating out the doublets at their $R$-dependent minimum lowers the restricted curvature by $(\dd\mu^2/\dd R)^2/(2\lambda)$. For the fixture $K_f=11.718$ becomes $\tilde K=7.467$ for both profiles, so the restricted stability of the inherited prescription survives but is weakened. Because every multiplicity $D_n$ counts copied blocks, $P_f$, $K_f$ and $\gamma$ all scale with $N_b$ while $R_*$ does not, so the stability condition $\gamma/K_f<R_*^4/(8\pi^2B^2)=0.04872$ is $N_b$ independent. The vev coefficient depends on the Yukawas only through $t=y_e^2/y_d^2$: exactly, $\gamma=\frac{3m_1N_b}{16\pi^2}\,g(t)$ with $g=\frac{16s^2-84s+144}{4s^2-24s+45}$, $s=3+t$, so that $4\le g\le5$ ($g(0)=g(\infty)=4$, $g(1)=\tfrac{64}{13}$ for the fixture, maximum $5$ at $t=\tfrac32$). Even the maximum gives $\gamma/K_f=0.01795$, so in this model the induced reduction never destabilizes the restricted potential of the published profiles. Numerically:
+
+\begin{center}\small
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+$\varepsilon=\hmu^2(R_*)$ & $\delta R_-$ & $\delta R_+$ & $\delta R_+-\delta R_-$ & $\tilde K_-$\\
+\midrule
+$10^{-2}$ & $7.17742\times10^{-3}$ & $7.17759\times10^{-3}$ & $1.6532\times10^{-7}$ & $7.34107$\\
+$10^{-4}$ & $7.13690\times10^{-5}$ & $7.13707\times10^{-5}$ & $1.6877\times10^{-9}$ & $7.46602$\\
+$10^{-8}$ & $7.13650\times10^{-9}$ & $7.13667\times10^{-9}$ & $1.6880\times10^{-13}$ & $7.46729$\\
+\bottomrule
+\end{tabular}
+\end{center}
+The first-order formula agrees with the Newton solution to $0.6\%$, $6\times10^{-5}$ and $6\times10^{-9}$ respectively; the pair splitting agrees with $\delta R_+-\delta R_-$ from the curvature difference $K_--K_+=1.77\times10^{-4}$. The common vacuum of the published pair therefore survives the scalar backreaction only up to a splitting of first order in $\varepsilon$ times the curvature difference; the subtraction splits by $-2.75\times10^{-13}$ at $\varepsilon=10^{-4}$. These results hold within the truncated scalar sector (A3); the coefficient $B=\tfrac56$ is itself an $a_4$-level number.
+
+\section{Broken-background neutral matrices and the surviving generator}
+
+\subsection{Mass matrix and its kernel}
+
+With canonical vevs and the Stückelberg term, in the $(W^3,B,X)$ basis with $h_d=(-\tfrac12,\tfrac12,1)^{T}$, $h_u=(-\tfrac12,\tfrac12,-1)^{T}$,
+\begin{equation}
+\Mb^2=\hat v_d^2h_dh_d^{T}+\hat v_u^2h_uh_u^{T}+M_{\rm St}^2e_Xe_X^{T}
+=\begin{pmatrix}s/4&-s/4&-d/2\\-s/4&s/4&d/2\\-d/2&d/2&s+M_{\rm St}^2\end{pmatrix},\quad s=\hat v_d^2+\hat v_u^2,\ d=\hat v_d^2-\hat v_u^2 .
+\end{equation}
+For $\hat v_d\hat v_u\ne0$ and any $M_{\rm St}\ge0$, $\rank\Mb^2=2$ and $\ker\Mb^2=\mathrm{span}\{(1,1,0)^{T}\}$: this is charge conservation alone, since $(1,1,0)\cdot h_i=0$ expresses $Q_{\rm em}=J_3+q_Y$ neutrality of both vevs and the Stückelberg vector has no $Y$ component by construction. Had the axion acquired a $Y$ shift, the determinant identity would have removed the massless state. The generator is therefore $Q=J_3+Y/2$, independent of the normalizations $Z_6N_i$ and of the profile.
+
+\subsection{Kinetic matrix, projection, and the null-space residue}
+
+The broken-background kinetic matrix is $K=\kappa\diag(z_W,z_Y,z_X)+\delta K(\hat v)$, $\delta K=O(\hat v^2/\Lam^2)$ (A9). For the one-dimensional kernel spanned by $N=(1,1,0)^{T}$, the massless transverse residue of $(p_E^2K+\Mb^2)^{-1}$ is $N(N^{T}KN)^{-1}N^{T}$ \cite{neutral}, so
+\begin{equation}
+\boxed{\ e^{-2}=N^{T}KN=K_{WW}+K_{BB}+2K_{WB}=\kappa(z_W+z_Y)+\delta K_{WW}+\delta K_{BB}+2\delta K_{WB}\ }
+\end{equation}
+and every entry of the $X$ row and column drops out, including Higgs-induced $W^3X$ and $BX$ shifts (verified with arbitrary numerical shifts). In the local scheme the leading shifts come from the six-dimensional dimension-six operator $\tfrac1{12}\tr(E\,\Omega_{AB}\Omega^{AB})\supset-\tfrac1{12}\tr(\Mb^2\Omega_{\mu\nu}\Omega^{\mu\nu})$ in $a_6$, with profile factor $f(0)$, followed by $a_8$ and $a_{10}$; they are identical for the pair by Proposition~\ref{prop:invariance}; their exact mode-sum values would require the $O(\mathcal A^2\Mb^2)$ term of the Duhamel expansion with insertions of $[q_a,\Mb]$ and are not computed. With $\delta K=0$,
+\begin{equation}
+\frac{e^{-2}_-}{\kappa}=0.399990428306937691,\qquad
+\frac{e^{-2}_+}{\kappa}=0.399990583497737873,\qquad
+\Delta\frac{e^{-2}}\kappa=1.5519080018\times10^{-7},
+\end{equation}
+a relative difference $3.8798628467\times10^{-7}$, reproducing \cite{neutral} from independently recomputed $z_Y$ (the last digits are limited by the eighteen inherited digits of $z_W$). This is the pair difference at the inherited radius $R_*$, for any $\delta K$ common to the pair. At the coupled vacuum of the tuned regime the two radii split by $\tilde R_+-\tilde R_-=O(\varepsilon)$ (Section~5.3), which adds $z_\gamma'(R_*)(\tilde R_+-\tilde R_-)$. The $Y$ part is computed exactly from $z_Y'(R_*)=0.22514$: it is $4.24\times10^{-8}$ at $\varepsilon=10^{-2}$ ($27\%$ of $\Delta$), $4.31\times10^{-10}$ at $\varepsilon=10^{-4}$ ($0.28\%$), and vanishes as $\varepsilon\to0$; a direct evaluation of $z_Y$ at the two coupled radii agrees. The $W$ part needs $z_W'(R_*)$, which requires the predecessor's weak kernel away from $R_*$ and is not available here. In the untuned truncated action there is no flat vacuum at which to evaluate the difference, and $\delta K\sim\hat v^2/\Lam^2$ would not be small.
+
+\subsection{Massive spectrum}
+
+The generalized eigenvalues $\Mb^2r=m^2Kr$ consist of the photon and the roots of $m^4-Tm^2+P=0$,
+\begin{equation}
+T=\frac s4\Bigl(\frac1{Z_W}+\frac1{Z_Y}\Bigr)+\frac{s+M_{\rm St}^2}{Z_X},\qquad
+P=\frac{(4\hat v_d^2\hat v_u^2+sM_{\rm St}^2)(Z_W+Z_Y)}{4Z_WZ_YZ_X},
+\end{equation}
+which reduce to the predecessor's expressions at $M_{\rm St}=0$ and were checked against the determinant at every fixture. The charged mass is $m_W^2=s/(4Z_W)$ and the tree weak mixing angle is $\sin^2\theta_W=Z_W/(Z_W+Z_Y)$, equal to $0.498873908678$ ($f_-$) and $0.498873870303$ ($f_+$). Fixtures in units $\kappa=1$ (masses squared in units of $\Lam^2$ when the vevs are the model's):
+
+\begin{center}\small
+\begin{tabular}{@{}llrrrr@{}}
+\toprule
+fixture ($f_-$) & $(\hat v_d^2,\hat v_u^2,M_{\rm St}^2)$ & $m^2_{\rm light}$ & $m^2_{\rm heavy}$ & $m_W^2$ & $\rho_{\rm tree}$\\
+\midrule
+A predecessor control & $(\tfrac12,\tfrac12,0)$ & $0.542537313842$ & $2.500072505698$ & $1.252851563$ & $1$\\
+B model vevs & $(0.31525,0.18915,0)$ & $0.252275415797$ & $1.282419354311$ & $0.631939307$ & $0.983328$\\
+C model vevs & $(\ldots,\ldots,s)$ & $0.518274736558$ & $1.290076278526$ & $0.631939307$ & $0.977491$\\
+D model vevs & $(\ldots,\ldots,100s)$ & $1.260220899642$ & $27.6400983681$ & $0.631939307$ & $1.000649$\\
+E equal vevs & $(\tfrac12,\tfrac12,1)$ & $1.085074627684$ & $2.500072505698$ & $1.252851563$ & $1$\\
+\bottomrule
+\end{tabular}
+\end{center}
+Fixture A reproduces $m_X^2=0.542537313842138$ and $m_Z^2=2.500072505697618$ of \cite{neutral}. With unequal vevs ($d\ne0$) the $Z$ mixes with $X$ and $\rho_{\rm tree}=m_W^2/(m_Z^2\cos^2\theta_W)$ departs from one; a large Stückelberg mass decouples $X'$ and drives $\rho\to1$ from above. A $Y$--$X$ kinetic-mixing control ($\chi=0.1$) leaves $e^{-2}$ unchanged and the massive eigenvalues positive; at the one-vev boundary with $M_{\rm St}=0$ the rank drops to one and two neutral fields are massless, as in \cite{neutral}, whereas for $M_{\rm St}>0$ the rank stays two and only the photon is massless (both checked).
+
+\section{Scoped quantum-matching setup}
+
+The tree-level kinetic normalization of the surviving generator is $e^{-2}_{\rm tree}=\kappa(z_W+z_Y)+\delta K_\gamma$. The matching problem that would connect it to a measured coupling requires the declared division of \cite{neutral}: the physical spectral action, the regulator defining quantum corrections, the finite coefficients of allowed local operators, and the thresholds separating heavy from light fields (A10). This note fixes what can be fixed at tree level and records the inputs it cannot supply.
+\begin{enumerate}
+\item \emph{Normalization.} $\alpha^{-1}_{\rm tree}=4\pi\kappa(z_W+z_Y)=5.026427964\,\kappa$ ($f_-$; $5.026429914\,\kappa$ for $f_+$), so any target value $\alpha^{-1}_{\rm t}$ would require $\kappa=0.1989484\,\alpha^{-1}_{\rm t}$. Through the inherited gravitational relation $M_4^2=\kappa\Lam^2J/(24\pi^2)$ this becomes $\alpha^{-1}_{\rm tree}=96\pi^3(z_W+z_Y)(M_4/\Lam)^2/J=23.69335\,(M_4/\Lam)^2$. Neither $\kappa$ nor $\Lam/M_4$ is determined here; the conversion factors are supplied so that an independent determination can be inserted. The pair shifts $\alpha^{-1}_{\rm tree}/\kappa$ by $1.950\times10^{-6}$ and $\sin^2\theta_W$ by $-3.84\times10^{-8}$.
+\item \emph{Second tree observable.} $\sin^2\theta_W^{\rm tree}=z_W/(z_W+z_Y)=0.49887$; with unequal vevs $\rho_{\rm tree}\ne1$ unless $M_{\rm St}\gg\hat v$. Both are statements about the matching scale, not low-energy values.
+\item \emph{Running.} Between the matching scale and the weak scale, $Z_i(\mu)=Z_i(\mu_0)-\tfrac{b_i}{8\pi^2}\ln(\mu/\mu_0)$ with the exact model coefficients $b_2=-\tfrac53$, $b_Y=\tfrac{83}9$, $b_X=\tfrac{316}3$, $b_{YX}=0$ (four generations, two doublets, $X$, axion); $e^{-2}=Z_W+Z_Y$ projects with $(1,1,0)$ only at the pole in the broken phase. Below $m_W$ the fermionic QED coefficient is $\tfrac{128}9$ plus the $H^\pm$ contribution if light.
+\item \emph{Thresholds.} The model's spectrum in units of $\Lam$ at $R_*$: fermion KK levels $\sqrt{\ell(\ell+n)}/R_*=0.7822,1.1062,1.3548$ for $(n,\ell)=(0,1),(1,1),(2,1)$; the first non-tachyonic scalar harmonic $j=\tfrac32$ at $0.5876\Lam$ (untuned); the Stückelberg state at $\sqrt{(s+M_{\rm St}^2)/Z_X}$; and, in the untuned action, all electroweak states at $O(\Lam)$. A hierarchy requires $\varepsilon\ll1$ (A5), whose origin is outside the stipulated trace. The spectral action's own coefficients already have the form of regulated fermion-loop vacuum polarizations, so a one-loop computation must declare which modes it counts to avoid double counting.
+\item \emph{Missing inputs.} (a) an independent $\kappa$ or $\Lam/M_4$; (b) the $a_2$-level contribution $\delta_2$ (equivalently the electroweak scale); (c) $M_{\rm St}$ and the two-form normalization; (d) the Yukawa values, which fix $\gamma$, $\tan\beta$, and the fermion masses $m_f=y_6\Lam\hat v_i/(2\sqrt{2\pi}R\sqrt{Z_6N_i})$; (e) the exact mode-sum scalar coefficients and $\delta K$; (f) the regulator and finite local matching data of the one-loop calculation.
+\end{enumerate}
+The measured fine-structure constant remains unexplained unless (a)--(f) are completed; nothing in this note constrains them from data.
+
+\section{Verification and limits}
+
+\begin{center}\small
+\begin{tabular}{@{}p{0.62\linewidth}p{0.34\linewidth}@{}}
+\toprule
+Check & Result\\
+\midrule
+Published pair reloaded; $P,P',J,c,K,z_Y$ versus recorded 95-digit values & agree to $2\times10^{-93}$; 40 vs 60 levels $<10^{-90}$\\
+$z_Y$, $z_X$ versus predecessor printed values & $10^{-17}$, $10^{-14}$\\
+Pure-exponential control $R_e$, $z_Y$ & $<10^{-15}$; root inside the certified interval\\
+Clifford algebra, trace identities, square identity \eqref{eq:square} on random matrices & pass ($10^{-12}$)\\
+$a_2$, $a_4$ assembly from the Vassilevich formula on random $E_0,E_\Phi$ & pass ($10^{-8}$)\\
+Sphere Beta integrals (exact rationals); $1200^2$-point quadrature; SciPy \texttt{dblquad} & pass ($10^{-6}$; $10^{-8}$)\\
+Anomaly sums by two independent enumerations; SM control $b$'s & exact\\
+Stückelberg determinant identity, kernel preserved & exact at 200 random rational points\\
+Coupled radius: closed forms vs numerical derivatives; Newton vs SciPy Brent & $10^{-25}$; $10^{-11}$\\
+Neutral spectrum: Decimal characteristic polynomial vs SciPy \texttt{eigh}; SVD null space & $10^{-10}$\\
+Zero modes integrated from the monopole Dirac equation (SciPy): densities, count, overlap & match Lemma~\ref{lem:overlap} ($10^{-7}$)\\
+Scalar harmonics: $-D^2Y=\tfrac12Y$ by finite differences & pass ($10^{-5}$)\\
+Exact rational Hessian of the scalar potential: rank, null space, gauge-orbit rank & $4$, $5$, $4$: one massless pseudoscalar\\
+Vev coefficient $\gamma(t)$: exact values, stationary point, grid maximum & exact\\
+Total recorded assertions & 228 (189 standard library only, 39 need NumPy/SciPy), all pass\\
+\bottomrule
+\end{tabular}
+\end{center}
+Rerunning \texttt{run\_all.py} regenerates all result files byte-identically. A separate review pass, by an AI agent that had not seen the derivation, re-derived items~1--10 of a referee checklist; its fourteen findings and their dispositions are recorded in \texttt{REVIEW\_RESPONSE.md}, and all corrections are applied here. Nothing here is an interval certificate; the published seed certificate of \cite{oct22} is not rerun; the ten-node constraint matrix rank is not certified. The work was cross-checked within this assisted workflow and has not undergone external peer review.
+
+\section{What is established and what is not}
+
+\textbf{Established, conditionally.} (i) A minimal six-dimensional scalar content compatible with the inherited charges and the geometric weak group, with its doublet nature tied to the $X$ charge and nonzero exact Yukawa overlaps. (ii) The Higgs-dependent operator and its Laplace-type square. (iii) The $a_2$--$a_4$ scalar action: the two-doublet quartic structure, equal doublet mass parameters, Yukawa-independent canonical couplings for $y_e=0$, and invariance of all local coefficients under the published deformation. (iv) Within the truncated action, a tachyonic doublet at the common radius with largest Yukawa-weighted vev $0.860\Lam^2$ (fixture), no flat stationary radius when untuned (on the scan and asymptotically), and, when tuned, first-order radius shifts, a pair splitting proportional to $K_--K_+$, and an induced curvature reduction $-8\pi^2\gamma B^2/R_*^4$ whose $N_b$-independent stability bound holds for all Yukawa ratios. (v) Exact zero-mode anomaly data, a Stückelberg mechanism that keeps $U(1)_Y$ non-anomalous and the photon direction at $(1,1,0)$, and one surviving pseudoscalar. (vi) The null-space residue $e^{-2}=K_{WW}+K_{BB}+2K_{WB}$, the massive spectrum with $M_{\rm St}$, and the persistence of $\Delta(e^{-2}/\kappa)=1.5519\times10^{-7}$ at $R_*$ for any Higgs-induced shift common to the pair, with an $O(\varepsilon)$ radius-splitting correction at the tuned coupled vacuum (its $Y$ part computed).
+
+\textbf{Not established.} The exact mode-sum scalar coefficients and $\delta K$; the six-dimensional anomaly polynomial and two-form reduction; a hierarchy between the electroweak and compactification scales; a radion kinetic term and full compactification stability (the induced curvature result concerns the inherited restricted potential); the normalization $\kappa$ or the scale $\Lam/M_4$; thresholds, running, and any value of the measured fine-structure constant or weak mixing angle. The retained zero-mode content has four chiral generations (the four copied blocks); its phenomenological viability is not addressed. The tree value $\sin^2\theta_W\approx0.499$ is a feature of the inherited coefficients at the matching scale and is not compared to data here.
+
+\section{Reproduction and source record}
+
+\begin{verbatim}
+python3 run_all.py            # four stdlib scripts in dependency order,
+                              # then independent_check.py if numpy+scipy import
+python3 run_all.py --no-float # skip the NumPy/SciPy cross-check
+\end{verbatim}
+The scripts regenerate their own result files beside themselves, read only \texttt{inputs/}, and perform no network or publication actions. Provenance, hashes, and the full assumption list are in \texttt{provenance.json}, \texttt{SHA256SUMS.txt}, and \texttt{ASSUMPTIONS.md}.
+
+{\small
+\begin{thebibliography}{19}
+\bibitem{neutral} Baird / ZoraASI research continuation. \emph{Neutral Gauge and Higgs Matching for the Common-Vacuum Pair}, 22 October 2026 (predecessor note; values taken from the shared research transcript \url{https://chatgpt.com/share/6ad9be6e-4efc-83ea-a90d-958d32bc02e5}). Also \emph{Geometric Weak-Gauge Response and Electromagnetic Profile Dependence}, 22 October 2026 (source of $Z_W/\kappa$).
+\bibitem{oct21} Baird / ZoraASI research continuation. \emph{Spectral-profile identifiability: executed continuation}, 21 October 2026. Repository \texttt{Cbaird26/mqgt-scf-continued}, commit \texttt{7a36e0d7}, \texttt{research\_continuation/2026-10-21/electromagnetic/RESEARCH\_NOTE.md}.
+\bibitem{oct22} Baird / ZoraASI research continuation. \emph{Spectral Profile Nonuniqueness at a Common Vacuum}, 21/22 October 2026. Commit \texttt{3a8a1b02}, \texttt{research\_continuation/2026-10-22/electromagnetic/}; release \texttt{v2026.10.22-spectral-profile-common-vacuum}.
+\bibitem{repo} \texttt{Cbaird26/mqgt-scf-continued}, \texttt{LEDGER.md} and \texttt{README.md} at commit \texttt{3a8a1b02} (program conventions and claim discipline).
+\bibitem{archive} \emph{A Theory of Everything -- Expanded Research Archive, Public Edition, 20 October 2026}, physical PDF pages 7592--7599 (T-1 shared spectral-action normalization test) and 7585--7591, SHA-256 \texttt{4b52a5fb\ldots48f921}, as cited in [2,3]. Not accessed in this continuation.
+\bibitem{Vass} D. V. Vassilevich, Heat kernel expansion: user's manual, \emph{Phys. Rept.} 388 (2003) 279.
+\bibitem{CC97} A. H. Chamseddine, A. Connes, The spectral action principle, \emph{Commun. Math. Phys.} 186 (1997) 731.
+\bibitem{CCM} A. H. Chamseddine, A. Connes, M. Marcolli, Gravity and the standard model with neutrino mixing, \emph{Adv. Theor. Math. Phys.} 11 (2007) 991.
+\bibitem{WuYang} T. T. Wu, C. N. Yang, Dirac monopole without strings: monopole harmonics, \emph{Nucl. Phys.} B107 (1976) 365.
+\bibitem{RSS83} S. Randjbar-Daemi, A. Salam, J. Strathdee, Spontaneous compactification in six-dimensional Einstein--Maxwell theory, \emph{Nucl. Phys.} B214 (1983) 491.
+\bibitem{RSSS85} S. Randjbar-Daemi, A. Salam, E. Sezgin, J. Strathdee, An anomaly-free model in six dimensions, \emph{Phys. Lett.} B151 (1985) 351.
+\bibitem{GS} M. B. Green, J. H. Schwarz, Anomaly cancellations in supersymmetric $D=10$ gauge theory and superstring theory, \emph{Phys. Lett.} B149 (1984) 117.
+\bibitem{Bardeen} W. A. Bardeen, Anomalous Ward identities in spinor field theories, \emph{Phys. Rev.} 184 (1969) 1848.
+\bibitem{ABDK} P. Anastasopoulos, M. Bianchi, E. Dudas, E. Kiritsis, Anomalies, anomalous $U(1)$'s and generalized Chern--Simons terms, \emph{JHEP} 0611 (2006) 057.
+\bibitem{CIK} C. Corian\`o, N. Irges, E. Kiritsis, On the effective theory of low scale orientifold string vacua, \emph{Nucl. Phys.} B746 (2006) 77.
+\bibitem{Witten} E. Witten, An $SU(2)$ anomaly, \emph{Phys. Lett.} B117 (1982) 324.
+\bibitem{Manton} N. S. Manton, A new six-dimensional approach to the Weinberg--Salam model, \emph{Nucl. Phys.} B158 (1979) 141.
+\bibitem{Lich} A. Lichnerowicz, Spineurs harmoniques, \emph{C. R. Acad. Sci. Paris} 257 (1963) 7.
+\end{thebibliography}}
+
+\end{document}

@@ -1,0 +1,165 @@
+{
+  "title": "A Microscopic Scalar and Anomaly-Complete Sector for the Shared Spectral Action: Higgs-dependent operator, coupled vacuum, broken-background neutral matrices, and the surviving massless generator",
+  "record_date": "2026-10-22",
+  "record_timezone": "America/New_York",
+  "prepared_for": "Christopher Michael Baird",
+  "prepared_with": "Claude (Anthropic), assisted research session",
+  "preparation": "AI-assisted theoretical-physics continuation with internal cross-checks (exact rational arithmetic, 95-digit Decimal arithmetic, independent NumPy/SciPy code); not externally peer reviewed.",
+  "sources": [
+    {
+      "kind": "pinned_repository_file",
+      "repository": "Cbaird26/mqgt-scf-continued",
+      "commit": "3a8a1b029e2923ce3fde3335fbc710ebf618a38b",
+      "commit_date": "2026-10-22T02:02:35-04:00",
+      "path": "research_continuation/2026-10-22/electromagnetic/stationary_profiles_results.json",
+      "git_blob_sha": "b5c6ec3ab0ef7a42419ef9e612acaa7f5fe7b931",
+      "sha256": "1f28875032cb1fea47858ee4d26929e414fb28f283c3dd6d6b6c3a68e593e13e",
+      "copied_to": "inputs/common_vacuum_pair.json",
+      "use": "Published common-vacuum profile pair: nodes, 95-digit weights, null vector, common radius, recorded coefficients."
+    },
+    {
+      "kind": "pinned_repository_file",
+      "repository": "Cbaird26/mqgt-scf-continued",
+      "commit": "3a8a1b029e2923ce3fde3335fbc710ebf618a38b",
+      "path": "research_continuation/2026-10-22/electromagnetic/research_note.tex",
+      "git_blob_sha": "7c68c1bad757b7bcf522f19753e97362bb1eb0de",
+      "use": "Inherited action, heat-sum definitions, flat-vacuum prescription, theorem and quantifier boundaries."
+    },
+    {
+      "kind": "pinned_repository_file",
+      "repository": "Cbaird26/mqgt-scf-continued",
+      "commit": "7a36e0d741cb8ddb16056d39640ada43e28ad951",
+      "path": "research_continuation/2026-10-21/electromagnetic/RESEARCH_NOTE.md",
+      "git_blob_sha": "0d626256d6f528699e7480253b989fb79a1ceaa3",
+      "use": "Sector multiplicities, hypercharge weights, charge convention, pure-exponential control values."
+    },
+    {
+      "kind": "pinned_repository_file",
+      "repository": "Cbaird26/mqgt-scf-continued",
+      "commit": "3a8a1b029e2923ce3fde3335fbc710ebf618a38b",
+      "path": "LICENSE",
+      "git_blob_sha": "10fabd90118f7ce38bb2e4753e105e744442a429",
+      "copied_to": "LICENSE",
+      "use": "Destination repository license (CC BY 4.0)."
+    },
+    {
+      "kind": "predecessor_notes_via_shared_transcript",
+      "transcript_url": "https://chatgpt.com/share/6ad9be6e-4efc-83ea-a90d-958d32bc02e5",
+      "transcript_title": "GitHub Research Release",
+      "notes": [
+        "Geometric Weak-Gauge Response and Electromagnetic Profile Dependence (2026-10-22): Geometric_Weak_Gauge_Response_2026-10-22.pdf, Geometric_Weak_Response_Reproducibility_2026-10-22.zip",
+        "Neutral Gauge and Higgs Matching (2026-10-22): Neutral_Gauge_Higgs_Matching_2026-10-22.pdf, Neutral_Gauge_Higgs_Matching_Reproducibility_2026-10-22.zip"
+      ],
+      "repository_status": "not present in Cbaird26/mqgt-scf-continued at commit 3a8a1b0",
+      "values_taken": "Z_W/kappa for both profiles (18 printed digits), predecessor-printed Z_Y, Z_X, Delta Z_gamma, fixture masses, X-anomaly sums, charge table, two-doublet assignment, null-space residue formula.",
+      "copied_to": "inputs/inherited_weak_coefficients.json",
+      "use": "Inherited weak coefficient and cross-check targets."
+    },
+    {
+      "kind": "source_archive_not_accessed",
+      "filename": "36-A-Theory-of-Everything-Baird-et-al-2026-Expanded-Research-Archive-Public-Edition-2026-10-20-2-.pdf",
+      "sha256_as_cited_by_predecessors": "4b52a5fb57716168d354b5c3dcb4bbf2ca4c0fe6744733b6ca0d3b3eae48f921",
+      "physical_pdf_pages_as_cited": "7592-7599 (T-1 shared spectral-action normalization test), 7585-7591 (one-loop matching)",
+      "use": "Not accessed in this continuation; its conventions enter only through the pinned predecessor notes."
+    }
+  ],
+  "result": {
+    "specified_sector": {
+      "scalars": "Phi_d (q_Y=1/2, x=+1), Phi_u (q_Y=1/2, x=-1), colour singlets, six-dimensional, in the unit X flux",
+      "operator": "D_6[Phi] = D_6^(0) + Gamma_7 (x) M[Phi]  (Connes-Chamseddine insertion; Laplace-type square with unchanged connection)",
+      "anomaly_sector": "Stueckelberg axion shifting only under U(1)_X with Green-Schwarz couplings and a Bardeen counterterm; 6D origin: two-form on the monopole flux (not reduced here)"
+    },
+    "key_exact_statements": [
+      "Lowest monopole harmonic of a |x|=1 scalar is the SU(2)_W doublet j=1/2 with internal mass 1/(2 r^2); next level 7/(2 r^2).",
+      "Zero-mode Yukawa overlap = 1/sqrt(4 pi), SU(2)_W covariant.",
+      "alpha_2^Phi = -8 tr M^2;  alpha_4^Phi = (2/3) R_6 tr M^2 + 4 tr M^4 + 4 tr|grad M|^2.",
+      "Quartic: lam_d|H_d|^4 + lam_u|H_u|^4 + lam_A(|H_d|^2|H_u|^2 + |H_d^T i s2 H_u|^2); common doublet mass parameter Lambda^2[2 m2/m1 - 5/(6 R^2)].",
+      "All local scalar coefficients through a_10 are identical for the published pair.",
+      "X anomalies per block (SU3^2X, SU2^2X, Y^2X, YX^2, X^3, grav^2X) = (1, 4, -4/3, 0, 57, 9); all Y and non-abelian anomalies vanish; 16 doublets.",
+      "ker M^2 = span{(1,1,0)} for all nonzero vevs and any Stueckelberg mass; e^-2 = K_WW + K_BB + 2 K_WB.",
+      "gamma depends on the Yukawas only through t = y_e^2/y_d^2: gamma = (3 m1 Nb/(16 pi^2)) (16 s^2 - 84 s + 144)/(4 s^2 - 24 s + 45), s = 3 + t; 4 <= g <= 5.",
+      "Zero modes integrated from the monopole Dirac equation reproduce the O(n-1)-section densities and the overlap 1/sqrt(4 pi)."
+    ],
+    "key_numbers": {
+      "R_star": "1.2784724120439786502735724654",
+      "m1 = m2": "0.55355746930518221293",
+      "mu2_over_Lambda2_common_radius": "1.49015750335575284661",
+      "gamma_fixture_Nb4_yu_yd_ye_1": "0.20709082339959921616",
+      "G_tilde_untuned_at_R_star": "-10.152465432907558",
+      "untuned_F_tot_large_R_limit": "-3.2930",
+      "induced_curvature_shift_hierarchical_limit": "-4.2503300114614167",
+      "K_tilde_fixture": "7.4673 (from K_f = 11.7176)",
+      "delta_R_eps_1e-4_minus": "7.136902878e-05",
+      "pair_radius_splitting_eps_1e-4": "1.687695e-09",
+      "e_inv2_over_kappa_minus": "0.399990428306937691",
+      "e_inv2_over_kappa_plus": "0.399990583497737873",
+      "delta_e_inv2_over_kappa": "1.5519080018e-7",
+      "sin2_thetaW_tree_minus": "0.498873908678113495",
+      "alpha_inverse_tree_over_kappa_minus": "5.026427964301241315",
+      "one_loop_b": {
+        "SU3": "-17/3",
+        "SU2": "-5/3",
+        "U1_Y": "83/9",
+        "U1_X": "316/3",
+        "U1_YX": "0"
+      },
+      "M2_max_over_Lambda2_fixture_d_e_sectors": "0.8597062519",
+      "M2_max_over_Lambda2_fixture_u_sector": "0.6877650015",
+      "M2_max_over_Lambda2_if_ye_0 (= mu2/2)": "0.7450787516778764",
+      "gamma_range_over_yukawa_ratios (Nb=4)": "[0.16826129, 0.21032662]; gamma = (3 m1 Nb/16 pi^2) g(t), 4 <= g <= 5, max at t = y_e^2/y_d^2 = 3/2",
+      "stability_ratio_gamma_max_over_K_f vs bound": "0.0179496 < 0.0487235 (Nb independent)",
+      "untuned_max_F_tot_scan_0.1_to_30": "-3.3032",
+      "tachyon_threshold_radius_untuned": "0.6454972244",
+      "dzY_dR_at_R_star": "0.22514122",
+      "pair_delta_zY_correction_at_coupled_vacuum": {
+        "eps=1e-2": "4.2396e-08 (27.3% of Delta)",
+        "eps=1e-4": "4.3144e-10 (0.278%)",
+        "eps=1e-8": "4.3151e-14"
+      },
+      "scalar_hessian_exact": "rank 4, nullity 5, gauge-orbit rank 4: one physical massless pseudoscalar"
+    },
+    "scope_limits": [
+      "Scalar sector in the local heat expansion (a_2-a_4) while gauge coefficients and the radius potential are exact mode sums; exact scalar coefficients defined but not computed.",
+      "Untuned truncated minimum outside the local domain; no flat stationary radius; hierarchy requires an a_2-level input outside the stipulated trace.",
+      "Six-dimensional anomaly polynomial, two-form reduction, and M_St not computed.",
+      "Z_W/kappa inherited at eighteen printed digits, not recomputed.",
+      "No radion kinetic term, no full compactification stability, no quantum corrections, thresholds, or running; no prediction of the measured fine-structure constant or weak mixing angle.",
+      "The pair difference in e^-2 is exact at R_*; at the tuned coupled vacuum it has an O(eps) radius-splitting correction whose W part (dz_W/dR) is not available.",
+      "Retained zero-mode content has four chiral generations; phenomenological viability not addressed."
+    ]
+  },
+  "assumptions_file": "ASSUMPTIONS.md (I1-I7, A1, A1b, A2-A10)",
+  "verification": {
+    "stdlib_checks": {
+      "inherited_inputs": 28,
+      "scalar_sector (stdlib part)": 20,
+      "anomaly_sector": 16,
+      "vacuum_matching": 125
+    },
+    "numpy_scipy_checks": {
+      "scalar_sector (numpy part)": 6,
+      "independent_check": 33
+    },
+    "total": 228,
+    "reproducibility": "run_all.py reruns regenerate all result files byte-identically on the recording machine.",
+    "artifact_quality": "LaTeX compiled twice with pdflatex; all thirteen rendered pages visually inspected; Latin Modern unavailable on the recording machine so the Type1 Computer Modern fallback (ae) was used.",
+    "numerical_limits": "No interval certificates. The published seed certificate is not rerun. The ten-node constraint rank is not certified. The large-radius scan uses 30-digit arithmetic with adaptive levels.",
+    "independent_review": {
+      "kind": "separate AI agent (Claude) review pass without access to the derivation process; not external peer review",
+      "date": "2026-10-22",
+      "findings": 14,
+      "all_addressed": true,
+      "record": "REVIEW_RESPONSE.md"
+    }
+  },
+  "environment": {
+    "python": "3.13.16",
+    "platform": "Linux-6.18.44-fc-v140-x86_64-with-glibc2.39",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "latex": "pdflatex (TeX Live 2023)"
+  },
+  "measured_alpha_used_as_input": false,
+  "measured_weak_mixing_angle_used_as_input": false,
+  "external_publication_or_repository_changes": false
+}

@@ -49,3 +49,43 @@ file, the ten original research files, and uploaded asset digests before making
 the research prerelease public. It does not rerun or rewrite the calculations.
 
 License: CC BY 4.0, matching the repository and the included research license.
+
+## Scalar and anomaly-complete sector (same date, later continuation)
+
+### A Microscopic Scalar and Anomaly-Complete Sector for the Shared Spectral Action
+
+- [Summary and reproduction instructions](scalar_anomaly_sector/README.md)
+- [Complete research note (PDF, 13 pages)](scalar_anomaly_sector/Scalar_Anomaly_Sector_Coupled_Vacuum_2026-10-22.pdf)
+- [LaTeX source](scalar_anomaly_sector/research_note.tex)
+- [Explicit assumptions](scalar_anomaly_sector/ASSUMPTIONS.md) and [review record](scalar_anomaly_sector/REVIEW_RESPONSE.md)
+- Research prerelease: `v2026.10.22-scalar-anomaly-sector`
+
+This continuation adjoins a specified six-dimensional scalar sector to the inherited shared
+spectral action. It has two charged scalars, Phi_d and Phi_u, with x = +1 and -1, entering the
+Dirac operator as Yukawa insertions. The continuation:
+
+- derives the a_2–a_4 scalar action and delimits the exact mode-sum (ultraviolet) remainder;
+- cancels the U(1)_X anomalies with a Stueckelberg axion (a six-dimensional two-form on the flux);
+- solves the coupled scalar, radius, and axion vacuum;
+- computes the broken-background neutral kinetic and mass matrices;
+- identifies the surviving massless generator, (1,1,0), with the null-space residue formula,
+  giving e^-2 = K_WW + K_BB + 2 K_WB;
+- scopes the quantum-matching setup.
+
+The published pair difference Delta(e^-2/kappa) = 1.5519080018e-7 holds at the inherited radius.
+At the tuned coupled vacuum it acquires an O(eps) radius-splitting correction, whose Y part is
+computed. The untuned truncated action places the Higgs vacuum at the cutoff and admits no flat
+stationary radius on the scanned range.
+
+The result is conditional on the declared completion. It does not derive the measured
+fine-structure constant, does not fix kappa, and computes no thresholds or running. Two
+predecessor notes are cited from the shared research transcript, because their bundles are not
+yet in this repository:
+
+- Geometric Weak-Gauge Response and Electromagnetic Profile Dependence;
+- Neutral Gauge and Higgs Matching.
+
+The weak coefficient Z_W is taken from the first of these and is not recomputed. The
+reproduction bundle passes 228 recorded assertions. A separate AI review pass (not external peer
+review) produced 14 findings, all addressed in `REVIEW_RESPONSE.md`. The bundle's
+`SHA256SUMS.txt` covers every file in `scalar_anomaly_sector/`.

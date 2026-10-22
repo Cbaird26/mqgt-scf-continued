@@ -1,0 +1,239 @@
+{
+  "profiles": {
+    "minus": {
+      "P": 71.40925019344206,
+      "P_R": 111.71027160339793,
+      "F": 0.0,
+      "J": 50.25090900618314,
+      "c": 43.688964482541834,
+      "K": 11.717618243184162,
+      "zY": 0.20044563990362296,
+      "zX": 1.8431911953082187,
+      "relative_error_vs_decimal": 2.728747638437811e-15
+    },
+    "plus": {
+      "P": 71.40925019344205,
+      "P_R": 111.71027160339796,
+      "F": 5.684341886080802e-14,
+      "J": 50.250909006183136,
+      "c": 43.68896448254183,
+      "K": 11.717441620448781,
+      "zY": 0.2004457330234109,
+      "zX": 1.8431922671289551,
+      "relative_error_vs_decimal": 3.638385026916253e-15
+    }
+  },
+  "pure_exponential_root": 1.3007832832273587,
+  "anomaly_one_block_enumeration": {
+    "Y^2 X": "-4/3",
+    "Y X^2": "0",
+    "X^3": "57",
+    "grav^2 X": "9",
+    "Y^3": "0",
+    "grav^2 Y": "0",
+    "SU2^2 X": "4",
+    "SU2^2 Y": "0",
+    "SU3^2 X": "1",
+    "SU3^2 Y": "0"
+  },
+  "neutral_spectrum": {
+    "A_predecessor_s1_equal_vevs_noSt": {
+      "minus": {
+        "generalized_eigenvalues": [
+          1.1102230246251565e-16,
+          0.5425373138421378,
+          2.500072505697619
+        ],
+        "null_vector": [
+          0.9999999999999997,
+          1.0,
+          0.0
+        ],
+        "e_inv2": 0.3999904283069379
+      },
+      "plus": {
+        "generalized_eigenvalues": [
+          0.0,
+          0.5425369983553849,
+          2.500071536568471
+        ],
+        "null_vector": [
+          0.9999999999999997,
+          1.0,
+          0.0
+        ],
+        "e_inv2": 0.39999058349773803
+      }
+    },
+    "B_model_untuned_vevs_noSt": {
+      "minus": {
+        "generalized_eigenvalues": [
+          -1.5542038142579706e-16,
+          0.2522754157973834,
+          1.2824193543112008
+        ],
+        "null_vector": [
+          0.9999999999999997,
+          1.0,
+          -4.9796626536020226e-17
+        ],
+        "e_inv2": 0.3999904283069379
+      },
+      "plus": {
+        "generalized_eigenvalues": [
+          -2.7966995039263587e-16,
+          0.25227527011368794,
+          1.2824188520336324
+        ],
+        "null_vector": [
+          0.9999999999999997,
+          1.0,
+          -4.9796626536020226e-17
+        ],
+        "e_inv2": 0.39999058349773803
+      }
+    },
+    "C_model_untuned_vevs_St_equal_s": {
+      "minus": {
+        "generalized_eigenvalues": [
+          -1.3877787807814457e-16,
+          0.5182747365582921,
+          1.2900762785262705
+        ],
+        "null_vector": [
+          1.0,
+          0.9999999999999992,
+          3.3313666163246574e-17
+        ],
+        "e_inv2": 0.3999904283069374
+      },
+      "plus": {
+        "generalized_eigenvalues": [
+          -5.551115123125783e-16,
+          0.5182744389604445,
+          1.2900757690310898
+        ],
+        "null_vector": [
+          1.0,
+          0.9999999999999992,
+          3.3313666163246574e-17
+        ],
+        "e_inv2": 0.39999058349773753
+      }
+    },
+    "D_model_untuned_vevs_St_100s": {
+      "minus": {
+        "generalized_eigenvalues": [
+          -2.1656485236131591e-16,
+          1.2602208996428885,
+          27.640098368063516
+        ],
+        "null_vector": [
+          0.9999999999999755,
+          1.0,
+          1.7483078144306397e-17
+        ],
+        "e_inv2": 0.3999904283069476
+      },
+      "plus": {
+        "generalized_eigenvalues": [
+          -4.31350565227902e-16,
+          1.2602204111227617,
+          27.64008229544592
+        ],
+        "null_vector": [
+          0.9999999999999755,
+          1.0,
+          1.7483078144306397e-17
+        ],
+        "e_inv2": 0.39999058349774774
+      }
+    },
+    "E_equal_vevs_s1_St_1": {
+      "minus": {
+        "generalized_eigenvalues": [
+          1.1102230246251565e-16,
+          1.0850746276842755,
+          2.500072505697619
+        ],
+        "null_vector": [
+          0.9999999999999997,
+          1.0,
+          0.0
+        ],
+        "e_inv2": 0.3999904283069379
+      },
+      "plus": {
+        "generalized_eigenvalues": [
+          0.0,
+          1.0850739967107699,
+          2.500071536568471
+        ],
+        "null_vector": [
+          0.9999999999999997,
+          1.0,
+          0.0
+        ],
+        "e_inv2": 0.39999058349773803
+      }
+    }
+  },
+  "hierarchical_roots": {
+    "1e-2_minus": 1.2856498361466582,
+    "1e-2_plus": 1.2856500014669325,
+    "1e-4_minus": 1.2785437810727591,
+    "1e-4_plus": 1.2785437827604562,
+    "1e-8_minus": 1.2784724191804824,
+    "1e-8_plus": 1.2784724191806431
+  },
+  "untuned_max_F_tot_grid_0.1_6": -3.5554948489794764,
+  "dblquad": {
+    "quartic": 0.09728750185467955,
+    "quartic_formula": 0.09728750185467953,
+    "mixed": 0.16373900311421777,
+    "mixed_formula": 0.1637390031142177
+  },
+  "zero_mode_overlap": [
+    0.28209479177387786,
+    0.28209479177387775
+  ],
+  "checks": {
+    "float_profile_matches_decimal_minus": true,
+    "float_stationarity_minus": true,
+    "float_profile_matches_decimal_plus": true,
+    "float_stationarity_plus": true,
+    "float_delta_zY": true,
+    "float_pure_exponential_root": true,
+    "anomaly_enumeration_matches": true,
+    "weyl_state_count_15": true,
+    "scipy_spectrum_A_predecessor_s1_equal_vevs_noSt_minus": true,
+    "scipy_spectrum_A_predecessor_s1_equal_vevs_noSt_plus": true,
+    "scipy_spectrum_B_model_untuned_vevs_noSt_minus": true,
+    "scipy_spectrum_B_model_untuned_vevs_noSt_plus": true,
+    "scipy_spectrum_C_model_untuned_vevs_St_equal_s_minus": true,
+    "scipy_spectrum_C_model_untuned_vevs_St_equal_s_plus": true,
+    "scipy_spectrum_D_model_untuned_vevs_St_100s_minus": true,
+    "scipy_spectrum_D_model_untuned_vevs_St_100s_plus": true,
+    "scipy_spectrum_E_equal_vevs_s1_St_1_minus": true,
+    "scipy_spectrum_E_equal_vevs_s1_St_1_plus": true,
+    "scipy_hier_1e-2_minus": true,
+    "scipy_hier_1e-2_plus": true,
+    "scipy_hier_1e-4_minus": true,
+    "scipy_hier_1e-4_plus": true,
+    "scipy_hier_1e-8_minus": true,
+    "scipy_hier_1e-8_plus": true,
+    "scipy_untuned_F_tot_negative_on_grid": true,
+    "dblquad_quartic_single": true,
+    "dblquad_quartic_mixed": true,
+    "dirac_ode_zero_mode_densities_match_O_n_minus_1_sections": true,
+    "dirac_ode_exactly_n_normalisable_modes": true,
+    "scalar_monopole_harmonics_eigenvalue_one_half_finite_difference": true,
+    "ode_derived_zero_mode_overlap_1_over_sqrt_4pi": true,
+    "numpy_scalar_hessian": true,
+    "numpy_vev_stationarity": true
+  },
+  "environment": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1"
+  }
+}

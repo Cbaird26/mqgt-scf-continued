@@ -39,6 +39,15 @@ spectral determinants on S⁷ and S⁹, not derived.
 
 ## Research continuation — 22 October 2026
 
+**Scalar and anomaly-complete sector (later the same day).**
+[A Microscopic Scalar and Anomaly-Complete Sector for the Shared Spectral Action](research_continuation/2026-10-22/scalar_anomaly_sector/README.md)
+specifies a six-dimensional two-doublet scalar sector and a Stueckelberg axion for the U(1)_X
+anomalies. It then solves the coupled vacuum, computes the broken-background neutral matrices,
+and identifies the surviving photon (1,1,0) with its tree-level normalization
+e^-2 = Z_W + Z_Y + delta K_gamma. The published profile-pair difference survives at the inherited
+radius. The measured fine-structure constant remains unexplained.
+**Research prerelease:** [v2026.10.22-scalar-anomaly-sector](https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.22-scalar-anomaly-sector).
+
 [Spectral Profile Nonuniqueness at a Common Stationary Vacuum](research_continuation/2026-10-22/electromagnetic/README.md)
 extends the spectral-profile analysis to an arbitrary-order existence theorem.
 For every finite local order, suitable distinct positive exponential profiles

@@ -1,0 +1,253 @@
+{
+  "sector_weights": {
+    "D_n": {
+      "0": "12",
+      "1": "28",
+      "2": "16"
+    },
+    "Y_n^2": {
+      "0": "1/3",
+      "1": "32/3",
+      "2": "4/3"
+    },
+    "X_n^2": {
+      "0": "0",
+      "1": "28",
+      "2": "64"
+    },
+    "YX_n": {
+      "0": "0",
+      "1": "0",
+      "2": "0"
+    }
+  },
+  "yukawa_charge_conservation": {
+    "bar(Q) Phi_d d": {
+      "delta_qY": "0",
+      "delta_x": "0",
+      "monopole_charge_sum_check": "0"
+    },
+    "bar(L) Phi_d e": {
+      "delta_qY": "0",
+      "delta_x": "0",
+      "monopole_charge_sum_check": "0"
+    },
+    "bar(Q) Phi_u^* u": {
+      "delta_qY": "0",
+      "delta_x": "0",
+      "monopole_charge_sum_check": "0"
+    }
+  },
+  "one_scalar_obstruction": {
+    "1": {
+      "down": true,
+      "lepton": true,
+      "up": false
+    },
+    "-1": {
+      "down": false,
+      "lepton": false,
+      "up": true
+    },
+    "0": {
+      "down": false,
+      "lepton": false,
+      "up": false
+    },
+    "2": {
+      "down": false,
+      "lepton": false,
+      "up": false
+    }
+  },
+  "lowest_monopole_harmonic_spin": {
+    "Phi_d": "1/2",
+    "Phi_u": "1/2"
+  },
+  "scalar_kk_levels_q_half": [
+    {
+      "j": "1/2",
+      "eigenvalue_r2": "1/2",
+      "degeneracy": 2
+    },
+    {
+      "j": "3/2",
+      "eigenvalue_r2": "7/2",
+      "degeneracy": 4
+    },
+    {
+      "j": "5/2",
+      "eigenvalue_r2": "17/2",
+      "degeneracy": 6
+    },
+    {
+      "j": "7/2",
+      "eigenvalue_r2": "31/2",
+      "degeneracy": 8
+    }
+  ],
+  "fermion_kk_levels": {
+    "0": [
+      {
+        "l": 1,
+        "eigenvalue_r2": 1,
+        "degeneracy_per_chirality": 2
+      },
+      {
+        "l": 2,
+        "eigenvalue_r2": 4,
+        "degeneracy_per_chirality": 4
+      },
+      {
+        "l": 3,
+        "eigenvalue_r2": 9,
+        "degeneracy_per_chirality": 6
+      }
+    ],
+    "1": [
+      {
+        "l": 1,
+        "eigenvalue_r2": 2,
+        "degeneracy_per_chirality": 3
+      },
+      {
+        "l": 2,
+        "eigenvalue_r2": 6,
+        "degeneracy_per_chirality": 5
+      },
+      {
+        "l": 3,
+        "eigenvalue_r2": 12,
+        "degeneracy_per_chirality": 7
+      }
+    ],
+    "2": [
+      {
+        "l": 1,
+        "eigenvalue_r2": 3,
+        "degeneracy_per_chirality": 4
+      },
+      {
+        "l": 2,
+        "eigenvalue_r2": 8,
+        "degeneracy_per_chirality": 6
+      },
+      {
+        "l": 3,
+        "eigenvalue_r2": 15,
+        "degeneracy_per_chirality": 8
+      }
+    ]
+  },
+  "fermion_zero_modes": {
+    "0": {
+      "count": 0,
+      "spin": "none"
+    },
+    "1": {
+      "count": 1,
+      "spin": "0"
+    },
+    "2": {
+      "count": 2,
+      "spin": "1/2"
+    }
+  },
+  "zero_mode_yukawa_overlap": {
+    "overlap_squared_times_pi": {
+      "0": "1/4",
+      "1": "1/4"
+    },
+    "statement": "Integral_S2 conj(psi^(2)_k) Y_{1/2,k} psi^(1)_0 dOmega = 1/sqrt(4 pi) for k = 0, 1 (exact)."
+  },
+  "quartic_sphere_integrals": {
+    "single_doublet": "Integral |Phi|^4 dOmega = (1/(3 pi)) (H^dagger H)^2",
+    "two_doublets": "Integral |Phi_d|^2 |Phi_u|^2 dOmega = (1/(6 pi)) [ (H_d^dagger H_d)(H_u^dagger H_u) + |H_d^T i sigma_2 H_u|^2 ]",
+    "beta_integrals_times_pi": {
+      "I0": "4/3",
+      "I1": "2/3",
+      "I2": "4/3"
+    }
+  },
+  "numpy_quadrature": {
+    "quartic_single": 1.4640374680125343,
+    "quartic_single_formula": 1.464037150549056,
+    "mixed": 1.3053269699281251,
+    "mixed_formula": 1.305326613273021
+  },
+  "numpy_dependent_checks": [
+    "clifford_6d_euclidean_algebra",
+    "gamma7_equals_minus_i_times_product_of_six_gammas_up_to_sign",
+    "spinor_trace_identities_for_a4",
+    "yukawa_insertion_square_identity_random_matrices",
+    "a2_a4_phi_dependent_assembly_matches_formula",
+    "sphere_quadrature_confirms_quartic_reductions"
+  ],
+  "local_scalar_action": {
+    "alpha_2_phi": "-8 tr(M^2)",
+    "alpha_4_phi": "(2/3) R_6 tr(M^2) + 4 tr(M^4) + 4 tr(|grad_A M|^2)",
+    "Z6_over_kappa_Lambda2_m1": "1/16 / pi^3",
+    "m6_squared_over_Lambda2": "-2 (m2/m1) + 1/(3 R^2)      [R_6 = 2/r^2 = 2 Lambda^2/R^2 ; coefficient (4/3)R_6/8 = R_6/6]",
+    "doublet_mass_squared_over_Lambda2": "-2 (m2/m1) + 5/(6 R^2)   [adds the exact lowest-harmonic eigenvalue 1/(2 r^2)]",
+    "canonical_quartics": {
+      "lambda_u": "16 pi^2 Lam_u /(3 kappa m1 R^2 N_u^2) = 16 pi^2 /(9 kappa m1 R^2 N_b)",
+      "lambda_d": "16 pi^2 Lam_d /(3 kappa m1 R^2 N_d^2)",
+      "lambda_3 = lambda_A": "8 pi^2 Lam_A /(3 kappa m1 R^2 N_d N_u)",
+      "boundedness": "all four quartic couplings are positive, so V is bounded below",
+      "two_vev_minimum": "4 lambda_d lambda_u - lambda_3^2 = C^2 Nb^2 yu^4 [27 yd^4 + 12 ye^4]/(N_d^2 N_u^2) > 0 with C = 16 pi^2/(3 kappa m1 R^2) (equivalently 16 Lam_d Lam_u > Lam_A^2): an aligned stationary point with both vevs nonzero, when it exists, is a minimum"
+    }
+  },
+  "pair_evaluation": {
+    "R_star": "1.2784724120439786502735724654459495984378656451265634380054391491721064935105455806741042844061",
+    "m1": "0.55355746930518221293289892086129910192859018995300074327005292306316677750518333063222662471571",
+    "m2": "0.55355746930518221293289892086129910192859018995300074327005292306316677750518333063222662471570",
+    "m2_over_m1": "0.99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999998",
+    "m6_squared_over_Lambda2": "-1.7960630013423011386478144255408194792890481526797004888872701806167291935431653540561308608602",
+    "mu_squared_over_Lambda2 (= -doublet mass^2 / Lambda^2)": "1.4901575033557528466195360638520486982226203816992512222181754515418229838579133851403271521504",
+    "tachyon_condition_R2_m2_over_m1_gt_5_over_12": "1.6344917083575487261854514211908248729803899633786413746434283467073294110982297490775608656167",
+    "next_harmonic_mass2_over_Lambda2 (j=3/2)": "0.3452754845635369055501341062805759881759462441834443777963929229076142742535984283544951001079",
+    "lambda_u_times_kappa_m1_R2_Nb": "17.545963379714415322372428444224268685002132279539183335845954446613413017634142654225374939944",
+    "lambda_u_times_kappa (Nb=4)": "4.8481024671768712622914305498989931857884738991496541877415649127101558880517051730408601579898",
+    "yukawa_weighted_vev_M2max_over_Lambda2_if_ye_0": "0.7450787516778764233097680319260243491113101908496256111090877257709114919289566925701635760752",
+    "expansion_parameters_a_j_M2max_over_Lambda2_if_ye_0": [
+      "0.394234046396",
+      "0.788468092793",
+      "1.182702139189",
+      "1.576936185585",
+      "1.971170231982",
+      "2.365404278378",
+      "2.759638324774",
+      "3.153872371170",
+      "3.548106417567",
+      "3.942340463963"
+    ]
+  },
+  "checks": {
+    "sector_dirac_multiplicities_12_28_16": true,
+    "sector_hypercharge_weights_1_3_32_3_4_3": true,
+    "sector_X_weights_0_28_64": true,
+    "sector_YX_mixing_vanishes_each_sector": true,
+    "all_three_yukawas_conserve_Y_and_X": true,
+    "no_single_X_charge_supports_all_three_yukawas": true,
+    "scalar_x_charge_forces_doublet": true,
+    "lowest_scalar_kk_eigenvalue_is_one_half": true,
+    "next_scalar_kk_eigenvalue_is_seven_halves": true,
+    "zero_mode_yukawa_overlap_squared_is_1_over_4pi": true,
+    "zero_mode_overlap_su2_covariant_both_components_equal": true,
+    "quartic_beta_integrals_4pi3_2pi3_4pi3": true,
+    "quartic_self_coefficient_1_over_3pi": true,
+    "quartic_is_su2_invariant_combination": true,
+    "mixed_quartic_reduces_to_one_sixth_pi_times_two_invariants": true,
+    "clifford_6d_euclidean_algebra": true,
+    "gamma7_equals_minus_i_times_product_of_six_gammas_up_to_sign": true,
+    "spinor_trace_identities_for_a4": true,
+    "yukawa_insertion_square_identity_random_matrices": true,
+    "a2_a4_phi_dependent_assembly_matches_formula": true,
+    "sphere_quadrature_confirms_quartic_reductions": true,
+    "m1_m2_common_to_pair": true,
+    "scale_convention_m2_over_m1_is_one": true,
+    "lowest_doublet_tachyonic_in_local_truncation": true,
+    "next_harmonic_j_3_2_not_tachyonic": true,
+    "truncated_minimum_outside_local_validity_if_ye_0": true
+  }
+}
