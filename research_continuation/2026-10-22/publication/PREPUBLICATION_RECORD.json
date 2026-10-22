@@ -1,0 +1,41 @@
+{
+  "title": "Spectral Profile Nonuniqueness at a Common Stationary Vacuum",
+  "record_kind": "historical_prepublication_preparation_record",
+  "prepared_date": "2026-10-22",
+  "timezone": "America/New_York",
+  "research_note_date": "2026-10-21",
+  "publication_status_at_preparation": "not_published",
+  "target_repository": "Cbaird26/mqgt-scf-continued",
+  "target_directory": "research_continuation/2026-10-22/electromagnetic",
+  "proposed_tag": "v2026.10.22-spectral-profile-common-vacuum",
+  "proposed_release_type": "prerelease",
+  "verified_repository_head": "7a36e0d741cb8ddb16056d39640ada43e28ad951",
+  "predecessor_release": "v2026.10.21-research-continuation",
+  "license": "CC-BY-4.0",
+  "license_source": "https://github.com/Cbaird26/mqgt-scf-continued/blob/7a36e0d741cb8ddb16056d39640ada43e28ad951/LICENSE",
+  "license_source_git_blob_sha": "10fabd90118f7ce38bb2e4753e105e744442a429",
+  "editorial_changes": [
+    "Clarified that the additional nodes are fixed while small positive weights are introduced.",
+    "Clarified that both restricted curvatures are positive, but their values are unequal in the numerical example.",
+    "Specified nonzero kernel vectors and the augmented nonsingularity condition.",
+    "Made explicit that the pair may depend on p and that p+8 is sufficient without a minimality claim.",
+    "Preserved the distinction between exact internal sums and the inherited low-external-derivative expansion.",
+    "Retained the alternative open route of proving insensitivity of the completed electromagnetic observable.",
+    "Described the independence statement as a linear combination of the Laurent monomials and the remaining kernels.",
+    "Called the predecessor examples five- and six-component profiles, rather than five- and six-profile examples."
+  ],
+  "research_payload": {
+    "original_manifest": "research_continuation/2026-10-22/electromagnetic/PREPARATION_SHA256SUMS.txt",
+    "original_manifest_sha256": "385259b83ca4784ac5af0ea8c060eea73e6201096cff7bc4562fd39caa9ec6ed",
+    "original_file_count": 10,
+    "original_files_preserved_byte_for_byte": true,
+    "new_mathematical_calculations_performed_during_packaging": false
+  },
+  "external_actions": {
+    "github_commits_created": 0,
+    "github_tags_created": 0,
+    "github_releases_created": 0
+  },
+  "publication_instruction": "A later authorized publication should record its actual commit, tag, and time in the release record. This preparation record is historical and should not be interpreted as the later publication state.",
+  "publication_copy_review": "Internally reviewed for mathematical wording, quantifier scope, attribution, and preparation/publication status; no material issue remained after the recorded edits."
+}

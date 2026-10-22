@@ -37,6 +37,23 @@ spectral determinants on S⁷ and S⁹, not derived.
 > - Lean-4 compile checks as physics evidence (they are proof-assistant
 >   checks of stated theorems, where used)
 
+## Research continuation — 22 October 2026
+
+[Spectral Profile Nonuniqueness at a Common Stationary Vacuum](research_continuation/2026-10-22/electromagnetic/README.md)
+extends the spectral-profile analysis to an arbitrary-order existence theorem.
+For every finite local order, suitable distinct positive exponential profiles
+share the retained local data, a stationary radius, subtraction, and gravitational
+coefficient, while their exact hypercharge coefficients differ. Both restricted
+radius-potential curvatures remain positive.
+
+The [dated continuation](research_continuation/2026-10-22/README.md) includes the
+analytic proof, rational seed certificate, ten-component numerical illustration,
+reproduction scripts, and preserved preparation records.
+**Research prerelease:** [v2026.10.22-spectral-profile-common-vacuum](https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.22-spectral-profile-common-vacuum).
+This conditional nonuniqueness result does not select a physical action, derive
+the measured fine-structure constant, or establish complete compactification
+stability. The October 21 checkpoint remains its historical predecessor.
+
 ## Research continuation — 21 October 2026
 
 The [dated checkpoint](research_continuation/2026-10-21/README.md) brings together

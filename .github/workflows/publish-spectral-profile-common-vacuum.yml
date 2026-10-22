@@ -1,0 +1,37 @@
+name: Publish spectral-profile common-vacuum continuation
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/publish-spectral-profile-common-vacuum.yml
+      - research_continuation/2026-10-22/publication/Spectral_Profile_Common_Vacuum_Publication_2026-10-22.zip
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: spectral-profile-common-vacuum-publication
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Verify and publish the approved package
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 research_continuation/2026-10-22/publication/publish_release.py
+      - name: Preserve the publication receipt
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: spectral-profile-common-vacuum-publication-receipt
+          path: ${{ runner.temp }}/spectral-profile-publish/publication_receipt.json
+          if-no-files-found: warn
+          retention-days: 7

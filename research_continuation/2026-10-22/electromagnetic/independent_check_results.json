@@ -1,0 +1,27 @@
+{
+  "minus": {
+    "bracketed_80_level_root": 1.2784724120439799,
+    "gY_inverse_squared_per_kappa": 0.20044563990362327
+  },
+  "plus": {
+    "bracketed_80_level_root": 1.2784724120439759,
+    "gY_inverse_squared_per_kappa": 0.20044573302341032
+  },
+  "exact_node_scale": "178939/338184",
+  "scaled_constraint_singular_values": [
+    4.082243072078501,
+    2.382324399068823,
+    0.8837939735681715,
+    0.163631064535684,
+    0.028049048971002757,
+    0.0021043035409141287,
+    3.3007179968630626e-05,
+    2.9071912957699777e-06,
+    1.9245784206092734e-08
+  ],
+  "scaled_constraint_condition": 212111027.97183836,
+  "augmented_determinant": 1.5452280646007277e-28,
+  "augmented_smallest_singular_value": 3.5876105294577213e-09,
+  "constraint_scaled_pair_difference": 1.3877787807814457e-17,
+  "caveat": "Independent finite numerical diagnostics; not interval-certified rank or root proof."
+}

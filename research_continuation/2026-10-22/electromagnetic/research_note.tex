@@ -1,0 +1,310 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=0.88in,headheight=15pt]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{booktabs,array,longtable}
+\usepackage{xcolor,microtype,enumitem,fancyhdr}
+\usepackage[colorlinks=true,linkcolor=navy,urlcolor=navy,citecolor=navy]{hyperref}
+\definecolor{navy}{HTML}{15344A}
+\definecolor{teal}{HTML}{167D8D}
+\definecolor{pale}{HTML}{EDF4F6}
+\hypersetup{pdftitle={Spectral Profile Nonuniqueness at a Common Vacuum},pdfauthor={Prepared for Christopher Michael Baird with ChatGPT}}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{navy} SPECTRAL PROFILE IDENTIFIABILITY}
+\fancyhead[R]{\small 21 October 2026}
+\fancyfoot[L]{\small Conditional mathematical result}
+\fancyfoot[R]{\small\thepage}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\setlist{nosep,leftmargin=1.6em}
+\emergencystretch=2em
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+\DeclareMathOperator{\Tr}{Tr}
+\DeclareMathOperator{\rank}{rank}
+\newcommand{\dd}{\mathrm d}
+\newcommand{\R}{\mathbb R}
+\newcommand{\pker}{\mathsf p}
+\newcommand{\jker}{\mathsf j}
+\newcommand{\bker}{\mathsf b}
+\newcommand{\dker}{\mathsf d}
+\newcommand{\sourceurl}{https://github.com/Cbaird26/mqgt-scf-continued/blob/7a36e0d741cb8ddb16056d39640ada43e28ad951/research_continuation/2026-10-21/electromagnetic/RESEARCH_NOTE.md}
+
+\begin{document}
+\thispagestyle{plain}
+{\small\color{teal}\textbf{BAIRD / ZORAASI RESEARCH CONTINUATION}}
+
+{\LARGE\bfseries\color{navy} Spectral profile nonuniqueness\\[3pt] at a common vacuum}
+
+{\large Finite local data, the same stationary radius, the same cosmological subtraction, and the same gravitational coefficient}
+
+\textbf{Prepared for Christopher Michael Baird with ChatGPT}\hfill 21 October 2026
+
+\colorbox{pale}{\parbox{\dimexpr\linewidth-2\fboxsep\relax}{\textbf{Result.} For every finite local spectral order in the stipulated action class, there exist two normalized, strictly positive exponential profiles with the same local profile data and the same flat stationary reference radius, subtraction coefficient, and gravitational normalization, but different hypercharge coefficients. A ten-component numerical example is provided. This establishes noninjectivity of the declared data map; it does not determine a physical spectral action or the measured fine-structure constant.}}
+
+\section{Question and provenance}
+
+The October 21 continuation [1] constructs five- and six-component positive profiles with matching local spectral data and different exact compactified coefficients. Its examples use separately determined stationary radii and cosmological subtractions. A subsequent fixed-radius interpolation argument established ambiguity at every finite local order, while leaving an arbitrary-order stationary-radius extension open.
+
+This note addresses that mathematical extension. The added constraints preserve the vacuum and gravitational data exactly, so that the coupling difference cannot be attributed to different radii, subtraction coefficients, or common overall normalizations. The proof uses standard linear independence, finite evaluation matrices, and the implicit-function theorem. No claim of priority over the mathematical literature is made.
+
+All physical formulas are inherited from the stipulated shared spectral action in [1], itself based on the supplied archive [2], physical PDF pages 7592--7599. The profile is a part of the assumed physical action, not merely a regulator convention. No measured electromagnetic coupling enters the construction. The archived T-1 numerical residual and its interpretation are unchanged.
+
+\section{Declared model and observables}
+
+Retain the action and conventions of [1]:
+\begin{equation}
+ S_{\mathrm{sp}}=\frac{\kappa}{2}\sum_i\Tr_{\mathrm{Dirac}}
+ f(D_i^2/\Lambda^2),\qquad \kappa>0,\qquad R=\Lambda r.
+\end{equation}
+The admissible class here consists of finite positive mixtures
+\begin{equation}
+ f(u)=\sum_{j=1}^n w_j e^{-a_j u},\qquad
+ a_j>0\ \hbox{distinct},\qquad w_j>0,\qquad \sum_j w_j=1.
+\end{equation}
+These profiles are smooth, strictly positive, completely monotone, and rapidly decreasing on the positive half-line. The model retains the same four copied repaired fermion blocks, internal round sphere, flux, and hypercharge convention as [1]. This note does not independently complete their quantum or anomaly structure.
+
+Define the convergent internal heat sums
+\begin{align}
+ h_n(z)&=\frac n2+\sum_{\ell=1}^{\infty}(2\ell+n)e^{-\ell(\ell+n)/z^2},\quad n=0,1,2,\\
+ H(z)&=12h_0(z)+28h_1(z)+16h_2(z),\\
+ H_Y(z)&=\tfrac13h_0(z)+\tfrac{32}3h_1(z)+\tfrac43h_2(z).
+\end{align}
+For a single exponential rate, let
+\begin{align}
+ \pker_R(a)&=a^{-2}H(R/\sqrt a),&
+ \dker_R(a)&=\partial_R\pker_R(a),\\
+ \jker_R(a)&=a^{-1}H(R/\sqrt a),&
+ \bker_R(a)&=\frac{H_Y(R/\sqrt a)}{6\pi^2}.
+\end{align}
+For a mixture,
+\begin{equation}
+ P_f(R)=\sum_jw_j\pker_R(a_j),\quad
+ J_f(R)=\sum_jw_j\jker_R(a_j),\quad
+ z_f(R)=\frac{Z_Y}{\kappa}=\sum_jw_j\bker_R(a_j).
+\end{equation}
+The gravitational coefficient is
+\begin{equation}
+ M_4^2=\frac{\kappa\Lambda^2}{24\pi^2}J_f(R),\qquad
+ u_f(R):=\frac{(M_4r)^2}{\kappa}=\frac{R^2J_f(R)}{24\pi^2}.
+\end{equation}
+The inherited flat-vacuum prescription is
+\begin{equation}
+ F_f(R):=R P_f'(R)-2P_f(R)=0,\qquad c=P_f(R)/R^2.
+\label{eq:flat}
+\end{equation}
+At such a stationary point, define
+\begin{equation}
+ K_f(R):=P_f''(R)-2c,\qquad F_f'(R)=R K_f(R).
+\label{eq:curvature}
+\end{equation}
+Positive $K_f$ gives positive curvature of the restricted radius potential in the inherited prescription. It does not supply a radion kinetic term or prove full compactification stability.
+
+\section{Finite local profile data}
+
+For an integer $p\geq0$, the retained data are
+\begin{equation}
+ \mathcal D_p(f)=\bigl(m_1,m_2,m_3,f(0),f'(0),\ldots,f^{(p)}(0)\bigr),
+ \qquad m_k=\sum_j w_j a_j^{-k}.
+\end{equation}
+Since $f^{(r)}(0)=(-1)^r\sum_jw_ja_j^r$, these are $p+4$ linear constraints on the weights, with rows
+\begin{equation}
+ a^{-3},\ a^{-2},\ a^{-1},\ 1,\ a,\ldots,a^p.
+\end{equation}
+They are the profile factors through $a_{6+2p}$ in the stated six-dimensional local heat expansion. Equality of these factors is not equality of the full spectral action.
+
+\section{Linear independence of the added physical constraints}
+
+\begin{lemma}\label{lem:independence}
+For every fixed $R>0$ and finite $p\geq0$, the $p+8$ functions
+\begin{equation}
+ a^{-3},a^{-2},a^{-1},1,a,\ldots,a^p,
+ \pker_R,\dker_R,\jker_R,\bker_R
+\end{equation}
+are linearly independent on $a>0$.
+\end{lemma}
+
+\begin{proof}
+Put $x=a/R^2$. The first two nonzero exponential levels give
+\begin{align}
+ H(R/\sqrt a)&=30+24e^{-x}+84e^{-2x}+O(e^{-3x}),\\
+ H_Y(R/\sqrt a)&=\tfrac{20}3+\tfrac23e^{-x}+32e^{-2x}+O(e^{-3x}).
+\end{align}
+The coefficients follow directly from $(n,\ell)=(0,1)$ and $(1,1)$. All differentiated sums converge uniformly on compact positive-radius intervals.
+
+First consider a relation among the Laurent monomials and $\pker_R,\dker_R,\jker_R$. The algebraic terms at $a\to\infty$ force the Laurent part to cancel $30A/a^2+30C/a$, where $A,B,C$ are the coefficients of the three added functions. The remainder is
+\begin{equation}
+ A a^{-2}\sum_\lambda C_\lambda e^{-\lambda x}
+ +\frac{2B}{R^3a}\sum_\lambda\lambda C_\lambda e^{-\lambda x}
+ +C a^{-1}\sum_\lambda C_\lambda e^{-\lambda x}=0,
+\end{equation}
+where $C_1=24$ and $C_2=84$. Multiply by $a^2e^x$. The first exponential level yields
+\begin{equation}
+ 24A+a(48B/R^3+24C)+o(1)=0.
+\end{equation}
+Thus $A=0$ and $C=-2B/R^3$. The next level then forces $B=0$, hence $C=0$. The remaining finite Laurent polynomial vanishes identically only when all its coefficients vanish.
+
+Finally, suppose $\bker_R$ belongs to that span. After the algebraic asymptote is canceled, multiply by $e^x$. The left side tends to $1/(9\pi^2)$, while every combination of the three additional kernels tends to zero, since their leading exponential terms carry $a^{-1}$ or $a^{-2}$. This is a contradiction.
+\end{proof}
+
+\begin{corollary}\label{cor:nodes}
+At fixed $R$, there exist $n=p+8$ distinct positive nodes for which the evaluation matrix of Lemma~\ref{lem:independence} is nonsingular. The first node may be prescribed to be $a_1=1$.
+\end{corollary}
+\begin{proof}
+The evaluation vectors span $\R^{p+8}$; otherwise a nonzero coefficient vector would give a vanishing linear combination of the functions. The evaluation at $a_1=1$ is nonzero because the constant row is one. Extend it to a basis using other evaluation vectors. Nodes can be chosen distinct.
+\end{proof}
+
+\section{A simple stationary seed}
+
+For the pure exponential $f(u)=e^{-u}$, $P_f(R)=H(R)$. A simple stationary root can be established by explicit rational bounds, rather than assumed from a floating-point root solver. Write
+\begin{equation}
+ H(R)=30+\sum_{n=0}^{2}\sum_{\ell\geq1}c_n(2\ell+n)e^{-\lambda_{n\ell}/R^2},
+ \quad (c_0,c_1,c_2)=(12,28,16),\quad \lambda_{n\ell}=\ell(\ell+n).
+\end{equation}
+Then, with $x=\lambda_{n\ell}/R^2$,
+\begin{align}
+ F(R)&=-60+2\sum_{n,\ell}c_n(2\ell+n)e^{-x}(x-1),\\
+ F'(R)&=\frac4R\sum_{n,\ell}c_n(2\ell+n)e^{-x}x(x-2).
+\end{align}
+The accompanying exact-arithmetic seed certificate uses the rational interval $I=[1.30078,1.30079]$ and proves
+\begin{equation}
+ F(1.30078)<-\frac1{10000},\qquad
+ F(1.30079)>\frac2{10000},\qquad
+ \inf_{R\in I}F'(R)>32.
+\end{equation}
+The omitted positive $F$-tail is less than $2.1\times10^{-26}$ uniformly. Exponentials are enclosed using alternating rational Taylor sums of degrees 40 and 41 after argument reduction to $[0,1]$, with outward rational rounding during repeated squaring. Every asserted sign comparison uses exact fractions, not floating-point exponentials. The intermediate-value theorem and derivative bound imply a unique root within $I$, denoted $R_e$, with $K(R_e)=F'(R_e)/R_e>24$.
+
+For completeness, after retaining $\ell\leq N=10$, a uniform tail majorant is
+\begin{equation}
+0\leq F_{\rm tail}\leq\frac{224}{R_{\min}^2}
+\sum_{\ell>N}(\ell+1)^3e^{-\ell^2/R_{\max}^2}.
+\end{equation}
+The ratio of successive terms is bounded by its value at $L=N+1$,
+\begin{equation}
+\rho=\left(\frac{L+2}{L+1}\right)^3e^{-(2L+1)/R_{\max}^2}<1,
+\end{equation}
+so the tail is bounded by its first term divided by $1-\rho$. All omitted terms of $F'$ are positive because $L^2>2R_{\max}^2$. Termwise lower bounds on the finite prefix therefore suffice for the derivative certificate.
+
+The certificate is limited to this reference root and interval. It does not assert that all other stationary roots are absent or that this is a global vacuum.
+
+\section{General theorem with a common vacuum and gravity}
+
+\begin{theorem}\label{thm:main}
+Within the stipulated action and positive-exponential profile class, for every finite integer $p\geq0$ there exist two distinct normalized profiles $f_+$ and $f_-$, each with $p+8$ strictly positive components, and a common $R_*>0$, such that
+\begin{align}
+ \mathcal D_p(f_+)&=\mathcal D_p(f_-),\\
+ P_{f_+}(R_*)&=P_{f_-}(R_*),\quad
+ P_{f_+}'(R_*)=P_{f_-}'(R_*),\quad
+ J_{f_+}(R_*)=J_{f_-}(R_*),\\
+ F_{f_+}(R_*)&=F_{f_-}(R_*)=0,\quad K_{f_\pm}(R_*)>0,\\
+ z_{f_+}(R_*)&\ne z_{f_-}(R_*).
+\end{align}
+In particular, both have the same numerical $c$, and the same gravitational coefficient at fixed $\kappa$ and $\Lambda$.
+\end{theorem}
+
+\begin{proof}
+Fix $p$ and set $n=p+8$. At the simple exponential root $R_e$, choose $n$ nodes, including $a_1=1$, with nonsingular augmented evaluation matrix as in Corollary~\ref{cor:nodes}. For small $\eta>0$, use positive weights
+\begin{equation}
+ w_1^\eta=1-(n-1)\eta,\qquad w_j^\eta=\eta\quad(j\geq2).
+\end{equation}
+At $\eta=0$ this is the pure exponential. Since $\partial_RF(R_e,0)>0$, the implicit-function theorem gives a nearby stationary root $R_\eta$. For sufficiently small positive $\eta$, all weights are strictly positive, the root remains simple with positive $K$, and the augmented evaluation matrix remains nonsingular by continuity.
+
+At this fixed $R_\eta$, form the $(p+7)\times(p+8)$ matrix $C$ whose rows are the local Laurent functions and $\pker_{R_\eta},\dker_{R_\eta},\jker_{R_\eta}$. It has full row rank. Take a nonzero $v\in\ker C$. Nonsingularity after appending the gauge row implies
+\begin{equation}
+ \sum_jv_j\bker_{R_\eta}(a_j)\ne0.
+\end{equation}
+Set $w_j^\pm=w_j^\eta\pm\epsilon v_j$. Choose $\epsilon>0$ small enough to keep every weight positive and both restricted curvatures positive. Normalization is preserved by the constant row. All local data and $P,P',J$ are preserved exactly at the common radius. Equation~\eqref{eq:flat} therefore holds for both with the same
+\begin{equation}
+ R_*=R_\eta,\qquad c=P_{w^\eta}(R_\eta)/R_\eta^2.
+\end{equation}
+Finally,
+\begin{equation}
+ z_+-z_-=2\epsilon\sum_jv_j\bker_{R_*}(a_j)\ne0.
+\end{equation}
+Every assertion follows. In particular, the construction does not need to solve separate radius equations after the perturbation.
+\end{proof}
+
+\textbf{Quantifier boundary.} The theorem proves that the finite-data map is not injective on the stated class. It does not preserve the original single-exponential seed's exact moment values, nor claim ambiguity for every arbitrarily prescribed moment vector. For example, normalized data satisfying $m_2=m_1^2$ force zero variance of $1/a$, hence a single support point. A physical rule selecting such an extremal case would have to be justified independently.
+
+\textbf{Scale convention.} A common rescaling of all nodes and $R$ preserves these equalities and the coupling difference. In particular, the convention $m_2/m_1=1$ can be imposed on an existential pair by the same node rescaling on both profiles. The numerical example below already obeys it.
+
+\section{Ten-component example: local data through \texorpdfstring{$a_{10}$}{a10}}
+
+For $p=2$, choose the ten fixed nodes
+\begin{equation}
+ a_j=\frac{178939}{338184}j,\qquad j=1,\ldots,10.
+\end{equation}
+The rational factor is $(\sum_{j=1}^{10}j^{-2})/(\sum_{j=1}^{10}j^{-1})$. Uniform seed weights $w_j^0=1/10$ then satisfy $m_2/m_1=1$. The seed stationary radius is numerically
+\begin{equation}
+ R_0=1.2784724120439786502735724654\ldots.
+\end{equation}
+At $R_0$, use the nine rows
+\begin{equation}
+ a^{-3},a^{-2},a^{-1},1,a,a^2,\pker_{R_0},\dker_{R_0},\jker_{R_0}.
+\end{equation}
+A null vector normalized by $\max_j|v_j|=1$ is, to the displayed precision,
+\begin{align*}
+v=(&0.0000256394705704,\ -0.00136409847194144,\ 0.0127892393173213,\\
+&-0.0364910584982704,\ -0.0260041737206036,\ 0.371391169495647,\\
+&-0.884080563894572,\ 1,\ -0.563198409387085,\ 0.126932255688933).
+\end{align*}
+Set $w_j^\pm=1/10\pm v_j/20$. The minimum weight across both profiles is $0.05$. The source program constructs the vector at 95-digit working precision; rounded values printed here are not a substitute for those full numerical values or for the abstract exact nullspace definition.
+
+\begin{center}
+\small
+\begin{tabular}{@{}lrr@{}}
+\toprule
+Quantity & $f_-$ & $f_+$\\
+\midrule
+$R_0$ & $1.278472412043979$ & same\\
+$c$ & $43.68896448254183$ & same\\
+$J(R_0)$ & $50.25090900618314$ & same\\
+$(M_4r_0)^2/\kappa$ & $0.3467493510469815$ & same\\
+$P''(R_0)-2c$ & $11.71761824318413$ & $11.71744162044874$\\
+$Z_Y/\kappa$ & $0.2004456399036230$ & $0.2004457330234109$\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The hypercharge difference is
+\begin{equation}
+ \boxed{\frac{Z_{Y,+}-Z_{Y,-}}{\kappa}
+ =9.3119787986548684\ldots\times10^{-8}.}
+\end{equation}
+The relative difference is $4.64563799099\ldots\times10^{-7}$. Its magnitude is set by the permitted weight displacement in this chosen example. It is not a predicted correction to the T-1 expression, and it has not been matched to the measured fine-structure constant.
+
+\subsection{Numerical evidence and its limits}
+The standard-library program uses 95-digit Decimal arithmetic and 40 internal levels. It obtains pairwise differences in the nine retained constraints below $2.3\times10^{-93}$ and stationarity residuals of order $10^{-92}$. Replacing 40 levels by 60 produces no change at that working precision. An independent NumPy implementation with 80 levels and SciPy's bracketed root solver reproduces the radii and coefficients to ordinary floating-point precision.
+
+The row-scaled constraint matrix has a numerical condition number approximately $2.12\times10^8$, motivating the higher precision for nullspace construction. Numerical singular values, residuals, and long decimal outputs are diagnostics, not interval-certified rank or root proofs for this ten-node example. The arbitrary-order existence proof is analytic; the separate single-exponential seed certificate is rational and bounded.
+
+\section{Scientific meaning and remaining input}
+
+The new result closes the specific arbitrary-order stationary-vacuum ambiguity question in this declared class. Finite local heat-profile data, a common flat stationary radius, a common subtraction coefficient, and a common gravitational coefficient do not jointly select a unique hypercharge coefficient throughout that class.
+
+The two profiles are different actions within the proposed family. The result does not assert that one fully specified action has two contradictory predictions. It does not rule out an independently justified microscopic law that chooses the complete profile and normalization. It also does not establish electromagnetic embedding, quantum protection of the shared action, a physical radion mass, a complete stable compactification, or a Theory of Everything.
+
+A useful next positive proposal must supply independently justified restrictions on the full profile or the microscopic action. It must then determine the normalization, define vacuum and radiative matching consistently, and complete electroweak breaking and running. An extra local heat coefficient can identify a specified finite ansatz, but does not ensure identification throughout the declared class. Theorem~\ref{thm:main} explains why that step alone is not a general physical selection principle.
+
+\section{Reproduction and source record}
+
+The companion archive contains this manuscript, the compiled PDF, scripts, numerical result JSON, the exact seed certificate, and a SHA-256 manifest. The core example and exact seed check require only the Python standard library. The independent floating-point cross-check additionally requires NumPy and SciPy.
+
+\begin{verbatim}
+python3 stationary_profiles.py
+python3 certify_seed.py
+# optional independent numerical cross-check:
+python3 independent_check.py
+\end{verbatim}
+
+The code regenerates result files beside the scripts. It has no network or publication actions. Source hashes and exact repository references are recorded in the companion provenance file.
+
+\begin{thebibliography}{9}
+\bibitem{continuation} Baird / ZoraASI research continuation. \emph{Spectral-profile identifiability: executed continuation}. 21 October 2026. Repository commit \texttt{7a36e0d741cb8ddb16056d39640ada43e28ad951}. \href{\sourceurl}{Pinned electromagnetic research note}.
+\bibitem{archive} Supplied \emph{A Theory of Everything -- Expanded Research Archive, Public Edition, 20 October 2026}, physical PDF pages 7592--7599: \emph{T-1: A shared spectral-action normalization test}, dated 12 October 2026. Earlier one-loop matching calculation: physical PDF pages 7585--7591. File SHA-256: \texttt{4b52a5fb57716168d354b5c3dcb4bbf2ca4c0fe6744733b6ca0d3b3eae48f921} (recorded in the pinned source note).
+\end{thebibliography}
+
+\end{document}

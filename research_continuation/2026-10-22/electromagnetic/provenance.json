@@ -1,0 +1,58 @@
+{
+  "title": "Spectral profile nonuniqueness at a common vacuum",
+  "record_date": "2026-10-21",
+  "record_timezone": "America/New_York",
+  "prepared_for": "Christopher Michael Baird",
+  "preparation": "AI-assisted mathematical continuation with parallel internal review; not externally peer reviewed.",
+  "sources": [
+    {
+      "kind": "pinned_repository_note",
+      "repository": "Cbaird26/mqgt-scf-continued",
+      "commit": "7a36e0d741cb8ddb16056d39640ada43e28ad951",
+      "path": "research_continuation/2026-10-21/electromagnetic/RESEARCH_NOTE.md",
+      "git_blob_sha": "0d626256d6f528699e7480253b989fb79a1ceaa3",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/7a36e0d741cb8ddb16056d39640ada43e28ad951/research_continuation/2026-10-21/electromagnetic/RESEARCH_NOTE.md",
+      "use": "Stipulated spectral-action definitions and prior identifiability calculations."
+    },
+    {
+      "kind": "user_supplied_pdf",
+      "filename": "36-A-Theory-of-Everything-Baird-et-al-2026-Expanded-Research-Archive-Public-Edition-2026-10-20-2-.pdf",
+      "sha256": "4b52a5fb57716168d354b5c3dcb4bbf2ca4c0fe6744733b6ca0d3b3eae48f921",
+      "size_bytes": 46585377,
+      "physical_pdf_pages_shared_spectral_action": "7592-7599",
+      "physical_pdf_pages_one_loop_matching": "7585-7591",
+      "use": "Source record for the action and earlier matching calculations, as identified in the pinned repository note."
+    }
+  ],
+  "result": {
+    "class": "Normalized finite positive exponential mixtures in the stipulated shared spectral action.",
+    "quantifier": "For every finite local order p >= 0, there exist strictly positive profile pairs with the stated common data and different exact hypercharge coefficients.",
+    "retained_data": ["m1", "m2", "m3", "f(0) through f^(p)(0)", "stationary radius R", "subtraction c", "gravitational coefficient at fixed kappa and Lambda"],
+    "extra_condition": "Positive restricted radius-potential curvature for both profiles.",
+    "component_count_in_existence_proof": "p + 8",
+    "scope_limits": [
+      "No assertion of ambiguity for every prescribed moment vector.",
+      "No identification of the microscopic action, physical profile, or overall normalization.",
+      "No full radion or compactification stability result.",
+      "No quantum or electroweak completion and no prediction of the measured fine-structure constant."
+    ]
+  },
+  "verification": {
+    "analytic": "Functional independence, full-rank evaluation construction, implicit-function theorem, and positive nullspace perturbation were internally reviewed.",
+    "exact_seed": "certify_seed.py regenerated successfully. All certificate assertions use Fraction arithmetic, with rational exponential enclosures and an explicit infinite-tail bound. Decimal is only for display.",
+    "numerical_example": "stationary_profiles.py regenerated successfully with six substantive assertions. Ten nodes, local order p=2, 95-digit Decimal arithmetic, 40 internal levels checked against 60.",
+    "numerical_constraint_pair_difference": "below 2.3e-93 in the recorded finite-precision calculation",
+    "numerical_stationarity_residual": "order 1e-92 in the recorded finite-precision calculation",
+    "independent_check": "independent_check.py regenerated successfully using separate NumPy sums with 80 internal levels and SciPy bracketed root solves.",
+    "numerical_limits": "The ten-node numerical rank and root diagnostics are not interval certificates. The general existence theorem is analytic; its starting seed is separately certified with rational arithmetic.",
+    "artifact_quality": "LaTeX compiled twice; all seven rendered pages visually inspected."
+  },
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "measured_alpha_used_as_input": false,
+  "external_publication_or_repository_changes": false
+}
