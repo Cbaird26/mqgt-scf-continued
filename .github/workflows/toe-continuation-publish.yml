@@ -1,0 +1,41 @@
+name: Publish verified continuation checkpoint
+
+on:
+  push:
+    branches:
+      - release/2026-10-21-continuation-publication
+    paths:
+      - .github/toe-release-approval.json
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: toe-continuation-final-publication
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Publish the approved and verified research artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 .github/scripts/publish_toe_continuation_release.py
+      - name: Preserve publication receipt and exact final assets
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: toe-continuation-publication-receipt
+          path: |
+            ${{ runner.temp }}/toe-publish/publication_receipt.json
+            ${{ runner.temp }}/toe-publish/assets/
+          if-no-files-found: warn
+          compression-level: 0
+          retention-days: 7
