@@ -1,0 +1,22 @@
+name: Verify continuation publication source
+
+on:
+  push:
+    branches:
+      - release/2026-10-21-continuation-publication
+    paths:
+      - .github/workflows/toe-continuation-publication.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify the recorded source snapshot
+        working-directory: research_continuation/2026-10-21
+        run: python3 verify_source_snapshot.py
