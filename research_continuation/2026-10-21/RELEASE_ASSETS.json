@@ -4,15 +4,21 @@
   "assets": [
     {
       "name": "Theory_of_Everything_Continuation_2026-10-21.pdf",
-      "size_bytes": 711737,
-      "sha256": "9488d93d948e129b45f4073e11f346af783dbac09dab9a5570882d827ba8d325",
+      "size_bytes": 711758,
+      "sha256": "d25cf9a6034a7d3db31939db794e64530317373f757c227bdb2be6677ee72f87",
       "url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/download/v2026.10.21-research-continuation/Theory_of_Everything_Continuation_2026-10-21.pdf"
     },
     {
       "name": "MQGT_SCF_Research_Continuation_2026-10-21.zip",
-      "size_bytes": 67233039,
-      "sha256": "6c84ea16847f27b16873672ab82b2b4d7269dfe54bca81396269c65e0e9df809",
+      "size_bytes": 67265321,
+      "sha256": "03a849fe180c1202f86ccccc583899753321ad262af816de302a4a45a5eaa781",
       "url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/download/v2026.10.21-research-continuation/MQGT_SCF_Research_Continuation_2026-10-21.zip"
+    },
+    {
+      "name": "BUILD_PROVENANCE.json",
+      "size_bytes": 12375,
+      "sha256": "f3da3ee367d377e0b2ee61fc13722fe3e247174c70308115ea45f31e5464e038",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/download/v2026.10.21-research-continuation/BUILD_PROVENANCE.json"
     }
   ]
 }

@@ -3,13 +3,13 @@
 **Status:** executed, conditional research checkpoint. A complete Theory of
 Everything and experimental confirmation of new fields are not established.
 
-[Planned release](https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.21-research-continuation) · [Release notes](RELEASE_NOTES.md) ·
+[Release](https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.21-research-continuation) · [Release notes](RELEASE_NOTES.md) ·
 [Claim status](sources/claim_status.json) · [Citation](CITATION.cff)
 
-**Publication status (21 October 2026):** the source files are public. The
-GitHub Release and downloadable assets are pending publication. The download
-helper and URLs in `RELEASE_ASSETS.json` become usable after that release is
-published; local source verification works now.
+**Release checkpoint:** `v2026.10.21-research-continuation`. The dated release provides the report,
+complete offline ZIP, checksums, and build provenance. The download helper
+uses the final release hashes. The source snapshot preserves the scientific
+reference records; the offline manifest describes the rebuilt distribution.
 
 ## What is here
 

@@ -1,0 +1,18 @@
+{
+  "version": "v2026.10.21-research-continuation",
+  "release_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.21-research-continuation",
+  "assets": [
+    {
+      "name": "Theory_of_Everything_Continuation_2026-10-21.pdf",
+      "size_bytes": 711737,
+      "sha256": "9488d93d948e129b45f4073e11f346af783dbac09dab9a5570882d827ba8d325",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/download/v2026.10.21-research-continuation/Theory_of_Everything_Continuation_2026-10-21.pdf"
+    },
+    {
+      "name": "MQGT_SCF_Research_Continuation_2026-10-21.zip",
+      "size_bytes": 67233039,
+      "sha256": "6c84ea16847f27b16873672ab82b2b4d7269dfe54bca81396269c65e0e9df809",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/download/v2026.10.21-research-continuation/MQGT_SCF_Research_Continuation_2026-10-21.zip"
+    }
+  ]
+}

@@ -46,11 +46,10 @@ identifiability, an ultraviolet audit, and a synthetic causal-memory study.
 It includes code, compact results, source hashes, claim status, and reproducibility
 instructions.
 
-**Publication status (21 October 2026):** the source checkpoint is public. The
-report and complete offline ZIP are prepared, but the GitHub Release and its
-asset uploads are pending. The planned tag is
-`v2026.10.21-research-continuation`; its download URLs will become available
-after the release is published.
+**Release checkpoint:** [v2026.10.21-research-continuation](https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.21-research-continuation).
+The release contains the report, complete offline package, SHA-256
+checksums, and an explicit clean-build and packaging record. The
+scientific status below remains unchanged.
 
 These are conditional computational and methodological results. The checkpoint
 records the additional physics needed for full unification or a new experimental

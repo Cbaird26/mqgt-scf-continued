@@ -1,0 +1,1468 @@
+{
+  "package": "Theory of Everything research continuation",
+  "date": "2026-10-21",
+  "sha256_scope": "Every delivered regular file except this self-referential manifest",
+  "intentional_omissions": [
+    "Redundant split collision-bank parts; complete verified banks are present",
+    "Python caches and source-directory metadata",
+    "Two EOS reading PDFs and optional ancillary validation table; source URLs, hashes, analytic fit and historical validation results are present",
+    "The original 9252-page uploaded archive; source hash and page map are present"
+  ],
+  "files": [
+    {
+      "path": "CITATION.cff",
+      "size_bytes": 1233,
+      "sha256": "6809148d5f0896ddf092ba65e5a0db5b6c9c25c76c120d66cc8d9bff5e2fc527"
+    },
+    {
+      "path": "LICENSE",
+      "size_bytes": 18658,
+      "sha256": "f5b745ef98087f531e719ee8ca6a96809444573ecc7173c6fa68eaad39b3cc3f"
+    },
+    {
+      "path": "README.txt",
+      "size_bytes": 7185,
+      "sha256": "ae881abf3141cd89e16e42a70aea2ecb244f5f428ea4f32e9453b1787a4362be"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "size_bytes": 3992,
+      "sha256": "ef290dac91eaa7f2de9860394f826df3956a9f4305c1f02f0207df403d2cb28b"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "size_bytes": 6246,
+      "sha256": "705f3769f21f0b4e3143ca7abf38a3b69d0057eb4327f88e5780eff3486184a4"
+    },
+    {
+      "path": "agency/README.md",
+      "size_bytes": 1800,
+      "sha256": "146dd10be93ad7901e05383370ebceb27880d16dfcb59af4dcc5392238554411"
+    },
+    {
+      "path": "agency/RESEARCH_NOTE.md",
+      "size_bytes": 13940,
+      "sha256": "c6fb769fd3b9421435f74bfc668e86a01b11a6fd0c8756c678f6e68cc1acd7f8"
+    },
+    {
+      "path": "agency/held_out_trial_scores.csv",
+      "size_bytes": 175715,
+      "sha256": "8d9683e48a692c6ef3bd45343634c64532f456aadeb9589cf591e24131a6654a"
+    },
+    {
+      "path": "agency/protocol.json",
+      "size_bytes": 4467,
+      "sha256": "77061f72bdc30a11f29123166ded858336c358e84f8ac19b096afac17e897155"
+    },
+    {
+      "path": "agency/protocol.sha256",
+      "size_bytes": 80,
+      "sha256": "81c435cb62028d13d77c7f1f178e8462e6cb7a7768bafaa800638e1f88dd1504"
+    },
+    {
+      "path": "agency/protocol_lock.json",
+      "size_bytes": 285,
+      "sha256": "3d81249c58d06fb2b1a00e614463690e83fa230dd17321270c1847238c74c508"
+    },
+    {
+      "path": "agency/synthetic_causal_memory.py",
+      "size_bytes": 12867,
+      "sha256": "cb55ab7a1e838ab2231c830f703e5499730e898fe0be764d89bbef4194d74ec1"
+    },
+    {
+      "path": "agency/synthetic_memory_interventions.png",
+      "size_bytes": 84330,
+      "sha256": "4fa607d7caabf86dacdc395e3119b3e3e33fcfc8e9baa66edae2c1000c6a05f4"
+    },
+    {
+      "path": "agency/synthetic_memory_results.json",
+      "size_bytes": 11662,
+      "sha256": "6433bb4dd906ed9afb44a59ac577be199c9bd2f9da5d8c31bd7432691030da76"
+    },
+    {
+      "path": "common/README.txt",
+      "size_bytes": 2161,
+      "sha256": "71e7fb77f609e556661e611e5be2d26b2ddff8a67a768817cfe753c84b3a5423"
+    },
+    {
+      "path": "common/action_parameter_contract.json",
+      "size_bytes": 5486,
+      "sha256": "67fa7de171924d4d6182c360ff529b0f37153df044303235dba06a92d1cac520"
+    },
+    {
+      "path": "common/common_results.json",
+      "size_bytes": 1460,
+      "sha256": "a4e6ea33edb14696d162ccf85b0ad498d788d9873bda36f00fae4753cdcaccd6"
+    },
+    {
+      "path": "common/portal_interface.py",
+      "size_bytes": 6841,
+      "sha256": "02b204159a9960939d2dd943a835551850c09eae41f7701dca35d18a50f06cbc"
+    },
+    {
+      "path": "electromagnetic/README.md",
+      "size_bytes": 1810,
+      "sha256": "92001c67a60e2eece6ea6689180566affe1557e2f84e6d6ee6dc56a74ed4525c"
+    },
+    {
+      "path": "electromagnetic/RESEARCH_NOTE.md",
+      "size_bytes": 13592,
+      "sha256": "b13464e9a398e3e4635619e5f52201bfadb084a4ed6e49857a27671c21be2a14"
+    },
+    {
+      "path": "electromagnetic/profile_family_scan.csv",
+      "size_bytes": 318820,
+      "sha256": "f0713f48467358169b8ea6e60cc0d30f68999412102addfd71a6b92c8c986424"
+    },
+    {
+      "path": "electromagnetic/profile_identifiability_results.json",
+      "size_bytes": 16566,
+      "sha256": "d40e89373a3fa4df72c445225bca6efd492d30d37d4afcf098691b11d2247c91"
+    },
+    {
+      "path": "electromagnetic/spectral_profile_analysis.py",
+      "size_bytes": 21189,
+      "sha256": "f56614af11d91e7f4b7ed5860723155ecf7ad243af2e2e79c5955767e004ad90"
+    },
+    {
+      "path": "electromagnetic/spectral_profile_sensitivity.png",
+      "size_bytes": 103522,
+      "sha256": "e991f779f66ac439775cc7f208e50691b911658c889c9ef01e6865badc41ee82"
+    },
+    {
+      "path": "measurement/APPARATUS_AND_INFERENCE_PROTOCOL.txt",
+      "size_bytes": 9748,
+      "sha256": "56c2d63d24ee3f667584819e383011fb49e5f3499de024e9ce063380fad74cf4"
+    },
+    {
+      "path": "measurement/attenuation_contrast_ridge.csv",
+      "size_bytes": 1460,
+      "sha256": "9561ffe8c375439c1a64caa8139909d4cf5ac7324526a49e1fba6525ee514425"
+    },
+    {
+      "path": "measurement/measurement_diagnostics.png",
+      "size_bytes": 153585,
+      "sha256": "523d0d9429493d034466c55d98fe2d7121ef907ec324dc268b03a9c4c2655e20"
+    },
+    {
+      "path": "measurement/measurement_results.json",
+      "size_bytes": 22761,
+      "sha256": "ddc9f0fe9a32534d2f05925aee7d955feefa7d0472ce1323ff622685f097a612"
+    },
+    {
+      "path": "measurement/poisson_visibility.py",
+      "size_bytes": 14021,
+      "sha256": "19bc4d325f67e930fb752fd1b3385e133c0cf3243433c8383ec1bd1b98c20f15"
+    },
+    {
+      "path": "measurement/scan_poisson_fits.csv",
+      "size_bytes": 32838,
+      "sha256": "f05b60ef90c7ac48d2862a03721b6b89f6b7f7476dab86371cf34260d6aa4657"
+    },
+    {
+      "path": "measurement/sources/Na-Cluster-Interference.zip",
+      "size_bytes": 88626,
+      "sha256": "b92355d06e06f16b3c746020ef7bc6c6eac6a629d36d739aff79e6a894003b9a"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Macroscopicity_April2025.py",
+      "size_bytes": 15937,
+      "sha256": "be58622e0f7d234c34bba6bcfb9e12ec4a280900c18e7eba9853b05698415b27"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_10_s1.dat",
+      "size_bytes": 403,
+      "sha256": "434c1fc1f1be8790b8b1863cba5345c5f64ff05102c5ce315ecf65de639cc4e3"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_11_s1.dat",
+      "size_bytes": 402,
+      "sha256": "066b078f73a3868dc49c4f8a79971e63876cf41d03eb8142b65e16247bb3d0e4"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_12_s1.dat",
+      "size_bytes": 402,
+      "sha256": "6d300d0af77cde44087a89720693b0c8798bb8d12e02714d7e879174a007dffa"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_13_s1.dat",
+      "size_bytes": 403,
+      "sha256": "363820c57116411d8390943955ee70741437e805caeaba30ba3f408d43620fc3"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_14_s1.dat",
+      "size_bytes": 403,
+      "sha256": "3752c1cb91428cbbe25c6a3e4e7769093b388c2df3e46524803bea1df5363015"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_15_s1.dat",
+      "size_bytes": 403,
+      "sha256": "c11994a433835e3076f23ef3e2110ce1b00e9eace17732af7ebe99444d44493a"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_16_s1.dat",
+      "size_bytes": 402,
+      "sha256": "2a4f583d5fdadd633380dc920a75042ee33ff4b858f9a283510d7acdd06812c6"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_17_s1.dat",
+      "size_bytes": 402,
+      "sha256": "38e009fae6eb37fb1739b920b7b9247a7a9f52493914af29eeca195e9a393111"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_18_s1.dat",
+      "size_bytes": 403,
+      "sha256": "13cbb0a191de465d982599f1f1a4e3fccb8dd99c2d868085a7ec484b31b7fceb"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_19_s1.dat",
+      "size_bytes": 402,
+      "sha256": "42b77557e4df5d5c7720fdaf36c820cbc0b59bbf5e144b8ce35ec5557bf48f77"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_1_s1.dat",
+      "size_bytes": 403,
+      "sha256": "b1343840d38adf35ef1f88073d7a653b7cc45f0f490ce9bd6d96b5384667e701"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_20_s1.dat",
+      "size_bytes": 403,
+      "sha256": "73bd8094b98b21e5be580eb97d35db95450fbb06098fd717e5f02b5d837e2c46"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_21_s1.dat",
+      "size_bytes": 403,
+      "sha256": "e82a1ba380dcd16465a30780a10f16e9c0d12fbe156a2667a4a62625b2288235"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_22_s1.dat",
+      "size_bytes": 402,
+      "sha256": "7b75742a0a313e36dffca3b4261bde9c5a623284d6709dd4159b2aab968adfc3"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_23_s1.dat",
+      "size_bytes": 403,
+      "sha256": "ccb12c67d5729d000ef76bef335339a6158c7d9b9a7ea5b86b984123a32254a5"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_24_s1.dat",
+      "size_bytes": 402,
+      "sha256": "5f8c03027918c9f481113f88c4dafa7c3a7c2b5425be6b2243f8fb5241e19450"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_25_s1.dat",
+      "size_bytes": 403,
+      "sha256": "a53bd93a85d94724e6cc0d6d29b97926cbdaf5b60b8eaf233588c321aa380d47"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_26_s1.dat",
+      "size_bytes": 403,
+      "sha256": "460d3e9ba011ca41faa1b1c0ac49a00ba2aa010fbbfc4acf2f90d64b1e17a615"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_27_s1.dat",
+      "size_bytes": 403,
+      "sha256": "bd3f5618fe215c22d38db12425198afa4b3d8f8c24420203aa98e44a3eaafd3f"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_28_s1.dat",
+      "size_bytes": 403,
+      "sha256": "8e44cac69b1e31f070524781cc5ce4bc94cb3c377c9ed78146582e8e61bd2cb8"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_29_s1.dat",
+      "size_bytes": 402,
+      "sha256": "15be750f238ca6f1ec695f803649dc15fabdc4adbf3cc62bcad61699d9f37ff6"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_2_s1.dat",
+      "size_bytes": 403,
+      "sha256": "710bb6e7a84c6ebb329f11c9f2dfdb9e07b1363a45de08836acf5a0f00860ae5"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_30_s1.dat",
+      "size_bytes": 403,
+      "sha256": "3b52d62fc27ae12a64694ed940726f60772793d06815be9d1b7948dfaa6c0eb2"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_31_s1.dat",
+      "size_bytes": 402,
+      "sha256": "6449ac410eddef455624e6e46435467a8b1f618bd5474d0f33cc1e9e691e940e"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_32_s1.dat",
+      "size_bytes": 403,
+      "sha256": "1c9d546a5f5bbb3d6884b29acd6dc6c04ac1965339505082c4306c60fb37fa4c"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_33_s1.dat",
+      "size_bytes": 403,
+      "sha256": "cfbcc7f7b0241b11df15a1392f5e78cecc7166781ea2e54762561d2627b7451b"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_34_s1.dat",
+      "size_bytes": 403,
+      "sha256": "ef30f44aab5a7a52eae13c5e3cb796fb4eb1945b4931520fc0e943aae1b6d0e3"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_35_s1.dat",
+      "size_bytes": 403,
+      "sha256": "ea3f17dc0a3abfeee93920b196052598c994f6dbc1d9f78e7729e4e92c58c257"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_36_s1.dat",
+      "size_bytes": 403,
+      "sha256": "64169c30daa4c9412bb8a603e50ccdfe34ba641acbf6669b81a095d1e15e1750"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_37_s1.dat",
+      "size_bytes": 403,
+      "sha256": "fed76a9928ddf342040adf1e61b224a780143c6f8bb791860be3b73907d605f7"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_38_s1.dat",
+      "size_bytes": 403,
+      "sha256": "4d5497bfbd4a81ccd6fc23d58fa6f5e9c8cca8ed4eca492815eeda664a9023ba"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_39_s1.dat",
+      "size_bytes": 402,
+      "sha256": "2d0772d1fcb1e1447a77e5042732bfc9bc6ab2c4bee65dbc980e0efb79eb0f47"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_3_s1.dat",
+      "size_bytes": 402,
+      "sha256": "aa79a5574cc27c7a59b73efffb126ef5c1ba227be7a948e7debba85ad60060a4"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_40_s1.dat",
+      "size_bytes": 403,
+      "sha256": "ba0afc2abce090b630c70f0b28ab6dd93ffdd28575914e86f44deb4baafca23e"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_41_s1.dat",
+      "size_bytes": 403,
+      "sha256": "2cce27e8537002c4e8f60b575c87babc0826b998d7abf493346485c1261feecf"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_42_s1.dat",
+      "size_bytes": 403,
+      "sha256": "b088b2b95d995427325cfd37a9073b361ba35eb33b7ba4e3f58f51360a8a6c15"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_43_s1.dat",
+      "size_bytes": 403,
+      "sha256": "c846e714a0bfc0f4134f760de5d48ddc9e1819bd44c0c7adf9dc3380d5ec31d3"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_44_s1.dat",
+      "size_bytes": 403,
+      "sha256": "09790b1fcdfa440248f85516bf4dfeac1df99a5585489fe07d7410950471bf4b"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_45_s1.dat",
+      "size_bytes": 402,
+      "sha256": "fbc169a3feff4a9f8d43af1a592b42424e253959b6061c614f36bddf17f4e7cb"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_46_s1.dat",
+      "size_bytes": 403,
+      "sha256": "54bbed4a0b2a79e8a8c29434eb1e96b5b941911e4263e714325267619fbf25c4"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_47_s1.dat",
+      "size_bytes": 403,
+      "sha256": "ddd48fdbb5756a1b2aab2768bf56cbc27457c03e2a5d33778197fbdcc40a1354"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_48_s1.dat",
+      "size_bytes": 403,
+      "sha256": "3ab2caa28e50835d8ff29565ee803786309793bfe3bb2e4fbe1b0e2568f43ad9"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_49_s1.dat",
+      "size_bytes": 403,
+      "sha256": "09f33a6b8b6b1667bbc65f9c68c7038532f67f3803c302baee10a0ed2db3144b"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_4_s1.dat",
+      "size_bytes": 403,
+      "sha256": "890d348266e0be29362277494f1665b1924eb275c6a9eb0122bfb31803e7cc06"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_50_s1.dat",
+      "size_bytes": 403,
+      "sha256": "ff7d9e5aa346ddf1fb9a3356913cfbd7c7b0b0f5faeec48f5738b06fd727e544"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_51_s1.dat",
+      "size_bytes": 402,
+      "sha256": "a594262a8d2bc474e08d05199f4f38e4166617b6b6647fadc6e8319ccf096ed5"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_52_s1.dat",
+      "size_bytes": 403,
+      "sha256": "3bc314072f6263ae4d826e23ff82d07f71f84ec6c7c30dcbc0b4818e3fcd1a75"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_53_s1.dat",
+      "size_bytes": 403,
+      "sha256": "00cdf0d702bffc3353b9b0482b4cd391170e104f36f2028970267a35eebec792"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_54_s1.dat",
+      "size_bytes": 403,
+      "sha256": "5ada4700d1657d98a6a9537f6d9e04cb0da6bd37ed044b9380eae0110cb7fd96"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_55_s1.dat",
+      "size_bytes": 403,
+      "sha256": "b13ea4e1cb407fc13e1a13bbcfa4a5c0a33fd7d8ba725b48d5be8776bcc429f4"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_56_s1.dat",
+      "size_bytes": 403,
+      "sha256": "cbdd971112ae8a15e7ce12b0ca835b7d022d760648ee7ce62a3e1803671ac685"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_57_s1.dat",
+      "size_bytes": 402,
+      "sha256": "cb37b647df905367c827f54dcf5eae07edcb62c8789d9e317e436d5e2cccbcf4"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_58_s1.dat",
+      "size_bytes": 403,
+      "sha256": "d0f94b591a2af87db8f634da02af4f73906aa07d2c86d2cf51d1d1ee92813c3d"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_59_s1.dat",
+      "size_bytes": 403,
+      "sha256": "8aac47dc821823454b0297c01ef039fb248ccad6551a650da00a21e1c2c75fef"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_5_s1.dat",
+      "size_bytes": 403,
+      "sha256": "c572e3a29551ea3fcce081b4eaf35a8b190727fd8d19973e70851f836652ec05"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_60_s1.dat",
+      "size_bytes": 403,
+      "sha256": "82121f22d76e4c6f23d237b2c9a0c2e788e66d343aa519e11c900c86ed8ecd77"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_61_s1.dat",
+      "size_bytes": 403,
+      "sha256": "22d5dde0c78befb1b157cdfb50c244399da73083eb26b045c9c505cb0fd16e31"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_62_s1.dat",
+      "size_bytes": 403,
+      "sha256": "87fd40424b428989a255520ebbab6208db20e7395667888bad7d814fee1fc415"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_63_s1.dat",
+      "size_bytes": 402,
+      "sha256": "417521afd941e72cdab11f141fb6c231b30cf13b296230072cf6ee59fb444794"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_64_s1.dat",
+      "size_bytes": 403,
+      "sha256": "1582672f2763d5394ecd9996494b4cf7ae34d1dff7c10423d68d5287812405d2"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_65_s1.dat",
+      "size_bytes": 403,
+      "sha256": "0681d732fb2b573f0db9ee271c23ea793e0cd8a2c417f94161be52e34d8ce6c1"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_66_s1.dat",
+      "size_bytes": 403,
+      "sha256": "877b1e71babb16c5f7e5d82956cb04c8885c80e896a2d6384addd7d4d734ac8c"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_67_s1.dat",
+      "size_bytes": 403,
+      "sha256": "3072368789ef8adf284b60b9f61ec0a7457b8892b87a4e9a76ac71ed529ad373"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_68_s1.dat",
+      "size_bytes": 403,
+      "sha256": "22a01371448e8e6a7374a55389118affb0e34790561aaf912d291712041a122d"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_69_s1.dat",
+      "size_bytes": 402,
+      "sha256": "64d0b0520d3a46c608a910e01eb3d78e725220c5c7c1983a29c9e005e00e4be3"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_6_s1.dat",
+      "size_bytes": 403,
+      "sha256": "17024a4a4fa859f7cf8a728f04936e1db18b259f4bd182b82abb1ad6b80280f7"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_70_s1.dat",
+      "size_bytes": 403,
+      "sha256": "ee40e1f7b10b8fdf53cf59458a6d9504a964c7caaafce6ac69a22ad494649801"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_71_s1.dat",
+      "size_bytes": 403,
+      "sha256": "b3e775f04b8fabd6026d55abd7c414469645c3f6c577d7e9d3829a623f19cfa7"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_72_s1.dat",
+      "size_bytes": 402,
+      "sha256": "80ca554df50327cae84a646877b21c00aa19fd405ac45c785dce968c97c28c56"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_73_s1.dat",
+      "size_bytes": 403,
+      "sha256": "9dfdc4866c3eee629d54830acbd7c7256a4f4ad4453b2d3b9a51ccfd32559624"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_74_s1.dat",
+      "size_bytes": 403,
+      "sha256": "10cd8bd8616e2ba181d8a9be4be269bfdf34d54b4854f8003467e4b6a3719c22"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_75_s1.dat",
+      "size_bytes": 403,
+      "sha256": "52db661fbf4055b594077e5372473e9b5f7b92b6737e99ad9b524296d4695e45"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_76_s1.dat",
+      "size_bytes": 403,
+      "sha256": "d223e3624bf9ea94801155ca13132196ebe40124a274be4bd87fff75bd3c4777"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_77_s1.dat",
+      "size_bytes": 403,
+      "sha256": "43917dd9f50fc06231d547c19177e073b937677e9fba6d37555257b70fd80c11"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_78_s1.dat",
+      "size_bytes": 402,
+      "sha256": "f1a022f8bd361246f6c52531cd25f5c6f86a1eec8799a996089427904645030c"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_79_s1.dat",
+      "size_bytes": 403,
+      "sha256": "8e244c6404cf493268ce4829e792cecbb8991430f89ff4fc8e401ec23964ddf0"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_7_s1.dat",
+      "size_bytes": 402,
+      "sha256": "d10bcab63adf0997a856528b8d053999519199797c5e699de68c1279a41a817c"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_80_s1.dat",
+      "size_bytes": 403,
+      "sha256": "384c7f6c603a40b82845cbb905141fb023530b35f8fa6a6d65fcec5d1bed6349"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_81_s1.dat",
+      "size_bytes": 403,
+      "sha256": "69d062ef5cf9eeabe7985a4a3a2aee8343cd95ba876276a049067d8205fb45b8"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_82_s1.dat",
+      "size_bytes": 403,
+      "sha256": "e9fb2dac33717f3ff545017208a2de9d15b3f8b1b6b15b55b55783b311590e02"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_83_s1.dat",
+      "size_bytes": 403,
+      "sha256": "159fee393734231a7149cebd64bc8709c8c77ec1ec4640fb038f082a7831eb93"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_84_s1.dat",
+      "size_bytes": 402,
+      "sha256": "09ec1351d3961a97b0d00357c403e47273e55b6d318426e54a0659012424ac2f"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_85_s1.dat",
+      "size_bytes": 403,
+      "sha256": "e23b89a1bd3cb315a3784770ffc9ac444b65bac57605548f8dcd9e293585e5fa"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_86_s1.dat",
+      "size_bytes": 404,
+      "sha256": "ffe8cfac65814657a73411e38a760b3cdf51131c2121d69a7edf9a08c7871d59"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_87_s1.dat",
+      "size_bytes": 403,
+      "sha256": "daddc89781aea02fb290d4c4d78f306fdb2d30a8c6fa277abc75779e326d44a2"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_88_s1.dat",
+      "size_bytes": 403,
+      "sha256": "c98cd98104e94ddeca7a081824f8eb02225104e8ea54afc474100c259fdb2758"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_89_s1.dat",
+      "size_bytes": 403,
+      "sha256": "f3badb854c6a630c8d530fb6ad195b8723971896eafcdff221cad79ab7875ecc"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_8_s1.dat",
+      "size_bytes": 403,
+      "sha256": "468ce81821daa4334c9cfeecc92ee4f33b0c842717cfdd7aac14a10f3cb3e7a9"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_90_s1.dat",
+      "size_bytes": 403,
+      "sha256": "a717264e99cadfa0c4cb6e1f6f1fd73e5da04a19c8266f54ae18b2c7e787bd24"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_91_s1.dat",
+      "size_bytes": 403,
+      "sha256": "3b6e8169b9554f9ef9aabb8fc1d5592344482e1ed198fb258f9e7b0d5ef65669"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_92_s1.dat",
+      "size_bytes": 403,
+      "sha256": "c9e07b480f7e714d2158197f3749728cfbc774d61b756f2eac5471b1b88754e6"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_93_s1.dat",
+      "size_bytes": 403,
+      "sha256": "2577a69a9adac5eb554c371ca6b95bab8569149d425370642b98623425acd01b"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_94_s1.dat",
+      "size_bytes": 403,
+      "sha256": "0d4313539d0624e0e6f3c55dc60ea96fd491e88bdb949085332f3a17dd84c9ff"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_95_s1.dat",
+      "size_bytes": 403,
+      "sha256": "511a8da26cbfb1dbc355d57a3539fc7b1c211a16c1a53f97830582ca51e1f858"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Interference Scans/Sodium_int_powerscan_9_s1.dat",
+      "size_bytes": 403,
+      "sha256": "e25c31c999184f08aa031cc6dae6671f18dda488e839842edf2d5dccb8d8eb2e"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Mass spec/Sodium_He_60sccm_Ar_161sccm_356C_425nm_L12p5cm_HP_massscan_16.dat",
+      "size_bytes": 1220,
+      "sha256": "efb6ccf6d83d0a12fb45c8c421eff2d43317c1d77dcff891f800c75e99f23456"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Mass spec/Sodium_He_60sccm_Ar_161sccm_356C_425nm_L12p5cm_HP_massscan_4.dat",
+      "size_bytes": 871,
+      "sha256": "4cd1de43548e19888fa46d1ffd53d0e01f920eef0d81a85e55f8266a3cf3f858"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Mass spec/Sodium_He_60sccm_Ar_161sccm_356C_425nm_L12p5cm_HP_massscan_9.dat",
+      "size_bytes": 1250,
+      "sha256": "88d565096eda1f96c5a3ccf0255374aadd0e3af5912bc7fd9f9d160f72fbbab1"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Mass spec/Sodium_He_60sccm_Ar_161sccm_356C_425nm_L12p5cm_LP_massscan_8.dat",
+      "size_bytes": 1125,
+      "sha256": "3fae2bf77e1269c9c9bb256dc620d5da778da70ccc0dc345e532f1f4c884577d"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Mass spec/Sodium_He_60sccm_Ar_161sccm_356C_425nm_L12p5cm_LP_powerscan_17.dat",
+      "size_bytes": 1096,
+      "sha256": "ed6c7093e7c07d7c272d61cb20449835eea940a6878501a67e316174d272bef5"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/Na-Cluster/Data_April2025/22042025/Powerscan_85kTh_22042025.xlsx",
+      "size_bytes": 13099,
+      "sha256": "e5cbb9cafae16796be412db449640bbb49b883ae554a9db5b02a89603cfe15a1"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/PowerScans_April2025.py",
+      "size_bytes": 21690,
+      "sha256": "c674322436b699612d7add8a9836e9394039aadee9efefabbc1fd4c0ca9a5588"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/README.txt",
+      "size_bytes": 586,
+      "sha256": "003b2aaafe1a91a6fe070efcc53118cda4acd179b3ac9bf47987d5f55785ad00"
+    },
+    {
+      "path": "measurement/sources/pedalino_original/Na-Cluster-Interference/talbotlau.py",
+      "size_bytes": 16916,
+      "sha256": "9dcdaf0f834af2e40f2a213ab58910a3f78f33bc25374af78b958281e778d65b"
+    },
+    {
+      "path": "measurement/sources/zenodo_metadata.json",
+      "size_bytes": 5767,
+      "sha256": "20901970db27da70df4bf17b96468c49127e6d9816886bcd054ef8090eb8add7"
+    },
+    {
+      "path": "package_delivery.py",
+      "size_bytes": 3143,
+      "sha256": "e6840c656ce8d7c40ea762e5a9d8467b2ace3a6c08da7328501959beaa12f31c"
+    },
+    {
+      "path": "reports/Theory_of_Everything_Continuation_2026-10-21.pdf",
+      "size_bytes": 711737,
+      "sha256": "9488d93d948e129b45f4073e11f346af783dbac09dab9a5570882d827ba8d325"
+    },
+    {
+      "path": "reports/build_report.py",
+      "size_bytes": 39610,
+      "sha256": "a1379d66a89094ca02ae7382fcb0c495c6143c1c06ba70721752fbc8c30c42b5"
+    },
+    {
+      "path": "reports/eos_report_insert.txt",
+      "size_bytes": 925,
+      "sha256": "19afa08d645a9c48ca1adb8d2fe4e96b607a9b86fc2c741def312bf6b73643ab"
+    },
+    {
+      "path": "reproduce.py",
+      "size_bytes": 3135,
+      "sha256": "4c9fcf45c679e393c846e2ef9e60d8e7aefc014e0afced226dea54c7054250b6"
+    },
+    {
+      "path": "requirements.txt",
+      "size_bytes": 246,
+      "sha256": "86bfe8cd1c6befe740bd086f197a03132dccc007fdd075e7aef8ff200d551163"
+    },
+    {
+      "path": "sources/claim_status.json",
+      "size_bytes": 3311,
+      "sha256": "51a0e3ca72894d91a9322e72a40b364376ee1a5327df244f181a78f9732fe4d4"
+    },
+    {
+      "path": "sources/environment.json",
+      "size_bytes": 269,
+      "sha256": "d6c359cc59badf1c84a2fbc69878d62d263058ce03ac28671510b1e0a972e1a1"
+    },
+    {
+      "path": "sources/internal_review_record.txt",
+      "size_bytes": 3014,
+      "sha256": "e775afd9d4d667549ca1d2e777ee61a7887c5e380c6569f35bb7ffa6f1641cd6"
+    },
+    {
+      "path": "sources/offline_reproduction_stdout.txt",
+      "size_bytes": 23297,
+      "sha256": "b133ec17b89e2bcece2f08ed2fb45955602964ee5815419fb421bf577dd8735c"
+    },
+    {
+      "path": "sources/offline_reproduction_validation.json",
+      "size_bytes": 1157,
+      "sha256": "a6e18f2f6e5948784317bd45d89a0f06737383e7787868a4f6a2eca3e9104061"
+    },
+    {
+      "path": "sources/publication_reproduction_stdout.txt",
+      "size_bytes": 23299,
+      "sha256": "aa15f1a0ba4320290f27b81cd2faab50c5b638ffbe0669adfec3a9952f652c44"
+    },
+    {
+      "path": "sources/publication_validation.json",
+      "size_bytes": 1079,
+      "sha256": "510323c6a4aa561d05f7c8b91ad2fcbc3877647dcc8cdee450575d81cd4c1cf3"
+    },
+    {
+      "path": "sources/source_catalog.json",
+      "size_bytes": 4209,
+      "sha256": "16483d080f2efa2b89cc82419e776950b901273e176e945ec4361bf506d5b9b8"
+    },
+    {
+      "path": "thermal/README.txt",
+      "size_bytes": 3203,
+      "sha256": "5723db87e62d7d6f229bebce28d05f7e07a05ee88f8900857636d5cc98820243"
+    },
+    {
+      "path": "thermal/SCIENTIFIC_NOTE.txt",
+      "size_bytes": 11819,
+      "sha256": "a97fcd1c697af5fefc553f358c11be31b0304bd75f6020814125d7d3a471141d"
+    },
+    {
+      "path": "thermal/SHA256SUMS_CONTINUATION",
+      "size_bytes": 5139,
+      "sha256": "497726550f51a94dc07e3e459d1750166594d9e5868e10527bfb010e9e758f8a"
+    },
+    {
+      "path": "thermal/download_frozen.py",
+      "size_bytes": 1532,
+      "sha256": "566e9d2eb9acfa26aea68ff40df321c3bf70c742475e994728c6b79f5f2bc9e1"
+    },
+    {
+      "path": "thermal/download_manifest.json",
+      "size_bytes": 22609,
+      "sha256": "e4a50a8a7cc8b722df5988da166e19ae7f3541ec99e2e30f0664914c03877e18"
+    },
+    {
+      "path": "thermal/eos/EOS_NOTE.txt",
+      "size_bytes": 7969,
+      "sha256": "7d7bc9a8163543def0acc075779e0c3b41a685fc4ee38ae352fcc4b1b1aa803d"
+    },
+    {
+      "path": "thermal/eos/constant60_collisionless.json",
+      "size_bytes": 64579,
+      "sha256": "c81072d61c7e9b91eea4ffa8e29198ca923447a5ad64e9268209fbe1448ce44e"
+    },
+    {
+      "path": "thermal/eos/constant60_standard.json",
+      "size_bytes": 65334,
+      "sha256": "5c382172980668d3747373eb5f98403e95b14ae991f494a1e29de4157a950824"
+    },
+    {
+      "path": "thermal/eos/eos_report_insert.txt",
+      "size_bytes": 925,
+      "sha256": "19afa08d645a9c48ca1adb8d2fe4e96b607a9b86fc2c741def312bf6b73643ab"
+    },
+    {
+      "path": "thermal/eos/eos_review_summary.json",
+      "size_bytes": 958,
+      "sha256": "50b277effd821d3a61f9d477eb81f505e915a6269066033febf22d7a4f00452a"
+    },
+    {
+      "path": "thermal/eos/eos_sensitivity.png",
+      "size_bytes": 254356,
+      "sha256": "8f713441c34fd53e3c6c023eaded3322691ec2ece2187650b5a6559ef1afcdc1"
+    },
+    {
+      "path": "thermal/eos/eos_sensitivity.svg",
+      "size_bytes": 128228,
+      "sha256": "e8b67c5c7de39c63c27edf5a93df8595398b0ae31412632a985bf067f363d26d"
+    },
+    {
+      "path": "thermal/eos/eos_sensitivity_results.json",
+      "size_bytes": 20693,
+      "sha256": "3f111681e6aea5e0b30991b6497c1da579de3bf059c545c4212f4114d41bafcd"
+    },
+    {
+      "path": "thermal/eos/eos_summary.csv",
+      "size_bytes": 719,
+      "sha256": "8cf3357d3507c7bb5ef9831e0395c9078bd00974230e41c07bb06a05be64dab2"
+    },
+    {
+      "path": "thermal/eos/historical_table_validation.json",
+      "size_bytes": 12603,
+      "sha256": "a9dd4aa6ba52a94758a32dc6dc032f876833adb83e2804ad5e310f0d0f1147ca"
+    },
+    {
+      "path": "thermal/eos/qcd_leptons_photon_collisionless.json",
+      "size_bytes": 66844,
+      "sha256": "8b3a62b8f8e3419d725f7960a366ecd8e4cf8030fdbeead32b6ec64013aa9282"
+    },
+    {
+      "path": "thermal/eos/qcd_leptons_photon_collisionless96.json",
+      "size_bytes": 61628,
+      "sha256": "55bfb2e433407fbea540c035b1228aec155f354a2897b9f6c4cc441e911393d6"
+    },
+    {
+      "path": "thermal/eos/qcd_leptons_photon_grid96.json",
+      "size_bytes": 61697,
+      "sha256": "8b11a005a3c31bbd43365aa4ca44b6cdaf3330f63eed17abf08b3f0e8069a4af"
+    },
+    {
+      "path": "thermal/eos/qcd_leptons_photon_ideal_cb_collisionless.json",
+      "size_bytes": 66605,
+      "sha256": "032ed2d40a8504ae0d3a94a382c00eb81b0996e6c2f5c227e4351eeeb7cb6a2a"
+    },
+    {
+      "path": "thermal/eos/qcd_leptons_photon_ideal_cb_collisionless96.json",
+      "size_bytes": 61310,
+      "sha256": "250e0121e12259531c6815c3da175bedae3323c6ba0f5c5e666a1ad4cbc6012f"
+    },
+    {
+      "path": "thermal/eos/qcd_leptons_photon_ideal_cb_grid96.json",
+      "size_bytes": 61550,
+      "sha256": "7ed67cec282d60403e0feae9e81c606e6f950e565e7b1c714cdf44fd7c774d44"
+    },
+    {
+      "path": "thermal/eos/qcd_leptons_photon_ideal_cb_standard.json",
+      "size_bytes": 67268,
+      "sha256": "cc05a14419e10c5bc1b78cff7b7e47f9d95e253d0f7f8cc9a6fd85635d2d58f0"
+    },
+    {
+      "path": "thermal/eos/qcd_leptons_photon_ideal_cb_time384.json",
+      "size_bytes": 120724,
+      "sha256": "8e5618c8fc56a8ffd1c1a1645d858ff3133a3b016372ff2706ed22a980e5e7bb"
+    },
+    {
+      "path": "thermal/eos/qcd_leptons_photon_standard.json",
+      "size_bytes": 67429,
+      "sha256": "151628c5ba87d65127aefe67d0b3c79f797ad5c3b11a08cbcfe16cb314c7deca"
+    },
+    {
+      "path": "thermal/eos/qcd_leptons_photon_time384.json",
+      "size_bytes": 120946,
+      "sha256": "f2af1c1f6094e8e9901927aa6a5daa468b2dd59ba6a3ea01f9f753220c85ba8d"
+    },
+    {
+      "path": "thermal/eos/run.log",
+      "size_bytes": 3824,
+      "sha256": "64798c7ab34e9a4d921035a7046070a7ebe8b494162997f06e5394e067ff5bac"
+    },
+    {
+      "path": "thermal/eos/source_provenance.json",
+      "size_bytes": 1317,
+      "sha256": "50de716ee220a9359448289375d9e7a59ed656521ab7e32b8021f99f2b49e7cc"
+    },
+    {
+      "path": "thermal/eos_sensitivity.py",
+      "size_bytes": 14967,
+      "sha256": "76bbe6f577c373d2f18ec6106b82cb456d99463a1534199fb47ed9d8c80a9b30"
+    },
+    {
+      "path": "thermal/fetch_eos_validation_table.py",
+      "size_bytes": 2367,
+      "sha256": "44104f6db831ce285390b78e647b320bc39004dd94f6d8416cf22e47ade978a0"
+    },
+    {
+      "path": "thermal/frozen/README.txt",
+      "size_bytes": 3338,
+      "sha256": "f69118679e925376d3f70248a326c50c39c2e7011bb4de5ba2edd5e3fd100c44"
+    },
+    {
+      "path": "thermal/frozen/REPRODUCING.txt",
+      "size_bytes": 4953,
+      "sha256": "795b7c0123829aa49f05acc4579fa3419fc09f502d89ab3063cb47c1837f8f90"
+    },
+    {
+      "path": "thermal/frozen/RESEARCH_NOTE.txt",
+      "size_bytes": 13855,
+      "sha256": "01ba097ac741647bb89ddbbcbbb767b781a3a46f4ea55c176b3875c552590e32"
+    },
+    {
+      "path": "thermal/frozen/SHA256SUMS",
+      "size_bytes": 5717,
+      "sha256": "333c09eeefd956d6a55255202d27208ada9e2f2e93653816877c3c198ffd0653"
+    },
+    {
+      "path": "thermal/frozen/_archive/ARTIFACT_PARTS.json",
+      "size_bytes": 4003,
+      "sha256": "8081a60a334e4b7e545e6c2448a7ba90893fc946c322de418a80799dc4c3c958"
+    },
+    {
+      "path": "thermal/frozen/_archive/restore_artifacts.py",
+      "size_bytes": 3290,
+      "sha256": "fdd4895a6b1198cd8cc4b48c90c05d54387b6f4e1fc3cdb9f533ea5dc1005d5b"
+    },
+    {
+      "path": "thermal/frozen/analyze_network.py",
+      "size_bytes": 4281,
+      "sha256": "f4d139850034856a37c87af8084974821cbe0c56d3c24be59345576dbd28afa5"
+    },
+    {
+      "path": "thermal/frozen/build_report.py",
+      "size_bytes": 7076,
+      "sha256": "fbf57d8d7d26b0d17c5d1f7dee0e358e13d41725b5f35e50594aeb59a3ea8ecd"
+    },
+    {
+      "path": "thermal/frozen/network/NETWORK_AUDIT.txt",
+      "size_bytes": 10269,
+      "sha256": "c2eee19fccdf7e67972e3b3663cd95b67276fda292b2566b2744bf3bdd91726a"
+    },
+    {
+      "path": "thermal/frozen/network/build_decay_bank.py",
+      "size_bytes": 1611,
+      "sha256": "a1d093692e1da539dce92c9b34a2e4d095141f4fe541559e5f75699aecc488cf"
+    },
+    {
+      "path": "thermal/frozen/network/decay_bank.json",
+      "size_bytes": 42574,
+      "sha256": "2b803c8e8a29b0014270f5c8815f886a164450cd956f0e2f1e96f056d37a1990"
+    },
+    {
+      "path": "thermal/frozen/network/decay_bank.npz",
+      "size_bytes": 1250293,
+      "sha256": "6980a7c9930dab3e4b4b77bbc8bd03bbf3a0de1f86277f520ba58db813270f2c"
+    },
+    {
+      "path": "thermal/frozen/network/decay_bank_eta16.json",
+      "size_bytes": 76598,
+      "sha256": "20fc3d8d5e5ee02188ac1c7588b22086c4e9700bf1f34a03124382724d9dae68"
+    },
+    {
+      "path": "thermal/frozen/network/decay_bank_eta16.npz",
+      "size_bytes": 2247380,
+      "sha256": "4b41a187f099c5de70db082ebbe8409b8551ffc4dc5178a76878a6a9c0823bc6"
+    },
+    {
+      "path": "thermal/frozen/network/decay_graph.py",
+      "size_bytes": 6890,
+      "sha256": "6af53db5ac0bd1cdb48e818fe702162d3c11011dfab1e7d1af6e3e72763e4b8a"
+    },
+    {
+      "path": "thermal/frozen/network/evolve_network.py",
+      "size_bytes": 10622,
+      "sha256": "4efc72f9bb8780ce4c43a82381f05c93dfa437c9fb296d2d4f73bbf6f3555215"
+    },
+    {
+      "path": "thermal/frozen/network/pair_annihilation.py",
+      "size_bytes": 4256,
+      "sha256": "b89660f0168f556896b981bf34d79c27e0c7946904bda16b1d60ec9fbfbe9a34"
+    },
+    {
+      "path": "thermal/frozen/network/pair_bank.json",
+      "size_bytes": 273,
+      "sha256": "d31a3d9221a7bd1c66e784618ebae73ec75e4682f6c22ac24cf3c4e0bfc4a6cc"
+    },
+    {
+      "path": "thermal/frozen/network/pair_bank.npz",
+      "size_bytes": 10545379,
+      "sha256": "05eb2dc6fa33718d38637c103cfe212cffae19adaf2f24933478e24e0d58ac5e"
+    },
+    {
+      "path": "thermal/frozen/network/pair_bank_eta16.json",
+      "size_bytes": 272,
+      "sha256": "2dcef993955e8995cc9469e4c124cb6a17556ae0a1aca0fa4dbca0354c46af36"
+    },
+    {
+      "path": "thermal/frozen/network/pair_bank_eta16.npz",
+      "size_bytes": 18980998,
+      "sha256": "05881aa8cbb92e1d00838038e50487f0f94fea88c3d64d9b078f939bd4079d7b"
+    },
+    {
+      "path": "thermal/frozen/network/reaction_rates.py",
+      "size_bytes": 7423,
+      "sha256": "8d882509ffa9ee93c4c1b8cd80ac09e40c803f591c93d61c3cac81d9397ed0e2"
+    },
+    {
+      "path": "thermal/frozen/network/scalar_exchange_audit.json",
+      "size_bytes": 4171,
+      "sha256": "3a839b50c8dec91bddfbb3a760dd934aa28ac1a334b25f3f0c3e6641aeeaf013"
+    },
+    {
+      "path": "thermal/frozen/network/scalar_exchange_audit.py",
+      "size_bytes": 3867,
+      "sha256": "946e150e6867c9b01b4b990beee77182a27fa42f2add386c4631370c1a8d7ac1"
+    },
+    {
+      "path": "thermal/frozen/network/verify_network.py",
+      "size_bytes": 2577,
+      "sha256": "0da64ab4fed8778f223b1273214413e36aed7109b6a0e240b763bd30a21d61cd"
+    },
+    {
+      "path": "thermal/frozen/provenance.json",
+      "size_bytes": 4829,
+      "sha256": "b192e45cb979a6e351f49222ca25c18acd50da7b55b7cecdb9bf2ba82bd7a7fc"
+    },
+    {
+      "path": "thermal/frozen/reproduce_all.py",
+      "size_bytes": 4293,
+      "sha256": "e9852713ca4ffb8c48d12bc5b16c07acd529332760f15bcbf846e2bf47a4ee4b"
+    },
+    {
+      "path": "thermal/frozen/requirements.txt",
+      "size_bytes": 46,
+      "sha256": "815360a00e0e1d7a128cade3de11b66d3fe997cbd6e2c69f8081eb9bc8b88197"
+    },
+    {
+      "path": "thermal/frozen/results/convergence_summary.json",
+      "size_bytes": 15874,
+      "sha256": "3dcb85a5666db44723c5125bea849b929c45ae7e6c654c714ee8d217faffa9e0"
+    },
+    {
+      "path": "thermal/frozen/results/full_final.json",
+      "size_bytes": 198648,
+      "sha256": "881e055ccbabd9af2aeeb3aa8a4dbb299e302cac0f79d81f03b63a351a9aabd0"
+    },
+    {
+      "path": "thermal/frozen/review/THEORY_REVIEW.txt",
+      "size_bytes": 18037,
+      "sha256": "35b5e5e2a7f551ea9a4fa06af14a4c65dd5709e8650aa8cf705deb1afa6315b3"
+    },
+    {
+      "path": "thermal/frozen/review/reproduction_check.txt",
+      "size_bytes": 3692,
+      "sha256": "fcd9966ac971f030ce2d4996f76f5263def22bf271f386e64a14f994717c8b17"
+    },
+    {
+      "path": "thermal/frozen/review/verify_background.py",
+      "size_bytes": 2019,
+      "sha256": "cc4b119c9844891fb4632b4f00c77ca727bfcbb21c066a0d4154bb336bd836c7"
+    },
+    {
+      "path": "thermal/frozen/review/verify_banks.py",
+      "size_bytes": 1546,
+      "sha256": "4847f2de51061ea2ab9e8a2a326308f40a71275af984dbb67068af1262e09b1c"
+    },
+    {
+      "path": "thermal/frozen/solver/SCATTERING_METHOD.txt",
+      "size_bytes": 4950,
+      "sha256": "34779209acafca0d64a6e6d9a06fe390ae92bfa0dbd1bc969cff3e2c203d821a"
+    },
+    {
+      "path": "thermal/frozen/solver/analyze_scattering.py",
+      "size_bytes": 3998,
+      "sha256": "2d1256886bc4c17099421a4dd11f305af1f53390bc995676fe154657cb465d2b"
+    },
+    {
+      "path": "thermal/frozen/solver/bank_q40.json",
+      "size_bytes": 467,
+      "sha256": "4cdcfd7efded99a7991cb146cd4a9f06b312444859f7bcfc5694ae43764d7a0d"
+    },
+    {
+      "path": "thermal/frozen/solver/bank_q40.npz",
+      "size_bytes": 11092570,
+      "sha256": "64f35e6c803c20d73bf18c34923432dd4641f2f474eed10304fac67a52e1496e"
+    },
+    {
+      "path": "thermal/frozen/solver/bank_q48_eta16.json",
+      "size_bytes": 591,
+      "sha256": "15192d5a4f42b683228c708c41fc23a32758b8a1e7abc1a663d88b95c0436cc8"
+    },
+    {
+      "path": "thermal/frozen/solver/bank_q48_eta16.npz",
+      "size_bytes": 20051933,
+      "sha256": "01e1ab6219bdec9bae5fe2edbe622e1d937603d260d63ed59b12553d639413e4"
+    },
+    {
+      "path": "thermal/frozen/solver/expanding_free_bath.py",
+      "size_bytes": 15457,
+      "sha256": "03b17a0d726892a2540493145d4c3a964b655e8aded1b55f026bfa6330a96156"
+    },
+    {
+      "path": "thermal/frozen/source_reference/kinetic_moment_audit.py",
+      "size_bytes": 12596,
+      "sha256": "a184db6464cfba4dd2bba2720cf5ecd334b980f1fb7eced09df75aaecd6e5dd8"
+    },
+    {
+      "path": "thermal/frozen/source_reference/kinetic_moment_reference.py",
+      "size_bytes": 4002,
+      "sha256": "1afa547b5792a4595d37a22aabfe2a3643622467fc2b1e265ff8e0283121cbc9"
+    },
+    {
+      "path": "thermal/frozen/source_reference/leptonic_conversion_scattering.py",
+      "size_bytes": 14036,
+      "sha256": "e6a78ec48310e1e64bb0cfad158bbfaa6aeff9ef2712f7e4ed8a7af6662ac55d"
+    },
+    {
+      "path": "thermal/independent_measurement_review.py",
+      "size_bytes": 3567,
+      "sha256": "2c0971430215e3d0742de4987eafab25dcc71655949134ed451bcbdac798d6dc"
+    },
+    {
+      "path": "thermal/make_eos_report.py",
+      "size_bytes": 11987,
+      "sha256": "48593685bf899b0b6d685117ab860d80fd3c2ffde75037b4c839fb60145b797b"
+    },
+    {
+      "path": "thermal/make_report.py",
+      "size_bytes": 17846,
+      "sha256": "d49d29f36e61d12852c30e5fffef3f181895933080e2b353ff6ad4640fc70e8e"
+    },
+    {
+      "path": "thermal/provenance_verification.json",
+      "size_bytes": 41142,
+      "sha256": "3de3408279891bd754520a1d8600ac554532d38bdccbc9bdcd0c2d93038ac4ff"
+    },
+    {
+      "path": "thermal/restore_banks.py",
+      "size_bytes": 1172,
+      "sha256": "1228e72221eb02d7b464b7191b4d7f9bf81538a6760b3bfe10a75ba754831c6b"
+    },
+    {
+      "path": "thermal/results/grid96.json",
+      "size_bytes": 689333,
+      "sha256": "a67a2709fe088286608b113388086c19a3237378f6135333bfef7e88b59702b0"
+    },
+    {
+      "path": "thermal/results/independent_measurement_review.json",
+      "size_bytes": 37784,
+      "sha256": "5f8e5d163b1fe8cad026d6ba7f3f88f4b34790b2fcaccf3bbc1bd3349f65b63e"
+    },
+    {
+      "path": "thermal/results/independent_ode.json",
+      "size_bytes": 7694,
+      "sha256": "afd3bcf02eb3e64418d1dbe2e35218ff7a53d40b24af47241c5d270535ef864e"
+    },
+    {
+      "path": "thermal/results/initial_condition_scan.json",
+      "size_bytes": 690589,
+      "sha256": "6b3e132ef70afdfdb81a785f2745deebfda80a801f0a9f985071135d622b792e"
+    },
+    {
+      "path": "thermal/results/initial_final_cells.npz",
+      "size_bytes": 71872,
+      "sha256": "4300831cc32c08415aaa7a21de68569269b8b58fb1371dd416f2b6dcee1b15a1"
+    },
+    {
+      "path": "thermal/results/lean_package_validation.json",
+      "size_bytes": 691,
+      "sha256": "52b6f2393f4ec4ea1ecfb11f6d8485d4873926b09a1af71828fe3e0f0f2dd343"
+    },
+    {
+      "path": "thermal/results/no_pair_control.json",
+      "size_bytes": 459710,
+      "sha256": "72a76500ce0e317201a14eee0ee1744b6b756cf69610c645f2390ec335341979"
+    },
+    {
+      "path": "thermal/results/quadrature40_temperature8.json",
+      "size_bytes": 690577,
+      "sha256": "ad9bdad8405a7a0a09cb104ab6ef3acefe7af13eaa79614f738ef6f2860bbda6"
+    },
+    {
+      "path": "thermal/results/reproduced_baseline.json",
+      "size_bytes": 198648,
+      "sha256": "881e055ccbabd9af2aeeb3aa8a4dbb299e302cac0f79d81f03b63a351a9aabd0"
+    },
+    {
+      "path": "thermal/results/review_summary.json",
+      "size_bytes": 2798,
+      "sha256": "1e47d2fc200cfbe48032fb26211463bfc0bceedd00962da44bda6aa8e6d51e0e"
+    },
+    {
+      "path": "thermal/results/run_metadata.json",
+      "size_bytes": 1102,
+      "sha256": "f763f6cd4e48bbd40e6b5d7b61e457a7fe9e7254c5bbe826e14d1f300288b9a9"
+    },
+    {
+      "path": "thermal/results/scan_summary.csv",
+      "size_bytes": 2701,
+      "sha256": "c6ec614208631470df3f74d6b7e5ca64d44b5346756ee7404e6534a6fb577bd4"
+    },
+    {
+      "path": "thermal/results/scan_summary.json",
+      "size_bytes": 6999,
+      "sha256": "eee0fb44418893b3cd72467568fecf2d40d05583a13d1e45b1eec7887714767d"
+    },
+    {
+      "path": "thermal/results/step384.json",
+      "size_bytes": 1299019,
+      "sha256": "b8fe52ea9dc1373197dad323f0ca5fa687da7d178d668a82d7e938ffcbe546af"
+    },
+    {
+      "path": "thermal/results/temperature8.json",
+      "size_bytes": 690532,
+      "sha256": "4e8407744504f04b86faa50c1ff447d77fc1e1b08ce0e465a65fb9ee9e9b83a1"
+    },
+    {
+      "path": "thermal/results/thermal_initial_condition_sensitivity.png",
+      "size_bytes": 269168,
+      "sha256": "7c9d80a1bf1e46e84b330bb09fd1295d2f44aa79de48854f0704de557b86883c"
+    },
+    {
+      "path": "thermal/results/thermal_initial_condition_sensitivity.svg",
+      "size_bytes": 143113,
+      "sha256": "2c669a95f543a2eb6c6eb7f629121c218e7cd6622ff3a5f193f933363fb0ae43"
+    },
+    {
+      "path": "thermal/results/validation.json",
+      "size_bytes": 57861,
+      "sha256": "d451c5120faea08b8fecc68497e4d6d9ede8fb881870f2837a892562e524c18a"
+    },
+    {
+      "path": "thermal/run.log",
+      "size_bytes": 7154,
+      "sha256": "0456eb07fa08a6e43ade5f291e01bd70b84897871f9a36848db8a027a45df64c"
+    },
+    {
+      "path": "thermal/run_continuation.py",
+      "size_bytes": 15924,
+      "sha256": "9ea85a709b231256cabf900ca075adc0b45b6ec0c78f1739dcbe95e37070b0eb"
+    },
+    {
+      "path": "thermal/source_provenance.json",
+      "size_bytes": 41142,
+      "sha256": "3de3408279891bd754520a1d8600ac554532d38bdccbc9bdcd0c2d93038ac4ff"
+    },
+    {
+      "path": "thermal/verify_provenance.py",
+      "size_bytes": 2962,
+      "sha256": "e5dea3f8363fea94a08583b88d323e2643a519e7a05342ae11b351887ea8610e"
+    },
+    {
+      "path": "uv/COMMON_INTERFACE_REVIEW.md",
+      "size_bytes": 4807,
+      "sha256": "a4db23429e6b282e2e4a987ffdd829e2abb11e39d6617e5e4fd4aababb09d767"
+    },
+    {
+      "path": "uv/UV_CONTINUATION_NOTE.md",
+      "size_bytes": 21070,
+      "sha256": "a185716f3d35f7cfe2e6dc6e138b0135182798541669e7e7174450921a190868"
+    },
+    {
+      "path": "uv/continuation_validation.log",
+      "size_bytes": 599,
+      "sha256": "f3d3b61e4df74d2c0e6cd3ed253813cd523b37523e42705df901fd8f16522b0b"
+    },
+    {
+      "path": "uv/continue_uv.py",
+      "size_bytes": 25723,
+      "sha256": "4aa6391ca9efa77a7780fcdc4514d4bcbe4ce74b42f3d3f0b24656c61c59d0e1"
+    },
+    {
+      "path": "uv/nonlinear_flows.csv",
+      "size_bytes": 2147,
+      "sha256": "dbabf0fb13dadbfe632656dba49703bafe740713914f28dbfea79adc2d1c745e"
+    },
+    {
+      "path": "uv/projection_contract.json",
+      "size_bytes": 3649,
+      "sha256": "2917291fdc083ffbbd5da3e6d822aaf55c8717ae55caa23dfd25a0111aff07ff"
+    },
+    {
+      "path": "uv/provenance.json",
+      "size_bytes": 14323,
+      "sha256": "5b2b51dae5fca68a622c15c35bfc4ba72756416817a2266ab4d29409f57be567"
+    },
+    {
+      "path": "uv/results.json",
+      "size_bytes": 22350,
+      "sha256": "14d821766c8fd84fccb1f0d0bf7c2fd90ca7d457728f7058092ff7f410fdb303"
+    },
+    {
+      "path": "uv/scalar_polynomial_projection.py",
+      "size_bytes": 6075,
+      "sha256": "c1483d80f7b8387846a7a5e812a5d71eacd288605618b738f0b3e53475d93e02"
+    },
+    {
+      "path": "uv/upstream/DECLARED_TRUNCATION_V0_1.md",
+      "size_bytes": 8160,
+      "sha256": "eb09c987ed7f64ac5a3e131759b7974857a1694cc51120731bebdf280397e81d"
+    },
+    {
+      "path": "uv/upstream/FETCH_PROVENANCE.json",
+      "size_bytes": 7480,
+      "sha256": "49ef75009375f167332e592ade3c33bb173057b93e766f8ac14d54b0cd213042"
+    },
+    {
+      "path": "uv/upstream/FRG_PROJECTION_PROTOCOL_V0_1.md",
+      "size_bytes": 2102,
+      "sha256": "13f9e0c856e6943251d82f399e6da0d99241757e44fdc5e9f01c1c961c4254fe"
+    },
+    {
+      "path": "uv/upstream/GRAVITY_IMPLEMENTATION_NOTES.md",
+      "size_bytes": 1382,
+      "sha256": "8b60e244ddb172f056477bcc88709d500f5e036a7aa3b5c51d4171ca071f5611"
+    },
+    {
+      "path": "uv/upstream/LICENSE",
+      "size_bytes": 18658,
+      "sha256": "f5b745ef98087f531e719ee8ca6a96809444573ecc7173c6fa68eaad39b3cc3f"
+    },
+    {
+      "path": "uv/upstream/README.md",
+      "size_bytes": 7462,
+      "sha256": "9a9eb47b6dafe3e6050a80893f4e9b4e01a31c5416efb63b2d4f1a57cee267ac"
+    },
+    {
+      "path": "uv/upstream/Reproducibility_and_Reconstruction_Update_2026-08-12.md",
+      "size_bytes": 9424,
+      "sha256": "47cd068298f663bb395b1f25a27585bc068ea2a5db9bead8af9e9f778d0e629b"
+    },
+    {
+      "path": "uv/upstream/SOURCE_AUDIT.md",
+      "size_bytes": 1196,
+      "sha256": "55a2f5901e0aa578c0c0f55ca028f2f402b3806fd5e26da2a035c216974e0b94"
+    },
+    {
+      "path": "uv/upstream/canonical_scaling.py",
+      "size_bytes": 855,
+      "sha256": "20771a2efc05631c8b8162736d0df20a45b15c8fec517e94b65710939a53884a"
+    },
+    {
+      "path": "uv/upstream/derive_higgs_two_singlet_core.py",
+      "size_bytes": 532,
+      "sha256": "741bde474e04c2e470c9716170d65794bbc5082f61827891dfded28d4363ea85"
+    },
+    {
+      "path": "uv/upstream/derive_scalar_core.py",
+      "size_bytes": 692,
+      "sha256": "50375aefcb281a0e8f1378b7616bf00ee6e81239c6a517d48a28812c35498d08"
+    },
+    {
+      "path": "uv/upstream/derive_sm_gauge_core.py",
+      "size_bytes": 509,
+      "sha256": "6d5732ed2266684bd11aba636d17ba746e7a8163d24cb9549d40fa3cda53c291"
+    },
+    {
+      "path": "uv/upstream/einstein_hilbert_litim_benchmark.py",
+      "size_bytes": 1960,
+      "sha256": "b7ff0a78e6ab06a939c00fa0577834b37f195126cd68123beb61b505a09d84ef"
+    },
+    {
+      "path": "uv/upstream/gravity_frg.py",
+      "size_bytes": 4624,
+      "sha256": "2da078731a192336a14bf75c5d012bfb4d35b3532b04e14f29cb93d60e96bd6b"
+    },
+    {
+      "path": "uv/upstream/gravity_matter_coupling.py",
+      "size_bytes": 14473,
+      "sha256": "d4cea74d7f5995c1c01d29a4522859953408a091a808f8bdd3687ad08a26d5b8"
+    },
+    {
+      "path": "uv/upstream/higgs_two_singlet_core.py",
+      "size_bytes": 2601,
+      "sha256": "744c726fe042f2a8b232cd85fbf50510eb33d6958584c50075f616d512c35c29"
+    },
+    {
+      "path": "uv/upstream/joint_fixed_point_stability.py",
+      "size_bytes": 5080,
+      "sha256": "364473c75b144488779d8f32006c6c053321d801c6388636e7b74daa32fc6b08"
+    },
+    {
+      "path": "uv/upstream/lithium_thresholds.py",
+      "size_bytes": 3964,
+      "sha256": "1e21fb9043acff4a28e14b62bab22a111cb23adad7bb5535dedf6af74b964402"
+    },
+    {
+      "path": "uv/upstream/model.py",
+      "size_bytes": 2090,
+      "sha256": "4a414dec0ee4aec5a213f00fdd76761d071e6fed103a56415538a4f6e0b5cfc9"
+    },
+    {
+      "path": "uv/upstream/partial_flow_41.py",
+      "size_bytes": 8379,
+      "sha256": "42c95f946aea9b55e3bf74290732af669a8abb5f96aa59200fd9ec6450b8c28a"
+    },
+    {
+      "path": "uv/upstream/perturbative_matter_baseline.py",
+      "size_bytes": 2133,
+      "sha256": "0098695158e4c7d555f4cf3ace2fc40f59209c559745699c154b1e20be5e11b5"
+    },
+    {
+      "path": "uv/upstream/r2_gravity_cpr.py",
+      "size_bytes": 6612,
+      "sha256": "7a8f687dd0e6abf5a6013f698f37832eb0df24e6e0144dc4a262b09bd98d8df5"
+    },
+    {
+      "path": "uv/upstream/run_einstein_hilbert_benchmark.py",
+      "size_bytes": 550,
+      "sha256": "932747eb5722c8b0b0ee87cf3254bf9a87fd6331f217129c23c8ab184dc0424f"
+    },
+    {
+      "path": "uv/upstream/run_matter_baseline.py",
+      "size_bytes": 504,
+      "sha256": "1c34dd68249bcf0a29142149da3a241310607f487ceb918fdbcfb80d73981167"
+    },
+    {
+      "path": "uv/upstream/scalar_core.py",
+      "size_bytes": 1745,
+      "sha256": "085abef40dfc56bfa8a21b657e5ca86a5ccf509c4680268e580cb4a486a2f17f"
+    },
+    {
+      "path": "uv/upstream/scalar_frg_lpa.py",
+      "size_bytes": 3652,
+      "sha256": "bfccedb6537da416fd2b88fa3d6a9221dbbab1458ed697684268dcaebd128bf7"
+    },
+    {
+      "path": "uv/upstream/scalar_tensor_nonminimal_np.py",
+      "size_bytes": 9573,
+      "sha256": "201e2f0e2090fa80b44c1fc1054fe9ded33b2baf08c686b238e0e17b6c9abb96"
+    },
+    {
+      "path": "uv/upstream/sextic_lpa.py",
+      "size_bytes": 7253,
+      "sha256": "7bb1c86087c950f1c974f9791b56ae05daefdacf6b8821e8b81bdcffa8c1acc2"
+    },
+    {
+      "path": "uv/upstream/sm_gauge_core.py",
+      "size_bytes": 1377,
+      "sha256": "382f6852d16d57b369d4bf94f3a68e00b6eba4e46d9bdbcd4e13f1c118663dd8"
+    },
+    {
+      "path": "uv/upstream/solve.py",
+      "size_bytes": 1866,
+      "sha256": "b59a02eea8f9bf27da4be323ae709f6933ef03a125319c13f8efa67b0a3531bd"
+    },
+    {
+      "path": "uv/upstream/tests/test_reconstruction.py",
+      "size_bytes": 28364,
+      "sha256": "f39372d0a7e620b180ce80707692ae8f289abe0b89601002a2159401437dc62d"
+    }
+  ]
+}

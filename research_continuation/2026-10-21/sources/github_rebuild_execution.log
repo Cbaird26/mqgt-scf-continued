@@ -1,0 +1,563 @@
+
+RUN reproduce.py --rerun --include-thermal
+Running common portal contract: common/portal_interface.py
+{
+  "scope": "Tree-level algebra and basis consistency; no vacuum, relic, detector, or UV certification",
+  "units": "GeV, hbar=c=1",
+  "benchmark_mass_GeV": [
+    10.0,
+    11.5
+  ],
+  "benchmark_portal_matrix_mass_basis": [
+    [
+      0.001,
+      -0.001
+    ],
+    [
+      -0.001,
+      0.001
+    ]
+  ],
+  "tree_widths_GeV": {
+    "11": 4.753669541749432e-06,
+    "12": 9.487199837761945e-06,
+    "22": 4.733488003188464e-06,
+    "total_production": 1.897435738269984e-05
+  },
+  "total_production_width_keV": 18.974357382699843,
+  "hypothetical_fraction_if_every_daughter_invisible_and_SM_width_4p1_MeV": 0.004606573320538132,
+  "bare_mass_squared_matrix_GeV2": [
+    [
+      69.742,
+      30.258
+    ],
+    [
+      30.258,
+      101.992
+    ]
+  ],
+  "bare_mass_squared_eigenvalues_GeV2": [
+    51.58052760927424,
+    120.15347239072577
+  ],
+  "bare_eigenvalue_caveat": "A positive quadratic Hessian does not establish global stability; quartics are unspecified.",
+  "trace_K_squared": 4e-06,
+  "max_relative_total_width_basis_error": 8.881784197001252e-16,
+  "max_absolute_matching_covariance_error_GeV_inverse": 9.926167350636332e-24,
+  "checks": {
+    "production_basis_invariance": true,
+    "matching_basis_covariance": true,
+    "degenerate_trace_identity": true,
+    "closed_channels_zero": true,
+    "exact_threshold_zero": true,
+    "distinct_channel_factor_two": true,
+    "collider_to_noise_coefficient_identity": true
+  },
+  "check_count": 7
+}
+Running count-level measurement diagnostic: measurement/poisson_visibility.py
+{
+  "analysis": "Independent count-level sinusoidal Poisson diagnostic and structural attenuation-identifiability analysis",
+  "dataset": "Pedalino et al., Na-Cluster-Interference, Zenodo 17502163, April 22 2025 scans",
+  "dataset_url": "https://zenodo.org/records/17502163",
+  "data_status": "Real public experimental counts; this reanalysis is not a new experiment",
+  "statistical_model": "Independent Poisson counts with a separate offset, cosine coefficient and sine coefficient for every scan; fixed 133 nm period",
+  "n_scans": 95,
+  "n_bins": 3895,
+  "total_counts": 10772714,
+  "total_residual_dof": 3610,
+  "joint_deviance": 12413.381080501358,
+  "joint_pearson_dispersion": 3.4393776194782517,
+  "per_scan_dispersion_min_median_max": [
+    1.6817229181192805,
+    3.368319334968444,
+    8.142088054970332
+  ],
+  "scans_with_dispersion_gt_2": 92,
+  "max_abs_poisson_minus_LS_visibility": 0.000721960459000727,
+  "median_abs_poisson_minus_LS_visibility": 5.0114364054595906e-05,
+  "fisher_errors_status": "Conditional independent-Poisson Fisher errors only; residual dispersion must be modeled before coverage or a physics exclusion is claimed",
+  "extended_model_diagnostics": {
+    "second_harmonic_joint_dispersion": 3.4449788492484585,
+    "second_harmonic_and_order_trend_joint_dispersion": 3.4011204186595587,
+    "second_harmonic_joint_deviance": 11776.683894873906,
+    "second_harmonic_and_order_trend_joint_deviance": 11307.019477751333,
+    "interpretation": "An omitted harmonic or scan-order variation can contribute to residuals. These extensions diagnose model dependence, not a new noise mechanism; no multiple-testing discovery or calibrated exclusion is claimed."
+  },
+  "identifiability": {
+    "equation": "V_observed(P)=A V_Q(P) exp(-chi) for power-independent chi",
+    "invariance": "log A -> log A + delta; chi -> chi + delta",
+    "jacobian": "dmu/d(log A) = - dmu/dchi; the two-column Fisher block is rank one where contrast is nonzero",
+    "scope": "Exact only for multiplicative attenuation common to the scan variable; a distinguishable predicted shape with calibrated nuisance parameters can break it",
+    "data_ridge_chi_range": [
+      0.0,
+      0.4
+    ],
+    "max_ridge_expected_count_difference": 1.3642420526593924e-12,
+    "max_abs_ridge_delta_deviance": 3.092281986027956e-11,
+    "physical_bounds": "A<=1 can truncate a ridge if the baseline is known; it does not identify a unique attenuation or its mechanism",
+    "new_field_constraint": null
+  },
+  "checks": {
+    "95_scans_3895_bins": true,
+    "all_optimized_means_positive": true,
+    "all_contrasts_interior": true,
+    "stationarity_newton_decrement": true,
+    "ridge_means_unchanged": true,
+    "ridge_instrument_contrast_below_one": true,
+    "original_archive_md5": true
+  }
+}
+Running spectral-profile continuation: electromagnetic/spectral_profile_analysis.py
+{
+  "checks_passed": 38,
+  "scan_summary": {
+    "points": 1001,
+    "endpoint_gauge_span_percent": 0.12797650687661477,
+    "endpoint_ratio_span_percent": 0.347826337281254,
+    "min_sampled_potential_curvature": 15.930814835918937,
+    "min_sampled_dlog_ratio_dt": 0.0006707859299001645,
+    "max_sampled_dlog_ratio_dt": 0.0006749204308287808,
+    "center_derivatives": {
+      "radius": 1.3019964868137548,
+      "cosmological_subtraction": 48.39842985199463,
+      "potential_curvature": 16.033067871738936,
+      "ZY_over_kappa": 0.24540679379481728,
+      "M4r_over_sqrt_kappa": 0.6854122492446918,
+      "M4r_squared_over_kappa": 0.46978995141466756,
+      "normalization_free_ratio": 0.5223755703071756,
+      "stationarity_residual": 2.842170943040401e-14,
+      "min_weight": 0.2,
+      "dR_dt": -0.00012094352788373593,
+      "dZY_over_kappa_dt": 6.0877989153701635e-05,
+      "dlog_ratio_dt": 0.0006723809893880446,
+      "dt_per_unit_fractional_ratio_change": 1487.252042789211,
+      "log_observable_jacobian_determinant": -0.0006723809893880446
+    },
+    "monotonicity_scope": "Numerical on the sampled tracked branch, not interval-certified global uniqueness."
+  },
+  "six_node_counterexample": {
+    "nodes": "a_j=(5269/8220) j, j=1,...,6",
+    "weights": "b_j+t*v_j/7680; b=(1/5,1/5,1/5,1/5,1/5,0)",
+    "v": [
+      -1,
+      40,
+      -270,
+      640,
+      -625,
+      216
+    ],
+    "t_pair": [
+      1,
+      2
+    ],
+    "strict_positive_weight_interval": [
+      "0",
+      "1536/625"
+    ],
+    "constraints": "f(0), m1, m2, m3, f_prime(0)",
+    "matches_original_five_node_center_data": true,
+    "exact_leading_data": [
+      "1",
+      "18769/26345",
+      "18769/26345",
+      "658531217359/731399400545"
+    ],
+    "first_derivative": "-5269/2740",
+    "second_derivative_slope": "27762361/4324377600",
+    "extra_second_derivative_rank": 6,
+    "rank": 5,
+    "nullity": 1,
+    "gauge_difference": 1.3504557358712255e-05,
+    "gauge_relative_difference_percent": 0.00550262513174804,
+    "ratio_relative_difference_percent": -0.027812197743348754
+  }
+}
+Running UV continuation: uv/continue_uv.py
+{
+  "status": "new bounded calculations complete; common coupled UV completion remains open",
+  "validation_checks": 5,
+  "spectrum_counts": {
+    "positive_real_part": 8,
+    "zero_within_tolerance": 12,
+    "negative_real_part": 13
+  },
+  "mass_exponents": [
+    2.0,
+    2.0,
+    2.0
+  ],
+  "xi_exponents": [
+    2.855435254039311,
+    2.855435254039311,
+    2.855435254039311
+  ],
+  "six_scalar_DEP_coordinates": {
+    "Lambda_tilde": -2.6261976694855385,
+    "gN_equals_G_tilde": 1.9858609514402776,
+    "lambdaN_equals_2Lambda_tilde": -5.252395338971077
+  },
+  "common_flow_accepted": false
+}
+Running synthetic causal memory: agency/synthetic_causal_memory.py
+{
+  "protocol_sha256": "77061f72bdc30a11f29123166ded858336c358e84f8ac19b096afac17e897155",
+  "algorithm_checks_passed": 21,
+  "effects": [
+    {
+      "source": "markov_stay_0_8",
+      "effects": {
+        "reset": {
+          "brier": {
+            "mean_paired_loss_increase": 0.09194489893540272,
+            "ci95_low": 0.0887336103954035,
+            "ci95_high": 0.09511688736193684,
+            "bootstrap_standard_error": 0.0016136321494597198,
+            "independent_trial_pair_clusters": 200
+          },
+          "log": {
+            "mean_paired_loss_increase": 0.19713879779968793,
+            "ci95_low": 0.18974285807875882,
+            "ci95_high": 0.20440355519384884,
+            "bootstrap_standard_error": 0.0037198532601407834,
+            "independent_trial_pair_clusters": 200
+          }
+        },
+        "cross_trial_swap": {
+          "brier": {
+            "mean_paired_loss_increase": 0.18150622827530724,
+            "ci95_low": 0.17342371154644545,
+            "ci95_high": 0.18973007224754945,
+            "bootstrap_standard_error": 0.0041099194399646785,
+            "independent_trial_pair_clusters": 200
+          },
+          "log": {
+            "mean_paired_loss_increase": 0.4189083692163163,
+            "ci95_low": 0.40025427709934774,
+            "ci95_high": 0.43788863837752656,
+            "bootstrap_standard_error": 0.009485512792401861,
+            "independent_trial_pair_clusters": 200
+          }
+        },
+        "state_relabel": {
+          "brier": {
+            "mean_paired_loss_increase": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "bootstrap_standard_error": 0.0,
+            "independent_trial_pair_clusters": 200
+          },
+          "log": {
+            "mean_paired_loss_increase": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "bootstrap_standard_error": 0.0,
+            "independent_trial_pair_clusters": 200
+          }
+        }
+      },
+      "interpretation_checks": {
+        "prespecified_primary_positive_control_passed": true,
+        "secondary_log_loss_corroborates": true
+      }
+    },
+    {
+      "source": "iid_stay_0_5",
+      "effects": {
+        "reset": {
+          "brier": {
+            "mean_paired_loss_increase": 6.352081879476557e-08,
+            "ci95_low": -3.841139829784137e-06,
+            "ci95_high": 3.952596933761567e-06,
+            "bootstrap_standard_error": 2.010199504459384e-06,
+            "independent_trial_pair_clusters": 200
+          },
+          "log": {
+            "mean_paired_loss_increase": 1.2704675560720745e-07,
+            "ci95_low": -7.682326992946235e-06,
+            "ci95_high": 7.90524683203095e-06,
+            "bootstrap_standard_error": 4.02042527155263e-06,
+            "independent_trial_pair_clusters": 200
+          }
+        },
+        "cross_trial_swap": {
+          "brier": {
+            "mean_paired_loss_increase": -3.861738698342915e-07,
+            "ci95_low": -5.937423248777194e-06,
+            "ci95_high": 5.454705911488041e-06,
+            "bootstrap_standard_error": 2.9460248273347023e-06,
+            "independent_trial_pair_clusters": 200
+          },
+          "log": {
+            "mean_paired_loss_increase": -7.723526569627937e-07,
+            "ci95_low": -1.187492210075248e-05,
+            "ci95_high": 1.0909481279540348e-05,
+            "bootstrap_standard_error": 5.892087167379664e-06,
+            "independent_trial_pair_clusters": 200
+          }
+        },
+        "state_relabel": {
+          "brier": {
+            "mean_paired_loss_increase": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "bootstrap_standard_error": 0.0,
+            "independent_trial_pair_clusters": 200
+          },
+          "log": {
+            "mean_paired_loss_increase": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "bootstrap_standard_error": 0.0,
+            "independent_trial_pair_clusters": 200
+          }
+        }
+      },
+      "interpretation_checks": {
+        "prespecified_negative_control_brier_equivalence_passed": true,
+        "prespecified_negative_control_log_equivalence_passed": true
+      }
+    }
+  ]
+}
+Running restore pinned collision banks: thermal/restore_banks.py
+Verified network/pair_bank.npz: 10545379 bytes
+Verified network/pair_bank_eta16.npz: 18980998 bytes
+Verified solver/bank_q40.npz: 11092570 bytes
+Verified solver/bank_q48_eta16.npz: 20051933 bytes
+Running thermal initial-state continuation: thermal/run_continuation.py
+Frozen baseline max endpoint difference: 5.773159728050814e-15
+Main scan complete
+Step, momentum, temperature and quadrature refinements complete
+[
+  {
+    "case": "z_1e-06",
+    "initial_abundance_z": 1e-06,
+    "initial_kinetic_temperature_ratio": 1.0,
+    "initial_heavy_fraction": 0.05721459861191629,
+    "final_number_over_equilibrium_reference": 3.5630154192180294e-06,
+    "final_number_over_actual_initial": 3.5630154192180297,
+    "fractional_number_change": 2.5630154192180297,
+    "final_Tkin_over_T": 0.7528496285659384,
+    "final_heavy_fraction": 0.03642755949899699,
+    "final_shape_TV": 0.13988209438908555,
+    "final_yield": 1.841785383156871e-15,
+    "max_rho_scalar_over_radiation": 7.69337538893329e-14
+  },
+  {
+    "case": "z_0.0001",
+    "initial_abundance_z": 0.0001,
+    "initial_kinetic_temperature_ratio": 1.0,
+    "initial_heavy_fraction": 0.05721459861191629,
+    "final_number_over_equilibrium_reference": 0.00010256301506219306,
+    "final_number_over_actual_initial": 1.0256301506219305,
+    "fractional_number_change": 0.025630150621930525,
+    "final_Tkin_over_T": 0.7503606981395388,
+    "final_heavy_fraction": 0.03662509325567235,
+    "final_shape_TV": 0.14150339067492596,
+    "final_yield": 5.301662770673684e-14,
+    "max_rho_scalar_over_radiation": 2.2143567344034857e-12
+  },
+  {
+    "case": "z_0.01",
+    "initial_abundance_z": 0.01,
+    "initial_kinetic_temperature_ratio": 1.0,
+    "initial_heavy_fraction": 0.057214598611916294,
+    "final_number_over_equilibrium_reference": 0.01000255960381807,
+    "final_number_over_actual_initial": 1.0002559603818069,
+    "fractional_number_change": 0.0002559603818068634,
+    "final_Tkin_over_T": 0.750272041940871,
+    "final_heavy_fraction": 0.03663212918804472,
+    "final_shape_TV": 0.1415611415876648,
+    "final_yield": 5.170499115187854e-12,
+    "max_rho_scalar_over_radiation": 2.1595658191680546e-10
+  },
+  {
+    "case": "z_0.1",
+    "initial_abundance_z": 0.1,
+    "initial_kinetic_temperature_ratio": 1.0,
+    "initial_heavy_fraction": 0.0572145986119163,
+    "final_number_over_equilibrium_reference": 0.10000222200234118,
+    "final_number_over_actual_initial": 1.0000222200234117,
+    "fractional_number_change": 2.2220023411678724e-05,
+    "final_Tkin_over_T": 0.7502712339903563,
+    "final_heavy_fraction": 0.03663219095127079,
+    "final_shape_TV": 0.14156166802867293,
+    "final_yield": 5.1692908701344543e-11,
+    "max_rho_scalar_over_radiation": 2.1590611014680534e-09
+  },
+  {
+    "case": "z_1",
+    "initial_abundance_z": 1.0,
+    "initial_kinetic_temperature_ratio": 1.0,
+    "initial_heavy_fraction": 0.05721459861191631,
+    "final_number_over_equilibrium_reference": 0.9999684642143863,
+    "final_number_over_actual_initial": 0.9999684642143863,
+    "fractional_number_change": -3.1535785613656664e-05,
+    "final_Tkin_over_T": 0.7502713380032886,
+    "final_heavy_fraction": 0.036632159099828525,
+    "final_shape_TV": 0.14156160167199583,
+    "final_yield": 5.169012996895992e-10,
+    "max_rho_scalar_over_radiation": 2.1589450434874166e-08
+  },
+  {
+    "case": "z_10",
+    "initial_abundance_z": 10.0,
+    "initial_kinetic_temperature_ratio": 1.0,
+    "initial_heavy_fraction": 0.05721459861191631,
+    "final_number_over_equilibrium_reference": 9.996593743857982,
+    "final_number_over_actual_initial": 0.9996593743857982,
+    "fractional_number_change": -0.00034062561420178383,
+    "final_Tkin_over_T": 0.7502731963819594,
+    "final_heavy_fraction": 0.0366317756990227,
+    "final_shape_TV": 0.14156040509153445,
+    "final_yield": 5.1674152571688345e-09,
+    "max_rho_scalar_over_radiation": 2.1582777989681115e-07
+  },
+  {
+    "case": "z_100",
+    "initial_abundance_z": 100.0,
+    "initial_kinetic_temperature_ratio": 1.0,
+    "initial_heavy_fraction": 0.057214598611916294,
+    "final_number_over_equilibrium_reference": 99.66016361687684,
+    "final_number_over_actual_initial": 0.9966016361687684,
+    "fractional_number_change": -0.003398363831231599,
+    "final_Tkin_over_T": 0.750291830866507,
+    "final_heavy_fraction": 0.0366279430445291,
+    "final_shape_TV": 0.14154840588743692,
+    "final_yield": 5.1516092701296825e-08,
+    "max_rho_scalar_over_radiation": 2.151676949893449e-06
+  },
+  {
+    "case": "z_10000",
+    "initial_abundance_z": 10000.0,
+    "initial_kinetic_temperature_ratio": 1.0,
+    "initial_heavy_fraction": 0.05721459861191629,
+    "final_number_over_equilibrium_reference": 7457.255966678049,
+    "final_number_over_actual_initial": 0.7457255966678049,
+    "fractional_number_change": -0.2542744033321951,
+    "final_Tkin_over_T": 0.7520581013105389,
+    "final_heavy_fraction": 0.03627648799157497,
+    "final_shape_TV": 0.140409908996998,
+    "final_yield": 3.854786865026063e-06,
+    "max_rho_scalar_over_radiation": 0.0001610094928230665
+  },
+  {
+    "case": "kinetic_0.75",
+    "initial_abundance_z": 1.0,
+    "initial_kinetic_temperature_ratio": 0.75,
+    "initial_heavy_fraction": 0.057214598611916315,
+    "final_number_over_equilibrium_reference": 0.9999682521010678,
+    "final_number_over_actual_initial": 0.9999682521010678,
+    "fractional_number_change": -3.174789893223284e-05,
+    "final_Tkin_over_T": 0.6281802073522755,
+    "final_heavy_fraction": 0.03389583520192616,
+    "final_shape_TV": 0.2275976757930014,
+    "final_yield": 5.169011900444914e-10,
+    "max_rho_scalar_over_radiation": 2.1448139651586404e-08
+  },
+  {
+    "case": "kinetic_1.25",
+    "initial_abundance_z": 1.0,
+    "initial_kinetic_temperature_ratio": 1.25,
+    "initial_heavy_fraction": 0.057214598611916294,
+    "final_number_over_equilibrium_reference": 0.9999686652532667,
+    "final_number_over_actual_initial": 0.9999686652532667,
+    "fractional_number_change": -3.1334746733335805e-05,
+    "final_Tkin_over_T": 0.8707563142621249,
+    "final_heavy_fraction": 0.03947384270082963,
+    "final_shape_TV": 0.07016775962018366,
+    "final_yield": 5.169014036101349e-10,
+    "max_rho_scalar_over_radiation": 2.1730791902762915e-08
+  },
+  {
+    "case": "heavy_0",
+    "initial_abundance_z": 1.0,
+    "initial_kinetic_temperature_ratio": 1.0,
+    "initial_heavy_fraction": 0.0,
+    "final_number_over_equilibrium_reference": 0.9999685415950099,
+    "final_number_over_actual_initial": 0.9999685415950099,
+    "fractional_number_change": -3.1458404990081235e-05,
+    "final_Tkin_over_T": 0.7378238651505354,
+    "final_heavy_fraction": 0.023201039712458113,
+    "final_shape_TV": 0.14918807067511108,
+    "final_yield": 5.169013396890054e-10,
+    "max_rho_scalar_over_radiation": 2.1534164208830254e-08
+  },
+  {
+    "case": "heavy_0.25",
+    "initial_abundance_z": 1.0,
+    "initial_kinetic_temperature_ratio": 1.0,
+    "initial_heavy_fraction": 0.24999999999999994,
+    "final_number_over_equilibrium_reference": 0.999968209609011,
+    "final_number_over_actual_initial": 0.999968209609011,
+    "fractional_number_change": -3.179039098899494e-05,
+    "final_Tkin_over_T": 0.7922132820445311,
+    "final_heavy_fraction": 0.08188851608403981,
+    "final_shape_TV": 0.11586410153265983,
+    "final_yield": 5.169011680795993e-10,
+    "max_rho_scalar_over_radiation": 2.177573826673622e-08
+  }
+]
+Elapsed 31.774252512000004
+Running thermal table and figure: thermal/make_report.py
+Saved scientific note, review summary and PNG/SVG figures.
+Running equation-of-state sensitivity: thermal/eos_sensitivity.py
+constant60 standard {'Tkin_over_T': 0.7502713380032878, 'heavy_fraction': 0.036632159099828525, 'comoving_number_over_actual_initial': 0.9999684642143863, 'scale_factor': 1.5}
+constant60 collisionless {'Tkin_over_T': 0.70915034726954, 'heavy_fraction': 0.05721459861191631, 'comoving_number_over_actual_initial': 1.0, 'scale_factor': 1.5}
+qcd_leptons_photon standard {'Tkin_over_T': 0.7222007196866383, 'heavy_fraction': 0.03470920477979237, 'comoving_number_over_actual_initial': 0.9999655241953515, 'scale_factor': np.float64(1.5420276201059797)}
+qcd_leptons_photon time384 {'Tkin_over_T': 0.7222013866685277, 'heavy_fraction': 0.0347092964417753, 'comoving_number_over_actual_initial': 0.999965524781082, 'scale_factor': np.float64(1.5420276201059797)}
+qcd_leptons_photon grid96 {'Tkin_over_T': 0.7227759577790117, 'heavy_fraction': 0.03470960182951877, 'comoving_number_over_actual_initial': 0.9999655245132602, 'scale_factor': np.float64(1.5420276201059797)}
+qcd_leptons_photon collisionless {'Tkin_over_T': 0.6733539512254849, 'heavy_fraction': 0.0572145986119163, 'comoving_number_over_actual_initial': 1.0, 'scale_factor': np.float64(1.5420276201059797)}
+qcd_leptons_photon collisionless96 {'Tkin_over_T': 0.6740062143055028, 'heavy_fraction': 0.057214598611916315, 'comoving_number_over_actual_initial': 0.9999999999999999, 'scale_factor': np.float64(1.5420276201059797)}
+qcd_leptons_photon_ideal_cb standard {'Tkin_over_T': 0.7056736981581886, 'heavy_fraction': 0.03466906747706896, 'comoving_number_over_actual_initial': 0.9999665611821056, 'scale_factor': np.float64(1.5648585027013522)}
+qcd_leptons_photon_ideal_cb time384 {'Tkin_over_T': 0.70567516025261, 'heavy_fraction': 0.034669164320106194, 'comoving_number_over_actual_initial': 0.9999665617542863, 'scale_factor': np.float64(1.5648585027013522)}
+qcd_leptons_photon_ideal_cb grid96 {'Tkin_over_T': 0.7064161627705957, 'heavy_fraction': 0.03467007880834361, 'comoving_number_over_actual_initial': 0.9999665615657974, 'scale_factor': np.float64(1.5648585027013522)}
+qcd_leptons_photon_ideal_cb collisionless {'Tkin_over_T': 0.6550384784545755, 'heavy_fraction': 0.0572145986119163, 'comoving_number_over_actual_initial': 1.0, 'scale_factor': np.float64(1.5648585027013522)}
+qcd_leptons_photon_ideal_cb collisionless96 {'Tkin_over_T': 0.655895354813834, 'heavy_fraction': 0.0572145986119163, 'comoving_number_over_actual_initial': 0.9999999999999999, 'scale_factor': np.float64(1.5648585027013522)}
+[
+  {
+    "eos": "constant60",
+    "initial_g_rho": 60.0,
+    "final_g_rho": 60.0,
+    "initial_g_s": 60.0,
+    "final_g_s": 60.0,
+    "final_a": 1.5,
+    "final_Tkin_over_T": 0.7502713380032878,
+    "final_heavy_fraction": 0.036632159099828525,
+    "final_number_over_initial": 0.9999684642143863,
+    "net_number_loss_ppm": 31.535785613656664,
+    "final_yield": 5.169012996895991e-10
+  },
+  {
+    "eos": "qcd_leptons_photon",
+    "initial_g_rho": 54.746485054818606,
+    "final_g_rho": 51.322081122533874,
+    "initial_g_s": 53.73091962429241,
+    "final_g_s": 49.456296669128,
+    "final_a": 1.5420276201059797,
+    "final_Tkin_over_T": 0.7222007196866383,
+    "final_heavy_fraction": 0.03470920477979237,
+    "final_number_over_initial": 0.9999655241953515,
+    "net_number_loss_ppm": 34.47580464854827,
+    "final_yield": 5.772093054312612e-10
+  },
+  {
+    "eos": "qcd_leptons_photon_ideal_cb",
+    "initial_g_rho": 60.89367445978464,
+    "final_g_rho": 54.50490862960544,
+    "initial_g_s": 59.33291250757889,
+    "final_g_s": 52.25696975916433,
+    "final_a": 1.5648585027013522,
+    "final_Tkin_over_T": 0.7056736981581886,
+    "final_heavy_fraction": 0.03466906747706896,
+    "final_number_over_initial": 0.9999665611821056,
+    "net_number_loss_ppm": 33.43881789441561,
+    "final_yield": 5.227118920676865e-10
+  }
+]
+Elapsed 30.14444774399999
+Running equation-of-state summary and figure: thermal/make_eos_report.py
+Wrote EOS note, PNG/SVG, review summary.
+Running source provenance verification: thermal/verify_provenance.py
+{"verified_git_blobs": 55, "omitted_redundant_parts": 0, "verified_archived_sha256": 41, "verified_restored_banks": 4}

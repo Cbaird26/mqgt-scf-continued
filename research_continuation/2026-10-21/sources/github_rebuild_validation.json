@@ -1,0 +1,210 @@
+{
+  "version": "v2026.10.21-research-continuation",
+  "source_commit": "b50fb33ea8f82a3897cfef3b8d438b333b1f44c7",
+  "build_commit": "8d2031b7c3a2822b33f87b6c9a5753d05e077093",
+  "workflow_run": "39708101165",
+  "kind": "Reconstructed offline publication; not a byte-identical copy of the earlier prepared ZIP",
+  "original_reference_manifest_sha256": "b071912797195487fc95b308c20aa88631c4747a20aae12162b50a8694782dd2",
+  "preserved_compact_file_count": 257,
+  "missing_large_outputs_regenerated": true,
+  "reference_pdf_sha256": "9488d93d948e129b45f4073e11f346af783dbac09dab9a5570882d827ba8d325",
+  "rebuilt_pdf_sha256": "d25cf9a6034a7d3db31939db794e64530317373f757c227bdb2be6677ee72f87",
+  "report_page_count": 13,
+  "report_text_matches_reviewed_reference": true,
+  "report_normalized_text_sha256": "cf199b6152d50948a0e65b4b3b99b0e9e51aebb94ed4edbd94c188c20bda4f5b",
+  "source_acquisition": [
+    {
+      "path": "thermal/frozen/network/decay_bank.npz",
+      "url": "https://raw.githubusercontent.com/Cbaird26/mqgt-scf-continued/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/decay_bank.npz",
+      "sha256": "6980a7c9930dab3e4b4b77bbc8bd03bbf3a0de1f86277f520ba58db813270f2c"
+    },
+    {
+      "path": "thermal/frozen/network/decay_bank_eta16.npz",
+      "url": "https://raw.githubusercontent.com/Cbaird26/mqgt-scf-continued/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/decay_bank_eta16.npz",
+      "sha256": "4b41a187f099c5de70db082ebbe8409b8551ffc4dc5178a76878a6a9c0823bc6"
+    },
+    {
+      "path": "thermal/frozen/results/full_final.json",
+      "url": "https://raw.githubusercontent.com/Cbaird26/mqgt-scf-continued/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/results/full_final.json",
+      "sha256": "881e055ccbabd9af2aeeb3aa8a4dbb299e302cac0f79d81f03b63a351a9aabd0"
+    },
+    {
+      "path": "thermal/frozen/_archive/artifact_parts/bank_q40.npz/0000.part",
+      "url": "https://raw.githubusercontent.com/Cbaird26/mqgt-scf-continued/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/bank_q40.npz/0000.part",
+      "sha256": "3284f5dde53a5ff29be068b540faec284708d459de9042f87c1a32d325d2acfc"
+    },
+    {
+      "path": "thermal/frozen/_archive/artifact_parts/bank_q40.npz/0001.part",
+      "url": "https://raw.githubusercontent.com/Cbaird26/mqgt-scf-continued/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/bank_q40.npz/0001.part",
+      "sha256": "606b974ab9be9c07fdf2f7bdee2f3fac4807a83521ec31b2192cb3f498b067a9"
+    },
+    {
+      "path": "thermal/frozen/_archive/artifact_parts/bank_q40.npz/0002.part",
+      "url": "https://raw.githubusercontent.com/Cbaird26/mqgt-scf-continued/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/bank_q40.npz/0002.part",
+      "sha256": "4569a47dc439bdc77bc4268f781799c8d71eb319d43aed736fff468616f219d2"
+    },
+    {
+      "path": "thermal/frozen/_archive/artifact_parts/bank_q48_eta16.npz/0000.part",
+      "url": "https://raw.githubusercontent.com/Cbaird26/mqgt-scf-continued/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/bank_q48_eta16.npz/0000.part",
+      "sha256": "630a4facd2b18ab95274d37b470202897fc3ae87eb260029a4020fdcaf4715d7"
+    },
+    {
+      "path": "thermal/frozen/_archive/artifact_parts/bank_q48_eta16.npz/0001.part",
+      "url": "https://raw.githubusercontent.com/Cbaird26/mqgt-scf-continued/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/bank_q48_eta16.npz/0001.part",
+      "sha256": "1cf5a3cbd26084a18c06294f90c36b609b322fa9a99590c1beedd395f3be54df"
+    },
+    {
+      "path": "thermal/frozen/_archive/artifact_parts/bank_q48_eta16.npz/0002.part",
+      "url": "https://raw.githubusercontent.com/Cbaird26/mqgt-scf-continued/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/bank_q48_eta16.npz/0002.part",
+      "sha256": "9da7fda17ee283f1bd79b1927fd87eaf05d5d66400d682692fc5681d1e268189"
+    },
+    {
+      "path": "thermal/frozen/_archive/artifact_parts/bank_q48_eta16.npz/0003.part",
+      "url": "https://raw.githubusercontent.com/Cbaird26/mqgt-scf-continued/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/bank_q48_eta16.npz/0003.part",
+      "sha256": "b284511711af8f55abe18a681748a6f8126cb4ebad6267f3c59391a29c96e45c"
+    },
+    {
+      "path": "thermal/frozen/_archive/artifact_parts/bank_q48_eta16.npz/0004.part",
+      "url": "https://raw.githubusercontent.com/Cbaird26/mqgt-scf-continued/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/bank_q48_eta16.npz/0004.part",
+      "sha256": "492fbc59b706b2c53329038da010ac68aedac274dbc8e3d3d2eefc339d9b2c6b"
+    },
+    {
+      "path": "thermal/frozen/_archive/artifact_parts/pair_bank.npz/0000.part",
+      "url": "https://raw.githubusercontent.com/Cbaird26/mqgt-scf-continued/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/pair_bank.npz/0000.part",
+      "sha256": "2fb2df982e78c4ba4b23a4f7894b617a5845fbc15334d7105a37b23d69e30313"
+    },
+    {
+      "path": "thermal/frozen/_archive/artifact_parts/pair_bank.npz/0001.part",
+      "url": "https://raw.githubusercontent.com/Cbaird26/mqgt-scf-continued/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/pair_bank.npz/0001.part",
+      "sha256": "25b6895141f37e8f7aa6bd846ed1c2bc588e5ef07f912056ab023169ee7ce4d3"
+    },
+    {
+      "path": "thermal/frozen/_archive/artifact_parts/pair_bank.npz/0002.part",
+      "url": "https://raw.githubusercontent.com/Cbaird26/mqgt-scf-continued/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/pair_bank.npz/0002.part",
+      "sha256": "d4f4e6ac1182f342b36090168b0505a7cb7d7f22ef5c8916aa15fe6169507f4b"
+    },
+    {
+      "path": "thermal/frozen/_archive/artifact_parts/pair_bank_eta16.npz/0000.part",
+      "url": "https://raw.githubusercontent.com/Cbaird26/mqgt-scf-continued/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/pair_bank_eta16.npz/0000.part",
+      "sha256": "fbcf40d6f86b19034e81c0d1b1424ee91cd03f017e8c533a1db8f3a6d4955c56"
+    },
+    {
+      "path": "thermal/frozen/_archive/artifact_parts/pair_bank_eta16.npz/0001.part",
+      "url": "https://raw.githubusercontent.com/Cbaird26/mqgt-scf-continued/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/pair_bank_eta16.npz/0001.part",
+      "sha256": "51120e94cb365d05e972ffd867cc4daba2ff82825671ad11e79a1419f77255a9"
+    },
+    {
+      "path": "thermal/frozen/_archive/artifact_parts/pair_bank_eta16.npz/0002.part",
+      "url": "https://raw.githubusercontent.com/Cbaird26/mqgt-scf-continued/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/pair_bank_eta16.npz/0002.part",
+      "sha256": "0bced99b69d1f7cc808e10910e7d4bda7f39621da339915a767fab3c1a0c03b4"
+    },
+    {
+      "path": "thermal/frozen/_archive/artifact_parts/pair_bank_eta16.npz/0003.part",
+      "url": "https://raw.githubusercontent.com/Cbaird26/mqgt-scf-continued/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/artifact_parts/pair_bank_eta16.npz/0003.part",
+      "sha256": "d538241cc24072c3a0768a8263abf60a0424977f92f6b74a1193e7fc51e759e2"
+    },
+    {
+      "path": "thermal/frozen/network/decay_bank_eta16.json",
+      "url": "https://raw.githubusercontent.com/Cbaird26/mqgt-scf-continued/48f9dcbd34e7cfb86504167a0483f732a5dd5e8e/manuscript/higgs_portal_review/checkpoints/2026-10-21-free-bath/Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/decay_bank_eta16.json",
+      "sha256": "20fc3d8d5e5ee02188ac1c7588b22086c4e9700bf1f34a03124382724d9dae68"
+    },
+    {
+      "path": "measurement/sources/Na-Cluster-Interference.zip",
+      "url": "https://zenodo.org/records/17502163/files/Na-Cluster-Interference.zip?download=1",
+      "sha256": "b92355d06e06f16b3c746020ef7bc6c6eac6a629d36d739aff79e6a894003b9a"
+    }
+  ],
+  "comparisons": [
+    {
+      "file": "common/common_results.json",
+      "numeric_or_boolean_values_checked": 29,
+      "relative_tolerance": 1e-06,
+      "absolute_tolerance": 1e-10,
+      "integer_and_boolean_comparison": "exact",
+      "failures": []
+    },
+    {
+      "file": "thermal/results/scan_summary.json",
+      "numeric_or_boolean_values_checked": 132,
+      "relative_tolerance": 1e-06,
+      "absolute_tolerance": 1e-10,
+      "integer_and_boolean_comparison": "exact",
+      "failures": []
+    },
+    {
+      "file": "thermal/eos/eos_sensitivity_results.json",
+      "numeric_or_boolean_values_checked": 38,
+      "relative_tolerance": 1e-06,
+      "absolute_tolerance": 1e-10,
+      "integer_and_boolean_comparison": "exact",
+      "failures": []
+    },
+    {
+      "file": "measurement/measurement_results.json",
+      "numeric_or_boolean_values_checked": 27,
+      "relative_tolerance": 1e-06,
+      "absolute_tolerance": 1e-10,
+      "integer_and_boolean_comparison": "exact",
+      "failures": []
+    },
+    {
+      "file": "electromagnetic/profile_identifiability_results.json",
+      "numeric_or_boolean_values_checked": 99,
+      "relative_tolerance": 1e-06,
+      "absolute_tolerance": 1e-10,
+      "integer_and_boolean_comparison": "exact",
+      "failures": []
+    },
+    {
+      "file": "uv/results.json",
+      "numeric_or_boolean_values_checked": 298,
+      "relative_tolerance": 1e-06,
+      "absolute_tolerance": 1e-10,
+      "integer_and_boolean_comparison": "exact",
+      "failures": []
+    },
+    {
+      "file": "agency/synthetic_memory_results.json",
+      "numeric_or_boolean_values_checked": 146,
+      "relative_tolerance": 1e-06,
+      "absolute_tolerance": 1e-10,
+      "integer_and_boolean_comparison": "exact",
+      "failures": []
+    }
+  ],
+  "full_rerun_exit_code": 0,
+  "scope": "Internal software reproduction and packaging, not external scientific validation",
+  "preservation_scope": "The preserved_compact_file_count describes the reference-restore step. Publication notices, provenance, and the active thermal checksum inventory were subsequently edited. Scientific source and numeric reference files remain byte-preserved.",
+  "thermal_checksum_finalization": {
+    "original_inventory_sha256": "497726550f51a94dc07e3e459d1750166594d9e5868e10527bfb010e9e758f8a",
+    "historical_copy": "sources/historical_continuation_SHA256SUMS.txt",
+    "active_inventory_entries": 99,
+    "previous_mismatches_reconciled": [
+      "eos/EOS_NOTE.txt",
+      "eos/eos_sensitivity.svg",
+      "eos/eos_sensitivity_results.json",
+      "eos/qcd_leptons_photon_collisionless.json",
+      "eos/qcd_leptons_photon_ideal_cb_collisionless.json",
+      "eos/qcd_leptons_photon_ideal_cb_standard.json",
+      "eos/qcd_leptons_photon_ideal_cb_time384.json",
+      "eos/qcd_leptons_photon_standard.json",
+      "eos/qcd_leptons_photon_time384.json",
+      "eos/source_provenance.json",
+      "eos_sensitivity.py",
+      "make_eos_report.py",
+      "results/grid96.json",
+      "results/initial_condition_scan.json",
+      "results/initial_final_cells.npz",
+      "results/no_pair_control.json",
+      "results/quadrature40_temperature8.json",
+      "results/reproduced_baseline.json",
+      "results/step384.json",
+      "results/temperature8.json",
+      "results/thermal_initial_condition_sensitivity.png",
+      "results/thermal_initial_condition_sensitivity.svg"
+    ],
+    "absent_optional_entries_removed_from_active_inventory": [
+      "eos/WB-EoS.dat"
+    ]
+  }
+}

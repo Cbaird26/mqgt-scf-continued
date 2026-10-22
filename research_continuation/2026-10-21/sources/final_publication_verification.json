@@ -1,0 +1,46 @@
+{
+  "operation": "Checksum reconciliation only; scientific source, data, results and PDF bytes unchanged",
+  "input_release_zip_sha256": "8c0f28743d98ea2a8c77c7f3170e9154cb3f5a4e4193d6e0788d91317b308cdf",
+  "input_manifest_entries": 294,
+  "original_inventory_sha256": "497726550f51a94dc07e3e459d1750166594d9e5868e10527bfb010e9e758f8a",
+  "historical_copy": "sources/historical_continuation_SHA256SUMS.txt",
+  "active_thermal_inventory_entries": 99,
+  "previous_mismatches_reconciled": [
+    "eos/EOS_NOTE.txt",
+    "eos/eos_sensitivity.svg",
+    "eos/eos_sensitivity_results.json",
+    "eos/qcd_leptons_photon_collisionless.json",
+    "eos/qcd_leptons_photon_ideal_cb_collisionless.json",
+    "eos/qcd_leptons_photon_ideal_cb_standard.json",
+    "eos/qcd_leptons_photon_ideal_cb_time384.json",
+    "eos/qcd_leptons_photon_standard.json",
+    "eos/qcd_leptons_photon_time384.json",
+    "eos/source_provenance.json",
+    "eos_sensitivity.py",
+    "make_eos_report.py",
+    "results/grid96.json",
+    "results/initial_condition_scan.json",
+    "results/initial_final_cells.npz",
+    "results/no_pair_control.json",
+    "results/quadrature40_temperature8.json",
+    "results/reproduced_baseline.json",
+    "results/step384.json",
+    "results/temperature8.json",
+    "results/thermal_initial_condition_sensitivity.png",
+    "results/thermal_initial_condition_sensitivity.svg"
+  ],
+  "absent_optional_entries_removed_from_active_inventory": [
+    "eos/WB-EoS.dat"
+  ],
+  "modified_existing_paths": [
+    "PACKAGE_MANIFEST.json",
+    "README.txt",
+    "sources/github_rebuild_validation.json",
+    "thermal/SHA256SUMS_CONTINUATION"
+  ],
+  "unexpected_scientific_modifications": [],
+  "final_manifest_entries": 296,
+  "all_final_payload_hashes_passed": true,
+  "all_active_thermal_inventory_hashes_passed": true,
+  "final_release_zip_sha256": "03a849fe180c1202f86ccccc583899753321ad262af816de302a4a45a5eaa781"
+}

@@ -58,8 +58,9 @@ Its log and receipt are included. The optional authors' EOS ancillary table is
 not redistributed: its source, hash, and historical validation are recorded,
 and an explicit download helper can restore it for a fresh table comparison.
 The analytic EOS, thermodynamic checks, and kinetic evolution run offline
-without that optional table. Original numerical results and the report are
-preserved; the publication pass adds metadata and optional-validation handling.
+without that optional table. Original compact scientific records and normalized report text are preserved.
+Missing large outputs and rendering bytes were regenerated during publication;
+the release carries new checksums and explicit build provenance.
 
 ## Sources and attribution
 
@@ -73,3 +74,19 @@ the new reanalysis is separate and is not endorsed by the data authors.
 See `THIRD_PARTY_NOTICES.md`, `CITATION.cff`, and `sources/source_catalog.json`.
 
 The previous frozen verification release remains the historical record.
+
+## Publication rebuild and integrity
+
+Clean build: https://github.com/Cbaird26/mqgt-scf-continued/actions/runs/39708101165.
+769 numeric/Boolean reference comparisons passed; the 13-page report
+retains identical normalized extracted text. The distribution is a rebuilt
+artifact, not a byte-identical copy of the previously prepared ZIP.
+
+The final payload manifest verifies 296 files.
+The active thermal checksum list verifies 99 files;
+its earlier inventory is preserved with a historical label. The optional
+unlicensed EOS ancillary table is not redistributed. The frozen verification
+repository and older collection drafts are unchanged.
+
+This is an AI-assisted internal reproduction and publication checkpoint,
+not external peer review or confirmation of a complete Theory of Everything.

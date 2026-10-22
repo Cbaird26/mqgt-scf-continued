@@ -125,3 +125,16 @@ earlier population history, laboratory scalar state, composite detector
 response, physical spectral-profile selection and a field-to-experience
 bridge remain explicit dependencies. See sources/claim_status.json and the
 report for the exact completion requirements.
+
+PUBLICATION REBUILD
+This offline distribution was reconstructed from the pinned public source checkpoint.
+Previously recorded compact sources and results are preserved byte-for-byte. Missing
+large outputs were regenerated; numeric/boolean reference checks passed, and the
+13-page report has identical normalized extracted text to the reviewed report.
+The ZIP and rendering bytes have new hashes. See sources/github_rebuild_validation.json.
+
+CHECKSUM INVENTORIES
+thermal/SHA256SUMS_CONTINUATION describes the thermal files in this rebuilt ZIP.
+Its earlier reference list is preserved in sources/historical_continuation_SHA256SUMS.txt.
+The pinned upstream thermal/frozen/SHA256SUMS remains its original archival inventory;
+that upstream inventory also lists diagnostics outside this package's documented scope.
