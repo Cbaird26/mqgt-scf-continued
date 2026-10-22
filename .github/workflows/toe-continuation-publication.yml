@@ -1,4 +1,4 @@
-name: Verify continuation publication source
+name: Build verified continuation release assets
 
 on:
   push:
@@ -6,17 +6,45 @@ on:
       - release/2026-10-21-continuation-publication
     paths:
       - .github/workflows/toe-continuation-publication.yml
+      - .github/scripts/build_toe_continuation_release.py
   workflow_dispatch:
 
 permissions:
   contents: read
 
+concurrency:
+  group: toe-continuation-publication-build
+  cancel-in-progress: false
+
 jobs:
-  verify:
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
       - name: Verify the recorded source snapshot
         working-directory: research_continuation/2026-10-21
-        run: python3 verify_source_snapshot.py
+        run: python verify_source_snapshot.py
+      - name: Install recorded calculation dependencies
+        run: |
+          python -m pip install -r research_continuation/2026-10-21/requirements.txt
+          test -f /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+      - name: Restore inputs, reproduce calculations, compare references and rebuild report
+        run: |
+          python .github/scripts/build_toe_continuation_release.py \
+            --source research_continuation/2026-10-21 \
+            --output "$RUNNER_TEMP/toe-publication/assets"
+      - name: Preserve build assets and diagnostic logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: toe-continuation-release-build
+          path: ${{ runner.temp }}/toe-publication/assets/
+          if-no-files-found: warn
+          compression-level: 0
+          retention-days: 7
