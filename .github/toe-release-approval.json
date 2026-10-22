@@ -1,0 +1,11 @@
+{
+  "source_commit": "b50fb33ea8f82a3897cfef3b8d438b333b1f44c7",
+  "tag": "v2026.10.21-research-continuation",
+  "build_run_id": 39708101165,
+  "build_commit": "8d2031b7c3a2822b33f87b6c9a5753d05e077093",
+  "artifact_id": 12395826921,
+  "artifact_sha256": "ec2f9c1042227e19873435c061b3bb6b82ff1f72c6b52f75e831d39f127ce111",
+  "input_asset_manifest_sha256": "6d383398a2826f5b35efdec35230d7b2bff0695c1473f85342fede5dea4f52a4",
+  "scope": "User-authorized public research checkpoint; preserve frozen histories; publish only after verification",
+  "review": "13-page report visually inspected; 769 numeric/Boolean comparisons pass; stale thermal inventory repaired without changing scientific files"
+}
