@@ -44,8 +44,13 @@ six executed workstreams: common action conventions, thermal-history and EOS
 sensitivity, public interferometry count reanalysis, spectral-profile
 identifiability, an ultraviolet audit, and a synthetic causal-memory study.
 It includes code, compact results, source hashes, claim status, and reproducibility
-instructions. The [research release](https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.21-research-continuation)
-provides the report and complete offline input/output package.
+instructions.
+
+**Publication status (21 October 2026):** the source checkpoint is public. The
+report and complete offline ZIP are prepared, but the GitHub Release and its
+asset uploads are pending. The planned tag is
+`v2026.10.21-research-continuation`; its download URLs will become available
+after the release is published.
 
 These are conditional computational and methodological results. The checkpoint
 records the additional physics needed for full unification or a new experimental

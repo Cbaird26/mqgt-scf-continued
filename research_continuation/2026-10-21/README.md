@@ -3,15 +3,20 @@
 **Status:** executed, conditional research checkpoint. A complete Theory of
 Everything and experimental confirmation of new fields are not established.
 
-[Release and downloads](https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.21-research-continuation) · [Release notes](RELEASE_NOTES.md) ·
+[Planned release](https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.21-research-continuation) · [Release notes](RELEASE_NOTES.md) ·
 [Claim status](sources/claim_status.json) · [Citation](CITATION.cff)
+
+**Publication status (21 October 2026):** the source files are public. The
+GitHub Release and downloadable assets are pending publication. The download
+helper and URLs in `RELEASE_ASSETS.json` become usable after that release is
+published; local source verification works now.
 
 ## What is here
 
 The six workstreams are `common/`, `thermal/`, `measurement/`,
 `electromagnetic/`, `uv/`, and `agency/`. This Git directory contains their
-source code and compact records. Larger trajectories, plots, numerical banks,
-and binary experimental inputs are delivered in the complete offline ZIP.
+source code and compact records. The prepared complete offline ZIP contains
+larger trajectories, plots, numerical banks, and binary experimental inputs.
 `SOURCE_SNAPSHOT_MANIFEST.json` identifies every included source file and all
 offline-only files. `PACKAGE_MANIFEST.json` records the complete offline package.
 
@@ -23,7 +28,8 @@ Verify this compact source directory:
 python verify_source_snapshot.py
 ```
 
-Download the complete offline package with its recorded SHA-256:
+Once the release is published, download the complete offline package with
+its recorded SHA-256:
 
 ```bash
 python download_offline_package.py
@@ -45,7 +51,7 @@ offline without it. See the package README and third-party notices.
 
 ## Reading order
 
-1. The 13-page PDF in the release for the scientific narrative.
+1. The 13-page PDF prepared for the release for the scientific narrative.
 2. `sources/claim_status.json` for completed and unresolved claims.
 3. `common/action_parameter_contract.json` for conventions and missing inputs.
 4. Each workstream's technical note, results, and executable scripts.
