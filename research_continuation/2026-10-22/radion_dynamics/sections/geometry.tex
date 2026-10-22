@@ -1,0 +1,132 @@
+\section{Warped operator and a common spinor Hilbert space}
+
+Promote the radius to a spacetime field in the torsion-free metric
+\begin{equation}
+ \dd s_6^2=g_{\mu\nu}(x)\dd x^\mu\dd x^\nu+r(x)^2\dd\Omega_2^2,
+ \qquad R=\Lam r,\quad h_i=H_i/(\Lam R),\quad\kappa>0.
+ \label{eq:metric}
+\end{equation}
+The monopole connection and angular basis are held fixed under this identification. With Euclidean Hermitian gamma matrices, the warped Dirac operator is
+\begin{equation}
+ D_{6,\Phi}=D_g+i\gamma^\mu\partial_\mu\ln r
+       +\gamma_5\Lam\B(R,h),\qquad
+ \B=D_{\rm int}/R+\sum_i h_i S_i .
+ \label{eq:warpedD}
+\end{equation}
+The coefficient of $\partial\ln r$ is half the fibre dimension, hence one. This follows from the warped spin connection; it also specializes the even-base formula of \cite{warped}. The charged monopole connection adds the inherited fibre operator and does not change that coefficient. Complex scalar tangents are included as Hermitian real-coordinate variations of $\B$.
+
+The unitary map from the measure $\sqrt g\,r^2\dd^4x\dd\Omega$ to $\sqrt g\dd^4x\dd\Omega$ is $\chi=r\psi$. Consequently
+\begin{equation}
+ rD_{6,\Phi}r^{-1}=D_g+\gamma_5\Lam\B(R,h).
+ \label{eq:unitary}
+\end{equation}
+The derivative of $r^{-1}$ cancels the connection term in \eqref{eq:warpedD}. This is an equivalence of classical spectral traces, not a quantum path-integral change of measure. Adding a second independent ``radion kinetic term'' after evaluating \eqref{eq:unitary} would double count the same geometry. Conversely, differentiating the constant-radius eigenvalues without including their scalar-dependent eigenvectors would miss transition matrix elements.
+
+For the neutral background the three sectors are
+\begin{equation}
+ B_q=D_{2\oplus1\oplus1}/R+h_dS_d+h_uS_u,\quad
+ B_\ell=D_{2\oplus1}/R+h_dS_\ell,\quad B_0=D_0/R.
+\end{equation}
+Their full internal trace multiplicities are $n_q=12$, $n_\ell=4$, $n_0=12$. These include colour and four copies, while the action retains its original factor $\kappa/2$:
+\begin{equation}
+ S_{\rm sp}=\frac\kappa2\Tr_{\rm Dirac} f_{\rm sp}(D_{6,\Phi}^2/\Lam^2),
+ \quad f_{\rm sp}(z)=\sum_a w_ae^{-az},\quad w_a>0.
+\end{equation}
+The spectator sector has no scalar insertion but contributes to both radion and gravity coefficients.
+
+\section{Jordan-frame coefficients at two external derivatives}
+
+Use dimensionless real coordinates $q^A=(R,h_d,h_u,\ldots)$ and signature $(-+++)$. The continued two-derivative action is defined by
+\begin{equation}
+ S_J=\int\!\dd^4x\sqrt{-g}\left[
+ \frac{\kappa\Lam^2}{2}f(q)\mathcal R_4
+ -\frac{\kappa\Lam^2}{2}\GJ_{AB}(q)\partial_\mu q^A\partial^\mu q^B
+ -\frac{\kappa\Lam^4}{4\pi^2}W(q)\right].
+ \label{eq:SJ}
+\end{equation}
+The declared extra operators remain potential terms only:
+\begin{equation}
+ W=P+\alpha R^2(16|h_d|^2+12|h_u|^2)-cR^2,\quad
+ P=\frac12\sum_{a,s}\frac{w_an_s}{a^2}\Tr e^{-aB_s^2}.
+\end{equation}
+No independent Einstein-Hilbert, scalar kinetic, or nonminimal curvature counterterm is appended. Permitting such terms would change this calculation's dynamical answer.
+
+\subsection{Gravitational coefficient and scalar-curvature mixing}
+
+At constant $q$, the four-dimensional Dirac heat trace per volume has the linear-curvature term
+\begin{equation}
+ \Tr_{\rm spin}e^{-tD_g^2}(x,x)
+ =\frac4{(4\pi t)^2}\left(1-\frac t{12}\mathcal R_4+O(\partial^4)\right).
+\end{equation}
+The sign follows from the Lichnerowicz endomorphism $E=-\mathcal R_4/4$ and $a_2=E+\mathcal R_4/6$ \cite{heat}. In Euclidean signature this yields $-F\mathcal R_4/2$, hence the Lorentzian convention in \eqref{eq:SJ}. Therefore
+\begin{align}
+ f(q)&=\frac1{48\pi^2}\sum_{a,s}\frac{w_an_s}{a}\Tr e^{-aB_s^2},\label{eq:f}\\
+ f_A(q)&=-\frac1{24\pi^2}\sum_{a,s}w_an_s
+       \Tr\bigl[B_s e^{-aB_s^2}(B_s)_A\bigr].\label{eq:df}
+\end{align}
+At $h=0$, this is exactly the inherited $f=J/(24\pi^2)$. Since every weight and heat trace is positive, $f>0$ at finite regular backgrounds. Its Higgs dependence is included: using $f(R,0)$ at a broken fixture would omit scalar-gravity mixing. An independent external $S^4$ heat-sum check validates the normalization in \eqref{eq:f}.
+
+\subsection{Full radion/scalar metric}
+
+In an eigenbasis $B_{ij}=b_i\delta_{ij}$ write $T_A=\partial_A B$ and $A_A=\{B,T_A\}$. The neutral tangents are
+\begin{equation}
+ T_R=-D_{\rm int}/R^2,\qquad T_d=S_d,\qquad T_u=S_u.
+\end{equation}
+Set $I_0^{ij}=\int_0^1e^{-a[sb_i^2+(1-s)b_j^2]}\dd s$ and
+$I_u^{ij}=\int_0^1s(1-s)e^{-a[sb_i^2+(1-s)b_j^2]}\dd s$. The result is
+\begin{equation}
+ \boxed{\displaystyle
+ \GJ_{AB}=\frac1{8\pi^2}\sum_{a,s}w_an_s\operatorname{Re}\sum_{ij}
+ \left[I_0^{ij}(T_A)_{ij}(T_B)_{ji}
+      -aI_u^{ij}(A_A)_{ij}(A_B)_{ji}\right].}
+ \label{eq:GJ}
+\end{equation}
+The repeated sector label in the sum is independent of the integration variable. Both $\GJ_{RR}$ and $\GJ_{Ri}$ follow from this same expression; the scalar submatrix agrees with the preceding note.
+
+For clarity, the two-insertion heat expansion gives this coefficient directly. At dimensionless external Euclidean momentum $q$, the linear vertex is $A_A+q\gamma^1\gamma_5T_A$; external Gaussian integration adds $e^{-as(1-s)q^2}$. The $q^2T_AT_B$ term gives $I_0$, and differentiation of the exponential multiplying $A_AA_B$ gives $-aI_u$. The contact $B_{AB}$ term is independent of external momentum and contributes to the potential Hessian, not \eqref{eq:GJ}. The Duhamel expansion underlying this calculation is standard \cite{spectral}; here the internal matrices are kept unexpanded.
+
+\subsection{An independent large-radius geometric check}
+
+At $h=0$, diagonal internal modes give a direct scalar sum for $\GJ_{RR}$:
+\begin{equation}
+ \GJ_{RR}=\frac1{8\pi^2R^2}\sum_{a,s,i}w_an_s b_i^2e^{-ab_i^2}
+                       \left(1-\frac{2a b_i^2}{3}\right).
+\end{equation}
+The zero modes do not contribute to this derivative. With $m_2=\sum_aw_a/a^2$,
+\begin{equation}
+ f\sim A R^2,\qquad \GJ_{RR}\sim-2A,\qquad A=\frac{7m_2}{3\pi^2}.
+ \label{eq:EHlimit}
+\end{equation}
+Independently, $\mathcal R_6=\mathcal R_4+2/r^2-4\Box\ln r-6(\partial\ln r)^2$.
+Integrating the $\Box\ln r$ term against $r^2\sqrt{-g}$ produces the Jordan coefficient $-2f/R^2$, exactly \eqref{eq:EHlimit}. The negative Jordan entry is the familiar scalar-gravity mixing of a volume modulus; it is not by itself a ghost diagnosis. At the inherited finite radius, the full sums, rather than this asymptotic formula, must be used.
+
+\section{Einstein frame and the dynamical mass problem}
+
+For a positive constant $f_0$, define $g^E_{\mu\nu}=(f/f_0)g_{\mu\nu}$ and $M_0^2=\kappa\Lam^2 f_0$. The Weyl transformation \cite{kaiser}, generalized to the already nontrivial Jordan metric, yields
+\begin{align}
+ \GE_{AB}&=\frac{f_0}{f}\GJ_{AB}
+             +\frac{3f_0}{2f^2}f_Af_B,\label{eq:GE}\\
+ U_E&=\left(\frac{f_0}{f}\right)^2\frac{\kappa\Lam^4}{4\pi^2}W.
+\end{align}
+The second term in \eqref{eq:GE} includes radion-Higgs and Higgs-Higgs pieces. Its positive rank-one form can remove a single negative direction of $\GJ$; positivity of the final matrix is tested, not assumed. In the large-radius Einstein-Hilbert limit, $\GE_{RR}=4f_0/R^2$, giving the canonical logarithmic modulus $\chi=2M_0\ln(R/R_0)$.
+
+At each flat stationary fixture choose $f_0=f(q_0)$, so Einstein and Jordan vacuum units coincide. Because $W(q_0)=W_A(q_0)=0$, the Einstein-frame Hessian is
+\begin{equation}
+ (U_E)_{AB}(q_0)=\frac{\kappa\Lam^4}{4\pi^2}\HH_{AB},
+ \qquad\HH_{AB}=\partial_A\partial_B W(q_0).
+\end{equation}
+The field-space connection correction to a covariant Hessian also vanishes at stationarity. With $c$ held fixed at its selected value when differentiating, the two-derivative squared-mass parameters obey
+\begin{equation}
+ \frac{\HH}{4\pi^2}u_\alpha=\mu_\alpha\GE u_\alpha,
+ \quad u_\alpha^T\GE u_\beta=\delta_{\alpha\beta},
+ \quad\mu_\alpha=(m_\alpha^2/\Lam^2)_{\text{two derivatives}}.
+ \label{eq:modes}
+\end{equation}
+When $\GE>0$ and $\mu_\alpha\ge0$, the truncated Lorentzian system has positive scalar kinetic energy and $\omega^2=|\mathbf k|^2+m_\alpha^2$. The same local action has a healthy massless spin-two sign for $M_0^2>0$. This does not settle its omitted higher-derivative poles.
+
+The change to original scalar coordinates $y=(R,H_d/\Lam,H_u/\Lam)$ has Jacobian
+\begin{equation}
+ \frac{\partial q}{\partial y}=
+ \begin{pmatrix}1&0&0\\-h_d/R&1/R&0\\-h_u/R&0&1/R\end{pmatrix}.
+\end{equation}
+Both matrices in \eqref{eq:modes} transform by the same congruence. Their generalized eigenvalues are invariant; the runner checks this explicitly. The tabulated parameters use common original $\Lam$ units with the specified vacuum normalization, not an independently fixed measured Planck scale.

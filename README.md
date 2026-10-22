@@ -39,6 +39,18 @@ spectral determinants on S⁷ and S⁹, not derived.
 
 ## Research continuation — 22 October 2026
 
+**Radion kinetics and scalar mixing (next continuation).**
+[Research note and reproducibility package](research_continuation/2026-10-22/radion_dynamics/PUBLICATION.md)
+derives the radion/lowest-scalar kinetic metric and Einstein-frame mixing at two external
+derivatives. Both profiles at both supplied tunings have positive nine-field Einstein
+kinetic matrices, five positive generalized squared-mass parameters and four symmetry
+zeros. The assumed axion sector leaves one physical phase massless. **The radion parameter
+near `0.91 Lambda` is not a verified full-theory pole; full compactification and ultraviolet
+stability remain unresolved.** The mass counterterm and flatness subtraction remain
+selected inputs. The package preserves 109 passing computational checks and fresh-extraction
+reproduction, with all stated caveats. The measured fine-structure constant remains unexplained.
+**Research prerelease:** [v2026.10.22-radion-kinetics-scalar-mixing](https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.22-radion-kinetics-scalar-mixing).
+
 **Exact scalar-radius vacuum: instability and tuned stationary branches (next continuation).**
 [Research note and reproducibility package](research_continuation/2026-10-22/exact_coupled_vacuum/PUBLICATION.md)
 evaluates the full spectral potential in the retained lowest scalar harmonics.

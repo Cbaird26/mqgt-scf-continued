@@ -143,3 +143,31 @@ compactification stability, anomaly dynamics and physical pole masses remain unr
 The assumed potential-free axion leaves one physical phase flat. No measured coupling was
 fitted; the measured fine-structure constant remains unexplained. This AI-assisted research
 has a same-session self-audit, without a separate-agent referee or external peer review.
+
+## Radion kinetics and scalar mixing
+
+- [Publication record and package links](radion_dynamics/PUBLICATION.md)
+- [Research note (PDF, 8 pages)](radion_dynamics/Radion_Kinetics_and_Scalar_Mixing_2026-10-22.pdf)
+- [Reproduction instructions](radion_dynamics/README.md) and [LaTeX source](radion_dynamics/main.tex)
+- [Full assumptions](radion_dynamics/ASSUMPTIONS.md), [same-session self-audit](radion_dynamics/REVIEW.md), and [release results and all caveats](radion_dynamics/RELEASE_NOTES.md)
+- [Research prerelease: v2026.10.22-radion-kinetics-scalar-mixing](https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.22-radion-kinetics-scalar-mixing)
+
+The declared warped Dirac operator supplies the field-dependent gravitational coefficient,
+radion kinetics and mixing with all eight retained real scalar components. The complete
+nine-field Einstein kinetic metric is positive for both profiles at epsilon 0.01 and 0.0001.
+The generalized two-derivative mass problem has five positive parameters and four symmetry
+zeros. The axion assumptions leave one physical phase massless after gauge reduction.
+
+All 109 recorded computational checks pass. A fresh extraction reproduced the numerical
+outputs, figures and tables; the rebuilt eight-page note rendered identically. Publication
+preserves the sealed PDF and ZIP, along with their preparation records and checksums.
+
+**The radion-dominated parameter near `0.91 Lambda` is not a verified physical pole.**
+The finite-momentum diagnostic fixes the Jordan metric and is not an Einstein propagator
+or radion mass error bound. Full momentum-dependent metric mixing, higher derivatives,
+omitted bosonic fluctuations and tadpoles, full gauge/axion dynamics and complete
+compactification stability remain unresolved. The scalar-mass counterterm and flatness
+subtraction remain selected inputs, with no additional derivative terms by assumption.
+Finite-cutoff convergence is not an interval or uniform tail certificate. No measured
+coupling was fitted; the measured fine-structure constant remains unexplained. This
+AI-assisted research has a same-session self-audit without external peer review.

@@ -1,0 +1,54 @@
+\section{Reproduction, checks, and claim boundaries}
+
+The bundle supplies the unchanged inherited operators and inputs, the new radius and full-scalar kernels, an offline runner, generated tables/figure, complete matrices/eigenvectors, and checks with explicit tolerances. There are \textbf{109 passing targeted checks}; the count measures computational checks, not independent physical predictions.
+
+\begin{center}
+\small
+\begin{tabular}{p{0.64\linewidth}r}
+\toprule Check & Observed discrepancy\\\midrule
+Direct exponential-quadrature vs. eigenbasis radion/scalar metric & $3.9\times10^{-15}$\\
+Dense angular vs. magnetic-block charged metric & $2.2\times10^{-16}$\\
+Analytic gravitational gradient vs. finite differences & $3.1\times10^{-11}$\\
+External round-$S^4$ gravity extraction vs. Eq.~\eqref{eq:f} & $1.2\times10^{-9}$\\
+Finite-difference Einstein potential Hessian at the flat fixture & $6.6\times10^{-9}$\\
+\bottomrule
+\end{tabular}
+\end{center}
+The last two are controlled finite-step extrapolations, not interval enclosures. The runner also checks the unbroken heat sums, the six-dimensional Einstein-Hilbert limit, cutoff 12 versus 16, preservation of the previous scalar metric and charged curvature, the neutral phase/gauge Ward identity, generalized-eigenvector residuals and normalization, and coordinate invariance. Its cutoffs apply to fermion angular sums, not to a complete bosonic mode reduction.
+
+The following qualifications are part of the result, and are repeated in \texttt{ASSUMPTIONS.md}:
+\begin{enumerate}
+ \item \textbf{Conditional operator and background.} The microscopic insertion, torsion-free warped round sphere, fixed monopole connection, four copied blocks and unit Yukawas are inherited specifications. Their uniqueness, phenomenological viability, and six-dimensional ultraviolet completion are not established. The fixed cutoff $\Lam$ is not promoted to a dilaton.
+ \item \textbf{Chosen extra potential.} The positive scalar-mass counterterm is externally selected and common to the profiles. Flatness fixes $c$ separately for each fixture; $c$ is held fixed in derivatives. This is not a cosmological-constant solution. The extra operators are assumed to supply no additional derivative or curvature terms. Unspecified kinetic, gravitational or nonminimal counterterms could change the answer.
+ \item \textbf{Precise stability scope.} The retained nine-field Einstein kinetic matrix is positive, and the restricted two-derivative potential Hessian is nonnegative with the symmetry zeros. This establishes the corresponding local infrared quadratic tests. It does not establish stability of a complete six-dimensional vacuum, because higher scalar harmonics, nonspherical metric modes, other gauge/bosonic fluctuations and their tadpoles have not been solved or integrated out.
+ \item \textbf{Heavy-mode limitation.} The radion-dominated mass parameter is near $\Lam$. Higher external derivatives, momentum-dependent metric mixing and full Lorentzian poles/residues are unresolved. A Euclidean heat trace does not by itself prove reflection positivity or a unitary ultraviolet continuation. No claim of absence of higher-derivative gravitational ghosts is made. The fixed-metric momentum diagnostic does not fill this gap.
+ \item \textbf{Gauge and axion sector.} The neutral Ward identity is checked, and the predecessor's neutral gauge kinetic positivity is inherited. The full charged-vector response and complete gauge/metric fluctuation system are not supplied here. A potential-free axion with a positive independent kinetic coefficient and pure-$X$ Stueckelberg coupling is assumed; extra axion derivative mixing is not derived. One physical phase remains massless. The anomaly polynomial, two-form reduction, axion potential and Stueckelberg scale remain unspecified.
+ \item \textbf{Local, numerical and classical.} No global minimality, uniqueness, vacuum lifetime or nonlinear stability is proved. The untuned runaway remains an inherited separate result. New values use float64/complex128 finite-cutoff arithmetic with convergence checks, not interval certificates or a uniform tail bound. Small profile differences carry fewer reliable digits than absolute values. These are classical spectral-action calculations, not a loop effective potential.
+ \item \textbf{No empirical normalization or external review.} The calculation selects neither $\kappa$, $\Lam$, nor a physical profile, and computes no quantum matching or running. No measured coupling is fitted; the measured fine-structure constant remains unexplained. The review is an AI-assisted same-session self-audit with independent computational paths, not a separate-agent referee or external peer review.
+\end{enumerate}
+
+\section{Next calculation made precise}
+
+The missing radion coefficient at two derivatives is now replaced by an explicit spectral formula and checked numerical matrices. The next dynamical question is the coupled metric/radion/scalar two-point operator at finite external momentum, including the graviton constraints, followed by a stated Lorentzian prescription and pole/residue analysis. Separately, higher-harmonic tadpoles and the full bosonic fluctuation spectrum are needed to decide whether the retained stationary family embeds in a genuine compactification vacuum. The light scalar tuning does not itself create a radion-to-cutoff hierarchy.
+
+\begin{thebibliography}{9}\small
+\bibitem{vacuum} Baird / ZoraASI research continuation, prepared with OpenAI Codex,
+\emph{Exact scalar-radius vacuum: instability and tuned stationary branches} (22 October 2026),
+\href{https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.22-exact-coupled-vacuum}{research prerelease}, source commit \texttt{8ac07feb}.
+\bibitem{exact} Baird / ZoraASI research continuation, prepared with OpenAI Codex,
+\emph{Exact internal mode sums for the scalar sector and Higgs-induced neutral kinetics} (22 October 2026),
+\href{https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.22-exact-scalar-mode-sums}{research prerelease}.
+\bibitem{warped} M. B. Law, I. M. Lopez and D. Santiago,
+\emph{Positive mass and Dirac operators on weighted manifolds and smooth metric measure spaces},
+\href{https://arxiv.org/abs/2312.15441}{arXiv:2312.15441}, Theorem 3.5, especially Eq. (3.27).
+\bibitem{heat} D. V. Vassilevich, \emph{Heat kernel expansion: user's manual},
+Phys. Rept. \textbf{388} (2003) 279--360,
+\href{https://arxiv.org/abs/hep-th/0306138}{arXiv:hep-th/0306138}, Sections 3.3 and 4.1.
+\bibitem{kaiser} D. I. Kaiser, \emph{Conformal transformations with multiple scalar fields},
+Phys. Rev. D \textbf{81} (2010) 084044,
+\href{https://arxiv.org/abs/1003.1159}{arXiv:1003.1159}, Eqs. (29)--(32).
+\bibitem{spectral} B. Iochum, C. Levy and D. Vassilevich,
+\emph{Spectral action beyond the weak-field approximation},
+Commun. Math. Phys. \textbf{316} (2012) 595--613,
+\href{https://arxiv.org/abs/1108.3749}{arXiv:1108.3749}.
+\end{thebibliography}

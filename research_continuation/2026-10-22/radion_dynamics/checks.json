@@ -1,0 +1,538 @@
+{
+  "checks": {
+    "minus_unbroken_independent_heat_sums": {
+      "passed": true,
+      "metric": 8.326672684688674e-16,
+      "tolerance": 2e-13
+    },
+    "minus_unbroken_no_radion_scalar_mixing": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "plus_unbroken_independent_heat_sums": {
+      "passed": true,
+      "metric": 2.4424906541753444e-15,
+      "tolerance": 2e-13
+    },
+    "plus_unbroken_no_radion_scalar_mixing": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-14
+    },
+    "inherited_common_gravity": {
+      "passed": true,
+      "metric": 3.0531133177191805e-16,
+      "tolerance": 2e-14
+    },
+    "profile_common_gravity_at_unbroken_radius": {
+      "passed": true,
+      "metric": 1.1102230246251565e-16,
+      "tolerance": 2e-14
+    },
+    "0.01_minus_fixed_c_stationarity": {
+      "passed": true,
+      "metric": 2.673417043297377e-13,
+      "tolerance": 2e-11
+    },
+    "0.01_minus_flatness": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 2e-12
+    },
+    "0.01_minus_independent_neutral_assembly": {
+      "passed": true,
+      "metric": 1.6653345369377348e-16,
+      "tolerance": 2e-13
+    },
+    "0.01_minus_independent_gravity_assembly": {
+      "passed": true,
+      "metric": 2.7755575615628914e-17,
+      "tolerance": 2e-14
+    },
+    "0.01_minus_neutral_Hessian_preserved": {
+      "passed": true,
+      "metric": 4.263256414560601e-14,
+      "tolerance": 1e-10
+    },
+    "0.01_minus_inherited_scalar_metric": {
+      "passed": true,
+      "metric": 2.0816681711721685e-17,
+      "tolerance": 3e-13
+    },
+    "0.01_minus_inherited_charged_curvature": {
+      "passed": true,
+      "metric": 5.919431611545178e-13,
+      "tolerance": 1e-10
+    },
+    "0.01_minus_cutoff_12_16_metric": {
+      "passed": true,
+      "metric": 8.465450562766819e-16,
+      "tolerance": 2e-12
+    },
+    "0.01_minus_cutoff_12_16_Hessian": {
+      "passed": true,
+      "metric": 3.6415315207705135e-14,
+      "tolerance": 1e-10
+    },
+    "0.01_minus_positive_gravitational_coefficient": {
+      "passed": true,
+      "metric": 0.21138491206111143
+    },
+    "0.01_minus_positive_full_Einstein_metric": {
+      "passed": true,
+      "metric": 0.04366807568330793
+    },
+    "0.01_minus_Jordan_radion_negative": {
+      "passed": true,
+      "metric": -0.30592415537457596
+    },
+    "0.01_minus_five_positive_potential_directions": {
+      "passed": true
+    },
+    "0.01_minus_four_symmetry_flat_directions": {
+      "passed": true,
+      "metric": 1.338485087865037e-12,
+      "tolerance": 1e-09
+    },
+    "0.01_minus_generalized_eigen_residual": {
+      "passed": true,
+      "metric": 5.551115123125783e-17,
+      "tolerance": 1e-12
+    },
+    "0.01_minus_canonical_normalization": {
+      "passed": true,
+      "metric": 6.661338147750939e-16,
+      "tolerance": 2e-12
+    },
+    "0.01_minus_cutoff_12_16_masses": {
+      "passed": true,
+      "metric": 6.140628731169071e-15,
+      "tolerance": 1e-09
+    },
+    "0.01_minus_positive_massive_scalar_parameters": {
+      "passed": true,
+      "metric": 0.00815477470153326
+    },
+    "0.01_minus_field_coordinate_mass_invariance": {
+      "passed": true,
+      "metric": 5.551115123125783e-16,
+      "tolerance": 1e-12
+    },
+    "0.01_minus_Weyl_rank_one_completion": {
+      "passed": true,
+      "metric": 3.2932640989247197e-18,
+      "tolerance": 2e-15
+    },
+    "0.01_minus_charged_pair_degeneracy": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-10
+    },
+    "0.01_minus_neutral_phase_Hessian": {
+      "passed": true,
+      "metric": 1.3384848784880887e-12,
+      "tolerance": 1e-09
+    },
+    "0.01_minus_neutral_gauge_phase_Ward_identity": {
+      "passed": true,
+      "metric": 1.8041124150158794e-16,
+      "tolerance": 2e-12
+    },
+    "0.01_minus_radial_participation_sum": {
+      "passed": true,
+      "metric": 4.440892098500626e-16,
+      "tolerance": 2e-13
+    },
+    "0.01_plus_fixed_c_stationarity": {
+      "passed": true,
+      "metric": 2.4436008771999695e-13,
+      "tolerance": 2e-11
+    },
+    "0.01_plus_flatness": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 2e-12
+    },
+    "0.01_plus_independent_neutral_assembly": {
+      "passed": true,
+      "metric": 1.3877787807814457e-17,
+      "tolerance": 2e-13
+    },
+    "0.01_plus_independent_gravity_assembly": {
+      "passed": true,
+      "metric": 4.336808689942018e-19,
+      "tolerance": 2e-14
+    },
+    "0.01_plus_neutral_Hessian_preserved": {
+      "passed": true,
+      "metric": 4.263256414560601e-14,
+      "tolerance": 1e-10
+    },
+    "0.01_plus_inherited_scalar_metric": {
+      "passed": true,
+      "metric": 4.163336342344337e-17,
+      "tolerance": 3e-13
+    },
+    "0.01_plus_inherited_charged_curvature": {
+      "passed": true,
+      "metric": 3.702524398185858e-13,
+      "tolerance": 1e-10
+    },
+    "0.01_plus_cutoff_12_16_metric": {
+      "passed": true,
+      "metric": 5.065392549852277e-16,
+      "tolerance": 2e-12
+    },
+    "0.01_plus_cutoff_12_16_Hessian": {
+      "passed": true,
+      "metric": 7.105427357601002e-14,
+      "tolerance": 1e-10
+    },
+    "0.01_plus_positive_gravitational_coefficient": {
+      "passed": true,
+      "metric": 0.2113849096794088
+    },
+    "0.01_plus_positive_full_Einstein_metric": {
+      "passed": true,
+      "metric": 0.04366810002275149
+    },
+    "0.01_plus_Jordan_radion_negative": {
+      "passed": true,
+      "metric": -0.3059242398189091
+    },
+    "0.01_plus_five_positive_potential_directions": {
+      "passed": true
+    },
+    "0.01_plus_four_symmetry_flat_directions": {
+      "passed": true,
+      "metric": 1.2780887895316648e-12,
+      "tolerance": 1e-09
+    },
+    "0.01_plus_generalized_eigen_residual": {
+      "passed": true,
+      "metric": 5.551115123125783e-17,
+      "tolerance": 1e-12
+    },
+    "0.01_plus_canonical_normalization": {
+      "passed": true,
+      "metric": 5.551115123125783e-16,
+      "tolerance": 2e-12
+    },
+    "0.01_plus_cutoff_12_16_masses": {
+      "passed": true,
+      "metric": 3.837208328860697e-15,
+      "tolerance": 1e-09
+    },
+    "0.01_plus_positive_massive_scalar_parameters": {
+      "passed": true,
+      "metric": 0.008154743697945294
+    },
+    "0.01_plus_field_coordinate_mass_invariance": {
+      "passed": true,
+      "metric": 1.1102230246251565e-16,
+      "tolerance": 1e-12
+    },
+    "0.01_plus_Weyl_rank_one_completion": {
+      "passed": true,
+      "metric": 3.3203691532368573e-18,
+      "tolerance": 2e-15
+    },
+    "0.01_plus_charged_pair_degeneracy": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-10
+    },
+    "0.01_plus_neutral_phase_Hessian": {
+      "passed": true,
+      "metric": 1.2780887459484802e-12,
+      "tolerance": 1e-09
+    },
+    "0.01_plus_neutral_gauge_phase_Ward_identity": {
+      "passed": true,
+      "metric": 1.6729239521451333e-16,
+      "tolerance": 2e-12
+    },
+    "0.01_plus_radial_participation_sum": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 2e-13
+    },
+    "0.0001_minus_fixed_c_stationarity": {
+      "passed": true,
+      "metric": 4.263256414560601e-14,
+      "tolerance": 2e-11
+    },
+    "0.0001_minus_flatness": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 2e-12
+    },
+    "0.0001_minus_independent_neutral_assembly": {
+      "passed": true,
+      "metric": 1.1102230246251565e-16,
+      "tolerance": 2e-13
+    },
+    "0.0001_minus_independent_gravity_assembly": {
+      "passed": true,
+      "metric": 2.7755575615628914e-17,
+      "tolerance": 2e-14
+    },
+    "0.0001_minus_neutral_Hessian_preserved": {
+      "passed": true,
+      "metric": 4.263256414560601e-14,
+      "tolerance": 1e-10
+    },
+    "0.0001_minus_inherited_scalar_metric": {
+      "passed": true,
+      "metric": 2.7755575615628914e-17,
+      "tolerance": 3e-13
+    },
+    "0.0001_minus_inherited_charged_curvature": {
+      "passed": true,
+      "metric": 6.402799568750589e-13,
+      "tolerance": 1e-10
+    },
+    "0.0001_minus_cutoff_12_16_metric": {
+      "passed": true,
+      "metric": 1.4155343563970746e-15,
+      "tolerance": 2e-12
+    },
+    "0.0001_minus_cutoff_12_16_Hessian": {
+      "passed": true,
+      "metric": 6.128431095930864e-14,
+      "tolerance": 1e-10
+    },
+    "0.0001_minus_positive_gravitational_coefficient": {
+      "passed": true,
+      "metric": 0.21213745651417434
+    },
+    "0.0001_minus_positive_full_Einstein_metric": {
+      "passed": true,
+      "metric": 0.044235244899226325
+    },
+    "0.0001_minus_Jordan_radion_negative": {
+      "passed": true,
+      "metric": -0.30718048867833414
+    },
+    "0.0001_minus_five_positive_potential_directions": {
+      "passed": true
+    },
+    "0.0001_minus_four_symmetry_flat_directions": {
+      "passed": true,
+      "metric": 4.74293938352643e-13,
+      "tolerance": 1e-09
+    },
+    "0.0001_minus_generalized_eigen_residual": {
+      "passed": true,
+      "metric": 5.551115123125783e-17,
+      "tolerance": 1e-12
+    },
+    "0.0001_minus_canonical_normalization": {
+      "passed": true,
+      "metric": 2.220446049250313e-16,
+      "tolerance": 2e-12
+    },
+    "0.0001_minus_cutoff_12_16_masses": {
+      "passed": true,
+      "metric": 2.573291514769427e-14,
+      "tolerance": 1e-09
+    },
+    "0.0001_minus_positive_massive_scalar_parameters": {
+      "passed": true,
+      "metric": 8.108872433657867e-05
+    },
+    "0.0001_minus_field_coordinate_mass_invariance": {
+      "passed": true,
+      "metric": 1.1102230246251565e-16,
+      "tolerance": 1e-12
+    },
+    "0.0001_minus_Weyl_rank_one_completion": {
+      "passed": true,
+      "metric": 2.763444990417155e-18,
+      "tolerance": 2e-15
+    },
+    "0.0001_minus_charged_pair_degeneracy": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-10
+    },
+    "0.0001_minus_neutral_phase_Hessian": {
+      "passed": true,
+      "metric": 4.742872761198669e-13,
+      "tolerance": 1e-09
+    },
+    "0.0001_minus_neutral_gauge_phase_Ward_identity": {
+      "passed": true,
+      "metric": 3.8496631013171245e-16,
+      "tolerance": 2e-12
+    },
+    "0.0001_minus_radial_participation_sum": {
+      "passed": true,
+      "metric": 2.220446049250313e-16,
+      "tolerance": 2e-13
+    },
+    "0.0001_plus_fixed_c_stationarity": {
+      "passed": true,
+      "metric": 8.526512829121202e-14,
+      "tolerance": 2e-11
+    },
+    "0.0001_plus_flatness": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 2e-12
+    },
+    "0.0001_plus_independent_neutral_assembly": {
+      "passed": true,
+      "metric": 3.3306690738754696e-16,
+      "tolerance": 2e-13
+    },
+    "0.0001_plus_independent_gravity_assembly": {
+      "passed": true,
+      "metric": 1.1102230246251565e-16,
+      "tolerance": 2e-14
+    },
+    "0.0001_plus_neutral_Hessian_preserved": {
+      "passed": true,
+      "metric": 6.938893903907228e-18,
+      "tolerance": 1e-10
+    },
+    "0.0001_plus_inherited_scalar_metric": {
+      "passed": true,
+      "metric": 2.0816681711721685e-17,
+      "tolerance": 3e-13
+    },
+    "0.0001_plus_inherited_charged_curvature": {
+      "passed": true,
+      "metric": 3.0182413100939e-13,
+      "tolerance": 1e-10
+    },
+    "0.0001_plus_cutoff_12_16_metric": {
+      "passed": true,
+      "metric": 6.966649479522857e-15,
+      "tolerance": 2e-12
+    },
+    "0.0001_plus_cutoff_12_16_Hessian": {
+      "passed": true,
+      "metric": 3.0730973321624333e-13,
+      "tolerance": 1e-10
+    },
+    "0.0001_plus_positive_gravitational_coefficient": {
+      "passed": true,
+      "metric": 0.21213745906503276
+    },
+    "0.0001_plus_positive_full_Einstein_metric": {
+      "passed": true,
+      "metric": 0.04423526961700107
+    },
+    "0.0001_plus_Jordan_radion_negative": {
+      "passed": true,
+      "metric": -0.3071805963189036
+    },
+    "0.0001_plus_five_positive_potential_directions": {
+      "passed": true
+    },
+    "0.0001_plus_four_symmetry_flat_directions": {
+      "passed": true,
+      "metric": 5.599966163683753e-13,
+      "tolerance": 1e-09
+    },
+    "0.0001_plus_generalized_eigen_residual": {
+      "passed": true,
+      "metric": 5.551115123125783e-17,
+      "tolerance": 1e-12
+    },
+    "0.0001_plus_canonical_normalization": {
+      "passed": true,
+      "metric": 5.551115123125783e-16,
+      "tolerance": 2e-12
+    },
+    "0.0001_plus_cutoff_12_16_masses": {
+      "passed": true,
+      "metric": 6.572926881595609e-14,
+      "tolerance": 1e-09
+    },
+    "0.0001_plus_positive_massive_scalar_parameters": {
+      "passed": true,
+      "metric": 8.106097819601406e-05
+    },
+    "0.0001_plus_field_coordinate_mass_invariance": {
+      "passed": true,
+      "metric": 2.220446049250313e-16,
+      "tolerance": 1e-12
+    },
+    "0.0001_plus_Weyl_rank_one_completion": {
+      "passed": true,
+      "metric": 2.5770977420212088e-18,
+      "tolerance": 2e-15
+    },
+    "0.0001_plus_charged_pair_degeneracy": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 1e-10
+    },
+    "0.0001_plus_neutral_phase_Hessian": {
+      "passed": true,
+      "metric": 5.59996493620929e-13,
+      "tolerance": 1e-09
+    },
+    "0.0001_plus_neutral_gauge_phase_Ward_identity": {
+      "passed": true,
+      "metric": 1.7539680645384248e-16,
+      "tolerance": 2e-12
+    },
+    "0.0001_plus_radial_participation_sum": {
+      "passed": true,
+      "metric": 3.3306690738754696e-16,
+      "tolerance": 2e-13
+    },
+    "direct_matrix_exponential_radion_scalar_metric": {
+      "passed": true,
+      "metric": 3.83026943495679e-15,
+      "tolerance": 2e-11
+    },
+    "dense_angular_charged_metric": {
+      "passed": true,
+      "metric": 2.1510571102112408e-16,
+      "tolerance": 2e-11
+    },
+    "gravity_gradient_finite_differences": {
+      "passed": true,
+      "metric": 3.0752678181755755e-11,
+      "tolerance": 2e-10
+    },
+    "external_S4_curvature_gravity_normalization": {
+      "passed": true,
+      "metric": 1.1543087596876944e-09,
+      "tolerance": 2e-09
+    },
+    "finite_momentum_derivative_limit": {
+      "passed": true,
+      "metric": 2.0212533457381054e-07,
+      "tolerance": 2e-06
+    },
+    "large_radius_Einstein_Hilbert_reduction": {
+      "passed": true,
+      "metric": 7.985204055649398e-06,
+      "tolerance": 1e-05
+    },
+    "Einstein_potential_Hessian_at_flat_vacuum": {
+      "passed": true,
+      "metric": 6.518559729864516e-09,
+      "tolerance": 3e-07
+    }
+  },
+  "passed": 109,
+  "total": 109,
+  "environment": {
+    "python": "3.14.6",
+    "numpy": "2.4.3",
+    "scipy": "1.18.1",
+    "platform": "macOS-26.3-arm64-arm-64bit-Mach-O"
+  },
+  "input_hashes": {
+    "inputs/common_vacuum_pair.json": "1f28875032cb1fea47858ee4d26929e414fb28f283c3dd6d6b6c3a68e593e13e",
+    "inputs/previous_vacuum_checks.json": "9999b71b8c5f64d27363f4cee6dc9f09cc98997c76073b2ae411d39366c31ee9",
+    "inputs/previous_vacuum_results.json": "39e8d647d7c9a5f0c0244065cad7c076d60a00df9fc7ecf6e3afd050e9e0a27d"
+  }
+}

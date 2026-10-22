@@ -1,0 +1,26 @@
+{
+  "title": "Radion kinetics and scalar mixing in the exact spectral vacuum",
+  "date": "2026-10-22",
+  "prepared_for": "Christopher Michael Baird / ZoraASI",
+  "prepared_with": "OpenAI Codex",
+  "source_repository": "Cbaird26/mqgt-scf-continued",
+  "source_commit": "8ac07febf9b760720b9c5e85898499c7195e2dde",
+  "source_release": "v2026.10.22-exact-coupled-vacuum",
+  "inherited_files_sha256": {
+    "mode_sums.py": "ecb7fa0ee663133bcf31de3f3b5c4001a4df8a71ca277cd06bf18507b4f9bf8a",
+    "vacuum.py": "9b3e50d3c095304a034b72bc9b06e7e719a3b091115727b2a86fa0b3f069225a",
+    "inputs/common_vacuum_pair.json": "1f28875032cb1fea47858ee4d26929e414fb28f283c3dd6d6b6c3a68e593e13e",
+    "inputs/previous_vacuum_results.json": "39e8d647d7c9a5f0c0244065cad7c076d60a00df9fc7ecf6e3afd050e9e0a27d",
+    "inputs/previous_vacuum_checks.json": "9999b71b8c5f64d27363f4cee6dc9f09cc98997c76073b2ae411d39366c31ee9"
+  },
+  "numerical_scope": "Exact internal spectral representations at finite cutoff; two external derivatives in the dynamical action; all eight real lowest-harmonic scalar tangents plus radius.",
+  "counterterms": "Inherited mass term and flatness subtraction assumed to have no independent derivative/curvature contributions.",
+  "review": "Same-session AI-assisted self-audit, no separate-agent referee or external peer review.",
+  "external_publication": false,
+  "environment": {
+    "python": "3.14.6",
+    "numpy": "2.4.3",
+    "scipy": "1.18.1",
+    "matplotlib": "3.10.8"
+  }
+}

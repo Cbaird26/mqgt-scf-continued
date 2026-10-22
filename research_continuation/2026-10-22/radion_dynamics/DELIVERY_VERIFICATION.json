@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-22",
+  "status": "Delivery verification complete",
+  "pdf": {
+    "pages": 8,
+    "compilation": "pdflatex twice without warnings; desktop compiler success",
+    "visual_inspection": "All final pages checked. Pages 1-5 pixel-identical to inspected first rendering; pages 6-8 inspected after figure/layout repair.",
+    "sha256": "b84df1f00c1cbeb67a0394bbc62a225e9db18e33306a87c858301cd678568e32"
+  },
+  "numerical_checks": {
+    "passed": 109,
+    "total": 109,
+    "fresh_extraction_rerun": true,
+    "byte_identical_results": {
+      "results.json": "e9ff510cabab7bb671145b85f27674a799120daefc128d8a7fdfebb76ccd8374",
+      "checks.json": "985e2928f566fe4b7d7a907d3c3ddde5fc4c8b073886700c7af56455c45e95bc"
+    },
+    "tested_sources_and_inputs_match_final_payload": true
+  },
+  "scope": "Exact internal representations, finite numerical cutoffs, two external derivatives; near-cutoff radion is not a certified full-theory pole.",
+  "publication_status": "Local research note and reproducibility bundle; no GitHub publication performed.",
+  "completed_at": "2026-10-22T18:01:18.179616-04:00",
+  "fresh_bundle_build": {
+    "figures_and_tables_byte_identical": true,
+    "latex_compilation": "twice, no warnings",
+    "rendered_pages": 8,
+    "all_rendered_pages_pixel_identical": true
+  },
+  "payload_preservation": "Final sealed payload differs from the freshly reproduced candidate only in this completed delivery record. Numerical code, inputs, results, manuscript sources, figures and delivered PDF are unchanged."
+}

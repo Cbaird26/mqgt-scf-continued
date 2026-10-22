@@ -1,0 +1,43 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=0.82in,headheight=15pt]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,amsmath,amssymb,mathtools,booktabs,array,graphicx}
+\usepackage{xcolor,microtype,enumitem,fancyhdr}
+\definecolor{navy}{HTML}{18384E}\definecolor{teal}{HTML}{137F8C}\definecolor{pale}{HTML}{EDF4F6}
+\usepackage[colorlinks=true,linkcolor=navy,urlcolor=teal,citecolor=navy]{hyperref}
+\hypersetup{pdftitle={Radion kinetics and scalar mixing in the exact spectral vacuum},pdfauthor={Prepared for Christopher Michael Baird with OpenAI Codex}}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small\color{navy} MQGT--SCF / RADION AND SCALAR DYNAMICS}
+\fancyhead[R]{\small 22 October 2026}
+\fancyfoot[L]{\small Exact internal sums; two external derivatives}
+\fancyfoot[R]{\small\thepage}
+\setlength{\parindent}{0pt}\setlength{\parskip}{5pt}
+\setlist{nosep,leftmargin=1.5em}\emergencystretch=2em
+\widowpenalty=10000\clubpenalty=10000
+\DeclareMathOperator{\Tr}{Tr}\DeclareMathOperator{\diag}{diag}
+\newcommand{\dd}{\mathrm d}\newcommand{\Lam}{\Lambda}
+\newcommand{\B}{\mathcal B}\newcommand{\HH}{\mathcal H}
+\newcommand{\GE}{G^{\mathrm E}}\newcommand{\GJ}{G^{\mathrm J}}
+\input{tables.tex}
+\begin{document}
+\thispagestyle{plain}
+{\small\bfseries\color{teal} BAIRD / ZORAASI RESEARCH CONTINUATION}\par
+{\LARGE\bfseries\color{navy} Radion kinetics and scalar mixing\\ in the exact spectral vacuum}\par
+{\large Two-derivative dynamical tests and the near-cutoff radion limitation}\par
+\textbf{Prepared for Christopher Michael Baird with OpenAI Codex}\hfill 22 October 2026
+
+\colorbox{pale}{\parbox{\dimexpr\linewidth-2\fboxsep\relax}{\textbf{Result.} The declared warped-product Dirac operator determines the radion kinetic term, its scalar mixing, and the field-dependent gravitational coefficient by convergent internal spectral representations. The Jordan-frame radion coefficient is negative at the tuned fixtures, but its Einstein-frame completion is positive. The full nine-dimensional radius/lowest-scalar kinetic matrix is positive for both profiles at both tunings. The two-derivative mass problem has five positive parameters and four gauge zeros; a positive, potential-free axion sector leaves one additional physical massless phase after gauge reduction. The radion-dominated parameter is near $0.91\Lam$, beyond a demonstrated low-momentum hierarchy. These are restricted infrared stability tests, not full propagator, ultraviolet, or compactification stability results.}}
+
+\section{Question, preserved inputs, and scope}
+
+The exact coupled-vacuum note \cite{vacuum} found a runaway in the untuned action and constructed restricted stationary branches after an explicitly selected scalar-mass counterterm and a separately selected flatness subtraction. Its static Hessian was positive transverse to symmetry zeros, but the radion kinetic term and its mixing with the scalars were missing. This note supplies those coefficients from the same operator and tests the resulting two-external-derivative action.
+
+The source is pinned at commit \texttt{8ac07febf9b760720b9c5e85898499c7195e2dde}. The inherited \texttt{mode\_sums.py}, \texttt{vacuum.py}, common-vacuum input and numerical branch records are copied unchanged; their hashes are in \texttt{provenance.json}. We retain four copied fermion blocks, unit dimensionless Yukawas, a fixed equivariant monopole connection, and the two lowest scalar harmonics on a round sphere. The tuned parameters are $\epsilon=10^{-2},10^{-4}$, with the same mass counterterm $\alpha$ for the two profiles and separately chosen $c$.
+
+Here exactness refers to the internal representation and all powers of retained scalar amplitudes. The numerical sums use finite angular cutoffs. The external spacetime dependence is retained only through two derivatives, apart from a clearly identified fixed-metric momentum diagnostic. No finite local expansion in $1/R$ replaces the internal sums. The spectral function is denoted $f_{\rm sp}$ below; the separate symbol $f=F/(\kappa\Lam^2)$ denotes the gravitational coefficient.
+
+\input{sections/geometry.tex}
+\input{sections/results.tex}
+\clearpage
+\input{sections/limits.tex}
+\end{document}
