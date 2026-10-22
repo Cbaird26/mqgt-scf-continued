@@ -114,3 +114,32 @@ numerical cutoffs and no universal tail certificate. It computes no new coupled 
 physical scalar pole masses, full anomaly completion, independent normalization, or quantum
 thresholds and running. The measured fine-structure constant remains unexplained. The work
 is AI-assisted and has not undergone external peer review.
+
+## Exact scalar-radius vacuum: instability and tuned stationary branches
+
+- [Publication record and package links](exact_coupled_vacuum/PUBLICATION.md)
+- [Research note (PDF, 7 pages)](exact_coupled_vacuum/Exact_Coupled_Scalar_Radius_Vacuum_2026-10-22.pdf)
+- [Reproduction instructions](exact_coupled_vacuum/README.md) and [LaTeX source](exact_coupled_vacuum/main.tex)
+- [Full assumptions](exact_coupled_vacuum/ASSUMPTIONS.md), [same-session self-audit](exact_coupled_vacuum/REVIEW.md), and [release results and caveats](exact_coupled_vacuum/RELEASE_NOTES.md)
+- [Research prerelease: v2026.10.22-exact-coupled-vacuum](https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.22-exact-coupled-vacuum)
+
+The full finite-background spectral potential retains all powers of the two lowest scalar
+harmonics. The untuned inherited action has a scalar saddle and an analytically established
+unbounded direction with its subtraction fixed. The finite scan and bounded root searches
+do not exclude every metastable extremum. An explicitly chosen positive scalar-mass
+counterterm, common to the two profiles, and a separately selected flatness subtraction
+produce numerically converged coupled stationary branches. Their retained radius/scalar
+Hessian and charged curvature are positive, with gauge/phase flat directions. The exact
+radius shift has the opposite sign from the predecessor's local scalar approximation.
+
+All 51 recorded computational checks pass. A fresh extraction reproduced the numerical
+result files byte-for-byte; the sealed PDF and ZIP are preserved unchanged for publication.
+Preparation-stage statements about local publication status remain historical records.
+
+The counterterm and flatness subtraction are inputs, not predictions or a solution of the
+cosmological constant problem. Finite-cutoff floating-point calculations are not interval
+certificates. Omitted bosonic tadpoles, the radion kinetic metric, full dynamical and
+compactification stability, anomaly dynamics and physical pole masses remain unresolved.
+The assumed potential-free axion leaves one physical phase flat. No measured coupling was
+fitted; the measured fine-structure constant remains unexplained. This AI-assisted research
+has a same-session self-audit, without a separate-agent referee or external peer review.

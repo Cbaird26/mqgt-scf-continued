@@ -39,6 +39,18 @@ spectral determinants on S⁷ and S⁹, not derived.
 
 ## Research continuation — 22 October 2026
 
+**Exact scalar-radius vacuum: instability and tuned stationary branches (next continuation).**
+[Research note and reproducibility package](research_continuation/2026-10-22/exact_coupled_vacuum/PUBLICATION.md)
+evaluates the full spectral potential in the retained lowest scalar harmonics.
+The untuned inherited action has a scalar saddle and an analytic unbounded direction
+at fixed subtraction. With an explicitly chosen scalar-mass counterterm and separately
+selected flatness subtraction, coupled branches have positive retained static curvatures,
+modulo gauge/phase flat directions. The exact radius shift reverses the local approximation.
+The package records 51 passing computational checks and fresh-extraction reproduction.
+These restricted-background results do not establish full dynamical or compactification
+stability or physical pole masses; the measured fine-structure constant remains unexplained.
+**Research prerelease:** [v2026.10.22-exact-coupled-vacuum](https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.22-exact-coupled-vacuum).
+
 **Exact internal mode sums and Higgs-induced neutral kinetics (next continuation).**
 [Research note and reproducibility package](research_continuation/2026-10-22/exact_scalar_mode_sums/PUBLICATION.md)
 computes scalar quadratic, wave-function and quartic coefficients and the full transverse

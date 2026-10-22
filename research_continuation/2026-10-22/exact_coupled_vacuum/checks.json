@@ -1,0 +1,240 @@
+{
+  "checks": {
+    "unbroken_trace_and_radius_derivatives": {
+      "passed": true,
+      "metric": 2.7000623958883807e-13,
+      "tolerance": 4e-12
+    },
+    "common_flat_radius_equation": {
+      "passed": true,
+      "metric": 1.7053025658242404e-13,
+      "tolerance": 1e-11
+    },
+    "inherited_radius_curvature": {
+      "passed": true,
+      "metric": 2.5934809855243657e-13,
+      "tolerance": 3e-12
+    },
+    "origin_scalar_Hessian_from_predecessor": {
+      "passed": true,
+      "metric": 4.440892098500626e-15,
+      "tolerance": 2e-13
+    },
+    "origin_amplitude_metric_from_predecessor": {
+      "passed": true,
+      "metric": 2.0816681711721685e-17,
+      "tolerance": 3e-14
+    },
+    "unbroken_stationary_point_is_scalar_saddle": {
+      "passed": true
+    },
+    "matrix_exponential_vs_eigenvalue_trace": {
+      "passed": true,
+      "metric": 1.4210854715202004e-14,
+      "tolerance": 3e-12
+    },
+    "analytic_gradient_vs_finite_difference": {
+      "passed": true,
+      "metric": 3.731637221449091e-11,
+      "tolerance": 2e-09
+    },
+    "analytic_Hessian_vs_finite_difference": {
+      "passed": true,
+      "metric": 3.5569637191201764e-07,
+      "tolerance": 5e-06
+    },
+    "untuned_scalar_dilation_negative_at_all_scan_points": {
+      "passed": true,
+      "metric": -1.412787439419576e-05
+    },
+    "untuned_large_field_cutoff_controls": {
+      "passed": true,
+      "metric": 5.684341886080802e-14,
+      "tolerance": 3e-09
+    },
+    "bounded_root_search_no_nonzero_solution_found": {
+      "passed": true
+    },
+    "Weyl_large_radius_control_improves": {
+      "passed": true
+    },
+    "analytic_runaway_coefficient_is_negative": {
+      "passed": true,
+      "metric": -6.066415719951657
+    },
+    "plus_profile_runaway_coefficient_is_negative": {
+      "passed": true,
+      "metric": -6.066415354257984
+    },
+    "scalar_radius_slope_step_convergence": {
+      "passed": true,
+      "metric": 2.204833537966522e-15,
+      "tolerance": 2e-12
+    },
+    "untuned_quartic_minimum_is_not_full_action_stationary": {
+      "passed": true,
+      "metric": -23.615805401845712
+    },
+    "supercritical_tuned_bifurcation_quartic_positive": {
+      "passed": true,
+      "metric": 0.05999389471882194
+    },
+    "flat_equations_eps0.01_minus": {
+      "passed": true,
+      "metric": 2.673417043297377e-13,
+      "tolerance": 4e-10
+    },
+    "positive_restricted_Hessian_eps0.01_minus": {
+      "passed": true,
+      "metric": 0.018653864767236586
+    },
+    "positive_charged_curvature_eps0.01_minus": {
+      "passed": true,
+      "metric": 0.0003228914276778075
+    },
+    "positive_scalar_metric_eps0.01_minus": {
+      "passed": true,
+      "metric": 0.043634989774133305
+    },
+    "positive_neutral_metric_eps0.01_minus": {
+      "passed": true,
+      "metric": 0.197961418830079
+    },
+    "vacuum_cutoff_12_to_16_eps0.01_minus": {
+      "passed": true,
+      "metric": 1.3459094949652695e-11,
+      "tolerance": 3e-09
+    },
+    "Hessian_cutoff_12_to_16_eps0.01_minus": {
+      "passed": true,
+      "metric": 4.653166740808956e-12,
+      "tolerance": 3e-10
+    },
+    "flat_equations_eps0.01_plus": {
+      "passed": true,
+      "metric": 2.4436008771999695e-13,
+      "tolerance": 4e-10
+    },
+    "positive_restricted_Hessian_eps0.01_plus": {
+      "passed": true,
+      "metric": 0.01865380389952834
+    },
+    "positive_charged_curvature_eps0.01_plus": {
+      "passed": true,
+      "metric": 0.0003228890792810113
+    },
+    "positive_scalar_metric_eps0.01_plus": {
+      "passed": true,
+      "metric": 0.04363501428877474
+    },
+    "positive_neutral_metric_eps0.01_plus": {
+      "passed": true,
+      "metric": 0.19796148106614397
+    },
+    "vacuum_cutoff_12_to_16_eps0.01_plus": {
+      "passed": true,
+      "metric": 1.2519901781971043e-11,
+      "tolerance": 3e-09
+    },
+    "Hessian_cutoff_12_to_16_eps0.01_plus": {
+      "passed": true,
+      "metric": 4.312106227644108e-12,
+      "tolerance": 3e-10
+    },
+    "fixed_c_stationarity_eps0.01": {
+      "passed": true,
+      "metric": 2.842170943040401e-14,
+      "tolerance": 4e-10
+    },
+    "flat_equations_eps0.0001_minus": {
+      "passed": true,
+      "metric": 5.684341886080802e-14,
+      "tolerance": 4e-10
+    },
+    "positive_restricted_Hessian_eps0.0001_minus": {
+      "passed": true,
+      "metric": 0.00018751746442381446
+    },
+    "positive_charged_curvature_eps0.0001_minus": {
+      "passed": true,
+      "metric": 3.231202590380909e-08
+    },
+    "positive_scalar_metric_eps0.0001_minus": {
+      "passed": true,
+      "metric": 0.04423491602306156
+    },
+    "positive_neutral_metric_eps0.0001_minus": {
+      "passed": true,
+      "metric": 0.1995289486260432
+    },
+    "vacuum_cutoff_12_to_16_eps0.0001_minus": {
+      "passed": true,
+      "metric": 2.1758195939414193e-11,
+      "tolerance": 3e-09
+    },
+    "Hessian_cutoff_12_to_16_eps0.0001_minus": {
+      "passed": true,
+      "metric": 2.2159218904249656e-12,
+      "tolerance": 3e-10
+    },
+    "flat_equations_eps0.0001_plus": {
+      "passed": true,
+      "metric": 8.526512829121202e-14,
+      "tolerance": 4e-10
+    },
+    "positive_restricted_Hessian_eps0.0001_plus": {
+      "passed": true,
+      "metric": 0.00018745340330250345
+    },
+    "positive_charged_curvature_eps0.0001_plus": {
+      "passed": true,
+      "metric": 3.228992836563966e-08
+    },
+    "positive_scalar_metric_eps0.0001_plus": {
+      "passed": true,
+      "metric": 0.04423494085384944
+    },
+    "positive_neutral_metric_eps0.0001_plus": {
+      "passed": true,
+      "metric": 0.19952901605620202
+    },
+    "vacuum_cutoff_12_to_16_eps0.0001_plus": {
+      "passed": true,
+      "metric": 4.578606244143302e-11,
+      "tolerance": 3e-09
+    },
+    "Hessian_cutoff_12_to_16_eps0.0001_plus": {
+      "passed": true,
+      "metric": 3.4863223419279166e-12,
+      "tolerance": 3e-10
+    },
+    "fixed_c_stationarity_eps0.0001": {
+      "passed": true,
+      "metric": 1.4210854715202004e-14,
+      "tolerance": 4e-10
+    },
+    "charged_orientation_analytic_vs_dense_finite_difference": {
+      "passed": true,
+      "metric": 7.548682387720565e-11,
+      "tolerance": 3e-09
+    },
+    "small_epsilon_Schur_limit_approached": {
+      "passed": true
+    },
+    "common_counterterm_can_straddle_local_phase_boundary": {
+      "passed": true
+    }
+  },
+  "passed": 51,
+  "total": 51,
+  "environment": {
+    "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "numpy": "2.4.3",
+    "scipy": "1.18.1",
+    "platform": "macOS-26.3-arm64-arm-64bit-Mach-O"
+  },
+  "input_hashes": {
+    "common_vacuum_pair.json": "1f28875032cb1fea47858ee4d26929e414fb28f283c3dd6d6b6c3a68e593e13e",
+    "previous_scalar_results.json": "12705180792e79ce7121edb2237388f88fd1a823f2f583294d47b10458ddb2aa"
+  }
+}

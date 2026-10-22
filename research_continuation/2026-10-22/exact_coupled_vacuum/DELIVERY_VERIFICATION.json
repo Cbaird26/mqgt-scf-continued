@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-22",
+  "timezone": "America/New_York",
+  "completed_at": "2026-10-22T17:09:07.319960-04:00",
+  "status": "Delivery verification complete",
+  "pdf": {
+    "pages": 7,
+    "final_source_compilation": "pdflatex twice, no warnings",
+    "desktop_compiler": "Project also successfully checked with the desktop compiler before final layout adjustments.",
+    "visual_inspection": "All seven rendered pages inspected; equations, tables, figure, references, page transitions and caveats checked.",
+    "sha256": "ca898789296461ebb2448d38db21728cb88fd62d61e790f08011219125828f04"
+  },
+  "numerical_checks": {
+    "passed": 51,
+    "total": 51,
+    "fresh_extraction_rerun": true,
+    "tested_numerical_payload_matches_final_sources_and_results": {
+      "vacuum.py": true,
+      "mode_sums.py": true,
+      "independent_checks.py": true,
+      "run_all.py": true,
+      "inputs/common_vacuum_pair.json": true,
+      "inputs/previous_scalar_results.json": true,
+      "results.json": true,
+      "checks.json": true
+    },
+    "byte_identical_results": {
+      "results.json": "39e8d647d7c9a5f0c0244065cad7c076d60a00df9fc7ecf6e3afd050e9e0a27d",
+      "checks.json": "9999b71b8c5f64d27363f4cee6dc9f09cc98997c76073b2ae411d39366c31ee9"
+    }
+  },
+  "precision_scope": "Finite-cutoff floating-point evaluation of exact spectral representations; no interval rounding or uniform tail certificate.",
+  "scientific_scope": "Untuned instability and optionally tuned stationary branches within the retained round-radius/lowest-scalar family. Static curvature tests do not establish full bosonic stability or physical pole masses.",
+  "publication_status": "Local research note and reproducibility bundle; not published to GitHub in this task."
+}

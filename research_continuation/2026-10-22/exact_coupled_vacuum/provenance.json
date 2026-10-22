@@ -1,0 +1,34 @@
+{
+  "title": "Exact spectral scalar-radius vacuum: instability and tuned stationary branches",
+  "prepared_for": "Christopher Michael Baird",
+  "prepared_with": "OpenAI Codex, AI-assisted derivation and computation",
+  "date": "2026-10-22",
+  "timezone": "America/New_York",
+  "external_publication": false,
+  "pinned_predecessor": {
+    "repository": "Cbaird26/mqgt-scf-continued",
+    "commit": "12fa25fc3f35b0ea0b65aa870a93fa0c501957d9",
+    "release": "https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.22-exact-scalar-mode-sums",
+    "repository_directory": "research_continuation/2026-10-22/exact_scalar_mode_sums",
+    "bundle_sha256": "413dd59946383a9404975d0683a5c269a231252a8052ea2a1c3b2807aab4b93d"
+  },
+  "unchanged_inputs": {
+    "mode_sums.py": "ecb7fa0ee663133bcf31de3f3b5c4001a4df8a71ca277cd06bf18507b4f9bf8a",
+    "inputs/common_vacuum_pair.json": "1f28875032cb1fea47858ee4d26929e414fb28f283c3dd6d6b6c3a68e593e13e",
+    "inputs/previous_scalar_results.json": "12705180792e79ce7121edb2237388f88fd1a823f2f583294d47b10458ddb2aa"
+  },
+  "earlier_scalar_note": "https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.22-scalar-anomaly-sector",
+  "primary_references": [
+    "https://arxiv.org/abs/hep-th/0306138v3",
+    "https://arxiv.org/abs/1201.6637v1"
+  ],
+  "primary_references_checked": "Versioned arXiv abstract and HTML texts consulted for resummed heat-kernel and spectral-action background. Model-specific derivations and numerical results are new conditional calculations in this package.",
+  "new_work": [
+    "Full finite-background spectral potential and analytic gradient/Hessian.",
+    "Untuned scalar saddle, finite searches, and analytic large-radius runaway at fixed subtraction.",
+    "Coupled flat branches with an explicit common scalar-mass counterterm and separately selected flatness subtraction.",
+    "Restricted radial/neutral/charged static stability, scalar/gauge kinetic positivity, and near-critical profile splitting."
+  ],
+  "review": "Same-session self-audit with independent numerical methods; no separate agent or external peer review.",
+  "scope": "Classical restricted-background spectral action. Extra scalar tuning and flatness prescription are chosen inputs. Higher bosonic tadpoles, radion kinetic metric, full anomaly completion, pole masses, normalization selection, thresholds and running are not computed. Measured fine-structure constant remains unexplained."
+}

@@ -1,0 +1,2 @@
+ca898789296461ebb2448d38db21728cb88fd62d61e790f08011219125828f04  Exact_Coupled_Scalar_Radius_Vacuum_2026-10-22.pdf
+4f7ca65a1a9bc25fd7a83f255c3a16628ac9d24adb72b01c30d5e7ef6d887242  Exact_Coupled_Vacuum_Reproducibility_2026-10-22.zip
