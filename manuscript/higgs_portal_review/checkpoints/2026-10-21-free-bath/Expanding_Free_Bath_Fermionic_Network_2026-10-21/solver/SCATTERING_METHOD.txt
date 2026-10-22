@@ -1,0 +1,91 @@
+EXPANDING FREE-BATH SCATTERING MODULE
+
+Scope
+-----
+The temperature window is T0=0.5 GeV to Tf=1/3 GeV, inherited from the
+declared free-bath source interval. The radiation history is prescribed:
+g*=g*s=60, T*a=T0*a0, and H(T)=sqrt(8*pi^3*60/90)*T^2/M_Pl.
+The initial distributions are zero-chemical-potential Maxwell-Boltzmann
+populations at T0. The two masses are 10 and 11.5 GeV. The included
+scattering amplitudes, fermion masses, bath multiplicities, elastic 1/2,
+and paired conversion counting are inherited from the previous checked
+radial_free_bath.py implementation. No timelike width enters scattering.
+
+Comoving coordinates and closure
+-------------------------------
+Use y=p/T and eta=ln(T0/T)=ln(a/a0). A fixed y cell follows exact
+collisionless redshift when T*a is constant. Its comoving population
+M_a=a^3*n_a/n_eq(T0) is therefore constant in the absence of collisions.
+The implementation introduces no finite-difference advection operator.
+
+The event quadrature is routed onto 192 equal y cells from 0 through 48,
+of width 0.25, followed by a semi-infinite [48,infinity) cell for each
+species. Every quadrature event is assigned to a cell. No finite tail is
+discarded or reflected. Nested coarser grids and shorter tail starts use
+unions of cells and their conductances.
+
+The finite-volume closure reconstructs the distribution inside each cell
+as a multiple of the instantaneous equilibrium shape. It preserves the
+exact cell population under collisionless expansion, but within-cell
+energy/pressure reconstruction is approximate. The supplied independent
+continuum collisionless integral quantifies that observable error; finer
+momentum cells reduce it. At 192 cells, its final collisionless Tkin/T
+error is approximately 0.0127% relatively.
+
+Positive collision generator
+----------------------------
+At each bank temperature, positive equilibrium event weights yield a
+symmetric off-diagonal conductance W. Its Dirichlet matrix is
+D=diag(W*1)-W. Store W/H(T), where the event normalization is total
+n_eq(T). Interpolate these nonnegative conductances linearly in eta.
+Recompute the exact instantaneous equilibrium cell probabilities pi(T)
+at every evolution midpoint. Then the comoving-population generator is
+
+  Q = [W - diag(W*1)] * diag(pi)^(-1),
+  dM/deta = Q M,
+
+where W already includes division by H. Q has nonnegative off-diagonal
+entries, zero column sums, and Q*pi=0. The scattering-only evolution uses
+the exponential of the midpoint generator, evaluated by expm_multiply.
+No clipping or population renormalization is applied.
+
+The final bank has 16 regular eta intervals plus the T=0.4 GeV snapshot
+node (18 temperature nodes total). It reuses the ten original q48 bank
+graphs exactly and adds only the eight missing midpoint temperatures.
+The final event quadrature orders are (q,boost,scattering,direction,azimuth)
+=(48,32,24,24,32). The supplied q40 bank provides the final matched
+quadrature control; the historical q24 pilot is not included.
+All quadrature comparisons should use the common eight-interval bank;
+temperature refinement is assessed separately at fixed quadrature.
+
+Observables
+-----------
+The reported kinetic temperature is Tkin=<p^2/(3E)> for the actual mixture.
+It equals T exactly for Maxwell-Boltzmann momentum shapes at temperature
+T, independently of species fractions. The module also reports the heavy
+fraction, mean total and kinetic energy, physical number density, and
+total-variation distances from (a) the common-fugacity equilibrium mixture
+and (b) Maxwell-Boltzmann momentum shapes with the actual species fractions.
+The latter separates momentum-shape departures from population changes.
+
+For number-changing integration, M_eq=a^3*n_eq(T)*pi(T)/n_eq(T0), not pi
+alone. This module exposes neq(T), cell_data(T,edges), ScatteringBank,
+and observables for the separately implemented combined reaction network.
+
+Reproduction commands
+---------------------
+The package-level reproduce_all.py is the recommended entry point. For
+manual bank reconstruction, run from this directory and set
+OPENBLAS_NUM_THREADS=1 for predictable timing.
+
+python expanding_free_bath.py bank --output bank_q40.npz --bins 192 --ymax 48 --intervals 8 --q 40 --boost 28 --scattering 20 --direction 20 --azimuth 32
+python expanding_free_bath.py bank --output bank_q48_eta16.npz --bins 192 --ymax 48 --intervals 16 --q 48 --boost 32 --scattering 24 --direction 24 --azimuth 32
+python expanding_free_bath.py evolve --bank bank_q48_eta16.npz --output scattering_final.json --steps 192
+
+analyze_scattering.py can independently regenerate the isolated scattering
+refinements from these supplied banks. The final combined-network study
+has its own matched refinements. Older pilot output files are omitted
+from the deliverable because they are not the final numerical result.
+
+All reported refinement differences are empirical sensitivities. They
+are not certified error bounds or physical-QCD uncertainty estimates.

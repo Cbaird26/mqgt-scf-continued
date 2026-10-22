@@ -1,0 +1,13 @@
+CHECKPOINT STORAGE VERIFICATION
+
+A separate directory was populated only from the Git index. The four large
+NPZ files were absent initially. The restoration command reconstructed all
+four and verified each original SHA256. The full checkpoint verifier passed.
+
+Restored and verified: Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/pair_bank.npz
+Restored and verified: Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/pair_bank_eta16.npz
+Restored and verified: Expanding_Free_Bath_Fermionic_Network_2026-10-21/solver/bank_q40.npz
+Restored and verified: Expanding_Free_Bath_Fermionic_Network_2026-10-21/solver/bank_q48_eta16.npz
+PASS: 4 frozen banks verified; 4 restored.
+
+PASS: 3 packages, 114 byte-identical archived members, and all checkpoint checksums.

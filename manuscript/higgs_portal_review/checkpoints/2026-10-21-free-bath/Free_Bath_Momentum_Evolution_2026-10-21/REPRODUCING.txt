@@ -1,0 +1,56 @@
+REPRODUCING THE FIXED-TEMPERATURE FREE-BATH BENCHMARK
+
+The supplied outputs were generated with Python 3.12.14, NumPy 2.3.5,
+SciPy 1.17.0, and Matplotlib 3.10.8. Install the listed dependencies in
+your Python environment if necessary:
+
+  python -m pip install -r requirements.txt
+
+Fast/default reproduction
+-------------------------
+  python reproduce_all.py
+
+This uses the four supplied raw collision graphs and regenerates:
+  - the final momentum-cell evolution and convergence study;
+  - the original and enlarged polynomial-moment comparisons;
+  - the constants in the conditional high-energy tail bound;
+  - the independent forward-generator matrix-exponential check;
+  - report figures/data through build_report.py, when it is included.
+
+The default is fast because it does not repeat the collision integrations.
+It still reruns the evolution, comparisons, and numerical invariant checks.
+Use --skip-report to omit the optional report/figure step.
+
+Full reproduction
+-----------------
+  python reproduce_all.py --full
+
+This first reconstructs all four raw collision graphs, then performs the
+same postprocessing and checks. The raw integrations took approximately
+four minutes in the original environment; runtime depends on hardware.
+
+Both modes resolve paths relative to reproduce_all.py, use the current
+Python interpreter, and set OPENBLAS_NUM_THREADS=1 for child processes.
+No network access is required once the dependencies are installed.
+Outputs are overwritten. Elapsed-time fields and floating-point last
+digits need not reproduce byte-for-byte. Delivery checksums therefore
+describe the delivered files before local regeneration.
+
+Scope and grid
+--------------
+Temperature is held fixed at T=0.4 GeV. The time variable is tau=H(T)*t;
+H is a reference clock, not an evolved expanding background. The model
+uses the declared ideal Maxwell-Boltzmann lepton plus free-quark bath,
+tree Higgs scattering, and fixed g*=60.
+
+Every grid includes a final semi-infinite energy cell. The high-resolution
+raw graph has 192 finite cells per species through x=(E-m_i)/T=24 and a
+last [24,infinity) cell. Exact unions of those cells yield the final
+128-cell-per-species grid through x=16 plus [16,infinity), as well as the
+other nested grids and tail-bin studies. No finite-energy tail is discarded.
+
+The continuum tail theorem is conditional on extending the declared
+scattering-only operator to all momenta. Its zero global gap is distinct
+from the positive eigenvalues of each finite numerical graph. Numerical
+refinement differences quantify tested sensitivities; they are not
+statistical intervals or certified continuum error bounds.

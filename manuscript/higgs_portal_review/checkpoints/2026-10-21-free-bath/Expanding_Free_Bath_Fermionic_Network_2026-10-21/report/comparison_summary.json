@@ -1,0 +1,397 @@
+{
+  "title": "Expanding free-bath evolution with a leading-portal-order fermionic network",
+  "prepared_date": "2026-10-21",
+  "initial_state": "f_i(y, T0)=exp[-sqrt(m_i^2+(T0*y)^2)/T0], T0=0.5 GeV; zero chemical potentials",
+  "background": "gstar=gstar_s=60 prescribed constant; a0=1; T*a=T0; radiation H(T) inherited",
+  "temperature_window_GeV": [
+    0.5,
+    0.3333333333333333
+  ],
+  "elapsed_H_T0_times_t": 0.625,
+  "elapsed_H_T0p4_times_t": 0.4,
+  "evolved_channels": {
+    "scattering": true,
+    "decay_and_inverse": true,
+    "annihilation_and_inverse": true
+  },
+  "kinetic_temperature_definition": "Tkin=P_scalar/n_scalar = <p^2/(3E)>; a moment diagnostic, not an imposed thermal fit",
+  "initial_number_density_GeV3": 1.7005907435801984e-09,
+  "initial_yield_Y": 5.169176010922472e-10,
+  "timelike_higgs_width_GeV": 0.0041,
+  "width_is_new_declared_input": true,
+  "new_assumed_entropy_dof": 60,
+  "total_free_fermion_phi2_width_GeV": 1.137267933443579e-21,
+  "selected_snapshots": [
+    {
+      "T_GeV": 0.5,
+      "eta": 0.0,
+      "scale_factor": 1.0,
+      "comoving_number_relative_to_initial": 1.0,
+      "physical_number_GeV3": 1.7005907435801984e-09,
+      "heavy_fraction": 0.05721459861191631,
+      "mean_total_energy_GeV": 10.88010398389947,
+      "mean_kinetic_energy_GeV": 0.7942820859815953,
+      "Tkin_over_T": 1.0,
+      "total_variation_to_common_fugacity_MB": 0.0,
+      "total_variation_to_same_species_MB": 1.9329072042397596e-19,
+      "minimum_cell_mass": 1.833090844679929e-14,
+      "instantaneous_eq_heavy_fraction": 0.05721459861191631,
+      "instantaneous_eq_Tkin_over_T": 0.9999999999999999,
+      "instantaneous_eq_total_number_relative_to_initial": 1.0,
+      "yield_Y_total": 5.169176010922472e-10,
+      "number_loss_ppm": 0.0,
+      "collisionless_continuum": {
+        "heavy_fraction": 0.057214598611916315,
+        "mean_total_energy_GeV": 10.880103983899472,
+        "mean_kinetic_energy_GeV": 0.7942820859815952,
+        "Tkin_over_T": 0.9999999999999981
+      }
+    },
+    {
+      "T_GeV": 0.44999999999999996,
+      "eta": 0.10536051565782635,
+      "scale_factor": 1.1111111111111112,
+      "comoving_number_relative_to_initial": 0.9999923724138514,
+      "physical_number_GeV3": 1.2397211959176144e-09,
+      "heavy_fraction": 0.052825933688166585,
+      "mean_total_energy_GeV": 10.736164219876185,
+      "mean_kinetic_energy_GeV": 0.6569253193439465,
+      "Tkin_over_T": 0.9268819293460738,
+      "total_variation_to_common_fugacity_MB": 0.041621643878839557,
+      "total_variation_to_same_species_MB": 0.03839836083179571,
+      "minimum_cell_mass": 2.2141890221433365e-14,
+      "instantaneous_eq_heavy_fraction": 0.04171660198526604,
+      "instantaneous_eq_Tkin_over_T": 0.9999999999999997,
+      "instantaneous_eq_total_number_relative_to_initial": 0.12375784217800778,
+      "yield_Y_total": 5.16913658258713e-10,
+      "number_loss_ppm": 7.6275861485841645,
+      "collisionless_continuum": {
+        "heavy_fraction": 0.057214598611916315,
+        "mean_total_energy_GeV": 10.736191449760588,
+        "mean_kinetic_energy_GeV": 0.6503695518427094,
+        "Tkin_over_T": 0.918070732932605
+      }
+    },
+    {
+      "T_GeV": 0.4,
+      "eta": 0.22314355131420976,
+      "scale_factor": 1.25,
+      "comoving_number_relative_to_initial": 0.9999821829655018,
+      "physical_number_GeV3": 8.706869473772816e-10,
+      "heavy_fraction": 0.04536020272573202,
+      "mean_total_energy_GeV": 10.602966224419024,
+      "mean_kinetic_energy_GeV": 0.5349259203304209,
+      "Tkin_over_T": 0.8558607281442583,
+      "total_variation_to_common_fugacity_MB": 0.08307291052946628,
+      "total_variation_to_same_species_MB": 0.07804961402773497,
+      "minimum_cell_mass": 3.276917604633025e-14,
+      "instantaneous_eq_heavy_fraction": 0.02792849331931728,
+      "instantaneous_eq_Tkin_over_T": 1.0000000000000002,
+      "instantaneous_eq_total_number_relative_to_initial": 0.008970587772185772,
+      "yield_Y_total": 5.169083911535158e-10,
+      "number_loss_ppm": 17.817034498213147,
+      "collisionless_continuum": {
+        "heavy_fraction": 0.057214598611916315,
+        "mean_total_energy_GeV": 10.604912750519617,
+        "mean_kinetic_energy_GeV": 0.5190908526017356,
+        "Tkin_over_T": 0.831544212079082
+      }
+    },
+    {
+      "T_GeV": 0.37500000000000006,
+      "eta": 0.2876820724517807,
+      "scale_factor": 1.333333333333333,
+      "comoving_number_relative_to_initial": 0.9999770505217401,
+      "physical_number_GeV3": 7.174202551494892e-10,
+      "heavy_fraction": 0.04176206041280827,
+      "mean_total_energy_GeV": 10.540215456987392,
+      "mean_kinetic_energy_GeV": 0.4775723663681792,
+      "Tkin_over_T": 0.8181925687990017,
+      "total_variation_to_common_fugacity_MB": 0.10579497609300405,
+      "total_variation_to_same_species_MB": 0.10008356633753981,
+      "minimum_cell_mass": 4.1277194399179486e-14,
+      "instantaneous_eq_heavy_fraction": 0.021898112675352417,
+      "instantaneous_eq_Tkin_over_T": 0.9999999999999997,
+      "instantaneous_eq_total_number_relative_to_initial": 0.0018466955483804127,
+      "yield_Y_total": 5.169057381029988e-10,
+      "number_loss_ppm": 22.94947825987048,
+      "collisionless_continuum": {
+        "heavy_fraction": 0.057214598611916315,
+        "mean_total_energy_GeV": 10.544226785554308,
+        "mean_kinetic_energy_GeV": 0.45840488763643283,
+        "Tkin_over_T": 0.7865575752757301
+      }
+    },
+    {
+      "T_GeV": 0.3333333333333333,
+      "eta": 0.4054651081081644,
+      "scale_factor": 1.5,
+      "comoving_number_relative_to_initial": 0.9999684642143806,
+      "physical_number_GeV3": 5.03862848626691e-10,
+      "heavy_fraction": 0.03663215909982854,
+      "mean_total_energy_GeV": 10.441766371954696,
+      "mean_kinetic_energy_GeV": 0.38681813330495574,
+      "Tkin_over_T": 0.7502713380032882,
+      "total_variation_to_common_fugacity_MB": 0.1482975329612004,
+      "total_variation_to_same_species_MB": 0.14156160167199583,
+      "minimum_cell_mass": 6.112870042492246e-14,
+      "instantaneous_eq_heavy_fraction": 0.013409920546294479,
+      "instantaneous_eq_Tkin_over_T": 0.9999999999999998,
+      "instantaneous_eq_total_number_relative_to_initial": 7.734779096792362e-05,
+      "yield_Y_total": 5.169012996895962e-10,
+      "number_loss_ppm": 31.535785619429824,
+      "collisionless_continuum": {
+        "heavy_fraction": 0.057214598611916315,
+        "mean_total_energy_GeV": 10.450718155257793,
+        "mean_kinetic_energy_GeV": 0.36489625733992026,
+        "Tkin_over_T": 0.709060074062349
+      }
+    }
+  ],
+  "final_refinement_sensitivities": {
+    "time96_to192": {
+      "Tkin_over_T": {
+        "coarser": 0.750272067497079,
+        "finer": 0.7502713380032882,
+        "finer_minus_coarser": -7.294937908186583e-07,
+        "relative_change": -9.723066227747343e-07
+      },
+      "heavy_fraction": {
+        "coarser": 0.03663177336505595,
+        "finer": 0.03663215909982854,
+        "finer_minus_coarser": 3.8573477258857514e-07,
+        "relative_change": 1.0529949150345895e-05
+      },
+      "total_variation_to_common_fugacity_MB": {
+        "coarser": 0.14829692813987524,
+        "finer": 0.1482975329612004,
+        "finer_minus_coarser": 6.048213251619305e-07,
+        "relative_change": 4.078431468716152e-06
+      },
+      "total_variation_to_same_species_MB": {
+        "coarser": 0.14156107597411852,
+        "finer": 0.14156160167199583,
+        "finer_minus_coarser": 5.256978773127141e-07,
+        "relative_change": 3.713562654728774e-06
+      },
+      "mean_kinetic_energy_GeV": {
+        "coarser": 0.38681851639076825,
+        "finer": 0.38681813330495574,
+        "finer_minus_coarser": -3.8308581251644824e-07,
+        "relative_change": -9.903512258936294e-07
+      },
+      "annihilation_number_loss_fraction": {
+        "coarser": 3.153793610455313e-05,
+        "finer": 3.1535785619429824e-05,
+        "finer_minus_coarser": -2.150485123308954e-09,
+        "relative_change": -6.819189949033638e-05
+      }
+    },
+    "grid96_to192": {
+      "Tkin_over_T": {
+        "coarser": 0.7505357376664603,
+        "finer": 0.7502713380032882,
+        "finer_minus_coarser": -0.0002643996631721546,
+        "relative_change": -0.0003524053895965246
+      },
+      "heavy_fraction": {
+        "coarser": 0.036631929627195386,
+        "finer": 0.03663215909982854,
+        "finer_minus_coarser": 2.2947263315226119e-07,
+        "relative_change": 6.264239913539119e-06
+      },
+      "total_variation_to_common_fugacity_MB": {
+        "coarser": 0.14827947170819109,
+        "finer": 0.1482975329612004,
+        "finer_minus_coarser": 1.80612530093216e-05,
+        "relative_change": 0.00012179065051639818
+      },
+      "total_variation_to_same_species_MB": {
+        "coarser": 0.14130870918641214,
+        "finer": 0.14156160167199583,
+        "finer_minus_coarser": 0.00025289248558368893,
+        "relative_change": 0.0017864483207081212
+      },
+      "mean_kinetic_energy_GeV": {
+        "coarser": 0.38695755012094146,
+        "finer": 0.38681813330495574,
+        "finer_minus_coarser": -0.00013941681598572675,
+        "relative_change": -0.0003604195459880748
+      },
+      "annihilation_number_loss_fraction": {
+        "coarser": 3.15356080828888e-05,
+        "finer": 3.1535785619429824e-05,
+        "finer_minus_coarser": 1.7753654102392602e-10,
+        "relative_change": 5.629685055778101e-06
+      }
+    },
+    "temperature8_to16": {
+      "Tkin_over_T": {
+        "coarser": 0.7503657120299853,
+        "finer": 0.7502713380032882,
+        "finer_minus_coarser": -9.437402669709716e-05,
+        "relative_change": -0.0001257865280423168
+      },
+      "heavy_fraction": {
+        "coarser": 0.036530055303977356,
+        "finer": 0.03663215909982854,
+        "finer_minus_coarser": 0.00010210379585118279,
+        "relative_change": 0.0027872721226432076
+      },
+      "total_variation_to_common_fugacity_MB": {
+        "coarser": 0.14821075911381598,
+        "finer": 0.1482975329612004,
+        "finer_minus_coarser": 8.677384738442484e-05,
+        "relative_change": 0.0005851334519983403
+      },
+      "total_variation_to_same_species_MB": {
+        "coarser": 0.14149925403119126,
+        "finer": 0.14156160167199583,
+        "finer_minus_coarser": 6.234764080456645e-05,
+        "relative_change": 0.0004404276305733567
+      },
+      "mean_kinetic_energy_GeV": {
+        "coarser": 0.3868676140655591,
+        "finer": 0.38681813330495574,
+        "finer_minus_coarser": -4.948076060334872e-05,
+        "relative_change": -0.00012791737600455143
+      },
+      "annihilation_number_loss_fraction": {
+        "coarser": 3.153520268273091e-05,
+        "finer": 3.1535785619429824e-05,
+        "finer_minus_coarser": 5.829366989118512e-10,
+        "relative_change": 1.848492712205312e-05
+      }
+    },
+    "tail40_to48": {
+      "Tkin_over_T": {
+        "coarser": 0.7502713380433499,
+        "finer": 0.7502713380032882,
+        "finer_minus_coarser": -4.0061731709784e-11,
+        "relative_change": -5.339632434367155e-11
+      },
+      "heavy_fraction": {
+        "coarser": 0.036632159100016874,
+        "finer": 0.03663215909982854,
+        "finer_minus_coarser": -1.8833545833985e-13,
+        "relative_change": -5.1412601104566485e-12
+      },
+      "total_variation_to_common_fugacity_MB": {
+        "coarser": 0.14829753296113551,
+        "finer": 0.1482975329612004,
+        "finer_minus_coarser": 6.48925357893404e-14,
+        "relative_change": 4.375833804755097e-13
+      },
+      "total_variation_to_same_species_MB": {
+        "coarser": 0.14156160167196227,
+        "finer": 0.14156160167199583,
+        "finer_minus_coarser": 3.3556490919295356e-14,
+        "relative_change": 2.370451487052764e-13
+      },
+      "mean_kinetic_energy_GeV": {
+        "coarser": 0.38681813333439863,
+        "finer": 0.38681813330495574,
+        "finer_minus_coarser": -2.9442892568454226e-11,
+        "relative_change": -7.611559550452186e-11
+      },
+      "annihilation_number_loss_fraction": {
+        "coarser": 3.153578561876369e-05,
+        "finer": 3.1535785619429824e-05,
+        "finer_minus_coarser": 6.661338147750939e-16,
+        "relative_change": 2.112310829398446e-11
+      }
+    },
+    "quadrature40_to48_at_temperature8": {
+      "Tkin_over_T": {
+        "coarser": 0.7503547095316626,
+        "finer": 0.7503657120299853,
+        "finer_minus_coarser": 1.1002498322643106e-05,
+        "relative_change": 1.466284792368476e-05
+      },
+      "heavy_fraction": {
+        "coarser": 0.03653246476219937,
+        "finer": 0.036530055303977356,
+        "finer_minus_coarser": -2.409458222010774e-06,
+        "relative_change": -6.595824183568742e-05
+      },
+      "total_variation_to_common_fugacity_MB": {
+        "coarser": 0.14819364668993618,
+        "finer": 0.14821075911381598,
+        "finer_minus_coarser": 1.7112423879805938e-05,
+        "relative_change": 0.00011546006499207481
+      },
+      "total_variation_to_same_species_MB": {
+        "coarser": 0.1415077870236902,
+        "finer": 0.14149925403119126,
+        "finer_minus_coarser": -8.532992498949676e-06,
+        "relative_change": -6.0304151830148264e-05
+      },
+      "mean_kinetic_energy_GeV": {
+        "coarser": 0.3868617569753963,
+        "finer": 0.3868676140655591,
+        "finer_minus_coarser": 5.857090162764145e-06,
+        "relative_change": 1.513977895749008e-05
+      },
+      "annihilation_number_loss_fraction": {
+        "coarser": 3.1535217152378614e-05,
+        "finer": 3.153520268273091e-05,
+        "finer_minus_coarser": -1.4469647702242128e-11,
+        "relative_change": -4.5884111948853576e-07
+      }
+    }
+  },
+  "refinement_changes_are_certified_errors": false,
+  "numerical_controls": {
+    "full_final": {
+      "positive_populations": true,
+      "max_linear_number_error": 3.3306690738754696e-16,
+      "maximum_number_increase": -5.79519254806371e-08
+    },
+    "full_time96": {
+      "positive_populations": true,
+      "max_linear_number_error": 3.3306690738754696e-16,
+      "maximum_number_increase": -2.882840616225124e-07
+    },
+    "full_grid96": {
+      "positive_populations": true,
+      "max_linear_number_error": 3.3306690738754696e-16,
+      "maximum_number_increase": -5.795155211263392e-08
+    },
+    "full_temperature8": {
+      "positive_populations": true,
+      "max_linear_number_error": 3.3306690738754696e-16,
+      "maximum_number_increase": -5.79514610743459e-08
+    },
+    "full_tail40": {
+      "positive_populations": true,
+      "max_linear_number_error": 2.220446049250313e-16,
+      "maximum_number_increase": -5.79519253696148e-08
+    },
+    "scattering_and_decay": {
+      "positive_populations": true,
+      "max_linear_number_error": 3.3306690738754696e-16,
+      "maximum_number_increase": 3.3306690738754696e-16,
+      "conserved_number_error": 2.220446049250313e-15
+    },
+    "scattering_only": {
+      "positive_populations": true,
+      "max_linear_number_error": 3.3306690738754696e-16,
+      "maximum_number_increase": 2.220446049250313e-16,
+      "conserved_number_error": 2.886579864025407e-15
+    },
+    "full_quadrature40_temperature8": {
+      "positive_populations": true,
+      "max_linear_number_error": 2.220446049250313e-16,
+      "maximum_number_increase": -5.79515152532295e-08
+    }
+  },
+  "not_computed": [
+    "interacting QCD response",
+    "general scalar self-interaction sector",
+    "loop-induced gluonic channels",
+    "early-time preparation before T0",
+    "physical relic abundance",
+    "apparatus response"
+  ],
+  "gap_scope": "Previous zero-gap theorem applies to its fixed-bath scattering operator; no spectral-gap theorem is asserted here for the nonlinear time-dependent system"
+}

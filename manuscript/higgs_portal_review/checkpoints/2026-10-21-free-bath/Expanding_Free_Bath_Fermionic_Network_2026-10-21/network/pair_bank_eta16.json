@@ -1,0 +1,8 @@
+{
+  "width_GeV": 0.0041,
+  "radial_order": 4,
+  "angular_order": 24,
+  "units": "GeV^-2, conditional equilibrium cell average of sigma*v_M",
+  "elapsed_seconds": 19.88798751699869,
+  "inverse_source": "same kernel at exact instantaneous zero-mu equilibrium cell masses"
+}

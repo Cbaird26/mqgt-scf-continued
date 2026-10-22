@@ -1,0 +1,61 @@
+{
+  "model": "ideal MB leptons plus five free Dirac-quark species; tree Higgs exchange; gstar60",
+  "baseline_commit": "994e51cb28b51ade500bb0e1902f3b082ef8e594",
+  "basis": "12 symmetry-reduced representatives: scalar6, vector4, tensor2 (full angular degeneracies not counted)",
+  "rows": [
+    {
+      "T_GeV": 0.3333333333333333,
+      "resolution": {
+        "q": 48,
+        "boost": 12,
+        "scattering": 12,
+        "direction": 4,
+        "azimuth": 8
+      },
+      "full_baseline_matrix_relative_Frobenius_error": 7.139145922639039e-13,
+      "counts_over_H": 1.3872959371539118,
+      "old_scalar_over_H": 0.29499307271035197,
+      "new_scalar_over_H": 0.2835536632801102,
+      "old_drift_over_H": 0.1879001542567123,
+      "new_drift_over_H": 0.18501871232927208,
+      "new_quadrupole_over_H": 0.33668418556972457
+    },
+    {
+      "T_GeV": 0.4,
+      "resolution": {
+        "q": 80,
+        "boost": 20,
+        "scattering": 20,
+        "direction": 6,
+        "azimuth": 12
+      },
+      "full_baseline_matrix_relative_Frobenius_error": 9.632043029080981e-14,
+      "counts_over_H": 2.974745764989972,
+      "old_scalar_over_H": 0.7881810313736504,
+      "new_scalar_over_H": 0.7478488840672437,
+      "old_drift_over_H": 0.52160808443111,
+      "new_drift_over_H": 0.5105866365485211,
+      "new_quadrupole_over_H": 0.9208032797033372
+    },
+    {
+      "T_GeV": 0.5,
+      "resolution": {
+        "q": 48,
+        "boost": 12,
+        "scattering": 12,
+        "direction": 4,
+        "azimuth": 8
+      },
+      "full_baseline_matrix_relative_Frobenius_error": 6.089693037211805e-13,
+      "counts_over_H": 7.388707812351608,
+      "old_scalar_over_H": 2.554191775433329,
+      "new_scalar_over_H": 2.387180106830301,
+      "old_drift_over_H": 1.8001406439848893,
+      "new_drift_over_H": 1.7486462661066076,
+      "new_quadrupole_over_H": 3.1030072317222586
+    }
+  ],
+  "full_spectral_gap_lower_bound": null,
+  "QCD_medium_calculated": false,
+  "all_baseline_and_interlacing_checks_passed": true
+}

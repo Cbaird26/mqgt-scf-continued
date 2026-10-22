@@ -1,0 +1,341 @@
+INDEPENDENT INTERNAL REVIEW: EXPANDING FREE-BATH CONTINUATION
+Prepared 2026-10-21; AI-assisted mathematical and implementation review.
+
+STATUS
+------
+Design, reaction-normalization, scattering, combined-network evolution,
+and final numerical-output review completed. No concrete implementation
+or normalization defect was found within the declared benchmark scope.
+This is internal verification, not external scientific peer review.
+
+1. Scope and clock
+------------------
+Use the inherited two-scalar masses and portal vertices, the declared ideal
+Maxwell-Boltzmann fermion bath, and constant g*=g*s=60. The primary diagnostic
+window is T0=0.5 GeV to Tf=1/3 GeV, with T=0.4 GeV retained as a snapshot.
+The initial zero-chemical-potential MB distribution is a specified initial
+preparation. It is not evidence that the reaction network dynamically
+established chemical equilibrium before the start.
+
+For constant entropy degrees of freedom, a=T0/T and eta=ln(a). With y=p/T,
+free streaming preserves y. The homogeneous equation in these coordinates is
+
+  partial_eta f_i(y,eta) = collision_i[f;T]/H(T),
+
+where collision_i is defined per unit bath-frame time. If a Lorentz-invariant
+collision term C_i is used instead, collision_i=C_i/E_i. These conventions
+must not be mixed.
+
+2. Comoving cell masses and scattering
+--------------------------------------
+Let n0 be the total physical equilibrium scalar density at T0, a0=1.
+Define M_a=a^3*n_a/n0 for a fixed y-cell a. In a collisionless run every M_a
+is constant. This is the exact cell-mass statement of cosmological redshift.
+Physical number density is n0*a^-3*sum_a M_a.
+
+The instantaneous equilibrium physical cell densities n_eq,a(T) determine
+both the normalized shape pi_a(T)=n_eq,a/n_eq,total and the absolute reference
+M_eq,a=a^3*n_eq,a/n0. Their distinction is essential for annihilation.
+
+If D(T) is the inherited equilibrium scattering Dirichlet matrix divided
+by n_eq,total, the forward mass generator in eta is
+
+  Q(T) = -D(T)*diag(pi(T))^(-1)/H(T).
+
+Its off-diagonal entries are nonnegative, its column sums vanish, and
+Q*pi=0. The scattering equation dM/deta=Q*M preserves total comoving
+number. Decay/inverse-decay transitions with one scalar on either side
+can be added to the same reversible construction.
+
+Evolving M avoids an extra moving-reference term. If relative occupations
+g=M/pi(T) are evolved instead, their derivative must include
+-g*partial_eta ln(pi). Simply reusing the fixed-temperature equation for g
+would incorrectly hold the reference equilibrium fixed.
+
+A safe temperature interpolation linearly interpolates nonnegative
+conductances in D/H, reconstructs the diagonal from their row sums, and
+uses pi(T) integrated at the current temperature. This preserves the
+reversible graph structure and instantaneous equilibrium exactly at the
+matrix level. Interpolation is still a numerical approximation and needs
+its own temperature-node refinement check.
+
+3. Pair annihilation and inverse production
+-------------------------------------------
+The interaction is L_int=-(v/2)*h*sum_ij K_ij*phi_i*phi_j, with symmetric
+K and vertex -i*v*K_ij. Its spin-averaged fermion scattering amplitude
+crosses to the spin/color-summed annihilation amplitude
+
+  |M_ij->f fbar|^2 =
+    2*Nc*K_ij^2*mf^2*(s-4mf^2) / [(s-mh^2)^2+mh^2*Gamma_h^2].
+
+There is no factor 4 for fermion bath spin/charge in this annihilation
+amplitude: the final spins are already summed, the final f and fbar are
+one distinct pair, and color is counted once.
+
+For isotropic final angles and scalar initial states,
+
+  sigma_ijf(s) = Nc*K_ij^2*mf^2*(s-4mf^2)^(3/2)
+    / [8*pi*sqrt(s)*sqrt(lambda(s,mi^2,mj^2))*Den(s)],
+
+where Den is the propagator denominator above. Multiplication by the
+Moller velocity sqrt(lambda)/(2*E_i*E_j) gives the smooth threshold kernel
+
+  sigma*v_M = Nc*K_ij^2*mf^2*(s-4mf^2)^(3/2)
+    / [16*pi*sqrt(s)*E_i*E_j*Den(s)].
+
+This must be set to zero below final threshold. At equal initial masses
+and in their center-of-momentum frame, it reduces to
+Nc*K^2*mf^2*beta_f^3/[4*pi*Den], a useful normalization check.
+
+Let A_ab(T) be the equilibrium-conditional average of sigma*v_M over
+initial momentum cells a,b and relative orientation (1/2 integral dc).
+It is symmetric under exchanging a and b. Classical detailed balance gives
+the cell equation
+
+  dM_a/deta|ann = (n0*a^-3/H) sum_b A_ab
+                   * [M_eq,a*M_eq,b - M_a*M_b].
+
+The inverse source therefore uses the absolute M_eq, not pi alone. At
+fixed T this term vanishes exactly on M=M_eq. At M_a=0 it is nonnegative,
+so the continuous finite-cell system is quasipositive. Summing cell masses
+recovers the usual number-density annihilation/inverse equation for
+thermal shapes.
+
+No extra 1/2 belongs in this per-particle loss equation for identical
+initial scalars or a=b. Identical-pair event counting contains 1/2 but
+each event removes two scalars. For distinct cells a,b, the reaction
+contributes once to the derivative of each cell, again removing two total.
+An unordered-pair implementation must implement this stoichiometry
+explicitly; an ordered full matrix implementation already includes it.
+
+4. Timelike pole and the new width input
+----------------------------------------
+The zero-width spacelike propagator cannot be used globally after crossing:
+the s-channel pole at s=mh^2 makes its exact all-momentum thermal integral
+divergent, even at temperatures where the resonant population is tiny.
+Missing the pole with finite quadrature does not resolve that issue.
+
+The parent calculation has explicitly chosen Gamma_h=0.0041 GeV as an
+additional benchmark input, sourced to the PDG 2025 Higgs review. The
+fixed-width resonance prescription must be declared in the new model
+metadata. No separate on-shell Higgs population/process should be added
+to the same inclusive ffbar annihilation kernel without subtraction of
+real intermediate states. A width sensitivity or a conservative resonant
+tail estimate is appropriate if the chosen thermal window makes that
+assumption immaterial in practice.
+
+5. Collisionless and equilibrium observable controls
+----------------------------------------------------
+The comoving collisionless initial distribution is exactly
+
+  f0_i(y)=exp[-sqrt(mi^2+T0^2*y^2)/T0].
+
+At a later T, integrate this same f0(y) against sqrt(mi^2+T^2*y^2) for
+mean energy and against T^2*y^2/[3*sqrt(mi^2+T^2*y^2)] for pressure per
+particle. These direct continuum integrals independently test redshift.
+
+Define Tkin=<p^2/(3E)> over the actual distribution. Any relativistic
+classical MB distribution at temperature T has Tkin=T, by integration
+by parts. This identity holds for a mixture too. It gives a clean kinetic
+equilibrium diagnostic. Mean (E-m)/T has additional relativistic corrections.
+
+Cell masses alone do not determine arbitrary within-cell observables.
+Using the current-equilibrium conditional shape within a cell is a
+declared closure. It causes a finite-cell error even in a collisionless
+run, because the actual collisionless shape retains f0(y). Compare to
+the direct continuum control and show grid convergence rather than
+calling this conditional reconstruction exact free streaming.
+
+6. Required numerical evidence
+------------------------------
+Verify positive cell masses, comoving-number conservation for scattering
+and decay, instantaneous equilibrium cancellation of each kernel, and
+agreement of pair-loss normalization with an independent thermal integral.
+Compare grid, collision quadrature, temperature-table interpolation, and
+time integration refinements only to the accuracy needed for the stated
+observables. Changing total abundance requires a declared n0; normalized
+shape evolution alone cannot predict annihilation.
+
+The previous conditional zero-gap theorem applies to the previous
+globally extended scattering-only fixed-bath operator. It is not a global
+gap theorem for this time-dependent nonlinear reaction network.
+
+7. Primary methodological source
+--------------------------------
+Binder, Bringmann, Gustafsson, and Hryczuk, arXiv:1706.07433v3,
+https://arxiv.org/html/1706.07433v3, section II: expanding phase-space
+Boltzmann equation, annihilation/inverse-production term, and relation
+to number-density evolution. New benchmark values and discrete matrices
+here are separate calculations, not results quoted from that paper.
+
+8. Initial scattering implementation audit
+------------------------------------------
+Reviewed solver/expanding_free_bath.py. The energy-to-y routing retains the
+previous explicit-boost scattering measure, fermion spin/charge and color
+factors, elastic factor 1/2, and single paired conversion convention.
+Conductance aggregation P^T W P with its within-cell diagonal then removed
+is equivalent to aggregating the Dirichlet form. Reconstructing the
+diagonal and dividing columns by exact current pi implements the forward
+mass generator with the correct orientation. The exponential midpoint
+step divides by H once, through the stored conductance units.
+
+The current-y cell metric and energy, kinetic-energy, and pressure moments
+use the correct T^3*y^2 phase measure. The tail is integrated from its
+true kinetic-energy boundary to infinity. Current-equilibrium conditional
+observable reconstruction is explicitly labeled as a cell closure.
+
+The independent verify_background.py checks the equilibrium cell metric
+against exact Bessel-K2 species fractions and the MB pressure identity.
+All errors at T=.5,.4,1/3 and grids48,96,192 are below2.3e-16.
+The direct continuum collisionless controls give Tkin/T=.8315442121 at
+T=.4 and .7090600741 at T=1/3. At the latter point the current-equilibrium
+cell-closure relative errors are0.20278%,0.05088%,0.01273% on those three
+grids. Their factor-of-four decrease is consistent with the tested smooth
+observable reconstruction; it is not a general certified error bound.
+
+The elapsed physical time across the declared window is
+H(T0)*Delta_t=[(T0/Tf)^2-1]/2=.625, or H(.4)*Delta_t=.4.
+Eta=ln1.5=.405465 is a different dimensionless coordinate from the
+previous fixed-temperature tau=H_ref*t.
+
+No concrete normalization, generator, metric, or redshift-coordinate
+defect was found in this initial implementation review.
+
+9. Pair and decay implementation audit
+--------------------------------------
+Reviewed network/pair_annihilation.py. Positive normalized MB quadratures
+within each y-cell, the relative-angle factor1/2, spin/color-summed
+sigma*v_M, and the symmetric conditional pair matrix agree with section3.
+The inverse source uses the same matrix and absolute M_eq. No duplicate
+initial-pair symmetry factor is present.
+
+The positivity-preserving exponential midpoint step is second order.
+Its predictor supplies M_mid=M+(h/2)f(M)+O(h^2). Freezing the linear loss
+at M_mid for the full step yields the exact h^2*Jf/2 Taylor coefficient
+for f=S-diag(M) A M with constant midpoint coefficients. Positive source
+and survival factors preserve nonnegative populations. Fixed-temperature
+M=M_eq is an exact stationary solution up to floating-point rounding.
+
+The T0=.5 radial4/angular24 conditional-kernel thermal contraction is
+1.567578642368373e-14 GeV^-2; the independent invariant integral gives
+1.567578642368371e-14 GeV^-2. The relative difference is1.1e-15.
+The lower radial2/angular12 contraction differs by2.5e-12 relatively.
+This confirms the absolute density, angular, spin, and identical-pair
+normalization of the thermally occupied part of the kernel.
+
+Reviewed network/reaction_rates.py. Its q=sqrt(s) thermal-average prefactor
+and the change to w=(q-q0)/T are correct. The global propagator bound
+Den>=(mh*Gamma_h)^2, lambda*sigma<=constant*q^4, and monotonicity of
+exp(q/T)K1(q/T) give the stated positive remote-tail bound. It includes
+the narrow Higgs pole even though the main quadrature stops below it.
+
+Reviewed network/decay_graph.py and build_decay_bank.py. The three-body
+phase-space coefficient128*pi^3, time dilation M/E, and exact daughter
+uniform-angle CDF are correct. A single forward21 equilibrium histogram
+and its symmetric reverse conductance include inverse absorption once.
+This graph conserves total scalar number. Physical GeV conductances are
+explicitly tagged as not divided by H.
+
+10. Combined-network evolution audit
+-------------------------------------
+Reviewed network/evolve_network.py. The comoving density prefactor,
+absolute moving equilibrium source, yield normalization, pair-matrix
+coarse-graining with current equilibrium cell weights, and forward
+generator orientation all match this review's formulas. Decay
+conductances are divided by H once at their table nodes, before
+interpolation; scattering conductances already carry that division.
+
+The pair-half/linear-full/pair-half sequence holds every external
+coefficient at the common time midpoint. With the second-order positive
+pair solver and exact finite linear exponential, it is a second-order
+splitting for the nonautonomous cell system. Time-step convergence is
+still required; positivity does not certify time or quadrature accuracy.
+
+The temperature-stride code correctly interprets one extra T=.4 node
+beside a regular eta grid. For matching16-interval banks, stride2 gives
+matching8-interval banks. If reaction and scattering tables have different
+original resolutions, reporting must name those differences explicitly.
+
+The independent verify_banks.py checks the original count contrast at
+T=.4 after the change from x to y bins. q24,q40,q48 agree with the inherited
+2.97474576498998 H diagnostic to5.3e-11,4.7e-12,2.2e-12 relatively.
+Number-null matrix residuals are below4.2e-16, with Q*pi residuals below
+3.7e-17. These checks separate normalization and matrix identities from
+the observable convergence study.
+
+11. Additional scalar-sector scope audit
+-----------------------------------------
+Reviewed network/scalar_exchange_audit.py and NETWORK_AUDIT.txt. For this
+rank-one sign pattern K_ij=K*r_i*r_j, all s/t/u exchange products have a
+common external-species sign. Their interference is retained correctly.
+The final identical-scalar symmetry factor, lambda*sigma formula,
+tagged-particle rate convention, and equilibrium event reciprocity are
+consistent. The tail bound follows from t,u<=(mi-mj)^2<=Delta_m^2,
+the finite timelike width, and sqrt(lambda_initial*lambda_final)<=s^2.
+
+Those O(K^4) scalar-only reactions are a diagnostic rather than part of
+the evolved O(K^2) fermionic channel set. The note correctly distinguishes
+their equilibrium rates from a bound on the nonthermal history and from
+unknown independent scalar quartic/cubic interactions. No completeness
+claim about the full scalar sector or physical QCD is supported here.
+
+12. Final combined numerical-output review
+------------------------------------------
+Reviewed analyze_network.py, results/convergence_summary.json, and the
+final and channel-control outputs. All final reaction and scattering
+banks use the same 16 regular eta intervals plus the T=.4 snapshot.
+The quadrature40-to48 comparison instead uses the same 8-interval grid
+on both sides; it does not confound quadrature and temperature refinement.
+The tail40-to48 comparison aggregates the fine grid's high-y cells into
+one semi-infinite cell, retaining their population and interactions.
+
+At Tf=1/3 GeV the final 192-cell, 192-step result is
+
+  comoving number / initial = 0.9999684642143806,
+  annihilation number loss  = 3.153578561943e-5 = 31.5357856 ppm,
+  Tkin/T                    = 0.7502713380032882,
+  heavy-species fraction    = 0.03663215909982854.
+
+The instantaneous MB heavy fraction is 0.01340992054629448. The continuum
+collisionless Tkin/T control is 0.709060074062349. Thus scattering partly
+offsets cooling from redshift, while the evolved kinetic pressure and
+species composition still depart substantially from instantaneous MB.
+
+Endpoint absolute relative changes between the stated refinements,
+expressed as percentages, are:
+
+  refinement                     Tkin/T       heavy       number loss
+  time 96 -> 192                 0.00009723   0.001053    0.006819
+  momentum cells 96 -> 192       0.03524      0.0006264   0.0005630
+  temperature intervals 8 -> 16  0.01258      0.2787      0.001848
+  quadrature 40 -> 48, 8 intervals
+                                 0.001466     0.006596    0.00004588
+  tail boundary y=40 -> 48       5.34e-9      5.14e-10   2.11e-9
+
+The last column divides by the depleted fraction 1-N, not by the nearly
+unit remaining N.
+analyze_network.py implements this normalization correctly. The largest
+tested changes are 0.03524% of Tkin/T, 0.2787% of the heavy fraction, and
+0.006819% of the annihilation loss. These are empirical sensitivities,
+not certified error bars. Reporting 0.7503, 0.0366, and 31.54 ppm avoids
+implying that the many stored decimal places are independently accurate.
+
+All evolved cell masses stayed positive without clipping. The largest
+single linear-step number discrepancy in the final run was 3.33e-16.
+With annihilation disabled, total comoving-number errors were 2.22e-15
+for scattering plus decay and 2.89e-15 for scattering alone. Their final
+Tkin/T values were 0.7502711214 and 0.7502759516, and heavy fractions
+0.03663220251 and 0.03666502146, respectively. Decay changes the heavy
+fraction slightly while preserving total dark-scalar number. The observed
+number decrease in the full run is specific to this initial condition;
+inverse production means monotonic decrease is not a general theorem.
+
+The tiny annihilation effect is conditional on the initial density
+n0=1.7005907435801984e-9 GeV^3. Equilibrium annihilation loss/H is already
+about 1.01e-4 at T0=.5 GeV, so this integration cannot establish the
+earlier origin of its imposed zero-mu initial population or determine a
+physical relic abundance. Free-quark decay/scattering, constant g*,
+unresolved independent scalar couplings, and omitted higher-portal-order
+scalar reactions remain scope limitations, separately from numerical
+resolution. The former fixed-temperature zero-gap argument is not a
+theorem about this time-dependent nonlinear evolution.

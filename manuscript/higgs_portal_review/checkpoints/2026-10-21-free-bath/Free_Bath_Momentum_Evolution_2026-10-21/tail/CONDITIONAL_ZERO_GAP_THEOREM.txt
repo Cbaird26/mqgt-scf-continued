@@ -1,0 +1,222 @@
+CONDITIONAL ZERO-GAP THEOREM
+For the globally extended vacuum-tree, free-bath scattering-only model
+2026-10-21
+
+Status and scope
+----------------
+This note proves a mathematical property of the hypothetical operator
+obtained by using the declared massive-propagator tree amplitude at every
+momentum, with a fixed ideal Maxwell-Boltzmann bath and only the included
+2-to-2 scalar-fermion scattering channels.
+
+Under those explicit assumptions, its uniform L2 equilibrium spectral gap,
+defined after removing the common-number direction, is exactly zero.
+The same conclusion already holds in the isotropic radial sector.
+
+This is not a claim that the physical theory is valid at arbitrarily high
+energy, that QCD has zero gap, that a particular cosmological preparation
+cannot thermalize, or that finite-time bulk relaxation is absent.
+
+1. Model and collision frequency
+--------------------------------
+Let the test species i have energy E_i=sqrt(|p|^2+m_i^2), and let a bath
+fermion f have energy epsilon=sqrt(|k|^2+m_f^2). For the channel
+
+  s_i + f -> s_j + f,
+
+use the initial-spin-averaged matrix element
+
+  |M_ijf(t)|^2 = K_ij^2*m_f^2*(4*m_f^2-t)/(m_h^2-t)^2,  t<=0.
+
+The exact spacelike property follows from t=(k-k')^2 and the equal
+positive incoming/outgoing bath masses. The massive propagator is
+retained; a contact approximation is not used.
+
+The bath-frame collision frequency is
+
+  nu_i(p) = sum_(f,j) g_f * integral d^3k/(2*pi)^3
+            exp(-epsilon/T) * v_M(p,k) * sigma_ijf(s),
+
+where g_f=4*N_c includes two spin states, both charges, and the quark
+color multiplicity N_c. The final-species sum contains the elastic and
+conversion channels from the fixed initial species. Closed channels
+contribute zero.
+
+In the center-of-momentum frame let a and b be the incoming and outgoing
+three-momentum magnitudes. Then
+
+  lambda_i(s) = 4*s*a^2,
+  v_M = sqrt(lambda_i)/(2*E_i*epsilon)
+      = sqrt(s)*a/(E_i*epsilon),
+  sigma_ijf = integral_(t_minus)^(t_plus) |M_ijf(t)|^2 dt
+              / (16*pi*lambda_i),
+  t_plus-t_minus = 4*a*b.
+
+These conventions agree with cross_section(), reduced_kernel(), and
+t_limits() in the inherited leptonic_conversion_scattering.py.
+
+2. A uniform bound on the amplitude
+-----------------------------------
+Put u=-t>=0, A=4*m_f^2, and B=m_h^2. Direct differentiation gives
+
+  d/du [(A+u)/(B+u)^2] = (B-2*A-u)/(B+u)^3.
+
+Consequently a global amplitude bound is
+
+  Mmax_ijf =
+    K_ij^2*m_f^2/[4*(m_h^2-4*m_f^2)], if m_h^2>=8*m_f^2;
+    4*K_ij^2*m_f^4/m_h^4,           if m_h^2<8*m_f^2.
+
+Here Mmax denotes the maximum of |M|^2, not of |M|.
+The two expressions agree at equality. All included bath species in the
+benchmark satisfy the first branch.
+
+3. Collision-frequency bound
+----------------------------
+The amplitude bound and t-interval width imply
+
+  v_M*sigma_ijf
+    <= [sqrt(s)*a/(E_i*epsilon)]
+       * [4*a*b*Mmax_ijf/(16*pi*4*s*a^2)]
+     = Mmax_ijf*b/(16*pi*sqrt(s)*E_i*epsilon)
+    <= Mmax_ijf/(32*pi*E_i*epsilon).
+
+The last step uses b<=sqrt(s)/2, valid for nonnegative final masses.
+The calculation is first made away from threshold. At an exothermic
+initial threshold sigma can diverge as 1/a, but its product with v_M
+has the displayed finite bound, so the inequality extends by a limit.
+It is independent of the angle between p and k.
+
+Therefore
+
+  0 <= nu_i(p) <= B_i(T)/E_i(p),
+
+where
+
+  B_i(T) = sum_(f,j) g_f*Mmax_ijf/(32*pi) * I_f(T),
+
+  I_f(T) = integral d^3k/(2*pi)^3 exp(-epsilon/T)/epsilon
+         = m_f*T*K_1(m_f/T)/(2*pi^2).
+
+The massless limiting integral is T^2/(2*pi^2), while this particular
+Yukawa amplitude vanishes for m_f=0. B_i has units GeV^2; nu_i has units
+GeV in natural units. The finite list of included channels gives finite
+B_i for every fixed finite positive temperature.
+
+It follows uniformly over species and directions that
+
+  sup_(i,p:E_i(p)>=R) nu_i(p) <= B_max(T)/R -> 0.
+
+For the inherited benchmark at T=0.4 GeV, with both final scalar species
+and the three lepton plus five quark flavors, the bound gives
+
+  B_1=B_2=6.630350823059819e-15 GeV^2,
+  H=1.685248937226985e-19 GeV,
+  B_i/H=39343.45055259205 GeV.
+
+This is a deliberately loose global bound. It does not claim that the
+actual collision rate equals B_i/E_i, or identify a physical decoupling
+energy. The smallness argument ultimately uses arbitrarily remote
+thermal tails, not a newly observed discrepancy at thermal momenta.
+
+4. Tail test functions and the zero-gap conclusion
+-------------------------------------------------
+Normalize the stationary two-species measure as
+
+  pi_i(dp) = Z^(-1)*exp(-E_i(p)/T)*d^3p/(2*pi)^3.
+
+The common fugacity cancels. Microscopic reversibility and the fixed
+MB bath give detailed balance for the scattering kernel k:
+
+  pi_i(dp) k_ij(p,dp') = pi_j(dp') k_ji(p',dp).
+
+Use the nonnegative collision Dirichlet form
+
+  E(g,g) = (1/2) sum_(i,j) integral pi_i(dp) k_ij(p,dp')
+           [g_i(p)-g_j(p')]^2.
+
+Let D_R consist of both species with E_i(p)>=R, put p_R=pi(D_R), and
+define the mean-zero isotropic function g_R=1_(D_R)-p_R. For every finite
+R above the masses, 0<p_R<1. Its variance is
+
+  ||g_R||_(L2(pi))^2 = p_R*(1-p_R).
+
+The Dirichlet energy is the one-way equilibrium flux across the cut:
+
+  E(g_R,g_R) = Q(D_R,D_R^c)
+             <= integral_(D_R) pi(dx) nu(x)
+             <= [B_max(T)/R]*p_R.
+
+The factor 1/2 in the Dirichlet form cancels the two equal directed
+cross-boundary fluxes. Thus
+
+  E(g_R,g_R)/||g_R||^2
+    <= B_max(T)/[R*(1-p_R)] -> 0,
+
+because the normalized MB measure has p_R->0 as R->infinity.
+
+The test functions belong to the form domain: the frequency bound also
+gives a finite global bound nu_i<=B_i/m_i for these positive test-particle
+masses. No smoothness of the indicator is required for this finite-rate
+jump form.
+
+Since the Dirichlet form is nonnegative, the variational gap satisfies
+
+  lambda_* = inf_(g perpendicular to 1, g!=0) E(g,g)/||g||^2 = 0.
+
+Every g_R is isotropic. Therefore this obstruction is already present
+within the scalar radial sector; adding drift or quadrupole modes is
+not needed for the proof.
+
+5. Interpretation for numerical work
+------------------------------------
+A finite momentum grid or finite polynomial basis can have a positive
+smallest nonzero eigenvalue. Such values remain useful diagnostics of
+the retained distributions, but cannot converge to a positive uniform
+gap of the globally extended operator proved above.
+
+The zero gap rules out a positive uniform L2 exponential contraction
+rate covering every mean-zero distribution perturbation. It does not
+rule out useful finite-time relaxation estimates for specified initial
+states, rapid relaxation of bulk observables, convergence without a
+uniform exponential rate, or stronger estimates in a restricted class.
+
+For the current calculation, appropriate numerical targets are
+convergence of specified population/energy observables and distribution
+distances over declared time intervals, together with momentum-grid,
+quadrature, and tail sensitivity. A positive global-gap certificate is
+not the appropriate target for this all-momentum scattering-only model.
+
+6. Conditions that must not be silently changed
+----------------------------------------------
+The proof assumes:
+  - the displayed massive-propagator amplitude at every momentum;
+  - a fixed finite-temperature ideal MB bath and finite flavor list;
+  - the declared finite-rate 2-to-2 scattering-only operator;
+  - the equilibrium-weighted L2 norm and common-number projection;
+  - an unbounded momentum domain.
+
+It does not extend automatically to added interactions, a different
+ultraviolet completion, a time-dependent expanding background, a
+momentum cutoff, quantum/medium response, or a different functional norm.
+
+Sources and relationship to prior literature
+--------------------------------------------
+Model normalization:
+https://github.com/Cbaird26/mqgt-scf-continued/blob/994e51cb28b51ade500bb0e1902f3b082ef8e594/manuscript/higgs_portal_review/leptonic_conversion_scattering.py
+
+Dirichlet-form and Rayleigh variational background:
+https://www.stat.berkeley.edu/~aldous/RWG/Book_Ralph/Ch3.S6.html
+
+Related nonrelativistic linear-Boltzmann context:
+B. Lods and M. Mokhtar-Kharroubi, Convergence to equilibrium for linear
+spatially homogeneous Boltzmann equation with hard and soft potentials:
+a semigroup approach in L1-spaces.
+https://arxiv.org/abs/1510.02361
+
+The cited nonrelativistic result is contextual. Its theorem is not
+substituted for a proof of this relativistic model. Sections2-4 above
+provide the direct bounded-amplitude and tail-indicator argument.
+
+The algebra and assumptions were checked independently within this
+AI-assisted work session. No external peer review is claimed.

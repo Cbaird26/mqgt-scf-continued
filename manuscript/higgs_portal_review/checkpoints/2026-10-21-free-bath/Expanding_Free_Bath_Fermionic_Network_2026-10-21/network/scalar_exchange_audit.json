@@ -1,0 +1,157 @@
+{
+  "scope": "Minimal h-exchange scalar-only diagnostic; not part of evolved leading portal K^2 fermionic network",
+  "cross_section_order": "K^4",
+  "vev_GeV": 246.22,
+  "unknown_independent_singlet_couplings_included": false,
+  "integration_wmax": 80,
+  "full_remote_resonance_bound_in_this_diagnostic": true,
+  "rows": [
+    {
+      "T_GeV": 0.3333333333333333,
+      "pair_order": [
+        "11",
+        "12",
+        "22"
+      ],
+      "sigma_v_initial_to_final_GeV_m2": [
+        [
+          1.2570755418196131e-15,
+          6.140579535872885e-17,
+          4.624067894568602e-19
+        ],
+        [
+          2.258863067560337e-15,
+          2.125961173476781e-15,
+          2.605812616642568e-17
+        ],
+        [
+          2.502910274586148e-15,
+          3.834279058730529e-15,
+          9.050254813066545e-16
+        ]
+      ],
+      "omitted_thermal_tail_upper_bounds_GeV_m2": [
+        [
+          2.488997778893882e-40,
+          5.795753243727561e-42,
+          3.369124209096784e-44
+        ],
+        [
+          2.1320158585142746e-40,
+          4.264031717028549e-40,
+          2.4787205186392345e-42
+        ],
+        [
+          1.8236357665098648e-40,
+          3.6472715330197295e-40,
+          1.8236357665098648e-40
+        ]
+      ],
+      "maximum_omitted_tail_bound_relative_to_integral": 2.0150104103996524e-25,
+      "tagged_total_collision_rates_over_H": [
+        4.530446890296371e-10,
+        1.481563165574046e-09
+      ],
+      "equilibrium_average_tagged_rate_over_H": 4.668370400804934e-10,
+      "event_reciprocity_max_relative_error": 2.220446049250313e-16
+    },
+    {
+      "T_GeV": 0.4,
+      "pair_order": [
+        "11",
+        "12",
+        "22"
+      ],
+      "sigma_v_initial_to_final_GeV_m2": [
+        [
+          1.34593442604597e-15,
+          1.3001469531458162e-16,
+          2.052963790852202e-18
+        ],
+        [
+          2.262627978532226e-15,
+          2.2796416453927437e-15,
+          5.5252625814042874e-17
+        ],
+        [
+          2.4870396089129974e-15,
+          3.846215591298758e-15,
+          9.718073201191024e-16
+        ]
+      ],
+      "omitted_thermal_tail_upper_bounds_GeV_m2": [
+        [
+          2.6123232994541857e-40,
+          1.281610627677704e-41,
+          1.5700919937469873e-43
+        ],
+        [
+          2.230369464583591e-40,
+          4.460738929167182e-40,
+          5.464819288813036e-42
+        ],
+        [
+          1.9020700683985212e-40,
+          3.8041401367970425e-40,
+          1.9020700683985212e-40
+        ]
+      ],
+      "maximum_omitted_tail_bound_relative_to_integral": 1.9572501966391938e-25,
+      "tagged_total_collision_rates_over_H": [
+        7.253970752027169e-08,
+        2.1658849344549512e-07
+      ],
+      "equilibrium_average_tagged_rate_over_H": 7.656277307564006e-08,
+      "event_reciprocity_max_relative_error": 4.440892098500626e-16
+    },
+    {
+      "T_GeV": 0.5,
+      "pair_order": [
+        "11",
+        "12",
+        "22"
+      ],
+      "sigma_v_initial_to_final_GeV_m2": [
+        [
+          1.4544979295053588e-15,
+          2.747934338170944e-16,
+          9.06731513066189e-18
+        ],
+        [
+          2.2640308949585237e-15,
+          2.468953726773378e-15,
+          1.1702858716274208e-16
+        ],
+        [
+          2.4620150126561193e-15,
+          3.856807395276446e-15,
+          1.0546898437678164e-15
+        ]
+      ],
+      "omitted_thermal_tail_upper_bounds_GeV_m2": [
+        [
+          2.7982168864110447e-40,
+          2.8900434361664805e-41,
+          7.455721723007665e-43
+        ],
+        [
+          2.381114983849358e-40,
+          4.762229967698716e-40,
+          1.2285580547269013e-41
+        ],
+        [
+          2.0244249314947186e-40,
+          4.048849862989437e-40,
+          2.0244249314947186e-40
+        ]
+      ],
+      "maximum_omitted_tail_bound_relative_to_integral": 1.9288453712424862e-25,
+      "tagged_total_collision_rates_over_H": [
+        1.2376555320211158e-05,
+        3.225511093782422e-05
+      ],
+      "equilibrium_average_tagged_rate_over_H": 1.3513898900857543e-05,
+      "event_reciprocity_max_relative_error": 2.220446049250313e-16
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "T_GeV": 0.4,
+  "independent_baseline_matrix_relative_Frobenius_error": 9.632043029080981e-14,
+  "direct_metric_vs_upstream_relative_Frobenius_error": 1.4417117212863917e-15,
+  "quadrature_refinement": {
+    "scalar_degree1_over_H": {
+      "q48_to_q80_max_relative_change": 2.106841612683576e-12,
+      "q24_to_q80_max_relative_change": 5.163614999214259e-11
+    },
+    "scalar_degree2_over_H": {
+      "q48_to_q80_max_relative_change": 2.1097060229956554e-12,
+      "q24_to_q80_max_relative_change": 5.16929135300621e-11
+    },
+    "drift_degree0_over_H": {
+      "q48_to_q80_max_relative_change": 1.8571619151667693e-12,
+      "q24_to_q80_max_relative_change": 4.595519305007356e-11
+    },
+    "drift_degree1_over_H": {
+      "q48_to_q80_max_relative_change": 1.8659672824230255e-12,
+      "q24_to_q80_max_relative_change": 4.591793369620509e-11
+    },
+    "quadrupole_degree0_over_H": {
+      "q48_to_q80_max_relative_change": 1.6522187810431215e-12,
+      "q24_to_q80_max_relative_change": 4.1219988605315774e-11
+    }
+  },
+  "interlacing": {
+    "scalar": true,
+    "drift": true
+  },
+  "boost_normalization_max_error": 4.440892098500626e-16,
+  "certified_physical_uncertainty": false,
+  "certified_full_spectral_gap": false,
+  "scalar_slow_rate_fractional_decrease": 0.05117117223198753,
+  "drift_slow_rate_fractional_decrease": 0.021129748965853068,
+  "number_null_relative_residual": 0.0,
+  "metric_condition_numbers": {
+    "scalar_degree2": 19401.277434995034,
+    "drift_degree1": 1236.18194294723,
+    "quadrupole_degree0": 27.11995007030994
+  },
+  "all_assertions_passed": true
+}

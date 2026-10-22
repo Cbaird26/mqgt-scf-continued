@@ -1,0 +1,247 @@
+EXPANDING FREE-BATH EVOLUTION WITH THE FERMIONIC REACTION NETWORK
+Research continuation — 21 October 2026
+
+1. Result and interpretation
+
+The momentum-resolved continuation has been carried through cosmological
+redshift, scattering/conversion, three-body decay/inverse absorption, and
+pair annihilation/inverse creation. Starting from a specified equilibrium
+preparation at T=0.5 GeV and evolving to T=1/3 GeV, the scalar population
+becomes colder than the bath and retains an excess heavy-species fraction.
+The included number-changing reactions remove only 31.54 parts per million
+of the initial comoving scalar number. These are results for a declared
+leading-portal-order fermionic free-bath benchmark, not a physical QCD
+calculation or a relic-abundance prediction.
+
+The final, refined run gives:
+
+T [GeV]       a/a0    Ncom/Ncom,0   Tkin/T    heavy fraction   TV common   TV shape
+0.500000      1.00    1.000000000  1.000000    0.057215       0.000000    0.000000
+0.400000      1.25    0.999982183  0.855861    0.045360       0.083073    0.078050
+0.333333      1.50    0.999968464  0.750271    0.036632       0.148298    0.141562
+
+Here Tkin=P/n=<p^2/(3E)> over both scalar species. This definition equals
+the bath temperature for a classical Maxwell–Boltzmann distribution at
+that temperature, including relativistic corrections. It is not identified
+with two-thirds of the mean kinetic energy. The final mean kinetic energy is 0.386818 GeV,
+and Tkin is approximately 0.250090 GeV.
+
+The final heavy fraction is 3.6632%, whereas the instantaneous equilibrium
+fraction is 1.3410%. TV common is half the sum of absolute differences
+between normalized cell populations and a common-fugacity equilibrium
+shape. TV shape uses equilibrium momentum shapes with each species'
+actual abundance. Thus the latter isolates within-species shape departure.
+Both are distances between projected distributions; neither is a fitted
+temperature or a fraction of particles individually classified as thermal.
+
+2. Initial state, normalization, and expansion clock
+
+The inherited model has m1=10 GeV, m2=11.5 GeV, mh=125 GeV,
+K11=K22=+0.001, and K12=-0.001 [1,2]. The interaction convention is
+
+  Lint = -(v/2) h sum_ij Kij phi_i phi_j -(mf/v) h fbar f,
+  vertex(h phi_i phi_j) = -i v Kij.
+
+The bath contains e, mu, tau, u, d, s, c, and b, with inherited fixed
+fermion masses, color multiplicities, and Maxwell–Boltzmann occupations.
+Quantum statistical factors and medium-dependent masses are absent.
+Both radiation and entropy degrees of freedom are held at g*=g*s=60.
+
+The newly specified scalar initial condition is fi(p,T0)=exp[-Ei(p)/T0]
+at T0=0.5 GeV: both chemical potentials vanish and the common fugacity is
+one. This fixes the total physical density to 1.7005907436e-9 GeV^3 and
+Y0=n0/s0=5.1691760109e-10. Earlier normalized scattering diagnostics did
+not require an absolute abundance; annihilation does. This preparation
+does not show that earlier evolution established chemical equilibrium.
+
+With a0=1, entropy conservation in the prescribed background gives
+a=T0/T. The coordinates y=p/T and eta=ln(T0/T) remove the free-streaming
+advection. The interval ends at eta=ln(1.5)=0.405465. For the specified
+radiation Hubble law, its physical duration is H(T0) Delta t=0.625, or
+H(0.4 GeV) Delta t=0.4. This differs from the previous fixed-temperature
+relaxation clock. The final physical density is 5.0386284863e-10 GeV^3;
+its large decrease principally reflects dilution. The final yield is
+5.1690129969e-10, a fractional decrease of 3.15358e-5.
+
+3. Included reactions and normalization
+
+The evolved channels are phi_i f <-> phi_j f and their charge conjugates;
+phi_i phi_j <-> f fbar for pairs 11,12,22; and phi2 <-> phi1 f fbar.
+The last channel is open for e,mu,u,d,s. Scattering and decay preserve
+one scalar per transition. Only pair annihilation/inverse production
+changes total scalar number in this network.
+
+Crossing the inherited scattering amplitude requires removing its initial
+fermion spin average. For annihilation the spin/color-summed expression is
+
+  |M|^2 = 2 Nc Kij^2 mf^2 (s-4mf^2)/Dh(s),
+  Dh(s) = (s-mh^2)^2+(mh Gamma_h)^2,
+  sigma vM = Nc Kij^2 mf^2 (s-4mf^2)^(3/2)
+             /[16 pi sqrt(s) Ei Ej Dh(s)].
+
+The final spins and color are already summed; no bath spin/charge factor
+four is added. An unordered identical-pair event rate has a factor one-half,
+but each event removes two scalars. Consequently no extra one-half enters
+the tagged-particle loss equation. These conventions are independently
+checked by contraction against an invariant thermal integral.
+
+Let Ma=a^3 na/n0 denote a comoving momentum-cell population, and let
+Meq,a=a^3 neq,a(T)/n0. With Aab the positive symmetric cell average of
+sigma vM, the pair term is
+
+  dMa/deta = [n0/(a^3 H)] sum_b Aab [Meq,a Meq,b - Ma Mb].
+
+The inverse source therefore uses absolute zero-chemical-potential
+equilibrium populations. Replacing them by a unit-normalized shape would
+give the wrong abundance. This expression vanishes at instantaneous
+equilibrium and has a nonnegative source at an empty cell [3].
+
+The free-fermion vacuum decay width is 1.1372679334e-21 GeV. Its e+mu
+part, 3.0602676910e-22 GeV, reproduces the inherited leptonic result.
+The quark contribution is a free-quark diagnostic, not a hadronic width.
+The decay graph includes parent time dilation, the differential three-body
+invariant-mass spectrum, and daughter recoil. Daughter-cell probabilities
+use the exact isotropic rest-frame angular distribution after a boost.
+A symmetric equilibrium conductance supplies inverse absorption once,
+preserving scalar number and classical detailed balance.
+
+For orientation, at T=(0.5,0.4,1/3) GeV the equilibrium annihilation loss
+rate neq <sigma_eff v>/H is (1.012e-4,7.306e-7,5.273e-9). The linearized
+common-fugacity chemical rate is twice this. The corresponding equilibrium
+decay/inverse species-contrast rates are (0.00430,0.00660,0.00944) H.
+These equilibrium diagnostics do not replace integration of the evolving
+nonthermal distributions.
+
+4. New timelike-width prescription and omitted channels
+
+The crossed timelike propagator requires an additional prescription.
+A zero-width pole is nonintegrable over unbounded thermal tails even
+when the resonant population is exponentially small. This calculation
+explicitly adopts Gamma_h=0.0041 GeV, a nominal Standard Model width
+scale documented by the PDG [4]. No separate real-Higgs bath process is
+added to the same inclusive annihilation kernel.
+
+The independent thermal calculation bounds the entire omitted remote
+energy region, including the resonance, using Dh>=(mh Gamma_h)^2 and
+positive Bessel-function tail bounds. Its relative contribution is below
+4.54e-24 in the declared temperature interval. This is an equilibrium
+thermal-contraction bound for the specified prescription, not a uniform
+bound on arbitrary nonthermal tails or on missing physical processes.
+Halving/doubling the width changes bulk thermal rates by less than
+8.69e-10/3.48e-9 relatively. Adding the approximately 1.9008e-5 GeV
+portal scalar partial width shifts those rates by about 1.08e-11.
+
+Known Higgs exchange also mediates scalar-only 2->2 channels at O(K^4)
+in their cross sections. They were audited but are outside this evolved
+O(K^2) fermionic network. At T0 their equilibrium tagged rates are
+1.23766e-5 H and 3.22551e-5 H, with average 1.35139e-5 H. These are
+equilibrium diagnostics, not trajectory-wide bounds. Independent scalar
+quartic/cubic couplings are not numerically fixed by the inherited
+scattering benchmark. Loop-induced gluon/photon channels, interacting
+QCD response, confinement, and a physical hadronic decay spectrum also
+remain uncalculated. Their absence limits the physical interpretation.
+
+5. Momentum evolution and structural checks
+
+The final discretization uses 192 finite y cells of width 0.25 through
+y=48, plus one semi-infinite cell per species: 386 populations in total.
+Collision conductances are tabulated on 16 uniform eta intervals with
+the exact T=0.4 snapshot inserted, giving 18 temperature nodes. Positive
+conductances are interpolated, while the instantaneous equilibrium cell
+metric is recomputed. The linear scattering/decay generator has zero
+column sums and annihilates that metric.
+
+Evolution combines a positive pair-reaction update with a matrix
+exponential for scattering/decay, using symmetric splitting and midpoint
+coefficients. The nominal 192 eta steps become 195 after inserting
+observation temperatures. No population clipping or number renormalization
+is used. All populations remain positive; the smallest recorded comoving
+cell population is 1.83e-14. The maximum linear-step number discrepancy is
+3.33e-16. Scattering-only and scattering-plus-decay controls preserve
+comoving number to 2.89e-15 across the run.
+
+At T0 the conditional pair kernel gives <sigma_eff v>=
+1.5675786424e-14 GeV^-2, agreeing with the independent invariant thermal
+integral at floating-point precision. The decay graph reproduces its
+independent time-dilated thermal contraction to better than 9e-14.
+The T=0.4 inherited count contrast is recovered to 2.2e-12 relatively;
+number-null and equilibrium-stationarity matrix residuals are roundoff.
+These are normalization and structure tests, separate from convergence.
+
+Collisionless cell populations remain exactly constant in y. Observable
+reconstruction assumes the instantaneous equilibrium conditional shape
+inside each cell, introducing a finite-cell closure error. An independent
+continuum free-streaming integral gives final Tkin/T=0.7090601. The
+192-cell reconstruction differs by 0.01273%; errors decrease by about
+four on each doubling from 48 to 96 to 192 cells. Collisions raise the
+final ratio to 0.7502713 while leaving substantial departure from the bath.
+
+6. Channel controls and empirical numerical sensitivities
+
+With scattering alone, the final heavy fraction is 0.03666502 and
+Tkin/T=0.75027595. Adding decay/inverse absorption gives 0.03663220 and
+0.75027112 while conserving number. Adding pair reactions gives
+0.03663216 and 0.75027134, together with the 31.54 ppm number loss.
+Thus the included pair network has a tiny bulk-shape effect for this
+initial abundance and interval. Small channel differences are controlled
+comparisons within the same discretization, not general accuracy bounds.
+
+The table reports absolute relative changes in percent, normalized to
+the finer result. L is the small annihilation number-loss fraction;
+TVc/TVs denote the two distances above, and <K> is mean kinetic energy.
+
+Refinement                 Tkin/T       heavy        TVc         TVs          <K>           L
+Time steps 96->192          0.0000972    0.001053     0.000408    0.000371     0.0000990     0.006819
+Finite cells 96->192        0.03524      0.000626     0.01218     0.17864      0.03604       0.000563
+Temperature intervals8->16  0.01258      0.27873      0.05851     0.04404      0.01279       0.001848
+Scattering quadrature40->48 0.001466     0.006596     0.01155     0.006030     0.001514      0.0000459
+Tail boundary y=40->48      5.34e-9      5.14e-10     4.38e-11    2.37e-11     7.61e-9       2.11e-9
+
+The scattering-quadrature comparison uses eight temperature intervals;
+it is not a second quadrature study on the final sixteen-interval bank.
+The infinite tail remains represented when its boundary changes. The
+decay-specific doubled quadrature changes its T=0.4 Dirichlet matrix by
+3.04e-5 in relative Frobenius norm and a smooth energy test form by
+6.40e-8. These are empirical sensitivities, not certified continuum-error
+bars. Temperature interpolation remains the largest reported sensitivity
+for heavy abundance, and momentum-grid resolution for the shape distance.
+
+7. Consequences and provenance
+
+The earlier fixed-bath relaxation and conditional zero uniform L2 gap
+remain compatible. The new calculation addresses a different question:
+competition between expansion and a specified reaction network over a
+finite interval. The previous scattering-only gap theorem does not
+automatically extend to this time-dependent nonlinear system. No new
+global spectral-gap theorem is claimed here.
+
+Further physical interpretation requires the missing medium response,
+reaction channels, scalar-sector inputs, and thermal history. The saved
+yield is conditional on the chosen initial preparation, not a predicted
+late-time relic abundance. The background is prescribed; no self-consistent
+entropy or radiation backreaction has been solved.
+
+Full numerical records are results/full_final.json and
+results/convergence_summary.json. network/NETWORK_AUDIT.txt is the reaction
+appendix; solver/SCATTERING_METHOD.txt and review/THEORY_REVIEW.txt record
+the method and internal independent review. REPRODUCING.txt describes
+the supplied-bank rerun and full bank reconstruction. Verification here
+is internal mathematical/computational checking, not external peer review.
+
+Primary sources and model provenance:
+
+[1] Pinned inherited interaction and scattering implementation:
+https://github.com/Cbaird26/mqgt-scf-continued/blob/994e51cb28b51ade500bb0e1902f3b082ef8e594/manuscript/higgs_portal_review/leptonic_conversion_scattering.py
+
+[2] Pinned inherited Research Note 52:
+https://github.com/Cbaird26/mqgt-scf-continued/blob/994e51cb28b51ade500bb0e1902f3b082ef8e594/manuscript/higgs_portal_review/RESEARCH_NOTE_52_KINETIC_MOMENTS_AND_BATH_RESPONSE.md
+
+[3] Binder, Bringmann, Gustafsson, and Hryczuk, arXiv:1706.07433v3,
+expanding phase-space Boltzmann equations and annihilation/inverse terms:
+https://arxiv.org/html/1706.07433v3
+
+[4] Particle Data Group, 2025 Higgs-boson review, nominal width scale:
+https://pdg.lbl.gov/2025/reviews/rpp2025-rev-higgs-boson.pdf
+
+The numerical evolution and diagnostic values in this note are newly
+computed benchmark results, not results quoted from these references.

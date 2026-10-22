@@ -1,0 +1,82 @@
+{
+  "prepared_utc": "2026-10-21",
+  "scope": "AI-assisted numerical continuation and source-audited dependency map; no external peer review or gate promotion.",
+  "source_commit": "994e51cb28b51ade500bb0e1902f3b082ef8e594",
+  "repository": "https://github.com/Cbaird26/mqgt-scf-continued",
+  "source_path_prefix": "manuscript/higgs_portal_review/",
+  "inherited_files": [
+    {
+      "file": "kinetic_moment_audit.py",
+      "git_blob_sha1": "5a1de78d703c2300e4d09e74154180b18d935335",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/994e51cb28b51ade500bb0e1902f3b082ef8e594/manuscript/higgs_portal_review/kinetic_moment_audit.py",
+      "sha256": "a184db6464cfba4dd2bba2720cf5ecd334b980f1fb7eced09df75aaecd6e5dd8",
+      "bytes": 12596
+    },
+    {
+      "file": "kinetic_moment_reference.py",
+      "git_blob_sha1": "4675d54e0b829c20eba9a2e56844ab0deb3009fc",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/994e51cb28b51ade500bb0e1902f3b082ef8e594/manuscript/higgs_portal_review/kinetic_moment_reference.py",
+      "sha256": "1afa547b5792a4595d37a22aabfe2a3643622467fc2b1e265ff8e0283121cbc9",
+      "bytes": 4002
+    },
+    {
+      "file": "NOTE_52_RESULTS_SUMMARY.json",
+      "git_blob_sha1": "8726edc9df93b0ee6c6917c64928eaed1e2de425",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/994e51cb28b51ade500bb0e1902f3b082ef8e594/manuscript/higgs_portal_review/NOTE_52_RESULTS_SUMMARY.json",
+      "sha256": "f838ac900113d06a06957132ec11c72d1b58db85eeed2e2536886afdbb6baf97",
+      "bytes": 2706
+    },
+    {
+      "file": "RESEARCH_NOTE_52_KINETIC_MOMENTS_AND_BATH_RESPONSE.md",
+      "git_blob_sha1": "4b38fb10a26d758f50b830d461d77158d1ebe9fc",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/994e51cb28b51ade500bb0e1902f3b082ef8e594/manuscript/higgs_portal_review/RESEARCH_NOTE_52_KINETIC_MOMENTS_AND_BATH_RESPONSE.md",
+      "sha256": "f08c57ae8be724421cba2220acd15094993ac3ca864913748a804afbeada7ca6",
+      "bytes": 18011
+    },
+    {
+      "file": "leptonic_conversion_scattering.py",
+      "git_blob_sha1": "6ba9dcd73f7ef7325e939cebbcf0e6d482a341b3",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/994e51cb28b51ade500bb0e1902f3b082ef8e594/manuscript/higgs_portal_review/leptonic_conversion_scattering.py",
+      "sha256": "e6a78ec48310e1e64bb0cfad158bbfaa6aeff9ef2712f7e4ed8a7af6662ac55d",
+      "bytes": 14036
+    }
+  ],
+  "collection": {
+    "filename": "01_Combined_Research_Collection_PUBLIC_2026-10-20-compressed.pdf",
+    "physical_page_count": 9252,
+    "inspected_page_ranges": {
+      "apparatus_objects": [
+        6681,
+        6685
+      ],
+      "free_bath_continuation": [
+        7407,
+        7409
+      ],
+      "one_loop_spectral_gauge_matching": [
+        7585,
+        7591
+      ],
+      "shared_spectral_action_normalization": [
+        7592,
+        7598
+      ]
+    },
+    "included_in_package": false,
+    "sha256": "4b52a5fb57716168d354b5c3dcb4bbf2ca4c0fe6744733b6ca0d3b3eae48f921"
+  },
+  "apparatus_sources": [
+    {
+      "url": "https://github.com/Cbaird26/mqgt-gate03-external-reproduction/blob/main/README.md",
+      "git_blob_sha1": "326af788b5d5eafc66ac2dee9fb0e4404d983608"
+    },
+    {
+      "url": "https://github.com/Cbaird26/mqgt-gate03-external-reproduction/blob/main/V0_2_APPARATUS_STUB.md",
+      "git_blob_sha1": "48779390e751b4552b56bb24499dd8fb2f8ca3fd"
+    },
+    {
+      "url": "https://github.com/Cbaird26/mqgt-gate03-external-reproduction/blob/main/OBJECT1_NO_LAB_SOURCE.md",
+      "git_blob_sha1": "769b2790c026263d852bc93e3d57ac8f9da4042b"
+    }
+  ]
+}

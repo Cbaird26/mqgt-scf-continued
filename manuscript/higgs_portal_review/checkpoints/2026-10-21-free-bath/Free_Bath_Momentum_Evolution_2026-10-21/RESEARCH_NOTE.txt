@@ -1,0 +1,303 @@
+MOMENTUM-RESOLVED FREE-BATH EVOLUTION
+AND A CONDITIONAL ZERO-GAP THEOREM
+Research continuation, 2026-10-21
+
+1. Outcome and scope
+--------------------
+This continuation evolves two scalar distributions on a radial energy grid
+in the same ideal bath used for the earlier moment calculation. It compares
+specified population and energy perturbations with the original and enlarged
+polynomial scalar spaces. The calculation preserves number, detailed balance,
+and positivity, and reports separate quadrature, grid, and tail sensitivities.
+
+At one reference time unit, the resolved population excess retains about
+5.59% of its initial value, while the temperature-shaped energy excess retains
+about 41.49%. At five units those residuals are about 0.03259% and 1.9896%.
+The enlarged moment approximation describes these finite-time observables
+more usefully than the count-only restriction, although some differences
+between the enlarged moments and grid remain comparable to grid sensitivity.
+
+A separate analytic result sharpens the global spectral question: if this
+vacuum-tree scattering operator is extended unchanged to arbitrarily high
+momentum, its uniform equilibrium-weighted L2 gap is exactly zero. That
+conditional theorem does not preclude useful bulk relaxation. It changes
+the appropriate numerical target from a positive global-gap certificate to
+controlled evolution of specified distributions and observables.
+
+This is original AI-assisted computation and analysis within a hypothetical
+model. Internal independent-method checks were performed; external scientific
+peer review and empirical validation are not claimed.
+
+2. Fixed model and the meaning of time
+--------------------------------------
+The singlet masses are m1=10 and m2=11.5 GeV, the mediator mass is mh=125 GeV,
+and the portal couplings are K11=K22=+0.001 and K12=-0.001. Only their squares
+enter the included channels. The bath contains ideal Maxwell-Boltzmann e, mu,
+tau and free u,d,s,c,b fermions, with quark masses 0.002, 0.005, 0.100, 1.300,
+4.200 GeV. Spin and charge give a factor 4 per flavor; quarks additionally
+carry color multiplicity 3. The exact vacuum-tree spacelike amplitude is
+
+  |M_ijf(t)|^2 = Kij^2 mf^2 (4mf^2-t)/(mh^2-t)^2,  t<=0.
+
+The temperature is held at T=0.4 GeV. Define the reference clock
+
+  H_ref = sqrt(8*pi^3*60/90)*T^2/(1.2209e19 GeV)
+        = 1.685248937226985e-19 GeV,
+  tau = H_ref*t.
+
+Here H_ref only provides a time unit. No Hubble redshift, cooling bath,
+entropy evolution, or moving equilibrium is integrated. Number-changing
+reactions, scalar self-collisions, decay redistribution, and interacting
+QCD response are absent. The result is therefore a fixed-temperature
+scattering benchmark, not an expanding-universe solution or relic abundance.
+
+The dilute test-particle scattering equation is linear in the singlet
+distribution when the bath is fixed. Thus the numerical semigroup evolves
+actual positive cell populations, rather than only a list of moment rates.
+
+3. Radial reversible discretization
+------------------------------------
+Use x_i=(E_i-m_i)/T. A cell specifies a species and an interval in x_i.
+Its equilibrium mass pi_a retains the correct relative species abundance;
+G=diag(pi_a). For an equilibrium scattering event of weight w joining
+cells a and b, assemble
+
+  D += w (e_a-e_b)(e_a-e_b)^T.
+
+The event weights include the inherited elastic factor 1/2 and the paired
+conversion contribution once. Equivalently, an oriented event histogram
+E gives W=E+E^T and D=diag(W*1)-W. Self-cell events cancel. This construction
+makes D symmetric and positive semidefinite, with D*1=0 and nonpositive
+off-diagonals.
+
+Relative occupations g=f/f_eq and cell masses m=Gg satisfy
+
+  dg/dtau = -G^(-1)Dg/H_ref,
+  dm/dtau = -D G^(-1)m/H_ref.
+
+The mass generator has nonnegative off-diagonals and zero column sums.
+Consequently its exact finite-dimensional semigroup preserves positivity
+and total number, with pi stationary.
+
+The finest event quadrature uses orders (q, boost, scattering, direction, azimuth)
+=(80,64,40,40,48). Its raw graph contains 192 finite cells per species, of
+width 0.125 through x=24, and one semi-infinite tail cell. The presented graph
+aggregates this to 128 finite cells through x=16 plus a semi-infinite cell,
+giving 258 states. Aggregation uses P^T D P and the corresponding aggregated
+metric. All farther cells remain inside the tail; none is discarded or
+turned into a reflecting boundary. Its equilibrium tail mass is 9.4504e-7.
+The tail is retained as a lumped state, not resolved at arbitrarily high x.
+
+4. Initial states and observables
+---------------------------------
+The equilibrium species fractions are approximately
+
+  (r1,r2)=(0.972071506680683,0.027928493319317),
+
+and the equilibrium mean total energy is 10.670619529578211 GeV. Two
+mean-zero perturbations are initialized:
+
+  h_P(i,E)=1_(i=2)-r2,
+  h_E(i,E)=(E-<E>_pi)/T,
+  f(0)=f_eq*(1+0.05*h).
+
+The first changes the heavy-species population while preserving total
+number. The second follows the normalized thermal distribution's energy
+tangent. Its explicit linear-in-h definition is used; it is not an exact
+thermal distribution at temperature 1.05T. Both specified initial states
+are nonnegative. Cell values are equilibrium conditional averages of h.
+
+The reported normalized autocorrelation is
+
+  C_h(tau)=<h(0),h(tau)>_pi/<h(0),h(0)>_pi.
+
+For h_P it equals the remaining heavy-species excess divided by its initial
+excess. For h_E it equals the remaining mean-total-energy excess divided by
+its initial excess. These are fractions of the initial perturbation, not
+fractions of the entire particle population or total equilibrium energy.
+The output also includes the squared L2 perturbation norm, species masses,
+energy excess, and distribution snapshots.
+
+Normalization needs care. The population shape is represented exactly on
+every species grid. The energy shape loses within-cell variance on projection:
+
+  continuum variance = 2.020726250162852,
+  cell-projected variance = 2.0194309046730576,
+  retained fraction = 0.9993589703257976.
+
+Thus the presented grid retains 99.935897% of the continuum initial energy
+variance, a projection loss of 0.064103%. Own-initial normalization sets
+C_E(0)=1 on each discretization. A common-continuum normalization instead
+divides every numerator by the continuum variance; the radial curve then
+starts at 0.9993589703 and equals that factor times its own-normalized curve.
+Both conventions are stored. For example, at tau=1 the radial energy value
+is 0.414928883 with its own initial denominator and 0.414662901 with the
+continuum denominator. This difference must not be attributed to dynamics.
+
+5. Five-time comparison
+-----------------------
+The following tables use each method's own initial normalization. The
+polynomial spaces represent both initial functions exactly. Original and
+enlarged scalar spaces contain four and six functions before the common
+number mode is removed. The isotropic comparison does not use drift modes.
+
+Population-excess fraction remaining:
+
+  tau    Count-only       Original scalar   Enlarged scalar   Radial cells
+  0.25   0.475358301      0.476825685       0.476833641       0.476914012
+  0.50   0.225965514      0.229339699       0.229347187       0.229485719
+  1.00   0.051060414      0.055819620       0.055808216       0.055912970
+  2.00   0.002607166      0.005660479       0.005653796       0.005668217
+  5.00   0.000000347074   0.000304939       0.000326468       0.000325885
+
+Mean-total-energy-excess fraction remaining:
+
+  tau    Original scalar   Enlarged scalar   Radial cells
+  0.25   0.783913517       0.784235983       0.784146365
+  0.50   0.626411880       0.627509940       0.627395359
+  1.00   0.412015501       0.415041149       0.414928883
+  2.00   0.185310871       0.190563288       0.190543707
+  5.00   0.017395153       0.019765316       0.019895727
+
+The count-only population curve is the single exponential
+exp(-2.974745765*tau). Coupled energy/population evolution leaves a slower
+population residual, most visible late in the interval. Large relative
+differences in a tiny residual do not imply a comparably large change in
+total abundance. For the energy preparation, the enlarged scalar space
+tracks the radial result closely throughout the displayed interval.
+Printed digits identify the finite calculation; they are not all accurate
+continuum digits. In particular, the late-time enlarged-versus-radial
+energy difference is comparable to the observed grid sensitivity.
+
+The original and enlarged moment curves are obtained from their full
+projected semigroups, including their spectral weights. Replacing every
+curve by the exponential of its single slowest rate would not reproduce
+the chosen initial states.
+
+6. Verification and empirical sensitivities
+-------------------------------------------
+The final graph reproduces the count-only contrast at 2.97474576498998 H_ref.
+Its number-null relative matrix residual is 3.28e-16; the maximum recorded
+number error is 4.44e-16. Both initial distributions remain positive over
+the output interval. Their smallest recorded relative occupations,
+including initialization, are about 0.99860 and 0.91987.
+
+An independent calculation forms the forward mass generator and evaluates
+its matrix exponential at tau=1. The transition matrix is nonnegative,
+its maximum column-sum defect is 3.11e-15, and its stationary-mass error is
+9.02e-17. Evolved cell masses agree with the whitened spectral method to
+better than 1.05e-16. This tests generator orientation and evolution
+separately from collision-integral accuracy.
+
+Indicator cells introduce discontinuities into the event integrals.
+The earlier polynomial-moment quadrature precision cannot simply be
+assigned to this grid. Completed refinement comparisons give:
+
+  - Final quadrature 64-to-80 changes, over the five reported times:
+    at most 0.229% for population and 0.0742% for energy correlations.
+  - Grid 64-to-128 changes on the finest event quadrature:
+    at most 1.117% for population and 1.101% for energy, reached at tau=5.
+    At tau=1 the corresponding changes are 0.1775% and 0.2163%.
+  - Moving the lumped-tail start from x=16 to 24 changes these correlations
+    by less than 3.24e-7 relatively over the same times.
+
+These are observed refinement sensitivities, not confidence intervals,
+certified error bounds, physical uncertainties, or a full continuum-
+convergence proof. The final grid comparison is the largest listed
+late-time sensitivity. Conservation and positivity are structural
+properties and do not remove that resolution limitation.
+
+7. Conditional zero-gap theorem
+--------------------------------
+For the hypothetical all-momentum extension of the same massive-propagator
+scattering operator, let u=-t>=0. The amplitude has finite maximum
+
+  A_ijf=Kij^2*mf^2/[4*(mh^2-4*mf^2)]
+
+for the included masses, since mh^2>=8mf^2. Let a,b be incoming and outgoing
+center-of-momentum magnitudes. From lambda_i=4s*a^2, t-interval width 4ab,
+and v_M=sqrt(s)*a/(E_i*epsilon_f), the exact cross-section normalization gives
+
+  v_M*sigma_ijf <= A_ijf*b/(16*pi*sqrt(s)*E_i*epsilon_f)
+                <= A_ijf/(32*pi*E_i*epsilon_f).
+
+The apparent exothermic threshold divergence in sigma cancels in the
+product with relative velocity. The bound is uniform in the bath angle.
+Integrating and summing the finite MB bath gives
+
+  nu_i(p) <= B_i(T)/E_i(p),
+  B_i(T)=sum_(f,j) [4*Nc*A_ijf/(32*pi)]
+          * [mf*T*K1(mf/T)/(2*pi^2)].
+
+B_i has units GeV^2. At T=0.4 GeV, both initial species have
+B_i=6.630350823059819e-15 GeV^2, or B_i/H_ref=39343.45055259205 GeV.
+This loose bound is not a predicted collision rate or a physical
+decoupling threshold.
+
+Normalize pi_i(dp) proportional to exp(-E_i/T)d^3p/(2*pi)^3 and consider
+D_R={both species with E_i>=R}. For the centered radial indicator
+h_R=1_(D_R)-pi(D_R), detailed balance makes its Dirichlet energy equal
+to outward equilibrium flux. Therefore
+
+  E(h_R,h_R)/||h_R||^2
+    <= B_max/[R*(1-pi(D_R))] -> 0.
+
+The indicators belong to the form domain because nu_i<=B_i/m_i is bounded.
+Nonnegativity then proves the uniform L2 variational gap, after removing
+the common-number direction, is exactly zero. The indicators are already
+isotropic, so the obstruction exists in the radial sector.
+
+The finite graph's smallest positive rate, approximately 0.73910 H_ref,
+is compatible with this theorem. A finite grid and one lumped tail do
+not represent indicators arbitrarily far into the tail. Consequently
+that finite-graph rate is neither the continuum gap nor a positive lower
+bound on it.
+
+The theorem assumes the displayed tree amplitude unchanged at every
+momentum, a fixed ideal MB bath, the stated scattering-only channel list,
+an unbounded momentum domain, and the equilibrium-weighted L2 norm.
+It does not establish a property of a physical ultraviolet completion,
+interacting QCD, additional channels, or a cooling cosmological background.
+It rules out one uniform exponential relaxation claim over all allowed
+perturbations; it does not rule out useful relaxation of the bulk initial
+states evolved here. The full proof and constants script are in tail/.
+
+8. What remains to obtain physical evolution
+---------------------------------------------
+This calculation supplies a momentum-resolved benchmark and explicit
+finite-time tests of moment truncation. Further numerical refinement can
+target the remaining grid sensitivity and other specified initial shapes.
+Physical cosmological evolution additionally requires a matched thermal
+response, a complete reaction network including number-changing processes
+and relevant decays, consistent thermodynamics and entropy history, and
+declared initial conditions. The expanding equation must include redshift
+and the changing bath. Apparatus calibration belongs to its separate
+measurement program and is not inferred from these scattering trajectories.
+
+9. Provenance and literature
+----------------------------
+New trajectory outputs:
+solver/final_evolution.json; solver/convergence_summary.json;
+comparison/moment_evolution.json.
+Internal checks:
+review/THEORY_REVIEW.txt; review/independent_exponential_check.json.
+The prior nested calculation is preserved under baseline/. The original
+analytic/Bessel model lineage is pinned to repository commit
+994e51cb28b51ade500bb0e1902f3b082ef8e594:
+https://github.com/Cbaird26/mqgt-scf-continued/blob/994e51cb28b51ade500bb0e1902f3b082ef8e594/manuscript/higgs_portal_review/leptonic_conversion_scattering.py
+https://github.com/Cbaird26/mqgt-scf-continued/blob/994e51cb28b51ade500bb0e1902f3b082ef8e594/manuscript/higgs_portal_review/RESEARCH_NOTE_52_KINETIC_MOMENTS_AND_BATH_RESPONSE.md
+
+Binder et al., Early kinetic decoupling of dark matter:
+https://arxiv.org/html/1706.07433v3
+This motivates distinguishing moment approximations from phase-space
+evolution; its model-dependent abundances are not transferred here.
+
+Aldous and Fill, Dirichlet forms and variational characterization:
+https://www.stat.berkeley.edu/~aldous/RWG/Book_Ralph/Ch3.S6.html
+
+Lods and Mokhtar-Kharroubi, linear Boltzmann convergence with hard/soft
+potentials:
+https://arxiv.org/abs/1510.02361
+This nonrelativistic work provides context. The conditional relativistic
+zero-gap result above follows from its own amplitude bound and tail test
+functions, not from applying that paper's theorem outside its assumptions.

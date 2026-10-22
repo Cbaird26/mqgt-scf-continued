@@ -1,0 +1,20 @@
+{
+  "T0_GeV": 0.5,
+  "Tf_GeV": 0.3333333333333333,
+  "resolution": {
+    "q": 40,
+    "boost": 28,
+    "scattering": 20,
+    "direction": 20,
+    "azimuth": 32
+  },
+  "finite_bins_per_species": 192,
+  "ymax": 48.0,
+  "eta_intervals": 8,
+  "elapsed_seconds": 76.81571717900079,
+  "conductance_units": "D_per_Neq / H(T), offdiagonal magnitude; diagonal stored as zero",
+  "scattering_only": true,
+  "gstar": 60,
+  "gstar_s": 60,
+  "coordinate": "y=p/T, eta=ln(T0/T)"
+}

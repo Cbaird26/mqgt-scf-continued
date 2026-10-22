@@ -1,0 +1,625 @@
+{
+  "checkpoint": "2026-10-21-free-bath",
+  "prepared_utc": "2026-10-21T08:08:30.566802+00:00",
+  "repository": "Cbaird26/mqgt-scf-continued",
+  "base_commit": "3798f5182e6c9305a9964678112753d70dc10cab",
+  "original_model_commit": "994e51cb28b51ade500bb0e1902f3b082ef8e594",
+  "intended_review_branch": "research/free-bath-checkpoint-2026-10-21",
+  "status": "Frozen computational checkpoint for public draft review",
+  "archive_storage": "Original ZIPs retained with their delivered identities. Every member is preserved byte-for-byte in the checkpoint; four large NPZ payloads are stored as ordered raw binary parts, with exact restoration and original SHA256 verification through restore_artifacts.py and ARTIFACT_PARTS.json.",
+  "scope": "Three completed conditional free-bath stages plus the supplied Grok roadmap/commentary and dependency audit; not an export of an unseen external conversation.",
+  "license": "CC-BY-4.0 under the existing repository terms; source attributions retained",
+  "packages": [
+    {
+      "package": "Free_Bath_Nested_Moments_2026-10-21",
+      "original_archive": "Free_Bath_Nested_Moments_2026-10-21.zip",
+      "original_archive_bytes": 86065,
+      "original_archive_sha256": "f91ad251961fa13ff30e0b75ce3a27cc8d67e7585c4f43822f24dfe4db5f99be",
+      "archived_file_count": 24,
+      "files": [
+        {
+          "path": "Free_Bath_Nested_Moments_2026-10-21/NEXT_STEPS.txt",
+          "bytes": 6382,
+          "sha256": "5b1a4a35c190565835b8c44a899c7a761d2539de25cba408f1074abe37359254"
+        },
+        {
+          "path": "Free_Bath_Nested_Moments_2026-10-21/README.txt",
+          "bytes": 4117,
+          "sha256": "e659e9aa5195e66e96b6a38b9b2538b2f2f58a1e743ff653a621e804b28caa29"
+        },
+        {
+          "path": "Free_Bath_Nested_Moments_2026-10-21/RESEARCH_NOTE.txt",
+          "bytes": 8004,
+          "sha256": "701fceb75421a285c9657c97af48f209a050110bb21ce9a1c8cc5b924041df3e"
+        },
+        {
+          "path": "Free_Bath_Nested_Moments_2026-10-21/SHA256SUMS.txt",
+          "bytes": 2181,
+          "sha256": "cc981a5293fbfa52734a64b3f9339d620bf115e9356d998e76620f927d1125f9"
+        },
+        {
+          "path": "Free_Bath_Nested_Moments_2026-10-21/baseline_six_moment.json",
+          "bytes": 37717,
+          "sha256": "2602ac567fcdc5772b3eddee2e527c199824112b328dd95fe0bae05c45aa1f5a"
+        },
+        {
+          "path": "Free_Bath_Nested_Moments_2026-10-21/numerics/nested_free_bath.py",
+          "bytes": 8573,
+          "sha256": "dce9e22eacb9742d16dd5b9a621d4dd79a0d585d791a2c09f5bd963d94cfc768"
+        },
+        {
+          "path": "Free_Bath_Nested_Moments_2026-10-21/numerics/results_Thalf_q48.json",
+          "bytes": 30964,
+          "sha256": "5a9cc04e3d9a1c450af50679c02f84576ae545def355350c956be315edf11c40"
+        },
+        {
+          "path": "Free_Bath_Nested_Moments_2026-10-21/numerics/results_Tthird_q48.json",
+          "bytes": 31024,
+          "sha256": "a7088bc1f7b4046d9d128d031610b56064fc95de9b21095e7f9b0d8d3147047e"
+        },
+        {
+          "path": "Free_Bath_Nested_Moments_2026-10-21/numerics/results_q24.json",
+          "bytes": 31031,
+          "sha256": "852fe8cca16f6e0f863e5f210afb499bff8f3e30f09e6840147736a1c3b772db"
+        },
+        {
+          "path": "Free_Bath_Nested_Moments_2026-10-21/numerics/results_q48.json",
+          "bytes": 30984,
+          "sha256": "81baea553b9a8526b17b42e59f48cdb42d953634432a185f9cf92b624ea0b8e3"
+        },
+        {
+          "path": "Free_Bath_Nested_Moments_2026-10-21/numerics/results_q80.json",
+          "bytes": 30997,
+          "sha256": "b91b8a66381976c075e883db545e3c9a30e47a3a51c284f2d01c34c84ee13635"
+        },
+        {
+          "path": "Free_Bath_Nested_Moments_2026-10-21/numerics/summarize_temperatures.py",
+          "bytes": 2457,
+          "sha256": "d18813fd41bf1ea448e852a0258bfb3550cd8f61944db5959485e3a989a297e1"
+        },
+        {
+          "path": "Free_Bath_Nested_Moments_2026-10-21/numerics/three_temperature_summary.json",
+          "bytes": 2029,
+          "sha256": "c201b21f3cde0663afb561d52298eb5a374910629215488a0b37eac91476ac42"
+        },
+        {
+          "path": "Free_Bath_Nested_Moments_2026-10-21/numerics/verification.json",
+          "bytes": 1598,
+          "sha256": "c7856a50ba9bd5fbb184fda612cc054c5356cb143c1528fe7280ea4936d8dbbb"
+        },
+        {
+          "path": "Free_Bath_Nested_Moments_2026-10-21/numerics/verify_nested_results.py",
+          "bytes": 3405,
+          "sha256": "05d947575b052fd72c81e833175cc7a2adbbe4af97b5aee1a694f4ccc828de3a"
+        },
+        {
+          "path": "Free_Bath_Nested_Moments_2026-10-21/provenance.json",
+          "bytes": 3602,
+          "sha256": "722863dbac7e0b22060e03a9fb87fc0f8f87ab2c073ee34578c85d4e0d3596a7"
+        },
+        {
+          "path": "Free_Bath_Nested_Moments_2026-10-21/reproduce_all.py",
+          "bytes": 1146,
+          "sha256": "7545840c61577817523e4c2ec8ea476306136f7e77b8bc52e086df7fe18bbc4c"
+        },
+        {
+          "path": "Free_Bath_Nested_Moments_2026-10-21/reproduce_baseline.py",
+          "bytes": 2148,
+          "sha256": "65c2d4e0e9c8691f41a9636390c5d3c8486ae09a7634fa84751552141fdc2a15"
+        },
+        {
+          "path": "Free_Bath_Nested_Moments_2026-10-21/requirements.txt",
+          "bytes": 85,
+          "sha256": "92204373ffa76f5231faffd751aaeb17b03f4711d9248ac6505e0424f764b9d8"
+        },
+        {
+          "path": "Free_Bath_Nested_Moments_2026-10-21/upstream/NOTE_52_RESULTS_SUMMARY.json",
+          "bytes": 2706,
+          "sha256": "f838ac900113d06a06957132ec11c72d1b58db85eeed2e2536886afdbb6baf97"
+        },
+        {
+          "path": "Free_Bath_Nested_Moments_2026-10-21/upstream/RESEARCH_NOTE_52_KINETIC_MOMENTS_AND_BATH_RESPONSE.md",
+          "bytes": 18011,
+          "sha256": "f08c57ae8be724421cba2220acd15094993ac3ca864913748a804afbeada7ca6"
+        },
+        {
+          "path": "Free_Bath_Nested_Moments_2026-10-21/upstream/kinetic_moment_audit.py",
+          "bytes": 12596,
+          "sha256": "a184db6464cfba4dd2bba2720cf5ecd334b980f1fb7eced09df75aaecd6e5dd8"
+        },
+        {
+          "path": "Free_Bath_Nested_Moments_2026-10-21/upstream/kinetic_moment_reference.py",
+          "bytes": 4002,
+          "sha256": "1afa547b5792a4595d37a22aabfe2a3643622467fc2b1e265ff8e0283121cbc9"
+        },
+        {
+          "path": "Free_Bath_Nested_Moments_2026-10-21/upstream/leptonic_conversion_scattering.py",
+          "bytes": 14036,
+          "sha256": "e6a78ec48310e1e64bb0cfad158bbfaa6aeff9ef2712f7e4ed8a7af6662ac55d"
+        }
+      ]
+    },
+    {
+      "package": "Free_Bath_Momentum_Evolution_2026-10-21",
+      "original_archive": "Free_Bath_Momentum_Evolution_2026-10-21.zip",
+      "original_archive_bytes": 4979141,
+      "original_archive_sha256": "e800b7957d24f3c4c2c2c00ab10128ae95d4abc1fe2d4e2a4e4b84258711d0a5",
+      "archived_file_count": 29,
+      "files": [
+        {
+          "path": "Free_Bath_Momentum_Evolution_2026-10-21/README.txt",
+          "bytes": 3487,
+          "sha256": "662732f0bcdad200536ace69bbd5e867729e092a75166566c62fabd97daa9518"
+        },
+        {
+          "path": "Free_Bath_Momentum_Evolution_2026-10-21/REPRODUCING.txt",
+          "bytes": 2641,
+          "sha256": "6ca15ebf9b64b0ab5836623015d299742baf3953af882dbbe0fbabad2088896f"
+        },
+        {
+          "path": "Free_Bath_Momentum_Evolution_2026-10-21/RESEARCH_NOTE.txt",
+          "bytes": 15382,
+          "sha256": "c42434003b197a13850833017c946b999df3e697fd0ab445c19097f2b22db5bf"
+        },
+        {
+          "path": "Free_Bath_Momentum_Evolution_2026-10-21/SHA256SUMS.txt",
+          "bytes": 2595,
+          "sha256": "c94e223ad950cfaaeb0369c5b727f04267ff11b66afb14cd879e52ad0e69d22b"
+        },
+        {
+          "path": "Free_Bath_Momentum_Evolution_2026-10-21/baseline/nested_free_bath.py",
+          "bytes": 8573,
+          "sha256": "dce9e22eacb9742d16dd5b9a621d4dd79a0d585d791a2c09f5bd963d94cfc768"
+        },
+        {
+          "path": "Free_Bath_Momentum_Evolution_2026-10-21/baseline/results_q80.json",
+          "bytes": 30997,
+          "sha256": "b91b8a66381976c075e883db545e3c9a30e47a3a51c284f2d01c34c84ee13635"
+        },
+        {
+          "path": "Free_Bath_Momentum_Evolution_2026-10-21/build_report.py",
+          "bytes": 10693,
+          "sha256": "57d4c977a1a5b0703c3bb9930960f66c35ed317cf8f2a4d2f77e7cbc2cd2bea9"
+        },
+        {
+          "path": "Free_Bath_Momentum_Evolution_2026-10-21/comparison/moment_evolution.json",
+          "bytes": 35871,
+          "sha256": "aba55710902e6fa4caca962a20bcaf119b8d69925b38ea408f54f70c70cba243"
+        },
+        {
+          "path": "Free_Bath_Momentum_Evolution_2026-10-21/comparison/moment_evolution.py",
+          "bytes": 4012,
+          "sha256": "e416caa7134d636b85cbb61823841baa362c7b535cff74e56ae973a508d5f6f6"
+        },
+        {
+          "path": "Free_Bath_Momentum_Evolution_2026-10-21/provenance.json",
+          "bytes": 4543,
+          "sha256": "3e471f00b533f066a697726fc84d2c873d394ea4d5a9ef49f3aa581960a6e5c9"
+        },
+        {
+          "path": "Free_Bath_Momentum_Evolution_2026-10-21/report/Free_Bath_Momentum_Evolution_T0p4_GeV.png",
+          "bytes": 313742,
+          "sha256": "afc964af6a43dd9858a92bc4c265cdfa43688d71ae9280aec19eda3883fd56ae"
+        },
+        {
+          "path": "Free_Bath_Momentum_Evolution_2026-10-21/report/comparison_summary.json",
+          "bytes": 16996,
+          "sha256": "26370814b56ca998479a41ae03992e0cbc5fe127501eece85112f4bdb5fe0074"
+        },
+        {
+          "path": "Free_Bath_Momentum_Evolution_2026-10-21/reproduce_all.py",
+          "bytes": 2896,
+          "sha256": "746790b473d01bff9efe3fd0361bea143598a56ba208c1a58814587e93504aca"
+        },
+        {
+          "path": "Free_Bath_Momentum_Evolution_2026-10-21/reproduction_log.txt",
+          "bytes": 11936,
+          "sha256": "5feee2e817f8d0bd9697570042f75d7518ce1be42e32b7678279319ad58aab1b"
+        },
+        {
+          "path": "Free_Bath_Momentum_Evolution_2026-10-21/requirements.txt",
+          "bytes": 104,
+          "sha256": "b3b58fb2b13d47a8052bf45df22e283be5edbca82c2f27420a9cb9fe83855bca"
+        },
+        {
+          "path": "Free_Bath_Momentum_Evolution_2026-10-21/review/THEORY_REVIEW.txt",
+          "bytes": 11709,
+          "sha256": "3bc511ed6484496988950fdce46bb38ad74310161bda64ad20be64aa24dea459"
+        },
+        {
+          "path": "Free_Bath_Momentum_Evolution_2026-10-21/review/independent_exponential_check.json",
+          "bytes": 828,
+          "sha256": "e575607f17a99f4bc783186c5e0ae95bfde1cbd4711d64803d5140751ef20200"
+        },
+        {
+          "path": "Free_Bath_Momentum_Evolution_2026-10-21/review/verify_final.py",
+          "bytes": 2019,
+          "sha256": "68ffb22d936dcad64731124a345b126c6fe291fa54e7a2e0c55dc8248d3bfe95"
+        },
+        {
+          "path": "Free_Bath_Momentum_Evolution_2026-10-21/solver/analyze_convergence.py",
+          "bytes": 6342,
+          "sha256": "fb6aa3fc867b645acc4bab31967ba16c327e516b014b1d44ed4b5f69258163cd"
+        },
+        {
+          "path": "Free_Bath_Momentum_Evolution_2026-10-21/solver/convergence_summary.json",
+          "bytes": 51202,
+          "sha256": "a37b746f6bf6088303aea75f07f40a7f5a822b273b0b62b7cbd51605220ee842"
+        },
+        {
+          "path": "Free_Bath_Momentum_Evolution_2026-10-21/solver/final_evolution.json",
+          "bytes": 2326606,
+          "sha256": "9ca7c9a82c401118fe90f700beb149f4605281ae5be22de55064d6bac2617427"
+        },
+        {
+          "path": "Free_Bath_Momentum_Evolution_2026-10-21/solver/radial_free_bath.py",
+          "bytes": 9584,
+          "sha256": "a307e5a32122d60181093a3f958874015e211bb7610b85d949d1a7d962c007cf"
+        },
+        {
+          "path": "Free_Bath_Momentum_Evolution_2026-10-21/solver/res32_bins128.json",
+          "bytes": 2687784,
+          "sha256": "68631ab1190034736f3448f20786e307e3b395312069bc4f0db7c32597cb5f0c"
+        },
+        {
+          "path": "Free_Bath_Momentum_Evolution_2026-10-21/solver/res48_bins128.json",
+          "bytes": 2688100,
+          "sha256": "9ad802d548c20eab1cd364600854f3efc83116c2e1cc90b73b9ab6cbbab1438c"
+        },
+        {
+          "path": "Free_Bath_Momentum_Evolution_2026-10-21/solver/res64_bins128.json",
+          "bytes": 2688963,
+          "sha256": "50c69cc8f41ad252001c5cb864f78318246aa7bcab5be3cb97ba79c3cefee9e2"
+        },
+        {
+          "path": "Free_Bath_Momentum_Evolution_2026-10-21/solver/res80_bins192_tail24.json",
+          "bytes": 5336818,
+          "sha256": "6dc4eb1e39521a7a1ee6a7741d59b200961edd68e50ee9504ffafa5e3a9846f7"
+        },
+        {
+          "path": "Free_Bath_Momentum_Evolution_2026-10-21/tail/CONDITIONAL_ZERO_GAP_THEOREM.txt",
+          "bytes": 8693,
+          "sha256": "14af25d5a7e31e0a000328dce11b76a2c0f6dd8be59f1cce4b943956f712dd14"
+        },
+        {
+          "path": "Free_Bath_Momentum_Evolution_2026-10-21/tail/tail_bound_constants.json",
+          "bytes": 3261,
+          "sha256": "a2438034222403ac81d26a537cb7c54224c38f2210d5ef8a7fae605c2bdf8761"
+        },
+        {
+          "path": "Free_Bath_Momentum_Evolution_2026-10-21/tail/tail_bound_constants.py",
+          "bytes": 2442,
+          "sha256": "ed3d7ced5886925678d8a88fd636e4e2b0029d81d3686dde47630a62abc2e10a"
+        }
+      ]
+    },
+    {
+      "package": "Expanding_Free_Bath_Fermionic_Network_2026-10-21",
+      "original_archive": "Expanding_Free_Bath_Fermionic_Network_2026-10-21.zip",
+      "original_archive_bytes": 65114557,
+      "original_archive_sha256": "42374b1f3703c1c9c133a07e490fa875e7756d76d3f6cd957411062196068b19",
+      "archived_file_count": 61,
+      "files": [
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/README.txt",
+          "bytes": 3338,
+          "sha256": "f69118679e925376d3f70248a326c50c39c2e7011bb4de5ba2edd5e3fd100c44"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/REPRODUCING.txt",
+          "bytes": 4953,
+          "sha256": "795b7c0123829aa49f05acc4579fa3419fc09f502d89ab3063cb47c1837f8f90"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/RESEARCH_NOTE.txt",
+          "bytes": 13855,
+          "sha256": "01ba097ac741647bb89ddbbcbbb767b781a3a46f4ea55c176b3875c552590e32"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/SHA256SUMS",
+          "bytes": 5717,
+          "sha256": "333c09eeefd956d6a55255202d27208ada9e2f2e93653816877c3c198ffd0653"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/analyze_network.py",
+          "bytes": 4281,
+          "sha256": "f4d139850034856a37c87af8084974821cbe0c56d3c24be59345576dbd28afa5"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/build_report.py",
+          "bytes": 7076,
+          "sha256": "fbf57d8d7d26b0d17c5d1f7dee0e358e13d41725b5f35e50594aeb59a3ea8ecd"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/NETWORK_AUDIT.txt",
+          "bytes": 10269,
+          "sha256": "c2eee19fccdf7e67972e3b3663cd95b67276fda292b2566b2744bf3bdd91726a"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/build_decay_bank.py",
+          "bytes": 1611,
+          "sha256": "a1d093692e1da539dce92c9b34a2e4d095141f4fe541559e5f75699aecc488cf"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/decay_T0p4_refined.npz",
+          "bytes": 125958,
+          "sha256": "c31ae31adf7ad9935f7b45a9e534c8ef790f2f2102c1c821ab02b96a9ce0c6ea"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/decay_bank.json",
+          "bytes": 42574,
+          "sha256": "2b803c8e8a29b0014270f5c8815f886a164450cd956f0e2f1e96f056d37a1990"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/decay_bank.npz",
+          "bytes": 1250293,
+          "sha256": "6980a7c9930dab3e4b4b77bbc8bd03bbf3a0de1f86277f520ba58db813270f2c"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/decay_bank_eta16.json",
+          "bytes": 76598,
+          "sha256": "20fc3d8d5e5ee02188ac1c7588b22086c4e9700bf1f34a03124382724d9dae68"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/decay_bank_eta16.npz",
+          "bytes": 2247380,
+          "sha256": "4b41a187f099c5de70db082ebbe8409b8551ffc4dc5178a76878a6a9c0823bc6"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/decay_graph.py",
+          "bytes": 6890,
+          "sha256": "6af53db5ac0bd1cdb48e818fe702162d3c11011dfab1e7d1af6e3e72763e4b8a"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/decay_graph_T0p4.json",
+          "bytes": 2007279,
+          "sha256": "d5a55434681ab4b72f81a23073193eb2ee7cb47ac0de92bfb2dc2fd21b00602e"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/decay_graph_convergence.json",
+          "bytes": 4938,
+          "sha256": "0833fb9a022aa317598c0310c088e780578ddd4134c9b797726f36d176a95062"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/evolve_network.py",
+          "bytes": 10622,
+          "sha256": "4efc72f9bb8780ce4c43a82381f05c93dfa437c9fb296d2d4f73bbf6f3555215"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/pair_annihilation.py",
+          "bytes": 4256,
+          "sha256": "b89660f0168f556896b981bf34d79c27e0c7946904bda16b1d60ec9fbfbe9a34"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/pair_bank.json",
+          "bytes": 273,
+          "sha256": "d31a3d9221a7bd1c66e784618ebae73ec75e4682f6c22ac24cf3c4e0bfc4a6cc"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/pair_bank.npz",
+          "bytes": 10545379,
+          "sha256": "05eb2dc6fa33718d38637c103cfe212cffae19adaf2f24933478e24e0d58ac5e"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/pair_bank_eta16.json",
+          "bytes": 272,
+          "sha256": "2dcef993955e8995cc9469e4c124cb6a17556ae0a1aca0fa4dbca0354c46af36"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/pair_bank_eta16.npz",
+          "bytes": 18980998,
+          "sha256": "05881aa8cbb92e1d00838038e50487f0f94fea88c3d64d9b078f939bd4079d7b"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/pair_kernel_check.json",
+          "bytes": 453,
+          "sha256": "51491545898f8bf7ee1b707646cce61e758da452e7b32b92d22429a06939ed91"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/reaction_rates.json",
+          "bytes": 49415,
+          "sha256": "4459b7d248083e59a431e493bbcda347c46f5e14a0de053802c681cc3f7ef76c"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/reaction_rates.py",
+          "bytes": 7423,
+          "sha256": "8d882509ffa9ee93c4c1b8cd80ac09e40c803f591c93d61c3cac81d9397ed0e2"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/scalar_exchange_audit.json",
+          "bytes": 4171,
+          "sha256": "3a839b50c8dec91bddfbb3a760dd934aa28ac1a334b25f3f0c3e6641aeeaf013"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/scalar_exchange_audit.py",
+          "bytes": 3867,
+          "sha256": "946e150e6867c9b01b4b990beee77182a27fa42f2add386c4631370c1a8d7ac1"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/network/verify_network.py",
+          "bytes": 2577,
+          "sha256": "0da64ab4fed8778f223b1273214413e36aed7109b6a0e240b763bd30a21d61cd"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/provenance.json",
+          "bytes": 4829,
+          "sha256": "b192e45cb979a6e351f49222ca25c18acd50da7b55b7cecdb9bf2ba82bd7a7fc"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/report/Expanding_Free_Bath_Fermionic_Network_2026-10-21.png",
+          "bytes": 425971,
+          "sha256": "37a61e5c10db9ffeab9d09b5c2b681791523c9bea150affa4747e5c5e126a763"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/report/comparison_summary.json",
+          "bytes": 15704,
+          "sha256": "f839c33f7a511366a93c9073cb93f1c498a0cad5f82936fdab3871e2c479779d"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/reproduce_all.py",
+          "bytes": 4293,
+          "sha256": "e9852713ca4ffb8c48d12bc5b16c07acd529332760f15bcbf846e2bf47a4ee4b"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/requirements.txt",
+          "bytes": 46,
+          "sha256": "815360a00e0e1d7a128cade3de11b66d3fe997cbd6e2c69f8081eb9bc8b88197"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/results/convergence_summary.json",
+          "bytes": 15874,
+          "sha256": "3dcb85a5666db44723c5125bea849b929c45ae7e6c654c714ee8d217faffa9e0"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/results/full_final.json",
+          "bytes": 198648,
+          "sha256": "881e055ccbabd9af2aeeb3aa8a4dbb299e302cac0f79d81f03b63a351a9aabd0"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/results/full_grid96.json",
+          "bytes": 165695,
+          "sha256": "79d242995ae6280916de45e3589626c2fa567c90f1afb126acecc4f52a83d3a3"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/results/full_quadrature40_temperature8.json",
+          "bytes": 160762,
+          "sha256": "6b18aefdcfbb1d99ef4695324a7ab69f88ac11370840676a2e4acc98ca93e689"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/results/full_tail40.json",
+          "bytes": 187559,
+          "sha256": "a833deb0ef82405d203c004f8b278b904c858be55f3e909c6373ea0af8586f4a"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/results/full_temperature8.json",
+          "bytes": 198685,
+          "sha256": "e650835aa9ff3a2654cf46a8bc91c8061bcbb769d8bfffeb2f4381ed2faeb07f"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/results/full_time96.json",
+          "bytes": 177978,
+          "sha256": "f2f973054811aa99ee6665126afabf3a9734214d657d7f93b2164b2a6858bea2"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/results/scattering_and_decay.json",
+          "bytes": 198653,
+          "sha256": "68754196362f4c9cb4b52080e19d595dbb4115913b2370703ac3e581df5397e9"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/results/scattering_only.json",
+          "bytes": 198547,
+          "sha256": "dc95da02df81bcc33e0c66f6bb3965ed3fcf3e863ffd55360bf26b7b10b7bfa1"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/review/THEORY_REVIEW.txt",
+          "bytes": 18037,
+          "sha256": "35b5e5e2a7f551ea9a4fa06af14a4c65dd5709e8650aa8cf705deb1afa6315b3"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/review/bank_normalization_check.json",
+          "bytes": 679,
+          "sha256": "2c60d0720b239be59001560135ad03deb6314f25c786a7581729395524ef1cb5"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/review/independent_background_check.json",
+          "bytes": 4054,
+          "sha256": "72d1643e680bbc3bd395bfdc9f08b7cf6ef22f938608f0079a2146e5aa9964e4"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/review/reproduction_check.txt",
+          "bytes": 3692,
+          "sha256": "fcd9966ac971f030ce2d4996f76f5263def22bf271f386e64a14f994717c8b17"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/review/verify_background.py",
+          "bytes": 2019,
+          "sha256": "cc4b119c9844891fb4632b4f00c77ca727bfcbb21c066a0d4154bb336bd836c7"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/review/verify_banks.py",
+          "bytes": 1546,
+          "sha256": "4847f2de51061ea2ab9e8a2a326308f40a71275af984dbb67068af1262e09b1c"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/solver/SCATTERING_METHOD.txt",
+          "bytes": 4950,
+          "sha256": "34779209acafca0d64a6e6d9a06fe390ae92bfa0dbd1bc969cff3e2c203d821a"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/solver/analyze_scattering.py",
+          "bytes": 3998,
+          "sha256": "2d1256886bc4c17099421a4dd11f305af1f53390bc995676fe154657cb465d2b"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/solver/bank_q40.json",
+          "bytes": 467,
+          "sha256": "4cdcfd7efded99a7991cb146cd4a9f06b312444859f7bcfc5694ae43764d7a0d"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/solver/bank_q40.npz",
+          "bytes": 11092570,
+          "sha256": "64f35e6c803c20d73bf18c34923432dd4641f2f474eed10304fac67a52e1496e"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/solver/bank_q48_eta16.json",
+          "bytes": 591,
+          "sha256": "15192d5a4f42b683228c708c41fc23a32758b8a1e7abc1a663d88b95c0436cc8"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/solver/bank_q48_eta16.npz",
+          "bytes": 20051933,
+          "sha256": "01e1ab6219bdec9bae5fe2edbe622e1d937603d260d63ed59b12553d639413e4"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/solver/expanding_free_bath.py",
+          "bytes": 15457,
+          "sha256": "03b17a0d726892a2540493145d4c3a964b655e8aded1b55f026bfa6330a96156"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/solver/scattering_final.json",
+          "bytes": 137956,
+          "sha256": "ab447d8b0bed9c12cddc4b883cfac5037a47bd511a2b3486a4d81849b8aab627"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/source_reference/NOTE_52_RESULTS_SUMMARY.json",
+          "bytes": 2706,
+          "sha256": "f838ac900113d06a06957132ec11c72d1b58db85eeed2e2536886afdbb6baf97"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/source_reference/RESEARCH_NOTE_52_KINETIC_MOMENTS_AND_BATH_RESPONSE.md",
+          "bytes": 18011,
+          "sha256": "f08c57ae8be724421cba2220acd15094993ac3ca864913748a804afbeada7ca6"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/source_reference/kinetic_moment_audit.py",
+          "bytes": 12596,
+          "sha256": "a184db6464cfba4dd2bba2720cf5ecd334b980f1fb7eced09df75aaecd6e5dd8"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/source_reference/kinetic_moment_reference.py",
+          "bytes": 4002,
+          "sha256": "1afa547b5792a4595d37a22aabfe2a3643622467fc2b1e265ff8e0283121cbc9"
+        },
+        {
+          "path": "Expanding_Free_Bath_Fermionic_Network_2026-10-21/source_reference/leptonic_conversion_scattering.py",
+          "bytes": 14036,
+          "sha256": "e6a78ec48310e1e64bb0cfad158bbfaa6aeff9ef2712f7e4ed8a7af6662ac55d"
+        }
+      ]
+    }
+  ],
+  "claims_not_made": [
+    "experimental validation",
+    "external scientific peer review",
+    "physical relic-abundance prediction",
+    "interacting-QCD completion",
+    "GATE-03 promotion",
+    "formal journal or DOI release"
+  ],
+  "binary_storage": {
+    "manifest": "ARTIFACT_PARTS.json",
+    "restoration_script": "restore_artifacts.py",
+    "reconstructed_files": 4,
+    "parts": 15
+  }
+}

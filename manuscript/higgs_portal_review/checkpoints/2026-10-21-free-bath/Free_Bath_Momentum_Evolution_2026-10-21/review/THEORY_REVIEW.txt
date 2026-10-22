@@ -1,0 +1,228 @@
+INDEPENDENT INTERNAL METHOD REVIEW
+2026-10-21; AI-assisted computational/mathematical review
+
+Status: theory, final solver, postprocessor, and moment comparator reviewed.
+An independent forward-generator matrix-exponential check also passed.
+This is an internal check,
+not external scientific peer review. Numerical convergence must be assessed
+from the completed runs; structural identities do not prove quadrature
+accuracy.
+
+1. Reversible radial cell method
+--------------------------------
+Let cell a specify both singlet species and an energy interval. Let pi_a
+be its normalized equilibrium Maxwell-Boltzmann mass, retaining the true
+relative species populations. Let G=diag(pi). For each equilibrium
+scattering event with positive weight w, incoming cell a, and outgoing
+cell b, add
+
+  D += w (e_a-e_b)(e_a-e_b)^T.
+
+The inherited elastic factor1/2 and conversion21-once convention must
+already be included in w. If E_ab is the oriented event histogram, then
+W=E+E^T and D=diag(W*1)-W implement exactly the expression above.
+Self-cell events cancel. D is symmetric positive semidefinite, has
+nonpositive off-diagonals, and D*1=0.
+
+Relative occupations g=f/f_eq obey dg/dt=-G^(-1)Dg. Actual normalized
+cell masses m=Gg obey dm/dt=-D G^(-1)m. Thus the mass generator has
+nonnegative off-diagonals and zero column sums; pi is stationary. The
+semigroup preserves total number and nonnegativity. The whitened
+operator is A=G^(-1/2)DG^(-1/2), whose known null vector is sqrt(pi).
+For tau=H*t, replace D by D/H. Finite positive eigenvalues are not a
+positive lower bound on the full continuum gap.
+
+A final interval [L,infinity) retains all events and equilibrium mass.
+It is a lumped tail, not resolved asymptotics. Moving L and refining the
+energy cells tests finite-time observable sensitivity to that choice.
+No distribution beyond L should silently be discarded or reflected.
+
+2. Initial conditions and fair observable comparison
+----------------------------------------------------
+The agreed zero-mean perturbations are
+
+  hP = 1_{species2} - r2,
+  hE = (E - Ebar_global)/T,
+  g(0) = 1 + epsilon*h, epsilon=0.05.
+
+Both are bounded below and give a nonnegative initial distribution for
+these benchmark parameters. Bin initial values should be equilibrium
+conditional averages of h. hP is exactly representable on every species
+grid; hE is projected onto cell constants. Its discrete initial variance
+is therefore slightly smaller than the continuum variance because
+within-cell energy variance is omitted. Report that ratio or otherwise
+distinguish own-initial-norm from common-continuum normalization when
+comparing time correlations and L2 norms with polynomial moment models.
+
+Because the bath is fixed and singlets are dilute classical particles,
+the scattering equation is linear in their distribution. The cell
+semigroup therefore evolves actual nonnegative cell populations. Fixed
+T evolution has no Hubble redshift or moving bath and does not constitute
+an expanding-universe or relic-abundance calculation. H is only the time
+unit used here.
+
+3. Quadrature and grid qualifications
+-------------------------------------
+Polynomial-moment quadrature convergence cannot be transferred to cell
+indicator functions: cell boundaries introduce discontinuities. Refine
+event-energy, boost, scattering-angle, and orientation quadratures as
+well as the energy-cell grid. Shared event quadratures and nested cell
+aggregation guarantee algebraic eigenvalue interlacing; that guarantee
+does not prove convergence to the continuum integral.
+
+An independently useful check is the exact count-only contrast, which
+is representable by every species/bin grid. Conditional cell energy
+projections should approach the inherited energy-moment matrix as cells
+are refined. Conservation, detailed balance, and positivity are separate
+structural checks.
+
+4. Conditional zero-global-gap theorem
+--------------------------------------
+Assume the declared vacuum-tree, fixed ideal MB, scattering-only model
+is extended to all singlet momenta. For every bath fermion f and scalar
+transition i->j, physical t=(k-k')^2<=0 since the incoming/outgoing bath
+masses agree. Write u=-t>=0. The amplitude is
+
+  |M_ij|^2 = K_ij^2 mf^2 (4mf^2+u)/(mh^2+u)^2 <= A_ijf < infinity.
+
+For the present bath masses mh^2>=8mf^2, its exact maximum is
+
+  A_ijf = K_ij^2 mf^2 / [4(mh^2-4mf^2)],
+
+attained at u=mh^2-8mf^2. (For mh^2<8mf^2 the maximum is at u=0.)
+
+Using lambda_i=4s*p_i^2, the t interval of width4*p_i*p_f, and the
+Moller relative velocity v_M=sqrt(s)*p_i/(E_i*epsilon_f),
+
+  sigma_ij <= A_ijf*p_f/(16*pi*s*p_i),
+  v_M*sigma_ij <= A_ijf*p_f/(16*pi*sqrt(s)*E_i*epsilon_f)
+               <= A_ijf/(32*pi*E_i*epsilon_f).
+
+The apparent exothermic threshold divergence cancels in v_M*sigma.
+Summing channels and integrating the MB bath gives
+
+  nu_i(p) <= B_i(T)/E_i(p),
+  B_i(T) = sum_{f,j} g_f*A_ijf/(32*pi)
+           * integral d^3k/(2*pi)^3 exp(-epsilon_f/T)/epsilon_f.
+
+The bath integral is finite (equal to mf*T*K1(mf/T)/(2*pi^2)). Let D_R
+contain both scalar species with E_i>R. Its equilibrium mass is positive
+and tends to zero as R grows. For the centered indicator of D_R, the
+reversible Dirichlet form equals outward equilibrium flux and the
+variance is pi(D_R)*(1-pi(D_R)). Hence
+
+  Rayleigh(1_{D_R}-pi(D_R))
+    <= max_i B_i(T) / [R*(1-pi(D_R))] -> 0.
+
+Indicators belong to the form domain because nu<=B/m_min is bounded.
+Nonnegativity of the collision form then proves that this globally
+extrapolated model has GLOBAL L2 spectral gap exactly zero.
+
+This conclusion concerns uniform relaxation over arbitrarily rare,
+arbitrarily energetic perturbations. It does not preclude rapid or
+well-converged finite-time relaxation of thermally populated observables.
+It does not apply without reanalysis after adding other collision
+channels, changing the bath, or specifying a physical ultraviolet
+completion of the vacuum-tree model. No large-momentum numerical claim
+is required for the conditional analytic theorem.
+
+5. Initial implementation audit
+-------------------------------
+Reviewed radial_free_bath.py initial draft. The following match the
+independently verified inherited event measure:
+  - exact cancellation of kve(1,z) between invariant-energy and boost
+    weights;
+  - final energy orientation cosine c*mu+sqrt(1-c^2)*sqrt(1-mu^2)*cos(phi);
+  - one spin/charge multiplicity and one quark color multiplicity;
+  - elastic1/2 and conversion21-once bookkeeping;
+  - symmetric event-graph assembly and correct G^(-1)D orientation;
+  - nested aggregation P^T D P with correspondingly aggregated metric.
+
+The final implementation uses the agreed hP/hE definitions and epsilon.
+It retains the null eigenvalue numerically rather than explicitly projecting
+it; the final value is 7.11e-15 in units of H, well separated from the first
+positive finite-graph eigenvalue near0.7391. Direct number, positivity, and
+independent forward-exponential checks confirm that this roundoff-scale
+null treatment does not affect the reported trajectories materially.
+
+6. Polynomial-evolution comparison audit
+----------------------------------------
+Reviewed comparison/moment_evolution.py. With the raw interleaved basis
+(1_1,1_2,x_1,x_2,x_1^2,x_2^2), the implemented population coefficients
+(-r2,r1,0,0,0,0) and energy coefficients
+(m1/T-Ebar/T,m2/T-Ebar/T,1,1,0,0) represent the agreed initial functions.
+The mean Ebar/T is correctly evaluated as number^T G energy_over_T.
+
+For G=L L^T, whitening z=L^T c gives A=L^(-1)D L^(-T). The code's two
+triangular solves implement this transformation correctly. Q projects
+orthogonally to L^T times the exact common-number coefficient vector.
+The reduced matrix is divided by H once. If a_k are initial coefficients
+in its orthonormal eigenbasis and lambda_k are its positive rates/H,
+the code correctly evaluates
+
+  C(tau)/C(0) = sum_k a_k^2 exp(-lambda_k*tau) / sum_k a_k^2,
+  ||h(tau)||/||h(0)|| = sqrt(sum_k a_k^2 exp(-2*lambda_k*tau)
+                                / sum_k a_k^2).
+
+The four-function and six-function spaces have respectively three and
+five nonconserved scalar modes. Drift is appropriately absent from this
+isotropic comparison. The separate count-only population curve is the
+single exponential with the inherited count-only rate.
+
+The population correlation equals the remaining heavy-species excess
+divided by its initial value. The energy correlation equals the remaining
+mean-total-energy excess divided by its initial value for that initial
+perturbation. This observable interpretation does not require interpreting
+the smallest finite-matrix eigenvalue as a continuum spectral gap.
+
+7. Final postprocessor and numerical audit
+------------------------------------------
+Reviewed analyze_convergence.py, final_evolution.json, and the relevant
+quantities in convergence_summary.json. The raw finest event graph uses
+192 finite cells per species with width0.125 through x=24, followed by a
+semi-infinite cell. The presented result aggregates it to128 finite cells
+through x=16 followed by a semi-infinite cell. P^T D P and P^T pi retain
+all discarded-as-individual cells inside the aggregate tail; no mass or
+events are removed. The tail-start checks at12,16,20,24 all use that same
+finest event graph. Old quadrature runs are postprocessed with the same
+frozen initial-condition definitions and time grid.
+
+For the final graph, equilibrium species fractions are approximately
+(0.972071507,0.027928493), tail mass is9.4504e-7, the count-only diagnostic
+is2.97474576498998 H, and the number-null relative matrix residual is
+3.28e-16. The maximum recorded number error is4.44e-16. Both evolved
+distributions remain positive for the reported times.
+
+At tau=1,2,5 the normalized population-excess correlations are
+0.0559129703,0.00566821711,0.000325885259; the energy-excess correlations
+are0.414928883,0.190543707,0.0198957269. These displayed digits reproduce
+the finite calculation; they are not all physically or numerically
+significant. The energy initial variance retained by cell projection is
+0.9993589703 of the continuum variance; the population variance is
+retained to floating-point precision. Both own-norm and common-continuum
+normalizations are supplied in the outputs.
+
+Observed relative changes on quadrature64->80 at tau1,2,5 are at most
+0.229% for population and0.0742% for energy. Cell-grid64->128 changes
+reach1.117% for population and1.101% for energy by tau5 (at tau1 they are
+0.1775% and0.2163%). Moving the aggregate-tail start16->24 changes these
+correlations by less than3.24e-7 relatively. These are observed refinement
+sensitivities, not rigorous errors, confidence intervals, or a full
+continuum-convergence certificate. Grid sensitivity is the largest of
+these final checks; report percent-level late-time limitations rather
+than implying many-digit convergence.
+
+The separate review/verify_final.py constructs the forward mass generator
+Q=-D diag(pi)^(-1)/H and evaluates scipy.linalg.expm(Q) at tau1. This is
+independent of the solver's whitened spectral-evolution path. It yields
+a nonnegative stochastic transition matrix: minimum entry6.82e-10,
+maximum column-sum error3.11e-15, and stationary-mass maximum absolute
+error9.02e-17. For both initial distributions, maximum cell-mass
+differences from the supplied evolution are below1.05e-16, and normalized
+autocorrelation differences are below3.13e-15. Results are saved in
+independent_exponential_check.json.
+
+No concrete normalization, generator-orientation, initial-condition,
+aggregation, or comparison defect was found in the final reviewed code.
+The remaining numerical limitation is the explicitly reported finite
+resolution, distinct from the analytic all-momentum tail theorem.

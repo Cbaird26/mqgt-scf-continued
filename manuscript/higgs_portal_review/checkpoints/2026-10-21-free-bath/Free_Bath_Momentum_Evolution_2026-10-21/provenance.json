@@ -1,0 +1,94 @@
+{
+  "prepared_utc": "2026-10-21",
+  "work": "Fixed-temperature isotropic momentum-resolved free-bath continuation and conditional all-momentum zero-gap theorem",
+  "parent_package": {
+    "filename": "Free_Bath_Nested_Moments_2026-10-21.zip",
+    "sha256": "f91ad251961fa13ff30e0b75ce3a27cc8d67e7585c4f43822f24dfe4db5f99be",
+    "included_in_full": false
+  },
+  "inherited_baseline_files": [
+    {
+      "path": "baseline/nested_free_bath.py",
+      "parent_package_path": "numerics/nested_free_bath.py",
+      "sha256": "dce9e22eacb9742d16dd5b9a621d4dd79a0d585d791a2c09f5bd963d94cfc768",
+      "bytes": 8573
+    },
+    {
+      "path": "baseline/results_q80.json",
+      "parent_package_path": "numerics/results_q80.json",
+      "sha256": "b91b8a66381976c075e883db545e3c9a30e47a3a51c284f2d01c34c84ee13635",
+      "bytes": 30997
+    }
+  ],
+  "original_model_repository": "https://github.com/Cbaird26/mqgt-scf-continued",
+  "original_model_commit": "994e51cb28b51ade500bb0e1902f3b082ef8e594",
+  "original_model_path_prefix": "manuscript/higgs_portal_review/",
+  "original_model_source_identities_from_parent_audit": [
+    {
+      "file": "kinetic_moment_audit.py",
+      "git_blob_sha1": "5a1de78d703c2300e4d09e74154180b18d935335",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/994e51cb28b51ade500bb0e1902f3b082ef8e594/manuscript/higgs_portal_review/kinetic_moment_audit.py",
+      "sha256": "a184db6464cfba4dd2bba2720cf5ecd334b980f1fb7eced09df75aaecd6e5dd8",
+      "bytes": 12596
+    },
+    {
+      "file": "kinetic_moment_reference.py",
+      "git_blob_sha1": "4675d54e0b829c20eba9a2e56844ab0deb3009fc",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/994e51cb28b51ade500bb0e1902f3b082ef8e594/manuscript/higgs_portal_review/kinetic_moment_reference.py",
+      "sha256": "1afa547b5792a4595d37a22aabfe2a3643622467fc2b1e265ff8e0283121cbc9",
+      "bytes": 4002
+    },
+    {
+      "file": "NOTE_52_RESULTS_SUMMARY.json",
+      "git_blob_sha1": "8726edc9df93b0ee6c6917c64928eaed1e2de425",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/994e51cb28b51ade500bb0e1902f3b082ef8e594/manuscript/higgs_portal_review/NOTE_52_RESULTS_SUMMARY.json",
+      "sha256": "f838ac900113d06a06957132ec11c72d1b58db85eeed2e2536886afdbb6baf97",
+      "bytes": 2706
+    },
+    {
+      "file": "RESEARCH_NOTE_52_KINETIC_MOMENTS_AND_BATH_RESPONSE.md",
+      "git_blob_sha1": "4b38fb10a26d758f50b830d461d77158d1ebe9fc",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/994e51cb28b51ade500bb0e1902f3b082ef8e594/manuscript/higgs_portal_review/RESEARCH_NOTE_52_KINETIC_MOMENTS_AND_BATH_RESPONSE.md",
+      "sha256": "f08c57ae8be724421cba2220acd15094993ac3ca864913748a804afbeada7ca6",
+      "bytes": 18011
+    },
+    {
+      "file": "leptonic_conversion_scattering.py",
+      "git_blob_sha1": "6ba9dcd73f7ef7325e939cebbcf0e6d482a341b3",
+      "url": "https://github.com/Cbaird26/mqgt-scf-continued/blob/994e51cb28b51ade500bb0e1902f3b082ef8e594/manuscript/higgs_portal_review/leptonic_conversion_scattering.py",
+      "sha256": "e6a78ec48310e1e64bb0cfad158bbfaa6aeff9ef2712f7e4ed8a7af6662ac55d",
+      "bytes": 14036
+    }
+  ],
+  "new_work_directories": [
+    "solver",
+    "comparison",
+    "tail",
+    "review",
+    "report"
+  ],
+  "review_status": "Independent internal AI-assisted mathematical/code review and forward-generator matrix-exponential verification; not external peer review",
+  "literature_context": [
+    {
+      "url": "https://www.stat.berkeley.edu/~aldous/RWG/Book_Ralph/Ch3.S6.html",
+      "role": "Dirichlet forms and variational characterization; contextual reference, not validation of this model"
+    },
+    {
+      "url": "https://arxiv.org/html/1706.07433v3",
+      "role": "Momentum-moment and full phase-space Boltzmann methodology in another dark-matter calculation"
+    },
+    {
+      "url": "https://arxiv.org/abs/1510.02361",
+      "role": "Nonrelativistic linear Boltzmann no-gap context; its theorem is not substituted for the direct proof here"
+    }
+  ],
+  "scopes": {
+    "isotropic_fixed_temperature_numerical_evolution": true,
+    "uniform_zero_gap_theorem_conditional_on_globally_extended_scattering_model": true,
+    "expanding_cosmological_history": false,
+    "interacting_QCD_response": false,
+    "apparatus_response": false,
+    "claim_about_physical_UV_completion": false
+  },
+  "reproduction": "reproduce_all.py defaults to supplied raw event graphs; --full recomputes four raw graphs; inherited moment matrix is supplied as a documented baseline input"
+}

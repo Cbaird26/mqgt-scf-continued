@@ -1,0 +1,18 @@
+{
+  "scope": "Read-only comparison of scientific freeze text with previously delivered outputs; no physics rerun",
+  "all_checks_pass": true,
+  "checks": {
+    "nested_scalar_fractional_decrease_matches": true,
+    "nested_drift_fractional_decrease_matches": true,
+    "nested_checks_pass": true,
+    "fixed_temperature_checks_pass": true,
+    "fixed_gap_scope_conditional": true,
+    "expanding_endpoint_Tkin_rounding_matches": true,
+    "expanding_endpoint_heavy_rounding_matches": true,
+    "expanding_endpoint_equilibrium_heavy_rounding_matches": true,
+    "expanding_endpoint_depletion_rounding_matches": true,
+    "expanding_shape_TV_rounding_matches": true,
+    "expanding_all_structural_checks_pass": true
+  },
+  "inconsistencies_found": []
+}
