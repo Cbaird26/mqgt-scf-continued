@@ -7,4 +7,18 @@ authors:
     given-names: Christopher Michael
 repository-code: "https://github.com/Cbaird26/mqgt-scf-continued"
 license: CC-BY-4.0
-date-released: 2026-10-13
+date-released: 2026-10-23
+version: "2026.10.22-updated-corpus"
+preferred-citation:
+  type: data
+  title: "A Theory of Everything - Updated Research Corpus (2026-10-22)"
+  authors:
+    - family-names: Baird
+      given-names: Christopher Michael
+  doi: 10.5281/zenodo.23585376
+  year: 2026
+  date-published: 2026-10-23
+  version: "2026.10.22"
+  publisher:
+    name: Zenodo
+  url: "https://zenodo.org/records/23585376"

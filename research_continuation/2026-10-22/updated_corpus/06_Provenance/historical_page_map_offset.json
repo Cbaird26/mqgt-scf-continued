@@ -1,0 +1,7 @@
+{
+  "historical_corpus_pages": 9252,
+  "new_start": 97,
+  "new_end": 9348,
+  "physical_page_offset": 96,
+  "instruction": "For every baseline-corpus physical page number in the preserved historical page map, add physical_page_offset. Internal supplement/source page numbers are unchanged."
+}

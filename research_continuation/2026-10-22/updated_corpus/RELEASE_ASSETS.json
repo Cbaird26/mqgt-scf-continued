@@ -1,0 +1,51 @@
+{
+  "edition": "2026.10.22",
+  "github_release": "https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.22-updated-corpus",
+  "zenodo_version_doi": "10.5281/zenodo.23585376",
+  "zenodo_concept_doi": "10.5281/zenodo.14019809",
+  "files": [
+    {
+      "name": "PUBLIC_Zenodo_Package_2026-10-22.zip",
+      "bytes": 653985879,
+      "sha256": "f75ba959ed1686e91889916dbc97d1d1c6fcfd7f7e364a3bc3f39085d7127f7d",
+      "md5": "25dea69fb17d62955a0104fc4fc7e323"
+    },
+    {
+      "name": "A_Theory_of_Everything_UPDATED_CORPUS_2026-10-22.pdf",
+      "bytes": 162929211,
+      "sha256": "03272f15706b8da897546b8421c9ad639d72c152c8a4bd4156abd17f3aca5364",
+      "md5": "092a614462eb4b3ffb756aee8535c3f5"
+    },
+    {
+      "name": "02_Update_Guide_and_Catalogue_2026-10-22.pdf",
+      "bytes": 77302,
+      "sha256": "5731b930add363c7b362f2469028c97aa2770666a0adbf8e7ba5977a21504aef",
+      "md5": "3a4558a203e1a6fb846c92c24f8cb948"
+    },
+    {
+      "name": "RIGHTS_AND_ATTRIBUTION.txt",
+      "bytes": 2470,
+      "sha256": "551c1be7e2f5cec690b8c5e5b28fa5f74293e5e6c083f71894557ed12ddc641c",
+      "md5": "a9a487638a2f0888a0d39c40a269ea59"
+    },
+    {
+      "name": "VERIFICATION.json",
+      "bytes": 3020,
+      "sha256": "b4d4232e3471a7ecfd3fbe010ff8d68ec233ce46609cc167c257575df7d34c31",
+      "md5": "e738740391f570661f11b19fdb5a45d4"
+    },
+    {
+      "name": "ARCHIVE_VERIFICATION.json",
+      "bytes": 712,
+      "sha256": "22b9898dd60b4b8bd4c21f3832b3174386488363821f861a14403b7b05f29df3",
+      "md5": "14e2601773c003cf075a340b1ac02b77"
+    },
+    {
+      "name": "RELEASE_SHA256SUMS.txt",
+      "bytes": 602,
+      "sha256": "46e612692d4f2d317129be07fa7d61e0ceb827eb81c4fee564bcc49255639fa5",
+      "md5": "786166b07838f9c527722506ef6ce391"
+    }
+  ],
+  "scope": "These seven byte-identical files are the GitHub and Zenodo deposit assets."
+}

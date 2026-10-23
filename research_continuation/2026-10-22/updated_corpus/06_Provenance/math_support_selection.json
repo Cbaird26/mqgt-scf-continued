@@ -1,0 +1,474 @@
+{
+  "archives": [
+    {
+      "source_archive": "FullDash_2026-10-21_hadamard_15100.zip",
+      "sha256": "854c5be9388482602d9181d11ff053c26c1123c01cc45b032cea9cfad00ef56b",
+      "selected_members": [
+        {
+          "member": "2026-10-21_Band1_Hadamard_15100_PaleyII.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-21_hadamard_15100/2026-10-21_Band1_Hadamard_15100_PaleyII.md",
+          "sha256": "3b34f12951e81b591fed98551242603cc3c700decb85ff0fae3833dcbbd8d995"
+        },
+        {
+          "member": "SCOREBOARD_LATEST.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-21_hadamard_15100/SCOREBOARD_LATEST.md",
+          "sha256": "57b74835628f3ffd34144eeab0432eca8dc284a69f09e6a80808eebd7345ac6b"
+        },
+        {
+          "member": "STATUS_BOARD_LATEST.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-21_hadamard_15100/STATUS_BOARD_LATEST.md",
+          "sha256": "e167c30678a34dadc337bf428a74595fa57104cc7da5dc866e9448f85fd289b4"
+        },
+        {
+          "member": "README.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-21_hadamard_15100/README.md",
+          "sha256": "0d4db5c0e9c96bdb19b14c085fe853996e2d6f938ea874885c88e2cc90809ef8"
+        },
+        {
+          "member": "next_wave.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-21_hadamard_15100/next_wave.md",
+          "sha256": "37385d536ae0c742c46b56c78601ebfd509e4b94f6854dcdfd7d1838b5935f90"
+        },
+        {
+          "member": "results_hadamard_15100.json",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-21_hadamard_15100/results_hadamard_15100.json",
+          "sha256": "ef44be159ce44b673f0dc5cbfe429cc8bb0c41fda29823b03200e88bef507597"
+        },
+        {
+          "member": "SUMMARY_hadamard_15100.txt",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-21_hadamard_15100/SUMMARY_hadamard_15100.txt",
+          "sha256": "40ce9b094a1076092338ab56fb8878c353bbc945b49f1455979b55e00ffc849e"
+        }
+      ],
+      "policy": "All non-PDF files; PDFs are byte-deduplicated in the current catalogue or retained in the baseline."
+    },
+    {
+      "source_archive": "FullDash_2026-10-21_hadamard_15148.zip",
+      "sha256": "b74d34db5758e5559adcb7ac790870c181a91ce54b99800df5c87d5ee735e2b0",
+      "selected_members": [
+        {
+          "member": "2026-10-21_Band1_Hadamard_15148_PaleyII.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-21_hadamard_15148/2026-10-21_Band1_Hadamard_15148_PaleyII.md",
+          "sha256": "f3a6f05eb5103c56eb98641ab777b19d5cdf8657c984e3352d3428eb7201a646"
+        },
+        {
+          "member": "SCOREBOARD_LATEST.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-21_hadamard_15148/SCOREBOARD_LATEST.md",
+          "sha256": "cf9e60f8537f53f5d7bd91f8f9d7dead71c05d883425d834031c889519bb927c"
+        },
+        {
+          "member": "STATUS_BOARD_LATEST.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-21_hadamard_15148/STATUS_BOARD_LATEST.md",
+          "sha256": "54786081f11e03d34e5f27acc637b3fcb4382841ccb9d435f56ba204eeaa4cd6"
+        },
+        {
+          "member": "README.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-21_hadamard_15148/README.md",
+          "sha256": "53a8fe00e0a17a5ce4c593e51275af2512dbe296a98897ab6d1023d168074b50"
+        },
+        {
+          "member": "next_wave.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-21_hadamard_15148/next_wave.md",
+          "sha256": "34cc9dfbe4012e960418ebd73da2dd6989c7e1149c75ef4bee8d8b6d734c9f83"
+        },
+        {
+          "member": "results_hadamard_15148.json",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-21_hadamard_15148/results_hadamard_15148.json",
+          "sha256": "ec81e7da1bfd91162ff4a2884274ca231e41940492d3cf1138d22de0404668dc"
+        },
+        {
+          "member": "SUMMARY_hadamard_15148.txt",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-21_hadamard_15148/SUMMARY_hadamard_15148.txt",
+          "sha256": "ee7400b293cf19a07d7ac14c5ca0ee4a22c5e6485c77de20d843ac4e61f59f3c"
+        }
+      ],
+      "policy": "All non-PDF files; PDFs are byte-deduplicated in the current catalogue or retained in the baseline."
+    },
+    {
+      "source_archive": "FullDash_2026-10-21_hadamard_15156.zip",
+      "sha256": "a647d3fe8cb2d382a00be6176602984e5d6875885c1d004ad51f2f150ecb6f3b",
+      "selected_members": [
+        {
+          "member": "2026-10-21_Band1_Hadamard_15156_PaleyII.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-21_hadamard_15156/2026-10-21_Band1_Hadamard_15156_PaleyII.md",
+          "sha256": "9e8d83f2ec62ec0be501b7053e203635b3f425cac4a41d36a8eec0f28fd6536c"
+        },
+        {
+          "member": "SCOREBOARD_LATEST.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-21_hadamard_15156/SCOREBOARD_LATEST.md",
+          "sha256": "9522bcbd2268e871c5fc40bf42451e7c2250d8c7d02b7eac1c7b6fd9de82491d"
+        },
+        {
+          "member": "STATUS_BOARD_LATEST.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-21_hadamard_15156/STATUS_BOARD_LATEST.md",
+          "sha256": "f5e23e53dab523df5c2c3b8c6b5ab193d4f2f77e6f626a906afc7309b19d29fe"
+        },
+        {
+          "member": "README.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-21_hadamard_15156/README.md",
+          "sha256": "434dc6c502ccced1c760cc2449406f4383923a912088142b3ec39c96a3c9015b"
+        },
+        {
+          "member": "next_wave.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-21_hadamard_15156/next_wave.md",
+          "sha256": "104b46ce87c34e68bb7ac0bc18cb1d378f5e4d96357e790c1b6e4bf24468808b"
+        },
+        {
+          "member": "results_hadamard_15156.json",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-21_hadamard_15156/results_hadamard_15156.json",
+          "sha256": "cfa9bf641a9274a6d3cb0c552dd221bf771d2b9d7dc83bd75ab6eaeedfa059e5"
+        },
+        {
+          "member": "SUMMARY_hadamard_15156.txt",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-21_hadamard_15156/SUMMARY_hadamard_15156.txt",
+          "sha256": "f14965bcdaba8a42c68b6e6830f2ee29fe62afd5219f1b5b6abb8a1292b52244"
+        }
+      ],
+      "policy": "All non-PDF files; PDFs are byte-deduplicated in the current catalogue or retained in the baseline."
+    },
+    {
+      "source_archive": "FullDash_2026-10-22_hadamard_15180.zip",
+      "sha256": "a5df94ca6986cdca12e30bac552cdc2cb9ae0aef0da2fcb05504e07d856b3a74",
+      "selected_members": [
+        {
+          "member": "2026-10-22_Band1_Hadamard_15180_PaleyII.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15180/2026-10-22_Band1_Hadamard_15180_PaleyII.md",
+          "sha256": "07087006eea02c71a6c440c7cab30fea15e70116a97a6a9b34eff4bd5fef67a9"
+        },
+        {
+          "member": "SCOREBOARD_LATEST.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15180/SCOREBOARD_LATEST.md",
+          "sha256": "3e04d0bd0a100e0bbe6f4181e0bd49c54ab3995fb450639f7ed376ab43515730"
+        },
+        {
+          "member": "STATUS_BOARD_LATEST.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15180/STATUS_BOARD_LATEST.md",
+          "sha256": "90f4d1015b1b4a3a7f5f573bf46bd0aba83ff972fafebad300e651daeb857981"
+        },
+        {
+          "member": "README.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15180/README.md",
+          "sha256": "6743d15fac759a5cd764aa1c3be50bf4a9e95afe2eee07dae03eb6a39ee33c6f"
+        },
+        {
+          "member": "next_wave.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15180/next_wave.md",
+          "sha256": "d09b28a2cb9aaaceacd1f47bafca860f297bf80bf0a0e35c7b7d6252b93cf7f5"
+        },
+        {
+          "member": "results_hadamard_15180.json",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15180/results_hadamard_15180.json",
+          "sha256": "b14839a99ecab1a74ec5452c0413658fcfe0847bf7669b9cb2f38df742604c03"
+        },
+        {
+          "member": "SUMMARY_hadamard_15180.txt",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15180/SUMMARY_hadamard_15180.txt",
+          "sha256": "ae3bbb1c14cdedfb5859baf645b7bf4e9ee0a7816b911e14a3c24efe5fd654e2"
+        }
+      ],
+      "policy": "All non-PDF files; PDFs are byte-deduplicated in the current catalogue or retained in the baseline."
+    },
+    {
+      "source_archive": "FullDash_2026-10-22_hadamard_15188.zip",
+      "sha256": "f064c7a83400a2f3a2bb8d45d46ef7ae96968f4d1ece10d47bf396b9d165da9a",
+      "selected_members": [
+        {
+          "member": "2026-10-22_Band1_Hadamard_15188_PaleyI.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15188/2026-10-22_Band1_Hadamard_15188_PaleyI.md",
+          "sha256": "0a7db0bd23e8f517bf497bb54868d391453f5e2eac293814e0c7d2bd5f79de30"
+        },
+        {
+          "member": "SCOREBOARD_LATEST.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15188/SCOREBOARD_LATEST.md",
+          "sha256": "2c4bed03e014ee66418a5447293658ac6cdb549c1e475612784d3d2bebdc66bf"
+        },
+        {
+          "member": "STATUS_BOARD_LATEST.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15188/STATUS_BOARD_LATEST.md",
+          "sha256": "7aba61daf44f68d3858e2b9a8f2ff5868739fb3562948446d830f6477df534f4"
+        },
+        {
+          "member": "README.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15188/README.md",
+          "sha256": "6ca7ae4be98aaa604104078b8f790464932c6998b916e67d4ffd3624f8a71323"
+        },
+        {
+          "member": "next_wave.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15188/next_wave.md",
+          "sha256": "3d7a51b9b97ad2254874c1de145b47817f78487134a612790495aac3e120523c"
+        },
+        {
+          "member": "results_hadamard_15188.json",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15188/results_hadamard_15188.json",
+          "sha256": "688b6649aefde32e81ef5a378d927db589632f3e026e1b2b705db8557abcf83c"
+        },
+        {
+          "member": "SUMMARY_hadamard_15188.txt",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15188/SUMMARY_hadamard_15188.txt",
+          "sha256": "3c1cf365d28b96f89337a0e23a70c3ef67a11b938f9d4303a2522a133e509a2f"
+        }
+      ],
+      "policy": "All non-PDF files; PDFs are byte-deduplicated in the current catalogue or retained in the baseline."
+    },
+    {
+      "source_archive": "FullDash_2026-10-22_hadamard_15200.zip",
+      "sha256": "0839ddc2a29aa310822c3906f078acf4de6b0a64f504c255b728734a33c8dcf0",
+      "selected_members": [
+        {
+          "member": "2026-10-22_Band1_Hadamard_15200_PaleyI.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15200/2026-10-22_Band1_Hadamard_15200_PaleyI.md",
+          "sha256": "a007e7bc19f9641167d91bbe8837f501f451b8ba766d21bc2992accbbe9acdce"
+        },
+        {
+          "member": "SCOREBOARD_LATEST.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15200/SCOREBOARD_LATEST.md",
+          "sha256": "7c6e863185e0a30daa212ada88abf4a0f5d60a9a27dd1f4e8630cb7d7029dd0f"
+        },
+        {
+          "member": "STATUS_BOARD_LATEST.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15200/STATUS_BOARD_LATEST.md",
+          "sha256": "0b51442fcbc109e6b5a05fb0993e4eba78289c29a92ef62e4fa3a907adc4abed"
+        },
+        {
+          "member": "README.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15200/README.md",
+          "sha256": "2697ba2d3e4579aa1369acddc3150006be656d3a757dda35cbe1a40b00742e8c"
+        },
+        {
+          "member": "next_wave.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15200/next_wave.md",
+          "sha256": "fc65a518a57d902817b5828b96ea062ad8b355b58a46d52b9d45388e88693c97"
+        },
+        {
+          "member": "results_hadamard_15200.json",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15200/results_hadamard_15200.json",
+          "sha256": "16f360b3ae4aab8fd3f1c077b5b65fe56c97bbe6db099009705beb0957d31b73"
+        },
+        {
+          "member": "SUMMARY_hadamard_15200.txt",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15200/SUMMARY_hadamard_15200.txt",
+          "sha256": "9aea9148c290967572e701f6ff338e2b1c764e0a03f8e7785c93e88eeedd9cfc"
+        }
+      ],
+      "policy": "All non-PDF files; PDFs are byte-deduplicated in the current catalogue or retained in the baseline."
+    },
+    {
+      "source_archive": "FullDash_2026-10-22_hadamard_15228.zip",
+      "sha256": "224391ce80cb420124f61f7913964a013cfdfd001e4474a4b0d220eb26eb3b67",
+      "selected_members": [
+        {
+          "member": "2026-10-22_Band1_Hadamard_15228_PaleyI.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15228/2026-10-22_Band1_Hadamard_15228_PaleyI.md",
+          "sha256": "be1cf7e5bd81574e437d647c4eab0169df6557d96595c33dad283118e16b5f69"
+        },
+        {
+          "member": "SCOREBOARD_LATEST.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15228/SCOREBOARD_LATEST.md",
+          "sha256": "e0871ef477221001c87b8ce7357ea36df3fcdde8a054c2164a28fcfebff59592"
+        },
+        {
+          "member": "STATUS_BOARD_LATEST.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15228/STATUS_BOARD_LATEST.md",
+          "sha256": "6b498ad19968514079e3386f7ee6819b902aa1de33a27fb6ce587fddd04a8d56"
+        },
+        {
+          "member": "README.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15228/README.md",
+          "sha256": "63281ac73911f66decf1ac2f0b7ebb2c305d89172436cb2b488163859d3fd0e5"
+        },
+        {
+          "member": "next_wave.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15228/next_wave.md",
+          "sha256": "d7e093f247f414d2005dd0bf6c31ecfdcb7bb9d521b407d9bd95635d8893dc5d"
+        },
+        {
+          "member": "results_hadamard_15228.json",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15228/results_hadamard_15228.json",
+          "sha256": "f0bf5aa0b965002d2ae9ffbde0bc924d88e6c29ca2c9a2aa2003c695eb750d95"
+        },
+        {
+          "member": "SUMMARY_hadamard_15228.txt",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15228/SUMMARY_hadamard_15228.txt",
+          "sha256": "19b305779b3739621f7d51f769415894b27344752bb5a0b71f283852e25e7bd6"
+        }
+      ],
+      "policy": "All non-PDF files; PDFs are byte-deduplicated in the current catalogue or retained in the baseline."
+    },
+    {
+      "source_archive": "FullDash_2026-10-22_hadamard_15244.zip",
+      "sha256": "23ad4e04569a0f6101251ee5ea0e0f12b441cb29803b94b48f6e1e66d17c886e",
+      "selected_members": [
+        {
+          "member": "2026-10-22_Band1_Hadamard_15244_PaleyII.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15244/2026-10-22_Band1_Hadamard_15244_PaleyII.md",
+          "sha256": "2ffe6ae5ee5c8f31b3c7aaa15e4116578991a544ac1145d96091fab7776c3bda"
+        },
+        {
+          "member": "SCOREBOARD_LATEST.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15244/SCOREBOARD_LATEST.md",
+          "sha256": "ac089668311e0fa6e212f05e22e13c91722d3c1ff9287b34513e05ef79e5236e"
+        },
+        {
+          "member": "STATUS_BOARD_LATEST.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15244/STATUS_BOARD_LATEST.md",
+          "sha256": "541f54d636c119b3770e2c885ee7664ab4cb73fa46bf4c203c5f372550571c98"
+        },
+        {
+          "member": "README.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15244/README.md",
+          "sha256": "bcf85834e948c7af7373c1f8dc4728236d78e9fbc999b79492abbb4149c33870"
+        },
+        {
+          "member": "next_wave.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15244/next_wave.md",
+          "sha256": "b3b05bff81d0492365a09df6964dfb3f83b23c883a7ab2b3cec12498ac7c54dc"
+        },
+        {
+          "member": "results_hadamard_15244.json",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15244/results_hadamard_15244.json",
+          "sha256": "82d4d82d2288a4afda26304041bc03500d2f1209dc84143a3ab5cf2d146c8086"
+        },
+        {
+          "member": "SUMMARY_hadamard_15244.txt",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15244/SUMMARY_hadamard_15244.txt",
+          "sha256": "90087cab11b7c7856b5487749212ce35df1275667969c7b7e35809f8da9cd901"
+        }
+      ],
+      "policy": "All non-PDF files; PDFs are byte-deduplicated in the current catalogue or retained in the baseline."
+    },
+    {
+      "source_archive": "FullDash_2026-10-22_hadamard_15260.zip",
+      "sha256": "9087d629ae6ce71b08edcada1aa5f027323495e271cf6f813bde79bb83710afa",
+      "selected_members": [
+        {
+          "member": "2026-10-22_Band1_Hadamard_15260_PaleyI.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15260/2026-10-22_Band1_Hadamard_15260_PaleyI.md",
+          "sha256": "5581147e5fef1bbfd55fb5457d0914c18f14cc9be24a2e36342722e52f5a7744"
+        },
+        {
+          "member": "SCOREBOARD_LATEST.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15260/SCOREBOARD_LATEST.md",
+          "sha256": "e1ce2d73b87b3d809c3276195b2ba23a5ab2ca2fad9c6d67c56fe6d1afad9d7a"
+        },
+        {
+          "member": "STATUS_BOARD_LATEST.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15260/STATUS_BOARD_LATEST.md",
+          "sha256": "ed12c8265919614269add2a02dcf78b0ce458c106516a931a005f6b238933487"
+        },
+        {
+          "member": "README.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15260/README.md",
+          "sha256": "d2f2045fb8b3d1c40c693037bdbedab313ae757a2d3a2dbb526b7419b8964caa"
+        },
+        {
+          "member": "next_wave.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15260/next_wave.md",
+          "sha256": "04963eb8c65e32de9818063c73d2dfccca22fb6909cec7ae1bdcf7f93f6aa07a"
+        },
+        {
+          "member": "results_hadamard_15260.json",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15260/results_hadamard_15260.json",
+          "sha256": "c779bb08b7ec1475cf321d460eca3c865df47c0f82a63d0b2e6f5b99c1a88506"
+        },
+        {
+          "member": "SUMMARY_hadamard_15260.txt",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15260/SUMMARY_hadamard_15260.txt",
+          "sha256": "f6e72db379760eb743b7981d7b44776094ddc16377b7e2a61f1ee608b8be033e"
+        }
+      ],
+      "policy": "All non-PDF files; PDFs are byte-deduplicated in the current catalogue or retained in the baseline."
+    },
+    {
+      "source_archive": "FullDash_2026-10-22_hadamard_15264.zip",
+      "sha256": "ac65945d29514d7f9e29e125ded469960570d589da1c6917ae4530735b85c7d2",
+      "selected_members": [
+        {
+          "member": "2026-10-22_Band1_Hadamard_15264_PaleyI.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15264/2026-10-22_Band1_Hadamard_15264_PaleyI.md",
+          "sha256": "386b69235f6f21dce549bf68f4faab5b52d4c72d5db42dfc9bfccd5b6aa4f628"
+        },
+        {
+          "member": "SCOREBOARD_LATEST.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15264/SCOREBOARD_LATEST.md",
+          "sha256": "07a7733f87690733e2be741ec8699baf66f7048af081064954561ff3ae192910"
+        },
+        {
+          "member": "STATUS_BOARD_LATEST.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15264/STATUS_BOARD_LATEST.md",
+          "sha256": "ad44dcc1d80f046a7226ed46122e929d54e5d9b49e2b43c730c119730a895305"
+        },
+        {
+          "member": "README.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15264/README.md",
+          "sha256": "5c178a3e27c0fd85b8e5cabf2ccde461281e145ad6d139749472b0b662f595d6"
+        },
+        {
+          "member": "next_wave.md",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15264/next_wave.md",
+          "sha256": "0525a9461dc998e85ed6000d7517868cd1021cf7893c2160a845ee9db819e257"
+        },
+        {
+          "member": "results_hadamard_15264.json",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15264/results_hadamard_15264.json",
+          "sha256": "592d8dff356e2553a3c793182588e812e3d58853327beec932d76fc46b8094e6"
+        },
+        {
+          "member": "SUMMARY_hadamard_15264.txt",
+          "path": "05_Computational_Mathematics/Supporting/FullDash_2026-10-22_hadamard_15264/SUMMARY_hadamard_15264.txt",
+          "sha256": "251ffda6105dc42da32a222c73cbfb990f4cef75c37bd31ca55eca7abbf5be62"
+        }
+      ],
+      "policy": "All non-PDF files; PDFs are byte-deduplicated in the current catalogue or retained in the baseline."
+    }
+  ],
+  "sidecars": [
+    {
+      "filename": "2026-10-22_Band1_Hadamard_15260_PaleyI.md",
+      "sha256": "5581147e5fef1bbfd55fb5457d0914c18f14cc9be24a2e36342722e52f5a7744"
+    },
+    {
+      "filename": "ship_2026-10-22_hadamard_15260.md",
+      "sha256": "633d506d1f5410d0cd823c145e45b1a80f60fa09cd45c48159e3057065165d2e"
+    },
+    {
+      "filename": "literature_ledger_hadamard_15100.json",
+      "sha256": "b97a6ce6e0ce38310de1b120cea866876adaff039cc20d60c7a2bd3c96bbaace"
+    },
+    {
+      "filename": "2026-10-22_Band1_Hadamard_15228_PaleyI.md",
+      "sha256": "be1cf7e5bd81574e437d647c4eab0169df6557d96595c33dad283118e16b5f69"
+    },
+    {
+      "filename": "ship_2026-10-22_hadamard_15228.md",
+      "sha256": "d3580ab215a08ede5548a32f2fe67c60dd278abbf2ef74400da7b552fb182235"
+    },
+    {
+      "filename": "ship_2026-10-21_hadamard_15100.md",
+      "sha256": "f4e5e2dc647096cc8bd613cf681a06c40df754b71ae61ae57b6e9255036abab8"
+    },
+    {
+      "filename": "results_hadamard_15100.json",
+      "sha256": "ef44be159ce44b673f0dc5cbfe429cc8bb0c41fda29823b03200e88bef507597"
+    },
+    {
+      "filename": "SUMMARY_hadamard_15100.txt",
+      "sha256": "40ce9b094a1076092338ab56fb8878c353bbc945b49f1455979b55e00ffc849e"
+    }
+  ],
+  "orders": [
+    "15100",
+    "15108",
+    "15124",
+    "15132",
+    "15140",
+    "15148",
+    "15156",
+    "15180",
+    "15188",
+    "15200",
+    "15228",
+    "15244",
+    "15260",
+    "15264"
+  ]
+}

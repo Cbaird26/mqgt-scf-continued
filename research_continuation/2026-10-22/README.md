@@ -1,5 +1,15 @@
 # Research continuation — 22 October 2026
 
+**Updated corpus, edition 2026.10.22.** The [source index](updated_corpus/README.md)
+and [Zenodo version](https://zenodo.org/records/23585376) assemble a **9,447-page**
+reading edition and a complete reproducibility archive, including all seven recent
+research prereleases, 51 additional source PDFs, explicit supersession/caveat guidance,
+page maps and SHA-256 manifests. All original scientific bytes remain preserved.
+The latest retained-action result is a finite-momentum stability obstruction, not a
+stable-vacuum or completed-Theory-of-Everything claim. Packaging checks establish
+integrity and page fidelity; scientific calculations were not rerun.
+**Corpus research prerelease:** [v2026.10.22-updated-corpus](https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.22-updated-corpus).
+
 ## Spectral Profile Nonuniqueness at a Common Stationary Vacuum
 
 This additive continuation contains the common-vacuum spectral-profile theorem

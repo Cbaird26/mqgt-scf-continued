@@ -1,0 +1,37 @@
+[
+  {
+    "archive": "MQGT_SCF_Research_Continuation_2026-10-21.zip",
+    "active_manifest": "toe_continuation_2026-10-21/PACKAGE_MANIFEST.json",
+    "payload_hashes_verified": 296
+  },
+  {
+    "archive": "Exact_Coupled_Vacuum_Reproducibility_2026-10-22.zip",
+    "active_manifest": "Exact_Coupled_Vacuum_2026-10-22/SHA256SUMS.txt",
+    "payload_hashes_verified": 23
+  },
+  {
+    "archive": "Exact_Scalar_Mode_Sums_Reproducibility_2026-10-22.zip",
+    "active_manifest": "Exact_Scalar_Mode_Sums_2026-10-22/SHA256SUMS.txt",
+    "payload_hashes_verified": 22
+  },
+  {
+    "archive": "Finite_Momentum_Poles_Reproducibility_2026-10-22.zip",
+    "active_manifest": "Finite_Momentum_Poles_2026-10-22/SHA256SUMS.txt",
+    "payload_hashes_verified": 34
+  },
+  {
+    "archive": "Radion_Dynamics_Reproducibility_2026-10-22.zip",
+    "active_manifest": "Radion_Dynamics_2026-10-22/SHA256SUMS.txt",
+    "payload_hashes_verified": 30
+  },
+  {
+    "archive": "Scalar_Anomaly_Sector_Reproducibility_2026-10-22.zip",
+    "active_manifest": "Scalar_Anomaly_Sector_2026-10-22/SHA256SUMS.txt",
+    "payload_hashes_verified": 22
+  },
+  {
+    "archive": "Spectral_Profile_Common_Vacuum_Publication_2026-10-22.zip",
+    "active_manifest": "SHA256SUMS.txt",
+    "payload_hashes_verified": 17
+  }
+]

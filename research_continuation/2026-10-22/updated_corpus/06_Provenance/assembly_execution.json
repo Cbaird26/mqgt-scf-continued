@@ -1,0 +1,425 @@
+{
+  "pages": 9447,
+  "parts": [
+    {
+      "title": "2026-10-22 update guide and catalogue",
+      "start": 1,
+      "pages": 6,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "MQGT-SCF Research Continuation \u2014 2026-10-21",
+      "start": 7,
+      "pages": 13,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "Spectral Profile Nonuniqueness at a Common Stationary Vacuum",
+      "start": 20,
+      "pages": 7,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "Geometric weak-gauge response and electromagnetic profile dependence",
+      "start": 27,
+      "pages": 12,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "Neutral gauge and Higgs matching in the spectral-profile family",
+      "start": 39,
+      "pages": 11,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "Scalar and Anomaly-Complete Sector for the Shared Spectral Action (2026-10-22)",
+      "start": 50,
+      "pages": 13,
+      "dropped_destinations": [],
+      "renamed_destinations": {
+        "cite.archive": "cite.archive.1"
+      }
+    },
+    {
+      "title": "Exact Internal Mode Sums and Higgs-Induced Neutral Kinetics (2026-10-22)",
+      "start": 63,
+      "pages": 11,
+      "dropped_destinations": [],
+      "renamed_destinations": {
+        "cite.weak": "cite.weak.1",
+        "cite.Vass": "cite.Vass.1"
+      }
+    },
+    {
+      "title": "Exact Scalar-Radius Vacuum: Instability and Tuned Stationary Branches (2026-10-22)",
+      "start": 74,
+      "pages": 7,
+      "dropped_destinations": [],
+      "renamed_destinations": {
+        "equation.6": "equation.6.1",
+        "equation.10": "equation.10.1",
+        "cite.Iochum": "cite.Iochum.1"
+      }
+    },
+    {
+      "title": "Radion Kinetics and Scalar Mixing: Two-Derivative Stability Tests (2026-10-22)",
+      "start": 81,
+      "pages": 8,
+      "dropped_destinations": [],
+      "renamed_destinations": {
+        "equation.2": "equation.2.1",
+        "equation.6": "equation.6.2",
+        "equation.14": "equation.14.1",
+        "equation.15": "equation.15.1"
+      }
+    },
+    {
+      "title": "Finite-Momentum Metric, Radion and Scalar Poles: Stability Obstructions (2026-10-22)",
+      "start": 89,
+      "pages": 8,
+      "dropped_destinations": [],
+      "renamed_destinations": {
+        "equation.4": "equation.4.1",
+        "equation.9": "equation.9.1",
+        "equation.18": "equation.18.1"
+      }
+    },
+    {
+      "title": "Preserved historical public corpus - 2026.10.20",
+      "start": 97,
+      "pages": 9252,
+      "dropped_destinations": [],
+      "renamed_destinations": {
+        "section.2": "section.2.1",
+        "section.3": "section.3.1",
+        "section.2.1": "section.2.1.1",
+        "section.3.1": "section.3.1.1",
+        "equation.7": "equation.7.1",
+        "equation.10": "equation.10.2",
+        "equation.9": "equation.9.2",
+        "equation.6": "equation.6.3",
+        "equation.13": "equation.13.1",
+        "equation.14": "equation.14.2",
+        "equation.16": "equation.16.1",
+        "equation.2": "equation.2.2",
+        "equation.12": "equation.12.1",
+        "equation.19": "equation.19.1",
+        "equation.18": "equation.18.2",
+        "equation.4": "equation.4.2",
+        "figure.1": "figure.1.1",
+        "equation.5": "equation.5.1",
+        "equation.3": "equation.3.1",
+        "equation.15": "equation.15.2",
+        "equation.34": "equation.34.1",
+        "equation.1.1": "equation.1.1.1",
+        "equation.7.1": "equation.7.1.1",
+        "equation.3.1": "equation.3.1.1",
+        "equation.12.1": "equation.12.1.1",
+        "equation.5.1": "equation.5.1.1",
+        "equation.16.1": "equation.16.1.1",
+        "equation.6.1": "equation.6.1.1",
+        "equation.18.1": "equation.18.1.1",
+        "equation.9.1": "equation.9.1.1"
+      }
+    },
+    {
+      "title": "2026-10-21 Band1 Hadamard 15100 PaleyII",
+      "start": 9349,
+      "pages": 6,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "SCOREBOARD 2026-10-21 Band1 Hadamard 15100 PaleyII",
+      "start": 9355,
+      "pages": 1,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "STATUS BOARD 2026-10-21 Band1 Hadamard 15100 PaleyII",
+      "start": 9356,
+      "pages": 1,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "2026-10-21 Band1 Hadamard 15108 PaleyI",
+      "start": 9357,
+      "pages": 4,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "SCOREBOARD 2026-10-21 Band1 Hadamard 15108 PaleyI",
+      "start": 9361,
+      "pages": 1,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "STATUS BOARD 2026-10-21 Band1 Hadamard 15108 PaleyI",
+      "start": 9362,
+      "pages": 1,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "2026-10-21 Band1 Hadamard 15124 PaleyII",
+      "start": 9363,
+      "pages": 6,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "SCOREBOARD 2026-10-21 Band1 Hadamard 15124 PaleyII",
+      "start": 9369,
+      "pages": 1,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "STATUS BOARD 2026-10-21 Band1 Hadamard 15124 PaleyII",
+      "start": 9370,
+      "pages": 1,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "2026-10-21 Band1 Hadamard 15132 PaleyI",
+      "start": 9371,
+      "pages": 4,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "SCOREBOARD 2026-10-21 Band1 Hadamard 15132 PaleyI",
+      "start": 9375,
+      "pages": 1,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "STATUS BOARD 2026-10-21 Band1 Hadamard 15132 PaleyI",
+      "start": 9376,
+      "pages": 1,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "2026-10-21 Band1 Hadamard 15140 PaleyI",
+      "start": 9377,
+      "pages": 4,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "SCOREBOARD 2026-10-21 Band1 Hadamard 15140 PaleyI",
+      "start": 9381,
+      "pages": 1,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "STATUS BOARD 2026-10-21 Band1 Hadamard 15140 PaleyI",
+      "start": 9382,
+      "pages": 1,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "2026-10-21 Band1 Hadamard 15148 PaleyII",
+      "start": 9383,
+      "pages": 6,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "SCOREBOARD 2026-10-21 Band1 Hadamard 15148 PaleyII",
+      "start": 9389,
+      "pages": 1,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "STATUS BOARD 2026-10-21 Band1 Hadamard 15148 PaleyII",
+      "start": 9390,
+      "pages": 1,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "PAPER 2026-10-21 Band1 Hadamard 15156 PaleyII",
+      "start": 9391,
+      "pages": 7,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "SCOREBOARD 2026-10-21 Band1 Hadamard 15156 PaleyII",
+      "start": 9398,
+      "pages": 1,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "STATUS BOARD 2026-10-21 Band1 Hadamard 15156 PaleyII",
+      "start": 9399,
+      "pages": 1,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "2026-10-22 Band1 Hadamard 15180 PaleyII",
+      "start": 9400,
+      "pages": 7,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "SCOREBOARD 2026-10-22 Band1 Hadamard 15180 PaleyII",
+      "start": 9407,
+      "pages": 1,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "STATUS BOARD 2026-10-22 Band1 Hadamard 15180 PaleyII",
+      "start": 9408,
+      "pages": 1,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "2026-10-22 Band1 Hadamard 15188 PaleyI",
+      "start": 9409,
+      "pages": 4,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "SCOREBOARD 2026-10-22 Band1 Hadamard 15188 PaleyI",
+      "start": 9413,
+      "pages": 1,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "STATUS BOARD 2026-10-22 Band1 Hadamard 15188 PaleyI",
+      "start": 9414,
+      "pages": 1,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "2026-10-22 Band1 Hadamard 15200 PaleyI",
+      "start": 9415,
+      "pages": 4,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "SCOREBOARD 2026-10-22 Band1 Hadamard 15200 PaleyI",
+      "start": 9419,
+      "pages": 1,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "STATUS BOARD 2026-10-22 Band1 Hadamard 15200 PaleyI",
+      "start": 9420,
+      "pages": 1,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "2026-10-22 Band1 Hadamard 15228 PaleyI",
+      "start": 9421,
+      "pages": 4,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "SCOREBOARD 2026-10-22 hadamard 15228",
+      "start": 9425,
+      "pages": 1,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "STATUS BOARD 2026-10-22 hadamard 15228",
+      "start": 9426,
+      "pages": 1,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "2026-10-22 Band1 Hadamard 15244 PaleyII",
+      "start": 9427,
+      "pages": 7,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "SCOREBOARD 2026-10-22 Band1 Hadamard 15244 PaleyII",
+      "start": 9434,
+      "pages": 1,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "STATUS BOARD 2026-10-22 Band1 Hadamard 15244 PaleyII",
+      "start": 9435,
+      "pages": 1,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "2026-10-22 Band1 Hadamard 15260 PaleyI",
+      "start": 9436,
+      "pages": 4,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "SCOREBOARD 2026-10-22 Band1 Hadamard 15260 PaleyI",
+      "start": 9440,
+      "pages": 1,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "STATUS BOARD 2026-10-22 Band1 Hadamard 15260 PaleyI",
+      "start": 9441,
+      "pages": 1,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "2026-10-22 Band1 Hadamard 15264 PaleyI",
+      "start": 9442,
+      "pages": 4,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "SCOREBOARD 2026-10-22 Band1 Hadamard 15264 PaleyI",
+      "start": 9446,
+      "pages": 1,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    },
+    {
+      "title": "STATUS BOARD 2026-10-22 Band1 Hadamard 15264 PaleyI",
+      "start": 9447,
+      "pages": 1,
+      "dropped_destinations": [],
+      "renamed_destinations": {}
+    }
+  ]
+}

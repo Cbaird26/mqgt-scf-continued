@@ -1,0 +1,24 @@
+{
+  "scope": "Prior published public edition, all seven identified MQGT-SCF prereleases dated 21-22 October, two intervening local theory PDFs, and dated local mathematics/status records.",
+  "checked_roots": [
+    "current ZoraASI workspace",
+    "Documents/Codex",
+    "Projects",
+    "toe-rewrite-20261013-2211",
+    "LocalASI_Dev/output/pdf",
+    "Downloads (excluding dedup quarantine)",
+    "Documents/Research"
+  ],
+  "date_filter": "2026-10-21 through 2026-10-22 in path or filename",
+  "candidate_pdf_paths": 75,
+  "selected_new_byte_distinct_pdfs": 51,
+  "selection_notes": [
+    "Canonical published note bytes take precedence over local draft or regenerated copies.",
+    "Figure-only PDFs and compiler main.pdf duplicates are not separate research documents.",
+    "42 byte-distinct mathematics records selected from 52 candidate PDF paths.",
+    "Supporting non-PDF records copied from ten cumulative mathematics ZIPs and available sidecars; older cumulative PDFs remain represented by the previous edition.",
+    "No exhaustive cloud-only draft or all-repository inventory is claimed.",
+    "Two intervening theory PDFs were recovered; their standalone code bundles were not located."
+  ],
+  "snapshot_latest_commit": "c0e36ad13a8da384c2b8c25463dae01022c12e46"
+}

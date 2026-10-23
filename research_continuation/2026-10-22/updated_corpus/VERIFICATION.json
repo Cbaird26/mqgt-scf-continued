@@ -1,0 +1,72 @@
+{
+  "edition": "2026.10.22",
+  "status": "Source integrity, PDF structure, page fidelity, navigation, visual sample and isolated portable rebuild complete.",
+  "corpus_pages": 9447,
+  "source_pdf_components": 53,
+  "new_source_documents": 51,
+  "new_source_pages": 189,
+  "historical_pages_preserved": 9252,
+  "editorial_pages": 6,
+  "all_decoded_page_streams_and_geometry_match_sources": true,
+  "valid_bookmarks": 990,
+  "baseline_referenced_named_destinations_preserved": 116,
+  "pdf_syntax_checks": {
+    "A_Theory_of_Everything_UPDATED_CORPUS_2026-10-22.pdf": {
+      "exit_code": 0,
+      "message": "checking /Users/christophermichaelbaird/Documents/ChatGPT/ZoraASI/output/pdf/Zenodo_ToE_2026-10-22/PUBLIC_ZENODO_UPLOAD/A_Theory_of_Everything_UPDATED_CORPUS_2026-10-22.pdf\nPDF Version: 1.5\nFile is not encrypted\nFile is not linearized\nNo syntax or stream encoding errors found; the file may still contain\nerrors that qpdf cannot detect\n"
+    },
+    "02_Update_Guide_and_Catalogue_2026-10-22.pdf": {
+      "exit_code": 0,
+      "message": "checking /Users/christophermichaelbaird/Documents/ChatGPT/ZoraASI/output/pdf/Zenodo_ToE_2026-10-22/PUBLIC_ZENODO_UPLOAD/02_Update_Guide_and_Catalogue_2026-10-22.pdf\nPDF Version: 1.4\nFile is not encrypted\nFile is not linearized\nNo syntax or stream encoding errors found; the file may still contain\nerrors that qpdf cannot detect\n"
+    }
+  },
+  "scientific_calculations_rerun": false,
+  "visual_review": {
+    "completed": true,
+    "editorial_pages_inspected": 6,
+    "transition_pages_inspected": [
+      7,
+      20,
+      27,
+      39,
+      50,
+      63,
+      74,
+      81,
+      89,
+      97,
+      9348,
+      9349,
+      9447
+    ],
+    "method": "Full-size rendered editorial pages and rendered contact sheet of selected component transitions.",
+    "scope_limit": "Historical source pages are preserved; not every historical page was visually re-reviewed. No clipping or overlap found in new editorial pages."
+  },
+  "portable_rebuild": {
+    "completed": true,
+    "isolated_package_relative_inputs": 58,
+    "page_count": 9447,
+    "all_decoded_page_streams_and_geometry_match_delivered_corpus": true,
+    "assembly_navigation_records_match": true,
+    "pdf_byte_identity_required": false
+  },
+  "publication": {
+    "new_zenodo_upload_performed": false,
+    "new_doi_assigned": false
+  },
+  "checked_at_utc": "2026-10-23T03:24:29.276456+00:00",
+  "source_integrity": {
+    "prior_public_zip_payload_hashes_verified": 758,
+    "github_original_assets_sha256_verified": 26,
+    "github_prereleases": 7,
+    "release_active_payload_hashes_verified": 444,
+    "all_retained_zip_crc_checks_passed": true
+  },
+  "archive_integrity": "The sealed edition manifest covers every delivered payload file except itself. Final ZIP and download-file hashes are recorded outside this archive to avoid self-reference.",
+  "environment": {
+    "python": "3.12.14",
+    "platform": "macOS-26.3-arm64-arm-64bit",
+    "pikepdf": "10.17.0",
+    "reportlab": "4.4.9"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "edition": "2026.10.22",
+  "verified_at_utc": "2026-10-23T03:26:04.196442+00:00",
+  "archive": "PUBLIC_Zenodo_Package_2026-10-22.zip",
+  "archive_bytes": 653985879,
+  "archive_sha256": "f75ba959ed1686e91889916dbc97d1d1c6fcfd7f7e364a3bc3f39085d7127f7d",
+  "archive_crc_check": "passed",
+  "sealed_payload_files_sha256_verified": 208,
+  "archive_entries": 209,
+  "previous_public_archive_preserved_byte_for_byte": true,
+  "public_release_assets_preserved_byte_for_byte": 26,
+  "new_zenodo_publication_performed": false,
+  "fresh_extraction": {
+    "payload_hashes_verified": 208,
+    "all_nested_zip_crc_checks": "passed",
+    "portable_page_fidelity_script": "passed",
+    "source_matching_pages": 9447
+  }
+}

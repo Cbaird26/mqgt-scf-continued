@@ -1,0 +1,255 @@
+{
+  "checked_at_utc": "2026-10-23T03:16:50.839574+00:00",
+  "science_rerun": false,
+  "baseline": {
+    "record_id": 23524358,
+    "doi": "10.5281/zenodo.23524358",
+    "files_verified": 758,
+    "zip_sha256": "17123b9fd84810c28414aa86030265377b6b2d2a3c92c497102763c3abfe7c09",
+    "zip_bytes": 412794731,
+    "zenodo_md5_matches": true,
+    "zip_crc_passed": true
+  },
+  "releases": [
+    {
+      "id": 420234815,
+      "tag_name": "v2026.10.21-research-continuation",
+      "target_commitish": "7a36e0d741cb8ddb16056d39640ada43e28ad951",
+      "name": "MQGT-SCF Research Continuation \u2014 2026-10-21",
+      "html_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.21-research-continuation",
+      "published_at": "2026-10-22T02:05:22Z",
+      "prerelease": true,
+      "draft": false,
+      "assets": [
+        {
+          "name": "BUILD_PROVENANCE.json",
+          "size": 12375,
+          "digest": "sha256:f3da3ee367d377e0b2ee61fc13722fe3e247174c70308115ea45f31e5464e038",
+          "browser_download_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/download/v2026.10.21-research-continuation/BUILD_PROVENANCE.json"
+        },
+        {
+          "name": "FINALIZATION_VERIFICATION.json",
+          "size": 1906,
+          "digest": "sha256:e74c4424d0380bc3da64ae42ac8ab905b1746009dd8bfb8ac7e54552335f919f",
+          "browser_download_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/download/v2026.10.21-research-continuation/FINALIZATION_VERIFICATION.json"
+        },
+        {
+          "name": "MQGT_SCF_Research_Continuation_2026-10-21.zip",
+          "size": 67265321,
+          "digest": "sha256:03a849fe180c1202f86ccccc583899753321ad262af816de302a4a45a5eaa781",
+          "browser_download_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/download/v2026.10.21-research-continuation/MQGT_SCF_Research_Continuation_2026-10-21.zip"
+        },
+        {
+          "name": "PACKAGE_MANIFEST.json",
+          "size": 63888,
+          "digest": "sha256:dd4041206cd07db631a0aa4943333259d09a24e2b1a3cf2f8970a2311b4de964",
+          "browser_download_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/download/v2026.10.21-research-continuation/PACKAGE_MANIFEST.json"
+        },
+        {
+          "name": "RELEASE_ASSETS.json",
+          "size": 1188,
+          "digest": "sha256:22cd809b5e6de477b86c787415b97703fc208bdea556e7dca4739e126941c157",
+          "browser_download_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/download/v2026.10.21-research-continuation/RELEASE_ASSETS.json"
+        },
+        {
+          "name": "RELEASE_SHA256SUMS.txt",
+          "size": 315,
+          "digest": "sha256:e374f27618248a1d78c45b003c982bc1f556ba6014396fe66c99054f9858e29c",
+          "browser_download_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/download/v2026.10.21-research-continuation/RELEASE_SHA256SUMS.txt"
+        },
+        {
+          "name": "Theory_of_Everything_Continuation_2026-10-21.pdf",
+          "size": 711758,
+          "digest": "sha256:d25cf9a6034a7d3db31939db794e64530317373f757c227bdb2be6677ee72f87",
+          "browser_download_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/download/v2026.10.21-research-continuation/Theory_of_Everything_Continuation_2026-10-21.pdf"
+        }
+      ]
+    },
+    {
+      "id": 420358904,
+      "tag_name": "v2026.10.22-spectral-profile-common-vacuum",
+      "target_commitish": "3a8a1b029e2923ce3fde3335fbc710ebf618a38b",
+      "name": "Spectral Profile Nonuniqueness at a Common Stationary Vacuum",
+      "html_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.22-spectral-profile-common-vacuum",
+      "published_at": "2026-10-22T06:03:10Z",
+      "prerelease": true,
+      "draft": false,
+      "assets": [
+        {
+          "name": "PUBLICATION_RECORD.json",
+          "size": 1582,
+          "digest": "sha256:54b749b0c1d5f1ca7a262c4e7cbb50d1cf3a3ba5a81667e5a5f03f4dde893c3f",
+          "browser_download_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/download/v2026.10.22-spectral-profile-common-vacuum/PUBLICATION_RECORD.json"
+        },
+        {
+          "name": "RELEASE_SHA256SUMS.txt",
+          "size": 326,
+          "digest": "sha256:98afb4e540ce1a3182596bc51b25bab991e7cdfe05f5c90a649584ffc3d2af55",
+          "browser_download_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/download/v2026.10.22-spectral-profile-common-vacuum/RELEASE_SHA256SUMS.txt"
+        },
+        {
+          "name": "Spectral_Profile_Common_Vacuum_2026-10-21.pdf",
+          "size": 339222,
+          "digest": "sha256:2b60f8ab3eac2a2ed4082823e9c936b69441e3b7ba04f1977fbba92151c9a5f7",
+          "browser_download_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/download/v2026.10.22-spectral-profile-common-vacuum/Spectral_Profile_Common_Vacuum_2026-10-21.pdf"
+        },
+        {
+          "name": "Spectral_Profile_Common_Vacuum_Publication_2026-10-22.zip",
+          "size": 373692,
+          "digest": "sha256:9fa24e444bc603432673d9f9f6c3369e4e909d0706725bbb1e965cd3ee07e218",
+          "browser_download_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/download/v2026.10.22-spectral-profile-common-vacuum/Spectral_Profile_Common_Vacuum_Publication_2026-10-22.zip"
+        }
+      ]
+    },
+    {
+      "id": 421142284,
+      "tag_name": "v2026.10.22-scalar-anomaly-sector",
+      "target_commitish": "7cfd34114ade13d501c659492511ffbd0e32c017",
+      "name": "Scalar and Anomaly-Complete Sector for the Shared Spectral Action (2026-10-22)",
+      "html_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.22-scalar-anomaly-sector",
+      "published_at": "2026-10-22T19:58:07Z",
+      "prerelease": true,
+      "draft": false,
+      "assets": [
+        {
+          "name": "RELEASE_SHA256SUMS.txt",
+          "size": 237,
+          "digest": "sha256:928e17b3209747c6f05f94d317ee1a07bbfc46b09d432708735ca5ae6fc94632",
+          "browser_download_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/download/v2026.10.22-scalar-anomaly-sector/RELEASE_SHA256SUMS.txt"
+        },
+        {
+          "name": "Scalar_Anomaly_Sector_Coupled_Vacuum_2026-10-22.pdf",
+          "size": 389087,
+          "digest": "sha256:d8ab47a007f6c9254ebfa6986edc0ce551e08d7ad13835761b877098ab145efd",
+          "browser_download_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/download/v2026.10.22-scalar-anomaly-sector/Scalar_Anomaly_Sector_Coupled_Vacuum_2026-10-22.pdf"
+        },
+        {
+          "name": "Scalar_Anomaly_Sector_Reproducibility_2026-10-22.zip",
+          "size": 491945,
+          "digest": "sha256:0648b79b1e910e8e20fa26cc91289bf7a25036536d561bc2c2b63b504dcc7b59",
+          "browser_download_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/download/v2026.10.22-scalar-anomaly-sector/Scalar_Anomaly_Sector_Reproducibility_2026-10-22.zip"
+        }
+      ]
+    },
+    {
+      "id": 421178623,
+      "tag_name": "v2026.10.22-exact-scalar-mode-sums",
+      "target_commitish": "12fa25fc3f35b0ea0b65aa870a93fa0c501957d9",
+      "name": "Exact Internal Mode Sums and Higgs-Induced Neutral Kinetics (2026-10-22)",
+      "html_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.22-exact-scalar-mode-sums",
+      "published_at": "2026-10-22T20:39:21Z",
+      "prerelease": true,
+      "draft": false,
+      "assets": [
+        {
+          "name": "Exact_Scalar_Mode_Sums_and_Higgs_Kinetics_2026-10-22.pdf",
+          "size": 433823,
+          "digest": "sha256:e61f019843dfcb55dae8c8a74d9ef70fd6891250a349906ebdbbc9fb50449a46",
+          "browser_download_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/download/v2026.10.22-exact-scalar-mode-sums/Exact_Scalar_Mode_Sums_and_Higgs_Kinetics_2026-10-22.pdf"
+        },
+        {
+          "name": "Exact_Scalar_Mode_Sums_Reproducibility_2026-10-22.zip",
+          "size": 571906,
+          "digest": "sha256:413dd59946383a9404975d0683a5c269a231252a8052ea2a1c3b2807aab4b93d",
+          "browser_download_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/download/v2026.10.22-exact-scalar-mode-sums/Exact_Scalar_Mode_Sums_Reproducibility_2026-10-22.zip"
+        },
+        {
+          "name": "RELEASE_SHA256SUMS.txt",
+          "size": 243,
+          "digest": "sha256:416c6608eb961a25f3b3c3338d16325eb803cede9408b7110b5c255d3f42d478",
+          "browser_download_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/download/v2026.10.22-exact-scalar-mode-sums/RELEASE_SHA256SUMS.txt"
+        }
+      ]
+    },
+    {
+      "id": 421226614,
+      "tag_name": "v2026.10.22-exact-coupled-vacuum",
+      "target_commitish": "8ac07febf9b760720b9c5e85898499c7195e2dde",
+      "name": "Exact Scalar-Radius Vacuum: Instability and Tuned Stationary Branches (2026-10-22)",
+      "html_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.22-exact-coupled-vacuum",
+      "published_at": "2026-10-22T21:39:22Z",
+      "prerelease": true,
+      "draft": false,
+      "assets": [
+        {
+          "name": "Exact_Coupled_Scalar_Radius_Vacuum_2026-10-22.pdf",
+          "size": 343708,
+          "digest": "sha256:ca898789296461ebb2448d38db21728cb88fd62d61e790f08011219125828f04",
+          "browser_download_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/download/v2026.10.22-exact-coupled-vacuum/Exact_Coupled_Scalar_Radius_Vacuum_2026-10-22.pdf"
+        },
+        {
+          "name": "Exact_Coupled_Vacuum_Reproducibility_2026-10-22.zip",
+          "size": 538105,
+          "digest": "sha256:4f7ca65a1a9bc25fd7a83f255c3a16628ac9d24adb72b01c30d5e7ef6d887242",
+          "browser_download_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/download/v2026.10.22-exact-coupled-vacuum/Exact_Coupled_Vacuum_Reproducibility_2026-10-22.zip"
+        },
+        {
+          "name": "RELEASE_SHA256SUMS.txt",
+          "size": 234,
+          "digest": "sha256:620c162dbe004afaf69f11486e6b4ee867ad87eb4b76e9c0fd708ebacb429b6b",
+          "browser_download_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/download/v2026.10.22-exact-coupled-vacuum/RELEASE_SHA256SUMS.txt"
+        }
+      ]
+    },
+    {
+      "id": 421257636,
+      "tag_name": "v2026.10.22-radion-kinetics-scalar-mixing",
+      "target_commitish": "1bb152dfbd6bb1e02a3e841b6d73e338f8e5fabf",
+      "name": "Radion Kinetics and Scalar Mixing: Two-Derivative Stability Tests (2026-10-22)",
+      "html_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.22-radion-kinetics-scalar-mixing",
+      "published_at": "2026-10-22T22:18:27Z",
+      "prerelease": true,
+      "draft": false,
+      "assets": [
+        {
+          "name": "Radion_Dynamics_Reproducibility_2026-10-22.zip",
+          "size": 560862,
+          "digest": "sha256:d8bab0a5f5e942e4dcf7493f4c2bd345e230c7a79cc047592f5d2e48d49df5e7",
+          "browser_download_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/download/v2026.10.22-radion-kinetics-scalar-mixing/Radion_Dynamics_Reproducibility_2026-10-22.zip"
+        },
+        {
+          "name": "Radion_Kinetics_and_Scalar_Mixing_2026-10-22.pdf",
+          "size": 366500,
+          "digest": "sha256:b84df1f00c1cbeb67a0394bbc62a225e9db18e33306a87c858301cd678568e32",
+          "browser_download_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/download/v2026.10.22-radion-kinetics-scalar-mixing/Radion_Kinetics_and_Scalar_Mixing_2026-10-22.pdf"
+        },
+        {
+          "name": "RELEASE_SHA256SUMS.txt",
+          "size": 228,
+          "digest": "sha256:2caff37007749a89f5b4337a123160611ea24afdda16068da72984cb6461bdbc",
+          "browser_download_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/download/v2026.10.22-radion-kinetics-scalar-mixing/RELEASE_SHA256SUMS.txt"
+        }
+      ]
+    },
+    {
+      "id": 421412229,
+      "tag_name": "v2026.10.22-finite-momentum-poles",
+      "target_commitish": "c0e36ad13a8da384c2b8c25463dae01022c12e46",
+      "name": "Finite-Momentum Metric, Radion and Scalar Poles: Stability Obstructions (2026-10-22)",
+      "html_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.22-finite-momentum-poles",
+      "published_at": "2026-10-23T03:11:48Z",
+      "prerelease": true,
+      "draft": false,
+      "assets": [
+        {
+          "name": "Finite_Momentum_Metric_Radion_Scalar_Poles_2026-10-22.pdf",
+          "size": 361326,
+          "digest": "sha256:0db5ed1ff98ab4c446d315c781bbea0f9d5e828b4f0bc18cc18ae70ebeaa169c",
+          "browser_download_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/download/v2026.10.22-finite-momentum-poles/Finite_Momentum_Metric_Radion_Scalar_Poles_2026-10-22.pdf"
+        },
+        {
+          "name": "Finite_Momentum_Poles_Reproducibility_2026-10-22.zip",
+          "size": 577495,
+          "digest": "sha256:4fa15163962e1fa6cbf815ba1d8bf8ec668ea82888507e5524848741b9b5ad33",
+          "browser_download_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/download/v2026.10.22-finite-momentum-poles/Finite_Momentum_Poles_Reproducibility_2026-10-22.zip"
+        },
+        {
+          "name": "RELEASE_SHA256SUMS.txt",
+          "size": 243,
+          "digest": "sha256:bd5848a74a25d4a6f5b0a8ab91678fb39d33d3a47f23629f472ba0f7ecc7d978",
+          "browser_download_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/download/v2026.10.22-finite-momentum-poles/RELEASE_SHA256SUMS.txt"
+        }
+      ]
+    }
+  ]
+}

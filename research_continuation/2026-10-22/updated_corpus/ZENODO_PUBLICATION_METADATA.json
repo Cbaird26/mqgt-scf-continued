@@ -1,0 +1,95 @@
+{
+  "title": "A Theory of Everything - Updated Research Corpus: Exact Mode Sums, Coupled Vacuum, Radion Mixing and Finite-Momentum Stability (2026-10-22)",
+  "upload_type": "publication",
+  "publication_type": "other",
+  "version": "2026.10.22",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Baird, Christopher Michael"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "Theory of everything",
+    "MQGT-SCF",
+    "ZoraASI",
+    "research corpus",
+    "spectral action",
+    "radion",
+    "stability obstruction",
+    "reproducibility",
+    "Hadamard matrices",
+    "Hopf fibration",
+    "research archive"
+  ],
+  "description": "<p>A Theory of Everything - Updated Research Corpus (edition 2026.10.22), prepared for Christopher Michael Baird / ZoraASI.</p><p>The 9,447-page reading edition contains six new editorial pages, nine recent theory and continuation notes (90 pages), the complete 9,252-page public edition previously deposited as DOI 10.5281/zenodo.23524358, and 42 byte-distinct computational mathematics/status reports (99 pages). These 51 additional source PDFs span 21-22 October 2026. Historical revisions and status-board repetition remain clearly identified.</p><p>The archive preserves the entire previous public ZIP, all seven identified MQGT-SCF research prereleases through the finite-momentum pole release at commit c0e36ad13a8da384c2b8c25463dae01022c12e46, their original assets and caveats, the two intervening geometric weak/neutral-Higgs PDF notes, available mathematics sidecars, catalogues, physical page maps, source provenance, SHA-256 manifests and portable assembly/verification tools. Standalone code bundles for the two intervening notes were not located. Scope is the documented published and local sources, not every cloud draft or repository.</p><p>The update explicitly records the scientific progression from local scalar estimates through exact mode sums, tuned restricted vacua and two-derivative radion mixing to the finite-momentum stability obstruction. The minimal retained action has tachyonic poles with negative residues and non-real poles under its stated direct analytic continuation. Positive infrared kinetic matrices and timelike residues do not establish a stable vacuum. Full compactification, omitted modes, causal quantum continuation and matching remain unresolved. No measured coupling is fitted; the measured fine-structure constant remains unexplained.</p><p>The earlier public edition retains Jennifer Lorraine Nielsen's separately authored, licensed 116-page preprint (DOI 10.20944/preprints202604.0315.v5, CC BY 4.0). The private 240-page manuscript and personal study guide remain excluded. The 21 October continuation separately attributes Pedalino et al. public data (DOI 10.5281/zenodo.17502163); its optional EOS ancillary table is not redistributed. Inclusion does not imply collaborators' coauthorship of all works or endorsement of the compilation. All component-specific licenses and notices remain in force.</p><p>This is an AI-assisted archival research update, not a completed or experimentally validated Theory of Everything. Packaging checks concern file integrity, page fidelity and reproducibility apparatus; scientific calculations are not rerun as part of assembly. Recorded tests remain conditional computational evidence, not physical validation or external peer review.</p>",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23524358",
+      "relation": "isNewVersionOf",
+      "resource_type": "publication-other"
+    },
+    {
+      "identifier": "10.20944/preprints202604.0315.v5",
+      "relation": "hasPart",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.17502163",
+      "relation": "references",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.21-research-continuation",
+      "relation": "hasPart",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.22-spectral-profile-common-vacuum",
+      "relation": "hasPart",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.22-scalar-anomaly-sector",
+      "relation": "hasPart",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.22-exact-scalar-mode-sums",
+      "relation": "hasPart",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.22-exact-coupled-vacuum",
+      "relation": "hasPart",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.22-radion-kinetics-scalar-mixing",
+      "relation": "hasPart",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.22-finite-momentum-poles",
+      "relation": "hasPart",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.22-updated-corpus",
+      "relation": "isIdenticalTo",
+      "scheme": "url",
+      "resource_type": "publication-other"
+    },
+    {
+      "identifier": "https://philarchive.org/rec/NIETTU",
+      "scheme": "url",
+      "relation": "references",
+      "resource_type": "publication-preprint"
+    }
+  ],
+  "notes": "Publication metadata for edition 2026.10.22, in concept DOI 10.5281/zenodo.14019809. The sealed ZIP preserves its preparation-stage records; the Zenodo record and matching GitHub release establish publication status and time. Component-specific rights remain authoritative. Scientific calculations were not rerun during packaging.",
+  "doi": "10.5281/zenodo.23585376",
+  "publication_date": "2026-10-23"
+}

@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Cite individual works for scientific claims; this citation identifies the compilation."
+title: "A Theory of Everything - Updated Research Corpus (2026-10-22)"
+version: "2026.10.22"
+type: dataset
+authors:
+  - family-names: Baird
+    given-names: Christopher Michael
+doi: 10.5281/zenodo.23585376
+date-released: 2026-10-23
+url: "https://zenodo.org/records/23585376"
+repository-code: "https://github.com/Cbaird26/mqgt-scf-continued"
+license: CC-BY-4.0

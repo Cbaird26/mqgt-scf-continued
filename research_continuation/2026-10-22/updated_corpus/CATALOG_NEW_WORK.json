@@ -1,0 +1,801 @@
+[
+  {
+    "id": "N001",
+    "title": "MQGT-SCF Research Continuation \u2014 2026-10-21",
+    "category": "Theory and research continuation",
+    "status": "Published research prerelease; conditional results",
+    "path": "03_GitHub_Releases/v2026.10.21-research-continuation/Theory_of_Everything_Continuation_2026-10-21.pdf",
+    "pages": 13,
+    "sha256": "d25cf9a6034a7d3db31939db794e64530317373f757c227bdb2be6677ee72f87",
+    "source_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.21-research-continuation",
+    "source_filename": "Theory_of_Everything_Continuation_2026-10-21.pdf",
+    "corpus_start": 7,
+    "corpus_end": 19
+  },
+  {
+    "id": "N002",
+    "title": "Spectral Profile Nonuniqueness at a Common Stationary Vacuum",
+    "category": "Theory and research continuation",
+    "status": "Published research prerelease; conditional results",
+    "path": "03_GitHub_Releases/v2026.10.22-spectral-profile-common-vacuum/Spectral_Profile_Common_Vacuum_2026-10-21.pdf",
+    "pages": 7,
+    "sha256": "2b60f8ab3eac2a2ed4082823e9c936b69441e3b7ba04f1977fbba92151c9a5f7",
+    "source_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.22-spectral-profile-common-vacuum",
+    "source_filename": "Spectral_Profile_Common_Vacuum_2026-10-21.pdf",
+    "corpus_start": 20,
+    "corpus_end": 26
+  },
+  {
+    "id": "N003",
+    "title": "Geometric weak-gauge response and electromagnetic profile dependence",
+    "category": "Theory and research continuation",
+    "status": "Local authored note; PDF recovered; standalone code bundle not located",
+    "path": "04_Intervening_Notes/Geometric_Weak_Gauge_Response_2026-10-22.pdf",
+    "pages": 12,
+    "sha256": "617b1c8eed570fd8ea37fc87cc913b79eab1aba93008eaae92162b9a5f3fbead",
+    "source_url": null,
+    "source_filename": "Geometric_Weak_Gauge_Response_2026-10-22.pdf",
+    "corpus_start": 27,
+    "corpus_end": 38
+  },
+  {
+    "id": "N004",
+    "title": "Neutral gauge and Higgs matching in the spectral-profile family",
+    "category": "Theory and research continuation",
+    "status": "Local authored note; PDF recovered; standalone code bundle not located",
+    "path": "04_Intervening_Notes/Neutral_Gauge_Higgs_Matching_2026-10-22.pdf",
+    "pages": 11,
+    "sha256": "7aea4baab547a5dfe0da51965ef291a21f60cfc47c798c65e4b837d5a8acfc65",
+    "source_url": null,
+    "source_filename": "Neutral_Gauge_Higgs_Matching_2026-10-22.pdf",
+    "corpus_start": 39,
+    "corpus_end": 49
+  },
+  {
+    "id": "N005",
+    "title": "Scalar and Anomaly-Complete Sector for the Shared Spectral Action (2026-10-22)",
+    "category": "Theory and research continuation",
+    "status": "Published research prerelease; conditional results",
+    "path": "03_GitHub_Releases/v2026.10.22-scalar-anomaly-sector/Scalar_Anomaly_Sector_Coupled_Vacuum_2026-10-22.pdf",
+    "pages": 13,
+    "sha256": "d8ab47a007f6c9254ebfa6986edc0ce551e08d7ad13835761b877098ab145efd",
+    "source_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.22-scalar-anomaly-sector",
+    "source_filename": "Scalar_Anomaly_Sector_Coupled_Vacuum_2026-10-22.pdf",
+    "corpus_start": 50,
+    "corpus_end": 62
+  },
+  {
+    "id": "N006",
+    "title": "Exact Internal Mode Sums and Higgs-Induced Neutral Kinetics (2026-10-22)",
+    "category": "Theory and research continuation",
+    "status": "Published research prerelease; conditional results",
+    "path": "03_GitHub_Releases/v2026.10.22-exact-scalar-mode-sums/Exact_Scalar_Mode_Sums_and_Higgs_Kinetics_2026-10-22.pdf",
+    "pages": 11,
+    "sha256": "e61f019843dfcb55dae8c8a74d9ef70fd6891250a349906ebdbbc9fb50449a46",
+    "source_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.22-exact-scalar-mode-sums",
+    "source_filename": "Exact_Scalar_Mode_Sums_and_Higgs_Kinetics_2026-10-22.pdf",
+    "corpus_start": 63,
+    "corpus_end": 73
+  },
+  {
+    "id": "N007",
+    "title": "Exact Scalar-Radius Vacuum: Instability and Tuned Stationary Branches (2026-10-22)",
+    "category": "Theory and research continuation",
+    "status": "Published research prerelease; conditional results",
+    "path": "03_GitHub_Releases/v2026.10.22-exact-coupled-vacuum/Exact_Coupled_Scalar_Radius_Vacuum_2026-10-22.pdf",
+    "pages": 7,
+    "sha256": "ca898789296461ebb2448d38db21728cb88fd62d61e790f08011219125828f04",
+    "source_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.22-exact-coupled-vacuum",
+    "source_filename": "Exact_Coupled_Scalar_Radius_Vacuum_2026-10-22.pdf",
+    "corpus_start": 74,
+    "corpus_end": 80
+  },
+  {
+    "id": "N008",
+    "title": "Radion Kinetics and Scalar Mixing: Two-Derivative Stability Tests (2026-10-22)",
+    "category": "Theory and research continuation",
+    "status": "Published research prerelease; conditional results",
+    "path": "03_GitHub_Releases/v2026.10.22-radion-kinetics-scalar-mixing/Radion_Kinetics_and_Scalar_Mixing_2026-10-22.pdf",
+    "pages": 8,
+    "sha256": "b84df1f00c1cbeb67a0394bbc62a225e9db18e33306a87c858301cd678568e32",
+    "source_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.22-radion-kinetics-scalar-mixing",
+    "source_filename": "Radion_Kinetics_and_Scalar_Mixing_2026-10-22.pdf",
+    "corpus_start": 81,
+    "corpus_end": 88
+  },
+  {
+    "id": "N009",
+    "title": "Finite-Momentum Metric, Radion and Scalar Poles: Stability Obstructions (2026-10-22)",
+    "category": "Theory and research continuation",
+    "status": "Published research prerelease; conditional results",
+    "path": "03_GitHub_Releases/v2026.10.22-finite-momentum-poles/Finite_Momentum_Metric_Radion_Scalar_Poles_2026-10-22.pdf",
+    "pages": 8,
+    "sha256": "0db5ed1ff98ab4c446d315c781bbea0f9d5e828b4f0bc18cc18ae70ebeaa169c",
+    "source_url": "https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.22-finite-momentum-poles",
+    "source_filename": "Finite_Momentum_Metric_Radion_Scalar_Poles_2026-10-22.pdf",
+    "corpus_start": 89,
+    "corpus_end": 96
+  },
+  {
+    "id": "N010",
+    "title": "2026-10-21 Band1 Hadamard 15100 PaleyII",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/2026-10-21_Band1_Hadamard_15100_PaleyII.pdf",
+    "pages": 6,
+    "sha256": "0242d6f1dc904786273f0b49dcf1959efb18181ca357769bd2dd60741362c57a",
+    "source_url": null,
+    "source_filename": "2026-10-21_Band1_Hadamard_15100_PaleyII.pdf",
+    "byte_identical_alias_filenames": [
+      "PAPER_2026-10-21_Band1_Hadamard_15100_PaleyII.pdf",
+      "2026-10-21_Band1_Hadamard_15100_PaleyII.pdf"
+    ],
+    "corpus_start": 9349,
+    "corpus_end": 9354
+  },
+  {
+    "id": "N011",
+    "title": "SCOREBOARD 2026-10-21 Band1 Hadamard 15100 PaleyII",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/SCOREBOARD_2026-10-21_Band1_Hadamard_15100_PaleyII.pdf",
+    "pages": 1,
+    "sha256": "5cd54e6de8be016fe633995b99e26990781ced3333dac69de426de1830529710",
+    "source_url": null,
+    "source_filename": "SCOREBOARD_2026-10-21_Band1_Hadamard_15100_PaleyII.pdf",
+    "byte_identical_alias_filenames": [
+      "SCOREBOARD_2026-10-21_Band1_Hadamard_15100_PaleyII.pdf"
+    ],
+    "corpus_start": 9355,
+    "corpus_end": 9355
+  },
+  {
+    "id": "N012",
+    "title": "STATUS BOARD 2026-10-21 Band1 Hadamard 15100 PaleyII",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/STATUS_BOARD_2026-10-21_Band1_Hadamard_15100_PaleyII.pdf",
+    "pages": 1,
+    "sha256": "bc7c0351c75e40757c048f3c91f61da666600cba170beb5a77c4a0ad1655757f",
+    "source_url": null,
+    "source_filename": "STATUS_BOARD_2026-10-21_Band1_Hadamard_15100_PaleyII.pdf",
+    "byte_identical_alias_filenames": [
+      "STATUS_BOARD_2026-10-21_Band1_Hadamard_15100_PaleyII.pdf"
+    ],
+    "corpus_start": 9356,
+    "corpus_end": 9356
+  },
+  {
+    "id": "N013",
+    "title": "2026-10-21 Band1 Hadamard 15108 PaleyI",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/2026-10-21_Band1_Hadamard_15108_PaleyI.pdf",
+    "pages": 4,
+    "sha256": "04939c6e3d97fd348599b13cfa3a2535189971c8786e239d1b17081e48e550dd",
+    "source_url": null,
+    "source_filename": "2026-10-21_Band1_Hadamard_15108_PaleyI.pdf",
+    "byte_identical_alias_filenames": [
+      "2026-10-21_Band1_Hadamard_15108_PaleyI.pdf",
+      "PAPER_2026-10-21_Band1_Hadamard_15108_PaleyI.pdf"
+    ],
+    "corpus_start": 9357,
+    "corpus_end": 9360
+  },
+  {
+    "id": "N014",
+    "title": "SCOREBOARD 2026-10-21 Band1 Hadamard 15108 PaleyI",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/SCOREBOARD_2026-10-21_Band1_Hadamard_15108_PaleyI.pdf",
+    "pages": 1,
+    "sha256": "50ff4d88936086ac23e9845ac3313101eb38e94bf5316a44031a7311743446d8",
+    "source_url": null,
+    "source_filename": "SCOREBOARD_2026-10-21_Band1_Hadamard_15108_PaleyI.pdf",
+    "byte_identical_alias_filenames": [
+      "SCOREBOARD_2026-10-21_Band1_Hadamard_15108_PaleyI.pdf"
+    ],
+    "corpus_start": 9361,
+    "corpus_end": 9361
+  },
+  {
+    "id": "N015",
+    "title": "STATUS BOARD 2026-10-21 Band1 Hadamard 15108 PaleyI",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/STATUS_BOARD_2026-10-21_Band1_Hadamard_15108_PaleyI.pdf",
+    "pages": 1,
+    "sha256": "60625045af3abe69f43f7f60453290e61bf63f99a18f492698bffe2dfcb5f792",
+    "source_url": null,
+    "source_filename": "STATUS_BOARD_2026-10-21_Band1_Hadamard_15108_PaleyI.pdf",
+    "byte_identical_alias_filenames": [
+      "STATUS_BOARD_2026-10-21_Band1_Hadamard_15108_PaleyI.pdf"
+    ],
+    "corpus_start": 9362,
+    "corpus_end": 9362
+  },
+  {
+    "id": "N016",
+    "title": "2026-10-21 Band1 Hadamard 15124 PaleyII",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/2026-10-21_Band1_Hadamard_15124_PaleyII.pdf",
+    "pages": 6,
+    "sha256": "80fc9a6e1403f42291a821ce82b3442ce2399b4b71a5d042020f9d74ba827205",
+    "source_url": null,
+    "source_filename": "2026-10-21_Band1_Hadamard_15124_PaleyII.pdf",
+    "byte_identical_alias_filenames": [
+      "PAPER_2026-10-21_Band1_Hadamard_15124_PaleyII.pdf",
+      "2026-10-21_Band1_Hadamard_15124_PaleyII.pdf"
+    ],
+    "corpus_start": 9363,
+    "corpus_end": 9368
+  },
+  {
+    "id": "N017",
+    "title": "SCOREBOARD 2026-10-21 Band1 Hadamard 15124 PaleyII",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/SCOREBOARD_2026-10-21_Band1_Hadamard_15124_PaleyII.pdf",
+    "pages": 1,
+    "sha256": "4422305a62fc6062c3dc71db19429f1bd2330d993c2f05d753d28281db5f8b72",
+    "source_url": null,
+    "source_filename": "SCOREBOARD_2026-10-21_Band1_Hadamard_15124_PaleyII.pdf",
+    "byte_identical_alias_filenames": [
+      "SCOREBOARD_2026-10-21_Band1_Hadamard_15124_PaleyII.pdf"
+    ],
+    "corpus_start": 9369,
+    "corpus_end": 9369
+  },
+  {
+    "id": "N018",
+    "title": "STATUS BOARD 2026-10-21 Band1 Hadamard 15124 PaleyII",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/STATUS_BOARD_2026-10-21_Band1_Hadamard_15124_PaleyII.pdf",
+    "pages": 1,
+    "sha256": "de815592f41c099cea655f4fe6db39af1976bd218e0d91737f860136e4ebb703",
+    "source_url": null,
+    "source_filename": "STATUS_BOARD_2026-10-21_Band1_Hadamard_15124_PaleyII.pdf",
+    "byte_identical_alias_filenames": [
+      "STATUS_BOARD_2026-10-21_Band1_Hadamard_15124_PaleyII.pdf"
+    ],
+    "corpus_start": 9370,
+    "corpus_end": 9370
+  },
+  {
+    "id": "N019",
+    "title": "2026-10-21 Band1 Hadamard 15132 PaleyI",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/2026-10-21_Band1_Hadamard_15132_PaleyI.pdf",
+    "pages": 4,
+    "sha256": "385f8362b0c2fbe8a86e7429198f2fe6d8f5eb936b80946c102cc8e2a0bab064",
+    "source_url": null,
+    "source_filename": "2026-10-21_Band1_Hadamard_15132_PaleyI.pdf",
+    "byte_identical_alias_filenames": [
+      "2026-10-21_Band1_Hadamard_15132_PaleyI.pdf",
+      "PAPER_2026-10-21_Band1_Hadamard_15132_PaleyI.pdf"
+    ],
+    "corpus_start": 9371,
+    "corpus_end": 9374
+  },
+  {
+    "id": "N020",
+    "title": "SCOREBOARD 2026-10-21 Band1 Hadamard 15132 PaleyI",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/SCOREBOARD_2026-10-21_Band1_Hadamard_15132_PaleyI.pdf",
+    "pages": 1,
+    "sha256": "cfa45bbe7029cb6d95382a99843d0e386327935b726a179b58f32033f026cf8c",
+    "source_url": null,
+    "source_filename": "SCOREBOARD_2026-10-21_Band1_Hadamard_15132_PaleyI.pdf",
+    "byte_identical_alias_filenames": [
+      "SCOREBOARD_2026-10-21_Band1_Hadamard_15132_PaleyI.pdf"
+    ],
+    "corpus_start": 9375,
+    "corpus_end": 9375
+  },
+  {
+    "id": "N021",
+    "title": "STATUS BOARD 2026-10-21 Band1 Hadamard 15132 PaleyI",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/STATUS_BOARD_2026-10-21_Band1_Hadamard_15132_PaleyI.pdf",
+    "pages": 1,
+    "sha256": "51b3b1945bc5f76b343b62a5daac665895532dce688eb5b2936639a9e734a08d",
+    "source_url": null,
+    "source_filename": "STATUS_BOARD_2026-10-21_Band1_Hadamard_15132_PaleyI.pdf",
+    "byte_identical_alias_filenames": [
+      "STATUS_BOARD_2026-10-21_Band1_Hadamard_15132_PaleyI.pdf"
+    ],
+    "corpus_start": 9376,
+    "corpus_end": 9376
+  },
+  {
+    "id": "N022",
+    "title": "2026-10-21 Band1 Hadamard 15140 PaleyI",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/2026-10-21_Band1_Hadamard_15140_PaleyI.pdf",
+    "pages": 4,
+    "sha256": "5fb2c532ee21f00d9098079275a367b07339aad4b30f5da33f1e8b5dad6a5c01",
+    "source_url": null,
+    "source_filename": "2026-10-21_Band1_Hadamard_15140_PaleyI.pdf",
+    "byte_identical_alias_filenames": [
+      "2026-10-21_Band1_Hadamard_15140_PaleyI.pdf"
+    ],
+    "corpus_start": 9377,
+    "corpus_end": 9380
+  },
+  {
+    "id": "N023",
+    "title": "SCOREBOARD 2026-10-21 Band1 Hadamard 15140 PaleyI",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/SCOREBOARD_2026-10-21_Band1_Hadamard_15140_PaleyI.pdf",
+    "pages": 1,
+    "sha256": "0858c9a4d80580b670c1a1cfcc4f7afb8891d0d3ab8f8b39133b3a659228434a",
+    "source_url": null,
+    "source_filename": "SCOREBOARD_2026-10-21_Band1_Hadamard_15140_PaleyI.pdf",
+    "byte_identical_alias_filenames": [
+      "SCOREBOARD_2026-10-21_Band1_Hadamard_15140_PaleyI.pdf"
+    ],
+    "corpus_start": 9381,
+    "corpus_end": 9381
+  },
+  {
+    "id": "N024",
+    "title": "STATUS BOARD 2026-10-21 Band1 Hadamard 15140 PaleyI",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/STATUS_BOARD_2026-10-21_Band1_Hadamard_15140_PaleyI.pdf",
+    "pages": 1,
+    "sha256": "10a17f1c5ec810e14e0059679a601da90e639e54c0e082218706fba407939489",
+    "source_url": null,
+    "source_filename": "STATUS_BOARD_2026-10-21_Band1_Hadamard_15140_PaleyI.pdf",
+    "byte_identical_alias_filenames": [
+      "STATUS_BOARD_2026-10-21_Band1_Hadamard_15140_PaleyI.pdf"
+    ],
+    "corpus_start": 9382,
+    "corpus_end": 9382
+  },
+  {
+    "id": "N025",
+    "title": "2026-10-21 Band1 Hadamard 15148 PaleyII",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/2026-10-21_Band1_Hadamard_15148_PaleyII.pdf",
+    "pages": 6,
+    "sha256": "a2bbf774708da265267affd509f646f09e3ec3833d28431e7a02bc05b58094b1",
+    "source_url": null,
+    "source_filename": "2026-10-21_Band1_Hadamard_15148_PaleyII.pdf",
+    "byte_identical_alias_filenames": [
+      "PAPER_2026-10-21_Band1_Hadamard_15148_PaleyII.pdf",
+      "2026-10-21_Band1_Hadamard_15148_PaleyII.pdf"
+    ],
+    "corpus_start": 9383,
+    "corpus_end": 9388
+  },
+  {
+    "id": "N026",
+    "title": "SCOREBOARD 2026-10-21 Band1 Hadamard 15148 PaleyII",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/SCOREBOARD_2026-10-21_Band1_Hadamard_15148_PaleyII.pdf",
+    "pages": 1,
+    "sha256": "b9892488625d5e6b64aabbe7655091cb8835bb5a180f8669563d4213898ab341",
+    "source_url": null,
+    "source_filename": "SCOREBOARD_2026-10-21_Band1_Hadamard_15148_PaleyII.pdf",
+    "byte_identical_alias_filenames": [
+      "SCOREBOARD_2026-10-21_Band1_Hadamard_15148_PaleyII.pdf"
+    ],
+    "corpus_start": 9389,
+    "corpus_end": 9389
+  },
+  {
+    "id": "N027",
+    "title": "STATUS BOARD 2026-10-21 Band1 Hadamard 15148 PaleyII",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/STATUS_BOARD_2026-10-21_Band1_Hadamard_15148_PaleyII.pdf",
+    "pages": 1,
+    "sha256": "c97a3b185075992a9f40e3cd9c53695fd85bf5f084256949003b7745c3f84e79",
+    "source_url": null,
+    "source_filename": "STATUS_BOARD_2026-10-21_Band1_Hadamard_15148_PaleyII.pdf",
+    "byte_identical_alias_filenames": [
+      "STATUS_BOARD_2026-10-21_Band1_Hadamard_15148_PaleyII.pdf"
+    ],
+    "corpus_start": 9390,
+    "corpus_end": 9390
+  },
+  {
+    "id": "N028",
+    "title": "PAPER 2026-10-21 Band1 Hadamard 15156 PaleyII",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/PAPER_2026-10-21_Band1_Hadamard_15156_PaleyII.pdf",
+    "pages": 7,
+    "sha256": "ba52903e161bcdc7630128c15a65cdd2a7f9f21b4af84b54fc781ee9d754e8af",
+    "source_url": null,
+    "source_filename": "PAPER_2026-10-21_Band1_Hadamard_15156_PaleyII.pdf",
+    "byte_identical_alias_filenames": [
+      "PAPER_2026-10-21_Band1_Hadamard_15156_PaleyII.pdf"
+    ],
+    "corpus_start": 9391,
+    "corpus_end": 9397
+  },
+  {
+    "id": "N029",
+    "title": "SCOREBOARD 2026-10-21 Band1 Hadamard 15156 PaleyII",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/SCOREBOARD_2026-10-21_Band1_Hadamard_15156_PaleyII.pdf",
+    "pages": 1,
+    "sha256": "0131ee2cd7603919503acd32f28ea6045fc87bf67ba0b979f5ef83ac47fe72ef",
+    "source_url": null,
+    "source_filename": "SCOREBOARD_2026-10-21_Band1_Hadamard_15156_PaleyII.pdf",
+    "byte_identical_alias_filenames": [
+      "SCOREBOARD_2026-10-21_Band1_Hadamard_15156_PaleyII.pdf"
+    ],
+    "corpus_start": 9398,
+    "corpus_end": 9398
+  },
+  {
+    "id": "N030",
+    "title": "STATUS BOARD 2026-10-21 Band1 Hadamard 15156 PaleyII",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/STATUS_BOARD_2026-10-21_Band1_Hadamard_15156_PaleyII.pdf",
+    "pages": 1,
+    "sha256": "43520d1449eb886f024e6d6391debe1c5ad63e29d1e7847b21f31a86c5907ef7",
+    "source_url": null,
+    "source_filename": "STATUS_BOARD_2026-10-21_Band1_Hadamard_15156_PaleyII.pdf",
+    "byte_identical_alias_filenames": [
+      "STATUS_BOARD_2026-10-21_Band1_Hadamard_15156_PaleyII.pdf"
+    ],
+    "corpus_start": 9399,
+    "corpus_end": 9399
+  },
+  {
+    "id": "N031",
+    "title": "2026-10-22 Band1 Hadamard 15180 PaleyII",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/2026-10-22_Band1_Hadamard_15180_PaleyII.pdf",
+    "pages": 7,
+    "sha256": "e91bd641658044948467026d9054a944f3ed0e4b3f021ee815472dea276535c6",
+    "source_url": null,
+    "source_filename": "2026-10-22_Band1_Hadamard_15180_PaleyII.pdf",
+    "byte_identical_alias_filenames": [
+      "2026-10-22_Band1_Hadamard_15180_PaleyII.pdf",
+      "PAPER_2026-10-22_Band1_Hadamard_15180_PaleyII.pdf"
+    ],
+    "corpus_start": 9400,
+    "corpus_end": 9406
+  },
+  {
+    "id": "N032",
+    "title": "SCOREBOARD 2026-10-22 Band1 Hadamard 15180 PaleyII",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/SCOREBOARD_2026-10-22_Band1_Hadamard_15180_PaleyII.pdf",
+    "pages": 1,
+    "sha256": "1cc0bd916e36f63def92f27613a85368ff8feab15e1db76fb26189fc51e4df72",
+    "source_url": null,
+    "source_filename": "SCOREBOARD_2026-10-22_Band1_Hadamard_15180_PaleyII.pdf",
+    "byte_identical_alias_filenames": [
+      "SCOREBOARD_2026-10-22_Band1_Hadamard_15180_PaleyII.pdf"
+    ],
+    "corpus_start": 9407,
+    "corpus_end": 9407
+  },
+  {
+    "id": "N033",
+    "title": "STATUS BOARD 2026-10-22 Band1 Hadamard 15180 PaleyII",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/STATUS_BOARD_2026-10-22_Band1_Hadamard_15180_PaleyII.pdf",
+    "pages": 1,
+    "sha256": "d96d5cfaf1582d405972362d3a1ebd24480c7d4dfb76598fbf16fd02013c59a6",
+    "source_url": null,
+    "source_filename": "STATUS_BOARD_2026-10-22_Band1_Hadamard_15180_PaleyII.pdf",
+    "byte_identical_alias_filenames": [
+      "STATUS_BOARD_2026-10-22_Band1_Hadamard_15180_PaleyII.pdf"
+    ],
+    "corpus_start": 9408,
+    "corpus_end": 9408
+  },
+  {
+    "id": "N034",
+    "title": "2026-10-22 Band1 Hadamard 15188 PaleyI",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/2026-10-22_Band1_Hadamard_15188_PaleyI.pdf",
+    "pages": 4,
+    "sha256": "da092b67ef09af134547b0f7cb5279a9ca056a403c2556da71eb8a8fe92e91a1",
+    "source_url": null,
+    "source_filename": "2026-10-22_Band1_Hadamard_15188_PaleyI.pdf",
+    "byte_identical_alias_filenames": [
+      "PAPER_2026-10-22_Band1_Hadamard_15188_PaleyI.pdf",
+      "2026-10-22_Band1_Hadamard_15188_PaleyI.pdf"
+    ],
+    "corpus_start": 9409,
+    "corpus_end": 9412
+  },
+  {
+    "id": "N035",
+    "title": "SCOREBOARD 2026-10-22 Band1 Hadamard 15188 PaleyI",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/SCOREBOARD_2026-10-22_Band1_Hadamard_15188_PaleyI.pdf",
+    "pages": 1,
+    "sha256": "bf1cab33bc0393887bf0d7a1a96599cb68b35aa315847d31352c8d48e768e018",
+    "source_url": null,
+    "source_filename": "SCOREBOARD_2026-10-22_Band1_Hadamard_15188_PaleyI.pdf",
+    "byte_identical_alias_filenames": [
+      "SCOREBOARD_2026-10-22_Band1_Hadamard_15188_PaleyI.pdf"
+    ],
+    "corpus_start": 9413,
+    "corpus_end": 9413
+  },
+  {
+    "id": "N036",
+    "title": "STATUS BOARD 2026-10-22 Band1 Hadamard 15188 PaleyI",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/STATUS_BOARD_2026-10-22_Band1_Hadamard_15188_PaleyI.pdf",
+    "pages": 1,
+    "sha256": "9f01ba5ee3c99f8bc354dbc0e40d233f562562fa6ac900cdc481edeccfce0b0b",
+    "source_url": null,
+    "source_filename": "STATUS_BOARD_2026-10-22_Band1_Hadamard_15188_PaleyI.pdf",
+    "byte_identical_alias_filenames": [
+      "STATUS_BOARD_2026-10-22_Band1_Hadamard_15188_PaleyI.pdf"
+    ],
+    "corpus_start": 9414,
+    "corpus_end": 9414
+  },
+  {
+    "id": "N037",
+    "title": "2026-10-22 Band1 Hadamard 15200 PaleyI",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/2026-10-22_Band1_Hadamard_15200_PaleyI.pdf",
+    "pages": 4,
+    "sha256": "ed04327ac045199054adc262dba4bc5925fdaf3830090a984a29a1a921c60749",
+    "source_url": null,
+    "source_filename": "2026-10-22_Band1_Hadamard_15200_PaleyI.pdf",
+    "byte_identical_alias_filenames": [
+      "2026-10-22_Band1_Hadamard_15200_PaleyI.pdf",
+      "PAPER_2026-10-22_Band1_Hadamard_15200_PaleyI.pdf"
+    ],
+    "corpus_start": 9415,
+    "corpus_end": 9418
+  },
+  {
+    "id": "N038",
+    "title": "SCOREBOARD 2026-10-22 Band1 Hadamard 15200 PaleyI",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/SCOREBOARD_2026-10-22_Band1_Hadamard_15200_PaleyI.pdf",
+    "pages": 1,
+    "sha256": "5794d25af3c4c1a1e8b00cc0d6dd99c94c2c3b94b1acbb0c0a97fb5f705f3faa",
+    "source_url": null,
+    "source_filename": "SCOREBOARD_2026-10-22_Band1_Hadamard_15200_PaleyI.pdf",
+    "byte_identical_alias_filenames": [
+      "SCOREBOARD_2026-10-22_Band1_Hadamard_15200_PaleyI.pdf"
+    ],
+    "corpus_start": 9419,
+    "corpus_end": 9419
+  },
+  {
+    "id": "N039",
+    "title": "STATUS BOARD 2026-10-22 Band1 Hadamard 15200 PaleyI",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/STATUS_BOARD_2026-10-22_Band1_Hadamard_15200_PaleyI.pdf",
+    "pages": 1,
+    "sha256": "8156bf35683d4667379540c87cc3566f78f39885f51422aabe02ce11be4752da",
+    "source_url": null,
+    "source_filename": "STATUS_BOARD_2026-10-22_Band1_Hadamard_15200_PaleyI.pdf",
+    "byte_identical_alias_filenames": [
+      "STATUS_BOARD_2026-10-22_Band1_Hadamard_15200_PaleyI.pdf"
+    ],
+    "corpus_start": 9420,
+    "corpus_end": 9420
+  },
+  {
+    "id": "N040",
+    "title": "2026-10-22 Band1 Hadamard 15228 PaleyI",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/2026-10-22_Band1_Hadamard_15228_PaleyI.pdf",
+    "pages": 4,
+    "sha256": "51c3483fa0726cb8beeb5198f22533f10398b51a7ff55dedd59d9c4a698f64f6",
+    "source_url": null,
+    "source_filename": "2026-10-22_Band1_Hadamard_15228_PaleyI.pdf",
+    "byte_identical_alias_filenames": [
+      "2026-10-22_Band1_Hadamard_15228_PaleyI.pdf"
+    ],
+    "corpus_start": 9421,
+    "corpus_end": 9424
+  },
+  {
+    "id": "N041",
+    "title": "SCOREBOARD 2026-10-22 hadamard 15228",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/SCOREBOARD_2026-10-22_hadamard_15228.pdf",
+    "pages": 1,
+    "sha256": "b3f2a379542fb82816cf258a14efe425efc28586e2754c460756c4a9ed73b3a1",
+    "source_url": null,
+    "source_filename": "SCOREBOARD_2026-10-22_hadamard_15228.pdf",
+    "byte_identical_alias_filenames": [
+      "SCOREBOARD_2026-10-22_hadamard_15228.pdf"
+    ],
+    "corpus_start": 9425,
+    "corpus_end": 9425
+  },
+  {
+    "id": "N042",
+    "title": "STATUS BOARD 2026-10-22 hadamard 15228",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/STATUS_BOARD_2026-10-22_hadamard_15228.pdf",
+    "pages": 1,
+    "sha256": "2fa53fb072769c1d7abefed4968645d31cf2d6508b0035be7741d3b5ba707157",
+    "source_url": null,
+    "source_filename": "STATUS_BOARD_2026-10-22_hadamard_15228.pdf",
+    "byte_identical_alias_filenames": [
+      "STATUS_BOARD_2026-10-22_hadamard_15228.pdf"
+    ],
+    "corpus_start": 9426,
+    "corpus_end": 9426
+  },
+  {
+    "id": "N043",
+    "title": "2026-10-22 Band1 Hadamard 15244 PaleyII",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/2026-10-22_Band1_Hadamard_15244_PaleyII.pdf",
+    "pages": 7,
+    "sha256": "b4c3cefd00c0c393dc625cb899de670596e8c7bb52f9816e377f1dabcd9d47ab",
+    "source_url": null,
+    "source_filename": "2026-10-22_Band1_Hadamard_15244_PaleyII.pdf",
+    "byte_identical_alias_filenames": [
+      "PAPER_2026-10-22_Band1_Hadamard_15244_PaleyII.pdf",
+      "2026-10-22_Band1_Hadamard_15244_PaleyII.pdf"
+    ],
+    "corpus_start": 9427,
+    "corpus_end": 9433
+  },
+  {
+    "id": "N044",
+    "title": "SCOREBOARD 2026-10-22 Band1 Hadamard 15244 PaleyII",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/SCOREBOARD_2026-10-22_Band1_Hadamard_15244_PaleyII.pdf",
+    "pages": 1,
+    "sha256": "31dd004726e06dedd5398a1e264c1c3977ea2abe369492319c8950eb9c4ef5b1",
+    "source_url": null,
+    "source_filename": "SCOREBOARD_2026-10-22_Band1_Hadamard_15244_PaleyII.pdf",
+    "byte_identical_alias_filenames": [
+      "SCOREBOARD_2026-10-22_Band1_Hadamard_15244_PaleyII.pdf"
+    ],
+    "corpus_start": 9434,
+    "corpus_end": 9434
+  },
+  {
+    "id": "N045",
+    "title": "STATUS BOARD 2026-10-22 Band1 Hadamard 15244 PaleyII",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/STATUS_BOARD_2026-10-22_Band1_Hadamard_15244_PaleyII.pdf",
+    "pages": 1,
+    "sha256": "8419b8477ef724fee2caf8de4f097bc68213bc2146645dc87242792173599c05",
+    "source_url": null,
+    "source_filename": "STATUS_BOARD_2026-10-22_Band1_Hadamard_15244_PaleyII.pdf",
+    "byte_identical_alias_filenames": [
+      "STATUS_BOARD_2026-10-22_Band1_Hadamard_15244_PaleyII.pdf"
+    ],
+    "corpus_start": 9435,
+    "corpus_end": 9435
+  },
+  {
+    "id": "N046",
+    "title": "2026-10-22 Band1 Hadamard 15260 PaleyI",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/2026-10-22_Band1_Hadamard_15260_PaleyI.pdf",
+    "pages": 4,
+    "sha256": "7fe4d084cef39607710154855228072fe77ad536c453caf084026026ee05a5a0",
+    "source_url": null,
+    "source_filename": "2026-10-22_Band1_Hadamard_15260_PaleyI.pdf",
+    "byte_identical_alias_filenames": [
+      "2026-10-22_Band1_Hadamard_15260_PaleyI.pdf"
+    ],
+    "corpus_start": 9436,
+    "corpus_end": 9439
+  },
+  {
+    "id": "N047",
+    "title": "SCOREBOARD 2026-10-22 Band1 Hadamard 15260 PaleyI",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/SCOREBOARD_2026-10-22_Band1_Hadamard_15260_PaleyI.pdf",
+    "pages": 1,
+    "sha256": "7be8a06f40b89f77ca8f7c11616315a1b63e3b681cd8b28301195b91f6b33763",
+    "source_url": null,
+    "source_filename": "SCOREBOARD_2026-10-22_Band1_Hadamard_15260_PaleyI.pdf",
+    "byte_identical_alias_filenames": [
+      "SCOREBOARD_2026-10-22_Band1_Hadamard_15260_PaleyI.pdf"
+    ],
+    "corpus_start": 9440,
+    "corpus_end": 9440
+  },
+  {
+    "id": "N048",
+    "title": "STATUS BOARD 2026-10-22 Band1 Hadamard 15260 PaleyI",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/STATUS_BOARD_2026-10-22_Band1_Hadamard_15260_PaleyI.pdf",
+    "pages": 1,
+    "sha256": "4c4c56c1a5d6f8eab4005f98e945e4ebecf18ef894713489385b70d70b701f5e",
+    "source_url": null,
+    "source_filename": "STATUS_BOARD_2026-10-22_Band1_Hadamard_15260_PaleyI.pdf",
+    "byte_identical_alias_filenames": [
+      "STATUS_BOARD_2026-10-22_Band1_Hadamard_15260_PaleyI.pdf"
+    ],
+    "corpus_start": 9441,
+    "corpus_end": 9441
+  },
+  {
+    "id": "N049",
+    "title": "2026-10-22 Band1 Hadamard 15264 PaleyI",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/2026-10-22_Band1_Hadamard_15264_PaleyI.pdf",
+    "pages": 4,
+    "sha256": "4e4ed04c37382999cec26fdd102f9a00e6fbbdccb0478b6f09fa1bb79f2f062f",
+    "source_url": null,
+    "source_filename": "2026-10-22_Band1_Hadamard_15264_PaleyI.pdf",
+    "byte_identical_alias_filenames": [
+      "PAPER_2026-10-22_Band1_Hadamard_15264_PaleyI.pdf",
+      "2026-10-22_Band1_Hadamard_15264_PaleyI.pdf"
+    ],
+    "corpus_start": 9442,
+    "corpus_end": 9445
+  },
+  {
+    "id": "N050",
+    "title": "SCOREBOARD 2026-10-22 Band1 Hadamard 15264 PaleyI",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/SCOREBOARD_2026-10-22_Band1_Hadamard_15264_PaleyI.pdf",
+    "pages": 1,
+    "sha256": "5bcc0a55129c6db5d8e1946d363eeef14c1eaebf711ae9be0f379b9ffa668a51",
+    "source_url": null,
+    "source_filename": "SCOREBOARD_2026-10-22_Band1_Hadamard_15264_PaleyI.pdf",
+    "byte_identical_alias_filenames": [
+      "SCOREBOARD_2026-10-22_Band1_Hadamard_15264_PaleyI.pdf"
+    ],
+    "corpus_start": 9446,
+    "corpus_end": 9446
+  },
+  {
+    "id": "N051",
+    "title": "STATUS BOARD 2026-10-22 Band1 Hadamard 15264 PaleyI",
+    "category": "Computational mathematics and status records",
+    "status": "Archived local report; no new calculation or physical validation",
+    "path": "05_Computational_Mathematics/PDFs/STATUS_BOARD_2026-10-22_Band1_Hadamard_15264_PaleyI.pdf",
+    "pages": 1,
+    "sha256": "eb857451a0d4693589db722ddb5b98b8ed4f1409c75289c536882dfa6d052319",
+    "source_url": null,
+    "source_filename": "STATUS_BOARD_2026-10-22_Band1_Hadamard_15264_PaleyI.pdf",
+    "byte_identical_alias_filenames": [
+      "STATUS_BOARD_2026-10-22_Band1_Hadamard_15264_PaleyI.pdf"
+    ],
+    "corpus_start": 9447,
+    "corpus_end": 9447
+  }
+]
