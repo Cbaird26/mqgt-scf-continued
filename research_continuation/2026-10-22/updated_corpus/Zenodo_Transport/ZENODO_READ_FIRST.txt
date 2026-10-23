@@ -1,0 +1,30 @@
+ZENODO LOSSLESS TRANSFER PARTS — EDITION 2026.10.22
+
+Zenodo interrupted the original large-file uploads. This deposit uses smaller
+binary transfer parts for the files listed in ZENODO_TRANSPORT_MANIFEST.json.
+Every part is SHA-256 checked. Reassembly produces the byte-identical original
+research archive (and PDF if listed), without changing scientific content.
+
+1. Download ALL numbered parts and ZENODO_TRANSPORT_MANIFEST.json,
+   REASSEMBLE_ZENODO.py, this file, and the other standalone deposit files.
+2. Keep them together in one folder. Run with Python 3 (no extra packages):
+     python3 REASSEMBLE_ZENODO.py
+3. The reconstructed/ folder contains the checked original assets. Then run:
+     cd reconstructed
+     shasum -a 256 -c RELEASE_SHA256SUMS.txt
+   Extract the ZIP and follow its 00_START_HERE.txt for internal verification
+   and the reading-PDF rebuild. The reading corpus has 9,447 pages.
+
+Full single-file ZIP/PDF downloads are also available at:
+https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.22-updated-corpus
+
+This transfer adaptation supersedes statements that Zenodo hosts exactly seven
+standalone files. The seven original GitHub assets and their sealed checksums
+are unchanged; the transport manifest maps Zenodo parts to those originals.
+Use ZENODO_TRANSPORT_SHA256SUMS.txt to check transfer files before reassembly.
+
+The six-page guide is the small preview-friendly entry point. All scientific
+caveats, claim-status qualifications, component rights and AI-assistance
+disclosures remain in the original files. The minimal retained action has
+finite-momentum stability obstructions; no completed or empirically validated
+Theory of Everything is claimed. This is a delivery repair, not new research.

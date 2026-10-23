@@ -13,6 +13,24 @@ PDFs (99 pages), and six new editorial/navigation pages: **9,447 pages total**.
 - [Asset identities](RELEASE_ASSETS.json), [checksums](RELEASE_SHA256SUMS.txt),
   [assembly verification](VERIFICATION.json), [fresh ZIP verification](ARCHIVE_VERIFICATION.json)
 
+## Zenodo delivery format
+
+The full corpus PDF remains a normal standalone Zenodo download. Because Zenodo
+interrupted long archive transfers, the ZIP is deposited as **39 lossless binary
+parts**, with four small reconstruction/checksum files. Download all parts and
+the [transport helpers](Zenodo_Transport/ZENODO_READ_FIRST.txt) into one directory;
+run `python3 REASSEMBLE_ZENODO.py`. The script verifies every part and reconstructs
+the exact original ZIP, SHA-256
+`f75ba959ed1686e91889916dbc97d1d1c6fcfd7f7e364a3bc3f39085d7127f7d`.
+Local reassembly was verified. Use the original single-file ZIP on GitHub for
+immediate access. The original seven assets, research contents and hashes remain
+unchanged; the Zenodo representation has 49 files: six standalone original assets,
+39 archive parts and four helpers. The six-page guide is the Zenodo preview.
+
+The original release tag preserves the initial source snapshot. This additive
+metadata update records the transfer adaptation; publication status is determined
+by the live Zenodo record. No new scientific calculations are introduced.
+
 ## Read the latest result first
 
 **The minimal retained action has negative-residue tachyonic poles and non-real

@@ -47,5 +47,12 @@
       "md5": "786166b07838f9c527722506ef6ce391"
     }
   ],
-  "scope": "These seven byte-identical files are the GitHub and Zenodo deposit assets."
+  "scope": "Seven original GitHub assets; six are standalone Zenodo files, and the archive is reconstructed from 39 verified parts.",
+  "zenodo_representation": {
+    "file_count": 49,
+    "archive_parts": 39,
+    "standalone_originals": 6,
+    "helper_files": 4,
+    "manifest": "Zenodo_Transport/ZENODO_TRANSPORT_MANIFEST.json"
+  }
 }

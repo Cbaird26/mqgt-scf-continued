@@ -14,7 +14,7 @@ Edition date: 2026-10-22. Publication metadata date: 2026-10-23 UTC.
 
 ## Downloads and verification
 
-The seven attached files are identical to the seven Zenodo deposit assets.
+The seven original GitHub assets retain their sealed bytes and checksums. Zenodo delivers the archive as 39 lossless parts plus four transfer helpers; its other six original assets, including the full corpus PDF, are standalone. REASSEMBLE_ZENODO.py verifies every part and reconstructs the exact original ZIP. See Zenodo_Transport/ in the current source index. This metadata follow-up supplements the original release tag without changing its scientific assets.
 Start with the six-page guide and current-claim catalogue, then read the corpus PDF.
 Download the ZIP for all original research assets and reproducibility tools.
 Run `shasum -a 256 -c RELEASE_SHA256SUMS.txt` in the download directory, then follow

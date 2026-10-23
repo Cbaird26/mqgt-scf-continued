@@ -1,0 +1,293 @@
+{
+  "edition": "2026.10.22",
+  "zenodo_version_doi": "10.5281/zenodo.23585376",
+  "purpose": "Lossless transfer parts for unreliable large-file uploads. Reassemble exact sealed originals.",
+  "part_bytes": 16777216,
+  "original_assets": [
+    {
+      "name": "PUBLIC_Zenodo_Package_2026-10-22.zip",
+      "bytes": 653985879,
+      "sha256": "f75ba959ed1686e91889916dbc97d1d1c6fcfd7f7e364a3bc3f39085d7127f7d",
+      "md5": "25dea69fb17d62955a0104fc4fc7e323"
+    },
+    {
+      "name": "A_Theory_of_Everything_UPDATED_CORPUS_2026-10-22.pdf",
+      "bytes": 162929211,
+      "sha256": "03272f15706b8da897546b8421c9ad639d72c152c8a4bd4156abd17f3aca5364",
+      "md5": "092a614462eb4b3ffb756aee8535c3f5"
+    },
+    {
+      "name": "02_Update_Guide_and_Catalogue_2026-10-22.pdf",
+      "bytes": 77302,
+      "sha256": "5731b930add363c7b362f2469028c97aa2770666a0adbf8e7ba5977a21504aef",
+      "md5": "3a4558a203e1a6fb846c92c24f8cb948"
+    },
+    {
+      "name": "RIGHTS_AND_ATTRIBUTION.txt",
+      "bytes": 2470,
+      "sha256": "551c1be7e2f5cec690b8c5e5b28fa5f74293e5e6c083f71894557ed12ddc641c",
+      "md5": "a9a487638a2f0888a0d39c40a269ea59"
+    },
+    {
+      "name": "VERIFICATION.json",
+      "bytes": 3020,
+      "sha256": "b4d4232e3471a7ecfd3fbe010ff8d68ec233ce46609cc167c257575df7d34c31",
+      "md5": "e738740391f570661f11b19fdb5a45d4"
+    },
+    {
+      "name": "ARCHIVE_VERIFICATION.json",
+      "bytes": 712,
+      "sha256": "22b9898dd60b4b8bd4c21f3832b3174386488363821f861a14403b7b05f29df3",
+      "md5": "14e2601773c003cf075a340b1ac02b77"
+    },
+    {
+      "name": "RELEASE_SHA256SUMS.txt",
+      "bytes": 602,
+      "sha256": "46e612692d4f2d317129be07fa7d61e0ceb827eb81c4fee564bcc49255639fa5",
+      "md5": "786166b07838f9c527722506ef6ce391"
+    }
+  ],
+  "split_files": [
+    {
+      "name": "PUBLIC_Zenodo_Package_2026-10-22.zip",
+      "bytes": 653985879,
+      "sha256": "f75ba959ed1686e91889916dbc97d1d1c6fcfd7f7e364a3bc3f39085d7127f7d",
+      "parts": [
+        {
+          "name": "PUBLIC_Zenodo_Package_2026-10-22.zip.part001",
+          "bytes": 16777216,
+          "sha256": "5732edace26cc26fa9db69107612199fe53ac8e239cd541fc1a7c3e49302605b",
+          "md5": "c9f71dc579b6fdf7ae09c4c1b2586e5e"
+        },
+        {
+          "name": "PUBLIC_Zenodo_Package_2026-10-22.zip.part002",
+          "bytes": 16777216,
+          "sha256": "0507af366ae77183543e65358a9e4f80a95672e1f104ab92a0f5372d11e48ea0",
+          "md5": "e1b8df55ff744aeac48f1be35286ffef"
+        },
+        {
+          "name": "PUBLIC_Zenodo_Package_2026-10-22.zip.part003",
+          "bytes": 16777216,
+          "sha256": "30a1bf05a9bad8086931b542f20554265158edb49edebdbada399c3b8a251cc7",
+          "md5": "4c5d04088904776ddcf54c860b3dfb02"
+        },
+        {
+          "name": "PUBLIC_Zenodo_Package_2026-10-22.zip.part004",
+          "bytes": 16777216,
+          "sha256": "c74612ea43bfcae28f9c163a374124f1dcc2a609dd2d45228267cf8b474e3358",
+          "md5": "9c932431736cd6c3adbcab5d3f3ee2f8"
+        },
+        {
+          "name": "PUBLIC_Zenodo_Package_2026-10-22.zip.part005",
+          "bytes": 16777216,
+          "sha256": "a6ba04e5ece3f3df2ff759413df0231057c795f9a5b7e1726ad7088ae0d26ee8",
+          "md5": "1d7ad0688dfd75067a47b9caa390214c"
+        },
+        {
+          "name": "PUBLIC_Zenodo_Package_2026-10-22.zip.part006",
+          "bytes": 16777216,
+          "sha256": "a7715f99f4fd93d49b20bf5e6b2f68b90a97a048cd9af708e13811aca675ecef",
+          "md5": "81ddf9527ecac18b5fc3fbb42f597566"
+        },
+        {
+          "name": "PUBLIC_Zenodo_Package_2026-10-22.zip.part007",
+          "bytes": 16777216,
+          "sha256": "6bf0eb9f5b67cc0163729cc35fb8ead987d93955e72c293cb0d68a0ed9f61e04",
+          "md5": "336375e1e27cbcc314ad2d164b59b462"
+        },
+        {
+          "name": "PUBLIC_Zenodo_Package_2026-10-22.zip.part008",
+          "bytes": 16777216,
+          "sha256": "94c69162d706d9edfb372af4c3a252ea63692b25e82e2c2163a99beb5a0d909e",
+          "md5": "9c2f877e3fc9ed2947e7a49261e4b97f"
+        },
+        {
+          "name": "PUBLIC_Zenodo_Package_2026-10-22.zip.part009",
+          "bytes": 16777216,
+          "sha256": "94fc22f2c9955aba8a45dd7c5c3de4a37367683faae0085a00f20704e5e6b781",
+          "md5": "104ba9200219e473babcbd0200e7fc51"
+        },
+        {
+          "name": "PUBLIC_Zenodo_Package_2026-10-22.zip.part010",
+          "bytes": 16777216,
+          "sha256": "0563909871282469bd54ad9456e69f2a01d99c6a0a573b0ddb96742d4cf08085",
+          "md5": "6077a53db67db7eb40ade6ce5ad1ff09"
+        },
+        {
+          "name": "PUBLIC_Zenodo_Package_2026-10-22.zip.part011",
+          "bytes": 16777216,
+          "sha256": "db5ac047a11603b64e6760f6d6be5ff7899352472a5c18422adf1e6aae8a3f68",
+          "md5": "5d86ade649fa130aef5c61dd34e5df38"
+        },
+        {
+          "name": "PUBLIC_Zenodo_Package_2026-10-22.zip.part012",
+          "bytes": 16777216,
+          "sha256": "fb4f2427a33dd012e453d15fc4edfe8b49c1abb5a1d6a1d36568e5977b308b76",
+          "md5": "70063235b64f55d7f285062de6351432"
+        },
+        {
+          "name": "PUBLIC_Zenodo_Package_2026-10-22.zip.part013",
+          "bytes": 16777216,
+          "sha256": "9fdcecdd299dee373539393c3011c37015bc939551f054e57e42346d9ce409e9",
+          "md5": "7befc2d67e1508479c85ccd4847e0871"
+        },
+        {
+          "name": "PUBLIC_Zenodo_Package_2026-10-22.zip.part014",
+          "bytes": 16777216,
+          "sha256": "746377972a5027d61b0d8f30341f745df2602d3164f159b3b90d63201aca97a3",
+          "md5": "d0b866d6c840d49ee4ef5a005e69eead"
+        },
+        {
+          "name": "PUBLIC_Zenodo_Package_2026-10-22.zip.part015",
+          "bytes": 16777216,
+          "sha256": "cc3d9845c0dded0367542d708e619b626324613ee9c1f23891e0326adad8615f",
+          "md5": "92b4c0d419ceff346e65b5c319024e46"
+        },
+        {
+          "name": "PUBLIC_Zenodo_Package_2026-10-22.zip.part016",
+          "bytes": 16777216,
+          "sha256": "b2b7ee2eb4bbf455b975302b41512203b32953757504dbc96f89621e5c6b42f4",
+          "md5": "1052a69ae70340141f62378eefc4d62a"
+        },
+        {
+          "name": "PUBLIC_Zenodo_Package_2026-10-22.zip.part017",
+          "bytes": 16777216,
+          "sha256": "f3059bded5b4674eb36abe7b397694dfd90b10ce65b26f6d0e38b52dde7e790a",
+          "md5": "4ebde38cd8bf16b62a65cc81c21b0f29"
+        },
+        {
+          "name": "PUBLIC_Zenodo_Package_2026-10-22.zip.part018",
+          "bytes": 16777216,
+          "sha256": "0124c91b24311f864f10437ee73381cfaceb6de84ec35226accc8b18dba7bdee",
+          "md5": "ec5e7ed5aa1b0fa7c605f546fc4db40d"
+        },
+        {
+          "name": "PUBLIC_Zenodo_Package_2026-10-22.zip.part019",
+          "bytes": 16777216,
+          "sha256": "0b9307d05d90a943327160f15f62d6e04c3bd1f13e071998c6937479d75ac580",
+          "md5": "634736461b7d10daadcf6b730492dcb4"
+        },
+        {
+          "name": "PUBLIC_Zenodo_Package_2026-10-22.zip.part020",
+          "bytes": 16777216,
+          "sha256": "53248cf2248140f7d895b998e516bb99144a9a240ac907d9d42e91cb851954ab",
+          "md5": "e201c4d16758355d4d9909335e4278fb"
+        },
+        {
+          "name": "PUBLIC_Zenodo_Package_2026-10-22.zip.part021",
+          "bytes": 16777216,
+          "sha256": "8c965ad6fab4175b1d233a89eb23afc126c899f527fc1ccc121f9a423268076b",
+          "md5": "a2b0882652c4989b5c0e9cf444b57911"
+        },
+        {
+          "name": "PUBLIC_Zenodo_Package_2026-10-22.zip.part022",
+          "bytes": 16777216,
+          "sha256": "d3cdb7c2963934e79e9e7930779c023b7cb2f3a41ce6adaf963503c06d8214e3",
+          "md5": "b12bfbc1ce3a91b2d45d1e6ffe2fb561"
+        },
+        {
+          "name": "PUBLIC_Zenodo_Package_2026-10-22.zip.part023",
+          "bytes": 16777216,
+          "sha256": "bee3d8387758d890e1d316cc51d163d2aa211fe4225e2fb1fd25dccf8a3433b2",
+          "md5": "4fbb8d8c2db1a98859fa4cac46a4bf40"
+        },
+        {
+          "name": "PUBLIC_Zenodo_Package_2026-10-22.zip.part024",
+          "bytes": 16777216,
+          "sha256": "11297d6cc5d10570928bc88103d191f1d950f352c95b8ee6abccea378c3c6ce9",
+          "md5": "e41bd38dfe93378a6b45de25fe6badac"
+        },
+        {
+          "name": "PUBLIC_Zenodo_Package_2026-10-22.zip.part025",
+          "bytes": 16777216,
+          "sha256": "6dfc3bd93ac20bd30e1be0124138d86c4806d2a859afae097b40c07d9371f362",
+          "md5": "d83f6c2c4d205fd668a09efbba1e3f2a"
+        },
+        {
+          "name": "PUBLIC_Zenodo_Package_2026-10-22.zip.part026",
+          "bytes": 16777216,
+          "sha256": "5f27a20ad46f56aff0e03bab817eb5e4a459b2f5463fa8e5c549718c7f938d95",
+          "md5": "eb8d9b05b81db72e24aae47226a051f8"
+        },
+        {
+          "name": "PUBLIC_Zenodo_Package_2026-10-22.zip.part027",
+          "bytes": 16777216,
+          "sha256": "9c7b15c8062adbe4a87eb0a3dd7740f2c2283069b6d51ed661b3111b1c58eb0f",
+          "md5": "6a94013a2620deff3e231c488392efc4"
+        },
+        {
+          "name": "PUBLIC_Zenodo_Package_2026-10-22.zip.part028",
+          "bytes": 16777216,
+          "sha256": "825e1b613582a95ac17cfdb6e6c8643a673d30cce73a69519fd15230eff308c3",
+          "md5": "1fb7ac2a77b715171c8b76cb1aeaa3ee"
+        },
+        {
+          "name": "PUBLIC_Zenodo_Package_2026-10-22.zip.part029",
+          "bytes": 16777216,
+          "sha256": "fc9ad11778438f7423ec0b8965fac572a6f8911d91e72a180ca112e123a770a6",
+          "md5": "4a8643c210dd3b651910db583a6d02b8"
+        },
+        {
+          "name": "PUBLIC_Zenodo_Package_2026-10-22.zip.part030",
+          "bytes": 16777216,
+          "sha256": "ef30add1c08c51db819fc3487c43d661707d9a56aaee217be2d4be449b5d8f25",
+          "md5": "3ad382ff031349e5cb5f96a09c5e5b94"
+        },
+        {
+          "name": "PUBLIC_Zenodo_Package_2026-10-22.zip.part031",
+          "bytes": 16777216,
+          "sha256": "c77f095a5c0293ba4952e25c9d7acf10ccf2092fd9fb9e5467fd3b7cf8f55894",
+          "md5": "6a6b0b96d3e2196da450527a560ced8c"
+        },
+        {
+          "name": "PUBLIC_Zenodo_Package_2026-10-22.zip.part032",
+          "bytes": 16777216,
+          "sha256": "96a9769411337cadda1b4543257b1e15dfbac90dfdfc7fa774ee3b564436ddc6",
+          "md5": "aaf177131f2a41bace2486f2d775b601"
+        },
+        {
+          "name": "PUBLIC_Zenodo_Package_2026-10-22.zip.part033",
+          "bytes": 16777216,
+          "sha256": "1c305c6a75ee7846930302c5137f5b49362debd130792e72f04550ac8e6fd928",
+          "md5": "59f2608d4a609f3a9cb6af7e2e4f765e"
+        },
+        {
+          "name": "PUBLIC_Zenodo_Package_2026-10-22.zip.part034",
+          "bytes": 16777216,
+          "sha256": "27a664050ff8c23ed80c9b5e5dcf70db4229de88155cdc97345074f7b43fa04e",
+          "md5": "fe1ab6a217a70f7423761a5c8c493f66"
+        },
+        {
+          "name": "PUBLIC_Zenodo_Package_2026-10-22.zip.part035",
+          "bytes": 16777216,
+          "sha256": "f32d71c1f38e86f3dae8142b3b2a33247593b4cc021ff6c36d9b4fb3792b8c34",
+          "md5": "ce84e7238e2a092402ecc311b10e707a"
+        },
+        {
+          "name": "PUBLIC_Zenodo_Package_2026-10-22.zip.part036",
+          "bytes": 16777216,
+          "sha256": "cd3233e33027db4c337000ec3232ae214df3fd28f69609b3315fc7c04f064271",
+          "md5": "fda91e792c7f55d9bbc58d41a6d87df1"
+        },
+        {
+          "name": "PUBLIC_Zenodo_Package_2026-10-22.zip.part037",
+          "bytes": 16777216,
+          "sha256": "ad860a54aebc05c7bd4a4a248db4bf1072d01aefe175a4a427590e59c89d97ac",
+          "md5": "bc10ee07752bf1ea0c8ab580af95e98b"
+        },
+        {
+          "name": "PUBLIC_Zenodo_Package_2026-10-22.zip.part038",
+          "bytes": 16777216,
+          "sha256": "5adccae6c84a1114887854577f5af8d0f3914d2c55ac58a5cc863444071ddda4",
+          "md5": "7bf17f7f0c6e42ac5ab19f0047814d97"
+        },
+        {
+          "name": "PUBLIC_Zenodo_Package_2026-10-22.zip.part039",
+          "bytes": 16451671,
+          "sha256": "cfcf102a5a7c59201a5c206d63259189ca216b8c4feaa3d3033cff912cb59f87",
+          "md5": "54dcf1931b01d8014f5e4cd5a3cfbcc4"
+        }
+      ]
+    }
+  ]
+}

@@ -47,6 +47,9 @@ page maps and SHA-256 manifests. All original scientific bytes remain preserved.
 The latest retained-action result is a finite-momentum stability obstruction, not a
 stable-vacuum or completed-Theory-of-Everything claim. Packaging checks establish
 integrity and page fidelity; scientific calculations were not rerun.
+Zenodo delivers the archive in 39 verified lossless parts with a reconstruction
+script; its full corpus PDF is standalone. GitHub retains the original single-file
+ZIP and seven sealed assets. See the source index for the transfer instructions.
 **Corpus research prerelease:** [v2026.10.22-updated-corpus](https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.22-updated-corpus).
 
 **Finite-momentum metric, radion and scalar poles (next continuation).**
