@@ -1,0 +1,42 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=0.82in,headheight=15pt]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,amsmath,amssymb,mathtools,booktabs,array,graphicx}
+\usepackage{xcolor,microtype,enumitem,fancyhdr}
+\definecolor{navy}{HTML}{18384E}\definecolor{teal}{HTML}{137F8C}\definecolor{pale}{HTML}{EDF4F6}
+\usepackage[colorlinks=true,linkcolor=navy,urlcolor=teal,citecolor=navy]{hyperref}
+\hypersetup{pdftitle={Finite-momentum metric, radion and scalar response},pdfauthor={Prepared for Christopher Michael Baird with OpenAI Codex}}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small\color{navy} MQGT--SCF / FINITE-MOMENTUM POLE TESTS}
+\fancyhead[R]{\small 22 October 2026}
+\fancyfoot[L]{\small Restricted classical operator; stated continuation}
+\fancyfoot[R]{\small\thepage}
+\setlength{\parindent}{0pt}\setlength{\parskip}{5pt}
+\setlist{nosep,leftmargin=1.5em}\emergencystretch=2em
+\widowpenalty=10000\clubpenalty=10000
+\DeclareMathOperator{\Tr}{Tr}\DeclareMathOperator{\diag}{diag}
+\newcommand{\dd}{\mathrm d}\newcommand{\Lam}{\Lambda}
+\newcommand{\HH}{\mathcal H}\newcommand{\KK}{\mathcal K}\newcommand{\JJ}{\mathcal J}
+\newcommand{\GE}{G^{\mathrm E}}\newcommand{\GJ}{G^{\mathrm J}}
+\input{tables.tex}
+\begin{document}
+\thispagestyle{plain}
+{\small\bfseries\color{teal} BAIRD / ZORAASI RESEARCH CONTINUATION}\par
+{\LARGE\bfseries\color{navy} Finite-momentum metric, radion\\ and scalar response}\par
+{\large Lorentzian pole tests and an obstruction in the minimal action}\par
+\textbf{Prepared for Christopher Michael Baird with OpenAI Codex}\hfill 22 October 2026
+
+\colorbox{pale}{\parbox{\dimexpr\linewidth-2\fboxsep\relax}{\textbf{Result.} The declared warped Dirac operator yields a metric-coupled two-point function with full external-momentum dependence. Its infrared limit reproduces the previous Einstein kinetic matrices. Under the explicitly tested continuation $z=p_E^2/\Lam^2=-s-i0$, the light neutral and radion-connected timelike poles have positive residues. However, the same retained action has a tensor tachyon, an additional neutral tachyon, negative residues at both, and non-real pole pairs. An analytic sign argument guarantees a positive-Euclidean-momentum tensor zero for the stated positive exponential profiles. This obstructs an unrestricted stable/unitary interpretation of this minimal action. It is not a complete compactification spectrum, a causal quantum propagator construction, or a proof against all possible completions of the program.}}
+
+\section{Question, preserved input, and precise scope}
+
+The radion note \cite{previous} derived positive nine-field Einstein kinetic matrices on four tuned fixtures, while explicitly withholding a physical-pole interpretation for the radion parameter near $0.91\Lam$. Its fixed-metric momentum diagnostic omitted the metric response needed to settle that question. This note derives the missing response, eliminates the metric trace only where legitimate, and searches the analytic two-point operator for poles and residues.
+
+Inputs are pinned at commit \texttt{1bb152dfbd6bb1e02a3e841b6d73e338f8e5fabf}. We retain the parity-even full-Dirac action, four copied fermion blocks, unit dimensionless Yukawas, fixed monopole connection, positive ten-exponential profiles and lowest scalar harmonics. Both profiles $f_-$ and $f_+$ are evaluated at $\epsilon=10^{-2},10^{-4}$. Their scalar-mass counterterm is externally chosen; the flatness subtraction is separately selected per fixture. The inherited operator files and numerical inputs are copied unchanged with hashes in \texttt{provenance.json}.
+
+Here ``finite momentum'' means exact external-momentum dependence at \emph{quadratic order in the declared fluctuations}. It does not mean an all-orders or quantum calculation. Internal sums are represented without a local curvature expansion but evaluated with finite fermion angular cutoffs. The physical pole tests concern the closed CP-even neutral radius/amplitude sector and the transverse-traceless four-dimensional metric. All nine fixed-metric scalar entries are supplied, but vector/axion constraints for charged and phase poles are outside this calculation.
+
+\input{sections/operator.tex}
+\input{sections/poles.tex}
+\input{sections/limits.tex}
+\end{document}

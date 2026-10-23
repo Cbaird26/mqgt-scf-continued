@@ -1,0 +1,989 @@
+{
+  "checks": {
+    "direct_vertices_a0.8_b0.6_z0.1": {
+      "passed": true,
+      "metric": 1.1709383462843448e-16,
+      "tolerance": 3e-12
+    },
+    "direct_vertices_a0.8_b0.6_z1.0": {
+      "passed": true,
+      "metric": 2.0816681711721685e-16,
+      "tolerance": 3e-12
+    },
+    "direct_vertices_a0.8_b0.6_z4.0": {
+      "passed": true,
+      "metric": 3.3306690738754696e-16,
+      "tolerance": 3e-12
+    },
+    "direct_vertices_a0.8_b0.6_z-0.7": {
+      "passed": true,
+      "metric": 1.7173778090058058e-16,
+      "tolerance": 3e-12
+    },
+    "direct_vertices_a0.8_b0.6_z(1+2j)": {
+      "passed": true,
+      "metric": 3.1777179610005234e-16,
+      "tolerance": 3e-12
+    },
+    "direct_vertices_a1.7_b0.0_z0.1": {
+      "passed": true,
+      "metric": 2.699663409488906e-17,
+      "tolerance": 3e-12
+    },
+    "direct_vertices_a1.7_b0.0_z1.0": {
+      "passed": true,
+      "metric": 1.1709383462843448e-17,
+      "tolerance": 3e-12
+    },
+    "direct_vertices_a1.7_b0.0_z4.0": {
+      "passed": true,
+      "metric": 5.551115123125783e-17,
+      "tolerance": 3e-12
+    },
+    "direct_vertices_a1.7_b0.0_z-0.7": {
+      "passed": true,
+      "metric": 6.071551613250958e-17,
+      "tolerance": 3e-12
+    },
+    "direct_vertices_a1.7_b0.0_z(1+2j)": {
+      "passed": true,
+      "metric": 4.7125767549415374e-17,
+      "tolerance": 3e-12
+    },
+    "direct_vertices_a0.4_b1.2_z0.1": {
+      "passed": true,
+      "metric": 3.8510861166685117e-16,
+      "tolerance": 3e-12
+    },
+    "direct_vertices_a0.4_b1.2_z1.0": {
+      "passed": true,
+      "metric": 3.8163916471489756e-16,
+      "tolerance": 3e-12
+    },
+    "direct_vertices_a0.4_b1.2_z4.0": {
+      "passed": true,
+      "metric": 5.551115123125783e-16,
+      "tolerance": 3e-12
+    },
+    "direct_vertices_a0.4_b1.2_z-0.7": {
+      "passed": true,
+      "metric": 5.030700650240255e-16,
+      "tolerance": 3e-12
+    },
+    "direct_vertices_a0.4_b1.2_z(1+2j)": {
+      "passed": true,
+      "metric": 2.0170589995134094e-16,
+      "tolerance": 3e-12
+    },
+    "removable_form_factor_values": {
+      "passed": true,
+      "metric": 2.498001805406602e-16,
+      "tolerance": 2e-15
+    },
+    "0.01_minus_inherited_gravity": {
+      "passed": true,
+      "metric": 2.220446049250313e-16,
+      "tolerance": 3e-13
+    },
+    "0.01_minus_IR_Einstein_metric": {
+      "passed": true,
+      "metric": 7.771561172376096e-16,
+      "tolerance": 2e-12
+    },
+    "0.01_minus_IR_Jordan_metric": {
+      "passed": true,
+      "metric": 1.9984014443252818e-15,
+      "tolerance": 2e-12
+    },
+    "0.01_minus_gravity_zero_momentum": {
+      "passed": true,
+      "metric": 8.326672684688674e-17,
+      "tolerance": 2e-13
+    },
+    "0.01_minus_Schur_IR_derivative": {
+      "passed": true,
+      "metric": 6.661338147750939e-16,
+      "tolerance": 2e-12
+    },
+    "0.01_minus_no_local_R_squared_term": {
+      "passed": true,
+      "metric": 8.662568268098283e-17,
+      "tolerance": 1e-14
+    },
+    "0.01_minus_analytic_derivative_z-15.0": {
+      "passed": true,
+      "metric": 4.8724522047828144e-12,
+      "tolerance": 2e-08
+    },
+    "0.01_minus_analytic_derivative_z-0.7": {
+      "passed": true,
+      "metric": 2.0877188866563756e-11,
+      "tolerance": 2e-08
+    },
+    "0.01_minus_analytic_derivative_z0.13": {
+      "passed": true,
+      "metric": 2.5729418595688003e-13,
+      "tolerance": 2e-08
+    },
+    "0.01_minus_analytic_derivative_z10.0": {
+      "passed": true,
+      "metric": 2.016798394954833e-10,
+      "tolerance": 2e-08
+    },
+    "0.01_minus_analytic_derivative_z(-3+7j)": {
+      "passed": true,
+      "metric": 5.2710925228865723e-11,
+      "tolerance": 2e-08
+    },
+    "0.01_minus_analytic_derivative_z(15+15j)": {
+      "passed": true,
+      "metric": 1.4940237515758158e-10,
+      "tolerance": 2e-08
+    },
+    "0.01_minus_finite_momentum_cutoff_12_16": {
+      "passed": true,
+      "metric": 1.8641249103097532e-15,
+      "tolerance": 2e-10
+    },
+    "0.01_minus_quadrature_64_96": {
+      "passed": true,
+      "metric": 1.0153861672136922e-14,
+      "tolerance": 2e-10
+    },
+    "0.01_minus_metric_transversality": {
+      "passed": true,
+      "metric": 4.312881401107021e-18,
+      "tolerance": 1e-15
+    },
+    "0.01_minus_mixed_transversality": {
+      "passed": true,
+      "metric": 6.502540784697932e-18,
+      "tolerance": 1e-15
+    },
+    "0.01_minus_observed_scalar_real_roots": {
+      "passed": true,
+      "metric": 5,
+      "tolerance": 5
+    },
+    "0.01_minus_observed_tensor_real_root": {
+      "passed": true,
+      "metric": 10.261011853343144,
+      "tolerance": null
+    },
+    "0.01_minus_scalar_pole_0_null": {
+      "passed": true,
+      "metric": 1.568036595524585e-14,
+      "tolerance": 2e-11
+    },
+    "0.01_minus_scalar_pole_1_null": {
+      "passed": true,
+      "metric": 1.1111286795556015e-15,
+      "tolerance": 2e-11
+    },
+    "0.01_minus_scalar_pole_2_null": {
+      "passed": true,
+      "metric": 5.039971193994273e-18,
+      "tolerance": 2e-11
+    },
+    "0.01_minus_scalar_pole_3_null": {
+      "passed": true,
+      "metric": 5.495402124714033e-19,
+      "tolerance": 2e-11
+    },
+    "0.01_minus_scalar_pole_4_null": {
+      "passed": true,
+      "metric": 9.01673078823183e-16,
+      "tolerance": 2e-11
+    },
+    "0.01_minus_scalar_pole_cutoff_shift": {
+      "passed": true,
+      "metric": 7.638334409421077e-14,
+      "tolerance": 2e-09
+    },
+    "0.01_minus_scalar_pole_quadrature_shift": {
+      "passed": true,
+      "metric": 1.900701818158268e-13,
+      "tolerance": 2e-09
+    },
+    "0.01_minus_scalar_residue_inverse_limit": {
+      "passed": true,
+      "metric": 6.218422389738669e-10,
+      "tolerance": 2e-05
+    },
+    "0.01_minus_positive_residue_timelike_poles": {
+      "passed": true,
+      "metric": null,
+      "tolerance": null
+    },
+    "0.01_minus_negative_residue_scalar_tachyon": {
+      "passed": true,
+      "metric": null,
+      "tolerance": null
+    },
+    "0.01_minus_tensor_pole_cutoff_shift": {
+      "passed": true,
+      "metric": 3.552713678800501e-15,
+      "tolerance": 2e-10
+    },
+    "0.01_minus_negative_residue_tensor_tachyon": {
+      "passed": true,
+      "metric": -0.01542348972920378,
+      "tolerance": null
+    },
+    "0.01_minus_positive_massless_graviton": {
+      "passed": true,
+      "metric": 0.05284622801527783,
+      "tolerance": null
+    },
+    "0.01_minus_no_sampled_timelike_tensor_zero": {
+      "passed": true,
+      "metric": null,
+      "tolerance": null
+    },
+    "0.01_minus_metric_B_zero_not_full_pole": {
+      "passed": true,
+      "metric": 0.5186194102459846,
+      "tolerance": 1e-07
+    },
+    "0.01_minus_tensor_contour_refinement": {
+      "passed": true,
+      "metric": 0.6641775096117185,
+      "tolerance": 1.0
+    },
+    "0.01_minus_coupled_contour_refinement": {
+      "passed": true,
+      "metric": 0.4197419719765634,
+      "tolerance": 1.0
+    },
+    "0.01_plus_inherited_gravity": {
+      "passed": true,
+      "metric": 3.885780586188048e-16,
+      "tolerance": 3e-13
+    },
+    "0.01_plus_IR_Einstein_metric": {
+      "passed": true,
+      "metric": 4.496403249731884e-15,
+      "tolerance": 2e-12
+    },
+    "0.01_plus_IR_Jordan_metric": {
+      "passed": true,
+      "metric": 2.3869795029440866e-15,
+      "tolerance": 2e-12
+    },
+    "0.01_plus_gravity_zero_momentum": {
+      "passed": true,
+      "metric": 1.1102230246251565e-16,
+      "tolerance": 2e-13
+    },
+    "0.01_plus_Schur_IR_derivative": {
+      "passed": true,
+      "metric": 3.3306690738754696e-16,
+      "tolerance": 2e-12
+    },
+    "0.01_plus_no_local_R_squared_term": {
+      "passed": true,
+      "metric": 8.662572202069119e-17,
+      "tolerance": 1e-14
+    },
+    "0.01_plus_analytic_derivative_z-15.0": {
+      "passed": true,
+      "metric": 5.301673698797307e-12,
+      "tolerance": 2e-08
+    },
+    "0.01_plus_analytic_derivative_z-0.7": {
+      "passed": true,
+      "metric": 1.9508950011015713e-11,
+      "tolerance": 2e-08
+    },
+    "0.01_plus_analytic_derivative_z0.13": {
+      "passed": true,
+      "metric": 2.2928325904558733e-12,
+      "tolerance": 2e-08
+    },
+    "0.01_plus_analytic_derivative_z10.0": {
+      "passed": true,
+      "metric": 1.7219531356360562e-11,
+      "tolerance": 2e-08
+    },
+    "0.01_plus_analytic_derivative_z(-3+7j)": {
+      "passed": true,
+      "metric": 2.0419433681319e-10,
+      "tolerance": 2e-08
+    },
+    "0.01_plus_analytic_derivative_z(15+15j)": {
+      "passed": true,
+      "metric": 1.010920688004876e-10,
+      "tolerance": 2e-08
+    },
+    "0.01_plus_finite_momentum_cutoff_12_16": {
+      "passed": true,
+      "metric": 3.2052937765874877e-15,
+      "tolerance": 2e-10
+    },
+    "0.01_plus_quadrature_64_96": {
+      "passed": true,
+      "metric": 1.0918356544551253e-14,
+      "tolerance": 2e-10
+    },
+    "0.01_plus_metric_transversality": {
+      "passed": true,
+      "metric": 2.6302736017875188e-18,
+      "tolerance": 1e-15
+    },
+    "0.01_plus_mixed_transversality": {
+      "passed": true,
+      "metric": 6.50254122960064e-18,
+      "tolerance": 1e-15
+    },
+    "0.01_plus_observed_scalar_real_roots": {
+      "passed": true,
+      "metric": 5,
+      "tolerance": 5
+    },
+    "0.01_plus_observed_tensor_real_root": {
+      "passed": true,
+      "metric": 10.260981092051859,
+      "tolerance": null
+    },
+    "0.01_plus_scalar_pole_0_null": {
+      "passed": true,
+      "metric": 1.5671706707541403e-14,
+      "tolerance": 2e-11
+    },
+    "0.01_plus_scalar_pole_1_null": {
+      "passed": true,
+      "metric": 2.100769530434542e-15,
+      "tolerance": 2e-11
+    },
+    "0.01_plus_scalar_pole_2_null": {
+      "passed": true,
+      "metric": 6.432061884210516e-18,
+      "tolerance": 2e-11
+    },
+    "0.01_plus_scalar_pole_3_null": {
+      "passed": true,
+      "metric": 2.884396280430531e-19,
+      "tolerance": 2e-11
+    },
+    "0.01_plus_scalar_pole_4_null": {
+      "passed": true,
+      "metric": 2.699883010281275e-16,
+      "tolerance": 2e-11
+    },
+    "0.01_plus_scalar_pole_cutoff_shift": {
+      "passed": true,
+      "metric": 7.105427357601002e-14,
+      "tolerance": 2e-09
+    },
+    "0.01_plus_scalar_pole_quadrature_shift": {
+      "passed": true,
+      "metric": 1.1368683772161603e-13,
+      "tolerance": 2e-09
+    },
+    "0.01_plus_scalar_residue_inverse_limit": {
+      "passed": true,
+      "metric": 3.4292362824004997e-09,
+      "tolerance": 2e-05
+    },
+    "0.01_plus_positive_residue_timelike_poles": {
+      "passed": true,
+      "metric": null,
+      "tolerance": null
+    },
+    "0.01_plus_negative_residue_scalar_tachyon": {
+      "passed": true,
+      "metric": null,
+      "tolerance": null
+    },
+    "0.01_plus_tensor_pole_cutoff_shift": {
+      "passed": true,
+      "metric": 1.7763568394002505e-15,
+      "tolerance": 2e-10
+    },
+    "0.01_plus_negative_residue_tensor_tachyon": {
+      "passed": true,
+      "metric": -0.015423463360816545,
+      "tolerance": null
+    },
+    "0.01_plus_positive_massless_graviton": {
+      "passed": true,
+      "metric": 0.05284622741985216,
+      "tolerance": null
+    },
+    "0.01_plus_no_sampled_timelike_tensor_zero": {
+      "passed": true,
+      "metric": null,
+      "tolerance": null
+    },
+    "0.01_plus_metric_B_zero_not_full_pole": {
+      "passed": true,
+      "metric": 0.518550561594344,
+      "tolerance": 1e-07
+    },
+    "0.01_plus_tensor_contour_refinement": {
+      "passed": true,
+      "metric": 0.10278351315338588,
+      "tolerance": 1.0
+    },
+    "0.01_plus_coupled_contour_refinement": {
+      "passed": true,
+      "metric": 0.4175459803763667,
+      "tolerance": 1.0
+    },
+    "0.0001_minus_inherited_gravity": {
+      "passed": true,
+      "metric": 2.220446049250313e-16,
+      "tolerance": 3e-13
+    },
+    "0.0001_minus_IR_Einstein_metric": {
+      "passed": true,
+      "metric": 3.774758283725532e-15,
+      "tolerance": 2e-12
+    },
+    "0.0001_minus_IR_Jordan_metric": {
+      "passed": true,
+      "metric": 4.107825191113079e-15,
+      "tolerance": 2e-12
+    },
+    "0.0001_minus_gravity_zero_momentum": {
+      "passed": true,
+      "metric": 2.7755575615628914e-17,
+      "tolerance": 2e-13
+    },
+    "0.0001_minus_Schur_IR_derivative": {
+      "passed": true,
+      "metric": 1.1102230246251565e-16,
+      "tolerance": 2e-12
+    },
+    "0.0001_minus_no_local_R_squared_term": {
+      "passed": true,
+      "metric": 8.71649156277368e-17,
+      "tolerance": 1e-14
+    },
+    "0.0001_minus_analytic_derivative_z-15.0": {
+      "passed": true,
+      "metric": 5.040547677127396e-12,
+      "tolerance": 2e-08
+    },
+    "0.0001_minus_analytic_derivative_z-0.7": {
+      "passed": true,
+      "metric": 8.648415317225044e-12,
+      "tolerance": 2e-08
+    },
+    "0.0001_minus_analytic_derivative_z0.13": {
+      "passed": true,
+      "metric": 3.0664915051659136e-12,
+      "tolerance": 2e-08
+    },
+    "0.0001_minus_analytic_derivative_z10.0": {
+      "passed": true,
+      "metric": 2.37681707648818e-10,
+      "tolerance": 2e-08
+    },
+    "0.0001_minus_analytic_derivative_z(-3+7j)": {
+      "passed": true,
+      "metric": 6.878264528980667e-11,
+      "tolerance": 2e-08
+    },
+    "0.0001_minus_analytic_derivative_z(15+15j)": {
+      "passed": true,
+      "metric": 1.6386032557690997e-10,
+      "tolerance": 2e-08
+    },
+    "0.0001_minus_finite_momentum_cutoff_12_16": {
+      "passed": true,
+      "metric": 2.2572263519954478e-15,
+      "tolerance": 2e-10
+    },
+    "0.0001_minus_quadrature_64_96": {
+      "passed": true,
+      "metric": 1.3567212139445833e-14,
+      "tolerance": 2e-10
+    },
+    "0.0001_minus_metric_transversality": {
+      "passed": true,
+      "metric": 3.65277035694022e-18,
+      "tolerance": 1e-15
+    },
+    "0.0001_minus_mixed_transversality": {
+      "passed": true,
+      "metric": 6.11910144815173e-18,
+      "tolerance": 1e-15
+    },
+    "0.0001_minus_observed_scalar_real_roots": {
+      "passed": true,
+      "metric": 5,
+      "tolerance": 5
+    },
+    "0.0001_minus_observed_tensor_real_root": {
+      "passed": true,
+      "metric": 10.25364449024151,
+      "tolerance": null
+    },
+    "0.0001_minus_scalar_pole_0_null": {
+      "passed": true,
+      "metric": 1.6455912914362652e-14,
+      "tolerance": 2e-11
+    },
+    "0.0001_minus_scalar_pole_1_null": {
+      "passed": true,
+      "metric": 2.492686672243016e-15,
+      "tolerance": 2e-11
+    },
+    "0.0001_minus_scalar_pole_2_null": {
+      "passed": true,
+      "metric": 4.642332290521369e-19,
+      "tolerance": 2e-11
+    },
+    "0.0001_minus_scalar_pole_3_null": {
+      "passed": true,
+      "metric": 4.771710021783599e-16,
+      "tolerance": 2e-11
+    },
+    "0.0001_minus_scalar_pole_4_null": {
+      "passed": true,
+      "metric": 2.2428768409711913e-16,
+      "tolerance": 2e-11
+    },
+    "0.0001_minus_scalar_pole_cutoff_shift": {
+      "passed": true,
+      "metric": 7.460698725481052e-14,
+      "tolerance": 2e-09
+    },
+    "0.0001_minus_scalar_pole_quadrature_shift": {
+      "passed": true,
+      "metric": 7.194245199571014e-14,
+      "tolerance": 2e-09
+    },
+    "0.0001_minus_scalar_residue_inverse_limit": {
+      "passed": true,
+      "metric": 4.413423111771679e-09,
+      "tolerance": 2e-05
+    },
+    "0.0001_minus_positive_residue_timelike_poles": {
+      "passed": true,
+      "metric": null,
+      "tolerance": null
+    },
+    "0.0001_minus_negative_residue_scalar_tachyon": {
+      "passed": true,
+      "metric": null,
+      "tolerance": null
+    },
+    "0.0001_minus_tensor_pole_cutoff_shift": {
+      "passed": true,
+      "metric": 3.552713678800501e-15,
+      "tolerance": 2e-10
+    },
+    "0.0001_minus_negative_residue_tensor_tachyon": {
+      "passed": true,
+      "metric": -0.01546078092697982,
+      "tolerance": null
+    },
+    "0.0001_minus_positive_massless_graviton": {
+      "passed": true,
+      "metric": 0.05303436412854363,
+      "tolerance": null
+    },
+    "0.0001_minus_no_sampled_timelike_tensor_zero": {
+      "passed": true,
+      "metric": null,
+      "tolerance": null
+    },
+    "0.0001_minus_metric_B_zero_not_full_pole": {
+      "passed": true,
+      "metric": 0.51505801240346,
+      "tolerance": 1e-07
+    },
+    "0.0001_minus_tensor_contour_refinement": {
+      "passed": true,
+      "metric": 0.6729666669840842,
+      "tolerance": 1.0
+    },
+    "0.0001_minus_coupled_contour_refinement": {
+      "passed": true,
+      "metric": 0.419737972673373,
+      "tolerance": 1.0
+    },
+    "0.0001_plus_inherited_gravity": {
+      "passed": true,
+      "metric": 5.551115123125783e-17,
+      "tolerance": 3e-13
+    },
+    "0.0001_plus_IR_Einstein_metric": {
+      "passed": true,
+      "metric": 9.71445146547012e-17,
+      "tolerance": 2e-12
+    },
+    "0.0001_plus_IR_Jordan_metric": {
+      "passed": true,
+      "metric": 1.1102230246251565e-16,
+      "tolerance": 2e-12
+    },
+    "0.0001_plus_gravity_zero_momentum": {
+      "passed": true,
+      "metric": 8.326672684688674e-17,
+      "tolerance": 2e-13
+    },
+    "0.0001_plus_Schur_IR_derivative": {
+      "passed": true,
+      "metric": 7.771561172376096e-16,
+      "tolerance": 2e-12
+    },
+    "0.0001_plus_no_local_R_squared_term": {
+      "passed": true,
+      "metric": 8.71649561632748e-17,
+      "tolerance": 1e-14
+    },
+    "0.0001_plus_analytic_derivative_z-15.0": {
+      "passed": true,
+      "metric": 4.774788259050915e-12,
+      "tolerance": 2e-08
+    },
+    "0.0001_plus_analytic_derivative_z-0.7": {
+      "passed": true,
+      "metric": 1.0698775199102784e-11,
+      "tolerance": 2e-08
+    },
+    "0.0001_plus_analytic_derivative_z0.13": {
+      "passed": true,
+      "metric": 2.166156143346143e-12,
+      "tolerance": 2e-08
+    },
+    "0.0001_plus_analytic_derivative_z10.0": {
+      "passed": true,
+      "metric": 8.837514053894324e-12,
+      "tolerance": 2e-08
+    },
+    "0.0001_plus_analytic_derivative_z(-3+7j)": {
+      "passed": true,
+      "metric": 1.1578953094162521e-10,
+      "tolerance": 2e-08
+    },
+    "0.0001_plus_analytic_derivative_z(15+15j)": {
+      "passed": true,
+      "metric": 1.0988373281642991e-10,
+      "tolerance": 2e-08
+    },
+    "0.0001_plus_finite_momentum_cutoff_12_16": {
+      "passed": true,
+      "metric": 4.37064169923566e-15,
+      "tolerance": 2e-10
+    },
+    "0.0001_plus_quadrature_64_96": {
+      "passed": true,
+      "metric": 1.2120038066623809e-14,
+      "tolerance": 2e-10
+    },
+    "0.0001_plus_metric_transversality": {
+      "passed": true,
+      "metric": 3.1495407268985838e-18,
+      "tolerance": 1e-15
+    },
+    "0.0001_plus_mixed_transversality": {
+      "passed": true,
+      "metric": 6.4976408772432514e-18,
+      "tolerance": 1e-15
+    },
+    "0.0001_plus_observed_scalar_real_roots": {
+      "passed": true,
+      "metric": 5,
+      "tolerance": 5
+    },
+    "0.0001_plus_observed_tensor_real_root": {
+      "passed": true,
+      "metric": 10.253613709671926,
+      "tolerance": null
+    },
+    "0.0001_plus_scalar_pole_0_null": {
+      "passed": true,
+      "metric": 1.703545119585961e-14,
+      "tolerance": 2e-11
+    },
+    "0.0001_plus_scalar_pole_1_null": {
+      "passed": true,
+      "metric": 2.900606733919378e-15,
+      "tolerance": 2e-11
+    },
+    "0.0001_plus_scalar_pole_2_null": {
+      "passed": true,
+      "metric": 3.928048135871068e-16,
+      "tolerance": 2e-11
+    },
+    "0.0001_plus_scalar_pole_3_null": {
+      "passed": true,
+      "metric": 4.882856973908665e-16,
+      "tolerance": 2e-11
+    },
+    "0.0001_plus_scalar_pole_4_null": {
+      "passed": true,
+      "metric": 1.6717450809463188e-16,
+      "tolerance": 2e-11
+    },
+    "0.0001_plus_scalar_pole_cutoff_shift": {
+      "passed": true,
+      "metric": 7.72715225139109e-14,
+      "tolerance": 2e-09
+    },
+    "0.0001_plus_scalar_pole_quadrature_shift": {
+      "passed": true,
+      "metric": 1.1191048088221578e-13,
+      "tolerance": 2e-09
+    },
+    "0.0001_plus_scalar_residue_inverse_limit": {
+      "passed": true,
+      "metric": 1.664109697819852e-09,
+      "tolerance": 2e-05
+    },
+    "0.0001_plus_positive_residue_timelike_poles": {
+      "passed": true,
+      "metric": null,
+      "tolerance": null
+    },
+    "0.0001_plus_negative_residue_scalar_tachyon": {
+      "passed": true,
+      "metric": null,
+      "tolerance": null
+    },
+    "0.0001_plus_tensor_pole_cutoff_shift": {
+      "passed": true,
+      "metric": 1.7763568394002505e-15,
+      "tolerance": 2e-10
+    },
+    "0.0001_plus_negative_residue_tensor_tachyon": {
+      "passed": true,
+      "metric": -0.015460755463448614,
+      "tolerance": null
+    },
+    "0.0001_plus_positive_massless_graviton": {
+      "passed": true,
+      "metric": 0.0530343647662582,
+      "tolerance": null
+    },
+    "0.0001_plus_no_sampled_timelike_tensor_zero": {
+      "passed": true,
+      "metric": null,
+      "tolerance": null
+    },
+    "0.0001_plus_metric_B_zero_not_full_pole": {
+      "passed": true,
+      "metric": 0.5149894907248964,
+      "tolerance": 1e-07
+    },
+    "0.0001_plus_tensor_contour_refinement": {
+      "passed": true,
+      "metric": 0.10278296793401258,
+      "tolerance": 1.0
+    },
+    "0.0001_plus_coupled_contour_refinement": {
+      "passed": true,
+      "metric": 0.4175442500525926,
+      "tolerance": 1.0
+    },
+    "all_nine_IR_metric": {
+      "passed": true,
+      "metric": 7.771561172376096e-16,
+      "tolerance": 3e-12
+    },
+    "all_nine_neutral_block_finite_momentum": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 3e-12
+    },
+    "all_nine_metric_mixing_selection_rule": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 2e-13
+    },
+    "complex_tensor_0_root": {
+      "passed": true,
+      "metric": 6.908970324298975e-17,
+      "tolerance": 1e-11
+    },
+    "complex_tensor_1_root": {
+      "passed": true,
+      "metric": 8.614169826726211e-17,
+      "tolerance": 1e-11
+    },
+    "complex_tensor_2_root": {
+      "passed": true,
+      "metric": 1.2173915090114546e-16,
+      "tolerance": 1e-11
+    },
+    "tensor_isolated_roots_match_box_count": {
+      "passed": true,
+      "metric": 7,
+      "tolerance": 7
+    },
+    "complex_scalar_0_null": {
+      "passed": true,
+      "metric": 1.522324583695156e-15,
+      "tolerance": 2e-11
+    },
+    "complex_scalar_1_null": {
+      "passed": true,
+      "metric": 5.849127581586527e-17,
+      "tolerance": 2e-11
+    },
+    "complex_scalar_2_null": {
+      "passed": true,
+      "metric": 2.3093766485194537e-17,
+      "tolerance": 2e-11
+    },
+    "complex_scalar_3_null": {
+      "passed": true,
+      "metric": 2.2809438236242875e-16,
+      "tolerance": 2e-11
+    },
+    "complex_scalar_4_null": {
+      "passed": true,
+      "metric": 7.287617955307499e-17,
+      "tolerance": 2e-11
+    },
+    "complex_scalar_5_null": {
+      "passed": true,
+      "metric": 5.0259239276701815e-17,
+      "tolerance": 2e-11
+    },
+    "complex_scalar_6_null": {
+      "passed": true,
+      "metric": 8.064058553941371e-16,
+      "tolerance": 2e-11
+    },
+    "complex_scalar_7_null": {
+      "passed": true,
+      "metric": 5.102523508682355e-16,
+      "tolerance": 2e-11
+    },
+    "complex_scalar_8_null": {
+      "passed": true,
+      "metric": 1.5769595992087422e-17,
+      "tolerance": 2e-11
+    },
+    "complex_scalar_9_null": {
+      "passed": true,
+      "metric": 3.156755114244938e-17,
+      "tolerance": 2e-11
+    },
+    "complex_scalar_10_null": {
+      "passed": true,
+      "metric": 5.966578167588131e-16,
+      "tolerance": 2e-11
+    },
+    "complex_scalar_11_null": {
+      "passed": true,
+      "metric": 5.49765979278011e-16,
+      "tolerance": 2e-11
+    },
+    "complex_scalar_12_null": {
+      "passed": true,
+      "metric": 1.601047970314044e-17,
+      "tolerance": 2e-11
+    },
+    "complex_scalar_13_null": {
+      "passed": true,
+      "metric": 4.5759665859842494e-17,
+      "tolerance": 2e-11
+    },
+    "coupled_isolated_roots_match_box_count": {
+      "passed": true,
+      "metric": 33,
+      "tolerance": 33
+    },
+    "complex_conjugation_of_kernel": {
+      "passed": true,
+      "metric": 0.0,
+      "tolerance": 2e-13
+    },
+    "complex_scalar_0_residue_inverse_limit": {
+      "passed": true,
+      "metric": 5.87473329801287e-08,
+      "tolerance": 2e-05
+    },
+    "complex_scalar_1_residue_inverse_limit": {
+      "passed": true,
+      "metric": 1.032921874086794e-08,
+      "tolerance": 2e-05
+    },
+    "complex_scalar_2_residue_inverse_limit": {
+      "passed": true,
+      "metric": 5.274379130634931e-09,
+      "tolerance": 2e-05
+    },
+    "complex_scalar_3_residue_inverse_limit": {
+      "passed": true,
+      "metric": 8.05704036451057e-09,
+      "tolerance": 2e-05
+    },
+    "complex_scalar_4_residue_inverse_limit": {
+      "passed": true,
+      "metric": 1.0644499233320618e-08,
+      "tolerance": 2e-05
+    },
+    "complex_scalar_5_residue_inverse_limit": {
+      "passed": true,
+      "metric": 5.3158347184730785e-09,
+      "tolerance": 2e-05
+    },
+    "complex_scalar_6_residue_inverse_limit": {
+      "passed": true,
+      "metric": 3.3973569394250574e-08,
+      "tolerance": 2e-05
+    },
+    "complex_scalar_7_residue_inverse_limit": {
+      "passed": true,
+      "metric": 1.1076007826770725e-08,
+      "tolerance": 2e-05
+    },
+    "complex_scalar_8_residue_inverse_limit": {
+      "passed": true,
+      "metric": 1.2852428904152856e-08,
+      "tolerance": 2e-05
+    },
+    "complex_scalar_9_residue_inverse_limit": {
+      "passed": true,
+      "metric": 1.3760207150876811e-08,
+      "tolerance": 2e-05
+    },
+    "complex_scalar_10_residue_inverse_limit": {
+      "passed": true,
+      "metric": 3.747567583460484e-08,
+      "tolerance": 2e-05
+    },
+    "complex_scalar_11_residue_inverse_limit": {
+      "passed": true,
+      "metric": 1.2380425670492915e-08,
+      "tolerance": 2e-05
+    },
+    "complex_scalar_12_residue_inverse_limit": {
+      "passed": true,
+      "metric": 3.5293456811942724e-09,
+      "tolerance": 2e-05
+    },
+    "complex_scalar_13_residue_inverse_limit": {
+      "passed": true,
+      "metric": 2.9607070917344438e-09,
+      "tolerance": 2e-05
+    },
+    "complex_pole_cutoff_quadrature_refinement": {
+      "passed": true,
+      "metric": 1.0695084443661336e-14,
+      "tolerance": 2e-07
+    }
+  },
+  "passed": 194,
+  "total": 194,
+  "environment": {
+    "python": "3.14.6",
+    "numpy": "2.4.3",
+    "scipy": "1.18.1",
+    "platform": "macOS-26.3-arm64-arm-64bit-Mach-O"
+  },
+  "input_hashes": {
+    "common_vacuum_pair.json": "1f28875032cb1fea47858ee4d26929e414fb28f283c3dd6d6b6c3a68e593e13e",
+    "previous_radion_assumptions.md": "67698c29c59519ed3a92f721dd8c0b7dd0662d8d3a48c173ddf8cec477a29454",
+    "previous_radion_checks.json": "985e2928f566fe4b7d7a907d3c3ddde5fc4c8b073886700c7af56455c45e95bc",
+    "previous_radion_results.json": "e9ff510cabab7bb671145b85f27674a799120daefc128d8a7fdfebb76ccd8374",
+    "previous_vacuum_results.json": "39e8d647d7c9a5f0c0244065cad7c076d60a00df9fc7ecf6e3afd050e9e0a27d"
+  }
+}

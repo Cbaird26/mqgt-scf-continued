@@ -1,0 +1,44 @@
+\section{Independent checks and reproduction}
+
+The bundle contains \textbf{\CheckCount{} passing targeted checks}. They measure computational consistency, not independent physical predictions. The following tests connect the calculation to distinct derivations or numerical controls:
+\begin{enumerate}
+\item \textbf{Explicit Dirac vertices.} For a single constant internal eigenvalue, use $g_{\mu\nu}=e^{2\sigma}\delta_{\mu\nu}$ and the common-density operator $e^{-\sigma/2}D_{\rm flat}e^{-\sigma/2}+\gamma_5 b$. A second probe uses $g=\diag(1,e^{2\eta},e^{-2\eta},1)$, whose volume is fixed. Direct $4\times4$ gamma-matrix Duhamel vertices and shifted four-dimensional Gaussian integration check the conformal, scalar/mixed and tensor kernels without using curvature form factors. Three-point Hermite quadrature integrates the Gaussian polynomial moments exactly. Fifteen combinations of mass, heat rate and real/complex momentum agree within approximately $6\times10^{-16}$.
+\item \textbf{Infrared and symmetry controls.} The old Jordan and Einstein matrices are recovered, including the mixed entries. All-nine-field assembly reproduces the inherited metric and the neutral finite-momentum block. Transverse projectors satisfy metric and mixed diffeomorphism contractions. The scalar/metric selection rule and complex-conjugation symmetry are checked.
+\item \textbf{Derivatives and residues.} Analytic momentum derivatives agree with five-point finite differences. Full-operator null residuals are tested at each real pole, and matrix-inverse limits check real and representative complex residue matrices. The maximum relative residue-limit discrepancies are approximately \RealResidueError{} (real) and \ComplexResidueError{} (complex).
+\item \textbf{Cutoffs and contours.} Increasing the fermion cutoff from 12 to 16 changes sampled normalized kernels by at most \CutoffError{} and real neutral pole positions by at most \PoleShift{}. Changing 64-point to 96-point quadrature changes sampled normalized kernels by at most \QuadratureError{}. Representative complex pole shifts under these controls are at most \ComplexShift{}. These observed differences are not error certificates. Enclosing counts are stable under contour refinement; adaptive subdivision resolves pairs missed by an initial multi-start search.
+\end{enumerate}
+
+The runner supplies full matrices, analytic derivatives, real pole residues, bounded complex counts and representative complex residues. It exits nonzero on failed checks. A writable extraction can be rerun after installing the recorded NumPy/SciPy dependencies; figure generation also uses Matplotlib. The final delivery record documents fresh-extraction reproduction, compilation, visual inspection and hashes. Byte identity is environment dependent.
+
+\section{Assumptions and what remains unresolved}
+
+These qualifications are part of the result. The bundle's \texttt{ASSUMPTIONS.md} gives the complete twelve-item statement, including the inherited axion and normalization assumptions.
+\begin{enumerate}
+\item \textbf{Restricted backgrounds.} The torsion-free warped round sphere, fixed monopole data, microscopic insertion, unit Yukawas and lowest scalar harmonics are specifications, not a proven unique or phenomenologically viable reduction. All external momenta are retained only at quadratic fluctuation order. Finite fermion angular cutoffs are not a complete bosonic truncation.
+\item \textbf{Selected potential terms.} The mass counterterm and flatness subtraction remain chosen inputs, fixed in derivatives and minimally covariantized. They supply no extra curvature or derivative terms by assumption. Allowing such terms changes the operator; none is introduced to erase the observed poles. This is not a cosmological-constant solution.
+\item \textbf{Continuation is conditional.} The direct continuation \eqref{eq:cont} defines the tested analytic functions. It does not prove a quantum Wick rotation, a causal contour, a well-posed nonlocal initial-value problem, positive spectral representation, reflection positivity or ultraviolet unitarity. The complex growth of heat form factors requires care. The real residue convention is stated explicitly; complex residues have no norm sign assigned.
+\item \textbf{No stable vacuum claim.} Positive-residue timelike modes coexist with tachyonic and complex poles in the retained operator. The previous infrared tests remain valid within their derivative scope, but do not extend to an unrestricted stable minimal action. Above-cutoff pole positions are not measured particles. The radion-connected pole is still a conditional quadratic result, not a certified excitation of a complete stable theory.
+\item \textbf{Omitted fields and stationarity.} Higher scalar harmonics, nonspherical internal metric modes, other gauge/bosonic fluctuations and their tadpoles have not been solved or integrated out. Their mixing can shift poles, and the inherited restricted stationary point need not be a stationary point in the full theory. No nonlinear stability, global minimality, uniqueness, vacuum lifetime or stable compactification is proved. The untuned runaway remains an inherited separate result.
+\item \textbf{Gauge and axion boundary.} Physical pole searches use the CP-even neutral/metric and TT sectors. Charged and phase kernels require a full vector/axion constraint analysis for pole interpretation. The earlier potential-free axion with positive independent coefficient, pure-$X$ Stueckelberg coupling and no additional derivative mixing remains an assumption, with one physical phase massless. The anomaly polynomial, two-form reduction, axion potential and Stueckelberg scale remain unspecified.
+\item \textbf{Numerical scope.} Real and complex domains are explicitly bounded. Refined contours and root residuals are not interval-certified counts, uniform tail bounds or global zero enumeration. Tiny profile differences and near-degenerate complex pairs warrant fewer significant digits than the raw JSON output. No empirical conclusion follows from a check count.
+\item \textbf{Classical and unnormalized.} Quantum loops, matching, running, profile selection, $\kappa$ and $\Lam$ normalization are not calculated. No measured coupling is fitted; the measured fine-structure constant remains unexplained. This is AI-assisted research with a same-session self-audit and independent computational paths, without a separate agent or external peer review. No priority is claimed for the standard methods.
+\end{enumerate}
+
+\section{Next question made precise}
+
+The missing finite-momentum response is now an explicit operator within the declared family, and its direct continuation does not pass unrestricted stability tests. Further work must state whether the action is intended only as an infrared effective model or as a full nonlocal theory. A proposed repair would need a separately specified operator or continuation and fresh pole/residue checks, not an unannounced removal of zeros. In parallel, higher-mode tadpoles and the complete bosonic fluctuation system are needed before any retained branch can be called a compactification vacuum. None of those choices is made in this package.
+
+\begin{thebibliography}{9}\small
+\bibitem{previous} Baird / ZoraASI research continuation, prepared with OpenAI Codex,
+\emph{Radion kinetics and scalar mixing in the exact spectral vacuum} (22 October 2026),
+\href{https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.22-radion-kinetics-scalar-mixing}{research prerelease}, source commit \texttt{1bb152df}.
+\bibitem{CZ} A. Codello and O. Zanusso, \emph{On the non-local heat kernel expansion},
+J. Math. Phys. \textbf{54} (2013) 013513,
+\href{https://arxiv.org/abs/1203.2034}{arXiv:1203.2034}, Eqs. (4.28), (5.1)--(5.3).
+\bibitem{KLV} M. A. Kurkov, F. Lizzi and D. Vassilevich,
+\emph{High energy bosons do not propagate}, Phys. Lett. B \textbf{731} (2014) 311--315,
+\href{https://arxiv.org/abs/1312.2235}{arXiv:1312.2235}, Eqs. (11)--(15).
+\bibitem{ASZ} N. Alkofer, F. Saueressig and O. Zanusso,
+\emph{Spectral dimensions from the spectral action}, Phys. Rev. D \textbf{91} (2015) 025025,
+\href{https://arxiv.org/abs/1410.7999}{arXiv:1410.7999}.
+\end{thebibliography}

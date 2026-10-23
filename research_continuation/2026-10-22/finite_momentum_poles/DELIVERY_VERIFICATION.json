@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-22",
+  "status": "Delivery verification complete",
+  "pdf": {
+    "pages": 8,
+    "compilation": "Two terminal pdflatex passes without warnings; desktop compiler success",
+    "visual_inspection": "All eight pages rendered and inspected; no clipping, overlap or missing content.",
+    "sha256": "0db5ed1ff98ab4c446d315c781bbea0f9d5e828b4f0bc18cc18ae70ebeaa169c"
+  },
+  "numerical_checks": {
+    "passed": 194,
+    "total": 194,
+    "fresh_extraction_rerun": true,
+    "byte_identical_results": {
+      "results.json": "c9ee22c9202e6afea9982c87a9d7720a49bbc4d852260cdc57c3d63e421ad700",
+      "checks.json": "0e59068078ca0ec537c17cfffa7398db8891d71019a6f93d3da1e8a0edb3aba6"
+    },
+    "tested_sources_and_inputs_match_final_payload": true
+  },
+  "scope": "Restricted classical finite-momentum quadratic operator; direct analytic continuation exposes tachyonic and complex poles; no full compactification or causal quantum completion.",
+  "publication_status": "Local preparation; no new GitHub publication performed.",
+  "completed_at": "2026-10-22T21:51:55.048285-04:00",
+  "fresh_bundle_build": {
+    "figures_and_tables_byte_identical": true,
+    "latex_compilation": "twice, no warnings",
+    "rendered_pages": 8,
+    "all_rendered_pages_pixel_identical": true
+  },
+  "payload_preservation": "The final sealed package differs from the freshly reproduced candidate only in this completed verification record. Numerical code, inputs, results, manuscript sources, figures and delivered PDF are unchanged."
+}

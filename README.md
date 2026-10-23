@@ -39,6 +39,19 @@ spectral determinants on S⁷ and S⁹, not derived.
 
 ## Research continuation — 22 October 2026
 
+**Finite-momentum metric, radion and scalar poles (next continuation).**
+[Research note and reproducibility package](research_continuation/2026-10-22/finite_momentum_poles/PUBLICATION.md)
+derives the quadratic finite-momentum operator and tests a stated direct Lorentzian
+continuation. **The minimal retained action has negative-residue tachyonic poles and
+additional non-real poles; the tuned fixtures do not pass these stability tests.**
+The infrared kinetic matrices are recovered, but positive-residue light and
+radion-connected timelike poles do not establish a stable vacuum. The package preserves
+194 passing computational checks, fresh-extraction reproduction, bounded pole searches,
+and all stated caveats. Charged/phase constraints, omitted compactification modes and
+a causal quantum completion remain unresolved. No measured coupling is fitted;
+the measured fine-structure constant remains unexplained.
+**Research prerelease:** [v2026.10.22-finite-momentum-poles](https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.22-finite-momentum-poles).
+
 **Radion kinetics and scalar mixing (next continuation).**
 [Research note and reproducibility package](research_continuation/2026-10-22/radion_dynamics/PUBLICATION.md)
 derives the radion/lowest-scalar kinetic metric and Einstein-frame mixing at two external

@@ -1,0 +1,10 @@
+# Primary sources and input lineage
+
+Checked on 22 October 2026. These are mathematical background, not independent validation of the MQGT-SCF fixtures. No external article is redistributed.
+
+- A. Codello and O. Zanusso, **On the non-local heat kernel expansion**, J. Math. Phys. 54 (2013) 013513, [arXiv:1203.2034](https://arxiv.org/abs/1203.2034), [PDF](https://arxiv.org/pdf/1203.2034), Eqs. (4.28), (5.1)-(5.3). Supplies the standard nonlocal curvature form factors and transverse projectors. The note specializes the spin trace, constant internal mass resummation and scalar-curvature mixing to the pinned operator, and independently checks these using explicit momentum vertices.
+- M. A. Kurkov, F. Lizzi and D. Vassilevich, **High energy bosons do not propagate**, Phys. Lett. B 731 (2014) 311-315, [arXiv:1312.2235](https://arxiv.org/abs/1312.2235), [PDF](https://arxiv.org/pdf/1312.2235), especially Eqs. (11)-(15). Background for the nonlocal Dirac tensor response and large-momentum cancellations. Its off-shell cosmological contact is distinguished here from our total flat-stationary potential subtraction.
+- N. Alkofer, F. Saueressig and O. Zanusso, **Spectral dimensions from the spectral action**, Phys. Rev. D 91 (2015) 025025, [arXiv:1410.7999](https://arxiv.org/abs/1410.7999), [PDF](https://arxiv.org/pdf/1410.7999). Context for the difference between a finite derivative effective action and the full momentum dependence of a classical spectral action.
+- [Radion kinetics and scalar mixing research prerelease](https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.22-radion-kinetics-scalar-mixing), source commit `1bb152dfbd6bb1e02a3e841b6d73e338f8e5fabf`: unchanged operator code, tuned fixtures, infrared matrices, profile data and previous checks.
+
+The finite-background coupled operator, bounded pole searches, residues and comparison with the inherited radion parameters are new calculations in this bundle. They are conditional research, with no external peer review.

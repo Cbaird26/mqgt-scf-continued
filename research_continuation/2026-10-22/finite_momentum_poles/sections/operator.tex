@@ -1,0 +1,102 @@
+\section{The quadratic operator at arbitrary external momentum}
+
+\subsection{Internal background and the exact scalar kernel}
+
+For $\dd s_6^2=g_{\mu\nu}(x)\dd x^\mu\dd x^\nu+r(x)^2\dd\Omega_2^2$, the classical spinor measure map of the predecessor gives
+\begin{equation}
+ D=D_g+\gamma_5\Lam B(q),\qquad q=(R,h_d,h_u,\ldots),\quad R=\Lam r.
+\end{equation}
+The three internal sectors have multiplicities $(n_q,n_\ell,n_0)=(12,4,12)$ and matrices $B_q=D_q/R+h_dS_d+h_uS_u$, $B_\ell=D_\ell/R+h_dS_\ell$, $B_0=D_0/R$. The cutoff remains fixed and
+\begin{equation}
+ S_{\rm sp}=\frac\kappa2\sum_a w_a\Tr e^{-aD^2/\Lam^2},\qquad a>0,\quad w_a>0.
+\end{equation}
+The symbol $a$ in a sum denotes a heat rate; $\mathsf a(z)$ below is a tensor form factor.
+
+At a constant fixture diagonalize each $B$, with eigenvalues $b_i$, and define the Hermitian real-field tangents $T_A=\partial_A B$ and $A_A=\{B,T_A\}$. Let $\HH_{AB}=\partial_A\partial_B W$ be the total dimensionless potential Hessian, with all selected parameters fixed. The scalar kernel on a flat fixed Jordan metric is
+\begin{align}
+ \JJ_{AB}(z)&=\frac{\HH_{AB}}{4\pi^2}+\Delta_{AB}(z),\qquad z=p_E^2/\Lam^2,\label{eq:J}\\
+ \Delta_{AB}(z)&=\frac1{8\pi^2}\sum_{a,s}w_an_s\sum_{ij}\int_0^1\!\dd t\,
+ e^{-a[tb_i^2+(1-t)b_j^2]}\nonumber\\[-2pt]
+ &\quad\times\left[z e^{-at(1-t)z}\,\operatorname{Re}(T_{A,ij}T_{B,ji})
+ +(e^{-at(1-t)z}-1)\operatorname{Re}(A_{A,ij}A_{B,ji})\right].\label{eq:delta}
+\end{align}
+For complex $z$, the real part applies to the internal matrix product, \emph{not} to the momentum-dependent exponential. Thus the continued kernel is analytic. Charged tangents can connect distinct magnetic blocks; their corresponding two spectra are used in \eqref{eq:delta}. The full scalar assembly implements these transitions.
+
+The zero-momentum term includes nonlinear radius contacts $B_{RR}$, the mass counterterm and the fixed subtraction. They are not to be discarded when constructing $\HH$. Their local momentum independence is why no additional contact appears in $\Delta(z)-\Delta(0)$. This kernel agrees with the predecessor's fixed-metric diagnostic; it is not yet the metric-coupled propagator.
+
+\subsection{Resummed gravitational and mixed form factors}
+
+Introduce two entire functions with removable values at the origin:
+\begin{equation}
+ F(x)=\int_0^1 e^{-xt(1-t)}\dd t,\qquad
+ J(x)=\frac{1-F(x)}{x},\qquad F(0)=1,\quad J(0)=\frac16.\label{eq:FJ}
+\end{equation}
+At constant internal $B$, metric vertices are internal identities. Each internal mass therefore multiplies the external Dirac heat trace by $e^{-ab_i^2}$. Define
+\begin{equation}
+ H_a=\sum_s n_s\Tr e^{-aB_s^2},\qquad
+ Q_{aA}=\sum_s n_s\Tr[e^{-aB_s^2}\{B_s,T_A\}],\qquad
+ f=\sum_a\frac{w_aH_a}{48\pi^2a}>0.
+\end{equation}
+The exact quadratic metric and mixed functions are
+\begin{align}
+ \boxed{\mathsf a(z)=\sum_a\frac{w_aH_a}{16\pi^2a}
+       [F(az)-4J(az)]},\label{eq:aa}\\
+ \boxed{\mathsf b(z)=\sum_a\frac{w_aH_a}{16\pi^2a}
+       [-\tfrac12F(az)+5J(az)]},\label{eq:bb}\\
+ \boxed{c_A(z)=\sum_a\frac{w_aQ_{aA}}{16\pi^2}J(az)}.\label{eq:c}
+\end{align}
+In particular $\mathsf a(0)=\mathsf b(0)=f$ and $c_A(0)=-f_A/2$. Scalar amplitudes enter $H_a$ and $Q_{aA}$ at their finite fixture values; replacing them by unbroken values would lose the required mixing.
+
+For derivation, specialize the standard nonlocal heat kernel \cite{CZ} to the Dirac endomorphism $U=\mathcal R/4+B^2+i\gamma^\mu\gamma_5\partial_\mu B$. The spin trace combines the curvature form factors into
+\begin{align}
+ C_{\rm Ric}(x)&=\frac{F(x)-1/3}{x}+4\frac{F(x)-1}{x^2},\\
+ C_R(x)&=\frac{2-3F(x)}{12x}-\frac{F(x)-1}{2x^2}.
+\end{align}
+The limits are $C_{\rm Ric}(0)=-1/10$ and $C_R(0)=1/30$. Writing the Euclidean curvature terms as $\kappa[\beta(z)\mathcal R_{\mu\nu}\mathcal R^{\mu\nu}+\alpha_g(z)\mathcal R^2]$ gives
+\begin{equation}
+ (\beta,\alpha_g)=\frac1{32\pi^2}\sum_a w_aH_a(C_{\rm Ric},C_R)(az),\quad
+ \mathsf a=f+2z\beta,\quad \mathsf b=f-4z(\beta+3\alpha_g).
+\end{equation}
+The mixed spin-trace combination is $4f_{RU}+2f_U=2J$, giving \eqref{eq:c}. A single mixed insertion selects diagonal elements of $\{B,T_A\}$; no assumption that all scalar matrices commute is used. Terms linear in the derivative endomorphism have vanishing spin trace in this mixed channel.
+
+The local combination $\beta(0)+3\alpha_g(0)$ vanishes, but its momentum-dependent continuation does not. Dropping it at all momenta would incorrectly turn a local curvature-squared cancellation into a full propagator statement. The tensor result is consistent with known spectral-action momentum behavior \cite{KLV,ASZ}, with the zero-momentum potential contact treated as described next.
+
+\subsection{Stationarity, metric constraints, and the bordered matrix}
+
+The total potential includes the selected covariant potential terms. Its value and gradient vanish at each flat fixture, so all purely metric and mixed metric/potential contacts cancel. This step uses $W=W_A=0$, not merely a choice to omit a cosmological term. The parameters $\alpha$ and $c$ are held fixed in all derivatives. Neither term supplies independent momentum-dependent curvature vertices by assumption.
+
+At nonzero momentum let $\theta_{\mu\nu}=\delta_{\mu\nu}-p_\mu p_\nu/p^2$, and
+\begin{equation}
+ P_0{}_{\mu\nu,\rho\sigma}=\frac13\theta_{\mu\nu}\theta_{\rho\sigma},\qquad
+ P_2{}_{\mu\nu,\rho\sigma}=\frac12(\theta_{\mu\rho}\theta_{\nu\sigma}+\theta_{\mu\sigma}\theta_{\nu\rho})-P_0{}_{\mu\nu,\rho\sigma}.
+\end{equation}
+Use $\tau=\theta_{\mu\nu}h_{\mu\nu}/\sqrt3$ for the transverse trace and $h^{TT}$ for the spin-two field. Diffeomorphism gauge directions are omitted. With dimensionless coordinates $X=\Lam x$ and Fourier momentum $k=p_E/\Lam$, the quadratic action is
+\begin{equation}
+ \frac{S_E^{(2)}}{\kappa}=\frac12\int_k
+ \left[h^{TT}(-k)K_2(z)h^{TT}(k)+
+ \begin{pmatrix}\tau&\delta q^T\end{pmatrix}_{-k}
+ \KK(z)\begin{pmatrix}\tau\\\delta q\end{pmatrix}_{k}\right],
+\end{equation}
+where $\int_k=\int\dd^4k/(2\pi)^4$, $z=k^2$, and
+\begin{equation}
+ \boxed{K_2(z)=\frac z4\mathsf a(z),\qquad
+ \KK(z)=\begin{pmatrix}
+ -z\mathsf b(z)/2&\sqrt3\,z c(z)^T\\
+ \sqrt3\,z c(z)&\JJ(z)
+ \end{pmatrix}.}\label{eq:K}
+\end{equation}
+For the pole search $q=(R,h_d,h_u)$, so this matrix is $4\times4$. CP and charge selection rules make these modes close with the metric at quadratic order in the declared family. Numerical transverse-projector contractions check the diffeomorphism Ward identities. The remaining scalar directions do not acquire a metric mixing term at this neutral real background.
+
+Where $\mathsf b(z)\ne0$, eliminating $\tau$ gives
+\begin{equation}
+ \KK_{\rm red}(z)=\JJ(z)+\frac{6z}{\mathsf b(z)}c(z)c(z)^T,\qquad
+ \KK_{\rm red}'(0)=\GJ+\frac{3}{2f}f_Af_B=\GE.\label{eq:Schur}
+\end{equation}
+This recovers the complete inherited infrared Einstein metric, including radion-amplitude mixing. At finite momentum it is a Schur complement, not a local Weyl transformation with a guessed kinetic coefficient.
+
+The Schur expression is meromorphic even though the original quadratic kernels are entire. We therefore search
+\begin{equation}
+ D(z)=\det\begin{pmatrix}-\mathsf b(z)/2&\sqrt3\,c(z)^T\\
+ \sqrt3\,z c(z)&\JJ(z)\end{pmatrix},\qquad \det\KK(z)=zD(z),\label{eq:entireD}
+\end{equation}
+and verify null vectors in the full matrix. The trivial metric $z$ factor is not a new propagating scalar. The negative Einstein-Hilbert conformal entry at the origin is the usual gravitational constraint; counting it alone as a scalar ghost would misread the gauge-invariant source exchange.

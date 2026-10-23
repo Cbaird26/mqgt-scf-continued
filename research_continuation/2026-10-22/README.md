@@ -171,3 +171,37 @@ subtraction remain selected inputs, with no additional derivative terms by assum
 Finite-cutoff convergence is not an interval or uniform tail certificate. No measured
 coupling was fitted; the measured fine-structure constant remains unexplained. This
 AI-assisted research has a same-session self-audit without external peer review.
+
+## Finite-momentum metric, radion and scalar poles
+
+- [Publication record and package links](finite_momentum_poles/PUBLICATION.md)
+- [Research note (PDF, 8 pages)](finite_momentum_poles/Finite_Momentum_Metric_Radion_Scalar_Poles_2026-10-22.pdf)
+- [Reproduction instructions](finite_momentum_poles/README.md) and [LaTeX source](finite_momentum_poles/main.tex)
+- [Full assumptions](finite_momentum_poles/ASSUMPTIONS.md), [complete same-session self-audit](finite_momentum_poles/REVIEW.md), and [release results and all caveats](finite_momentum_poles/RELEASE_NOTES.md)
+- [Research prerelease: v2026.10.22-finite-momentum-poles](https://github.com/Cbaird26/mqgt-scf-continued/releases/tag/v2026.10.22-finite-momentum-poles)
+
+The full external-momentum quadratic operator recovers the predecessor's infrared
+kinetic matrices. The pole tests include the closed CP-even neutral metric/radion/scalar
+sector and transverse-traceless graviton. The representative radion-connected squared
+parameter shifts from approximately `0.8295963 Lambda^2` to `0.6565080 Lambda^2`.
+**The same retained action has negative-residue tachyonic poles and non-real poles
+under the stated direct continuation, obstructing an ordinary unrestricted stable/unitary
+interpretation. Positive-residue timelike poles do not establish a stable vacuum.**
+
+All 194 recorded computational checks pass. Fresh extraction reproduced numerical
+outputs, figures and tables; the rebuilt eight-page note rendered identically. The
+publication preserves the sealed PDF and ZIP, their preparation records and checksums.
+These are computational consistency checks, not physical validation.
+
+The operator is classical and quadratic in the declared family, with numerical internal
+cutoffs. Real searches cover `[-20,20]`; complex counts cover the square of that extent.
+Non-real roots are individually isolated only for the representative minus-profile
+`epsilon=0.01` fixture. The other fixtures have real-pole tests and refined enclosing
+counts. No interval certificate, global enumeration or uniform tail bound is asserted.
+Selected potential counterterms add no derivative or curvature terms by assumption;
+additional terms or omitted modes can change the spectrum. Charged/phase constraints,
+higher compactification modes and tadpoles, causal quantum continuation, normalization,
+loops and ultraviolet completion remain unresolved. Above-cutoff poles are not empirical
+particle predictions. No measured coupling is fitted; the measured fine-structure
+constant remains unexplained. This AI-assisted research has a same-session self-audit
+without external peer review.

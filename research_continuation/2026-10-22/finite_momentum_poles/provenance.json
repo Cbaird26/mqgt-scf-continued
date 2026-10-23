@@ -1,0 +1,33 @@
+{
+  "source_commit": "1bb152dfbd6bb1e02a3e841b6d73e338f8e5fabf",
+  "source_release": "v2026.10.22-radion-kinetics-scalar-mixing",
+  "inherited_files_sha256": {
+    "mode_sums.py": "ecb7fa0ee663133bcf31de3f3b5c4001a4df8a71ca277cd06bf18507b4f9bf8a",
+    "vacuum.py": "9b3e50d3c095304a034b72bc9b06e7e719a3b091115727b2a86fa0b3f069225a",
+    "all_scalars.py": "b3d00bafce51499ebcdde6246c4351443ff7e4a80114da64232385460a116861",
+    "dynamics.py": "dfc8f236008f163af3238cb9f7e898be862f530fc67363f4aacd31ca9ea4fef5",
+    "LICENSE": "f5b745ef98087f531e719ee8ca6a96809444573ecc7173c6fa68eaad39b3cc3f",
+    "requirements.txt": "48061e7fa7686b876b0221aaf663c6576c4aacc7227c1bb192d6250c5d037494",
+    "requirements-tested.txt": "3f98ce49109d41cb4bb7858cbf74968f7e3c6913fc734b0443675708e4e3dc1b",
+    "inputs/common_vacuum_pair.json": "1f28875032cb1fea47858ee4d26929e414fb28f283c3dd6d6b6c3a68e593e13e",
+    "inputs/previous_radion_results.json": "e9ff510cabab7bb671145b85f27674a799120daefc128d8a7fdfebb76ccd8374",
+    "inputs/previous_radion_checks.json": "985e2928f566fe4b7d7a907d3c3ddde5fc4c8b073886700c7af56455c45e95bc",
+    "inputs/previous_vacuum_results.json": "39e8d647d7c9a5f0c0244065cad7c076d60a00df9fc7ecf6e3afd050e9e0a27d",
+    "inputs/previous_radion_assumptions.md": "67698c29c59519ed3a92f721dd8c0b7dd0662d8d3a48c173ddf8cec477a29454"
+  },
+  "external_publication": false,
+  "review": "AI-assisted same-session self-audit; no separate agent or external peer review.",
+  "title": "Finite-momentum metric/radion/scalar response and Lorentzian pole tests",
+  "date": "2026-10-22",
+  "prepared_for": "Christopher Michael Baird / ZoraASI",
+  "prepared_with": "OpenAI Codex",
+  "numerical_scope": "Full external momentum at quadratic order in retained warped-family fluctuations; finite internal cutoffs; CP-even neutral/metric and TT pole tests.",
+  "continuation": "Direct z=-s-i0, not a causal quantum contour construction.",
+  "counterterms": "Inherited selected potential terms, minimally covariant, no extra curvature or derivative operators.",
+  "environment": {
+    "python": "3.14.6",
+    "numpy": "2.4.3",
+    "scipy": "1.18.1",
+    "platform": "macOS-26.3-arm64-arm-64bit-Mach-O"
+  }
+}
